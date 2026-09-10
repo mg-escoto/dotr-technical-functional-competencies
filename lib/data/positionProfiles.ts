@@ -890,6 +890,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Assistant II',
         section: 'Learning and Development Section',
         competencies: [
+          { name: 'Audio-Visual and Conference Systems Management', level: 'Proficient' },
           { name: 'Program/Course Delivery and Administration', level: 'Emerging' },
           { name: 'Records and Information Management', level: 'Emerging' },
         ],
@@ -899,7 +900,6 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Learning and Development Section',
         competencies: [
           { name: 'Program/Course Delivery and Administration', level: 'Emerging' },
-          { name: 'Audio-Visual and Conference Systems Management', level: 'Developing' },
         ],
       },
       {
