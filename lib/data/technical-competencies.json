@@ -352,6 +352,52 @@
             }
           }
         ]
+      },
+      {
+        "name": "Vehicle Operation and Driving Support",
+        "definition": "Ability to safely and reliably operate an assigned service vehicle in support of Executive Offices transport, errand, and logistics requirements, while observing traffic laws, vehicle care, and basic roadworthiness checks. Benchmarked from General Services Division's Fleet Management competency and adapted to the individual-driver duties performed by Executive Offices administrative aides who serve as drivers, rather than fleet-wide coordination.",
+        "dimensions": [
+          {
+            "name": "Safe Vehicle Operation",
+            "definition": "Ability to drive assigned service vehicles safely and in compliance with traffic laws and organizational policies.",
+            "levels": {
+              "Emerging": "Drives assigned routes and errands safely under close supervision, following basic traffic rules and organizational policies.",
+              "Developing": "Independently drives routine trips and errands, adjusting to traffic conditions and passenger or cargo requirements.",
+              "Proficient": "Handles complex or time-sensitive trips, including priority transport, with sound judgment and minimal supervision.",
+              "Advanced": "Serves as a lead driver for critical or sensitive assignments and guides other drivers on safe operating practices."
+            }
+          },
+          {
+            "name": "Vehicle Care and Basic Maintenance",
+            "definition": "Ability to perform routine vehicle checks, report issues, and maintain the assigned vehicle in good working condition.",
+            "levels": {
+              "Emerging": "Performs basic pre-trip vehicle checks and reports obvious issues to the supervisor.",
+              "Developing": "Conducts routine vehicle upkeep, such as cleanliness, fluid levels, and tire condition, and coordinates minor repairs.",
+              "Proficient": "Identifies recurring vehicle issues and recommends preventive maintenance actions.",
+              "Advanced": "Establishes good vehicle-care practices and mentors other drivers on preventive maintenance."
+            }
+          },
+          {
+            "name": "Trip Documentation and Compliance",
+            "definition": "Ability to maintain accurate trip records, fuel logs, and documentation required for official vehicle use.",
+            "levels": {
+              "Emerging": "Maintains basic trip tickets and fuel records with guidance.",
+              "Developing": "Accurately completes trip and fuel documentation for routine assignments.",
+              "Proficient": "Reviews documentation for completeness and resolves discrepancies.",
+              "Advanced": "Ensures consistent documentation practices and compliance with vehicle-use policies across assignments."
+            }
+          },
+          {
+            "name": "Road Safety and Risk Awareness",
+            "definition": "Ability to identify and respond appropriately to road safety risks and emergencies while driving.",
+            "levels": {
+              "Emerging": "Recognizes basic road hazards and follows safety instructions.",
+              "Developing": "Applies defensive driving practices and reports safety concerns.",
+              "Proficient": "Manages challenging driving conditions, such as weather, traffic, or unfamiliar routes, and responds appropriately to incidents.",
+              "Advanced": "Models safe driving practices and advises on measures to reduce vehicle-related risks."
+            }
+          }
+        ]
       }
     ],
     "office": "Executive Offices",

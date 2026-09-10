@@ -137,6 +137,130 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'EO',
+    asOf: 'position list as provided',
+    sourceNote:
+      'Built from the Executive Offices position list provided directly (no salary-grade or ' +
+      'section detail available), combined with the Executive Offices competency framework. ' +
+      'Levels are inferred from title seniority only. Two pending items are not yet reflected ' +
+      'here: (1) the Department Legislative Liaison Specialist under the Office of the ' +
+      'Secretary — to be benchmarked against Legal Service once that service is populated; ' +
+      '(2) any refinement to the driving-related assignments below once Legal Service is done ' +
+      'and this profile is revisited.',
+    positions: [
+      {
+        title: 'Head Executive Assistant',
+        section: null,
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Advanced' },
+          { name: 'Communication and Relationship Management', level: 'Advanced' },
+          { name: 'Project Management and Coordination', level: 'Advanced' },
+          { name: 'Technology and Office Management', level: 'Advanced' },
+          { name: 'Time Management and Prioritization', level: 'Advanced' },
+          { name: 'Financial Administration and Budgeting', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Executive Assistant IV',
+        section: null,
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Proficient' },
+          { name: 'Communication and Relationship Management', level: 'Proficient' },
+          { name: 'Project Management and Coordination', level: 'Proficient' },
+          { name: 'Technology and Office Management', level: 'Proficient' },
+          { name: 'Time Management and Prioritization', level: 'Proficient' },
+          { name: 'Financial Administration and Budgeting', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Executive Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Proficient' },
+          { name: 'Communication and Relationship Management', level: 'Proficient' },
+          { name: 'Project Management and Coordination', level: 'Proficient' },
+          { name: 'Technology and Office Management', level: 'Proficient' },
+          { name: 'Time Management and Prioritization', level: 'Proficient' },
+          { name: 'Financial Administration and Budgeting', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Executive Assistant II',
+        section: null,
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Developing' },
+          { name: 'Communication and Relationship Management', level: 'Developing' },
+          { name: 'Project Management and Coordination', level: 'Developing' },
+          { name: 'Technology and Office Management', level: 'Developing' },
+          { name: 'Time Management and Prioritization', level: 'Developing' },
+          { name: 'Financial Administration and Budgeting', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Senior Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Developing' },
+          { name: 'Communication and Relationship Management', level: 'Developing' },
+          { name: 'Project Management and Coordination', level: 'Developing' },
+          { name: 'Technology and Office Management', level: 'Developing' },
+          { name: 'Time Management and Prioritization', level: 'Developing' },
+          { name: 'Financial Administration and Budgeting', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Executive Assistant I',
+        section: null,
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Developing' },
+          { name: 'Communication and Relationship Management', level: 'Developing' },
+          { name: 'Project Management and Coordination', level: 'Developing' },
+          { name: 'Technology and Office Management', level: 'Developing' },
+          { name: 'Time Management and Prioritization', level: 'Developing' },
+          { name: 'Financial Administration and Budgeting', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant V',
+        section: null,
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Emerging' },
+          { name: 'Communication and Relationship Management', level: 'Emerging' },
+          { name: 'Technology and Office Management', level: 'Emerging' },
+          { name: 'Time Management and Prioritization', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Emerging' },
+          { name: 'Communication and Relationship Management', level: 'Emerging' },
+          { name: 'Technology and Office Management', level: 'Emerging' },
+          { name: 'Time Management and Prioritization', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: 'Also performs driving duties',
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Emerging' },
+          { name: 'Time Management and Prioritization', level: 'Emerging' },
+          { name: 'Vehicle Operation and Driving Support', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Aide IV',
+        section: 'Also performs driving duties',
+        competencies: [
+          { name: 'Executive Support and Coordination', level: 'Emerging' },
+          { name: 'Time Management and Prioritization', level: 'Emerging' },
+          { name: 'Vehicle Operation and Driving Support', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
