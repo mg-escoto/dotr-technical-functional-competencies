@@ -5239,6 +5239,16 @@
               "Proficient": "Reviews complex blacklisting documentation and coordinates required actions.",
               "Advanced": "Provides technical direction on blacklisting compliance and strengthens enforcement controls."
             }
+          },
+          {
+            "name": "Green Procurement Compliance",
+            "definition": "Ability to apply green and sustainable procurement principles, environmental criteria, and Green Public Procurement (GPP) guidelines when reviewing, administering, and enforcing procurement and contract requirements.",
+            "levels": {
+              "Emerging": "Recognizes basic green and sustainable procurement requirements and follows established procedures with guidance.",
+              "Developing": "Applies applicable green procurement criteria to routine transactions and identifies when clarification is needed.",
+              "Proficient": "Interprets green procurement requirements in complex transactions and provides sound technical guidance on sustainable sourcing options.",
+              "Advanced": "Provides authoritative guidance on green procurement compliance and contributes to improved controls or policy implementation for sustainable procurement."
+            }
           }
         ]
       },
