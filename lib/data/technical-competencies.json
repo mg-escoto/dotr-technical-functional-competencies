@@ -3003,6 +3003,16 @@
               "Proficient": "Analyzes performance results and recommends performance interventions and development actions.",
               "Advanced": "Uses performance analytics to guide organizational improvement and performance excellence initiatives."
             }
+          },
+          {
+            "name": "On-the-Job Training and Department Events Coordination",
+            "definition": "Coordinates on-the-job training assignments in support of employee development, and organizes department-wide activities such as the flag ceremony and Independence Day celebration.",
+            "levels": {
+              "Emerging": "Assists in arranging on-the-job training assignments and preparing for department activities such as the flag ceremony and Independence Day celebration.",
+              "Developing": "Coordinates on-the-job training placements and supports the conduct of the flag ceremony and Independence Day celebration.",
+              "Proficient": "Reviews on-the-job training arrangements and manages the planning and conduct of the flag ceremony and Independence Day celebration.",
+              "Advanced": "Establishes on-the-job training standards and institutionalizes department activities such as the flag ceremony and Independence Day celebration to strengthen employee morale."
+            }
           }
         ]
       },
@@ -3104,7 +3114,7 @@
         "dimensions": [
           {
             "name": "Travel Request Evaluation",
-            "definition": "Evaluates travel requests, nominations, eligibility, and documentary requirements against applicable policies and standards.",
+            "definition": "Evaluates travel requests, nominations, eligibility, and documentary requirements — for foreign travel and local, training-related travel — against applicable policies and standards.",
             "levels": {
               "Emerging": "Assists in checking travel requests for completeness of documents.",
               "Developing": "Validates documentary requirements and eligibility of travel requests.",
@@ -3114,17 +3124,17 @@
           },
           {
             "name": "Travel Documentation Processing",
-            "definition": "Processes local and foreign travel orders and ensures completeness and accuracy of supporting documentation.",
+            "definition": "Processes foreign travel orders and local, training-related travel orders, and ensures completeness and accuracy of supporting documentation.",
             "levels": {
               "Emerging": "Prepares and organizes travel-related documents and supporting records.",
-              "Developing": "Processes Local Travel Orders (LTOs), Foreign Travel Orders (FTOs), and related documents.",
+              "Developing": "Processes training-related Local Travel Orders (LTOs), Foreign Travel Orders (FTOs), and related documents.",
               "Proficient": "Reviews and validates travel documentation for completeness, accuracy, and compliance.",
               "Advanced": "Oversees travel documentation systems and institutional process improvements."
             }
           },
           {
             "name": "Travel Compliance Management",
-            "definition": "Monitors policy compliance, documentary requirements, and adherence to reporting deadlines and regulations.",
+            "definition": "Monitors policy compliance, documentary requirements, and adherence to reporting deadlines and regulations for foreign and local, training-related travel.",
             "levels": {
               "Emerging": "Tracks documentary submission requirements and deadlines.",
               "Developing": "Monitors compliance with travel policies and reporting requirements.",
@@ -3134,7 +3144,7 @@
           },
           {
             "name": "Travel Reporting and Monitoring",
-            "definition": "Maintains travel databases and prepares required local, foreign, and executive-level travel reports.",
+            "definition": "Maintains travel databases and prepares required foreign, local (training-related), and executive-level travel reports.",
             "levels": {
               "Emerging": "Maintains travel records and databases.",
               "Developing": "Prepares travel monitoring reports and consolidated submissions.",
