@@ -50,37 +50,13 @@
               "Proficient": "Independently manages executive travel and official events.",
               "Advanced": "Oversees high-level events and multi-stakeholder engagements with minimal supervision."
             }
-          },
-          {
-            "name": "Competency Name: Information Management and Confidentiality\nDefinition: Ensures the proper collection, management, protection, and utilization of information while maintaining confidentiality, integrity, and availability of official records and sensitive data.",
-            "definition": null,
-            "levels": {
-              "Emerging": "Competency Name: Information Management and Confidentiality\nDefinition: Ensures the proper collection, management, protection, and utilization of information while maintaining confidentiality, integrity, and availability of official records and sensitive data.",
-              "Developing": "Competency Name: Information Management and Confidentiality\nDefinition: Ensures the proper collection, management, protection, and utilization of information while maintaining confidentiality, integrity, and availability of official records and sensitive data.",
-              "Proficient": "Competency Name: Information Management and Confidentiality\nDefinition: Ensures the proper collection, management, protection, and utilization of information while maintaining confidentiality, integrity, and availability of official records and sensitive data.",
-              "Advanced": "Competency Name: Information Management and Confidentiality\nDefinition: Ensures the proper collection, management, protection, and utilization of information while maintaining confidentiality, integrity, and availability of official records and sensitive data."
-            }
-          },
-          {
-            "name": "Dimension",
-            "definition": null,
-            "levels": {
-              "Emerging": "Proficiency Levels",
-              "Developing": "Proficiency Levels",
-              "Proficient": "Proficiency Levels",
-              "Advanced": "Proficiency Levels"
-            }
-          },
-          {
-            "name": "Dimension",
-            "definition": null,
-            "levels": {
-              "Emerging": "Emerging",
-              "Developing": "Developing",
-              "Proficient": "Proficient",
-              "Advanced": "Advanced"
-            }
-          },
+          }
+        ]
+      },
+      {
+        "name": "Information Management and Confidentiality",
+        "definition": "Ensures the proper collection, management, protection, and utilization of information while maintaining confidentiality, integrity, and availability of official records and sensitive data.",
+        "dimensions": [
           {
             "name": "Document and Records Management",
             "definition": null,
@@ -6454,8 +6430,8 @@
         "definition": "The ability to manage the implementation of approved budgets by monitoring and processing allotments, obligations, earmarking, fund availability and related requirements across regular programs and projects.",
         "dimensions": [
           {
-            "name": "Fund Availability and Allocation Dimension Definition: Checks",
-            "definition": "fund availability and supports appropriate allocation of authorized resources.",
+            "name": "Fund Availability and Allocation",
+            "definition": "Checks fund availability and supports appropriate allocation of authorized resources.",
             "levels": {
               "Emerging": "Performs routine fund availability and allocation tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex fund availability and allocation work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6464,8 +6440,8 @@
             }
           },
           {
-            "name": "Allotment and Obligation Management Dimension Definition: Processes",
-            "definition": "and monitors allotments, obligations and related budgetary authorities.",
+            "name": "Allotment and Obligation Management",
+            "definition": "Processes and monitors allotments, obligations and related budgetary authorities.",
             "levels": {
               "Emerging": "Performs routine allotment and obligation management tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex allotment and obligation management work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6474,8 +6450,8 @@
             }
           },
           {
-            "name": "PS Budget Execution Dimension Definition: Handles",
-            "definition": "personnel services requirements including PSIPOP-related inputs, compensation funding, terminal leave and earmarking as assigned.",
+            "name": "PS Budget Execution",
+            "definition": "Handles personnel services requirements including PSIPOP-related inputs, compensation funding, terminal leave and earmarking as assigned.",
             "levels": {
               "Emerging": "Performs routine ps budget execution tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex ps budget execution work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6484,8 +6460,8 @@
             }
           },
           {
-            "name": "MOOE and CO Execution Dimension Definition: Processes",
-            "definition": "and monitors MOOE and capital outlay requirements, including PPMP-related and continuing-appropriation requirements.",
+            "name": "MOOE and CO Execution",
+            "definition": "Processes and monitors MOOE and capital outlay requirements, including PPMP-related and continuing-appropriation requirements.",
             "levels": {
               "Emerging": "Performs routine mooe and co execution tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex mooe and co execution work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6494,8 +6470,8 @@
             }
           },
           {
-            "name": "LFP and FAP Budget Execution Dimension Definition: Handles",
-            "definition": "project/infrastructure and foreign-assisted project funding requirements, including earmarking and specialized funding arrangements.",
+            "name": "LFP and FAP Budget Execution",
+            "definition": "Handles project/infrastructure and foreign-assisted project funding requirements, including earmarking and specialized funding arrangements.",
             "levels": {
               "Emerging": "Performs routine lfp and fap budget execution tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex lfp and fap budget execution work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6504,8 +6480,8 @@
             }
           },
           {
-            "name": "Fund Control and Execution Risk Management Dimension Definition: Identifies",
-            "definition": "funding risks, inconsistencies and potential execution issues and recommends corrective action.",
+            "name": "Fund Control and Execution Risk Management",
+            "definition": "Identifies funding risks, inconsistencies and potential execution issues and recommends corrective action.",
             "levels": {
               "Emerging": "Performs routine fund control and execution risk management tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex fund control and execution risk management work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6520,8 +6496,8 @@
         "definition": "The ability to accurately receive, review, validate, process, record and monitor budget transaction documents and funding requests while applying prescribed controls and maintaining transaction traceability.",
         "dimensions": [
           {
-            "name": "Transaction Document Review Dimension Definition: Checks",
-            "definition": "ORS, MAFs, SBR attachments and related budget documents for completeness and consistency.",
+            "name": "Transaction Document Review",
+            "definition": "Checks ORS, MAFs, SBR attachments and related budget documents for completeness and consistency.",
             "levels": {
               "Emerging": "Performs routine transaction document review tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex transaction document review work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6530,7 +6506,7 @@
             }
           },
           {
-            "name": "Encoding and System Processing Dimension Definition:",
+            "name": "Encoding and System Processing",
             "definition": "Accurately encodes or updates transactions in authorized budget systems and monitoring tools.",
             "levels": {
               "Emerging": "Performs routine encoding and system processing tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
@@ -6540,8 +6516,8 @@
             }
           },
           {
-            "name": "Authorization and Control Checks Dimension Definition: Verifies",
-            "definition": "appropriate authority, fund source, budget classification and supporting documentation before processing.",
+            "name": "Authorization and Control Checks",
+            "definition": "Verifies appropriate authority, fund source, budget classification and supporting documentation before processing.",
             "levels": {
               "Emerging": "Performs routine authorization and control checks tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex authorization and control checks work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6550,7 +6526,7 @@
             }
           },
           {
-            "name": "Transaction Tracking and Status Monitoring Dimension Definition:",
+            "name": "Transaction Tracking and Status Monitoring",
             "definition": "Maintains visibility of transaction status, pending actions, releases and related follow-through.",
             "levels": {
               "Emerging": "Performs routine transaction tracking and status monitoring tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
@@ -6560,8 +6536,8 @@
             }
           },
           {
-            "name": "Exception and Error Resolution Dimension Definition: Identifies",
-            "definition": "discrepancies, resolves routine exceptions and escalates matters requiring higher-level decision.",
+            "name": "Exception and Error Resolution",
+            "definition": "Identifies discrepancies, resolves routine exceptions and escalates matters requiring higher-level decision.",
             "levels": {
               "Emerging": "Performs routine exception and error resolution tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex exception and error resolution work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6570,7 +6546,7 @@
             }
           },
           {
-            "name": "Transaction Quality and Turnaround Dimension Definition:",
+            "name": "Transaction Quality and Turnaround",
             "definition": "Maintains accurate, traceable and timely processing with appropriate review and quality control.",
             "levels": {
               "Emerging": "Performs routine transaction quality and turnaround tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
@@ -6586,8 +6562,8 @@
         "definition": "The ability to evaluate and process authorized realignments, augmentations, Special Budget Requests and other funding adjustments based on budget rules, program requirements and available resources.",
         "dimensions": [
           {
-            "name": "Modification Request Assessment Dimension Definition: Reviews",
-            "definition": "the purpose, justification, funding source and documentary completeness of proposed modifications.",
+            "name": "Modification Request Assessment",
+            "definition": "Reviews the purpose, justification, funding source and documentary completeness of proposed modifications.",
             "levels": {
               "Emerging": "Performs routine modification request assessment tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex modification request assessment work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6596,8 +6572,8 @@
             }
           },
           {
-            "name": "Realignment and Augmentation Analysis Dimension Definition: Analyzes",
-            "definition": "proposed realignment or augmentation against available appropriations and applicable restrictions.",
+            "name": "Realignment and Augmentation Analysis",
+            "definition": "Analyzes proposed realignment or augmentation against available appropriations and applicable restrictions.",
             "levels": {
               "Emerging": "Performs routine realignment and augmentation analysis tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex realignment and augmentation analysis work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6606,8 +6582,8 @@
             }
           },
           {
-            "name": "Special Budget Request Evaluation Dimension Definition: Evaluates",
-            "definition": "SBRs and prepares or reviews required funding and supporting documents.",
+            "name": "Special Budget Request Evaluation",
+            "definition": "Evaluates SBRs and prepares or reviews required funding and supporting documents.",
             "levels": {
               "Emerging": "Performs routine special budget request evaluation tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex special budget request evaluation work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6616,8 +6592,8 @@
             }
           },
           {
-            "name": "Deficiency and Savings Analysis Dimension Definition: Identifies",
-            "definition": "deficiencies, savings, balances and other conditions relevant to funding adjustments.",
+            "name": "Deficiency and Savings Analysis",
+            "definition": "Identifies deficiencies, savings, balances and other conditions relevant to funding adjustments.",
             "levels": {
               "Emerging": "Performs routine deficiency and savings analysis tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex deficiency and savings analysis work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6626,8 +6602,8 @@
             }
           },
           {
-            "name": "Compliance and Approval Routing Dimension Definition: Ensures",
-            "definition": "modifications follow applicable authority, documentation and approval requirements.",
+            "name": "Compliance and Approval Routing",
+            "definition": "Ensures modifications follow applicable authority, documentation and approval requirements.",
             "levels": {
               "Emerging": "Performs routine compliance and approval routing tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex compliance and approval routing work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6636,8 +6612,8 @@
             }
           },
           {
-            "name": "Risk and Impact Assessment Dimension Definition: Assesses",
-            "definition": "the operational, fiscal and reporting implications of proposed budget adjustments and recommends appropriate action.",
+            "name": "Risk and Impact Assessment",
+            "definition": "Assesses the operational, fiscal and reporting implications of proposed budget adjustments and recommends appropriate action.",
             "levels": {
               "Emerging": "Performs routine risk and impact assessment tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex risk and impact assessment work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6652,8 +6628,8 @@
         "definition": "The ability to monitor budget utilization and execution performance, analyze variances and funding conditions, and recommend interventions that improve the use of authorized resources.",
         "dimensions": [
           {
-            "name": "Allotment and Obligation Monitoring Dimension Definition: Maintains",
-            "definition": "current information on allotments, obligations and balances.",
+            "name": "Allotment and Obligation Monitoring",
+            "definition": "Maintains current information on allotments, obligations and balances.",
             "levels": {
               "Emerging": "Performs routine allotment and obligation monitoring tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex allotment and obligation monitoring work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6662,8 +6638,8 @@
             }
           },
           {
-            "name": "Disbursement and Utilization Analysis Dimension Definition: Analyzes",
-            "definition": "disbursements and utilization rates to identify performance patterns and gaps.",
+            "name": "Disbursement and Utilization Analysis",
+            "definition": "Analyzes disbursements and utilization rates to identify performance patterns and gaps.",
             "levels": {
               "Emerging": "Performs routine disbursement and utilization analysis tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex disbursement and utilization analysis work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6672,8 +6648,8 @@
             }
           },
           {
-            "name": "RAO and Status-of-Funds Monitoring Dimension Definition: Maintains",
-            "definition": "RAO/status-of-funds and other monitoring tools accurately and consistently.",
+            "name": "RAO and Status-of-Funds Monitoring",
+            "definition": "Maintains RAO/status-of-funds and other monitoring tools accurately and consistently.",
             "levels": {
               "Emerging": "Performs routine rao and status-of-funds monitoring tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex rao and status-of-funds monitoring work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6682,8 +6658,8 @@
             }
           },
           {
-            "name": "Variance and Exception Analysis Dimension Definition: Identifies",
-            "definition": "unusual variances, low utilization, unpaid obligations and unobligated allotments.",
+            "name": "Variance and Exception Analysis",
+            "definition": "Identifies unusual variances, low utilization, unpaid obligations and unobligated allotments.",
             "levels": {
               "Emerging": "Performs routine variance and exception analysis tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex variance and exception analysis work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6692,8 +6668,8 @@
             }
           },
           {
-            "name": "Forecasting and Funding Needs Dimension Definition: Uses",
-            "definition": "current performance information to anticipate funding requirements and implementation pressures.",
+            "name": "Forecasting and Funding Needs",
+            "definition": "Uses current performance information to anticipate funding requirements and implementation pressures.",
             "levels": {
               "Emerging": "Performs routine forecasting and funding needs tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex forecasting and funding needs work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6702,8 +6678,8 @@
             }
           },
           {
-            "name": "Management Intervention and Recommendation Dimension Definition: Develops",
-            "definition": "evidence-based recommendations to address execution issues and improve budget performance.",
+            "name": "Management Intervention and Recommendation",
+            "definition": "Develops evidence-based recommendations to address execution issues and improve budget performance.",
             "levels": {
               "Emerging": "Performs routine management intervention and recommendation tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex management intervention and recommendation work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6718,8 +6694,8 @@
         "definition": "The ability to prepare, consolidate, validate and submit accurate statutory, oversight and management budget reports and supporting schedules within prescribed requirements.",
         "dimensions": [
           {
-            "name": "Budget Accountability Requirements Dimension Definition: Applies",
-            "definition": "applicable reporting requirements, formats and submission protocols.",
+            "name": "Budget Accountability Requirements",
+            "definition": "Applies applicable reporting requirements, formats and submission protocols.",
             "levels": {
               "Emerging": "Performs routine budget accountability requirements tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex budget accountability requirements work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6728,8 +6704,8 @@
             }
           },
           {
-            "name": "SAOB and Budget Status Reporting Dimension Definition: Prepares",
-            "definition": "and validates Statements of Allotments, Obligations and Balances and related status reports.",
+            "name": "SAOB and Budget Status Reporting",
+            "definition": "Prepares and validates Statements of Allotments, Obligations and Balances and related status reports.",
             "levels": {
               "Emerging": "Performs routine saob and budget status reporting tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex saob and budget status reporting work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6738,8 +6714,8 @@
             }
           },
           {
-            "name": "FAR/BFAR and Financial Performance Reporting Dimension Definition: Supports",
-            "definition": "preparation, reconciliation and review of required financial accountability and performance reports.",
+            "name": "FAR/BFAR and Financial Performance Reporting",
+            "definition": "Supports preparation, reconciliation and review of required financial accountability and performance reports.",
             "levels": {
               "Emerging": "Performs routine far/bfar and financial performance reporting tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex far/bfar and financial performance reporting work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6748,8 +6724,8 @@
             }
           },
           {
-            "name": "Data Reconciliation and Validation Dimension Definition: Reconciles",
-            "definition": "report figures against transaction records, systems and source documents.",
+            "name": "Data Reconciliation and Validation",
+            "definition": "Reconciles report figures against transaction records, systems and source documents.",
             "levels": {
               "Emerging": "Performs routine data reconciliation and validation tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex data reconciliation and validation work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6758,8 +6734,8 @@
             }
           },
           {
-            "name": "Report Quality and Timeliness Dimension Definition: Ensures",
-            "definition": "reports are complete, accurate, internally consistent and submitted within prescribed deadlines.",
+            "name": "Report Quality and Timeliness",
+            "definition": "Ensures reports are complete, accurate, internally consistent and submitted within prescribed deadlines.",
             "levels": {
               "Emerging": "Performs routine report quality and timeliness tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex report quality and timeliness work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6768,7 +6744,7 @@
             }
           },
           {
-            "name": "Management and Oversight Reporting Dimension Definition:",
+            "name": "Management and Oversight Reporting",
             "definition": "Transforms budget data into concise management information, explanations and decision-support reports.",
             "levels": {
               "Emerging": "Performs routine management and oversight reporting tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
@@ -6784,8 +6760,8 @@
         "definition": "The ability to interpret and apply budget laws, GAA provisions, DBM/COA issuances and internal controls, and to recommend improvements that strengthen fiscal governance and efficiency.",
         "dimensions": [
           {
-            "name": "Budget Rules and Regulatory Interpretation Dimension Definition: Applies",
-            "definition": "relevant GAA, DBM, COA and other fiscal rules to assigned budget work.",
+            "name": "Budget Rules and Regulatory Interpretation",
+            "definition": "Applies relevant GAA, DBM, COA and other fiscal rules to assigned budget work.",
             "levels": {
               "Emerging": "Performs routine budget rules and regulatory interpretation tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex budget rules and regulatory interpretation work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6794,8 +6770,8 @@
             }
           },
           {
-            "name": "Internal Controls and Compliance Dimension Definition: Uses",
-            "definition": "control points and review mechanisms to prevent errors, unauthorized actions and incomplete documentation.",
+            "name": "Internal Controls and Compliance",
+            "definition": "Uses control points and review mechanisms to prevent errors, unauthorized actions and incomplete documentation.",
             "levels": {
               "Emerging": "Performs routine internal controls and compliance tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex internal controls and compliance work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6804,7 +6780,7 @@
             }
           },
           {
-            "name": "Policy and Guideline Development Dimension Definition:",
+            "name": "Policy and Guideline Development",
             "definition": "Contributes to drafting or revising internal budget policies, guidelines and procedures.",
             "levels": {
               "Emerging": "Performs routine policy and guideline development tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
@@ -6814,8 +6790,8 @@
             }
           },
           {
-            "name": "Process Mapping and Standardization Dimension Definition: Maps",
-            "definition": "workflows, clarifies responsibilities and promotes standardized budget processes.",
+            "name": "Process Mapping and Standardization",
+            "definition": "Maps workflows, clarifies responsibilities and promotes standardized budget processes.",
             "levels": {
               "Emerging": "Performs routine process mapping and standardization tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex process mapping and standardization work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6824,8 +6800,8 @@
             }
           },
           {
-            "name": "Risk and Control Improvement Dimension Definition: Identifies",
-            "definition": "recurring compliance or process risks and develops practical corrective measures.",
+            "name": "Risk and Control Improvement",
+            "definition": "Identifies recurring compliance or process risks and develops practical corrective measures.",
             "levels": {
               "Emerging": "Performs routine risk and control improvement tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex risk and control improvement work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -6834,8 +6810,8 @@
             }
           },
           {
-            "name": "Continuous Improvement and Fiscal Governance Dimension Definition: Leads or",
-            "definition": "supports improvements that increase efficiency, accountability, transparency and consistency in budget administration.",
+            "name": "Continuous Improvement and Fiscal Governance",
+            "definition": "Leads or supports improvements that increase efficiency, accountability, transparency and consistency in budget administration.",
             "levels": {
               "Emerging": "Performs routine continuous improvement and fiscal governance tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex continuous improvement and fiscal governance work independently, applies applicable rules, and escalates exceptions when needed.",
