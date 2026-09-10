@@ -2610,7 +2610,7 @@
     "competencies": [
       {
         "name": "Learning and Development Planning",
-        "definition": "The ability to assess organizational, functional, and individual competency requirements; identify learning and development needs through competency assessment, performance results, and other diagnostic tools; and formulate, prioritize, schedule, and monitor competency-based learning and development interventions — including local training programs and local and foreign study and non-study grants — that align with organizational goals, strategic priorities, and workforce development requirements. This includes managing the Learning and Development Plan, Competency-Based Learning and Development Interventions (CBLDIs), Learning Calendars, scholarship and grant program pipelines, and evaluation mechanisms necessary to strengthen workforce capability.",
+        "definition": "The ability to assess organizational, functional, and individual competency requirements; identify learning and development needs through competency assessment, performance results, and other diagnostic tools; and formulate, prioritize, schedule, and monitor competency-based learning and development interventions — including local training programs and local and foreign study and non-study grants — that align with organizational goals, strategic priorities, and workforce development requirements. This includes managing the Learning and Development Plan, Competency-Based Learning and Development Interventions (CBLDIs), Learning Calendars, learning and development program pipelines, and evaluation mechanisms necessary to strengthen workforce capability.",
         "dimensions": [
           {
             "name": "Learning Needs Analysis",
@@ -2634,7 +2634,7 @@
           },
           {
             "name": "Learning Portfolio Management",
-            "definition": "Plans, prioritizes, schedules, and manages learning interventions and development programs, including L&D Plans, CBLDIs, Learning Calendars, and local and foreign scholarship or grant pipelines.",
+            "definition": "Plans, prioritizes, schedules, and manages learning interventions and development programs, including L&D Plans, CBLDIs, Learning Calendars, and local and foreign learning and development pipelines.",
             "levels": {
               "Emerging": "Maintains records and schedules of planned learning activities.",
               "Developing": "Assists in preparing learning calendars and development plans.",
@@ -2653,13 +2653,13 @@
             }
           },
           {
-            "name": "Scholarship Processing",
-            "definition": "Manages the evaluation, screening, validation, and endorsement of scholarship and training program applications.",
+            "name": "Learning and Development Processing",
+            "definition": "Manages the evaluation, screening, validation, and endorsement of learning and development program applications.",
             "levels": {
-              "Emerging": "Assists in receiving, organizing, and validating scholarship application documents.",
+              "Emerging": "Assists in receiving, organizing, and validating learning and development application documents.",
               "Developing": "Screens applications and verifies compliance with qualification requirements.",
-              "Proficient": "Reviews and evaluates scholarship applications and endorses qualified applicants.",
-              "Advanced": "Establishes policies, standards, and systems governing scholarship administration and selection processes."
+              "Proficient": "Reviews and evaluates learning and development applications and endorses qualified applicants.",
+              "Advanced": "Establishes policies, standards, and systems governing learning and development administration and selection processes."
             }
           }
         ]
@@ -2765,13 +2765,13 @@
             }
           },
           {
-            "name": "Scholarship Coordination",
+            "name": "Learning and Development Coordination",
             "definition": "Facilitates communication and coordination among applicants, development partners, oversight bodies, and internal stakeholders.",
             "levels": {
-              "Emerging": "Assists in disseminating scholarship opportunities and communicating requirements.",
-              "Developing": "Coordinates with applicants, offices, and development partners regarding scholarship processes.",
+              "Emerging": "Assists in disseminating learning and development opportunities and communicating requirements.",
+              "Developing": "Coordinates with applicants, offices, and development partners regarding learning and development processes.",
               "Proficient": "Manages stakeholder coordination and resolves process-related concerns.",
-              "Advanced": "Leads strategic partnerships and institutional scholarship initiatives."
+              "Advanced": "Leads strategic partnerships and institutional learning and development initiatives."
             }
           }
         ]
@@ -2858,22 +2858,22 @@
           },
           {
             "name": "Evaluation Reporting",
-            "definition": "Develops reports, recommendations, and action plans based on evaluation findings, and maintains scholarship-related records, databases, and status reports in compliance with applicable policies and reportorial requirements.",
+            "definition": "Develops reports, recommendations, and action plans based on evaluation findings, and maintains learning and development-related records, databases, and status reports in compliance with applicable policies and reportorial requirements.",
             "levels": {
-              "Emerging": "Assists in preparing evaluation summaries, reports, and scholarship status records.",
-              "Developing": "Prepares evaluation reports and presents findings, including scholarship status and compliance reports.",
-              "Proficient": "Develops recommendations and improvement plans based on learning outcomes, and ensures scholarship-related reports comply with applicable policies and requirements.",
-              "Advanced": "Uses evaluation findings to influence organizational learning strategies and policy decisions, and directs scholarship reporting and compliance systems."
+              "Emerging": "Assists in preparing evaluation summaries, reports, and learning and development status records.",
+              "Developing": "Prepares evaluation reports and presents findings, including learning and development status and compliance reports.",
+              "Proficient": "Develops recommendations and improvement plans based on learning outcomes, and ensures learning and development-related reports comply with applicable policies and requirements.",
+              "Advanced": "Uses evaluation findings to influence organizational learning strategies and policy decisions, and directs learning and development reporting and compliance systems."
             }
           },
           {
             "name": "Post-Program Monitoring",
-            "definition": "Monitors compliance with post-study requirements, implementation of REAPs, and completion of post-program obligations.",
+            "definition": "Monitors compliance with post-study requirements, implementation of Re-Entry Action Plans (REAPs), and completion of post-program obligations.",
             "levels": {
               "Emerging": "Maintains records of post-study requirements and compliance submissions.",
-              "Developing": "Monitors submission of post-training reports, REAPs, and related requirements.",
+              "Developing": "Monitors submission of post-training reports, Re-Entry Action Plans (REAPs), and related requirements.",
               "Proficient": "Reviews implementation status of post-study commitments and recommends interventions.",
-              "Advanced": "Establishes monitoring frameworks and evaluates organizational impact of scholarship programs."
+              "Advanced": "Establishes monitoring frameworks and evaluates organizational impact of learning and development programs."
             }
           }
         ]
