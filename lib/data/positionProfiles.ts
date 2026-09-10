@@ -999,8 +999,11 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'Team) combined with the HRMD competency framework. Permanent plantilla positions only — ' +
       'Contract of Service and Job Order items (an Administrative Officer IV and two ' +
       'Administrative Officer II under RSP, two Administrative Officer II under ComBen, and one ' +
-      'Administrative Assistant II under the Personnel Records Team) are excluded. "CTI" ' +
-      '(co-terminus with the incumbent) items are permanent plantilla positions and are included. ' +
+      'Administrative Assistant II under the Personnel Records Team) are excluded. There is one ' +
+      'Supervising Administrative Officer post, profiled with the same competencies as the Chief ' +
+      'Administrative Officer; the chart\'s two other Supervising Administrative Officer items ' +
+      '(under Compensation and Benefits and under Employee Relations and Succession Planning) ' +
+      'are coterminous with the incumbent (CTI) and are not profiled as separate standing posts. ' +
       'Vacant items are included since they are permanent plantilla slots, just currently ' +
       'unfilled. Where the same title/section combination is held by more than one person (e.g. ' +
       'two Administrative Officer IV under RSP, or three Administrative Assistant II under the ' +
@@ -1021,11 +1024,15 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
       {
         title: 'Supervising Administrative Officer',
-        section: 'Recruitment, Selection and Placement Section (RSP)',
+        section: null,
         competencies: [
           { name: 'Recruitment, Selection, and Placement', level: 'Advanced' },
-          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Proficient' },
-          { name: 'Organizational Profiling and HR Systems Planning', level: 'Developing' },
+          { name: 'Compensation and Benefits Management', level: 'Advanced' },
+          { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Advanced' },
+          { name: 'Rewards and Recognition Management', level: 'Advanced' },
+          { name: 'Human Resource Records and Information Management', level: 'Advanced' },
+          { name: 'Organizational Profiling and HR Systems Planning', level: 'Advanced' },
+          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Advanced' },
         ],
       },
       {
@@ -1048,15 +1055,6 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
           { name: 'Recruitment, Selection, and Placement', level: 'Emerging' },
-        ],
-      },
-      {
-        title: 'Supervising Administrative Officer',
-        section: 'Compensation and Benefits Section (ComBen)',
-        competencies: [
-          { name: 'Compensation and Benefits Management', level: 'Advanced' },
-          { name: 'Rewards and Recognition Management', level: 'Proficient' },
-          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Proficient' },
         ],
       },
       {
@@ -1094,15 +1092,6 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Compensation and Benefits Section (ComBen)',
         competencies: [
           { name: 'Compensation and Benefits Management', level: 'Emerging' },
-        ],
-      },
-      {
-        title: 'Supervising Administrative Officer',
-        section: 'Employee Relations and Succession Planning Section (ERSP)',
-        competencies: [
-          { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Advanced' },
-          { name: 'Rewards and Recognition Management', level: 'Proficient' },
-          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Proficient' },
         ],
       },
       {
