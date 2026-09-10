@@ -367,6 +367,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Publications — personnel reassigned to CCAO from SAICT',
         competencies: [
           { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Emerging' },
+          { name: 'Communications Proficiency', level: 'Emerging' },
         ],
       },
       {
@@ -389,6 +390,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Public Assistance Action Center — personnel reassigned to CCAO from SAICT',
         competencies: [
           { name: 'Service Delivery', level: 'Emerging' },
+          { name: 'Communications Proficiency', level: 'Emerging' },
         ],
       },
       {
