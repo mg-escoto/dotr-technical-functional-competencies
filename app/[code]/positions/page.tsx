@@ -55,9 +55,6 @@ export default function PositionProfilePage() {
           <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', color: C.text }}>
             Position Competency Profile
           </h1>
-          <p className="text-sm max-w-2xl leading-relaxed" style={{ color: C.textMuted }}>
-            {profile.sourceNote}
-          </p>
           <div
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide"
             style={{ background: C.navy, color: C.white }}

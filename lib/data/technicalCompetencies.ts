@@ -21,12 +21,18 @@ export type CareerStage = {
 }
 
 export type DivisionCategory = 'with-framework' | 'without-framework'
+export type DivisionStatus = 'populated' | 'under-construction'
 
 export type Division = {
   code: string
   name: string
-  category: DivisionCategory
-  sourceFile: string
+  category: DivisionCategory | null
+  status: DivisionStatus
+  office: string
+  officeOrder: number
+  parentCode: string | null
+  reorgNote?: string
+  sourceFile: string | null
   basis: string | null
   careerProgression: CareerStage[] | null
   competencies: Competency[]
@@ -38,8 +44,35 @@ export function getDivisionByCode(code: string): Division | undefined {
   return divisions.find(d => d.code.toLowerCase() === code.toLowerCase())
 }
 
-export function getDivisionsByCategory(category: DivisionCategory): Division[] {
-  return divisions.filter(d => d.category === category)
+export type OfficeGroup = {
+  office: string
+  officeOrder: number
+  divisions: Division[]
+}
+
+// Groups divisions by their parent office/service, in org-chart order. Within a group,
+// top-level divisions come first, followed by any divisions nested under one of them
+// (e.g. Dental Unit under General Services Division), placed right after their parent.
+export function getDivisionsByOffice(): OfficeGroup[] {
+  const byOrder = new Map<number, { office: string; divisions: Division[] }>()
+  for (const d of divisions) {
+    if (!byOrder.has(d.officeOrder)) {
+      byOrder.set(d.officeOrder, { office: d.office, divisions: [] })
+    }
+  }
+  for (const [, group] of byOrder) {
+    const all = divisions.filter(d => d.office === group.office)
+    const top = all.filter(d => !d.parentCode)
+    const ordered: Division[] = []
+    for (const parent of top) {
+      ordered.push(parent)
+      ordered.push(...all.filter(d => d.parentCode === parent.code))
+    }
+    group.divisions = ordered
+  }
+  return Array.from(byOrder.entries())
+    .sort(([a], [b]) => a - b)
+    .map(([officeOrder, group]) => ({ officeOrder, ...group }))
 }
 
 export const LEVELS: ProficiencyLevel[] = ['Emerging', 'Developing', 'Proficient', 'Advanced']

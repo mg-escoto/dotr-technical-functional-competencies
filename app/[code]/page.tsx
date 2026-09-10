@@ -31,6 +31,36 @@ export default function DivisionCompetencyPage() {
     )
   }
 
+  if (division.status === 'under-construction') {
+    return (
+      <div className="min-h-screen" style={{ background: C.bg }}>
+        <TechCompNav />
+        <div className="pt-32 px-8 max-w-3xl mx-auto space-y-4">
+          <Link
+            href="/"
+            className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
+            style={{ color: C.textMuted }}
+          >
+            ← All Divisions
+          </Link>
+          <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
+            {division.code} · {division.office}
+          </p>
+          <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', color: C.text }}>
+            {division.name}
+          </h1>
+          <div
+            className="rounded-xl px-5 py-4 text-sm leading-relaxed"
+            style={{ background: C.subtleBg, border: `1px solid ${C.subtleBorder}`, color: C.text }}
+          >
+            <strong>Under Construction.</strong> This division's competency framework hasn't
+            been added yet — check back once it's been reviewed and populated.
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="min-h-screen" style={{ background: C.bg }}>
       <TechCompNav />
@@ -46,7 +76,7 @@ export default function DivisionCompetencyPage() {
             ← All Divisions
           </Link>
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
-            {division.code} · {division.category === 'with-framework' ? 'Revised Framework' : 'New Framework'}
+            {division.code} · {division.office} · {division.category === 'with-framework' ? 'Revised Framework' : 'New Framework'}
           </p>
           <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', color: C.text }}>
             {division.name}
@@ -75,6 +105,19 @@ export default function DivisionCompetencyPage() {
           </div>
         </div>
       </div>
+
+      {division.reorgNote && (
+        <div className="px-8 pt-6">
+          <div className="max-w-6xl mx-auto">
+            <div
+              className="rounded-xl px-5 py-4 text-sm leading-relaxed"
+              style={{ background: C.subtleBg, border: `1px solid ${C.subtleBorder}`, color: C.text }}
+            >
+              <strong>Note:</strong> {division.reorgNote}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* ── Career progression legend ────────────────────────────────────────
           Same level, career-stage label, and description everywhere

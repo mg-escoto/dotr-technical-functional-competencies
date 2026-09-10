@@ -3,18 +3,12 @@
 import Link from 'next/link'
 import TechCompNav from '@/components/TechCompNav'
 import { useTechColors } from '@/lib/techColors'
-import { getDivisionsByCategory, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
+import { getDivisionsByOffice, divisions, LEVEL_SCALE, type Division } from '@/lib/data/technicalCompetencies'
 
 export default function TechnicalCompetenciesPage() {
   const C = useTechColors()
-
-  const withFramework = getDivisionsByCategory('with-framework')
-  const withoutFramework = getDivisionsByCategory('without-framework')
-
-  const totalCompetencies = [...withFramework, ...withoutFramework].reduce(
-    (sum, d) => sum + d.competencies.length,
-    0
-  )
+  const officeGroups = getDivisionsByOffice()
+  const populatedCount = divisions.filter(d => d.status === 'populated').length
 
   return (
     <div className="min-h-screen" style={{ background: C.bg }}>
@@ -30,26 +24,28 @@ export default function TechnicalCompetenciesPage() {
             Division Competency Frameworks
           </h1>
           <p className="text-base leading-relaxed max-w-2xl" style={{ color: C.textMuted }}>
-            Technical and functional competency frameworks for each division, defining the dimensions and behavioral indicators expected at every career progression stage — from Emerging to Advanced.
+            Technical and functional competency frameworks organized by office and service,
+            defining the dimensions and behavioral indicators expected at every career
+            progression stage — from Emerging to Advanced.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
             <div
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide"
               style={{ background: C.navy, color: C.white }}
             >
-              {withFramework.length + withoutFramework.length} Divisions
+              {divisions.length} Divisions
             </div>
             <div
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide"
               style={{ background: C.orange, color: C.white }}
             >
-              {totalCompetencies} Competencies
+              {populatedCount} Populated · {divisions.length - populatedCount} Under Construction
             </div>
           </div>
         </div>
       </div>
 
-      {/* ── Competency Level Scale (kept consistent with the LPS) ───────────── */}
+      {/* ── Competency Level Scale ────────────────────────────────────────── */}
       <div className="px-8 pt-12">
         <div className="max-w-6xl mx-auto space-y-5">
           <div className="flex items-center gap-3">
@@ -78,49 +74,35 @@ export default function TechnicalCompetenciesPage() {
         </div>
       </div>
 
-      {/* ── Main content ──────────────────────────────────────────────────── */}
+      {/* ── Offices ───────────────────────────────────────────────────────── */}
       <div className="px-8 pb-24">
         <div className="max-w-6xl mx-auto space-y-14 pt-12">
-          <DivisionGroup
-            C={C}
-            title="With Existing Competency Framework"
-            subtitle="Divisions whose competency frameworks were revised from an existing, previously validated structure (DPCR-aligned)."
-            divisions={withFramework}
-          />
-          <DivisionGroup
-            C={C}
-            title="Without Existing Competency Framework"
-            subtitle="Divisions for which a competency framework was newly developed."
-            divisions={withoutFramework}
-          />
+          {officeGroups.map(group => (
+            <OfficeSection key={group.officeOrder} C={C} office={group.office} divisions={group.divisions} />
+          ))}
         </div>
       </div>
     </div>
   )
 }
 
-function DivisionGroup({
+function OfficeSection({
   C,
-  title,
-  subtitle,
+  office,
   divisions,
 }: {
   C: ReturnType<typeof useTechColors>
-  title: string
-  subtitle: string
-  divisions: ReturnType<typeof getDivisionsByCategory>
+  office: string
+  divisions: Division[]
 }) {
   return (
     <section className="space-y-5">
       <div className="flex items-center gap-3">
         <div className="w-1.5 h-6 rounded-full" style={{ background: C.orange }} />
         <h2 className="text-lg font-black" style={{ color: C.text }}>
-          {title}
+          {office}
         </h2>
       </div>
-      <p className="text-sm leading-relaxed max-w-2xl -mt-2" style={{ color: C.textMuted }}>
-        {subtitle}
-      </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {divisions.map(d => (
@@ -128,7 +110,12 @@ function DivisionGroup({
             key={d.code}
             href={`/${encodeURIComponent(d.code)}`}
             className="group rounded-xl p-5 flex flex-col gap-3 transition-all hover:-translate-y-0.5"
-            style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}
+            style={{
+              background: C.card,
+              border: `1px solid ${C.borderMuted}`,
+              marginLeft: d.parentCode ? '1.5rem' : undefined,
+              opacity: d.status === 'under-construction' ? 0.75 : 1,
+            }}
           >
             <div className="flex items-center justify-between gap-2">
               <p
@@ -147,9 +134,23 @@ function DivisionGroup({
             <h3 className="font-bold text-base leading-snug" style={{ color: C.text }}>
               {d.name}
             </h3>
-            <p className="text-sm" style={{ color: C.textMuted }}>
-              {d.competencies.length} competencies · {d.competencies.reduce((s, c) => s + c.dimensions.length, 0)} dimensions
-            </p>
+            {d.status === 'under-construction' ? (
+              <p
+                className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
+                style={{ background: C.subtleBg, color: C.textMuted }}
+              >
+                Under Construction
+              </p>
+            ) : (
+              <p className="text-sm" style={{ color: C.textMuted }}>
+                {d.competencies.length} competencies · {d.competencies.reduce((s, c) => s + c.dimensions.length, 0)} dimensions
+              </p>
+            )}
+            {d.parentCode && (
+              <p className="text-xs italic" style={{ color: C.textMuted }}>
+                Unit under {d.parentCode}
+              </p>
+            )}
           </Link>
         ))}
       </div>
