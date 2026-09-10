@@ -77,7 +77,7 @@ export default function DivisionCompetencyPage() {
             ← All Divisions
           </Link>
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
-            {division.code} · {division.office} · {division.category === 'with-framework' ? 'Revised Framework' : 'New Framework'}
+            {division.code} · {division.office}
           </p>
           <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', color: C.text }}>
             {division.name}

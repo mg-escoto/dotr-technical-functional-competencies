@@ -3290,7 +3290,7 @@
         "dimensions": [
           {
             "name": "RSP Policy and Governance",
-            "definition": "Ability to understand, apply, review, and improve Recruitment, Selection, and Placement (RSP) policies, guidelines, and processes within applicable Civil Service Commission (CSC), Department of Budget, and Management (DBM) and Department requirements.",
+            "definition": "Ability to understand, apply, review, and improve Recruitment, Selection, and Placement (RSP) policies, guidelines, and processes within applicable Civil Service Commission (CSC), Department of Budget and Management (DBM), and Department requirements.",
             "levels": {
               "Emerging": "Refers to applicable RSP policies and follows established procedures with guidance.",
               "Developing": "Applies RSP policies to routine transactions and identifies when clarification is needed.",
@@ -3544,7 +3544,7 @@
           },
           {
             "name": "HRIS and Personnel Information Management",
-            "definition": "Ability to maintain and use authorized personnel information systems, including the Human Resource Information System (HRIS), and HR data to support HR services, and transactions.",
+            "definition": "Ability to maintain and use authorized personnel information systems, including the Human Resource Information System (HRIS), and HR data to support HR services and transactions.",
             "levels": {
               "Emerging": "Uses prescribed manual/electronic HR records systems with guidance.",
               "Developing": "Independently maintains and retrieves HR information using authorized systems and responds to routine HRIS requests.",
