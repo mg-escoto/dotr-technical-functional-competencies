@@ -261,6 +261,146 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'ID',
+    asOf: 'Information Division existing organizational chart',
+    sourceNote:
+      'Built from the Information Division existing organizational chart combined with the ' +
+      'Information Division competency framework. Permanent plantilla positions only — Job ' +
+      'Order and Contract of Service positions are excluded. Vacant items are included since ' +
+      'they are permanent plantilla slots, just currently unfilled. Positions annotated on the ' +
+      'chart as "personnel reassigned to CCAO from SAICT" are included under the section where ' +
+      'the chart places them, since that reflects where they currently perform their duties. ' +
+      'Where the same title/section combination is held by more than one person (e.g. three ' +
+      'Traffic Aide III under Public Assistance Action Center), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Digital Media Proficiency', level: 'Advanced' },
+          { name: 'Computer Proficiency', level: 'Advanced' },
+          { name: 'Strategic Content Development, Research, and Speechwriting', level: 'Advanced' },
+          { name: 'Media Relations, Interview Coordination, and Spokesperson Support', level: 'Advanced' },
+          { name: 'Event Planning and Press Briefing Management, Event Coverage, Documentation, and Content Production', level: 'Advanced' },
+          { name: 'Media Monitoring and Intelligence Gathering', level: 'Advanced' },
+          { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Advanced' },
+          { name: 'Internal Communication and Document Drafting', level: 'Advanced' },
+          { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Advanced' },
+          { name: 'Service Delivery', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Digital Media Proficiency', level: 'Advanced' },
+          { name: 'Computer Proficiency', level: 'Advanced' },
+          { name: 'Strategic Content Development, Research, and Speechwriting', level: 'Proficient' },
+          { name: 'Media Relations, Interview Coordination, and Spokesperson Support', level: 'Advanced' },
+          { name: 'Event Planning and Press Briefing Management, Event Coverage, Documentation, and Content Production', level: 'Proficient' },
+          { name: 'Media Monitoring and Intelligence Gathering', level: 'Advanced' },
+          { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Advanced' },
+          { name: 'Internal Communication and Document Drafting', level: 'Advanced' },
+          { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Advanced' },
+          { name: 'Service Delivery', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Publications',
+        competencies: [
+          { name: 'Communications Proficiency', level: 'Proficient' },
+          { name: 'Strategic Content Development, Research, and Speechwriting', level: 'Proficient' },
+          { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Proficient' },
+          { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Digital Media',
+        competencies: [
+          { name: 'Digital Media Proficiency', level: 'Proficient' },
+          { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Proficient' },
+          { name: 'Computer Proficiency', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Publications',
+        competencies: [
+          { name: 'Communications Proficiency', level: 'Developing' },
+          { name: 'Strategic Content Development, Research, and Speechwriting', level: 'Developing' },
+          { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Developing' },
+          { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Digital Media',
+        competencies: [
+          { name: 'Digital Media Proficiency', level: 'Developing' },
+          { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Developing' },
+          { name: 'Computer Proficiency', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Publications',
+        competencies: [
+          { name: 'Communications Proficiency', level: 'Emerging' },
+          { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Digital Media',
+        competencies: [
+          { name: 'Digital Media Proficiency', level: 'Emerging' },
+          { name: 'Computer Proficiency', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Traffic Aide III',
+        section: 'Publications — personnel reassigned to CCAO from SAICT',
+        competencies: [
+          { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: 'Digital Media',
+        competencies: [
+          { name: 'Computer Proficiency', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Transportation Regulation Officer I',
+        section: 'Public Assistance Action Center — personnel reassigned to CCAO from SAICT',
+        competencies: [
+          { name: 'Service Delivery', level: 'Developing' },
+          { name: 'Communications Proficiency', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Traffic Aide III',
+        section: 'Public Assistance Action Center — personnel reassigned to CCAO from SAICT',
+        competencies: [
+          { name: 'Service Delivery', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Transportation Regulation Officer I',
+        section: 'Media Monitoring — personnel reassigned to CCAO from SAICT',
+        competencies: [
+          { name: 'Media Monitoring and Intelligence Gathering', level: 'Developing' },
+          { name: 'Communications Proficiency', level: 'Developing' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
