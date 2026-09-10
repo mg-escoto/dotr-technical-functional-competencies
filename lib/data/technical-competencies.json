@@ -4292,7 +4292,7 @@
     "competencies": []
   },
   {
-    "code": "INVAD",
+    "code": "IAD",
     "name": "Investigation and Adjudication Division",
     "category": null,
     "status": "under-construction",
@@ -4331,7 +4331,7 @@
     "competencies": []
   },
   {
-    "code": "ATPDD",
+    "code": "Air TPDD",
     "name": "Air Transport Project Development Division",
     "category": null,
     "status": "under-construction",
@@ -4344,7 +4344,7 @@
     "competencies": []
   },
   {
-    "code": "MTPDD",
+    "code": "Maritime TPDD",
     "name": "Maritime Transport Project Development Division",
     "category": null,
     "status": "under-construction",
@@ -4357,7 +4357,7 @@
     "competencies": []
   },
   {
-    "code": "RTPDD",
+    "code": "Rail TPDD",
     "name": "Rail Transport Project Development Division",
     "category": null,
     "status": "under-construction",
@@ -4370,7 +4370,7 @@
     "competencies": []
   },
   {
-    "code": "RDPDD",
+    "code": "Road TPDD",
     "name": "Road Transport Project Development Division",
     "category": null,
     "status": "under-construction",
@@ -5422,7 +5422,7 @@
     "parentCode": null
   },
   {
-    "code": "SUPPORT",
+    "code": "SD",
     "name": "Support Division",
     "category": null,
     "status": "under-construction",
