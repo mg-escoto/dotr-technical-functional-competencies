@@ -1642,7 +1642,7 @@
             }
           },
           {
-            "name": "Payroll, Compensation and Benefit Payment Processing",
+            "name": "Payroll, Compensation, and Benefit Payment Processing",
             "definition": "Ability to upload, facilitate, fund, and monitor payment of salaries, benefits, compensation, and remuneration for authorized personnel and service arrangements.",
             "levels": {
               "Emerging": "Assists in uploading or checking assigned payroll/payment files using prescribed procedures.",
@@ -1652,7 +1652,7 @@
             }
           },
           {
-            "name": "Transaction Review, Certification and Payment Quality",
+            "name": "Transaction Review, Certification, and Payment Quality",
             "definition": "Ability to review/certify cash documents and ensure payment transactions are accurate, complete, authorized, timely, and compliant with prescribed controls.",
             "levels": {
               "Emerging": "Applies prescribed review and checking procedures before routing or processing transactions.",
@@ -1664,7 +1664,7 @@
         ]
       },
       {
-        "name": "Cash Collection, Deposit and Accountability Management",
+        "name": "Cash Collection, Deposit, and Accountability Management",
         "definition": "The ability to receive, record, safeguard, deposit, and account for collections, checks, cash items, official receipts, accountable forms, and other cash accountabilities in accordance with prescribed procedures, controls, and timelines.",
         "dimensions": [
           {
@@ -1678,7 +1678,7 @@
             }
           },
           {
-            "name": "Deposits, Remittances and Bank Transactions",
+            "name": "Deposits, Remittances, and Bank Transactions",
             "definition": "Ability to prepare deposit documents, deposit collections/checks, and process prescribed remittances and bank transactions.",
             "levels": {
               "Emerging": "Assists in preparing deposit documents and follows established bank procedures.",
@@ -1688,7 +1688,7 @@
             }
           },
           {
-            "name": "Cash Book, Check Book and Accountability Records",
+            "name": "Cash Book, Check Book, and Accountability Records",
             "definition": "Ability to maintain cash book, check book, accountability reports and related cash records.",
             "levels": {
               "Emerging": "Updates assigned records using established formats and controls.",
@@ -1698,7 +1698,7 @@
             }
           },
           {
-            "name": "Accountable Forms, Checks and Financial Instruments",
+            "name": "Accountable Forms, Checks, and Financial Instruments",
             "definition": "Ability to maintain custody, issuance, monitoring and accountability of accountable forms, checks and other financial instruments.",
             "levels": {
               "Emerging": "Follows prescribed custody and accountability procedures with guidance.",
@@ -1708,7 +1708,7 @@
             }
           },
           {
-            "name": "Petty Cash, Cash Advances and Other Cash Accountabilities",
+            "name": "Petty Cash, Cash Advances, and Other Cash Accountabilities",
             "definition": "Ability to safeguard, monitor, document and facilitate the timely liquidation or settlement of petty cash, cash advances and other cash accountabilities.",
             "levels": {
               "Emerging": "Assists in monitoring assigned cash accountabilities and supporting liquidation documents.",
@@ -1720,7 +1720,7 @@
         ]
       },
       {
-        "name": "Financial Reporting, Reconciliation and Regulatory Compliance",
+        "name": "Financial Reporting, Reconciliation, and Regulatory Compliance",
         "definition": "The ability to prepare, review, reconcile, validate, and submit financial, cash, accountability, banking, and regulatory reports accurately and within prescribed deadlines, including reports on collections, deposits, disbursements, checks, cash allocation, NCA utilization, and digital payment operations.",
         "dimensions": [
           {
@@ -1744,7 +1744,7 @@
             }
           },
           {
-            "name": "Commission on Audit (COA), BTr and Regulatory Reporting",
+            "name": "Commission on Audit (COA), BTr, and Regulatory Reporting",
             "definition": "Ability to validate, route and submit required reports to Commission on Audit (COA), BTr and other authorized recipients within prescribed deadlines.",
             "levels": {
               "Emerging": "Prepares assigned supporting documents for submission with guidance.",
@@ -1764,7 +1764,7 @@
             }
           },
           {
-            "name": "Report Accuracy, Completeness and Timeliness",
+            "name": "Report Accuracy, Completeness, and Timeliness",
             "definition": "Ability to produce complete, accurate, supported and timely reports with minimal avoidable revision.",
             "levels": {
               "Emerging": "Applies prescribed checking procedures before submission.",
@@ -1776,7 +1776,7 @@
         ]
       },
       {
-        "name": "Tax, Fidelity Bond and Statutory Compliance",
+        "name": "Tax, Fidelity Bond, and Statutory Compliance",
         "definition": "The ability to process, validate, monitor and submit tax-related documents, tax certificates, annual tax statements/alphalists, fidelity bond documents and other statutory or regulatory requirements that remain within the Cash Division's assigned functions.",
         "dimensions": [
           {
@@ -1822,7 +1822,7 @@
         ]
       },
       {
-        "name": "Financial Documentation, Reportorial and Organizational Support",
+        "name": "Financial Documentation, Reportorial, and Organizational Support",
         "definition": "The ability to manage financial documentation, reportorial requirements, records, and assigned administrative or organizational support functions accurately, systematically, securely and within prescribed timelines.",
         "dimensions": [
           {
@@ -1866,7 +1866,7 @@
             }
           },
           {
-            "name": "Learning, Knowledge Sharing and Development Support",
+            "name": "Learning, Knowledge Sharing, and Development Support",
             "definition": "Ability to participate in learning interventions and apply/share relevant knowledge to improve work practices.",
             "levels": {
               "Emerging": "Participates in required learning interventions with guidance.",
@@ -2370,7 +2370,7 @@
         ]
       },
       {
-        "name": "Supply Chain, Inventory and Materials Management",
+        "name": "Supply Chain, Inventory, and Materials Management",
         "definition": "Plans, coordinates, monitors, and improves the acquisition, availability, inspection, acceptance, storage, issuance, movement, utilization, reconciliation, and accountability of supplies and materials supporting GSD operations.",
         "dimensions": [
           {
@@ -2394,7 +2394,7 @@
             }
           },
           {
-            "name": "Inspection, Acceptance and Issuance",
+            "name": "Inspection, Acceptance, and Issuance",
             "definition": "Ability to coordinate inspection and acceptance of delivered supplies and control their authorized issuance.",
             "levels": {
               "Emerging": "Assists in preparing or routing routine inspection, acceptance, and issuance documents with guidance.",
@@ -2506,7 +2506,7 @@
             }
           },
           {
-            "name": "Registration, Insurance and Compliance",
+            "name": "Registration, Insurance, and Compliance",
             "definition": "Ability to ensure required documentation, registration, insurance, safety, and regulatory requirements are maintained.",
             "levels": {
               "Emerging": "Recognizes basic registration and insurance requirements with guidance.",
@@ -4477,7 +4477,7 @@
         ]
       },
       {
-        "name": "Risk, Data Privacy and Cyber Security Management",
+        "name": "Risk, Data Privacy, and Cyber Security Management",
         "definition": "The ability to identify, analyze, treat, monitor risk, and practice ethical standards relative to data and cyber management.",
         "dimensions": [
           {
@@ -4501,7 +4501,7 @@
             }
           },
           {
-            "name": "Security Operations, Monitoring and Access Management",
+            "name": "Security Operations, Monitoring, and Access Management",
             "definition": "Ability to implement, monitor, and manage cybersecurity controls, security technologies, user access privileges, security monitoring activities, and protective measures to safeguard organizational information assets.",
             "levels": {
               "Emerging": "Adheres to security controls, account management procedures, and data protection requirements.",
@@ -4975,7 +4975,7 @@
     "careerProgression": null,
     "competencies": [
       {
-        "name": "ICT Strategic Planning, Research and Innovation",
+        "name": "ICT Strategic Planning, Research, and Innovation",
         "definition": "The ability to conduct ICT research, assess emerging technologies, formulate information systems strategies and investment priorities, and align ICT plans with Department goals, the MITHI Calendar, applicable DICT requirements, and digital transformation priorities.",
         "dimensions": [
           {
@@ -5009,7 +5009,7 @@
             }
           },
           {
-            "name": "Policy, Standards and Strategic Alignment",
+            "name": "Policy, Standards, and Strategic Alignment",
             "definition": "Translates applicable ICT policies, standards, laws, and government digital directions into practical planning recommendations.",
             "levels": {
               "Emerging": "Assists in policy, standards and strategic alignment using established templates, instructions and available references; identifies basic information and seeks guidance on unfamiliar matters.",
@@ -5031,7 +5031,7 @@
         ]
       },
       {
-        "name": "Information Systems Analysis, Development and Lifecycle Management",
+        "name": "Information Systems Analysis, Development, and Lifecycle Management",
         "definition": "The ability to analyze information systems requirements, review and endorse systems development proposals, support system lifecycle decisions, and ensure that systems initiatives are technically and operationally aligned with Department requirements.",
         "dimensions": [
           {
@@ -5143,7 +5143,7 @@
         ]
       },
       {
-        "name": "Information Security Governance, Data Privacy and Compliance",
+        "name": "Information Security Governance, Data Privacy, and Compliance",
         "definition": "The ability to establish and apply information security governance, privacy protection, risk controls, compliance requirements, and assurance mechanisms to protect Department information and digital assets.",
         "dimensions": [
           {
@@ -5233,7 +5233,7 @@
             }
           },
           {
-            "name": "Change, Adoption and Sustainability",
+            "name": "Change, Adoption, and Sustainability",
             "definition": "Supports user readiness, transition, adoption, operational sustainability, and continuous improvement of digital solutions.",
             "levels": {
               "Emerging": "Supports assigned activities under established plans for change, adoption and sustainability; completes routine tasks with guidance.",
@@ -5311,7 +5311,7 @@
         ]
       },
       {
-        "name": "ICT Data Analytics, Dashboards and Decision Support",
+        "name": "ICT Data Analytics, Dashboards, and Decision Support",
         "definition": "The ability to collect, validate, analyze, visualize, and communicate ICT-related data and information through analytics, dashboards, reports, and evidence-based insights that support planning, monitoring, governance, and decision-making.",
         "dimensions": [
           {
@@ -5367,7 +5367,7 @@
         ]
       },
       {
-        "name": "ICT Program, Project and Stakeholder Management",
+        "name": "ICT Program, Project, and Stakeholder Management",
         "definition": "The ability to coordinate ICT programs and projects, manage deliverables and dependencies, communicate with internal and external stakeholders, monitor implementation risks, and provide timely technical and management support across the Department.",
         "dimensions": [
           {
@@ -5391,7 +5391,7 @@
             }
           },
           {
-            "name": "Risk, Issue and Change Management",
+            "name": "Risk, Issue, and Change Management",
             "definition": "Identifies and assesses project risks, manages issues and changes, and escalates matters requiring management intervention.",
             "levels": {
               "Emerging": "Supports assigned risk, issue and change management activities using established procedures, checklists and communication channels.",
@@ -5707,7 +5707,7 @@
             }
           },
           {
-            "name": "Evaluation, Recommendation and Endorsement",
+            "name": "Evaluation, Recommendation, and Endorsement",
             "definition": "Ability to identify deficiencies, formulate clear comments or recommendations, and endorse compliant procurement documents within prescribed timelines.",
             "levels": {
               "Emerging": "Performs routine evaluation, recommendation and endorsement tasks using prescribed procedures and checklists with close guidance; identifies basic documentary or process requirements.",
@@ -5827,7 +5827,7 @@
         ]
       },
       {
-        "name": "Procurement Resolution, Notice of Award and Award Documentation Management",
+        "name": "Procurement Resolution, Notice of Award, and Award Documentation Management",
         "definition": "The ability to review, prepare, endorse, and process procurement resolutions, Notices of Award (NOAs), and related award documents across procurement modalities delegated to end-user units and PMOs.",
         "dimensions": [
           {
@@ -5899,7 +5899,7 @@
         ]
       },
       {
-        "name": "Administrative, Reportorial and Professional Support",
+        "name": "Administrative, Reportorial, and Professional Support",
         "definition": "The ability to fulfill the Division's administrative, internal reportorial, meeting participation, and professional development commitments accurately and within prescribed requirements.",
         "dimensions": [
           {
@@ -6043,7 +6043,7 @@
             }
           },
           {
-            "name": "Accruals, Prepayments and Adjustments",
+            "name": "Accruals, Prepayments, and Adjustments",
             "definition": "The ability to recognize, record, review, and validate accruals, prepayments, and other authorized period-end",
             "levels": {
               "Emerging": "Recognizes routine month-end adjustments under guidance.",
@@ -6251,7 +6251,7 @@
             }
           },
           {
-            "name": "Transfers, Disposals and Adjustments",
+            "name": "Transfers, Disposals, and Adjustments",
             "definition": "The ability to process and review authorized asset transfers, disposals, and accounting adjustments with complete documentation and approvals.",
             "levels": {
               "Emerging": "Processes assigned asset transfers or disposal documentation under guidance.",
@@ -6317,7 +6317,7 @@
             }
           },
           {
-            "name": "Interest, Repayment and Cash-Flow Recording",
+            "name": "Interest, Repayment, and Cash-Flow Recording",
             "definition": "The ability to distinguish and accurately record interest, principal repayment, and other liability-related cash flows and reconcile the resulting balances.",
             "levels": {
               "Emerging": "Distinguishes routine liability-related cash flows under guidance.",
@@ -6337,7 +6337,7 @@
             }
           },
           {
-            "name": "Compliance, Disclosure and Reporting",
+            "name": "Compliance, Disclosure, and Reporting",
             "definition": "The ability to ensure debt and liability information is complete, supportable, properly reported, and compliant with applicable rules and disclosure requirements.",
             "levels": {
               "Emerging": "Follows applicable rules and reporting requirements.",
@@ -6349,7 +6349,7 @@
         ]
       },
       {
-        "name": "Accounting Analysis, Reconciliation, Checking and Recording",
+        "name": "Accounting Analysis, Reconciliation, Checking, and Recording",
         "definition": "Analyzes accounting transactions and supporting documents, checks accuracy and compliance, reconciles discrepancies, records authorized adjustments, and maintains reliable accounting information in accordance with applicable rules and procedures.",
         "dimensions": [
           {
@@ -6515,7 +6515,7 @@
             }
           },
           {
-            "name": "Certificates, Vouchers and Supporting Outputs",
+            "name": "Certificates, Vouchers, and Supporting Outputs",
             "definition": "The ability to prepare, review, sign, route, and validate certificates, vouchers, journal entries, certifications, and other required disbursement outputs.",
             "levels": {
               "Emerging": "Prepares assigned supporting forms and documents under guidance.",
@@ -6535,7 +6535,7 @@
             }
           },
           {
-            "name": "Stakeholder, Audit and System Support",
+            "name": "Stakeholder, Audit, and System Support",
             "definition": "The ability to coordinate with requesting offices, auditors, and other stakeholders, address system or process issues, and recommend improvements to computerized accounting processes.",
             "levels": {
               "Emerging": "Responds to routine queries and refers difficult issues appropriately.",
@@ -7023,7 +7023,7 @@
         ]
       },
       {
-        "name": "Budget Policy, Compliance and Process Improvement",
+        "name": "Budget Policy, Compliance, and Process Improvement",
         "definition": "The ability to interpret and apply budget laws, GAA provisions, DBM/COA issuances and internal controls, and to recommend improvements that strengthen fiscal governance and efficiency.",
         "dimensions": [
           {
@@ -7123,7 +7123,7 @@
             }
           },
           {
-            "name": "DBM, COA and Oversight Coordination",
+            "name": "DBM, COA, and Oversight Coordination",
             "definition": "Communicates and coordinates with DBM, COA and other oversight stakeholders on assigned matters.",
             "levels": {
               "Emerging": "Performs routine dbm, coa and oversight coordination tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
@@ -7155,7 +7155,7 @@
         ]
       },
       {
-        "name": "Budget Digitalization, Data, Records and Knowledge Management",
+        "name": "Budget Digitalization, Data, Records, and Knowledge Management",
         "definition": "The ability to use and improve digital budget systems, databases, dashboards, analytics, records and knowledge-sharing mechanisms to support reliable, timely and evidence-based budget administration.",
         "dimensions": [
           {
@@ -7313,7 +7313,7 @@
         ]
       },
       {
-        "name": "Compliance, Management and Operations Auditing",
+        "name": "Compliance, Management, and Operations Auditing",
         "definition": "The ability to conduct and evaluate compliance, management and operations audits to determine adherence to laws, regulations, policies, objectives, systems, procedures and contractual obligations, and to assess efficiency and effectiveness of operations.",
         "dimensions": [
           {
@@ -7369,7 +7369,7 @@
         ]
       },
       {
-        "name": "Systems, Process and Internal Control Evaluation",
+        "name": "Systems, Process, and Internal Control Evaluation",
         "definition": "The ability to evaluate the design, implementation, adequacy and effectiveness of systems, processes and internal controls, and to identify control gaps and practical opportunities for improvement.",
         "dimensions": [
           {
@@ -7425,7 +7425,7 @@
         ]
       },
       {
-        "name": "Financial, Management and Operational Data Analysis",
+        "name": "Financial, Management, and Operational Data Analysis",
         "definition": "The ability to verify, analyze and interpret financial, management and operational information to assess completeness, accuracy, validity, reliability and integrity and to identify anomalies, trends and risks relevant to audit objectives.",
         "dimensions": [
           {
@@ -7537,7 +7537,7 @@
         ]
       },
       {
-        "name": "Asset, Resource and Performance Assurance",
+        "name": "Asset, Resource, and Performance Assurance",
         "definition": "The ability to evaluate the safeguarding and proper use of government assets and resources and assess whether organizational units, programs and responsible personnel perform assigned functions effectively and in accordance with approved objectives.",
         "dimensions": [
           {
@@ -7593,7 +7593,7 @@
         ]
       },
       {
-        "name": "Fraud Risk, Irregularity Detection and Special Investigations",
+        "name": "Fraud Risk, Irregularity Detection, and Special Investigations",
         "definition": "The ability to identify indicators of fraud, misuse, dishonesty and irregular transactions; perform protective audit functions; and support authorized special audits or investigations in a professional, objective and evidence-based manner.",
         "dimensions": [
           {
@@ -7649,7 +7649,7 @@
         ]
       },
       {
-        "name": "Audit Reporting, Recommendations and Follow-Up",
+        "name": "Audit Reporting, Recommendations, and Follow-Up",
         "definition": "The ability to evaluate and communicate audit findings, evidence, conclusions and recommendations through clear, accurate and timely audit reports, and to monitor and validate implementation of agreed corrective actions.",
         "dimensions": [
           {
@@ -7663,7 +7663,7 @@
             }
           },
           {
-            "name": "Findings, Conclusions and Audit Opinions",
+            "name": "Findings, Conclusions, and Audit Opinions",
             "definition": "Assesses whether findings and conclusions are supported by sufficient evidence and appropriately reflect the significance and implications of identified issues.",
             "levels": {
               "Emerging": "Supports findings, conclusions and audit opinions using approved report formats, evidence and guidance; checks basic completeness and accuracy.",
@@ -7705,7 +7705,7 @@
         ]
       },
       {
-        "name": "Responsive Audit Management, Professional Communication and Stakeholder Liaison",
+        "name": "Responsive Audit Management, Professional Communication, and Stakeholder Liaison",
         "definition": "The ability to deliver audit services responsively and professionally while maintaining objectivity, confidentiality, impartiality and independence; coordinate with auditees and oversight bodies; and contribute to the credibility and continuous improvement of the audit function.",
         "dimensions": [
           {
@@ -7749,7 +7749,7 @@
             }
           },
           {
-            "name": "Professionalism, Independence and Continuous Learning",
+            "name": "Professionalism, Independence, and Continuous Learning",
             "definition": "Maintains due professional care, objectivity, impartiality and confidentiality; pursues continuing professional development and applies lessons learned to improve audit performance.",
             "levels": {
               "Emerging": "Communicates and coordinates appropriately for professionalism, independence and continuous learning using established protocols and maintains confidentiality and professionalism.",
@@ -7836,7 +7836,7 @@
         ]
       },
       {
-        "name": "Compliance, Management and Operations Auditing",
+        "name": "Compliance, Management, and Operations Auditing",
         "definition": "The ability to conduct management and operations audits and determine the degree of compliance with mandates, policies, regulations, objectives, systems, procedures, processes and contractual obligations using appropriate audit criteria and evidence.",
         "dimensions": [
           {
@@ -7870,7 +7870,7 @@
             }
           },
           {
-            "name": "Audit Scope, Criteria and Methodology",
+            "name": "Audit Scope, Criteria, and Methodology",
             "definition": "Defines or applies appropriate audit scope, criteria, procedures and testing methods consistent with approved audit objectives and plans.",
             "levels": {
               "Emerging": "Supports audit scope, criteria and methodology within an approved audit scope and follows prescribed procedures with guidance.",
@@ -7892,7 +7892,7 @@
         ]
       },
       {
-        "name": "Systems, Process and Internal Control Evaluation",
+        "name": "Systems, Process, and Internal Control Evaluation",
         "definition": "The ability to evaluate systems, procedures, processes, organizational arrangements and internal controls, identify weaknesses and root causes, and recommend practical courses of action that strengthen governance, control and operational performance.",
         "dimensions": [
           {
@@ -8008,7 +8008,7 @@
             }
           },
           {
-            "name": "Auditing Manual, Automated and Hybrid Environments",
+            "name": "Auditing Manual, Automated, and Hybrid Environments",
             "definition": "Adapts audit procedures to the characteristics of manual, automated and hybrid environments while maintaining audit objectives and evidence requirements.",
             "levels": {
               "Emerging": "Recognizes basic technology risks relevant to auditing manual, automated and hybrid environments and follows approved tools and procedures.",
@@ -8040,7 +8040,7 @@
         ]
       },
       {
-        "name": "Asset, Resource and Performance Assurance",
+        "name": "Asset, Resource, and Performance Assurance",
         "definition": "The ability to evaluate whether government assets and resources are properly accounted for, safeguarded and efficiently utilized, and whether groups or individuals perform assigned responsibilities in accordance with approved objectives and standards.",
         "dimensions": [
           {
@@ -8096,7 +8096,7 @@
         ]
       },
       {
-        "name": "Fraud Detection, Special Investigations and External Liaison",
+        "name": "Fraud Detection, Special Investigations, and External Liaison",
         "definition": "The ability to identify fraud and irregularity indicators, perform authorized protective functions and special audits or investigations, and coordinate with external agencies while maintaining authority, confidentiality, objectivity and professional independence.",
         "dimensions": [
           {
@@ -8152,7 +8152,7 @@
         ]
       },
       {
-        "name": "Audit Reporting, Recommendations and Follow-Up",
+        "name": "Audit Reporting, Recommendations, and Follow-Up",
         "definition": "The ability to develop, review and communicate audit findings, evidence, conclusions and recommendations through accurate and timely audit reports and to monitor and validate management action on approved recommendations.",
         "dimensions": [
           {
@@ -8208,7 +8208,7 @@
         ]
       },
       {
-        "name": "Responsive Audit Management, Policy Interpretation and Professional Communication",
+        "name": "Responsive Audit Management, Policy Interpretation, and Professional Communication",
         "definition": "The ability to deliver responsive and professional audit services, interpret and apply relevant audit policies and standards, communicate clearly with stakeholders, manage assignments effectively, and uphold objectivity, impartiality, confidentiality and independence.",
         "dimensions": [
           {
@@ -8242,7 +8242,7 @@
             }
           },
           {
-            "name": "Time, Assignment and Issue Management",
+            "name": "Time, Assignment, and Issue Management",
             "definition": "Manages time, deadlines, actions and audit objectives effectively, communicates unplanned delays promptly and escalates issues that may affect approved audit plans.",
             "levels": {
               "Emerging": "Communicates and coordinates appropriately for time, assignment and issue management using established protocols and maintains confidentiality and professionalism.",
@@ -8252,7 +8252,7 @@
             }
           },
           {
-            "name": "Professionalism, Independence and Continuous Learning",
+            "name": "Professionalism, Independence, and Continuous Learning",
             "definition": "Demonstrates due professional care, objectivity, impartiality and confidentiality; pursues continuing professional education and applies lessons learned to improve audit practice.",
             "levels": {
               "Emerging": "Communicates and coordinates appropriately for professionalism, independence and continuous learning using established protocols and maintains confidentiality and professionalism.",
