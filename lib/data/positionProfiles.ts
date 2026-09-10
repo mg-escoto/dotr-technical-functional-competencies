@@ -875,6 +875,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Program/Course Design and Development', level: 'Developing' },
           { name: 'Program/Course Delivery and Administration', level: 'Developing' },
           { name: 'Learning Facilitation', level: 'Developing' },
+          { name: 'Competency Development and Validation', level: 'Developing' },
         ],
       },
       {
@@ -900,6 +901,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Learning and Development Section',
         competencies: [
           { name: 'Program/Course Delivery and Administration', level: 'Emerging' },
+          { name: 'Records and Information Management', level: 'Emerging' },
         ],
       },
       {
@@ -918,6 +920,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Learning and Development Planning', level: 'Developing' },
           { name: 'Program/Course Delivery and Administration', level: 'Developing' },
+          { name: 'Learning Measurement and Evaluation', level: 'Developing' },
           { name: 'Travel Management', level: 'Developing' },
         ],
       },
@@ -943,6 +946,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Scholarship and Travel Management Section',
         competencies: [
           { name: 'Travel Management', level: 'Emerging' },
+          { name: 'Records and Information Management', level: 'Emerging' },
         ],
       },
       {
@@ -979,6 +983,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Performance Management', level: 'Emerging' },
           { name: 'Stakeholder Development and Engagement', level: 'Emerging' },
+          { name: 'Records and Information Management', level: 'Emerging' },
         ],
       },
     ],
