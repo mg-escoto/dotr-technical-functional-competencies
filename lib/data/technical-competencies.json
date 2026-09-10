@@ -3290,7 +3290,7 @@
         "dimensions": [
           {
             "name": "RSP Policy and Governance",
-            "definition": "Ability to understand, apply, review and improve RSP policies, guidelines and processes within applicable CSC, DBM and Department requirements.",
+            "definition": "Ability to understand, apply, review and improve Recruitment, Selection and Placement (RSP) policies, guidelines and processes within applicable Civil Service Commission (CSC), Department of Budget and Management (DBM) and Department requirements.",
             "levels": {
               "Emerging": "Refers to applicable RSP policies and follows established procedures with guidance.",
               "Developing": "Applies RSP policies to routine transactions and identifies when clarification is needed.",
@@ -3320,7 +3320,7 @@
           },
           {
             "name": "Selection, Assessment and Placement",
-            "definition": "Ability to evaluate applicants against qualification standards, job requirements and competency criteria and provide technical/secretariat support to the PSB and appointing authority.",
+            "definition": "Ability to evaluate applicants against qualification standards, job requirements and competency criteria and provide technical/secretariat support to the Personnel Selection Board (PSB) and appointing authority.",
             "levels": {
               "Emerging": "Applies qualification standards and prescribed selection procedures with guidance.",
               "Developing": "Independently screens applicants and supports routine assessment, PSB documentation and placement requirements.",
@@ -3442,7 +3442,7 @@
           },
           {
             "name": "Succession, Engagement and Employee Lifecycle Support",
-            "definition": "Ability to support succession, engagement, retention and employee-lifecycle activities within HRMD’s assigned scope.",
+            "definition": "Ability to support succession, engagement, retention and employee-lifecycle activities within the Human Resource Management Division's (HRMD) assigned scope.",
             "levels": {
               "Emerging": "Supports assigned succession, engagement or employee-lifecycle activities using established procedures.",
               "Developing": "Independently coordinates routine lifecycle, engagement and succession requirements.",
@@ -3544,7 +3544,7 @@
           },
           {
             "name": "HRIS and Personnel Information Management",
-            "definition": "Ability to maintain and use authorized personnel information systems and HR data to support HR services and transactions.",
+            "definition": "Ability to maintain and use authorized personnel information systems, including the Human Resource Information System (HRIS), and HR data to support HR services and transactions.",
             "levels": {
               "Emerging": "Uses prescribed manual/electronic HR records systems with guidance.",
               "Developing": "Independently maintains and retrieves HR information using authorized systems and responds to routine HRIS requests.",
@@ -3646,12 +3646,22 @@
           },
           {
             "name": "Quality, Timeliness and Compliance",
-            "definition": "Ability to ensure HR deliverables meet prescribed quality, documentary and service-standard requirements, including applicable ARTA timelines. HR Coordination and Compliance Assurance Ability to coordinate with internal units, management, CSC, DBM and other relevant offices/agencies and follow through on compliance requirements.",
+            "definition": "Ability to ensure HR deliverables meet prescribed quality, documentary and service-standard requirements, including applicable Anti-Red Tape Authority (ARTA) timelines.",
             "levels": {
-              "Emerging": "Tracks assigned deliverables and meets prescribed timelines with guidance. Provides information and follows coordination procedures with guidance.",
-              "Developing": "Independently manages routine transactions and consistently meets service standards. Independently coordinates routine submissions, meetings and follow-up actions.",
-              "Proficient": "Manages complex workloads, resolves causes of delay and maintains quality/compliance. Manages complex coordination and resolves deficiencies or compliance issues.",
-              "Advanced": "Establishes stronger service controls and systems that sustain timely, reliable and compliant HR delivery. Provides strategic direction on cross-office/agency coordination and strengthens compliance mechanisms."
+              "Emerging": "Tracks assigned deliverables and meets prescribed timelines with guidance.",
+              "Developing": "Independently manages routine transactions and consistently meets service standards.",
+              "Proficient": "Manages complex workloads, resolves causes of delay and maintains quality/compliance.",
+              "Advanced": "Establishes stronger service controls and systems that sustain timely, reliable and compliant HR delivery."
+            }
+          },
+          {
+            "name": "HR Coordination and Compliance Assurance",
+            "definition": "Ability to coordinate with internal units, management, CSC, DBM and other relevant offices/agencies and follow through on compliance requirements.",
+            "levels": {
+              "Emerging": "Provides information and follows coordination procedures with guidance.",
+              "Developing": "Independently coordinates routine submissions, meetings and follow-up actions.",
+              "Proficient": "Manages complex coordination and resolves deficiencies or compliance issues.",
+              "Advanced": "Provides strategic direction on cross-office/agency coordination and strengthens compliance mechanisms."
             }
           },
           {
