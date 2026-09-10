@@ -1036,9 +1036,9 @@
             "name": "Disbursement Voucher and Supporting-Document Processing",
             "definition": "Ability to receive, review, validate, and process approved Disbursement Vouchers and complete supporting documents.",
             "levels": {
-              "Emerging": "Checks assigned DVs and supporting documents against prescribed requirements with guidance.",
-              "Developing": "Processes routine DVs and verifies completeness, signatures, and required supporting documents.",
-              "Proficient": "Reviews complex DV transactions, identifies deficiencies, and resolves or escalates exceptions before processing.",
+              "Emerging": "Checks assigned Disbursement Vouchers (DVs) and supporting documents against prescribed requirements with guidance.",
+              "Developing": "Processes routine Disbursement Vouchers (DVs) and verifies completeness, signatures, and required supporting documents.",
+              "Proficient": "Reviews complex Disbursement Voucher (DV) transactions, identifies deficiencies, and resolves or escalates exceptions before processing.",
               "Advanced": "Provides technical direction on complex payment-document issues and improves controls that prevent recurring errors."
             }
           },
@@ -1121,7 +1121,7 @@
         ]
       },
       {
-        "name": "Financial Reporting, Reconciliation and COA Compliance",
+        "name": "Financial Reporting, Reconciliation and Commission on Audit (COA) Compliance",
         "definition": "The ability to prepare, review, reconcile, validate, and submit financial and accountability reports accurately and within prescribed deadlines, including reports relating to checks, official receipts, collections, cash allocation, NCA utilization, and disbursements.",
         "dimensions": [
           {
@@ -1145,8 +1145,8 @@
             }
           },
           {
-            "name": "COA and Regulatory Report Submission",
-            "definition": "Ability to validate, sign/route, and submit required reports to COA and other authorized recipients within prescribed deadlines.",
+            "name": "Commission on Audit (COA) and Regulatory Report Submission",
+            "definition": "Ability to validate, sign/route, and submit required reports to Commission on Audit (COA) and other authorized recipients within prescribed deadlines.",
             "levels": {
               "Emerging": "Prepares assigned supporting documents for submission with guidance.",
               "Developing": "Processes routine reports for timely and accurate submission.",
@@ -3566,7 +3566,7 @@
     "competencies": [
       {
         "name": "Government Procurement Systems and Regulatory Compliance",
-        "definition": "The ability to implement and administer government procurement requirements and related regulatory processes in accordance with applicable procurement laws, rules, regulations, COA requirements, and Department procedures, including contract-document posting, transparency, blacklisting, and regulatory submissions.",
+        "definition": "The ability to implement and administer government procurement requirements and related regulatory processes in accordance with applicable procurement laws, rules, regulations, Commission on Audit (COA) requirements, and Department procedures, including contract-document posting, transparency, blacklisting, and regulatory submissions.",
         "dimensions": [
           {
             "name": "Procurement Law and Regulatory Application",
@@ -3590,7 +3590,7 @@
           },
           {
             "name": "Transparency and Regulatory Reporting",
-            "definition": "Ability to comply with transparency and reporting requirements through the DOTr website, Modernized PhilGEPS, COA, DepDev, and other prescribed channels.",
+            "definition": "Ability to comply with transparency and reporting requirements through the DOTr website, Modernized PhilGEPS, Commission on Audit (COA), DepDev, and other prescribed channels.",
             "levels": {
               "Emerging": "Identifies routine submission requirements and follows prescribed processes.",
               "Developing": "Completes routine website, PhilGEPS, and regulatory submissions accurately and on time.",
@@ -3692,7 +3692,7 @@
           },
           {
             "name": "Records Compliance and Reporting",
-            "definition": "Ability to maintain and submit required records and supporting documents to COA, DepDev, end-users, and other authorized recipients.",
+            "definition": "Ability to maintain and submit required records and supporting documents to Commission on Audit (COA), DepDev, end-users, and other authorized recipients.",
             "levels": {
               "Emerging": "Prepares routine records and supporting documents for submission with guidance.",
               "Developing": "Processes routine submissions and maintains evidence of transmittal or receipt.",
@@ -3728,7 +3728,7 @@
           },
           {
             "name": "Stakeholder Coordination",
-            "definition": "Ability to coordinate effectively with end-users, PMOs, ProcMS offices, COA, DepDev, and other stakeholders.",
+            "definition": "Ability to coordinate effectively with end-users, PMOs, ProcMS offices, Commission on Audit (COA), DepDev, and other stakeholders.",
             "levels": {
               "Emerging": "Coordinates routine matters with guidance and follows up on assigned actions.",
               "Developing": "Independently coordinates routine requirements and clarifies information.",

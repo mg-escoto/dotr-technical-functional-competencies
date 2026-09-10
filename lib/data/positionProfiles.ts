@@ -37,7 +37,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Cash Disbursement and Payment Processing', level: 'Advanced' },
           { name: 'Cash Collection, Deposit and Accountability Management', level: 'Advanced' },
-          { name: 'Financial Reporting, Reconciliation and COA Compliance', level: 'Advanced' },
+          { name: 'Financial Reporting, Reconciliation and Commission on Audit (COA) Compliance', level: 'Advanced' },
           { name: 'Tax, Bond and Statutory Compliance', level: 'Advanced' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Advanced' },
         ],
@@ -48,7 +48,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Cash Disbursement and Payment Processing', level: 'Advanced' },
           { name: 'Cash Collection, Deposit and Accountability Management', level: 'Advanced' },
-          { name: 'Financial Reporting, Reconciliation and COA Compliance', level: 'Proficient' },
+          { name: 'Financial Reporting, Reconciliation and Commission on Audit (COA) Compliance', level: 'Proficient' },
           { name: 'Tax, Bond and Statutory Compliance', level: 'Advanced' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Proficient' },
         ],
@@ -67,7 +67,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Officer V',
         section: 'Reporting Section (Section Head)',
         competencies: [
-          { name: 'Financial Reporting, Reconciliation and COA Compliance', level: 'Proficient' },
+          { name: 'Financial Reporting, Reconciliation and Commission on Audit (COA) Compliance', level: 'Proficient' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Developing' },
         ],
       },
@@ -85,7 +85,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Officer III',
         section: 'Reporting Section',
         competencies: [
-          { name: 'Financial Reporting, Reconciliation and COA Compliance', level: 'Developing' },
+          { name: 'Financial Reporting, Reconciliation and Commission on Audit (COA) Compliance', level: 'Developing' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Emerging' },
         ],
       },
@@ -102,7 +102,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Officer I',
         section: 'Reporting Section',
         competencies: [
-          { name: 'Financial Reporting, Reconciliation and COA Compliance', level: 'Emerging' },
+          { name: 'Financial Reporting, Reconciliation and Commission on Audit (COA) Compliance', level: 'Emerging' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Emerging' },
         ],
       },
@@ -118,7 +118,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Assistant II',
         section: 'Reporting Section',
         competencies: [
-          { name: 'Financial Reporting, Reconciliation and COA Compliance', level: 'Emerging' },
+          { name: 'Financial Reporting, Reconciliation and Commission on Audit (COA) Compliance', level: 'Emerging' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Emerging' },
         ],
       },
