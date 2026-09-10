@@ -2610,7 +2610,7 @@
     "competencies": [
       {
         "name": "Learning and Development Planning",
-        "definition": "The ability to assess organizational, functional, and individual competency requirements; identify learning and development needs through competency assessment, performance results, and other diagnostic tools; and formulate, prioritize, schedule, and monitor competency-based learning and development interventions that align with organizational goals, strategic priorities, and workforce development requirements. This includes managing the Learning and Development Plan, Competency-Based Learning and Development Interventions (CBLDIs), Learning Calendars, and evaluation mechanisms necessary to strengthen workforce capability.",
+        "definition": "The ability to assess organizational, functional, and individual competency requirements; identify learning and development needs through competency assessment, performance results, and other diagnostic tools; and formulate, prioritize, schedule, and monitor competency-based learning and development interventions — including local training programs and local and foreign study and non-study grants — that align with organizational goals, strategic priorities, and workforce development requirements. This includes managing the Learning and Development Plan, Competency-Based Learning and Development Interventions (CBLDIs), Learning Calendars, scholarship and grant program pipelines, and evaluation mechanisms necessary to strengthen workforce capability.",
         "dimensions": [
           {
             "name": "Learning Needs Analysis",
@@ -2624,7 +2624,7 @@
           },
           {
             "name": "Competency-Based Planning",
-            "definition": "Develops interventions and development initiatives based on validated competency gaps and organizational requirements.",
+            "definition": "Develops interventions and development initiatives — including training programs and study or non-study grants — based on validated competency gaps and organizational requirements.",
             "levels": {
               "Emerging": "Assists in preparing learning intervention recommendations.",
               "Developing": "Develops proposed interventions based on identified competency gaps.",
@@ -2634,7 +2634,7 @@
           },
           {
             "name": "Learning Portfolio Management",
-            "definition": "Plans, prioritizes, schedules, and manages learning interventions through L&D Plans, CBLDIs, and Learning Calendars.",
+            "definition": "Plans, prioritizes, schedules, and manages learning interventions and development programs, including L&D Plans, CBLDIs, Learning Calendars, and local and foreign scholarship or grant pipelines.",
             "levels": {
               "Emerging": "Maintains records and schedules of planned learning activities.",
               "Developing": "Assists in preparing learning calendars and development plans.",
@@ -2845,16 +2845,6 @@
               "Proficient": "Develops recommendations and improvement plans based on learning outcomes.",
               "Advanced": "Uses evaluation findings to influence organizational learning strategies and policy decisions."
             }
-          },
-          {
-            "name": "Data Analysis",
-            "definition": "Applies quantitative and qualitative analytical methods to generate evidence-based insights, identify trends, determine organizational learning needs, and support decision-making.",
-            "levels": {
-              "Emerging": "Organizes and consolidates assessment and evaluation data from various sources.",
-              "Developing": "Conducts basic analysis of learning and evaluation data and identifies recurring trends or concerns.",
-              "Proficient": "Analyzes quantitative and qualitative data to identify learning effectiveness, competency gaps, and organizational learning needs.",
-              "Advanced": "Develops analytical frameworks and utilizes evaluation data to influence strategic learning, workforce, and organizational development decisions."
-            }
           }
         ]
       },
@@ -2900,16 +2890,6 @@
               "Developing": "Supports integration of competencies into HR development processes.",
               "Proficient": "Aligns competency frameworks with learning, performance, and talent management systems.",
               "Advanced": "Leads institutional integration of competencies into organizational systems and decision-making processes."
-            }
-          },
-          {
-            "name": "Data Analysis",
-            "definition": "Examines competency-related information and organizational data to identify trends, capability gaps, workforce development priorities, and opportunities for enhancement.",
-            "levels": {
-              "Emerging": "Compiles and organizes competency assessment results and supporting information.",
-              "Developing": "Prepares statistical summaries and preliminary analyses of competency-related data.",
-              "Proficient": "Analyzes competency assessment results, workforce trends, and capability gaps to recommend development interventions.",
-              "Advanced": "Establishes competency analytics systems and uses competency intelligence to guide strategic workforce and organizational capability development."
             }
           }
         ]
@@ -3069,16 +3049,6 @@
               "Proficient": "Reviews and endorses CES-related submissions and official communications.",
               "Advanced": "Leads organizational coordination and stakeholder engagement for CES-related requirements and initiatives."
             }
-          },
-          {
-            "name": "Compliance and Policy Adherence",
-            "definition": "Ensures that CES processes, transactions, reports, and documentation consistently comply with applicable laws, regulations, policies, standards, and reportorial requirements.",
-            "levels": {
-              "Emerging": "Maintains CES-related records and follows established policies, guidelines, and procedures.",
-              "Developing": "Monitors compliance with CES documentary, reportorial, and eligibility requirements.",
-              "Proficient": "Reviews CES transactions and reports for compliance and recommends corrective actions for identified deficiencies.",
-              "Advanced": "Establishes compliance monitoring systems and recommends improvements to ensure adherence to CES laws, regulations, and policies."
-            }
           }
         ]
       },
@@ -3118,29 +3088,19 @@
           },
           {
             "name": "Scholarship Reporting and Compliance",
-            "definition": "Maintains scholarship records, databases, status reports, and compliance with applicable policies and reportorial requirements.",
+            "definition": "Maintains scholarship records, databases, and status reports, and ensures that scholarship-related activities, applications, nominations, endorsements, and post-program requirements comply with applicable policies, guidelines, and reportorial requirements.",
             "levels": {
               "Emerging": "Maintains scholarship databases and filing systems.",
               "Developing": "Prepares scholarship reports and consolidates compliance documentation.",
               "Proficient": "Reviews scholarship reports and ensures adherence to policies and regulatory requirements.",
               "Advanced": "Directs scholarship governance, reporting systems, and policy compliance initiatives."
             }
-          },
-          {
-            "name": "Compliance and Policy Adherence",
-            "definition": "Ensures all scholarship-related activities, applications, nominations, endorsements, and post-program requirements comply with established laws, policies, guidelines, and procedures.",
-            "levels": {
-              "Emerging": "Maintains scholarship documents and ensures adherence to established application and documentation procedures.",
-              "Developing": "Monitors compliance with scholarship policies, eligibility requirements, and submission timelines.",
-              "Proficient": "Reviews scholarship transactions, applications, and post-study requirements for policy compliance and recommends corrective measures when necessary.",
-              "Advanced": "Develops compliance mechanisms and institutional controls to strengthen scholarship governance and accountability."
-            }
           }
         ]
       },
       {
         "name": "Travel Management",
-        "definition": "The ability to administer, process, monitor, evaluate, and coordinate local and foreign travel-related activities, documentation, reportorial requirements, approvals, compliance mechanisms, and monitoring systems in accordance with government regulations and Department policies.",
+        "definition": "The ability to administer, process, monitor, evaluate, and coordinate travel-related activities, documentation, reportorial requirements, approvals, compliance mechanisms, and monitoring systems in accordance with government regulations and Department policies. Primarily concerned with foreign travel arising from study and non-study grants, while also covering the local, training-related travel orders processed in support of learning and development interventions.",
         "dimensions": [
           {
             "name": "Travel Request Evaluation",
@@ -3180,16 +3140,6 @@
               "Developing": "Prepares travel monitoring reports and consolidated submissions.",
               "Proficient": "Reviews travel reports and validates information for management and oversight agencies.",
               "Advanced": "Leads travel information management, analytics, and reportorial systems."
-            }
-          },
-          {
-            "name": "Compliance and Policy Adherence",
-            "definition": "Ensures travel-related activities and documentation comply with government regulations, Department policies, audit requirements, and reportorial standards.",
-            "levels": {
-              "Emerging": "Processes travel-related documents following prescribed policies and procedures.",
-              "Developing": "Monitors compliance with travel requirements, documentary standards, and regulatory deadlines.",
-              "Proficient": "Reviews travel transactions for policy compliance and recommends improvements to strengthen travel administration.",
-              "Advanced": "Establishes compliance monitoring systems and institutional controls to ensure adherence to travel regulations and reportorial requirements."
             }
           }
         ]
@@ -3275,8 +3225,8 @@
             }
           },
           {
-            "name": "Information Governance and Reporting",
-            "definition": "Ensures compliance with records management policies, data privacy requirements, reporting standards, and information quality management practices.",
+            "name": "Information Governance and Compliance",
+            "definition": "Ensures compliance with records management policies, data privacy requirements, reporting standards, retention schedules, and information quality management practices.",
             "levels": {
               "Emerging": "Assists in preparing records-related reports and ensuring proper handling of information.",
               "Developing": "Monitors compliance with records management policies, reporting requirements, and data privacy standards.",
@@ -3292,16 +3242,6 @@
               "Developing": "Monitors record status, reporting deadlines, and submission requirements and prepares routine reports.",
               "Proficient": "Reviews records management reports, analyzes trends, and recommends improvements to reporting processes and information quality.",
               "Advanced": "Develops organizational monitoring and reporting systems that support decision-making, compliance, and strategic information management."
-            }
-          },
-          {
-            "name": "Compliance and Policy Adherence",
-            "definition": "Ensures records management practices comply with applicable records management regulations, data privacy laws, retention schedules, and internal policies.",
-            "levels": {
-              "Emerging": "Maintains records and information in accordance with established records management and data privacy requirements.",
-              "Developing": "Monitors compliance with records retention schedules, filing protocols, and information management standards.",
-              "Proficient": "Reviews records management practices for compliance and recommends corrective actions or improvements.",
-              "Advanced": "Establishes records governance frameworks and compliance systems that ensure adherence to applicable laws, regulations, standards, and organizational policies."
             }
           }
         ]
