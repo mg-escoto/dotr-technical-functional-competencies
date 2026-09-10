@@ -387,7 +387,7 @@
     "competencies": [
       {
         "name": "Cash Disbursement and Payment Processing",
-        "definition": "The ability to accurately process, review, validate, and monitor cash disbursement and payment transactions, including Disbursement Vouchers, LDDAP-ADA, checks, cash allocation, NCA utilization, and related supporting documents, within prescribed timelines and controls.",
+        "definition": "The ability to accurately process, review, validate, and monitor cash disbursement and payment transactions, including Disbursement Vouchers, List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA), checks, cash allocation, NCA utilization, and related supporting documents, within prescribed timelines and controls.",
         "dimensions": [
           {
             "name": "Disbursement Voucher and Supporting-Document Processing",
@@ -400,13 +400,13 @@
             }
           },
           {
-            "name": "LDDAP-ADA and Payment Documentation",
-            "definition": "Ability to prepare, review, transmit, and maintain LDDAP-ADA and related payment documents accurately and within prescribed timelines.",
+            "name": "List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA) and Payment Documentation",
+            "definition": "Ability to prepare, review, transmit, and maintain List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA) and related payment documents accurately and within prescribed timelines.",
             "levels": {
-              "Emerging": "Assists in preparing and checking LDDAP-ADA-related documents using established procedures.",
-              "Developing": "Processes routine LDDAP-ADA and related documents accurately and within prescribed timelines.",
-              "Proficient": "Reviews complex LDDAP-ADA/payment documentation and resolves discrepancies or incomplete requirements.",
-              "Advanced": "Strengthens payment-document controls and provides expert guidance on complex LDDAP-ADA/payment issues."
+              "Emerging": "Assists in preparing and checking List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA)-related documents using established procedures.",
+              "Developing": "Processes routine List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA) and related documents accurately and within prescribed timelines.",
+              "Proficient": "Reviews complex List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA)/payment documentation and resolves discrepancies or incomplete requirements.",
+              "Advanced": "Strengthens payment-document controls and provides expert guidance on complex List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA)/payment issues."
             }
           },
           {
