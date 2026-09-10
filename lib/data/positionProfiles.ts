@@ -413,6 +413,112 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'AMD',
+    asOf: 'Asset Management Division current organizational chart',
+    sourceNote:
+      'Built from the Asset Management Division current organizational chart combined with the ' +
+      'Asset Management Division competency framework. Permanent plantilla positions only — the ' +
+      'chart had no Job Order or Contract of Service entries to exclude. Vacant items are ' +
+      'included since they are permanent plantilla slots, just currently unfilled. Where the ' +
+      'same title/section combination is held by more than one person (two Administrative ' +
+      'Officer I under Inventory and Insurance Section), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Inventory Management', level: 'Advanced' },
+          { name: 'Property Management and Accountability', level: 'Advanced' },
+          { name: 'Asset Management System', level: 'Advanced' },
+          { name: 'Property Audit and Compliance Management', level: 'Advanced' },
+          { name: 'Property Utilization and Disposal Management', level: 'Advanced' },
+          { name: 'Property Policy Development and Governance', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Inventory Management', level: 'Advanced' },
+          { name: 'Property Management and Accountability', level: 'Advanced' },
+          { name: 'Asset Management System', level: 'Advanced' },
+          { name: 'Property Audit and Compliance Management', level: 'Advanced' },
+          { name: 'Property Utilization and Disposal Management', level: 'Advanced' },
+          { name: 'Property Policy Development and Governance', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Inventory and Insurance Section',
+        competencies: [
+          { name: 'Inventory Management', level: 'Developing' },
+          { name: 'Property Management and Accountability', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: 'Inventory and Insurance Section',
+        competencies: [
+          { name: 'Inventory Management', level: 'Developing' },
+          { name: 'Property Management and Accountability', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Inventory and Insurance Section',
+        competencies: [
+          { name: 'Inventory Management', level: 'Emerging' },
+          { name: 'Property Management and Accountability', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Inventory and Insurance Section',
+        competencies: [
+          { name: 'Inventory Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: 'Inventory and Insurance Section',
+        competencies: [
+          { name: 'Inventory Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Inspection and Disposal Section',
+        competencies: [
+          { name: 'Property Audit and Compliance Management', level: 'Proficient' },
+          { name: 'Property Utilization and Disposal Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Inspection and Disposal Section',
+        competencies: [
+          { name: 'Property Audit and Compliance Management', level: 'Emerging' },
+          { name: 'Property Utilization and Disposal Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Inspection and Disposal Section',
+        competencies: [
+          { name: 'Property Audit and Compliance Management', level: 'Emerging' },
+          { name: 'Property Utilization and Disposal Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: 'Inspection and Disposal Section',
+        competencies: [
+          { name: 'Property Utilization and Disposal Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
