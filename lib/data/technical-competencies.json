@@ -2860,6 +2860,19 @@
     "parentCode": "GSD"
   },
   {
+    "code": "MEDICAL",
+    "name": "Medical Unit",
+    "category": null,
+    "status": "under-construction",
+    "office": "Administrative Service",
+    "officeOrder": 3,
+    "parentCode": "GSD",
+    "sourceFile": null,
+    "basis": null,
+    "careerProgression": null,
+    "competencies": []
+  },
+  {
     "code": "CNSD",
     "name": "Computer and Network Systems Division",
     "category": "with-framework",
