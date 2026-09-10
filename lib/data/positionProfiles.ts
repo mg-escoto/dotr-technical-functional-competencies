@@ -563,9 +563,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'organizational chart, combined with the benchmarked Medical Unit competency framework. ' +
       'Permanent plantilla positions only — the chart had no Job Order or Contract of Service ' +
       'entries to exclude. Medical Officer IV is the ranking medical professional in the unit, so ' +
-      'all Medical Unit competencies are set to Advanced for that position. The two Nurse I items ' +
-      'share the same title and have no distinguishing section on the chart, so they are listed ' +
-      'once as a single role.',
+      'all Medical Unit competencies are set to Advanced for that position. The chart shows two ' +
+      'Nurse I items, so both are listed as separate roles below.',
     positions: [
       {
         title: 'Medical Officer IV',
@@ -577,6 +576,18 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Medical and Clinical Procedure Proficiency', level: 'Advanced' },
           { name: 'Emergency Response', level: 'Advanced' },
           { name: 'Occupational Safety', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Nurse I',
+        section: null,
+        competencies: [
+          { name: 'Patient Care', level: 'Developing' },
+          { name: 'Medical Knowledge', level: 'Developing' },
+          { name: 'Professional, Legal, and Ethical Medical Practice', level: 'Developing' },
+          { name: 'Medical and Clinical Procedure Proficiency', level: 'Developing' },
+          { name: 'Emergency Response', level: 'Developing' },
+          { name: 'Occupational Safety', level: 'Developing' },
         ],
       },
       {
