@@ -38,8 +38,11 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Cash Disbursement and Payment Processing', level: 'Advanced' },
           { name: 'Cash Collection, Deposit and Accountability Management', level: 'Advanced' },
           { name: 'Financial Reporting, Reconciliation and Regulatory Compliance', level: 'Advanced' },
-          { name: 'Tax, Bond and Statutory Compliance', level: 'Advanced' },
+          { name: 'Tax, Fidelity Bond and Statutory Compliance', level: 'Advanced' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Advanced' },
+          { name: 'Digital Treasury and Electronic Payment Operations', level: 'Advanced' },
+          { name: 'Cash Operations Coordination and Banking Liaison', level: 'Advanced' },
+          { name: 'Internal Control and Cash Management Process Improvement', level: 'Advanced' },
         ],
       },
       {
@@ -49,8 +52,11 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Cash Disbursement and Payment Processing', level: 'Advanced' },
           { name: 'Cash Collection, Deposit and Accountability Management', level: 'Advanced' },
           { name: 'Financial Reporting, Reconciliation and Regulatory Compliance', level: 'Proficient' },
-          { name: 'Tax, Bond and Statutory Compliance', level: 'Advanced' },
+          { name: 'Tax, Fidelity Bond and Statutory Compliance', level: 'Advanced' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Proficient' },
+          { name: 'Digital Treasury and Electronic Payment Operations', level: 'Advanced' },
+          { name: 'Cash Operations Coordination and Banking Liaison', level: 'Advanced' },
+          { name: 'Internal Control and Cash Management Process Improvement', level: 'Proficient' },
         ],
       },
       {
@@ -59,8 +65,11 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Cash Disbursement and Payment Processing', level: 'Proficient' },
           { name: 'Cash Collection, Deposit and Accountability Management', level: 'Proficient' },
-          { name: 'Tax, Bond and Statutory Compliance', level: 'Developing' },
+          { name: 'Tax, Fidelity Bond and Statutory Compliance', level: 'Developing' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Developing' },
+          { name: 'Digital Treasury and Electronic Payment Operations', level: 'Proficient' },
+          { name: 'Cash Operations Coordination and Banking Liaison', level: 'Proficient' },
+          { name: 'Internal Control and Cash Management Process Improvement', level: 'Developing' },
         ],
       },
       {
@@ -69,6 +78,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Financial Reporting, Reconciliation and Regulatory Compliance', level: 'Proficient' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Developing' },
+          { name: 'Internal Control and Cash Management Process Improvement', level: 'Developing' },
         ],
       },
       {
@@ -77,8 +87,10 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Cash Disbursement and Payment Processing', level: 'Developing' },
           { name: 'Cash Collection, Deposit and Accountability Management', level: 'Developing' },
-          { name: 'Tax, Bond and Statutory Compliance', level: 'Emerging' },
+          { name: 'Tax, Fidelity Bond and Statutory Compliance', level: 'Emerging' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Emerging' },
+          { name: 'Digital Treasury and Electronic Payment Operations', level: 'Developing' },
+          { name: 'Cash Operations Coordination and Banking Liaison', level: 'Developing' },
         ],
       },
       {
@@ -96,6 +108,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Cash Disbursement and Payment Processing', level: 'Emerging' },
           { name: 'Cash Collection, Deposit and Accountability Management', level: 'Emerging' },
           { name: 'Financial Documentation, Reportorial and Organizational Support', level: 'Emerging' },
+          { name: 'Digital Treasury and Electronic Payment Operations', level: 'Emerging' },
         ],
       },
       {
