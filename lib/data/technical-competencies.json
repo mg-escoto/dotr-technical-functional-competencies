@@ -2610,7 +2610,7 @@
     "competencies": [
       {
         "name": "Learning and Development Planning",
-        "definition": "The ability to assess organizational, functional, and individual competency requirements; identify learning and development needs through competency assessment, performance results, and other diagnostic tools; and formulate, prioritize, schedule, and monitor competency-based learning and development interventions — including local training programs and local and foreign study and non-study grants — that align with organizational goals, strategic priorities, and workforce development requirements. This includes managing the Learning and Development Plan, Competency-Based Learning and Development Interventions (CBLDIs), Learning Calendars, learning and development program pipelines, and evaluation mechanisms necessary to strengthen workforce capability.",
+        "definition": "The ability to assess organizational, functional, and individual competency requirements; identify learning and development needs through competency assessment, performance results, and other diagnostic tools; and formulate, prioritize, schedule, and monitor competency-based learning and development interventions — including local training programs and local and foreign study and non-study grants — that align with organizational goals, strategic priorities, and workforce development requirements. This includes managing the Learning and Development Plan, Competency-Based Learning and Development Interventions (CBLDIs), Learning Calendars, local and foreign study and non-study grant pipelines, and evaluation mechanisms necessary to strengthen workforce capability.",
         "dimensions": [
           {
             "name": "Learning Needs Analysis",
@@ -2634,7 +2634,7 @@
           },
           {
             "name": "Learning Portfolio Management",
-            "definition": "Plans, prioritizes, schedules, and manages learning interventions and development programs, including L&D Plans, CBLDIs, Learning Calendars, and local and foreign learning and development pipelines.",
+            "definition": "Plans, prioritizes, schedules, and manages learning interventions and development programs, including L&D Plans, CBLDIs, Learning Calendars, and local and foreign study and non-study grant pipelines.",
             "levels": {
               "Emerging": "Maintains records and schedules of planned learning activities.",
               "Developing": "Assists in preparing learning calendars and development plans.",
@@ -2654,7 +2654,7 @@
           },
           {
             "name": "Learning and Development Processing",
-            "definition": "Manages the evaluation, screening, validation, and endorsement of learning and development program applications.",
+            "definition": "Manages the evaluation, screening, validation, and endorsement of applications for local and foreign study and non-study grants.",
             "levels": {
               "Emerging": "Assists in receiving, organizing, and validating learning and development application documents.",
               "Developing": "Screens applications and verifies compliance with qualification requirements.",
@@ -2766,7 +2766,7 @@
           },
           {
             "name": "Learning and Development Coordination",
-            "definition": "Facilitates communication and coordination among applicants, development partners, oversight bodies, and internal stakeholders.",
+            "definition": "Facilitates communication and coordination among applicants, development partners, oversight bodies, and internal stakeholders for local and foreign study and non-study grants.",
             "levels": {
               "Emerging": "Assists in disseminating learning and development opportunities and communicating requirements.",
               "Developing": "Coordinates with applicants, offices, and development partners regarding learning and development processes.",
@@ -2858,12 +2858,12 @@
           },
           {
             "name": "Evaluation Reporting",
-            "definition": "Develops reports, recommendations, and action plans based on evaluation findings, and maintains learning and development-related records, databases, and status reports in compliance with applicable policies and reportorial requirements.",
+            "definition": "Develops reports, recommendations, and action plans based on evaluation findings, and maintains records, databases, and status reports for local and foreign study and non-study grants, in compliance with applicable policies and reportorial requirements.",
             "levels": {
-              "Emerging": "Assists in preparing evaluation summaries, reports, and learning and development status records.",
-              "Developing": "Prepares evaluation reports and presents findings, including learning and development status and compliance reports.",
-              "Proficient": "Develops recommendations and improvement plans based on learning outcomes, and ensures learning and development-related reports comply with applicable policies and requirements.",
-              "Advanced": "Uses evaluation findings to influence organizational learning strategies and policy decisions, and directs learning and development reporting and compliance systems."
+              "Emerging": "Assists in preparing evaluation summaries, reports, and study and non-study grant status records.",
+              "Developing": "Prepares evaluation reports and presents findings, including study and non-study grant status and compliance reports.",
+              "Proficient": "Develops recommendations and improvement plans based on learning outcomes, and ensures study and non-study grant reports comply with applicable policies and requirements.",
+              "Advanced": "Uses evaluation findings to influence organizational learning strategies and policy decisions, and directs study and non-study grant reporting and compliance systems."
             }
           },
           {
@@ -2873,7 +2873,7 @@
               "Emerging": "Maintains records of post-study requirements and compliance submissions.",
               "Developing": "Monitors submission of post-training reports, Re-Entry Action Plans (REAPs), and related requirements.",
               "Proficient": "Reviews implementation status of post-study commitments and recommends interventions.",
-              "Advanced": "Establishes monitoring frameworks and evaluates organizational impact of learning and development programs."
+              "Advanced": "Establishes monitoring frameworks and evaluates organizational impact of study and non-study grant programs."
             }
           }
         ]
@@ -2930,7 +2930,7 @@
         "dimensions": [
           {
             "name": "Policy Development and Management",
-            "definition": "Formulates, reviews, improves, and implements HRDD policies, guidelines, systems, and procedures.",
+            "definition": "Formulates, reviews, improves, and implements Human Resource Development Division (HRDD) policies, guidelines, systems, and procedures.",
             "levels": {
               "Emerging": "Assists in consolidating reference materials and supporting documents for policy development.",
               "Developing": "Assists in drafting, reviewing, and communicating policies, guidelines, and procedures.",
