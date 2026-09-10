@@ -3397,6 +3397,52 @@
         ]
       },
       {
+        "name": "Leave Management",
+        "definition": "The ability to administer, process, monitor, and report employee leave applications, credits, and entitlements in accordance with Civil Service Commission (CSC) rules, Department policies, and applicable leave laws and regulations.",
+        "dimensions": [
+          {
+            "name": "Leave Application Processing",
+            "definition": "Ability to receive, validate, and process leave applications and supporting documentary requirements in accordance with applicable leave rules and policies.",
+            "levels": {
+              "Emerging": "Assists in receiving and organizing leave application documents.",
+              "Developing": "Validates leave applications and supporting documents for completeness and eligibility.",
+              "Proficient": "Reviews complex leave applications and resolves eligibility or documentary issues.",
+              "Advanced": "Establishes systems and standards governing leave application processing."
+            }
+          },
+          {
+            "name": "Leave Credit and Balance Management",
+            "definition": "Ability to compute, monitor, and reconcile leave credits, balances, and monetization requirements for employees.",
+            "levels": {
+              "Emerging": "Maintains leave records and tracks credit balances with guidance.",
+              "Developing": "Computes and validates leave credits, balances, and monetization amounts for routine cases.",
+              "Proficient": "Reviews complex leave credit computations and resolves discrepancies.",
+              "Advanced": "Establishes leave credit management systems and standards to ensure accuracy and compliance."
+            }
+          },
+          {
+            "name": "Leave Policy Application and Compliance",
+            "definition": "Ability to interpret and apply applicable CSC leave rules, special leave laws, and Department policies to employee leave transactions.",
+            "levels": {
+              "Emerging": "Refers to applicable leave policies and follows established procedures with guidance.",
+              "Developing": "Applies leave policies to routine transactions and identifies when clarification is needed.",
+              "Proficient": "Interprets complex leave policy issues and recommends appropriate action.",
+              "Advanced": "Leads review and enhancement of leave policies and procedures in response to regulatory or organizational changes."
+            }
+          },
+          {
+            "name": "Leave Records and Reportorial Compliance",
+            "definition": "Ability to maintain accurate leave records and prepare timely leave reports and submissions required by oversight agencies and management.",
+            "levels": {
+              "Emerging": "Maintains leave records and filing systems.",
+              "Developing": "Prepares leave reports and consolidates supporting documentation.",
+              "Proficient": "Reviews leave reports and ensures adherence to reportorial and regulatory requirements.",
+              "Advanced": "Directs leave records governance and reporting systems that support compliance and decision-making."
+            }
+          }
+        ]
+      },
+      {
         "name": "Employee Relations, Welfare, Discipline, and Succession Planning",
         "definition": "The ability to establish and execute employee-relations practices that promote a fair, respectful, and supportive workplace through employee welfare, conflict management, discipline, engagement, succession, and employee-lifecycle support.",
         "dimensions": [
