@@ -3285,22 +3285,22 @@
     "careerProgression": null,
     "competencies": [
       {
-        "name": "Recruitment, Selection and Placement",
-        "definition": "The ability to establish, enhance and execute fair, competency-based and policy-compliant recruitment, selection and placement systems and practices to support the Department’s workforce requirements and strategic goals.",
+        "name": "Recruitment, Selection, and Placement",
+        "definition": "The ability to establish, enhance, and execute fair, competency-based, and policy-compliant recruitment, selection, and placement systems and practices to support the Department’s workforce requirements and strategic goals.",
         "dimensions": [
           {
             "name": "RSP Policy and Governance",
-            "definition": "Ability to understand, apply, review and improve Recruitment, Selection and Placement (RSP) policies, guidelines and processes within applicable Civil Service Commission (CSC), Department of Budget and Management (DBM) and Department requirements.",
+            "definition": "Ability to understand, apply, review, and improve Recruitment, Selection, and Placement (RSP) policies, guidelines, and processes within applicable Civil Service Commission (CSC), Department of Budget, and Management (DBM) and Department requirements.",
             "levels": {
               "Emerging": "Refers to applicable RSP policies and follows established procedures with guidance.",
               "Developing": "Applies RSP policies to routine transactions and identifies when clarification is needed.",
-              "Proficient": "Reviews complex RSP issues, interprets requirements and recommends process improvements.",
+              "Proficient": "Reviews complex RSP issues, interprets requirements, and recommends process improvements.",
               "Advanced": "Leads proactive review and enhancement of RSP policies/processes in response to strategic workforce needs."
             }
           },
           {
             "name": "Workforce and Recruitment Planning",
-            "definition": "Ability to translate approved staffing requirements, vacancies and workforce information into recruitment plans, sourcing activities and placement actions.",
+            "definition": "Ability to translate approved staffing requirements, vacancies, and workforce information into recruitment plans, sourcing activities, and placement actions.",
             "levels": {
               "Emerging": "Uses approved staffing information to support routine vacancy-filling activities with guidance.",
               "Developing": "Independently prepares routine recruitment schedules/plans for approved vacancies.",
@@ -3315,38 +3315,38 @@
               "Emerging": "Assists in posting vacancies and using prescribed recruitment channels.",
               "Developing": "Independently uses appropriate internal/external sourcing channels for routine vacancies.",
               "Proficient": "Evaluates sourcing effectiveness and develops targeted approaches for difficult or specialized vacancies.",
-              "Advanced": "Leads proactive talent-attraction strategies, talent pooling or employer-branding initiatives within assigned authority."
+              "Advanced": "Leads proactive talent-attraction strategies, talent pooling, or employer-branding initiatives within assigned authority."
             }
           },
           {
-            "name": "Selection, Assessment and Placement",
-            "definition": "Ability to evaluate applicants against qualification standards, job requirements and competency criteria and provide technical/secretariat support to the Personnel Selection Board (PSB) and appointing authority.",
+            "name": "Selection, Assessment, and Placement",
+            "definition": "Ability to evaluate applicants against qualification standards, job requirements, and competency criteria and provide technical/secretariat support to the Personnel Selection Board (PSB) and appointing authority.",
             "levels": {
               "Emerging": "Applies qualification standards and prescribed selection procedures with guidance.",
-              "Developing": "Independently screens applicants and supports routine assessment, PSB documentation and placement requirements.",
+              "Developing": "Independently screens applicants and supports routine assessment, PSB documentation, and placement requirements.",
               "Proficient": "Handles complex candidate assessment and provides sound technical advice to PSB/hiring managers.",
-              "Advanced": "Provides expert direction on competency-based selection systems, assessment methods and placement processes."
+              "Advanced": "Provides expert direction on competency-based selection systems, assessment methods, and placement processes."
             }
           },
           {
             "name": "Equal Employment Opportunity and Onboarding",
-            "definition": "Ability to apply fair and inclusive selection principles and facilitate onboarding and placement activities that support adjustment, role understanding and organizational integration.",
+            "definition": "Ability to apply fair and inclusive selection principles and facilitate onboarding and placement activities that support adjustment, role understanding, and organizational integration.",
             "levels": {
               "Emerging": "Applies prescribed fair-selection and onboarding requirements with guidance.",
-              "Developing": "Independently coordinates routine inclusive recruitment, placement and orientation activities.",
-              "Proficient": "Reviews selection/onboarding practices and recommends improvements for fairness, accessibility and employee adjustment.",
-              "Advanced": "Leads integrated, fair and inclusive RSP/onboarding improvements aligned with workforce strategy."
+              "Developing": "Independently coordinates routine inclusive recruitment, placement, and orientation activities.",
+              "Proficient": "Reviews selection/onboarding practices and recommends improvements for fairness, accessibility, and employee adjustment.",
+              "Advanced": "Leads integrated, fair, and inclusive RSP/onboarding improvements aligned with workforce strategy."
             }
           }
         ]
       },
       {
         "name": "Compensation and Benefits Management",
-        "definition": "The ability to administer, review and improve compensation and benefits systems and services in accordance with applicable policies, rules and regulations while promoting accuracy, equity, timeliness and responsive employee service.",
+        "definition": "The ability to administer, review, and improve compensation and benefits systems and services in accordance with applicable policies, rules, and regulations while promoting accuracy, equity, timeliness, and responsive employee service.",
         "dimensions": [
           {
             "name": "Compensation and Benefits Policy Application",
-            "definition": "Ability to interpret and apply applicable compensation, benefits, salary and entitlement policies, rules, issuances and standards.",
+            "definition": "Ability to interpret and apply applicable compensation, benefits, salary, and entitlement policies, rules, issuances, and standards.",
             "levels": {
               "Emerging": "Identifies applicable requirements and performs routine processing with guidance.",
               "Developing": "Independently applies established policies to routine compensation and benefits transactions.",
@@ -3356,9 +3356,9 @@
           },
           {
             "name": "Compensation and Benefits Administration",
-            "definition": "Ability to process, validate and coordinate salaries, adjustments, benefits, entitlements and related employee transactions.",
+            "definition": "Ability to process, validate, and coordinate salaries, adjustments, benefits, entitlements, and related employee transactions.",
             "levels": {
-              "Emerging": "Assists in processing routine salary, adjustment, benefit and entitlement transactions.",
+              "Emerging": "Assists in processing routine salary, adjustment, benefit, and entitlement transactions.",
               "Developing": "Independently processes routine transactions and coordinates deficiencies or clarifications.",
               "Proficient": "Resolves complex compensation/benefits cases and coordinates corrective action across concerned offices.",
               "Advanced": "Improves controls and service mechanisms for high-volume or high-impact compensation and benefits processes."
@@ -3366,12 +3366,12 @@
           },
           {
             "name": "Benefits Advisory and Employee Assistance",
-            "definition": "Ability to provide accurate information and appropriate assistance to employees regarding benefits, entitlements and compensation-related concerns.",
+            "definition": "Ability to provide accurate information and appropriate assistance to employees regarding benefits, entitlements, and compensation-related concerns.",
             "levels": {
               "Emerging": "Provides basic information using approved references with guidance.",
               "Developing": "Responds independently to routine employee benefit and compensation queries.",
               "Proficient": "Provides accurate guidance on complex employee concerns and identifies appropriate escalation or resolution paths.",
-              "Advanced": "Establishes or improves employee-assistance approaches that strengthen consistency, accessibility and service quality."
+              "Advanced": "Establishes or improves employee-assistance approaches that strengthen consistency, accessibility, and service quality."
             }
           },
           {
@@ -3381,28 +3381,28 @@
               "Emerging": "Organizes compensation information and identifies obvious discrepancies with guidance.",
               "Developing": "Independently prepares routine compensation information and technical inputs.",
               "Proficient": "Conducts more complex analysis and develops evidence-based recommendations on equity or emerging issues.",
-              "Advanced": "Provides expert analytical support for compensation policy, planning and system improvements."
+              "Advanced": "Provides expert analytical support for compensation policy, planning, and system improvements."
             }
           },
           {
-            "name": "Compliance, Reporting and Records",
-            "definition": "Ability to maintain accurate supporting records and prepare timely compensation and benefits reports, submissions and documentary requirements.",
+            "name": "Compliance, Reporting, and Records",
+            "definition": "Ability to maintain accurate supporting records and prepare timely compensation and benefits reports, submissions, and documentary requirements.",
             "levels": {
               "Emerging": "Maintains routine records and prepares required reports with guidance.",
               "Developing": "Independently completes routine reports and maintains supporting evidence.",
-              "Proficient": "Reviews complex reports, validates data and resolves material discrepancies.",
+              "Proficient": "Reviews complex reports, validates data, and resolves material discrepancies.",
               "Advanced": "Establishes stronger compliance/reporting controls and improves information reliability for management decisions."
             }
           }
         ]
       },
       {
-        "name": "Employee Relations, Welfare, Discipline and Succession Planning",
-        "definition": "The ability to establish and execute employee-relations practices that promote a fair, respectful and supportive workplace through employee welfare, conflict management, discipline, engagement, succession and employee-lifecycle support.",
+        "name": "Employee Relations, Welfare, Discipline, and Succession Planning",
+        "definition": "The ability to establish and execute employee-relations practices that promote a fair, respectful, and supportive workplace through employee welfare, conflict management, discipline, engagement, succession, and employee-lifecycle support.",
         "dimensions": [
           {
             "name": "Employee Relations and Workplace Concerns",
-            "definition": "Ability to address employee concerns, grievances and workplace-relations matters using fair and appropriate HR processes.",
+            "definition": "Ability to address employee concerns, grievances, and workplace-relations matters using fair and appropriate HR processes.",
             "levels": {
               "Emerging": "Applies established employee-relations procedures with close guidance.",
               "Developing": "Independently handles routine employee concerns and refers complex matters appropriately.",
@@ -3412,7 +3412,7 @@
           },
           {
             "name": "Conflict Management and Dispute Resolution",
-            "definition": "Ability to prevent, manage and resolve workplace conflicts and disputes through structured, impartial and constructive approaches.",
+            "definition": "Ability to prevent, manage, and resolve workplace conflicts and disputes through structured, impartial, and constructive approaches.",
             "levels": {
               "Emerging": "Uses prescribed approaches to document and refer routine conflicts with guidance.",
               "Developing": "Independently supports routine conflict resolution and facilitates appropriate coordination.",
@@ -3422,31 +3422,31 @@
           },
           {
             "name": "Employee Welfare and Support",
-            "definition": "Ability to implement employee-welfare, incentive and workplace-support policies and services.",
+            "definition": "Ability to implement employee-welfare, incentive, and workplace-support policies and services.",
             "levels": {
               "Emerging": "Implements welfare and support policies with close supervision.",
-              "Developing": "Independently implements routine welfare, incentive and employee-support procedures.",
+              "Developing": "Independently implements routine welfare, incentive, and employee-support procedures.",
               "Proficient": "Guides others on complex welfare concerns and recommends targeted improvements.",
-              "Advanced": "Oversees welfare implementation, makes informed decisions and introduces service enhancements."
+              "Advanced": "Oversees welfare implementation, makes informed decisions, and introduces service enhancements."
             }
           },
           {
             "name": "Employee Discipline and Administrative Action",
-            "definition": "Ability to apply and coordinate procedures on employee conduct, decorum, investigation and administrative action within assigned authority.",
+            "definition": "Ability to apply and coordinate procedures on employee conduct, decorum, investigation, and administrative action within assigned authority.",
             "levels": {
-              "Emerging": "Applies conduct, decorum and administrative procedures with close supervision.",
+              "Emerging": "Applies conduct, decorum, and administrative procedures with close supervision.",
               "Developing": "Independently applies prescribed procedures to routine discipline matters.",
               "Proficient": "Handles complex investigation/process issues and guides others on proper procedures.",
-              "Advanced": "Oversees complex discipline processes, provides expert direction and strengthens procedural controls."
+              "Advanced": "Oversees complex discipline processes, provides expert direction, and strengthens procedural controls."
             }
           },
           {
-            "name": "Succession, Engagement and Employee Lifecycle Support",
-            "definition": "Ability to support succession, engagement, retention and employee-lifecycle activities within the Human Resource Management Division's (HRMD) assigned scope.",
+            "name": "Succession, Engagement, and Employee Lifecycle Support",
+            "definition": "Ability to support succession, engagement, retention, and employee-lifecycle activities within the Human Resource Management Division's (HRMD) assigned scope.",
             "levels": {
-              "Emerging": "Supports assigned succession, engagement or employee-lifecycle activities using established procedures.",
-              "Developing": "Independently coordinates routine lifecycle, engagement and succession requirements.",
-              "Proficient": "Analyzes workforce/employee information and recommends targeted engagement, retention or succession measures.",
+              "Emerging": "Supports assigned succession, engagement, or employee-lifecycle activities using established procedures.",
+              "Developing": "Independently coordinates routine lifecycle, engagement, and succession requirements.",
+              "Proficient": "Analyzes workforce/employee information and recommends targeted engagement, retention, or succession measures.",
               "Advanced": "Provides strategic direction on assigned succession/lifecycle systems and organizational continuity improvements."
             }
           }
@@ -3454,11 +3454,11 @@
       },
       {
         "name": "Rewards and Recognition Management",
-        "definition": "The ability to plan, implement, monitor and improve rewards and recognition programs that fairly recognize employee performance, innovation, exemplary behavior and service in accordance with applicable policies and organizational goals.",
+        "definition": "The ability to plan, implement, monitor, and improve rewards and recognition programs that fairly recognize employee performance, innovation, exemplary behavior, and service in accordance with applicable policies and organizational goals.",
         "dimensions": [
           {
             "name": "R&R Policy and Governance",
-            "definition": "Ability to understand, review and improve rewards and recognition policies, guidelines and processes.",
+            "definition": "Ability to understand, review, and improve rewards and recognition policies, guidelines, and processes.",
             "levels": {
               "Emerging": "Refers to applicable R&R policies and guidelines in performing assigned activities.",
               "Developing": "Reviews routine R&R processes and refines them to meet agency requirements.",
@@ -3468,7 +3468,7 @@
           },
           {
             "name": "R&R Planning and Program Development",
-            "definition": "Ability to plan and develop R&R programs aligned with policy requirements, organizational needs and available resources.",
+            "definition": "Ability to plan and develop R&R programs aligned with policy requirements, organizational needs, and available resources.",
             "levels": {
               "Emerging": "Maintains and updates information on applicable R&R programs with guidance.",
               "Developing": "Develops routine annual R&R activities and coordinates required resources.",
@@ -3478,17 +3478,17 @@
           },
           {
             "name": "R&R Screening and Selection",
-            "definition": "Ability to apply fair, objective and documented criteria and processes in identifying and selecting awardees.",
+            "definition": "Ability to apply fair, objective, and documented criteria and processes in identifying and selecting awardees.",
             "levels": {
               "Emerging": "Maintains records and follows prescribed screening and selection criteria.",
               "Developing": "Collaborates with the R&R Committee in applying routine criteria/processes.",
               "Proficient": "Develops criteria that consider relevant HR and stakeholder inputs and evidence.",
-              "Advanced": "Leads proactive review of criteria/processes to ensure fairness, consistency and objectivity."
+              "Advanced": "Leads proactive review of criteria/processes to ensure fairness, consistency, and objectivity."
             }
           },
           {
             "name": "R&R Communication and Employee Engagement",
-            "definition": "Ability to implement, explain and promote R&R policies, programs and criteria to officials and employees.",
+            "definition": "Ability to implement, explain, and promote R&R policies, programs, and criteria to officials and employees.",
             "levels": {
               "Emerging": "Assists in disseminating R&R policies and program information.",
               "Developing": "Independently communicates routine R&R requirements and supports implementation.",
@@ -3497,12 +3497,12 @@
             }
           },
           {
-            "name": "R&R Evaluation, Benchmarking and Improvement",
-            "definition": "Ability to monitor R&R implementation, analyze results, benchmark practices and recommend improvements.",
+            "name": "R&R Evaluation, Benchmarking, and Improvement",
+            "definition": "Ability to monitor R&R implementation, analyze results, benchmark practices, and recommend improvements.",
             "levels": {
               "Emerging": "Tracks routine program activities and maintains supporting records.",
               "Developing": "Monitors implementation and identifies routine issues or gaps.",
-              "Proficient": "Evaluates effectiveness, benchmarks practices and recommends evidence-based improvements.",
+              "Proficient": "Evaluates effectiveness, benchmarks practices, and recommends evidence-based improvements.",
               "Advanced": "Leads evaluation of the R&R function and drives system improvements aligned with strategic goals."
             }
           }
@@ -3510,21 +3510,21 @@
       },
       {
         "name": "Human Resource Records and Information Management",
-        "definition": "The ability to receive, validate, organize, maintain, protect, retrieve and use human resource records and personnel information throughout the records life cycle in accordance with applicable policies, standards, confidentiality requirements and authorized information systems.",
+        "definition": "The ability to receive, validate, organize, maintain, protect, retrieve, and use human resource records and personnel information throughout the records life cycle in accordance with applicable policies, standards, confidentiality requirements, and authorized information systems.",
         "dimensions": [
           {
             "name": "HR Records Lifecycle Management",
-            "definition": "Ability to receive, classify, organize, retain, retrieve and release HR records throughout their lifecycle.",
+            "definition": "Ability to receive, classify, organize, retain, retrieve, and release HR records throughout their lifecycle.",
             "levels": {
               "Emerging": "Receives and releases HR records using an established method/checklist with guidance.",
-              "Developing": "Validates, organizes and manages records in accordance with prescribed procedures and disposition schedules.",
+              "Developing": "Validates, organizes, and manages records in accordance with prescribed procedures and disposition schedules.",
               "Proficient": "Introduces strategies that improve records management and uses records information as inputs to HR services.",
-              "Advanced": "Oversees the full HR-records lifecycle and establishes improvements that strengthen accessibility, integrity and accountability."
+              "Advanced": "Oversees the full HR-records lifecycle and establishes improvements that strengthen accessibility, integrity, and accountability."
             }
           },
           {
-            "name": "Records Accuracy, Validation and Disposition Compliance",
-            "definition": "Ability to validate HR records and ensure completeness, accuracy, retention and disposition in accordance with prescribed requirements.",
+            "name": "Records Accuracy, Validation, and Disposition Compliance",
+            "definition": "Ability to validate HR records and ensure completeness, accuracy, retention, and disposition in accordance with prescribed requirements.",
             "levels": {
               "Emerging": "Checks routine records for completeness and obvious discrepancies with guidance.",
               "Developing": "Independently validates records and corrects or refers deficiencies.",
@@ -3534,17 +3534,17 @@
           },
           {
             "name": "Confidentiality and Information Security",
-            "definition": "Ability to protect personal, sensitive and confidential HR information from unauthorized access, loss or disclosure.",
+            "definition": "Ability to protect personal, sensitive, and confidential HR information from unauthorized access, loss, or disclosure.",
             "levels": {
               "Emerging": "Follows established confidentiality and safekeeping procedures.",
-              "Developing": "Independently applies appropriate access, storage and release controls.",
+              "Developing": "Independently applies appropriate access, storage, and release controls.",
               "Proficient": "Identifies and manages complex confidentiality or information-security risks.",
               "Advanced": "Establishes or improves controls for protection of sensitive HR information and accountable access."
             }
           },
           {
             "name": "HRIS and Personnel Information Management",
-            "definition": "Ability to maintain and use authorized personnel information systems, including the Human Resource Information System (HRIS), and HR data to support HR services and transactions.",
+            "definition": "Ability to maintain and use authorized personnel information systems, including the Human Resource Information System (HRIS), and HR data to support HR services, and transactions.",
             "levels": {
               "Emerging": "Uses prescribed manual/electronic HR records systems with guidance.",
               "Developing": "Independently maintains and retrieves HR information using authorized systems and responds to routine HRIS requests.",
@@ -3553,44 +3553,44 @@
             }
           },
           {
-            "name": "HR Information, Reporting and Decision Support",
-            "definition": "Ability to provide complete, accurate and timely personnel information for reporting, service delivery, planning and authorized management decision-making.",
+            "name": "HR Information, Reporting, and Decision Support",
+            "definition": "Ability to provide complete, accurate, and timely personnel information for reporting, service delivery, planning, and authorized management decision-making.",
             "levels": {
               "Emerging": "Prepares routine records and supporting information for reports with guidance.",
               "Developing": "Independently provides accurate records and routine personnel information for submissions/services.",
               "Proficient": "Manages complex information requests and uses validated data to support HR analysis.",
-              "Advanced": "Uses HR information strategically to support management decisions, service improvement and organizational planning."
+              "Advanced": "Uses HR information strategically to support management decisions, service improvement, and organizational planning."
             }
           }
         ]
       },
       {
         "name": "Organizational Profiling and HR Systems Planning",
-        "definition": "The ability to understand and analyze the Department’s organizational structure, functions, workforce profile and HR systems and use relevant information to support workforce planning, organizational development, policy implementation and HR decision-making within the assigned scope.",
+        "definition": "The ability to understand and analyze the Department’s organizational structure, functions, workforce profile, and HR systems and use relevant information to support workforce planning, organizational development, policy implementation, and HR decision-making within the assigned scope.",
         "dimensions": [
           {
             "name": "Organizational Structure and Functional Analysis",
-            "definition": "Ability to understand and analyze organizational/functional charts, position descriptions, roles, reporting relationships and job requirements.",
+            "definition": "Ability to understand and analyze organizational/functional charts, position descriptions, roles, reporting relationships, and job requirements.",
             "levels": {
               "Emerging": "Explains basic organizational/functional charts and position information with guidance.",
-              "Developing": "Independently explains roles, reporting relationships and job requirements for routine HR work.",
+              "Developing": "Independently explains roles, reporting relationships, and job requirements for routine HR work.",
               "Proficient": "Analyzes complex organizational/functional relationships and identifies HR implications.",
-              "Advanced": "Provides expert organizational analysis that informs structural, staffing or HR-system decisions."
+              "Advanced": "Provides expert organizational analysis that informs structural, staffing, or HR-system decisions."
             }
           },
           {
             "name": "Workforce and Organizational Profiling",
-            "definition": "Ability to compile, validate and analyze workforce characteristics, staffing information, personnel movements and organizational profiles.",
+            "definition": "Ability to compile, validate, and analyze workforce characteristics, staffing information, personnel movements, and organizational profiles.",
             "levels": {
               "Emerging": "Compiles routine workforce and staffing information with guidance.",
               "Developing": "Maintains accurate workforce profiles and personnel-movement information.",
-              "Proficient": "Analyzes workforce profiles to identify trends, gaps and HR implications.",
+              "Proficient": "Analyzes workforce profiles to identify trends, gaps, and HR implications.",
               "Advanced": "Leads workforce/organizational profiling approaches that support strategic planning and management decisions."
             }
           },
           {
             "name": "HR Policy and Organizational Environment",
-            "definition": "Ability to understand and explain applicable oversight-agency and internally prescribed HR policies, rules and regulations affecting Department operations and personnel.",
+            "definition": "Ability to understand and explain applicable oversight-agency and internally prescribed HR policies, rules, and regulations affecting Department operations and personnel.",
             "levels": {
               "Emerging": "Identifies applicable HR policies and rules using prescribed references.",
               "Developing": "Explains relevant policies and applies them to routine HR situations.",
@@ -3600,72 +3600,72 @@
           },
           {
             "name": "Workforce Planning and HR Systems Integration",
-            "definition": "Ability to use workforce information to support staffing, HR system linkages and organizational priorities within assigned authority.",
+            "definition": "Ability to use workforce information to support staffing, HR system linkages, and organizational priorities within assigned authority.",
             "levels": {
               "Emerging": "Uses approved staffing information and HR-system inputs for assigned tasks.",
               "Developing": "Independently links routine workforce information to HR transactions and planning.",
-              "Proficient": "Analyzes linkages among staffing, HR records and other HR systems to improve planning.",
+              "Proficient": "Analyzes linkages among staffing, HR records, and other HR systems to improve planning.",
               "Advanced": "Leads integration of workforce information and HR systems to support strategic workforce priorities."
             }
           },
           {
             "name": "Organizational Development and Change Support",
-            "definition": "Ability to contribute to organizational development, restructuring and change-management activities within assigned HR functions.",
+            "definition": "Ability to contribute to organizational development, restructuring, and change-management activities within assigned HR functions.",
             "levels": {
               "Emerging": "Participates in assigned organizational-development or change activities with guidance.",
               "Developing": "Supports routine change activities and communicates relevant HR implications.",
               "Proficient": "Analyzes change impacts and recommends practical HR interventions.",
-              "Advanced": "Provides expert HR input to organizational development, restructuring and change initiatives."
+              "Advanced": "Provides expert HR input to organizational development, restructuring, and change initiatives."
             }
           }
         ]
       },
       {
-        "name": "HR Policy, Process and Service Delivery Management",
-        "definition": "The ability to establish, enhance, execute and continuously improve HR policies, procedures, systems and services to ensure compliant, accurate, timely, consistent and responsive delivery to internal and external clients.",
+        "name": "HR Policy, Process, and Service Delivery Management",
+        "definition": "The ability to establish, enhance, execute, and continuously improve HR policies, procedures, systems, and services to ensure compliant, accurate, timely, consistent, and responsive delivery to internal and external clients.",
         "dimensions": [
           {
             "name": "HR Policy and Process Enhancement",
-            "definition": "Ability to draft, review, enhance and implement HR policies, procedures, systems and formal issuances within assigned authority.",
+            "definition": "Ability to draft, review, enhance, and implement HR policies, procedures, systems, and formal issuances within assigned authority.",
             "levels": {
-              "Emerging": "Assists in preparing routine HR policies, procedures or issuances using prescribed formats.",
-              "Developing": "Independently prepares routine advisories, memoranda or process improvements.",
+              "Emerging": "Assists in preparing routine HR policies, procedures, or issuances using prescribed formats.",
+              "Developing": "Independently prepares routine advisories, memoranda, or process improvements.",
               "Proficient": "Reviews complex policy/process documents and resolves substantive deficiencies.",
               "Advanced": "Leads development/review of high-impact HR policies and system/process improvements."
             }
           },
           {
             "name": "HR Service Delivery and Client Responsiveness",
-            "definition": "Ability to deliver accurate, accessible, timely and responsive HR services to employees, applicants, management and other authorized clients.",
+            "definition": "Ability to deliver accurate, accessible, timely, and responsive HR services to employees, applicants, management, and other authorized clients.",
             "levels": {
               "Emerging": "Performs routine HR services using established procedures with guidance.",
               "Developing": "Independently manages routine HR requests and communicates requirements clearly.",
               "Proficient": "Resolves complex service issues and improves client-response approaches within authority.",
-              "Advanced": "Leads service-delivery improvements that strengthen accessibility, consistency and employee/client experience."
+              "Advanced": "Leads service-delivery improvements that strengthen accessibility, consistency, and employee/client experience."
             }
           },
           {
-            "name": "Quality, Timeliness and Compliance",
-            "definition": "Ability to ensure HR deliverables meet prescribed quality, documentary and service-standard requirements, including applicable Anti-Red Tape Authority (ARTA) timelines.",
+            "name": "Quality, Timeliness, and Compliance",
+            "definition": "Ability to ensure HR deliverables meet prescribed quality, documentary, and service-standard requirements, including applicable Anti-Red Tape Authority (ARTA) timelines.",
             "levels": {
               "Emerging": "Tracks assigned deliverables and meets prescribed timelines with guidance.",
               "Developing": "Independently manages routine transactions and consistently meets service standards.",
-              "Proficient": "Manages complex workloads, resolves causes of delay and maintains quality/compliance.",
-              "Advanced": "Establishes stronger service controls and systems that sustain timely, reliable and compliant HR delivery."
+              "Proficient": "Manages complex workloads, resolves causes of delay, and maintains quality/compliance.",
+              "Advanced": "Establishes stronger service controls and systems that sustain timely, reliable, and compliant HR delivery."
             }
           },
           {
             "name": "HR Coordination and Compliance Assurance",
-            "definition": "Ability to coordinate with internal units, management, CSC, DBM and other relevant offices/agencies and follow through on compliance requirements.",
+            "definition": "Ability to coordinate with internal units, management, CSC, DBM, and other relevant offices/agencies and follow through on compliance requirements.",
             "levels": {
               "Emerging": "Provides information and follows coordination procedures with guidance.",
-              "Developing": "Independently coordinates routine submissions, meetings and follow-up actions.",
+              "Developing": "Independently coordinates routine submissions, meetings, and follow-up actions.",
               "Proficient": "Manages complex coordination and resolves deficiencies or compliance issues.",
               "Advanced": "Provides strategic direction on cross-office/agency coordination and strengthens compliance mechanisms."
             }
           },
           {
-            "name": "Reporting, Advisory Support and Management Information",
+            "name": "Reporting, Advisory Support, and Management Information",
             "definition": "Ability to prepare internal/external reportorial requirements and provide validated HR information and technical inputs for management planning and decision-making.",
             "levels": {
               "Emerging": "Provides information for routine reports and management requests with guidance.",

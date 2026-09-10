@@ -1010,21 +1010,21 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Chief Administrative Officer',
         section: null,
         competencies: [
-          { name: 'Recruitment, Selection and Placement', level: 'Advanced' },
+          { name: 'Recruitment, Selection, and Placement', level: 'Advanced' },
           { name: 'Compensation and Benefits Management', level: 'Advanced' },
-          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Advanced' },
+          { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Advanced' },
           { name: 'Rewards and Recognition Management', level: 'Advanced' },
           { name: 'Human Resource Records and Information Management', level: 'Advanced' },
           { name: 'Organizational Profiling and HR Systems Planning', level: 'Advanced' },
-          { name: 'HR Policy, Process and Service Delivery Management', level: 'Advanced' },
+          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Advanced' },
         ],
       },
       {
         title: 'Supervising Administrative Officer',
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
-          { name: 'Recruitment, Selection and Placement', level: 'Advanced' },
-          { name: 'HR Policy, Process and Service Delivery Management', level: 'Proficient' },
+          { name: 'Recruitment, Selection, and Placement', level: 'Advanced' },
+          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Proficient' },
           { name: 'Organizational Profiling and HR Systems Planning', level: 'Developing' },
         ],
       },
@@ -1032,22 +1032,22 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Officer V',
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
-          { name: 'Recruitment, Selection and Placement', level: 'Proficient' },
-          { name: 'HR Policy, Process and Service Delivery Management', level: 'Developing' },
+          { name: 'Recruitment, Selection, and Placement', level: 'Proficient' },
+          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Developing' },
         ],
       },
       {
         title: 'Administrative Officer IV',
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
-          { name: 'Recruitment, Selection and Placement', level: 'Developing' },
+          { name: 'Recruitment, Selection, and Placement', level: 'Developing' },
         ],
       },
       {
         title: 'Administrative Officer II',
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
-          { name: 'Recruitment, Selection and Placement', level: 'Emerging' },
+          { name: 'Recruitment, Selection, and Placement', level: 'Emerging' },
         ],
       },
       {
@@ -1056,7 +1056,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Compensation and Benefits Management', level: 'Advanced' },
           { name: 'Rewards and Recognition Management', level: 'Proficient' },
-          { name: 'HR Policy, Process and Service Delivery Management', level: 'Proficient' },
+          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Proficient' },
         ],
       },
       {
@@ -1100,16 +1100,16 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Supervising Administrative Officer',
         section: 'Employee Relations and Succession Planning Section (ERSP)',
         competencies: [
-          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Advanced' },
+          { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Advanced' },
           { name: 'Rewards and Recognition Management', level: 'Proficient' },
-          { name: 'HR Policy, Process and Service Delivery Management', level: 'Proficient' },
+          { name: 'HR Policy, Process, and Service Delivery Management', level: 'Proficient' },
         ],
       },
       {
         title: 'Administrative Officer V',
         section: 'Employee Relations and Succession Planning Section (ERSP)',
         competencies: [
-          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Proficient' },
+          { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Proficient' },
           { name: 'Rewards and Recognition Management', level: 'Developing' },
         ],
       },
@@ -1117,14 +1117,14 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Officer IV',
         section: 'Employee Relations and Succession Planning Section (ERSP)',
         competencies: [
-          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Developing' },
+          { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Developing' },
         ],
       },
       {
         title: 'Administrative Officer II',
         section: 'Employee Relations and Succession Planning Section (ERSP)',
         competencies: [
-          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Emerging' },
+          { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Emerging' },
         ],
       },
       {
