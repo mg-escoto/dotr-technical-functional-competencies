@@ -2757,6 +2757,52 @@
         ]
       },
       {
+        "name": "Audio-Visual and Conference Systems Management",
+        "definition": "The ability to set up, operate, maintain, and troubleshoot audio-visual equipment, conferencing systems, and related facilities technology to support training programs, meetings, and department events, ensuring reliable and effective use of conference rooms and multimedia resources.",
+        "dimensions": [
+          {
+            "name": "Equipment Setup and Operation",
+            "definition": "Sets up and operates audio-visual equipment, conferencing systems, and related facilities technology for programs, meetings, and events.",
+            "levels": {
+              "Emerging": "Assists in setting up basic audio-visual equipment following established procedures.",
+              "Developing": "Independently sets up and operates standard audio-visual and conferencing equipment for routine programs and meetings.",
+              "Proficient": "Configures and operates complex audio-visual and conferencing setups for high-profile programs and events.",
+              "Advanced": "Establishes standards and best practices for audio-visual equipment setup and operation across the Department."
+            }
+          },
+          {
+            "name": "Troubleshooting and Technical Support",
+            "definition": "Diagnoses and resolves audio-visual and conference room technical issues to ensure uninterrupted service.",
+            "levels": {
+              "Emerging": "Reports technical issues and seeks guidance in resolving basic equipment problems.",
+              "Developing": "Diagnoses and resolves common audio-visual and conferencing issues with minimal supervision.",
+              "Proficient": "Resolves complex technical issues during live programs and events, minimizing disruption.",
+              "Advanced": "Leads resolution of critical technical failures and develops contingency protocols for audio-visual operations."
+            }
+          },
+          {
+            "name": "Preventive Maintenance",
+            "definition": "Inspects, maintains, and coordinates repair of audio-visual equipment and conference room systems to ensure functionality and longevity.",
+            "levels": {
+              "Emerging": "Assists in routine inspection and cleaning of audio-visual equipment.",
+              "Developing": "Conducts regular preventive maintenance checks and logs equipment condition.",
+              "Proficient": "Coordinates repair and servicing of equipment and recommends upgrades or replacements.",
+              "Advanced": "Establishes a preventive maintenance program and equipment lifecycle standards for conference room systems."
+            }
+          },
+          {
+            "name": "Conference Room and Facilities Coordination",
+            "definition": "Manages conference room scheduling, equipment readiness, and coordination with users to support programs, meetings, and events.",
+            "levels": {
+              "Emerging": "Assists in preparing conference rooms and checking equipment readiness before scheduled use.",
+              "Developing": "Coordinates conference room scheduling and equipment readiness with requesting offices.",
+              "Proficient": "Manages competing scheduling requirements and resolves conference room and equipment conflicts.",
+              "Advanced": "Establishes conference room and facilities-technology management policies and standards for the Department."
+            }
+          }
+        ]
+      },
+      {
         "name": "Learning Facilitation",
         "definition": "The ability to guide, support, engage, and sustain learning among individuals and groups through the effective application of facilitation techniques, adult learning principles, coaching approaches, learning technologies, and developmental methodologies that promote knowledge acquisition, skill development, behavioral change, and performance improvement.",
         "dimensions": [
@@ -3176,52 +3222,6 @@
               "Developing": "Prepares travel monitoring reports and consolidated submissions.",
               "Proficient": "Reviews travel reports and validates information for management and oversight agencies.",
               "Advanced": "Leads travel information management, analytics, and reportorial systems."
-            }
-          }
-        ]
-      },
-      {
-        "name": "Coaching and Mentoring",
-        "definition": "The ability to facilitate structured coaching and mentoring interventions that support employee growth, performance improvement, knowledge transfer, leadership development, career progression, and organizational capability building.",
-        "dimensions": [
-          {
-            "name": "Coaching Facilitation",
-            "definition": "Applies coaching principles and techniques to support employee performance, development, and growth.",
-            "levels": {
-              "Emerging": "Assists in scheduling and documenting coaching activities and developmental discussions.",
-              "Developing": "Conducts basic coaching conversations using established frameworks and guidance.",
-              "Proficient": "Facilitates developmental coaching sessions that address performance and competency gaps.",
-              "Advanced": "Leads coaching programs and serves as a recognized developmental resource within the organization."
-            }
-          },
-          {
-            "name": "Mentoring and Knowledge Transfer",
-            "definition": "Facilitates developmental relationships and promotes sharing of knowledge, expertise, and best practices.",
-            "levels": {
-              "Emerging": "Participates in mentoring activities and shares learned practices when appropriate.",
-              "Developing": "Provides guidance and support to peers and less experienced personnel.",
-              "Proficient": "Facilitates mentoring relationships and promotes knowledge-sharing initiatives.",
-              "Advanced": "Establishes mentoring systems and champions a culture of knowledge transfer and continuous learning."
-            }
-          },
-          {
-            "name": "Individual Development Support",
-            "definition": "Assists employees in identifying development needs and pursuing learning and career development opportunities.",
-            "levels": {
-              "Emerging": "Assists employees in identifying learning opportunities and development needs.",
-              "Developing": "Supports preparation and monitoring of individual development plans and related interventions.",
-              "Proficient": "Guides employees in developing competency improvement and career development plans.",
-              "Advanced": "Integrates coaching and mentoring into organizational talent development and succession initiatives."
-            }
-          },
-          {
-            "name": "Learning Reinforcement",
-            "definition": "Supports the application, transfer, and sustainment of learning gained from developmental interventions.",
-            "levels": {
-              "Emerging": "Assists in monitoring post-learning application activities and follow-through actions.",
-              "Developing": "Encourages participants to apply acquired knowledge and skills in the workplace.",
-              "Proficient": "Reviews developmental outcomes and recommends reinforcement strategies.",
-              "Advanced": "Develops organizational mechanisms that sustain learning transfer and long-term capability development."
             }
           }
         ]
