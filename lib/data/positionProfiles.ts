@@ -23,7 +23,7 @@ export type DivisionPositionProfile = {
 // a starting draft for HR to review and recalibrate, not a finished position classification.
 export const positionProfiles: DivisionPositionProfile[] = [
   {
-    divisionCode: 'CASH',
+    divisionCode: 'CD',
     asOf: 'July 2026',
     sourceNote:
       'Built from the Cash Division organizational chart (as of July 2026) combined with the ' +

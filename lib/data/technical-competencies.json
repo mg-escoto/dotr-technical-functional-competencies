@@ -360,7 +360,7 @@
     "parentCode": null
   },
   {
-    "code": "INFO",
+    "code": "ID",
     "name": "Information Division",
     "category": null,
     "status": "under-construction",
@@ -1000,7 +1000,7 @@
     "parentCode": null
   },
   {
-    "code": "CASH",
+    "code": "CD",
     "name": "Cash Division",
     "category": "with-framework",
     "sourceFile": "Cash Division_Revised Competency Framework Initial Draft.docx",
@@ -4055,7 +4055,7 @@
     "parentCode": null
   },
   {
-    "code": "ACCTG",
+    "code": "AD",
     "name": "Accounting Division",
     "category": null,
     "status": "under-construction",
@@ -4068,7 +4068,7 @@
     "competencies": []
   },
   {
-    "code": "BUDGET",
+    "code": "BD",
     "name": "Budget Division",
     "category": null,
     "status": "under-construction",
@@ -4081,7 +4081,7 @@
     "competencies": []
   },
   {
-    "code": "MGMT",
+    "code": "MD",
     "name": "Management Division",
     "category": null,
     "status": "under-construction",
@@ -4094,8 +4094,8 @@
     "competencies": []
   },
   {
-    "code": "PMMD",
-    "name": "Performance Monitoring and Management Division",
+    "code": "PMED",
+    "name": "Performance Monitoring and Evaluation Division",
     "category": null,
     "status": "under-construction",
     "office": "Corporate Planning and Management Service",
@@ -4107,7 +4107,7 @@
     "competencies": []
   },
   {
-    "code": "MAD",
+    "code": "IAD I",
     "name": "Internal Audit Division I",
     "category": "with-framework",
     "sourceFile": "Management Audit Division_Revised Competency Framework Initial Draft.docx",
