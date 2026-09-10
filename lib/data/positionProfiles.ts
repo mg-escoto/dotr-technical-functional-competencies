@@ -894,6 +894,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Audio-Visual and Conference Systems Management', level: 'Proficient' },
           { name: 'Program/Course Delivery and Administration', level: 'Emerging' },
           { name: 'Records and Information Management', level: 'Emerging' },
+          { name: 'Travel Management', level: 'Emerging' },
         ],
       },
       {
@@ -984,6 +985,182 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Performance Management', level: 'Emerging' },
           { name: 'Stakeholder Development and Engagement', level: 'Emerging' },
           { name: 'Records and Information Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'HRMD',
+    asOf: 'HRMD current organizational structure',
+    sourceNote:
+      'Built from the Human Resource Management Division current organizational structure ' +
+      '(Recruitment, Selection and Placement Section, Compensation and Benefits Section, ' +
+      'Employee Relations and Succession Planning Section, and the ad hoc Personnel Records ' +
+      'Team) combined with the HRMD competency framework. Permanent plantilla positions only — ' +
+      'Contract of Service and Job Order items (an Administrative Officer IV and two ' +
+      'Administrative Officer II under RSP, two Administrative Officer II under ComBen, and one ' +
+      'Administrative Assistant II under the Personnel Records Team) are excluded. "CTI" ' +
+      '(co-terminus with the incumbent) items are permanent plantilla positions and are included. ' +
+      'Vacant items are included since they are permanent plantilla slots, just currently ' +
+      'unfilled. Where the same title/section combination is held by more than one person (e.g. ' +
+      'two Administrative Officer IV under RSP, or three Administrative Assistant II under the ' +
+      'Personnel Records Team), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Advanced' },
+          { name: 'Compensation and Benefits Management', level: 'Advanced' },
+          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Advanced' },
+          { name: 'Rewards and Recognition Management', level: 'Advanced' },
+          { name: 'Human Resource Records and Information Management', level: 'Advanced' },
+          { name: 'Organizational Profiling and HR Systems Planning', level: 'Advanced' },
+          { name: 'HR Policy, Process and Service Delivery Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: 'Recruitment, Selection and Placement Section (RSP)',
+        competencies: [
+          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Advanced' },
+          { name: 'HR Policy, Process and Service Delivery Management', level: 'Proficient' },
+          { name: 'Organizational Profiling and HR Systems Planning', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Recruitment, Selection and Placement Section (RSP)',
+        competencies: [
+          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Proficient' },
+          { name: 'HR Policy, Process and Service Delivery Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Recruitment, Selection and Placement Section (RSP)',
+        competencies: [
+          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Recruitment, Selection and Placement Section (RSP)',
+        competencies: [
+          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: 'Compensation and Benefits Section (ComBen)',
+        competencies: [
+          { name: 'Compensation and Benefits Management', level: 'Advanced' },
+          { name: 'Rewards and Recognition Management', level: 'Proficient' },
+          { name: 'HR Policy, Process and Service Delivery Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Compensation and Benefits Section (ComBen)',
+        competencies: [
+          { name: 'Compensation and Benefits Management', level: 'Proficient' },
+          { name: 'Rewards and Recognition Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Compensation and Benefits Section (ComBen)',
+        competencies: [
+          { name: 'Compensation and Benefits Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: 'Compensation and Benefits Section (ComBen)',
+        competencies: [
+          { name: 'Compensation and Benefits Management', level: 'Developing' },
+          { name: 'Rewards and Recognition Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Compensation and Benefits Section (ComBen)',
+        competencies: [
+          { name: 'Compensation and Benefits Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Compensation and Benefits Section (ComBen)',
+        competencies: [
+          { name: 'Compensation and Benefits Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: 'Employee Relations and Succession Planning Section (ERSP)',
+        competencies: [
+          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Advanced' },
+          { name: 'Rewards and Recognition Management', level: 'Proficient' },
+          { name: 'HR Policy, Process and Service Delivery Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Employee Relations and Succession Planning Section (ERSP)',
+        competencies: [
+          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Proficient' },
+          { name: 'Rewards and Recognition Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Employee Relations and Succession Planning Section (ERSP)',
+        competencies: [
+          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Employee Relations and Succession Planning Section (ERSP)',
+        competencies: [
+          { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Personnel Records Team (Ad Hoc)',
+        competencies: [
+          { name: 'Human Resource Records and Information Management', level: 'Proficient' },
+          { name: 'Organizational Profiling and HR Systems Planning', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Personnel Records Team (Ad Hoc)',
+        competencies: [
+          { name: 'Human Resource Records and Information Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Personnel Records Team (Ad Hoc)',
+        competencies: [
+          { name: 'Human Resource Records and Information Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide IV',
+        section: 'Personnel Records Team (Ad Hoc)',
+        competencies: [
+          { name: 'Human Resource Records and Information Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide II',
+        section: 'Personnel Records Team (Ad Hoc)',
+        competencies: [
+          { name: 'Human Resource Records and Information Management', level: 'Emerging' },
         ],
       },
     ],
