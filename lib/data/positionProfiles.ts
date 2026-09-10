@@ -364,7 +364,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
       {
         title: 'Traffic Aide III',
-        section: 'Publications — personnel reassigned to CCAO from SAICT',
+        section: 'Publications',
         competencies: [
           { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Emerging' },
           { name: 'Communications Proficiency', level: 'Emerging' },
@@ -379,7 +379,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
       {
         title: 'Transportation Regulation Officer I',
-        section: 'Public Assistance Action Center — personnel reassigned to CCAO from SAICT',
+        section: 'Public Assistance Action Center',
         competencies: [
           { name: 'Service Delivery', level: 'Developing' },
           { name: 'Communications Proficiency', level: 'Developing' },
@@ -387,7 +387,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
       {
         title: 'Traffic Aide III',
-        section: 'Public Assistance Action Center — personnel reassigned to CCAO from SAICT',
+        section: 'Public Assistance Action Center',
         competencies: [
           { name: 'Service Delivery', level: 'Emerging' },
           { name: 'Communications Proficiency', level: 'Emerging' },
@@ -395,7 +395,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
       {
         title: 'Transportation Regulation Officer I',
-        section: 'Media Monitoring — personnel reassigned to CCAO from SAICT',
+        section: 'Media Monitoring',
         competencies: [
           { name: 'Media Monitoring and Intelligence Gathering', level: 'Developing' },
           { name: 'Communications Proficiency', level: 'Developing' },
