@@ -124,7 +124,7 @@ export default function DivisionCompetencyPage() {
         <div className="px-8 pt-6">
           <div className="max-w-6xl mx-auto space-y-3">
             <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.textMuted }}>
-              Units under {division.name}
+              Other units under {division.name}
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {subUnits.map(u => (
