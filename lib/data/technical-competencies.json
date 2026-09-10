@@ -3007,8 +3007,8 @@
         ]
       },
       {
-        "name": "Employee Development and Engagement",
-        "definition": "The ability to support employee growth and organizational engagement through structured on-the-job learning opportunities and department-wide activities that strengthen morale, camaraderie, and institutional culture.",
+        "name": "Stakeholder Development and Engagement",
+        "definition": "The ability to support employee growth and organizational engagement through structured on-the-job learning opportunities and department-wide activities, while building and sustaining relationships with external stakeholders who support or participate in these initiatives — strengthening morale, camaraderie, and institutional culture.",
         "dimensions": [
           {
             "name": "On-the-Job Training Coordination",
@@ -3028,6 +3028,16 @@
               "Developing": "Coordinates logistics and participation for the flag ceremony and Independence Day celebration.",
               "Proficient": "Manages the planning and conduct of the flag ceremony and Independence Day celebration.",
               "Advanced": "Institutionalizes department activities such as the flag ceremony and Independence Day celebration to strengthen employee morale and organizational culture."
+            }
+          },
+          {
+            "name": "External Stakeholder Engagement",
+            "definition": "Builds and sustains relationships with external stakeholders such as partner agencies, resource institutions, and other organizations engaged in department events and development activities.",
+            "levels": {
+              "Emerging": "Assists in coordinating with external stakeholders and guests invited to department activities.",
+              "Developing": "Coordinates communication and logistics with external stakeholders participating in department events and initiatives.",
+              "Proficient": "Manages relationships with external stakeholders and ensures their effective participation in department activities and programs.",
+              "Advanced": "Establishes and strengthens strategic partnerships with external stakeholders to support HRDD's employee development and engagement initiatives."
             }
           }
         ]
