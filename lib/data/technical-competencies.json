@@ -3003,15 +3003,31 @@
               "Proficient": "Analyzes performance results and recommends performance interventions and development actions.",
               "Advanced": "Uses performance analytics to guide organizational improvement and performance excellence initiatives."
             }
+          }
+        ]
+      },
+      {
+        "name": "Employee Development and Engagement",
+        "definition": "The ability to support employee growth and organizational engagement through structured on-the-job learning opportunities and department-wide activities that strengthen morale, camaraderie, and institutional culture.",
+        "dimensions": [
+          {
+            "name": "On-the-Job Training Coordination",
+            "definition": "Coordinates on-the-job training assignments and placements in support of employee development.",
+            "levels": {
+              "Emerging": "Assists in arranging on-the-job training assignments and monitoring trainee attendance.",
+              "Developing": "Coordinates on-the-job training placements and monitors trainee progress and requirements.",
+              "Proficient": "Reviews on-the-job training arrangements and evaluates their effectiveness for employee development.",
+              "Advanced": "Establishes on-the-job training standards and institutionalizes structured learning-by-doing programs."
+            }
           },
           {
-            "name": "On-the-Job Training and Department Events Coordination",
-            "definition": "Coordinates on-the-job training assignments in support of employee development, and organizes department-wide activities such as the flag ceremony and Independence Day celebration.",
+            "name": "Department Events Coordination",
+            "definition": "Organizes department-wide activities such as the flag ceremony and Independence Day celebration.",
             "levels": {
-              "Emerging": "Assists in arranging on-the-job training assignments and preparing for department activities such as the flag ceremony and Independence Day celebration.",
-              "Developing": "Coordinates on-the-job training placements and supports the conduct of the flag ceremony and Independence Day celebration.",
-              "Proficient": "Reviews on-the-job training arrangements and manages the planning and conduct of the flag ceremony and Independence Day celebration.",
-              "Advanced": "Establishes on-the-job training standards and institutionalizes department activities such as the flag ceremony and Independence Day celebration to strengthen employee morale."
+              "Emerging": "Assists in preparing for department activities such as the flag ceremony and Independence Day celebration.",
+              "Developing": "Coordinates logistics and participation for the flag ceremony and Independence Day celebration.",
+              "Proficient": "Manages the planning and conduct of the flag ceremony and Independence Day celebration.",
+              "Advanced": "Institutionalizes department activities such as the flag ceremony and Independence Day celebration to strengthen employee morale and organizational culture."
             }
           }
         ]
