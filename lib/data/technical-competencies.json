@@ -2777,52 +2777,6 @@
         ]
       },
       {
-        "name": "Audio-Visual and Conference Systems Management",
-        "definition": "The ability to set up, operate, maintain, and troubleshoot audio-visual equipment, conferencing systems, and related facilities technology to support training programs, meetings, and department events, ensuring reliable and effective use of conference rooms and multimedia resources.",
-        "dimensions": [
-          {
-            "name": "Equipment Setup and Operation",
-            "definition": "Sets up and operates audio-visual equipment, conferencing systems, and related facilities technology for programs, meetings, and events.",
-            "levels": {
-              "Emerging": "Assists in setting up basic audio-visual equipment following established procedures.",
-              "Developing": "Independently sets up and operates standard audio-visual and conferencing equipment for routine programs and meetings.",
-              "Proficient": "Configures and operates complex audio-visual and conferencing setups for high-profile programs and events.",
-              "Advanced": "Establishes standards and best practices for audio-visual equipment setup and operation across the Department."
-            }
-          },
-          {
-            "name": "Troubleshooting and Technical Support",
-            "definition": "Diagnoses and resolves audio-visual and conference room technical issues to ensure uninterrupted service.",
-            "levels": {
-              "Emerging": "Reports technical issues and seeks guidance in resolving basic equipment problems.",
-              "Developing": "Diagnoses and resolves common audio-visual and conferencing issues with minimal supervision.",
-              "Proficient": "Resolves complex technical issues during live programs and events, minimizing disruption.",
-              "Advanced": "Leads resolution of critical technical failures and develops contingency protocols for audio-visual operations."
-            }
-          },
-          {
-            "name": "Preventive Maintenance",
-            "definition": "Inspects, maintains, and coordinates repair of audio-visual equipment and conference room systems to ensure functionality and longevity.",
-            "levels": {
-              "Emerging": "Assists in routine inspection and cleaning of audio-visual equipment.",
-              "Developing": "Conducts regular preventive maintenance checks and logs equipment condition.",
-              "Proficient": "Coordinates repair and servicing of equipment and recommends upgrades or replacements.",
-              "Advanced": "Establishes a preventive maintenance program and equipment lifecycle standards for conference room systems."
-            }
-          },
-          {
-            "name": "Conference Room and Facilities Coordination",
-            "definition": "Manages conference room scheduling, equipment readiness, and coordination with users to support programs, meetings, and events.",
-            "levels": {
-              "Emerging": "Assists in preparing conference rooms and checking equipment readiness before scheduled use.",
-              "Developing": "Coordinates conference room scheduling and equipment readiness with requesting offices.",
-              "Proficient": "Manages competing scheduling requirements and resolves conference room and equipment conflicts.",
-              "Advanced": "Establishes conference room and facilities-technology management policies and standards for the Department."
-            }
-          }
-        ]
-      },
-      {
         "name": "Learning Facilitation",
         "definition": "The ability to guide, support, engage, and sustain learning among individuals and groups through the effective application of facilitation techniques, adult learning principles, coaching approaches, learning technologies, and developmental methodologies that promote knowledge acquisition, skill development, behavioral change, and performance improvement.",
         "dimensions": [
@@ -3262,6 +3216,52 @@
               "Developing": "Monitors record status, reporting deadlines, and submission requirements and prepares routine reports.",
               "Proficient": "Reviews records management reports, analyzes trends, and recommends improvements to reporting processes and information quality.",
               "Advanced": "Develops organizational monitoring and reporting systems that support decision-making, compliance, and strategic information management."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Audio-Visual and Conference Systems Management",
+        "definition": "The ability to set up, operate, maintain, and troubleshoot audio-visual equipment, conferencing systems, and related facilities technology to support training programs, meetings, and department events, ensuring reliable and effective use of conference rooms and multimedia resources.",
+        "dimensions": [
+          {
+            "name": "Equipment Setup and Operation",
+            "definition": "Sets up and operates audio-visual equipment, conferencing systems, and related facilities technology for programs, meetings, and events.",
+            "levels": {
+              "Emerging": "Assists in setting up basic audio-visual equipment following established procedures.",
+              "Developing": "Independently sets up and operates standard audio-visual and conferencing equipment for routine programs and meetings.",
+              "Proficient": "Configures and operates complex audio-visual and conferencing setups for high-profile programs and events.",
+              "Advanced": "Establishes standards and best practices for audio-visual equipment setup and operation across the Department."
+            }
+          },
+          {
+            "name": "Troubleshooting and Technical Support",
+            "definition": "Diagnoses and resolves audio-visual and conference room technical issues to ensure uninterrupted service.",
+            "levels": {
+              "Emerging": "Reports technical issues and seeks guidance in resolving basic equipment problems.",
+              "Developing": "Diagnoses and resolves common audio-visual and conferencing issues with minimal supervision.",
+              "Proficient": "Resolves complex technical issues during live programs and events, minimizing disruption.",
+              "Advanced": "Leads resolution of critical technical failures and develops contingency protocols for audio-visual operations."
+            }
+          },
+          {
+            "name": "Preventive Maintenance",
+            "definition": "Inspects, maintains, and coordinates repair of audio-visual equipment and conference room systems to ensure functionality and longevity.",
+            "levels": {
+              "Emerging": "Assists in routine inspection and cleaning of audio-visual equipment.",
+              "Developing": "Conducts regular preventive maintenance checks and logs equipment condition.",
+              "Proficient": "Coordinates repair and servicing of equipment and recommends upgrades or replacements.",
+              "Advanced": "Establishes a preventive maintenance program and equipment lifecycle standards for conference room systems."
+            }
+          },
+          {
+            "name": "Conference Room and Facilities Coordination",
+            "definition": "Manages conference room scheduling, equipment readiness, and coordination with users to support programs, meetings, and events.",
+            "levels": {
+              "Emerging": "Assists in preparing conference rooms and checking equipment readiness before scheduled use.",
+              "Developing": "Coordinates conference room scheduling and equipment readiness with requesting offices.",
+              "Proficient": "Manages competing scheduling requirements and resolves conference room and equipment conflicts.",
+              "Advanced": "Establishes conference room and facilities-technology management policies and standards for the Department."
             }
           }
         ]
