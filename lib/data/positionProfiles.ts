@@ -316,6 +316,9 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Strategic Content Development, Research, and Speechwriting', level: 'Proficient' },
           { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Proficient' },
           { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Proficient' },
+          { name: 'Computer Proficiency', level: 'Proficient' },
+          { name: 'Internal Communication and Document Drafting', level: 'Proficient' },
+          { name: 'Service Delivery', level: 'Proficient' },
         ],
       },
       {
@@ -325,6 +328,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Digital Media Proficiency', level: 'Proficient' },
           { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Proficient' },
           { name: 'Computer Proficiency', level: 'Proficient' },
+          { name: 'Internal Communication and Document Drafting', level: 'Proficient' },
+          { name: 'Service Delivery', level: 'Proficient' },
         ],
       },
       {
@@ -335,6 +340,9 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Strategic Content Development, Research, and Speechwriting', level: 'Developing' },
           { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Developing' },
           { name: 'Content Documentation, Records Management, and Digital Archiving', level: 'Developing' },
+          { name: 'Computer Proficiency', level: 'Developing' },
+          { name: 'Internal Communication and Document Drafting', level: 'Developing' },
+          { name: 'Service Delivery', level: 'Developing' },
         ],
       },
       {
@@ -344,6 +352,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Digital Media Proficiency', level: 'Developing' },
           { name: 'Graphic Design and Layout Production and Audio-Visual Production', level: 'Developing' },
           { name: 'Computer Proficiency', level: 'Developing' },
+          { name: 'Internal Communication and Document Drafting', level: 'Developing' },
+          { name: 'Service Delivery', level: 'Developing' },
         ],
       },
       {
