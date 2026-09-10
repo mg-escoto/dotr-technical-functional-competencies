@@ -801,6 +801,188 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'HRDD',
+    asOf: 'HRDD existing organizational structure (per plantilla from DBM)',
+    sourceNote:
+      'Built from the Human Resource Development Division existing organizational structure ' +
+      '(per plantilla from the Department of Budget and Management) combined with the HRDD ' +
+      'competency framework. All items shown are permanent plantilla positions — the chart had ' +
+      'no Job Order or Contract of Service entries to exclude. The vacant Administrative Officer ' +
+      'V under the Scholarship and Travel Management Section is included since it is a permanent ' +
+      'plantilla slot, just currently unfilled. The Administrative Aide II plantilla item under ' +
+      'the Scholarship and Travel Management Section is noted on the chart as currently assigned ' +
+      'to the Asset Management Division; it is still profiled here since the position itself ' +
+      'belongs to this section. Where the same title/section combination is held by more than ' +
+      'one person (the two Administrative Assistant II under the Learning and Development ' +
+      'Section), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Learning and Development Planning', level: 'Advanced' },
+          { name: 'Program/Course Design and Development', level: 'Advanced' },
+          { name: 'Program/Course Delivery and Administration', level: 'Advanced' },
+          { name: 'Learning Facilitation', level: 'Advanced' },
+          { name: 'Learning Measurement and Evaluation', level: 'Advanced' },
+          { name: 'Competency Development and Validation', level: 'Advanced' },
+          { name: 'Strategic Planning and Organizational Development', level: 'Advanced' },
+          { name: 'Performance Management', level: 'Advanced' },
+          { name: 'Stakeholder Development and Engagement', level: 'Advanced' },
+          { name: 'Career Executive Service (CES) Administration', level: 'Advanced' },
+          { name: 'Travel Management', level: 'Advanced' },
+          { name: 'Records and Information Management', level: 'Advanced' },
+          { name: 'Audio-Visual and Conference Systems Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Learning and Development Planning', level: 'Advanced' },
+          { name: 'Program/Course Design and Development', level: 'Advanced' },
+          { name: 'Program/Course Delivery and Administration', level: 'Advanced' },
+          { name: 'Learning Facilitation', level: 'Advanced' },
+          { name: 'Learning Measurement and Evaluation', level: 'Advanced' },
+          { name: 'Competency Development and Validation', level: 'Advanced' },
+          { name: 'Strategic Planning and Organizational Development', level: 'Advanced' },
+          { name: 'Performance Management', level: 'Advanced' },
+          { name: 'Stakeholder Development and Engagement', level: 'Advanced' },
+          { name: 'Career Executive Service (CES) Administration', level: 'Advanced' },
+          { name: 'Travel Management', level: 'Advanced' },
+          { name: 'Records and Information Management', level: 'Advanced' },
+          { name: 'Audio-Visual and Conference Systems Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Learning and Development Section',
+        competencies: [
+          { name: 'Learning and Development Planning', level: 'Proficient' },
+          { name: 'Program/Course Design and Development', level: 'Proficient' },
+          { name: 'Program/Course Delivery and Administration', level: 'Proficient' },
+          { name: 'Learning Facilitation', level: 'Proficient' },
+          { name: 'Learning Measurement and Evaluation', level: 'Proficient' },
+          { name: 'Competency Development and Validation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Learning and Development Section',
+        competencies: [
+          { name: 'Learning and Development Planning', level: 'Developing' },
+          { name: 'Program/Course Design and Development', level: 'Developing' },
+          { name: 'Program/Course Delivery and Administration', level: 'Developing' },
+          { name: 'Learning Facilitation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Learning and Development Section',
+        competencies: [
+          { name: 'Program/Course Delivery and Administration', level: 'Developing' },
+          { name: 'Learning Facilitation', level: 'Emerging' },
+          { name: 'Learning Measurement and Evaluation', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Learning and Development Section',
+        competencies: [
+          { name: 'Program/Course Delivery and Administration', level: 'Emerging' },
+          { name: 'Records and Information Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide II',
+        section: 'Learning and Development Section',
+        competencies: [
+          { name: 'Program/Course Delivery and Administration', level: 'Emerging' },
+          { name: 'Audio-Visual and Conference Systems Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Scholarship and Travel Management Section',
+        competencies: [
+          { name: 'Learning and Development Planning', level: 'Proficient' },
+          { name: 'Program/Course Delivery and Administration', level: 'Proficient' },
+          { name: 'Learning Measurement and Evaluation', level: 'Proficient' },
+          { name: 'Travel Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Scholarship and Travel Management Section',
+        competencies: [
+          { name: 'Learning and Development Planning', level: 'Developing' },
+          { name: 'Program/Course Delivery and Administration', level: 'Developing' },
+          { name: 'Travel Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Scholarship and Travel Management Section',
+        competencies: [
+          { name: 'Program/Course Delivery and Administration', level: 'Developing' },
+          { name: 'Travel Management', level: 'Developing' },
+          { name: 'Learning Measurement and Evaluation', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Scholarship and Travel Management Section',
+        competencies: [
+          { name: 'Travel Management', level: 'Emerging' },
+          { name: 'Records and Information Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide II',
+        section: 'Scholarship and Travel Management Section',
+        competencies: [
+          { name: 'Travel Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Performance Review and Monitoring Section',
+        competencies: [
+          { name: 'Performance Management', level: 'Proficient' },
+          { name: 'Career Executive Service (CES) Administration', level: 'Proficient' },
+          { name: 'Strategic Planning and Organizational Development', level: 'Proficient' },
+          { name: 'Stakeholder Development and Engagement', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Performance Review and Monitoring Section',
+        competencies: [
+          { name: 'Performance Management', level: 'Developing' },
+          { name: 'Career Executive Service (CES) Administration', level: 'Developing' },
+          { name: 'Stakeholder Development and Engagement', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Performance Review and Monitoring Section',
+        competencies: [
+          { name: 'Performance Management', level: 'Developing' },
+          { name: 'Career Executive Service (CES) Administration', level: 'Emerging' },
+          { name: 'Stakeholder Development and Engagement', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide II',
+        section: 'Performance Review and Monitoring Section',
+        competencies: [
+          { name: 'Performance Management', level: 'Emerging' },
+          { name: 'Stakeholder Development and Engagement', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
