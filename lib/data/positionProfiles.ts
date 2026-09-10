@@ -1010,7 +1010,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Chief Administrative Officer',
         section: null,
         competencies: [
-          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Advanced' },
+          { name: 'Recruitment, Selection and Placement', level: 'Advanced' },
           { name: 'Compensation and Benefits Management', level: 'Advanced' },
           { name: 'Employee Relations, Welfare, Discipline and Succession Planning', level: 'Advanced' },
           { name: 'Rewards and Recognition Management', level: 'Advanced' },
@@ -1023,7 +1023,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Supervising Administrative Officer',
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
-          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Advanced' },
+          { name: 'Recruitment, Selection and Placement', level: 'Advanced' },
           { name: 'HR Policy, Process and Service Delivery Management', level: 'Proficient' },
           { name: 'Organizational Profiling and HR Systems Planning', level: 'Developing' },
         ],
@@ -1032,7 +1032,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Officer V',
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
-          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Proficient' },
+          { name: 'Recruitment, Selection and Placement', level: 'Proficient' },
           { name: 'HR Policy, Process and Service Delivery Management', level: 'Developing' },
         ],
       },
@@ -1040,14 +1040,14 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Administrative Officer IV',
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
-          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Developing' },
+          { name: 'Recruitment, Selection and Placement', level: 'Developing' },
         ],
       },
       {
         title: 'Administrative Officer II',
         section: 'Recruitment, Selection and Placement Section (RSP)',
         competencies: [
-          { name: 'Recruitment, Selection and Placement (RSP)', level: 'Emerging' },
+          { name: 'Recruitment, Selection and Placement', level: 'Emerging' },
         ],
       },
       {
