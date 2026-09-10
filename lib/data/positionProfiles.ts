@@ -519,6 +519,80 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'DENTAL',
+    asOf: 'General Services Division current organizational chart (Medical and Dental Unit)',
+    sourceNote:
+      'Built from the Medical and Dental Unit portion of the General Services Division current ' +
+      'organizational chart, combined with the Dental Unit competency framework. Permanent ' +
+      'plantilla positions only — the chart had no Job Order or Contract of Service entries to ' +
+      'exclude. Dentist III is the ranking dental professional in the unit, so all Dental Unit ' +
+      'competencies are set to Advanced for that position.',
+    positions: [
+      {
+        title: 'Dentist III',
+        section: null,
+        competencies: [
+          { name: 'Patient Care', level: 'Advanced' },
+          { name: 'Dental Knowledge', level: 'Advanced' },
+          { name: 'Professional, Legal, and Ethical Dental Practice', level: 'Advanced' },
+          { name: 'Dental Procedure Proficiency', level: 'Advanced' },
+          { name: 'Emergency Response', level: 'Advanced' },
+          { name: 'Occupational Safety', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Dental Hygienist',
+        section: null,
+        competencies: [
+          { name: 'Patient Care', level: 'Developing' },
+          { name: 'Dental Knowledge', level: 'Developing' },
+          { name: 'Professional, Legal, and Ethical Dental Practice', level: 'Developing' },
+          { name: 'Dental Procedure Proficiency', level: 'Developing' },
+          { name: 'Emergency Response', level: 'Emerging' },
+          { name: 'Occupational Safety', level: 'Developing' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'MEDICAL',
+    asOf: 'General Services Division current organizational chart (Medical and Dental Unit)',
+    sourceNote:
+      'Built from the Medical and Dental Unit portion of the General Services Division current ' +
+      'organizational chart, combined with the benchmarked Medical Unit competency framework. ' +
+      'Permanent plantilla positions only — the chart had no Job Order or Contract of Service ' +
+      'entries to exclude. Medical Officer IV is the ranking medical professional in the unit, so ' +
+      'all Medical Unit competencies are set to Advanced for that position. The two Nurse I items ' +
+      'share the same title and have no distinguishing section on the chart, so they are listed ' +
+      'once as a single role.',
+    positions: [
+      {
+        title: 'Medical Officer IV',
+        section: null,
+        competencies: [
+          { name: 'Patient Care', level: 'Advanced' },
+          { name: 'Medical Knowledge', level: 'Advanced' },
+          { name: 'Professional, Legal, and Ethical Medical Practice', level: 'Advanced' },
+          { name: 'Medical and Clinical Procedure Proficiency', level: 'Advanced' },
+          { name: 'Emergency Response', level: 'Advanced' },
+          { name: 'Occupational Safety', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Nurse I',
+        section: null,
+        competencies: [
+          { name: 'Patient Care', level: 'Developing' },
+          { name: 'Medical Knowledge', level: 'Developing' },
+          { name: 'Professional, Legal, and Ethical Medical Practice', level: 'Developing' },
+          { name: 'Medical and Clinical Procedure Proficiency', level: 'Developing' },
+          { name: 'Emergency Response', level: 'Developing' },
+          { name: 'Occupational Safety', level: 'Developing' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
