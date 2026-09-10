@@ -520,6 +520,214 @@ export const positionProfiles: DivisionPositionProfile[] = [
     ],
   },
   {
+    divisionCode: 'GSD',
+    asOf: 'General Services Division current organizational structure',
+    sourceNote:
+      'Built from the General Services Division current organizational structure (Chief/Supervising ' +
+      'Administrative Officer plus the General Support Unit and Supply Unit) combined with the ' +
+      'General Services Division competency framework. Permanent plantilla positions only — the ' +
+      'chart had no Job Order or Contract of Service entries to exclude. Where the chart shows ' +
+      'multiple people under the same title (e.g. the 13 Administrative Aide III drivers, or the ' +
+      '8 Administrative Aide I), it is listed once as a single role. The Medical and Dental Unit ' +
+      'branch of this chart is covered separately under the Dental Unit and Medical Unit tabs.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Service Delivery', level: 'Advanced' },
+          { name: 'Administrative Support and Coordination', level: 'Advanced' },
+          { name: 'Policy Implementation and Compliance', level: 'Advanced' },
+          { name: 'Facilities and Operational Risk Management', level: 'Advanced' },
+          { name: 'Maintenance and Support Services Management', level: 'Advanced' },
+          { name: 'Government Procurement Management', level: 'Advanced' },
+          { name: 'Supply Chain, Inventory and Materials Management', level: 'Advanced' },
+          { name: 'Financial Transactions and Disbursement Management', level: 'Advanced' },
+          { name: 'Fleet Management', level: 'Advanced' },
+          { name: 'Building Maintenance and Repair', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Service Delivery', level: 'Advanced' },
+          { name: 'Administrative Support and Coordination', level: 'Advanced' },
+          { name: 'Policy Implementation and Compliance', level: 'Advanced' },
+          { name: 'Facilities and Operational Risk Management', level: 'Advanced' },
+          { name: 'Maintenance and Support Services Management', level: 'Advanced' },
+          { name: 'Government Procurement Management', level: 'Advanced' },
+          { name: 'Supply Chain, Inventory and Materials Management', level: 'Advanced' },
+          { name: 'Financial Transactions and Disbursement Management', level: 'Proficient' },
+          { name: 'Fleet Management', level: 'Advanced' },
+          { name: 'Building Maintenance and Repair', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Service Delivery', level: 'Proficient' },
+          { name: 'Administrative Support and Coordination', level: 'Proficient' },
+          { name: 'Policy Implementation and Compliance', level: 'Developing' },
+          { name: 'Facilities and Operational Risk Management', level: 'Proficient' },
+          { name: 'Maintenance and Support Services Management', level: 'Proficient' },
+          { name: 'Fleet Management', level: 'Proficient' },
+          { name: 'Building Maintenance and Repair', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Service Delivery', level: 'Developing' },
+          { name: 'Administrative Support and Coordination', level: 'Developing' },
+          { name: 'Facilities and Operational Risk Management', level: 'Developing' },
+          { name: 'Maintenance and Support Services Management', level: 'Developing' },
+          { name: 'Fleet Management', level: 'Developing' },
+          { name: 'Building Maintenance and Repair', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Service Delivery', level: 'Developing' },
+          { name: 'Administrative Support and Coordination', level: 'Developing' },
+          { name: 'Facilities and Operational Risk Management', level: 'Emerging' },
+          { name: 'Maintenance and Support Services Management', level: 'Developing' },
+          { name: 'Fleet Management', level: 'Emerging' },
+          { name: 'Building Maintenance and Repair', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI (Mechanic)',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Fleet Management', level: 'Developing' },
+          { name: 'Maintenance and Support Services Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI (Utility II)',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Maintenance and Support Services Management', level: 'Developing' },
+          { name: 'Facilities and Operational Risk Management', level: 'Emerging' },
+          { name: 'Service Delivery', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Maintenance and Support Services Management', level: 'Emerging' },
+          { name: 'Service Delivery', level: 'Emerging' },
+          { name: 'Administrative Support and Coordination', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide V (Utility I)',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Maintenance and Support Services Management', level: 'Emerging' },
+          { name: 'Service Delivery', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide IV (Mechanic I)',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Fleet Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide IV',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Maintenance and Support Services Management', level: 'Emerging' },
+          { name: 'Service Delivery', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide III (Driver)',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Fleet Management', level: 'Emerging' },
+          { name: 'Service Delivery', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide III',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Service Delivery', level: 'Emerging' },
+          { name: 'Maintenance and Support Services Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide II',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Service Delivery', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide I',
+        section: 'General Support Unit',
+        competencies: [
+          { name: 'Service Delivery', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Supply Unit',
+        competencies: [
+          { name: 'Government Procurement Management', level: 'Proficient' },
+          { name: 'Supply Chain, Inventory and Materials Management', level: 'Proficient' },
+          { name: 'Financial Transactions and Disbursement Management', level: 'Proficient' },
+          { name: 'Administrative Support and Coordination', level: 'Proficient' },
+          { name: 'Policy Implementation and Compliance', level: 'Developing' },
+          { name: 'Service Delivery', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: 'Supply Unit',
+        competencies: [
+          { name: 'Government Procurement Management', level: 'Developing' },
+          { name: 'Supply Chain, Inventory and Materials Management', level: 'Developing' },
+          { name: 'Financial Transactions and Disbursement Management', level: 'Developing' },
+          { name: 'Service Delivery', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Supply Unit',
+        competencies: [
+          { name: 'Government Procurement Management', level: 'Emerging' },
+          { name: 'Supply Chain, Inventory and Materials Management', level: 'Emerging' },
+          { name: 'Financial Transactions and Disbursement Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: 'Supply Unit',
+        competencies: [
+          { name: 'Supply Chain, Inventory and Materials Management', level: 'Emerging' },
+          { name: 'Administrative Support and Coordination', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide I',
+        section: 'Supply Unit',
+        competencies: [
+          { name: 'Supply Chain, Inventory and Materials Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+  {
     divisionCode: 'DENTAL',
     asOf: 'General Services Division current organizational chart (Medical and Dental Unit)',
     sourceNote:
@@ -564,7 +772,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'Permanent plantilla positions only — the chart had no Job Order or Contract of Service ' +
       'entries to exclude. Medical Officer IV is the ranking medical professional in the unit, so ' +
       'all Medical Unit competencies are set to Advanced for that position. The chart shows two ' +
-      'Nurse I items, so both are listed as separate roles below.',
+      'Nurse I items with the same title, section, and competency assignments, so they are ' +
+      'listed once as a single role.',
     positions: [
       {
         title: 'Medical Officer IV',
@@ -576,18 +785,6 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Medical and Clinical Procedure Proficiency', level: 'Advanced' },
           { name: 'Emergency Response', level: 'Advanced' },
           { name: 'Occupational Safety', level: 'Advanced' },
-        ],
-      },
-      {
-        title: 'Nurse I',
-        section: null,
-        competencies: [
-          { name: 'Patient Care', level: 'Developing' },
-          { name: 'Medical Knowledge', level: 'Developing' },
-          { name: 'Professional, Legal, and Ethical Medical Practice', level: 'Developing' },
-          { name: 'Medical and Clinical Procedure Proficiency', level: 'Developing' },
-          { name: 'Emergency Response', level: 'Developing' },
-          { name: 'Occupational Safety', level: 'Developing' },
         ],
       },
       {

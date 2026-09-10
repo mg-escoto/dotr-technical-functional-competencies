@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import TechCompNav from '@/components/TechCompNav'
 import { useTechColors, levelStyle } from '@/lib/techColors'
-import { getDivisionByCode, LEVELS, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
+import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
 
 export default function DivisionCompetencyPage() {
@@ -13,6 +13,7 @@ export default function DivisionCompetencyPage() {
   const C = useTechColors()
   const division = getDivisionByCode(decodeURIComponent(params.code))
   const positionProfile = division ? getPositionProfile(division.code) : undefined
+  const subUnits = division ? divisions.filter(d => d.parentCode === division.code) : []
   const [expanded, setExpanded] = useState<string | null>(null)
 
   if (!division) {
@@ -114,6 +115,46 @@ export default function DivisionCompetencyPage() {
               style={{ background: C.subtleBg, border: `1px solid ${C.subtleBorder}`, color: C.text }}
             >
               <strong>Note:</strong> {division.reorgNote}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {subUnits.length > 0 && (
+        <div className="px-8 pt-6">
+          <div className="max-w-6xl mx-auto space-y-3">
+            <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.textMuted }}>
+              Units under {division.name}
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {subUnits.map(u => (
+                <Link
+                  key={u.code}
+                  href={`/${encodeURIComponent(u.code)}`}
+                  className="group rounded-xl p-4 flex items-center justify-between gap-3 transition-all hover:-translate-y-0.5"
+                  style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}
+                >
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-wide" style={{ color: C.orange }}>
+                      {u.code}
+                    </p>
+                    <p className="font-bold text-sm" style={{ color: C.text }}>
+                      {u.name}
+                    </p>
+                    {u.status === 'populated' && (
+                      <p className="text-xs" style={{ color: C.textMuted }}>
+                        {u.competencies.length} competencies · {u.competencies.reduce((s, c) => s + c.dimensions.length, 0)} dimensions
+                      </p>
+                    )}
+                  </div>
+                  <span
+                    className="text-lg font-black flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity"
+                    style={{ color: C.orange }}
+                  >
+                    →
+                  </span>
+                </Link>
+              ))}
             </div>
           </div>
         </div>

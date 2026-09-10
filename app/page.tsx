@@ -95,6 +95,8 @@ function OfficeSection({
   office: string
   divisions: Division[]
 }) {
+  const topLevel = divisions.filter(d => !d.parentCode)
+
   return (
     <section className="space-y-5">
       <div className="flex items-center gap-3">
@@ -105,54 +107,56 @@ function OfficeSection({
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {divisions.map(d => (
-          <Link
-            key={d.code}
-            href={`/${encodeURIComponent(d.code)}`}
-            className="group rounded-xl p-5 flex flex-col gap-3 transition-all hover:-translate-y-0.5"
-            style={{
-              background: C.card,
-              border: `1px solid ${C.borderMuted}`,
-              marginLeft: d.parentCode ? '1.5rem' : undefined,
-              opacity: d.status === 'under-construction' ? 0.75 : 1,
-            }}
-          >
-            <div className="flex items-center justify-between gap-2">
-              <p
-                className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
-                style={{ background: C.subtleBg, color: C.orange }}
-              >
-                {d.code}
-              </p>
-              <span
-                className="text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity"
-                style={{ color: C.orange }}
-              >
-                →
-              </span>
-            </div>
-            <h3 className="font-bold text-base leading-snug" style={{ color: C.text }}>
-              {d.name}
-            </h3>
-            {d.status === 'under-construction' ? (
-              <p
-                className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
-                style={{ background: C.subtleBg, color: C.textMuted }}
-              >
-                Under Construction
-              </p>
-            ) : (
-              <p className="text-sm" style={{ color: C.textMuted }}>
-                {d.competencies.length} competencies · {d.competencies.reduce((s, c) => s + c.dimensions.length, 0)} dimensions
-              </p>
-            )}
-            {d.parentCode && (
-              <p className="text-xs italic" style={{ color: C.textMuted }}>
-                Unit under {d.parentCode}
-              </p>
-            )}
-          </Link>
-        ))}
+        {topLevel.map(d => {
+          const children = divisions.filter(c => c.parentCode === d.code)
+          return (
+            <Link
+              key={d.code}
+              href={`/${encodeURIComponent(d.code)}`}
+              className="group rounded-xl p-5 flex flex-col gap-3 transition-all hover:-translate-y-0.5"
+              style={{
+                background: C.card,
+                border: `1px solid ${C.borderMuted}`,
+                opacity: d.status === 'under-construction' ? 0.75 : 1,
+              }}
+            >
+              <div className="flex items-center justify-between gap-2">
+                <p
+                  className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
+                  style={{ background: C.subtleBg, color: C.orange }}
+                >
+                  {d.code}
+                </p>
+                <span
+                  className="text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity"
+                  style={{ color: C.orange }}
+                >
+                  →
+                </span>
+              </div>
+              <h3 className="font-bold text-base leading-snug" style={{ color: C.text }}>
+                {d.name}
+              </h3>
+              {d.status === 'under-construction' ? (
+                <p
+                  className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
+                  style={{ background: C.subtleBg, color: C.textMuted }}
+                >
+                  Under Construction
+                </p>
+              ) : (
+                <p className="text-sm" style={{ color: C.textMuted }}>
+                  {d.competencies.length} competencies · {d.competencies.reduce((s, c) => s + c.dimensions.length, 0)} dimensions
+                </p>
+              )}
+              {children.length > 0 && (
+                <p className="text-xs italic" style={{ color: C.textMuted }}>
+                  Includes {children.map(c => c.name).join(', ')}
+                </p>
+              )}
+            </Link>
+          )
+        })}
       </div>
     </section>
   )
