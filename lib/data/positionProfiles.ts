@@ -1015,6 +1015,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Recruitment, Selection, and Placement', level: 'Advanced' },
           { name: 'Compensation and Benefits Management', level: 'Advanced' },
+          { name: 'Leave Management', level: 'Advanced' },
           { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Advanced' },
           { name: 'Rewards and Recognition Management', level: 'Advanced' },
           { name: 'Human Resource Records and Information Management', level: 'Advanced' },
@@ -1028,6 +1029,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Recruitment, Selection, and Placement', level: 'Advanced' },
           { name: 'Compensation and Benefits Management', level: 'Advanced' },
+          { name: 'Leave Management', level: 'Advanced' },
           { name: 'Employee Relations, Welfare, Discipline, and Succession Planning', level: 'Advanced' },
           { name: 'Rewards and Recognition Management', level: 'Advanced' },
           { name: 'Human Resource Records and Information Management', level: 'Advanced' },
@@ -1062,6 +1064,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Compensation and Benefits Section (ComBen)',
         competencies: [
           { name: 'Compensation and Benefits Management', level: 'Proficient' },
+          { name: 'Leave Management', level: 'Proficient' },
           { name: 'Rewards and Recognition Management', level: 'Developing' },
         ],
       },
@@ -1070,6 +1073,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Compensation and Benefits Section (ComBen)',
         competencies: [
           { name: 'Compensation and Benefits Management', level: 'Developing' },
+          { name: 'Leave Management', level: 'Developing' },
         ],
       },
       {
@@ -1077,6 +1081,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Compensation and Benefits Section (ComBen)',
         competencies: [
           { name: 'Compensation and Benefits Management', level: 'Developing' },
+          { name: 'Leave Management', level: 'Developing' },
           { name: 'Rewards and Recognition Management', level: 'Emerging' },
         ],
       },
@@ -1085,6 +1090,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Compensation and Benefits Section (ComBen)',
         competencies: [
           { name: 'Compensation and Benefits Management', level: 'Emerging' },
+          { name: 'Leave Management', level: 'Emerging' },
         ],
       },
       {
@@ -1092,6 +1098,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Compensation and Benefits Section (ComBen)',
         competencies: [
           { name: 'Compensation and Benefits Management', level: 'Emerging' },
+          { name: 'Leave Management', level: 'Emerging' },
         ],
       },
       {
