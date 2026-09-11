@@ -1680,6 +1680,573 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'Air TPDD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Project Development Service, Air Transport Project Development ' +
+      'Division staff distribution table in Annex D of DOTr Office Order No. 2026-071, ' +
+      'combined with the Division\'s competency framework. Permanent plantilla positions ' +
+      'only — Job Order items are excluded. Vacant items are included since ' +
+      'they are permanent plantilla slots, just currently unfilled. Names are excluded per ' +
+      'standing convention; where the same title is held by more than one person, it is ' +
+      'listed once as a role.',
+    positions: [
+      {
+        title: 'Chief TDO',
+        section: null,
+        competencies: [
+          { name: 'Air Transport Project Design and Structuring', level: 'Advanced' },
+          { name: 'Air Transport Project Evaluation and Appraisal', level: 'Advanced' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Advanced' },
+          { name: 'Project Financing Coordination', level: 'Advanced' },
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sup TDO',
+        section: null,
+        competencies: [
+          { name: 'Air Transport Project Design and Structuring', level: 'Advanced' },
+          { name: 'Air Transport Project Evaluation and Appraisal', level: 'Advanced' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Advanced' },
+          { name: 'Project Financing Coordination', level: 'Advanced' },
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr TDO',
+        section: null,
+        competencies: [
+          { name: 'Air Transport Project Design and Structuring', level: 'Proficient' },
+          { name: 'Air Transport Project Evaluation and Appraisal', level: 'Proficient' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'TDO II',
+        section: null,
+        competencies: [
+          { name: 'Air Transport Project Design and Structuring', level: 'Developing' },
+          { name: 'Air Transport Project Evaluation and Appraisal', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Draftsman I',
+        section: null,
+        competencies: [
+          { name: 'Air Transport Project Design and Structuring', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'Maritime TPDD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Project Development Service, Maritime Transport Project Development ' +
+      'Division staff distribution table in Annex D of DOTr Office Order No. 2026-071, ' +
+      'combined with the Division\'s competency framework. Permanent plantilla positions ' +
+      'only — Job Order items are excluded. Vacant items are included since ' +
+      'they are permanent plantilla slots, just currently unfilled. Names are excluded per ' +
+      'standing convention; where the same title is held by more than one person, it is ' +
+      'listed once as a role.',
+    positions: [
+      {
+        title: 'Chief TDO',
+        section: null,
+        competencies: [
+          { name: 'Maritime Transport Project Design and Structuring', level: 'Advanced' },
+          { name: 'Maritime Transport Project Evaluation and Appraisal', level: 'Advanced' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Advanced' },
+          { name: 'Project Financing Coordination', level: 'Advanced' },
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sup TDO',
+        section: null,
+        competencies: [
+          { name: 'Maritime Transport Project Design and Structuring', level: 'Advanced' },
+          { name: 'Maritime Transport Project Evaluation and Appraisal', level: 'Advanced' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Advanced' },
+          { name: 'Project Financing Coordination', level: 'Advanced' },
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr CDO',
+        section: null,
+        competencies: [
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Proficient' },
+          { name: 'Project Financing Coordination', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Sr TDO',
+        section: null,
+        competencies: [
+          { name: 'Maritime Transport Project Design and Structuring', level: 'Proficient' },
+          { name: 'Maritime Transport Project Evaluation and Appraisal', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'CDO II',
+        section: null,
+        competencies: [
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Developing' },
+          { name: 'Project Financing Coordination', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Draftsman II',
+        section: null,
+        competencies: [
+          { name: 'Maritime Transport Project Design and Structuring', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'Rail TPDD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Project Development Service, Rail Transport Project Development ' +
+      'Division staff distribution table in Annex D of DOTr Office Order No. 2026-071, ' +
+      'combined with the Division\'s competency framework. Permanent plantilla positions ' +
+      'only — Job Order items are excluded. Vacant items are included since ' +
+      'they are permanent plantilla slots, just currently unfilled. Names are excluded per ' +
+      'standing convention; where the same title is held by more than one person, it is ' +
+      'listed once as a role.',
+    positions: [
+      {
+        title: 'Chief TDO',
+        section: null,
+        competencies: [
+          { name: 'Rail Transport Project Design and Structuring', level: 'Advanced' },
+          { name: 'Rail Transport Project Evaluation and Appraisal', level: 'Advanced' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Advanced' },
+          { name: 'Project Financing Coordination', level: 'Advanced' },
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sup TDO',
+        section: null,
+        competencies: [
+          { name: 'Rail Transport Project Design and Structuring', level: 'Advanced' },
+          { name: 'Rail Transport Project Evaluation and Appraisal', level: 'Advanced' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Advanced' },
+          { name: 'Project Financing Coordination', level: 'Advanced' },
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr TDO',
+        section: null,
+        competencies: [
+          { name: 'Rail Transport Project Design and Structuring', level: 'Proficient' },
+          { name: 'Rail Transport Project Evaluation and Appraisal', level: 'Proficient' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'TDO II',
+        section: null,
+        competencies: [
+          { name: 'Rail Transport Project Design and Structuring', level: 'Developing' },
+          { name: 'Rail Transport Project Evaluation and Appraisal', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Economist I',
+        section: null,
+        competencies: [
+          { name: 'Project Financing Coordination', level: 'Emerging' },
+          { name: 'Rail Transport Project Evaluation and Appraisal', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'Road TPDD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Project Development Service, Road Transport Project Development ' +
+      'Division staff distribution table in Annex D of DOTr Office Order No. 2026-071, ' +
+      'combined with the Division\'s competency framework. Permanent plantilla positions ' +
+      'only — Job Order items are excluded. Vacant items are included since ' +
+      'they are permanent plantilla slots, just currently unfilled. Names are excluded per ' +
+      'standing convention; where the same title is held by more than one person, it is ' +
+      'listed once as a role.',
+    positions: [
+      {
+        title: 'Chief TDO',
+        section: null,
+        competencies: [
+          { name: 'Road Transport Project Design and Structuring', level: 'Advanced' },
+          { name: 'Road Transport Project Evaluation and Appraisal', level: 'Advanced' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Advanced' },
+          { name: 'Project Financing Coordination', level: 'Advanced' },
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sup TDO',
+        section: null,
+        competencies: [
+          { name: 'Road Transport Project Design and Structuring', level: 'Advanced' },
+          { name: 'Road Transport Project Evaluation and Appraisal', level: 'Advanced' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Advanced' },
+          { name: 'Project Financing Coordination', level: 'Advanced' },
+          { name: 'Project Turnover and Technical Advisory Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr TDO',
+        section: null,
+        competencies: [
+          { name: 'Road Transport Project Design and Structuring', level: 'Proficient' },
+          { name: 'Road Transport Project Evaluation and Appraisal', level: 'Proficient' },
+          { name: 'Investment Approval and Endorsement Processing', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'TDO II',
+        section: null,
+        competencies: [
+          { name: 'Road Transport Project Design and Structuring', level: 'Developing' },
+          { name: 'Road Transport Project Evaluation and Appraisal', level: 'Developing' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'PRDD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Transport Policy and Planning Service, Policy Research and Development Division staff ' +
+      'distribution table in Annex D of DOTr Office Order No. 2026-071, combined with the ' +
+      'Division\'s competency framework. Permanent plantilla positions only — Job Order ' +
+      'items are excluded. Vacant items are included since they are permanent plantilla ' +
+      'slots, just currently unfilled. Names are excluded per standing convention; where the ' +
+      'same title is held by more than one person, it is listed once as a role.',
+    positions: [
+      {
+        title: 'Sup TDO',
+        section: null,
+        competencies: [
+          { name: 'Transport Policy Agenda Development', level: 'Advanced' },
+          { name: 'Policy and Standards Formulation', level: 'Advanced' },
+          { name: 'Policy Implementation Review and Evaluation', level: 'Advanced' },
+          { name: 'Technical Advisory and Consulting Services', level: 'Advanced' },
+          { name: 'Policy Research and Benchmarking', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr CDO',
+        section: null,
+        competencies: [
+          { name: 'Technical Advisory and Consulting Services', level: 'Proficient' },
+          { name: 'Policy Implementation Review and Evaluation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Sr TDO',
+        section: null,
+        competencies: [
+          { name: 'Policy and Standards Formulation', level: 'Proficient' },
+          { name: 'Policy Research and Benchmarking', level: 'Proficient' },
+          { name: 'Transport Policy Agenda Development', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'TDO II',
+        section: null,
+        competencies: [
+          { name: 'Policy and Standards Formulation', level: 'Developing' },
+          { name: 'Policy Implementation Review and Evaluation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Draftsman III',
+        section: null,
+        competencies: [
+          { name: 'Policy and Standards Formulation', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Draftsman I',
+        section: null,
+        competencies: [
+          { name: 'Policy and Standards Formulation', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'ITPD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Transport Policy and Planning Service, Integrated Transport Planning Division staff ' +
+      'distribution table in Annex D of DOTr Office Order No. 2026-071, combined with the ' +
+      'Division\'s competency framework. Permanent plantilla positions only — Job Order ' +
+      'items are excluded. Vacant items are included since they are permanent plantilla ' +
+      'slots, just currently unfilled. Names are excluded per standing convention; where the ' +
+      'same title is held by more than one person, it is listed once as a role.',
+    positions: [
+      {
+        title: 'Sup TDO',
+        section: null,
+        competencies: [
+          { name: 'Transport Plan Development and Administration', level: 'Advanced' },
+          { name: 'Transport Modeling and Geospatial Data Management', level: 'Advanced' },
+          { name: 'Transport Plan Operationalization', level: 'Advanced' },
+          { name: 'Integrated Transport Strategy Development', level: 'Advanced' },
+          { name: 'Network Planning Technical Advisory Services', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr TDO',
+        section: null,
+        competencies: [
+          { name: 'Transport Plan Development and Administration', level: 'Proficient' },
+          { name: 'Transport Modeling and Geospatial Data Management', level: 'Proficient' },
+          { name: 'Integrated Transport Strategy Development', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Sr CDO',
+        section: null,
+        competencies: [
+          { name: 'Network Planning Technical Advisory Services', level: 'Proficient' },
+          { name: 'Transport Plan Operationalization', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'TDO II',
+        section: null,
+        competencies: [
+          { name: 'Transport Plan Development and Administration', level: 'Developing' },
+          { name: 'Transport Modeling and Geospatial Data Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'CDO II',
+        section: null,
+        competencies: [
+          { name: 'Transport Plan Operationalization', level: 'Developing' },
+          { name: 'Network Planning Technical Advisory Services', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Draftsman II',
+        section: null,
+        competencies: [
+          { name: 'Transport Modeling and Geospatial Data Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'IPD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Transport Policy and Planning Service, Investment Programming Division staff ' +
+      'distribution table in Annex D of DOTr Office Order No. 2026-071, combined with the ' +
+      'Division\'s competency framework. Permanent plantilla positions only — Job Order ' +
+      'items are excluded. Vacant items are included since they are permanent plantilla ' +
+      'slots, just currently unfilled. Names are excluded per standing convention; where the ' +
+      'same title is held by more than one person, it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief TDO',
+        section: null,
+        competencies: [
+          { name: 'Investment Program Preparation and Management', level: 'Advanced' },
+          { name: 'Investment Prioritization and Evaluation', level: 'Advanced' },
+          { name: 'Funding Source and Resource Allocation Advisory', level: 'Advanced' },
+          { name: 'Investment Portfolio Monitoring and Performance Reporting', level: 'Advanced' },
+          { name: 'Investment Program Coordination and Liaison', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr TDO',
+        section: null,
+        competencies: [
+          { name: 'Investment Program Preparation and Management', level: 'Proficient' },
+          { name: 'Investment Prioritization and Evaluation', level: 'Proficient' },
+          { name: 'Funding Source and Resource Allocation Advisory', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Sr CDO',
+        section: null,
+        competencies: [
+          { name: 'Investment Program Coordination and Liaison', level: 'Proficient' },
+          { name: 'Investment Portfolio Monitoring and Performance Reporting', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'CDO II',
+        section: null,
+        competencies: [
+          { name: 'Investment Program Coordination and Liaison', level: 'Developing' },
+          { name: 'Investment Portfolio Monitoring and Performance Reporting', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Admin Asst I',
+        section: null,
+        competencies: [
+          { name: 'Investment Program Preparation and Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'TSKMD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Transport Policy and Planning Service, Transport Statistics and Knowledge Management Division staff ' +
+      'distribution table in Annex D of DOTr Office Order No. 2026-071, combined with the ' +
+      'Division\'s competency framework. Permanent plantilla positions only — Job Order ' +
+      'items are excluded. Vacant items are included since they are permanent plantilla ' +
+      'slots, just currently unfilled. Names are excluded per standing convention; where the ' +
+      'same title is held by more than one person, it is listed once as a role.',
+    positions: [
+      {
+        title: 'Sup TDO',
+        section: null,
+        competencies: [
+          { name: 'Transport Statistics Management and Publication', level: 'Advanced' },
+          { name: 'Transport Data Collection and Coordination', level: 'Advanced' },
+          { name: 'Data Repository and Database Management', level: 'Advanced' },
+          { name: 'Data Standardization and Technical Assistance', level: 'Advanced' },
+          { name: 'Research, Analysis, and Policy Studies', level: 'Advanced' },
+          { name: 'Knowledge Dissemination and Archiving', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr CDO',
+        section: null,
+        competencies: [
+          { name: 'Transport Data Collection and Coordination', level: 'Proficient' },
+          { name: 'Knowledge Dissemination and Archiving', level: 'Proficient' },
+          { name: 'Transport Statistics Management and Publication', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Statistician III',
+        section: null,
+        competencies: [
+          { name: 'Research, Analysis, and Policy Studies', level: 'Proficient' },
+          { name: 'Transport Statistics Management and Publication', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Admin Officer IV',
+        section: null,
+        competencies: [
+          { name: 'Data Repository and Database Management', level: 'Developing' },
+          { name: 'Data Standardization and Technical Assistance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Draftsman I',
+        section: null,
+        competencies: [
+          { name: 'Data Repository and Database Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'INSAD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Project Monitoring and Evaluation Service, Inspection and Acceptance Division staff ' +
+      'distribution table in Annex D of DOTr Office Order No. 2026-071, combined with the ' +
+      'Division\'s competency framework. Permanent plantilla positions only — Job Order ' +
+      'items are excluded. Vacant items are included since they are permanent plantilla ' +
+      'slots, just currently unfilled. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Sup TDO',
+        section: null,
+        competencies: [
+          { name: 'Project Document Collection and Review', level: 'Advanced' },
+          { name: 'On-Site Inspection and Contractor Performance Evaluation', level: 'Advanced' },
+          { name: 'Project Completion and Acceptance Processing', level: 'Advanced' },
+          { name: 'Inspection Output Management and Reporting', level: 'Advanced' },
+          { name: 'Inspection Coordination and Technical Assistance', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Sr TDO',
+        section: null,
+        competencies: [
+          { name: 'On-Site Inspection and Contractor Performance Evaluation', level: 'Proficient' },
+          { name: 'Project Completion and Acceptance Processing', level: 'Proficient' },
+          { name: 'Project Document Collection and Review', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Sr CDO',
+        section: null,
+        competencies: [
+          { name: 'Inspection Coordination and Technical Assistance', level: 'Proficient' },
+          { name: 'Inspection Output Management and Reporting', level: 'Developing' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'MEDD',
+    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    sourceNote:
+      'Built from the Project Monitoring and Evaluation Service, Monitoring, Evaluation, and Documentation Division staff ' +
+      'distribution table in Annex D of DOTr Office Order No. 2026-071, combined with the ' +
+      'Division\'s competency framework. Permanent plantilla positions only — Job Order ' +
+      'items are excluded. Vacant items are included since they are permanent plantilla ' +
+      'slots, just currently unfilled. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Sr CDO',
+        section: null,
+        competencies: [
+          { name: 'Project Implementation Plan and Target Management', level: 'Advanced' },
+          { name: 'Project Monitoring and Progress Analysis', level: 'Advanced' },
+          { name: 'Evaluation Agenda and Plan Development', level: 'Advanced' },
+          { name: 'Project and Program Evaluation', level: 'Advanced' },
+          { name: 'Monitoring and Evaluation Reporting and Technical Assistance', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'CDO II',
+        section: null,
+        competencies: [
+          { name: 'Project Monitoring and Progress Analysis', level: 'Developing' },
+          { name: 'Monitoring and Evaluation Reporting and Technical Assistance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'TDO II',
+        section: null,
+        competencies: [
+          { name: 'Project Implementation Plan and Target Management', level: 'Developing' },
+          { name: 'Project and Program Evaluation', level: 'Developing' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
