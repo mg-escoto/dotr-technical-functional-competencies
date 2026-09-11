@@ -2101,7 +2101,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Admin Asst I',
+        title: 'Administrative Assistant I',
         section: null,
         competencies: [
           { name: 'Investment Program Preparation and Management', level: 'Emerging' },
@@ -2151,7 +2151,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Admin Officer IV',
+        title: 'Administrative Officer IV',
         section: null,
         competencies: [
           { name: 'Data Repository and Database Management', level: 'Developing' },
