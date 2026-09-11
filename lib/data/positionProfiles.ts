@@ -1170,6 +1170,499 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'CRD',
+    asOf: 'CRD current organizational structure and manpower complement',
+    sourceNote:
+      'Built from the Central Records Division current organizational structure and manpower ' +
+      'complement (Receiving Section, Releasing Section, and Archiving Section) combined with ' +
+      'the CRD competency framework. Permanent plantilla positions only — two Administrative ' +
+      'Aide IV (Job Order) items are excluded. Vacant items are included since they are ' +
+      'permanent plantilla slots, just currently unfilled. Positions annotated as reassigned to ' +
+      'or from another division are profiled under the section where the chart places the slot, ' +
+      'since that reflects the position itself rather than the individual currently assigned. ' +
+      'Where the same title/section combination is held by more than one person (e.g. two ' +
+      'Administrative Aide III and two Administrative Aide II under the Releasing Section), it ' +
+      'is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Records and Information Management', level: 'Advanced' },
+          { name: 'Document Control and Tracking', level: 'Advanced' },
+          { name: 'Digital Records Management', level: 'Advanced' },
+          { name: 'Policy Development', level: 'Advanced' },
+          { name: 'Stakeholder Coordination', level: 'Advanced' },
+          { name: 'Quality Assurance', level: 'Advanced' },
+          { name: 'Records Preservation and Disposition', level: 'Advanced' },
+          { name: 'Customer Service', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Records and Information Management', level: 'Advanced' },
+          { name: 'Document Control and Tracking', level: 'Advanced' },
+          { name: 'Digital Records Management', level: 'Advanced' },
+          { name: 'Policy Development', level: 'Advanced' },
+          { name: 'Stakeholder Coordination', level: 'Advanced' },
+          { name: 'Quality Assurance', level: 'Advanced' },
+          { name: 'Records Preservation and Disposition', level: 'Advanced' },
+          { name: 'Customer Service', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Receiving Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Proficient' },
+          { name: 'Records and Information Management', level: 'Proficient' },
+          { name: 'Quality Assurance', level: 'Developing' },
+          { name: 'Customer Service', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: 'Receiving Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Developing' },
+          { name: 'Records and Information Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Receiving Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Developing' },
+          { name: 'Customer Service', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Receiving Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide III',
+        section: 'Receiving Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Releasing Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Proficient' },
+          { name: 'Records and Information Management', level: 'Proficient' },
+          { name: 'Quality Assurance', level: 'Developing' },
+          { name: 'Customer Service', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: 'Releasing Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Developing' },
+          { name: 'Records and Information Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Releasing Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Releasing Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Emerging' },
+          { name: 'Records and Information Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide III',
+        section: 'Releasing Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide II',
+        section: 'Releasing Section',
+        competencies: [
+          { name: 'Document Control and Tracking', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Archiving Section',
+        competencies: [
+          { name: 'Records Preservation and Disposition', level: 'Proficient' },
+          { name: 'Digital Records Management', level: 'Proficient' },
+          { name: 'Records and Information Management', level: 'Developing' },
+          { name: 'Quality Assurance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Archiving Section',
+        competencies: [
+          { name: 'Records Preservation and Disposition', level: 'Developing' },
+          { name: 'Digital Records Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Archiving Section',
+        competencies: [
+          { name: 'Records Preservation and Disposition', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Archiving Section',
+        competencies: [
+          { name: 'Records Preservation and Disposition', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'MD',
+    asOf: 'CPMS current organizational structure (existing)',
+    sourceNote:
+      'Built from the Corporate Planning and Management Service current organizational ' +
+      'structure, Management Division portion (Organization and Staffing Standards Section, ' +
+      'and Policy Review, Systems Development and CART Section) combined with the MD ' +
+      'competency framework. Permanent plantilla positions only — the chart had no Job Order ' +
+      'or Contract of Service entries to exclude; items marked "newly created" are approved ' +
+      'plantilla positions and are included. The Director IV and the Administrative Officer ' +
+      'III/Administrative Assistant III/Administrative Aide IV reporting directly to the ' +
+      'Director are Service-level staff, not part of either division, and are not profiled ' +
+      'here. Where a section shows the same title held by more than one person or across ' +
+      'parallel unlabeled groups (e.g. multiple Administrative Officer IV under Organization ' +
+      'and Staffing Standards Section), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Strategic Planning', level: 'Advanced' },
+          { name: 'Organizational Development', level: 'Advanced' },
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Presentation Skills', level: 'Advanced' },
+          { name: 'Policy Formulation and Implementation', level: 'Advanced' },
+          { name: 'Change Management and Organizational Development', level: 'Advanced' },
+          { name: 'Policy Compliance and Ethical Standards Enforcement', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Strategic Planning', level: 'Advanced' },
+          { name: 'Organizational Development', level: 'Advanced' },
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Presentation Skills', level: 'Advanced' },
+          { name: 'Policy Formulation and Implementation', level: 'Advanced' },
+          { name: 'Change Management and Organizational Development', level: 'Advanced' },
+          { name: 'Policy Compliance and Ethical Standards Enforcement', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Organization and Staffing Standards Section',
+        competencies: [
+          { name: 'Organizational Development', level: 'Proficient' },
+          { name: 'Strategic Planning', level: 'Developing' },
+          { name: 'Presentation Skills', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Organization and Staffing Standards Section',
+        competencies: [
+          { name: 'Organizational Development', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Organization and Staffing Standards Section',
+        competencies: [
+          { name: 'Organizational Development', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Policy Review, Systems Development and CART Section',
+        competencies: [
+          { name: 'Policy Formulation and Implementation', level: 'Proficient' },
+          { name: 'Change Management and Organizational Development', level: 'Developing' },
+          { name: 'Presentation Skills', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Policy Review, Systems Development and CART Section',
+        competencies: [
+          { name: 'Policy Formulation and Implementation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Policy Review, Systems Development and CART Section',
+        competencies: [
+          { name: 'Policy Formulation and Implementation', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'PMED',
+    asOf: 'CPMS current organizational structure (existing)',
+    sourceNote:
+      'Built from the Corporate Planning and Management Service current organizational ' +
+      'structure, Performance Monitoring and Evaluation Division portion, combined with the ' +
+      'PMED competency framework. Permanent plantilla positions only — the chart had no Job ' +
+      'Order or Contract of Service entries to exclude; the Planning Officer IV item marked ' +
+      '"newly created" is an approved plantilla position and is included. The Director IV and ' +
+      'the Administrative Officer III/Administrative Assistant III/Administrative Aide IV ' +
+      'reporting directly to the Director are Service-level staff, not part of either division, ' +
+      'and are not profiled here. Where the same title is held by more than one person (two ' +
+      'Planning Officer II and two Planning Officer I), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Planning Officer V',
+        section: null,
+        competencies: [
+          { name: 'Performance Management Systems Administration', level: 'Advanced' },
+          { name: 'Performance Monitoring and Evaluation', level: 'Advanced' },
+          { name: 'Results-Based Management', level: 'Advanced' },
+          { name: 'Strategic Planning and Performance Alignment', level: 'Advanced' },
+          { name: 'Data Analysis and Performance Analytics', level: 'Advanced' },
+          { name: 'Policy and Regulatory Compliance Monitoring', level: 'Advanced' },
+          { name: 'Stakeholder Engagement and Technical Assistance', level: 'Advanced' },
+          { name: 'Secretariat and Meeting Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Planning Officer IV',
+        section: null,
+        competencies: [
+          { name: 'Performance Management Systems Administration', level: 'Advanced' },
+          { name: 'Performance Monitoring and Evaluation', level: 'Advanced' },
+          { name: 'Results-Based Management', level: 'Advanced' },
+          { name: 'Strategic Planning and Performance Alignment', level: 'Advanced' },
+          { name: 'Data Analysis and Performance Analytics', level: 'Advanced' },
+          { name: 'Policy and Regulatory Compliance Monitoring', level: 'Advanced' },
+          { name: 'Stakeholder Engagement and Technical Assistance', level: 'Advanced' },
+          { name: 'Secretariat and Meeting Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Planning Officer III',
+        section: null,
+        competencies: [
+          { name: 'Performance Monitoring and Evaluation', level: 'Proficient' },
+          { name: 'Results-Based Management', level: 'Proficient' },
+          { name: 'Data Analysis and Performance Analytics', level: 'Proficient' },
+          { name: 'Strategic Planning and Performance Alignment', level: 'Developing' },
+          { name: 'Policy and Regulatory Compliance Monitoring', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Planning Officer II',
+        section: null,
+        competencies: [
+          { name: 'Performance Monitoring and Evaluation', level: 'Developing' },
+          { name: 'Data Analysis and Performance Analytics', level: 'Developing' },
+          { name: 'Stakeholder Engagement and Technical Assistance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Planning Officer I',
+        section: null,
+        competencies: [
+          { name: 'Performance Monitoring and Evaluation', level: 'Emerging' },
+          { name: 'Data Analysis and Performance Analytics', level: 'Emerging' },
+          { name: 'Secretariat and Meeting Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'IAD I',
+    asOf: 'Internal Audit Service organizational chart, as of September 2026',
+    sourceNote:
+      'Built from the Internal Audit Service organizational chart (as of September 2026), ' +
+      'Internal Audit Division I portion, combined with the IAD I competency framework. ' +
+      'Permanent plantilla positions only — the chart had no Job Order or Contract of Service ' +
+      'entries to exclude. Vacant items are included since they are permanent plantilla slots, ' +
+      'just currently unfilled. The Director IV and the Administrative Officer III/' +
+      'Administrative Assistant III/Administrative Aide IV reporting directly to the Director ' +
+      'are Internal Audit Service-level staff, not part of either division, and are not ' +
+      'profiled here. Where the same title is held by more than one person (two Internal ' +
+      'Auditor II), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Division Chief / Internal Auditor V',
+        section: null,
+        competencies: [
+          { name: 'Risk-Based Audit Planning and Quality Assurance', level: 'Advanced' },
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Advanced' },
+          { name: 'Systems, Process, and Internal Control Evaluation', level: 'Advanced' },
+          { name: 'Financial, Management, and Operational Data Analysis', level: 'Advanced' },
+          { name: 'Information Systems Auditing and Computer-Assisted Audit Techniques', level: 'Advanced' },
+          { name: 'Asset, Resource, and Performance Assurance', level: 'Advanced' },
+          { name: 'Fraud Risk, Irregularity Detection, and Special Investigations', level: 'Advanced' },
+          { name: 'Audit Reporting, Recommendations, and Follow-Up', level: 'Advanced' },
+          { name: 'Responsive Audit Management, Professional Communication, and Stakeholder Liaison', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Assistant Division Chief / Internal Auditor IV',
+        section: null,
+        competencies: [
+          { name: 'Risk-Based Audit Planning and Quality Assurance', level: 'Advanced' },
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Advanced' },
+          { name: 'Systems, Process, and Internal Control Evaluation', level: 'Advanced' },
+          { name: 'Financial, Management, and Operational Data Analysis', level: 'Advanced' },
+          { name: 'Information Systems Auditing and Computer-Assisted Audit Techniques', level: 'Advanced' },
+          { name: 'Asset, Resource, and Performance Assurance', level: 'Advanced' },
+          { name: 'Fraud Risk, Irregularity Detection, and Special Investigations', level: 'Proficient' },
+          { name: 'Audit Reporting, Recommendations, and Follow-Up', level: 'Advanced' },
+          { name: 'Responsive Audit Management, Professional Communication, and Stakeholder Liaison', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Internal Auditor III',
+        section: null,
+        competencies: [
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Proficient' },
+          { name: 'Systems, Process, and Internal Control Evaluation', level: 'Proficient' },
+          { name: 'Audit Reporting, Recommendations, and Follow-Up', level: 'Proficient' },
+          { name: 'Fraud Risk, Irregularity Detection, and Special Investigations', level: 'Developing' },
+          { name: 'Information Systems Auditing and Computer-Assisted Audit Techniques', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Internal Auditor II',
+        section: null,
+        competencies: [
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Developing' },
+          { name: 'Systems, Process, and Internal Control Evaluation', level: 'Developing' },
+          { name: 'Financial, Management, and Operational Data Analysis', level: 'Developing' },
+          { name: 'Asset, Resource, and Performance Assurance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Internal Auditor I',
+        section: null,
+        competencies: [
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Emerging' },
+          { name: 'Financial, Management, and Operational Data Analysis', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Internal Auditing Assistant',
+        section: null,
+        competencies: [
+          { name: 'Audit Reporting, Recommendations, and Follow-Up', level: 'Emerging' },
+          { name: 'Responsive Audit Management, Professional Communication, and Stakeholder Liaison', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'IAD2',
+    asOf: 'Internal Audit Service organizational chart, as of September 2026',
+    sourceNote:
+      'Built from the Internal Audit Service organizational chart (as of September 2026), ' +
+      'Internal Audit Division II portion, combined with the IAD II competency framework. ' +
+      'Permanent plantilla positions only — the chart had no Job Order or Contract of Service ' +
+      'entries to exclude. Vacant items are included since they are permanent plantilla slots, ' +
+      'just currently unfilled. The Director IV and the Administrative Officer III/' +
+      'Administrative Assistant III/Administrative Aide IV reporting directly to the Director ' +
+      'are Internal Audit Service-level staff, not part of either division, and are not ' +
+      'profiled here. Where the same title is held by more than one person (two Internal ' +
+      'Auditor II, one vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Division Chief / Internal Auditor V',
+        section: null,
+        competencies: [
+          { name: 'Risk-Based Audit Planning and Quality Assurance', level: 'Advanced' },
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Advanced' },
+          { name: 'Systems, Process, and Internal Control Evaluation', level: 'Advanced' },
+          { name: 'Operational Data Analysis and Information Reliability', level: 'Advanced' },
+          { name: 'Information Systems Auditing and Computer-Assisted Audit Techniques', level: 'Advanced' },
+          { name: 'Asset, Resource, and Performance Assurance', level: 'Advanced' },
+          { name: 'Fraud Detection, Special Investigations, and External Liaison', level: 'Advanced' },
+          { name: 'Audit Reporting, Recommendations, and Follow-Up', level: 'Advanced' },
+          { name: 'Responsive Audit Management, Policy Interpretation, and Professional Communication', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Assistant Division Chief / Internal Auditor IV',
+        section: null,
+        competencies: [
+          { name: 'Risk-Based Audit Planning and Quality Assurance', level: 'Advanced' },
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Advanced' },
+          { name: 'Systems, Process, and Internal Control Evaluation', level: 'Advanced' },
+          { name: 'Operational Data Analysis and Information Reliability', level: 'Advanced' },
+          { name: 'Information Systems Auditing and Computer-Assisted Audit Techniques', level: 'Advanced' },
+          { name: 'Asset, Resource, and Performance Assurance', level: 'Advanced' },
+          { name: 'Fraud Detection, Special Investigations, and External Liaison', level: 'Proficient' },
+          { name: 'Audit Reporting, Recommendations, and Follow-Up', level: 'Advanced' },
+          { name: 'Responsive Audit Management, Policy Interpretation, and Professional Communication', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Internal Auditor III',
+        section: null,
+        competencies: [
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Proficient' },
+          { name: 'Systems, Process, and Internal Control Evaluation', level: 'Proficient' },
+          { name: 'Audit Reporting, Recommendations, and Follow-Up', level: 'Proficient' },
+          { name: 'Fraud Detection, Special Investigations, and External Liaison', level: 'Developing' },
+          { name: 'Information Systems Auditing and Computer-Assisted Audit Techniques', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Internal Auditor II',
+        section: null,
+        competencies: [
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Developing' },
+          { name: 'Systems, Process, and Internal Control Evaluation', level: 'Developing' },
+          { name: 'Operational Data Analysis and Information Reliability', level: 'Developing' },
+          { name: 'Asset, Resource, and Performance Assurance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Internal Auditor I',
+        section: null,
+        competencies: [
+          { name: 'Compliance, Management, and Operations Auditing', level: 'Emerging' },
+          { name: 'Operational Data Analysis and Information Reliability', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Internal Auditing Assistant',
+        section: null,
+        competencies: [
+          { name: 'Audit Reporting, Recommendations, and Follow-Up', level: 'Emerging' },
+          { name: 'Responsive Audit Management, Policy Interpretation, and Professional Communication', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
