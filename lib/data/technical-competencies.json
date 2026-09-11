@@ -14898,11 +14898,10 @@
         ]
       }
     ],
-    "office": "Needs Placement",
+    "office": "Project Management Offices",
     "officeOrder": 99,
     "status": "populated",
-    "parentCode": null,
-    "reorgNote": "Not mentioned in the latest organizational chart taxonomy — placed here pending confirmation of where it belongs."
+    "parentCode": null
   },
   {
     "code": "PMO-AVIATION",
@@ -14911,11 +14910,10 @@
     "sourceFile": null,
     "basis": "Benchmarked from the Project Management Office – Maritime competency framework, since these Project Management Offices share the same competency set.",
     "careerProgression": null,
-    "office": "Needs Placement",
+    "office": "Project Management Offices",
     "officeOrder": 99,
     "status": "populated",
     "parentCode": null,
-    "reorgNote": "Not mentioned in the latest organizational chart taxonomy — placed here pending confirmation of where it belongs.",
     "competencies": [
       {
         "name": "Project Management",
@@ -15038,11 +15036,10 @@
     "sourceFile": null,
     "basis": "Benchmarked from the Project Management Office – Maritime competency framework, since these Project Management Offices share the same competency set.",
     "careerProgression": null,
-    "office": "Needs Placement",
+    "office": "Project Management Offices",
     "officeOrder": 99,
     "status": "populated",
     "parentCode": null,
-    "reorgNote": "Not mentioned in the latest organizational chart taxonomy — placed here pending confirmation of where it belongs.",
     "competencies": [
       {
         "name": "Project Management",
@@ -15165,11 +15162,10 @@
     "sourceFile": null,
     "basis": "Benchmarked from the Project Management Office – Maritime competency framework, since these Project Management Offices share the same competency set.",
     "careerProgression": null,
-    "office": "Needs Placement",
+    "office": "Project Management Offices",
     "officeOrder": 99,
     "status": "populated",
     "parentCode": null,
-    "reorgNote": "Not mentioned in the latest organizational chart taxonomy — placed here pending confirmation of where it belongs.",
     "competencies": [
       {
         "name": "Project Management",
