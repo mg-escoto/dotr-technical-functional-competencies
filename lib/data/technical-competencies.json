@@ -11295,93 +11295,1710 @@
   {
     "code": "Air TPDD",
     "name": "Air Transport Project Development Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Project Development Service",
     "officeOrder": 10,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Air Transport Project Design and Structuring",
+        "definition": "The ability to develop the technical, financial, economic, environmental, social, institutional, legal, and commercial parameters, structure, and design of air transport projects to a level of detail that is investment-grade.",
+        "dimensions": [
+          {
+            "name": "Technical and Engineering Parameter Development",
+            "definition": "Ability to define technical, engineering, and design parameters for proposed air transport projects.",
+            "levels": {
+              "Emerging": "Assists in gathering technical and engineering information for proposed projects with guidance.",
+              "Developing": "Develops technical and engineering parameters for routine project proposals.",
+              "Proficient": "Develops complex technical and engineering parameters and resolves design issues independently.",
+              "Advanced": "Establishes technical design standards and methodologies for project structuring."
+            }
+          },
+          {
+            "name": "Financial and Economic Structuring",
+            "definition": "Ability to develop financial and economic parameters, models, and structures for proposed air transport projects.",
+            "levels": {
+              "Emerging": "Assists in compiling financial and economic data for project proposals with guidance.",
+              "Developing": "Develops routine financial and economic parameters and models for project proposals.",
+              "Proficient": "Develops complex financial and economic structures and resolves modeling issues independently.",
+              "Advanced": "Establishes financial and economic structuring standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Social, Environmental, and Institutional Parameter Development",
+            "definition": "Ability to define social, environmental, institutional, and legal parameters and safeguards for proposed air transport projects.",
+            "levels": {
+              "Emerging": "Assists in gathering social, environmental, and institutional information with guidance.",
+              "Developing": "Develops routine social, environmental, institutional, and legal parameters for project proposals.",
+              "Proficient": "Develops complex safeguards frameworks and resolves parameter conflicts independently.",
+              "Advanced": "Establishes safeguards standards and institutional parameter frameworks for the Division."
+            }
+          },
+          {
+            "name": "Investment-Grade Documentation",
+            "definition": "Ability to consolidate project parameters and design into investment-grade project documentation.",
+            "levels": {
+              "Emerging": "Assists in compiling and organizing project documentation with guidance.",
+              "Developing": "Prepares routine investment-grade project documentation independently.",
+              "Proficient": "Prepares complex investment-grade documentation and ensures completeness and consistency.",
+              "Advanced": "Establishes documentation standards and quality assurance mechanisms for investment-grade outputs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Air Transport Project Evaluation and Appraisal",
+        "definition": "The ability to evaluate proposed air transport projects based on technical, financial, economic, legal, and commercial feasibility, social and environmental impact and safeguards, investment strategy soundness, and alignment with applicable policies and the Department's agenda.",
+        "dimensions": [
+          {
+            "name": "Feasibility Assessment",
+            "definition": "Ability to assess the technical, financial, economic, legal, and commercial feasibility of proposed air transport projects.",
+            "levels": {
+              "Emerging": "Assists in reviewing feasibility study components with guidance.",
+              "Developing": "Assesses routine project feasibility using established criteria and methods.",
+              "Proficient": "Assesses complex, multi-dimensional feasibility issues and resolves conflicting findings.",
+              "Advanced": "Establishes feasibility assessment standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Social and Environmental Impact Evaluation",
+            "definition": "Ability to evaluate social and environmental impacts and safeguards of proposed air transport projects.",
+            "levels": {
+              "Emerging": "Assists in reviewing social and environmental impact documentation with guidance.",
+              "Developing": "Evaluates routine social and environmental impact assessments and safeguards compliance.",
+              "Proficient": "Evaluates complex social and environmental risks and recommends mitigating measures.",
+              "Advanced": "Establishes social and environmental evaluation standards for project appraisal."
+            }
+          },
+          {
+            "name": "Investment Strategy and Parameter Review",
+            "definition": "Ability to assess the soundness of investment strategies and the reasonableness of project parameters, terms, and conditions.",
+            "levels": {
+              "Emerging": "Assists in reviewing investment strategy documentation with guidance.",
+              "Developing": "Reviews routine investment strategies and project parameters for reasonableness.",
+              "Proficient": "Reviews complex investment strategies and resolves parameter or terms discrepancies.",
+              "Advanced": "Establishes investment strategy review standards and criteria for the Division."
+            }
+          },
+          {
+            "name": "Policy Alignment Review",
+            "definition": "Ability to evaluate project proposals for alignment with applicable policies and the Department's agenda.",
+            "levels": {
+              "Emerging": "Assists in checking project proposals against applicable policies with guidance.",
+              "Developing": "Reviews routine project proposals for policy alignment and flags discrepancies.",
+              "Proficient": "Resolves complex policy alignment issues and recommends corrective adjustments.",
+              "Advanced": "Establishes policy alignment review standards and represents the Division in policy discussions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Investment Approval and Endorsement Processing",
+        "definition": "The ability to take charge of the endorsement and approval process for air transport projects, including preparing and securing requisite documents and ensuring compliance with the approving body's directives and parameters.",
+        "dimensions": [
+          {
+            "name": "Endorsement Documentation",
+            "definition": "Ability to prepare and organize documents required for project endorsement and investment approval.",
+            "levels": {
+              "Emerging": "Assists in preparing and organizing endorsement documents with guidance.",
+              "Developing": "Prepares routine endorsement documentation independently.",
+              "Proficient": "Prepares complex endorsement documentation and resolves documentary gaps.",
+              "Advanced": "Establishes endorsement documentation standards and quality controls for the Division."
+            }
+          },
+          {
+            "name": "Approval Process Coordination",
+            "definition": "Ability to coordinate the investment approval process with relevant approving bodies and offices.",
+            "levels": {
+              "Emerging": "Supports coordination activities for the approval process with guidance.",
+              "Developing": "Coordinates routine approval process requirements with relevant offices.",
+              "Proficient": "Manages complex approval process coordination involving multiple approving bodies.",
+              "Advanced": "Leads strategic coordination with approving bodies and strengthens institutional relationships."
+            }
+          },
+          {
+            "name": "Compliance Monitoring",
+            "definition": "Ability to monitor compliance with the approving body's directives, conditions, and parameters.",
+            "levels": {
+              "Emerging": "Tracks compliance requirements and deadlines with guidance.",
+              "Developing": "Monitors routine compliance with approving body directives and conditions.",
+              "Proficient": "Resolves complex compliance issues and recommends corrective actions.",
+              "Advanced": "Establishes compliance monitoring systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Approval Tracking and Follow-Through",
+            "definition": "Ability to track the status of endorsement and approval requests and follow through on required actions.",
+            "levels": {
+              "Emerging": "Maintains basic tracking records for endorsement and approval requests.",
+              "Developing": "Tracks routine endorsement and approval requests and follows through on required actions.",
+              "Proficient": "Manages tracking of complex, multi-stage approval requests and expedites resolution.",
+              "Advanced": "Establishes approval tracking systems and reporting standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Financing Coordination",
+        "definition": "The ability to tie up financing of investment-approved air transport projects with funders and facilitate the finalization of financing documents, terms, schedules, and implementation activities.",
+        "dimensions": [
+          {
+            "name": "Funder Coordination",
+            "definition": "Ability to coordinate and liaise with funders and financing institutions for investment-approved projects.",
+            "levels": {
+              "Emerging": "Supports funder coordination activities with guidance.",
+              "Developing": "Coordinates routine communications and requirements with funders.",
+              "Proficient": "Manages complex funder coordination involving multiple financing institutions.",
+              "Advanced": "Leads strategic funder relationships and negotiations for major financing arrangements."
+            }
+          },
+          {
+            "name": "Financing Documentation",
+            "definition": "Ability to prepare, review, and facilitate finalization of financing agreements and related documents.",
+            "levels": {
+              "Emerging": "Assists in preparing financing documentation with guidance.",
+              "Developing": "Prepares and reviews routine financing documentation independently.",
+              "Proficient": "Reviews and finalizes complex financing agreements and resolves documentary issues.",
+              "Advanced": "Establishes financing documentation standards and quality controls for the Division."
+            }
+          },
+          {
+            "name": "Financing Terms Negotiation Support",
+            "definition": "Ability to support agreement on financing terms, objectives, and schedules with funders.",
+            "levels": {
+              "Emerging": "Assists in compiling information for financing terms discussions with guidance.",
+              "Developing": "Supports routine negotiation activities and consolidates funder feedback.",
+              "Proficient": "Supports complex negotiations and resolves conflicting terms among stakeholders.",
+              "Advanced": "Leads negotiation strategy and secures favorable financing terms for major projects."
+            }
+          },
+          {
+            "name": "Financing Implementation Planning",
+            "definition": "Ability to define the specific activities necessary to implement financing arrangements for approved projects.",
+            "levels": {
+              "Emerging": "Assists in compiling implementation activity information with guidance.",
+              "Developing": "Defines routine implementation activities for financing arrangements.",
+              "Proficient": "Defines complex, multi-phase implementation plans for financing arrangements.",
+              "Advanced": "Establishes financing implementation planning standards and methodologies for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Turnover and Technical Advisory Support",
+        "definition": "The ability to ensure the proper and efficient turnover of approved air transport projects to implementing agencies and offices, and to provide technical assistance and advisory services throughout project conceptualization, development, and evaluation.",
+        "dimensions": [
+          {
+            "name": "Project Turnover Management",
+            "definition": "Ability to manage the proper and efficient turnover of approved projects to relevant implementing agencies or offices.",
+            "levels": {
+              "Emerging": "Assists in preparing turnover documentation and requirements with guidance.",
+              "Developing": "Manages routine project turnover activities and documentation.",
+              "Proficient": "Manages complex, multi-agency project turnover and resolves transition issues.",
+              "Advanced": "Establishes project turnover standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Technical Assistance Provision",
+            "definition": "Ability to provide technical assistance in the conceptualization, development, and evaluation of proposed projects.",
+            "levels": {
+              "Emerging": "Assists in providing basic technical information to requesting parties with guidance.",
+              "Developing": "Provides routine technical assistance on project conceptualization and development.",
+              "Proficient": "Provides expert technical assistance on complex project issues and evaluations.",
+              "Advanced": "Serves as the Division's senior technical resource and shapes technical assistance standards."
+            }
+          },
+          {
+            "name": "Advisory Services",
+            "definition": "Ability to provide advisory services and technical guidance to stakeholders throughout the project development cycle.",
+            "levels": {
+              "Emerging": "Assists in preparing advisory materials with guidance.",
+              "Developing": "Provides routine advisory services to stakeholders on project development matters.",
+              "Proficient": "Provides expert advisory services on complex, sensitive, or high-impact project matters.",
+              "Advanced": "Leads strategic advisory engagements and represents the Division in high-level consultations."
+            }
+          },
+          {
+            "name": "Project Development Coordination",
+            "definition": "Ability to coordinate across teams and stakeholders to support cohesive project development activities.",
+            "levels": {
+              "Emerging": "Supports coordination activities among project teams with guidance.",
+              "Developing": "Coordinates routine project development activities among teams and stakeholders.",
+              "Proficient": "Manages complex, cross-functional project development coordination.",
+              "Advanced": "Establishes project development coordination mechanisms and standards for the Division."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "Maritime TPDD",
     "name": "Maritime Transport Project Development Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Project Development Service",
     "officeOrder": 10,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Maritime Transport Project Design and Structuring",
+        "definition": "The ability to develop the technical, financial, economic, environmental, social, institutional, legal, and commercial parameters, structure, and design of maritime transport projects to a level of detail that is investment-grade.",
+        "dimensions": [
+          {
+            "name": "Technical and Engineering Parameter Development",
+            "definition": "Ability to define technical, engineering, and design parameters for proposed maritime transport projects.",
+            "levels": {
+              "Emerging": "Assists in gathering technical and engineering information for proposed projects with guidance.",
+              "Developing": "Develops technical and engineering parameters for routine project proposals.",
+              "Proficient": "Develops complex technical and engineering parameters and resolves design issues independently.",
+              "Advanced": "Establishes technical design standards and methodologies for project structuring."
+            }
+          },
+          {
+            "name": "Financial and Economic Structuring",
+            "definition": "Ability to develop financial and economic parameters, models, and structures for proposed maritime transport projects.",
+            "levels": {
+              "Emerging": "Assists in compiling financial and economic data for project proposals with guidance.",
+              "Developing": "Develops routine financial and economic parameters and models for project proposals.",
+              "Proficient": "Develops complex financial and economic structures and resolves modeling issues independently.",
+              "Advanced": "Establishes financial and economic structuring standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Social, Environmental, and Institutional Parameter Development",
+            "definition": "Ability to define social, environmental, institutional, and legal parameters and safeguards for proposed maritime transport projects.",
+            "levels": {
+              "Emerging": "Assists in gathering social, environmental, and institutional information with guidance.",
+              "Developing": "Develops routine social, environmental, institutional, and legal parameters for project proposals.",
+              "Proficient": "Develops complex safeguards frameworks and resolves parameter conflicts independently.",
+              "Advanced": "Establishes safeguards standards and institutional parameter frameworks for the Division."
+            }
+          },
+          {
+            "name": "Investment-Grade Documentation",
+            "definition": "Ability to consolidate project parameters and design into investment-grade project documentation.",
+            "levels": {
+              "Emerging": "Assists in compiling and organizing project documentation with guidance.",
+              "Developing": "Prepares routine investment-grade project documentation independently.",
+              "Proficient": "Prepares complex investment-grade documentation and ensures completeness and consistency.",
+              "Advanced": "Establishes documentation standards and quality assurance mechanisms for investment-grade outputs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maritime Transport Project Evaluation and Appraisal",
+        "definition": "The ability to evaluate proposed maritime transport projects based on technical, financial, economic, legal, and commercial feasibility, social and environmental impact and safeguards, investment strategy soundness, and alignment with applicable policies and the Department's agenda.",
+        "dimensions": [
+          {
+            "name": "Feasibility Assessment",
+            "definition": "Ability to assess the technical, financial, economic, legal, and commercial feasibility of proposed maritime transport projects.",
+            "levels": {
+              "Emerging": "Assists in reviewing feasibility study components with guidance.",
+              "Developing": "Assesses routine project feasibility using established criteria and methods.",
+              "Proficient": "Assesses complex, multi-dimensional feasibility issues and resolves conflicting findings.",
+              "Advanced": "Establishes feasibility assessment standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Social and Environmental Impact Evaluation",
+            "definition": "Ability to evaluate social and environmental impacts and safeguards of proposed maritime transport projects.",
+            "levels": {
+              "Emerging": "Assists in reviewing social and environmental impact documentation with guidance.",
+              "Developing": "Evaluates routine social and environmental impact assessments and safeguards compliance.",
+              "Proficient": "Evaluates complex social and environmental risks and recommends mitigating measures.",
+              "Advanced": "Establishes social and environmental evaluation standards for project appraisal."
+            }
+          },
+          {
+            "name": "Investment Strategy and Parameter Review",
+            "definition": "Ability to assess the soundness of investment strategies and the reasonableness of project parameters, terms, and conditions.",
+            "levels": {
+              "Emerging": "Assists in reviewing investment strategy documentation with guidance.",
+              "Developing": "Reviews routine investment strategies and project parameters for reasonableness.",
+              "Proficient": "Reviews complex investment strategies and resolves parameter or terms discrepancies.",
+              "Advanced": "Establishes investment strategy review standards and criteria for the Division."
+            }
+          },
+          {
+            "name": "Policy Alignment Review",
+            "definition": "Ability to evaluate project proposals for alignment with applicable policies and the Department's agenda.",
+            "levels": {
+              "Emerging": "Assists in checking project proposals against applicable policies with guidance.",
+              "Developing": "Reviews routine project proposals for policy alignment and flags discrepancies.",
+              "Proficient": "Resolves complex policy alignment issues and recommends corrective adjustments.",
+              "Advanced": "Establishes policy alignment review standards and represents the Division in policy discussions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Investment Approval and Endorsement Processing",
+        "definition": "The ability to take charge of the endorsement and approval process for maritime transport projects, including preparing and securing requisite documents and ensuring compliance with the approving body's directives and parameters.",
+        "dimensions": [
+          {
+            "name": "Endorsement Documentation",
+            "definition": "Ability to prepare and organize documents required for project endorsement and investment approval.",
+            "levels": {
+              "Emerging": "Assists in preparing and organizing endorsement documents with guidance.",
+              "Developing": "Prepares routine endorsement documentation independently.",
+              "Proficient": "Prepares complex endorsement documentation and resolves documentary gaps.",
+              "Advanced": "Establishes endorsement documentation standards and quality controls for the Division."
+            }
+          },
+          {
+            "name": "Approval Process Coordination",
+            "definition": "Ability to coordinate the investment approval process with relevant approving bodies and offices.",
+            "levels": {
+              "Emerging": "Supports coordination activities for the approval process with guidance.",
+              "Developing": "Coordinates routine approval process requirements with relevant offices.",
+              "Proficient": "Manages complex approval process coordination involving multiple approving bodies.",
+              "Advanced": "Leads strategic coordination with approving bodies and strengthens institutional relationships."
+            }
+          },
+          {
+            "name": "Compliance Monitoring",
+            "definition": "Ability to monitor compliance with the approving body's directives, conditions, and parameters.",
+            "levels": {
+              "Emerging": "Tracks compliance requirements and deadlines with guidance.",
+              "Developing": "Monitors routine compliance with approving body directives and conditions.",
+              "Proficient": "Resolves complex compliance issues and recommends corrective actions.",
+              "Advanced": "Establishes compliance monitoring systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Approval Tracking and Follow-Through",
+            "definition": "Ability to track the status of endorsement and approval requests and follow through on required actions.",
+            "levels": {
+              "Emerging": "Maintains basic tracking records for endorsement and approval requests.",
+              "Developing": "Tracks routine endorsement and approval requests and follows through on required actions.",
+              "Proficient": "Manages tracking of complex, multi-stage approval requests and expedites resolution.",
+              "Advanced": "Establishes approval tracking systems and reporting standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Financing Coordination",
+        "definition": "The ability to tie up financing of investment-approved maritime transport projects with funders and facilitate the finalization of financing documents, terms, schedules, and implementation activities.",
+        "dimensions": [
+          {
+            "name": "Funder Coordination",
+            "definition": "Ability to coordinate and liaise with funders and financing institutions for investment-approved projects.",
+            "levels": {
+              "Emerging": "Supports funder coordination activities with guidance.",
+              "Developing": "Coordinates routine communications and requirements with funders.",
+              "Proficient": "Manages complex funder coordination involving multiple financing institutions.",
+              "Advanced": "Leads strategic funder relationships and negotiations for major financing arrangements."
+            }
+          },
+          {
+            "name": "Financing Documentation",
+            "definition": "Ability to prepare, review, and facilitate finalization of financing agreements and related documents.",
+            "levels": {
+              "Emerging": "Assists in preparing financing documentation with guidance.",
+              "Developing": "Prepares and reviews routine financing documentation independently.",
+              "Proficient": "Reviews and finalizes complex financing agreements and resolves documentary issues.",
+              "Advanced": "Establishes financing documentation standards and quality controls for the Division."
+            }
+          },
+          {
+            "name": "Financing Terms Negotiation Support",
+            "definition": "Ability to support agreement on financing terms, objectives, and schedules with funders.",
+            "levels": {
+              "Emerging": "Assists in compiling information for financing terms discussions with guidance.",
+              "Developing": "Supports routine negotiation activities and consolidates funder feedback.",
+              "Proficient": "Supports complex negotiations and resolves conflicting terms among stakeholders.",
+              "Advanced": "Leads negotiation strategy and secures favorable financing terms for major projects."
+            }
+          },
+          {
+            "name": "Financing Implementation Planning",
+            "definition": "Ability to define the specific activities necessary to implement financing arrangements for approved projects.",
+            "levels": {
+              "Emerging": "Assists in compiling implementation activity information with guidance.",
+              "Developing": "Defines routine implementation activities for financing arrangements.",
+              "Proficient": "Defines complex, multi-phase implementation plans for financing arrangements.",
+              "Advanced": "Establishes financing implementation planning standards and methodologies for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Turnover and Technical Advisory Support",
+        "definition": "The ability to ensure the proper and efficient turnover of approved maritime transport projects to implementing agencies and offices, and to provide technical assistance and advisory services throughout project conceptualization, development, and evaluation.",
+        "dimensions": [
+          {
+            "name": "Project Turnover Management",
+            "definition": "Ability to manage the proper and efficient turnover of approved projects to relevant implementing agencies or offices.",
+            "levels": {
+              "Emerging": "Assists in preparing turnover documentation and requirements with guidance.",
+              "Developing": "Manages routine project turnover activities and documentation.",
+              "Proficient": "Manages complex, multi-agency project turnover and resolves transition issues.",
+              "Advanced": "Establishes project turnover standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Technical Assistance Provision",
+            "definition": "Ability to provide technical assistance in the conceptualization, development, and evaluation of proposed projects.",
+            "levels": {
+              "Emerging": "Assists in providing basic technical information to requesting parties with guidance.",
+              "Developing": "Provides routine technical assistance on project conceptualization and development.",
+              "Proficient": "Provides expert technical assistance on complex project issues and evaluations.",
+              "Advanced": "Serves as the Division's senior technical resource and shapes technical assistance standards."
+            }
+          },
+          {
+            "name": "Advisory Services",
+            "definition": "Ability to provide advisory services and technical guidance to stakeholders throughout the project development cycle.",
+            "levels": {
+              "Emerging": "Assists in preparing advisory materials with guidance.",
+              "Developing": "Provides routine advisory services to stakeholders on project development matters.",
+              "Proficient": "Provides expert advisory services on complex, sensitive, or high-impact project matters.",
+              "Advanced": "Leads strategic advisory engagements and represents the Division in high-level consultations."
+            }
+          },
+          {
+            "name": "Project Development Coordination",
+            "definition": "Ability to coordinate across teams and stakeholders to support cohesive project development activities.",
+            "levels": {
+              "Emerging": "Supports coordination activities among project teams with guidance.",
+              "Developing": "Coordinates routine project development activities among teams and stakeholders.",
+              "Proficient": "Manages complex, cross-functional project development coordination.",
+              "Advanced": "Establishes project development coordination mechanisms and standards for the Division."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "Rail TPDD",
     "name": "Rail Transport Project Development Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Project Development Service",
     "officeOrder": 10,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Rail Transport Project Design and Structuring",
+        "definition": "The ability to develop the technical, financial, economic, environmental, social, institutional, legal, and commercial parameters, structure, and design of rail transport projects to a level of detail that is investment-grade.",
+        "dimensions": [
+          {
+            "name": "Technical and Engineering Parameter Development",
+            "definition": "Ability to define technical, engineering, and design parameters for proposed rail transport projects.",
+            "levels": {
+              "Emerging": "Assists in gathering technical and engineering information for proposed projects with guidance.",
+              "Developing": "Develops technical and engineering parameters for routine project proposals.",
+              "Proficient": "Develops complex technical and engineering parameters and resolves design issues independently.",
+              "Advanced": "Establishes technical design standards and methodologies for project structuring."
+            }
+          },
+          {
+            "name": "Financial and Economic Structuring",
+            "definition": "Ability to develop financial and economic parameters, models, and structures for proposed rail transport projects.",
+            "levels": {
+              "Emerging": "Assists in compiling financial and economic data for project proposals with guidance.",
+              "Developing": "Develops routine financial and economic parameters and models for project proposals.",
+              "Proficient": "Develops complex financial and economic structures and resolves modeling issues independently.",
+              "Advanced": "Establishes financial and economic structuring standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Social, Environmental, and Institutional Parameter Development",
+            "definition": "Ability to define social, environmental, institutional, and legal parameters and safeguards for proposed rail transport projects.",
+            "levels": {
+              "Emerging": "Assists in gathering social, environmental, and institutional information with guidance.",
+              "Developing": "Develops routine social, environmental, institutional, and legal parameters for project proposals.",
+              "Proficient": "Develops complex safeguards frameworks and resolves parameter conflicts independently.",
+              "Advanced": "Establishes safeguards standards and institutional parameter frameworks for the Division."
+            }
+          },
+          {
+            "name": "Investment-Grade Documentation",
+            "definition": "Ability to consolidate project parameters and design into investment-grade project documentation.",
+            "levels": {
+              "Emerging": "Assists in compiling and organizing project documentation with guidance.",
+              "Developing": "Prepares routine investment-grade project documentation independently.",
+              "Proficient": "Prepares complex investment-grade documentation and ensures completeness and consistency.",
+              "Advanced": "Establishes documentation standards and quality assurance mechanisms for investment-grade outputs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rail Transport Project Evaluation and Appraisal",
+        "definition": "The ability to evaluate proposed rail transport projects based on technical, financial, economic, legal, and commercial feasibility, social and environmental impact and safeguards, investment strategy soundness, and alignment with applicable policies and the Department's agenda.",
+        "dimensions": [
+          {
+            "name": "Feasibility Assessment",
+            "definition": "Ability to assess the technical, financial, economic, legal, and commercial feasibility of proposed rail transport projects.",
+            "levels": {
+              "Emerging": "Assists in reviewing feasibility study components with guidance.",
+              "Developing": "Assesses routine project feasibility using established criteria and methods.",
+              "Proficient": "Assesses complex, multi-dimensional feasibility issues and resolves conflicting findings.",
+              "Advanced": "Establishes feasibility assessment standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Social and Environmental Impact Evaluation",
+            "definition": "Ability to evaluate social and environmental impacts and safeguards of proposed rail transport projects.",
+            "levels": {
+              "Emerging": "Assists in reviewing social and environmental impact documentation with guidance.",
+              "Developing": "Evaluates routine social and environmental impact assessments and safeguards compliance.",
+              "Proficient": "Evaluates complex social and environmental risks and recommends mitigating measures.",
+              "Advanced": "Establishes social and environmental evaluation standards for project appraisal."
+            }
+          },
+          {
+            "name": "Investment Strategy and Parameter Review",
+            "definition": "Ability to assess the soundness of investment strategies and the reasonableness of project parameters, terms, and conditions.",
+            "levels": {
+              "Emerging": "Assists in reviewing investment strategy documentation with guidance.",
+              "Developing": "Reviews routine investment strategies and project parameters for reasonableness.",
+              "Proficient": "Reviews complex investment strategies and resolves parameter or terms discrepancies.",
+              "Advanced": "Establishes investment strategy review standards and criteria for the Division."
+            }
+          },
+          {
+            "name": "Policy Alignment Review",
+            "definition": "Ability to evaluate project proposals for alignment with applicable policies and the Department's agenda.",
+            "levels": {
+              "Emerging": "Assists in checking project proposals against applicable policies with guidance.",
+              "Developing": "Reviews routine project proposals for policy alignment and flags discrepancies.",
+              "Proficient": "Resolves complex policy alignment issues and recommends corrective adjustments.",
+              "Advanced": "Establishes policy alignment review standards and represents the Division in policy discussions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Investment Approval and Endorsement Processing",
+        "definition": "The ability to take charge of the endorsement and approval process for rail transport projects, including preparing and securing requisite documents and ensuring compliance with the approving body's directives and parameters.",
+        "dimensions": [
+          {
+            "name": "Endorsement Documentation",
+            "definition": "Ability to prepare and organize documents required for project endorsement and investment approval.",
+            "levels": {
+              "Emerging": "Assists in preparing and organizing endorsement documents with guidance.",
+              "Developing": "Prepares routine endorsement documentation independently.",
+              "Proficient": "Prepares complex endorsement documentation and resolves documentary gaps.",
+              "Advanced": "Establishes endorsement documentation standards and quality controls for the Division."
+            }
+          },
+          {
+            "name": "Approval Process Coordination",
+            "definition": "Ability to coordinate the investment approval process with relevant approving bodies and offices.",
+            "levels": {
+              "Emerging": "Supports coordination activities for the approval process with guidance.",
+              "Developing": "Coordinates routine approval process requirements with relevant offices.",
+              "Proficient": "Manages complex approval process coordination involving multiple approving bodies.",
+              "Advanced": "Leads strategic coordination with approving bodies and strengthens institutional relationships."
+            }
+          },
+          {
+            "name": "Compliance Monitoring",
+            "definition": "Ability to monitor compliance with the approving body's directives, conditions, and parameters.",
+            "levels": {
+              "Emerging": "Tracks compliance requirements and deadlines with guidance.",
+              "Developing": "Monitors routine compliance with approving body directives and conditions.",
+              "Proficient": "Resolves complex compliance issues and recommends corrective actions.",
+              "Advanced": "Establishes compliance monitoring systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Approval Tracking and Follow-Through",
+            "definition": "Ability to track the status of endorsement and approval requests and follow through on required actions.",
+            "levels": {
+              "Emerging": "Maintains basic tracking records for endorsement and approval requests.",
+              "Developing": "Tracks routine endorsement and approval requests and follows through on required actions.",
+              "Proficient": "Manages tracking of complex, multi-stage approval requests and expedites resolution.",
+              "Advanced": "Establishes approval tracking systems and reporting standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Financing Coordination",
+        "definition": "The ability to tie up financing of investment-approved rail transport projects with funders and facilitate the finalization of financing documents, terms, schedules, and implementation activities.",
+        "dimensions": [
+          {
+            "name": "Funder Coordination",
+            "definition": "Ability to coordinate and liaise with funders and financing institutions for investment-approved projects.",
+            "levels": {
+              "Emerging": "Supports funder coordination activities with guidance.",
+              "Developing": "Coordinates routine communications and requirements with funders.",
+              "Proficient": "Manages complex funder coordination involving multiple financing institutions.",
+              "Advanced": "Leads strategic funder relationships and negotiations for major financing arrangements."
+            }
+          },
+          {
+            "name": "Financing Documentation",
+            "definition": "Ability to prepare, review, and facilitate finalization of financing agreements and related documents.",
+            "levels": {
+              "Emerging": "Assists in preparing financing documentation with guidance.",
+              "Developing": "Prepares and reviews routine financing documentation independently.",
+              "Proficient": "Reviews and finalizes complex financing agreements and resolves documentary issues.",
+              "Advanced": "Establishes financing documentation standards and quality controls for the Division."
+            }
+          },
+          {
+            "name": "Financing Terms Negotiation Support",
+            "definition": "Ability to support agreement on financing terms, objectives, and schedules with funders.",
+            "levels": {
+              "Emerging": "Assists in compiling information for financing terms discussions with guidance.",
+              "Developing": "Supports routine negotiation activities and consolidates funder feedback.",
+              "Proficient": "Supports complex negotiations and resolves conflicting terms among stakeholders.",
+              "Advanced": "Leads negotiation strategy and secures favorable financing terms for major projects."
+            }
+          },
+          {
+            "name": "Financing Implementation Planning",
+            "definition": "Ability to define the specific activities necessary to implement financing arrangements for approved projects.",
+            "levels": {
+              "Emerging": "Assists in compiling implementation activity information with guidance.",
+              "Developing": "Defines routine implementation activities for financing arrangements.",
+              "Proficient": "Defines complex, multi-phase implementation plans for financing arrangements.",
+              "Advanced": "Establishes financing implementation planning standards and methodologies for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Turnover and Technical Advisory Support",
+        "definition": "The ability to ensure the proper and efficient turnover of approved rail transport projects to implementing agencies and offices, and to provide technical assistance and advisory services throughout project conceptualization, development, and evaluation.",
+        "dimensions": [
+          {
+            "name": "Project Turnover Management",
+            "definition": "Ability to manage the proper and efficient turnover of approved projects to relevant implementing agencies or offices.",
+            "levels": {
+              "Emerging": "Assists in preparing turnover documentation and requirements with guidance.",
+              "Developing": "Manages routine project turnover activities and documentation.",
+              "Proficient": "Manages complex, multi-agency project turnover and resolves transition issues.",
+              "Advanced": "Establishes project turnover standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Technical Assistance Provision",
+            "definition": "Ability to provide technical assistance in the conceptualization, development, and evaluation of proposed projects.",
+            "levels": {
+              "Emerging": "Assists in providing basic technical information to requesting parties with guidance.",
+              "Developing": "Provides routine technical assistance on project conceptualization and development.",
+              "Proficient": "Provides expert technical assistance on complex project issues and evaluations.",
+              "Advanced": "Serves as the Division's senior technical resource and shapes technical assistance standards."
+            }
+          },
+          {
+            "name": "Advisory Services",
+            "definition": "Ability to provide advisory services and technical guidance to stakeholders throughout the project development cycle.",
+            "levels": {
+              "Emerging": "Assists in preparing advisory materials with guidance.",
+              "Developing": "Provides routine advisory services to stakeholders on project development matters.",
+              "Proficient": "Provides expert advisory services on complex, sensitive, or high-impact project matters.",
+              "Advanced": "Leads strategic advisory engagements and represents the Division in high-level consultations."
+            }
+          },
+          {
+            "name": "Project Development Coordination",
+            "definition": "Ability to coordinate across teams and stakeholders to support cohesive project development activities.",
+            "levels": {
+              "Emerging": "Supports coordination activities among project teams with guidance.",
+              "Developing": "Coordinates routine project development activities among teams and stakeholders.",
+              "Proficient": "Manages complex, cross-functional project development coordination.",
+              "Advanced": "Establishes project development coordination mechanisms and standards for the Division."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "Road TPDD",
     "name": "Road Transport Project Development Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Project Development Service",
     "officeOrder": 10,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Road Transport Project Design and Structuring",
+        "definition": "The ability to develop the technical, financial, economic, environmental, social, institutional, legal, and commercial parameters, structure, and design of road transport projects to a level of detail that is investment-grade.",
+        "dimensions": [
+          {
+            "name": "Technical and Engineering Parameter Development",
+            "definition": "Ability to define technical, engineering, and design parameters for proposed road transport projects.",
+            "levels": {
+              "Emerging": "Assists in gathering technical and engineering information for proposed projects with guidance.",
+              "Developing": "Develops technical and engineering parameters for routine project proposals.",
+              "Proficient": "Develops complex technical and engineering parameters and resolves design issues independently.",
+              "Advanced": "Establishes technical design standards and methodologies for project structuring."
+            }
+          },
+          {
+            "name": "Financial and Economic Structuring",
+            "definition": "Ability to develop financial and economic parameters, models, and structures for proposed road transport projects.",
+            "levels": {
+              "Emerging": "Assists in compiling financial and economic data for project proposals with guidance.",
+              "Developing": "Develops routine financial and economic parameters and models for project proposals.",
+              "Proficient": "Develops complex financial and economic structures and resolves modeling issues independently.",
+              "Advanced": "Establishes financial and economic structuring standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Social, Environmental, and Institutional Parameter Development",
+            "definition": "Ability to define social, environmental, institutional, and legal parameters and safeguards for proposed road transport projects.",
+            "levels": {
+              "Emerging": "Assists in gathering social, environmental, and institutional information with guidance.",
+              "Developing": "Develops routine social, environmental, institutional, and legal parameters for project proposals.",
+              "Proficient": "Develops complex safeguards frameworks and resolves parameter conflicts independently.",
+              "Advanced": "Establishes safeguards standards and institutional parameter frameworks for the Division."
+            }
+          },
+          {
+            "name": "Investment-Grade Documentation",
+            "definition": "Ability to consolidate project parameters and design into investment-grade project documentation.",
+            "levels": {
+              "Emerging": "Assists in compiling and organizing project documentation with guidance.",
+              "Developing": "Prepares routine investment-grade project documentation independently.",
+              "Proficient": "Prepares complex investment-grade documentation and ensures completeness and consistency.",
+              "Advanced": "Establishes documentation standards and quality assurance mechanisms for investment-grade outputs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Road Transport Project Evaluation and Appraisal",
+        "definition": "The ability to evaluate proposed road transport projects based on technical, financial, economic, legal, and commercial feasibility, social and environmental impact and safeguards, investment strategy soundness, and alignment with applicable policies and the Department's agenda.",
+        "dimensions": [
+          {
+            "name": "Feasibility Assessment",
+            "definition": "Ability to assess the technical, financial, economic, legal, and commercial feasibility of proposed road transport projects.",
+            "levels": {
+              "Emerging": "Assists in reviewing feasibility study components with guidance.",
+              "Developing": "Assesses routine project feasibility using established criteria and methods.",
+              "Proficient": "Assesses complex, multi-dimensional feasibility issues and resolves conflicting findings.",
+              "Advanced": "Establishes feasibility assessment standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Social and Environmental Impact Evaluation",
+            "definition": "Ability to evaluate social and environmental impacts and safeguards of proposed road transport projects.",
+            "levels": {
+              "Emerging": "Assists in reviewing social and environmental impact documentation with guidance.",
+              "Developing": "Evaluates routine social and environmental impact assessments and safeguards compliance.",
+              "Proficient": "Evaluates complex social and environmental risks and recommends mitigating measures.",
+              "Advanced": "Establishes social and environmental evaluation standards for project appraisal."
+            }
+          },
+          {
+            "name": "Investment Strategy and Parameter Review",
+            "definition": "Ability to assess the soundness of investment strategies and the reasonableness of project parameters, terms, and conditions.",
+            "levels": {
+              "Emerging": "Assists in reviewing investment strategy documentation with guidance.",
+              "Developing": "Reviews routine investment strategies and project parameters for reasonableness.",
+              "Proficient": "Reviews complex investment strategies and resolves parameter or terms discrepancies.",
+              "Advanced": "Establishes investment strategy review standards and criteria for the Division."
+            }
+          },
+          {
+            "name": "Policy Alignment Review",
+            "definition": "Ability to evaluate project proposals for alignment with applicable policies and the Department's agenda.",
+            "levels": {
+              "Emerging": "Assists in checking project proposals against applicable policies with guidance.",
+              "Developing": "Reviews routine project proposals for policy alignment and flags discrepancies.",
+              "Proficient": "Resolves complex policy alignment issues and recommends corrective adjustments.",
+              "Advanced": "Establishes policy alignment review standards and represents the Division in policy discussions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Investment Approval and Endorsement Processing",
+        "definition": "The ability to take charge of the endorsement and approval process for road transport projects, including preparing and securing requisite documents and ensuring compliance with the approving body's directives and parameters.",
+        "dimensions": [
+          {
+            "name": "Endorsement Documentation",
+            "definition": "Ability to prepare and organize documents required for project endorsement and investment approval.",
+            "levels": {
+              "Emerging": "Assists in preparing and organizing endorsement documents with guidance.",
+              "Developing": "Prepares routine endorsement documentation independently.",
+              "Proficient": "Prepares complex endorsement documentation and resolves documentary gaps.",
+              "Advanced": "Establishes endorsement documentation standards and quality controls for the Division."
+            }
+          },
+          {
+            "name": "Approval Process Coordination",
+            "definition": "Ability to coordinate the investment approval process with relevant approving bodies and offices.",
+            "levels": {
+              "Emerging": "Supports coordination activities for the approval process with guidance.",
+              "Developing": "Coordinates routine approval process requirements with relevant offices.",
+              "Proficient": "Manages complex approval process coordination involving multiple approving bodies.",
+              "Advanced": "Leads strategic coordination with approving bodies and strengthens institutional relationships."
+            }
+          },
+          {
+            "name": "Compliance Monitoring",
+            "definition": "Ability to monitor compliance with the approving body's directives, conditions, and parameters.",
+            "levels": {
+              "Emerging": "Tracks compliance requirements and deadlines with guidance.",
+              "Developing": "Monitors routine compliance with approving body directives and conditions.",
+              "Proficient": "Resolves complex compliance issues and recommends corrective actions.",
+              "Advanced": "Establishes compliance monitoring systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Approval Tracking and Follow-Through",
+            "definition": "Ability to track the status of endorsement and approval requests and follow through on required actions.",
+            "levels": {
+              "Emerging": "Maintains basic tracking records for endorsement and approval requests.",
+              "Developing": "Tracks routine endorsement and approval requests and follows through on required actions.",
+              "Proficient": "Manages tracking of complex, multi-stage approval requests and expedites resolution.",
+              "Advanced": "Establishes approval tracking systems and reporting standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Financing Coordination",
+        "definition": "The ability to tie up financing of investment-approved road transport projects with funders and facilitate the finalization of financing documents, terms, schedules, and implementation activities.",
+        "dimensions": [
+          {
+            "name": "Funder Coordination",
+            "definition": "Ability to coordinate and liaise with funders and financing institutions for investment-approved projects.",
+            "levels": {
+              "Emerging": "Supports funder coordination activities with guidance.",
+              "Developing": "Coordinates routine communications and requirements with funders.",
+              "Proficient": "Manages complex funder coordination involving multiple financing institutions.",
+              "Advanced": "Leads strategic funder relationships and negotiations for major financing arrangements."
+            }
+          },
+          {
+            "name": "Financing Documentation",
+            "definition": "Ability to prepare, review, and facilitate finalization of financing agreements and related documents.",
+            "levels": {
+              "Emerging": "Assists in preparing financing documentation with guidance.",
+              "Developing": "Prepares and reviews routine financing documentation independently.",
+              "Proficient": "Reviews and finalizes complex financing agreements and resolves documentary issues.",
+              "Advanced": "Establishes financing documentation standards and quality controls for the Division."
+            }
+          },
+          {
+            "name": "Financing Terms Negotiation Support",
+            "definition": "Ability to support agreement on financing terms, objectives, and schedules with funders.",
+            "levels": {
+              "Emerging": "Assists in compiling information for financing terms discussions with guidance.",
+              "Developing": "Supports routine negotiation activities and consolidates funder feedback.",
+              "Proficient": "Supports complex negotiations and resolves conflicting terms among stakeholders.",
+              "Advanced": "Leads negotiation strategy and secures favorable financing terms for major projects."
+            }
+          },
+          {
+            "name": "Financing Implementation Planning",
+            "definition": "Ability to define the specific activities necessary to implement financing arrangements for approved projects.",
+            "levels": {
+              "Emerging": "Assists in compiling implementation activity information with guidance.",
+              "Developing": "Defines routine implementation activities for financing arrangements.",
+              "Proficient": "Defines complex, multi-phase implementation plans for financing arrangements.",
+              "Advanced": "Establishes financing implementation planning standards and methodologies for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Turnover and Technical Advisory Support",
+        "definition": "The ability to ensure the proper and efficient turnover of approved road transport projects to implementing agencies and offices, and to provide technical assistance and advisory services throughout project conceptualization, development, and evaluation.",
+        "dimensions": [
+          {
+            "name": "Project Turnover Management",
+            "definition": "Ability to manage the proper and efficient turnover of approved projects to relevant implementing agencies or offices.",
+            "levels": {
+              "Emerging": "Assists in preparing turnover documentation and requirements with guidance.",
+              "Developing": "Manages routine project turnover activities and documentation.",
+              "Proficient": "Manages complex, multi-agency project turnover and resolves transition issues.",
+              "Advanced": "Establishes project turnover standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Technical Assistance Provision",
+            "definition": "Ability to provide technical assistance in the conceptualization, development, and evaluation of proposed projects.",
+            "levels": {
+              "Emerging": "Assists in providing basic technical information to requesting parties with guidance.",
+              "Developing": "Provides routine technical assistance on project conceptualization and development.",
+              "Proficient": "Provides expert technical assistance on complex project issues and evaluations.",
+              "Advanced": "Serves as the Division's senior technical resource and shapes technical assistance standards."
+            }
+          },
+          {
+            "name": "Advisory Services",
+            "definition": "Ability to provide advisory services and technical guidance to stakeholders throughout the project development cycle.",
+            "levels": {
+              "Emerging": "Assists in preparing advisory materials with guidance.",
+              "Developing": "Provides routine advisory services to stakeholders on project development matters.",
+              "Proficient": "Provides expert advisory services on complex, sensitive, or high-impact project matters.",
+              "Advanced": "Leads strategic advisory engagements and represents the Division in high-level consultations."
+            }
+          },
+          {
+            "name": "Project Development Coordination",
+            "definition": "Ability to coordinate across teams and stakeholders to support cohesive project development activities.",
+            "levels": {
+              "Emerging": "Supports coordination activities among project teams with guidance.",
+              "Developing": "Coordinates routine project development activities among teams and stakeholders.",
+              "Proficient": "Manages complex, cross-functional project development coordination.",
+              "Advanced": "Establishes project development coordination mechanisms and standards for the Division."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "INSAD",
     "name": "Inspection and Acceptance Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Project Monitoring and Evaluation Service",
     "officeOrder": 11,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Project Document Collection and Review",
+        "definition": "The ability to collect and review relevant project documents and reports of ongoing projects, including contract documents, work plans, statistical reports, testing and quality control documents, operational set-up, and lists of subcontractors and suppliers.",
+        "dimensions": [
+          {
+            "name": "Document Collection",
+            "definition": "Ability to collect relevant project documents and reports required for inspection and acceptance activities.",
+            "levels": {
+              "Emerging": "Assists in gathering project documents with guidance.",
+              "Developing": "Collects routine project documents and reports independently.",
+              "Proficient": "Collects complex or incomplete project documentation and resolves gaps.",
+              "Advanced": "Establishes document collection standards and requirements for the Division."
+            }
+          },
+          {
+            "name": "Document Review",
+            "definition": "Ability to review project documents and reports for completeness and relevance to inspection requirements.",
+            "levels": {
+              "Emerging": "Assists in reviewing basic document components with guidance.",
+              "Developing": "Reviews routine project documents independently.",
+              "Proficient": "Reviews complex, multi-component project documentation.",
+              "Advanced": "Establishes document review standards and checklists for the Division."
+            }
+          },
+          {
+            "name": "Contract and Work Plan Analysis",
+            "definition": "Ability to analyze contract documents, work plans, and schedules relevant to project inspection.",
+            "levels": {
+              "Emerging": "Assists in reviewing basic contract terms with guidance.",
+              "Developing": "Analyzes routine contract documents and work plans independently.",
+              "Proficient": "Analyzes complex contract terms and multi-phase work plans.",
+              "Advanced": "Establishes contract and work plan analysis standards for the Division."
+            }
+          },
+          {
+            "name": "Quality and Supplier Documentation Review",
+            "definition": "Ability to review testing, quality control documents, and lists of subcontractors and suppliers.",
+            "levels": {
+              "Emerging": "Assists in reviewing quality control records with guidance.",
+              "Developing": "Reviews routine testing and quality documentation independently.",
+              "Proficient": "Reviews complex quality and supplier documentation involving multiple contractors.",
+              "Advanced": "Establishes quality documentation review standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "On-Site Inspection and Contractor Performance Evaluation",
+        "definition": "The ability to facilitate the preparation for, conduct of, and reporting on on-site inspection of ongoing projects to evaluate and rate the performance of contractors and request corrective measures based on contract documents, committed work plans and schedules, applicable laws, regulations, policies, and the Department's directives.",
+        "dimensions": [
+          {
+            "name": "Inspection Preparation",
+            "definition": "Ability to prepare for on-site inspection activities, including logistics, requirements, and documentation.",
+            "levels": {
+              "Emerging": "Assists in preparing inspection materials with guidance.",
+              "Developing": "Prepares for routine on-site inspections independently.",
+              "Proficient": "Prepares for complex, multi-site inspection activities.",
+              "Advanced": "Establishes inspection preparation standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "On-Site Inspection Conduct",
+            "definition": "Ability to conduct on-site inspections of ongoing projects in accordance with applicable standards and requirements.",
+            "levels": {
+              "Emerging": "Assists in conducting basic on-site inspections with guidance.",
+              "Developing": "Conducts routine on-site inspections independently.",
+              "Proficient": "Conducts complex, high-value on-site inspections.",
+              "Advanced": "Establishes on-site inspection conduct standards for the Division."
+            }
+          },
+          {
+            "name": "Contractor Performance Evaluation",
+            "definition": "Ability to evaluate and rate contractor performance based on contract documents, work plans, and applicable requirements.",
+            "levels": {
+              "Emerging": "Assists in gathering performance evaluation data with guidance.",
+              "Developing": "Evaluates and rates routine contractor performance independently.",
+              "Proficient": "Evaluates complex contractor performance issues involving multiple factors.",
+              "Advanced": "Establishes contractor performance evaluation standards and criteria for the Division."
+            }
+          },
+          {
+            "name": "Corrective Measure Recommendation",
+            "definition": "Ability to request and recommend corrective measures based on inspection findings and applicable requirements.",
+            "levels": {
+              "Emerging": "Assists in drafting corrective measure notes with guidance.",
+              "Developing": "Recommends routine corrective measures independently.",
+              "Proficient": "Recommends complex corrective measures for significant deficiencies.",
+              "Advanced": "Establishes corrective measure recommendation standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Completion and Acceptance Processing",
+        "definition": "The ability to facilitate post-completion activities of projects for closing, including recommending issuances for completion and acceptance based on the relevant terms and conditions of contracts, agreements, and applicable laws and policies.",
+        "dimensions": [
+          {
+            "name": "Post-Completion Activity Facilitation",
+            "definition": "Ability to facilitate post-completion activities required for project closing.",
+            "levels": {
+              "Emerging": "Assists in compiling post-completion requirements with guidance.",
+              "Developing": "Facilitates routine post-completion activities independently.",
+              "Proficient": "Facilitates complex post-completion activities involving multiple stakeholders.",
+              "Advanced": "Establishes post-completion facilitation standards for the Division."
+            }
+          },
+          {
+            "name": "Completion and Acceptance Recommendation",
+            "definition": "Ability to recommend issuances for project completion and acceptance based on applicable terms, conditions, and requirements.",
+            "levels": {
+              "Emerging": "Assists in drafting recommendation notes with guidance.",
+              "Developing": "Recommends routine completion and acceptance issuances independently.",
+              "Proficient": "Recommends complex completion and acceptance decisions involving disputed conditions.",
+              "Advanced": "Establishes completion and acceptance recommendation standards for the Division."
+            }
+          },
+          {
+            "name": "Contract Terms Compliance Verification",
+            "definition": "Ability to verify compliance with relevant terms and conditions of contracts and agreements prior to project closing.",
+            "levels": {
+              "Emerging": "Assists in checking contract compliance with guidance.",
+              "Developing": "Verifies routine contract compliance independently.",
+              "Proficient": "Verifies complex compliance issues involving multiple contract provisions.",
+              "Advanced": "Establishes contract compliance verification standards for the Division."
+            }
+          },
+          {
+            "name": "Closing Documentation Management",
+            "definition": "Ability to manage documentation required for project closing in accordance with applicable laws and policies.",
+            "levels": {
+              "Emerging": "Assists in organizing closing documentation with guidance.",
+              "Developing": "Manages routine closing documentation independently.",
+              "Proficient": "Manages complex closing documentation for high-value or contested projects.",
+              "Advanced": "Establishes closing documentation management standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Inspection Output Management and Reporting",
+        "definition": "The ability to maintain, update, and validate outputs of conducted inspections, including performance ratings, evaluation findings, and requested corrective measures, and to submit or share corresponding reports to relevant and requesting bodies based on applicable laws and policies.",
+        "dimensions": [
+          {
+            "name": "Inspection Output Maintenance",
+            "definition": "Ability to maintain and update outputs of conducted inspections, including ratings and findings.",
+            "levels": {
+              "Emerging": "Assists in updating inspection records with guidance.",
+              "Developing": "Maintains and updates routine inspection outputs independently.",
+              "Proficient": "Manages complex, multi-project inspection output records.",
+              "Advanced": "Establishes inspection output maintenance standards for the Division."
+            }
+          },
+          {
+            "name": "Output Validation",
+            "definition": "Ability to validate inspection outputs for accuracy and completeness prior to submission.",
+            "levels": {
+              "Emerging": "Assists in checking inspection outputs with guidance.",
+              "Developing": "Validates routine inspection outputs independently.",
+              "Proficient": "Validates complex inspection outputs involving multiple data sources.",
+              "Advanced": "Establishes inspection output validation standards for the Division."
+            }
+          },
+          {
+            "name": "Report Preparation and Sharing",
+            "definition": "Ability to prepare and share inspection reports with relevant and requesting bodies in accordance with applicable requirements.",
+            "levels": {
+              "Emerging": "Assists in compiling report content with guidance.",
+              "Developing": "Prepares and shares routine inspection reports independently.",
+              "Proficient": "Prepares complex inspection reports for oversight or requesting bodies.",
+              "Advanced": "Establishes inspection reporting standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Records Management",
+            "definition": "Ability to organize and maintain inspection records in accordance with applicable laws and policies.",
+            "levels": {
+              "Emerging": "Assists in filing inspection records with guidance.",
+              "Developing": "Organizes and maintains routine inspection records independently.",
+              "Proficient": "Manages complex, large-scale inspection records systems.",
+              "Advanced": "Establishes inspection records management standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Inspection Coordination and Technical Assistance",
+        "definition": "The ability to liaise and coordinate with implementing offices for the collection and review of project documents and reports, scheduling of inspections, preparation of requested corrective measures and evaluation reports, and conduct of evaluation meetings, and to provide technical assistance in inspection works, contractor performance evaluation, and accreditation facilitation.",
+        "dimensions": [
+          {
+            "name": "Implementing Office Liaison",
+            "definition": "Ability to liaise and coordinate with implementing offices on inspection-related requirements.",
+            "levels": {
+              "Emerging": "Supports liaison activities with guidance.",
+              "Developing": "Liaises with implementing offices on routine matters independently.",
+              "Proficient": "Manages complex liaison engagements with multiple implementing offices.",
+              "Advanced": "Establishes implementing office liaison standards and mechanisms for the Division."
+            }
+          },
+          {
+            "name": "Inspection Scheduling",
+            "definition": "Ability to schedule inspections in coordination with implementing offices and relevant stakeholders.",
+            "levels": {
+              "Emerging": "Assists in compiling scheduling information with guidance.",
+              "Developing": "Schedules routine inspections independently.",
+              "Proficient": "Schedules complex, multi-project inspection activities.",
+              "Advanced": "Establishes inspection scheduling standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Evaluation Meeting Facilitation",
+            "definition": "Ability to conduct evaluation meetings with implementing offices and relevant stakeholders.",
+            "levels": {
+              "Emerging": "Assists in preparing for evaluation meetings with guidance.",
+              "Developing": "Facilitates routine evaluation meetings independently.",
+              "Proficient": "Facilitates complex evaluation meetings involving multiple or contentious issues.",
+              "Advanced": "Establishes evaluation meeting facilitation standards for the Division."
+            }
+          },
+          {
+            "name": "Technical Assistance and Accreditation Support",
+            "definition": "Ability to provide technical assistance in inspection works, contractor performance evaluation, and facilitation of necessary accreditation.",
+            "levels": {
+              "Emerging": "Assists in compiling technical assistance materials with guidance.",
+              "Developing": "Provides routine technical assistance and accreditation support independently.",
+              "Proficient": "Provides expert technical assistance on complex inspection or accreditation matters.",
+              "Advanced": "Serves as the Division's senior technical resource on inspection and accreditation matters."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "MEDD",
     "name": "Monitoring, Evaluation, and Documentation Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Project Monitoring and Evaluation Service",
     "officeOrder": 11,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Project Implementation Plan and Target Management",
+        "definition": "The ability to direct the regular preparation, updating, recalibration, and submission of implementation plans and committed targets for ongoing projects within specified timeframes.",
+        "dimensions": [
+          {
+            "name": "Implementation Plan Preparation",
+            "definition": "Ability to prepare implementation plans for ongoing projects within specified timeframes.",
+            "levels": {
+              "Emerging": "Assists in compiling implementation plan inputs with guidance.",
+              "Developing": "Prepares routine implementation plans independently.",
+              "Proficient": "Prepares complex, multi-component implementation plans.",
+              "Advanced": "Establishes implementation plan preparation standards for the Division."
+            }
+          },
+          {
+            "name": "Target Recalibration",
+            "definition": "Ability to update and recalibrate committed targets for ongoing projects based on current status and requirements.",
+            "levels": {
+              "Emerging": "Assists in updating target data with guidance.",
+              "Developing": "Recalibrates routine project targets independently.",
+              "Proficient": "Recalibrates complex targets involving multiple interdependent projects.",
+              "Advanced": "Establishes target recalibration standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Implementation Plan Submission Management",
+            "definition": "Ability to manage the timely submission of implementation plans and committed targets.",
+            "levels": {
+              "Emerging": "Assists in tracking submission requirements with guidance.",
+              "Developing": "Manages routine implementation plan submissions independently.",
+              "Proficient": "Manages complex, multi-project submission requirements.",
+              "Advanced": "Establishes implementation plan submission standards for the Division."
+            }
+          },
+          {
+            "name": "Directive Compliance",
+            "definition": "Ability to direct implementation planning activities in compliance with specified timeframes and requirements.",
+            "levels": {
+              "Emerging": "Assists in following planning directives with guidance.",
+              "Developing": "Complies with routine planning directives and timeframes independently.",
+              "Proficient": "Manages complex compliance issues across multiple planning cycles.",
+              "Advanced": "Establishes planning directive compliance standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project Monitoring and Progress Analysis",
+        "definition": "The ability to regularly monitor, report, and consolidate project information, physical accomplishments, financial status, and implementation issues and interventions of ongoing projects, and to conduct data validation and comparative analysis with respect to historical and target progress rates.",
+        "dimensions": [
+          {
+            "name": "Project Information Monitoring",
+            "definition": "Ability to regularly monitor project information, physical accomplishments, and financial status of ongoing projects.",
+            "levels": {
+              "Emerging": "Assists in tracking project information with guidance.",
+              "Developing": "Monitors routine project information independently.",
+              "Proficient": "Monitors complex, multi-project information streams.",
+              "Advanced": "Establishes project monitoring standards and systems for the Division."
+            }
+          },
+          {
+            "name": "Implementation Issue Consolidation",
+            "definition": "Ability to consolidate implementation issues and interventions of ongoing projects for reporting purposes.",
+            "levels": {
+              "Emerging": "Assists in compiling issue reports with guidance.",
+              "Developing": "Consolidates routine implementation issues independently.",
+              "Proficient": "Consolidates complex, cross-project implementation issues.",
+              "Advanced": "Establishes implementation issue consolidation standards for the Division."
+            }
+          },
+          {
+            "name": "Data Validation",
+            "definition": "Ability to conduct data validation of project monitoring information against source records.",
+            "levels": {
+              "Emerging": "Assists in checking monitoring data with guidance.",
+              "Developing": "Validates routine monitoring data independently.",
+              "Proficient": "Validates complex monitoring data involving multiple sources.",
+              "Advanced": "Establishes data validation standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Comparative Progress Analysis",
+            "definition": "Ability to conduct comparative analysis of project progress rates against historical and target rates.",
+            "levels": {
+              "Emerging": "Assists in compiling progress data with guidance.",
+              "Developing": "Conducts routine comparative progress analysis independently.",
+              "Proficient": "Conducts complex comparative analysis across multiple projects and time periods.",
+              "Advanced": "Establishes comparative progress analysis standards and methodologies for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Evaluation Agenda and Plan Development",
+        "definition": "The ability to take charge of the development, updating, submission, and monitoring of the Department's evaluation agenda based on the Department's investment program, and to formulate and update the evaluation plan for projects and programs in coordination with implementing units and in line with the Department's evaluation agenda.",
+        "dimensions": [
+          {
+            "name": "Evaluation Agenda Development",
+            "definition": "Ability to develop the Department's evaluation agenda based on the Department's investment program.",
+            "levels": {
+              "Emerging": "Assists in gathering evaluation agenda inputs with guidance.",
+              "Developing": "Develops routine evaluation agenda components independently.",
+              "Proficient": "Develops complex, investment-program-wide evaluation agenda components.",
+              "Advanced": "Establishes evaluation agenda development standards for the Division."
+            }
+          },
+          {
+            "name": "Evaluation Agenda Monitoring and Updating",
+            "definition": "Ability to monitor, update, and submit the Department's evaluation agenda in accordance with requirements.",
+            "levels": {
+              "Emerging": "Assists in tracking evaluation agenda status with guidance.",
+              "Developing": "Monitors and updates routine evaluation agenda items independently.",
+              "Proficient": "Manages complex evaluation agenda updates involving multiple programs.",
+              "Advanced": "Establishes evaluation agenda monitoring and submission standards for the Division."
+            }
+          },
+          {
+            "name": "Evaluation Plan Formulation",
+            "definition": "Ability to formulate evaluation plans for projects and programs in coordination with implementing units.",
+            "levels": {
+              "Emerging": "Assists in drafting evaluation plan components with guidance.",
+              "Developing": "Formulates routine evaluation plans independently.",
+              "Proficient": "Formulates complex, multi-program evaluation plans.",
+              "Advanced": "Establishes evaluation plan formulation standards for the Division."
+            }
+          },
+          {
+            "name": "Implementing Unit Coordination",
+            "definition": "Ability to coordinate with implementing units on evaluation plan development and updates.",
+            "levels": {
+              "Emerging": "Supports coordination activities with guidance.",
+              "Developing": "Coordinates routine evaluation planning matters with implementing units independently.",
+              "Proficient": "Manages complex coordination involving multiple implementing units.",
+              "Advanced": "Establishes evaluation planning coordination standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Project and Program Evaluation",
+        "definition": "The ability to undertake various evaluation methods and activities with regard to the implementation of projects and programs and the extent to which anticipated results are achieved.",
+        "dimensions": [
+          {
+            "name": "Evaluation Methodology Application",
+            "definition": "Ability to apply appropriate evaluation methods to assess projects and programs.",
+            "levels": {
+              "Emerging": "Assists in applying basic evaluation methods with guidance.",
+              "Developing": "Applies routine evaluation methods independently.",
+              "Proficient": "Applies complex, multi-method evaluation approaches.",
+              "Advanced": "Establishes evaluation methodology standards for the Division."
+            }
+          },
+          {
+            "name": "Implementation Assessment",
+            "definition": "Ability to assess the implementation of projects and programs against approved plans and requirements.",
+            "levels": {
+              "Emerging": "Assists in gathering implementation assessment data with guidance.",
+              "Developing": "Assesses routine project and program implementation independently.",
+              "Proficient": "Assesses complex implementation issues involving multiple factors.",
+              "Advanced": "Establishes implementation assessment standards for the Division."
+            }
+          },
+          {
+            "name": "Results Achievement Analysis",
+            "definition": "Ability to analyze the extent to which anticipated results of projects and programs are achieved.",
+            "levels": {
+              "Emerging": "Assists in compiling results data with guidance.",
+              "Developing": "Analyzes routine results achievement independently.",
+              "Proficient": "Analyzes complex results achievement issues across multiple projects and programs.",
+              "Advanced": "Establishes results achievement analysis standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Evaluation Activity Conduct",
+            "definition": "Ability to conduct evaluation activities in accordance with the Department's evaluation plan and agenda.",
+            "levels": {
+              "Emerging": "Assists in conducting basic evaluation activities with guidance.",
+              "Developing": "Conducts routine evaluation activities independently.",
+              "Proficient": "Conducts complex, high-priority evaluation activities.",
+              "Advanced": "Leads the conduct of major evaluation initiatives for the Department."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Monitoring and Evaluation Reporting and Technical Assistance",
+        "definition": "The ability to maintain, update, and disseminate monitoring and evaluation outputs and reports to support stakeholder reporting, implementation of recommended interventions, prevention of avoidable issues, adoption of best practices, and evidence-based planning and project development, and to provide technical assistance in the development of evaluation plans and the conduct of monitoring and evaluation activities.",
+        "dimensions": [
+          {
+            "name": "Monitoring and Evaluation Output Management",
+            "definition": "Ability to maintain and update monitoring and evaluation outputs and reports.",
+            "levels": {
+              "Emerging": "Assists in updating monitoring and evaluation records with guidance.",
+              "Developing": "Maintains and updates routine monitoring and evaluation outputs independently.",
+              "Proficient": "Manages complex, multi-project monitoring and evaluation output records.",
+              "Advanced": "Establishes monitoring and evaluation output management standards for the Division."
+            }
+          },
+          {
+            "name": "Stakeholder Reporting and Dissemination",
+            "definition": "Ability to disseminate monitoring and evaluation outputs and reports to relevant stakeholders.",
+            "levels": {
+              "Emerging": "Assists in distributing reports with guidance.",
+              "Developing": "Disseminates routine reports to stakeholders independently.",
+              "Proficient": "Manages complex, multi-stakeholder reporting and dissemination requirements.",
+              "Advanced": "Establishes stakeholder reporting and dissemination standards for the Division."
+            }
+          },
+          {
+            "name": "Best Practice and Issue Prevention Support",
+            "definition": "Ability to support the adoption of best practices and prevention of avoidable issues based on monitoring and evaluation findings.",
+            "levels": {
+              "Emerging": "Assists in compiling best practice information with guidance.",
+              "Developing": "Supports routine best practice adoption efforts independently.",
+              "Proficient": "Supports complex, cross-project best practice adoption and issue prevention initiatives.",
+              "Advanced": "Establishes standards for institutionalizing best practices based on monitoring and evaluation findings."
+            }
+          },
+          {
+            "name": "Monitoring and Evaluation Technical Assistance",
+            "definition": "Ability to provide technical assistance in the development of evaluation plans and the conduct of monitoring and evaluation activities.",
+            "levels": {
+              "Emerging": "Assists in compiling technical assistance materials with guidance.",
+              "Developing": "Provides routine technical assistance independently.",
+              "Proficient": "Provides expert technical assistance on complex monitoring and evaluation matters.",
+              "Advanced": "Serves as the Division's senior technical resource on monitoring and evaluation."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "ITPD",
     "name": "Integrated Transport Planning Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Transport Policy and Planning Service",
     "officeOrder": 12,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Transport Plan Development and Administration",
+        "definition": "The ability to prepare evidence-based programs of transport plans, and to develop, update, and administer transport plans aimed at identifying projects and programs for development and recommending investment strategies and interventions.",
+        "dimensions": [
+          {
+            "name": "Transport Plan Preparation",
+            "definition": "Ability to prepare evidence-based transport plans and planning programs.",
+            "levels": {
+              "Emerging": "Assists in gathering planning data with guidance.",
+              "Developing": "Prepares routine transport plans independently.",
+              "Proficient": "Prepares complex, multimodal transport plans.",
+              "Advanced": "Establishes transport plan preparation standards for the Division."
+            }
+          },
+          {
+            "name": "Plan Updating and Administration",
+            "definition": "Ability to update and administer transport plans in accordance with evolving requirements and data.",
+            "levels": {
+              "Emerging": "Assists in updating plan components with guidance.",
+              "Developing": "Updates and administers routine transport plans independently.",
+              "Proficient": "Manages complex plan updates involving multiple data sources.",
+              "Advanced": "Establishes plan administration systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Project and Program Identification",
+            "definition": "Ability to identify projects and programs for development based on transport plan findings.",
+            "levels": {
+              "Emerging": "Assists in identifying candidate projects with guidance.",
+              "Developing": "Identifies routine projects and programs from plan findings.",
+              "Proficient": "Identifies complex, strategically significant projects and programs.",
+              "Advanced": "Establishes project identification criteria and standards for the Division."
+            }
+          },
+          {
+            "name": "Investment Strategy Recommendation",
+            "definition": "Ability to recommend investment strategies and interventions arising from transport plans.",
+            "levels": {
+              "Emerging": "Assists in drafting investment strategy notes with guidance.",
+              "Developing": "Recommends routine investment strategies independently.",
+              "Proficient": "Recommends complex investment strategies involving multiple interventions.",
+              "Advanced": "Leads the formulation of major investment strategy recommendations for the Department."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Transport Modeling and Geospatial Data Management",
+        "definition": "The ability to develop, maintain, update, and manage network-level transport models and geospatial data as planning tools that support evidence-based decision-making and align with the Department's mandate and agenda.",
+        "dimensions": [
+          {
+            "name": "Transport Model Development",
+            "definition": "Ability to develop network-level transport models to support planning analysis.",
+            "levels": {
+              "Emerging": "Assists in building basic model components with guidance.",
+              "Developing": "Develops routine transport models independently.",
+              "Proficient": "Develops complex, network-level transport models.",
+              "Advanced": "Establishes transport modeling standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Geospatial Data Management",
+            "definition": "Ability to maintain, update, and manage geospatial data supporting transport planning.",
+            "levels": {
+              "Emerging": "Assists in updating geospatial datasets with guidance.",
+              "Developing": "Maintains and updates routine geospatial data independently.",
+              "Proficient": "Manages complex geospatial datasets involving multiple sources.",
+              "Advanced": "Establishes geospatial data management standards for the Division."
+            }
+          },
+          {
+            "name": "Model-Based Decision Support",
+            "definition": "Ability to use transport models and geospatial tools to support evidence-based planning decisions.",
+            "levels": {
+              "Emerging": "Assists in generating basic model outputs with guidance.",
+              "Developing": "Uses routine model outputs to support planning decisions.",
+              "Proficient": "Uses complex model scenarios to support high-stakes planning decisions.",
+              "Advanced": "Establishes standards for model-based decision support across the Division."
+            }
+          },
+          {
+            "name": "Planning Tool Alignment",
+            "definition": "Ability to ensure transport models and geospatial tools remain aligned with the Department's mandate and agenda.",
+            "levels": {
+              "Emerging": "Assists in checking tool alignment with guidance.",
+              "Developing": "Ensures routine alignment of planning tools with the Department's agenda.",
+              "Proficient": "Resolves complex alignment issues involving multiple planning tools.",
+              "Advanced": "Establishes alignment review standards for the Division's planning tools."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Transport Plan Operationalization",
+        "definition": "The ability to assess and recommend the operationalization of transport plans by endorsing transport plan-identified projects to relevant development and implementing bodies.",
+        "dimensions": [
+          {
+            "name": "Operationalization Assessment",
+            "definition": "Ability to assess transport plans for readiness and feasibility of operationalization.",
+            "levels": {
+              "Emerging": "Assists in gathering assessment information with guidance.",
+              "Developing": "Assesses routine plan readiness independently.",
+              "Proficient": "Assesses complex operationalization issues involving multiple factors.",
+              "Advanced": "Establishes operationalization assessment standards for the Division."
+            }
+          },
+          {
+            "name": "Project Endorsement",
+            "definition": "Ability to endorse transport plan-identified projects to relevant development and implementing bodies.",
+            "levels": {
+              "Emerging": "Assists in preparing endorsement documents with guidance.",
+              "Developing": "Endorses routine projects to implementing bodies independently.",
+              "Proficient": "Endorses complex, high-priority projects requiring multi-body coordination.",
+              "Advanced": "Establishes project endorsement standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Implementing Body Coordination",
+            "definition": "Ability to coordinate with development and implementing bodies on plan operationalization.",
+            "levels": {
+              "Emerging": "Supports coordination activities with guidance.",
+              "Developing": "Coordinates routine operationalization matters with implementing bodies.",
+              "Proficient": "Manages complex coordination involving multiple development and implementing bodies.",
+              "Advanced": "Leads strategic coordination with implementing bodies and strengthens institutional relationships."
+            }
+          },
+          {
+            "name": "Operationalization Recommendation Development",
+            "definition": "Ability to develop well-supported recommendations for operationalizing transport plans.",
+            "levels": {
+              "Emerging": "Assists in drafting recommendation points with guidance.",
+              "Developing": "Develops routine operationalization recommendations independently.",
+              "Proficient": "Develops complex recommendations addressing systemic operationalization issues.",
+              "Advanced": "Leads the formulation of major operationalization recommendations for the Department."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Integrated Transport Strategy Development",
+        "definition": "The ability to develop integrated transport strategies and interventions by analyzing physical, network-level, and operational connectivity and multimodality across proposed, ongoing, and operational transport services.",
+        "dimensions": [
+          {
+            "name": "Connectivity Analysis",
+            "definition": "Ability to analyze physical and network-level connectivity across transport services.",
+            "levels": {
+              "Emerging": "Assists in gathering connectivity data with guidance.",
+              "Developing": "Analyzes routine connectivity issues independently.",
+              "Proficient": "Analyzes complex, network-wide connectivity issues.",
+              "Advanced": "Establishes connectivity analysis standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Multimodal Integration Analysis",
+            "definition": "Ability to analyze multimodality and operational integration across proposed, ongoing, and operational transport services.",
+            "levels": {
+              "Emerging": "Assists in gathering multimodal data with guidance.",
+              "Developing": "Analyzes routine multimodal integration issues independently.",
+              "Proficient": "Analyzes complex multimodal integration issues across multiple services.",
+              "Advanced": "Establishes multimodal integration analysis standards for the Division."
+            }
+          },
+          {
+            "name": "Strategy Formulation",
+            "definition": "Ability to formulate integrated transport strategies based on connectivity and multimodal analysis.",
+            "levels": {
+              "Emerging": "Assists in drafting strategy components with guidance.",
+              "Developing": "Formulates routine integrated strategies independently.",
+              "Proficient": "Formulates complex, sector-wide integrated transport strategies.",
+              "Advanced": "Leads the formulation of major integrated transport strategies for the Department."
+            }
+          },
+          {
+            "name": "Intervention Design",
+            "definition": "Ability to design interventions that support integrated and multimodal transport outcomes.",
+            "levels": {
+              "Emerging": "Assists in drafting intervention concepts with guidance.",
+              "Developing": "Designs routine interventions independently.",
+              "Proficient": "Designs complex, multi-component interventions.",
+              "Advanced": "Establishes intervention design standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Network Planning Technical Advisory Services",
+        "definition": "The ability to provide technical assistance and advisory services in interconnectivity and network-level planning, including evaluating the impacts of proposed projects, programs, policies, and other initiatives on the overall transport network.",
+        "dimensions": [
+          {
+            "name": "Network Impact Evaluation",
+            "definition": "Ability to evaluate the impacts of proposed projects, programs, and policies on the overall transport network.",
+            "levels": {
+              "Emerging": "Assists in gathering impact assessment data with guidance.",
+              "Developing": "Evaluates routine network impacts independently.",
+              "Proficient": "Evaluates complex, network-wide impacts of major initiatives.",
+              "Advanced": "Establishes network impact evaluation standards for the Division."
+            }
+          },
+          {
+            "name": "Interconnectivity Advisory",
+            "definition": "Ability to provide advisory services on interconnectivity and network-level planning matters.",
+            "levels": {
+              "Emerging": "Assists in preparing advisory materials with guidance.",
+              "Developing": "Provides routine interconnectivity advisory services independently.",
+              "Proficient": "Provides expert advisory services on complex network-level planning matters.",
+              "Advanced": "Serves as the Division's senior technical resource on interconnectivity planning."
+            }
+          },
+          {
+            "name": "Technical Assistance Provision",
+            "definition": "Ability to provide technical assistance to stakeholders on network-level planning issues.",
+            "levels": {
+              "Emerging": "Assists in compiling technical information with guidance.",
+              "Developing": "Provides routine technical assistance independently.",
+              "Proficient": "Provides expert technical assistance on complex network planning issues.",
+              "Advanced": "Leads strategic technical assistance engagements on major network initiatives."
+            }
+          },
+          {
+            "name": "Advisory Reporting",
+            "definition": "Ability to prepare clear technical advisory reports and recommendations on network planning matters.",
+            "levels": {
+              "Emerging": "Assists in compiling advisory report content with guidance.",
+              "Developing": "Prepares routine advisory reports independently.",
+              "Proficient": "Prepares complex advisory reports synthesizing multiple findings.",
+              "Advanced": "Establishes advisory reporting standards for the Division."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "ICD",
@@ -11754,41 +13371,780 @@
   {
     "code": "IPD",
     "name": "Investment Programming Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Transport Policy and Planning Service",
     "officeOrder": 12,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Investment Program Preparation and Management",
+        "definition": "The ability to facilitate the preparation, monitoring, and updating of the Department's investment program covering studies, plans, programs, and projects across short-term, medium-term, and long-term horizons.",
+        "dimensions": [
+          {
+            "name": "Investment Program Preparation",
+            "definition": "Ability to facilitate the preparation of the Department's investment program.",
+            "levels": {
+              "Emerging": "Assists in gathering investment program inputs with guidance.",
+              "Developing": "Prepares routine investment program components independently.",
+              "Proficient": "Prepares complex, multi-year investment program components.",
+              "Advanced": "Establishes investment program preparation standards for the Division."
+            }
+          },
+          {
+            "name": "Investment Program Monitoring",
+            "definition": "Ability to monitor the status and implementation of the Department's investment program.",
+            "levels": {
+              "Emerging": "Assists in tracking investment program status with guidance.",
+              "Developing": "Monitors routine investment program items independently.",
+              "Proficient": "Monitors complex, multi-component investment program implementation.",
+              "Advanced": "Establishes investment program monitoring systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Investment Program Updating",
+            "definition": "Ability to update the investment program to reflect changing requirements and priorities.",
+            "levels": {
+              "Emerging": "Assists in updating investment program entries with guidance.",
+              "Developing": "Updates routine investment program components independently.",
+              "Proficient": "Manages complex updates involving multiple investment program components.",
+              "Advanced": "Establishes investment program updating protocols for the Division."
+            }
+          },
+          {
+            "name": "Multi-Horizon Planning",
+            "definition": "Ability to plan and structure investment program components across short-, medium-, and long-term horizons.",
+            "levels": {
+              "Emerging": "Assists in organizing planning horizon data with guidance.",
+              "Developing": "Plans routine investment items across defined horizons independently.",
+              "Proficient": "Plans complex, cross-horizon investment components.",
+              "Advanced": "Establishes multi-horizon planning standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Investment Prioritization and Evaluation",
+        "definition": "The ability to evaluate and prioritize studies, plans, programs, and projects for updating and inclusion in the Department's investment program.",
+        "dimensions": [
+          {
+            "name": "Investment Evaluation",
+            "definition": "Ability to evaluate studies, plans, programs, and projects proposed for inclusion in the investment program.",
+            "levels": {
+              "Emerging": "Assists in gathering evaluation data with guidance.",
+              "Developing": "Evaluates routine investment candidates independently.",
+              "Proficient": "Evaluates complex, high-value investment candidates.",
+              "Advanced": "Establishes investment evaluation standards and criteria for the Division."
+            }
+          },
+          {
+            "name": "Prioritization Analysis",
+            "definition": "Ability to analyze and prioritize investment candidates based on established criteria.",
+            "levels": {
+              "Emerging": "Assists in applying prioritization criteria with guidance.",
+              "Developing": "Prioritizes routine investment candidates independently.",
+              "Proficient": "Prioritizes complex, competing investment candidates.",
+              "Advanced": "Establishes prioritization methodologies and criteria for the Division."
+            }
+          },
+          {
+            "name": "Inclusion Recommendation",
+            "definition": "Ability to recommend the inclusion or updating of investment items in the Department's investment program.",
+            "levels": {
+              "Emerging": "Assists in drafting inclusion recommendations with guidance.",
+              "Developing": "Recommends routine inclusion or updates independently.",
+              "Proficient": "Recommends complex inclusion decisions involving significant resources.",
+              "Advanced": "Leads recommendation development for major investment program decisions."
+            }
+          },
+          {
+            "name": "Evaluation Documentation",
+            "definition": "Ability to document evaluation and prioritization findings for management review.",
+            "levels": {
+              "Emerging": "Assists in compiling evaluation documentation with guidance.",
+              "Developing": "Documents routine evaluation findings independently.",
+              "Proficient": "Documents complex evaluation and prioritization findings for senior review.",
+              "Advanced": "Establishes evaluation documentation standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Funding Source and Resource Allocation Advisory",
+        "definition": "The ability to provide technical assistance in determining funding sources and allocating resources for the Department's investments as part of the regular planning and budgetary process.",
+        "dimensions": [
+          {
+            "name": "Funding Source Identification",
+            "definition": "Ability to identify and assess potential funding sources for Department investments.",
+            "levels": {
+              "Emerging": "Assists in gathering funding source information with guidance.",
+              "Developing": "Identifies routine funding sources independently.",
+              "Proficient": "Assesses complex, multiple funding source options.",
+              "Advanced": "Establishes funding source identification standards for the Division."
+            }
+          },
+          {
+            "name": "Resource Allocation Analysis",
+            "definition": "Ability to analyze resource allocation options for Department investments.",
+            "levels": {
+              "Emerging": "Assists in compiling resource allocation data with guidance.",
+              "Developing": "Analyzes routine resource allocation options independently.",
+              "Proficient": "Analyzes complex resource allocation trade-offs across multiple investments.",
+              "Advanced": "Establishes resource allocation analysis standards for the Division."
+            }
+          },
+          {
+            "name": "Budgetary Process Integration",
+            "definition": "Ability to integrate investment funding and resource considerations into the regular planning and budgetary process.",
+            "levels": {
+              "Emerging": "Assists in aligning investment items with budget cycles with guidance.",
+              "Developing": "Integrates routine investment considerations into the budgetary process independently.",
+              "Proficient": "Manages complex integration issues involving multiple investment and budget components.",
+              "Advanced": "Establishes standards for integrating investment planning with the Department's budgetary process."
+            }
+          },
+          {
+            "name": "Funding Advisory Services",
+            "definition": "Ability to provide technical advice on funding and resource allocation matters to concerned offices.",
+            "levels": {
+              "Emerging": "Assists in preparing funding advisory materials with guidance.",
+              "Developing": "Provides routine funding advice independently.",
+              "Proficient": "Provides expert funding advice on complex or high-value investments.",
+              "Advanced": "Serves as the Division's senior technical resource on funding and resource allocation."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Investment Portfolio Monitoring and Performance Reporting",
+        "definition": "The ability to monitor, manage, and report on the Department's investment portfolio and performance.",
+        "dimensions": [
+          {
+            "name": "Portfolio Monitoring",
+            "definition": "Ability to monitor the status and progress of items within the Department's investment portfolio.",
+            "levels": {
+              "Emerging": "Assists in tracking portfolio status with guidance.",
+              "Developing": "Monitors routine portfolio items independently.",
+              "Proficient": "Monitors complex, multi-component portfolio performance.",
+              "Advanced": "Establishes portfolio monitoring systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Portfolio Management",
+            "definition": "Ability to manage the composition and balance of the Department's investment portfolio.",
+            "levels": {
+              "Emerging": "Assists in compiling portfolio composition data with guidance.",
+              "Developing": "Manages routine portfolio composition matters independently.",
+              "Proficient": "Manages complex portfolio balancing decisions.",
+              "Advanced": "Establishes portfolio management standards and strategies for the Division."
+            }
+          },
+          {
+            "name": "Performance Analysis",
+            "definition": "Ability to analyze investment portfolio performance against targets and expectations.",
+            "levels": {
+              "Emerging": "Assists in gathering performance data with guidance.",
+              "Developing": "Analyzes routine portfolio performance independently.",
+              "Proficient": "Analyzes complex performance issues involving multiple portfolio components.",
+              "Advanced": "Establishes performance analysis standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Performance Reporting",
+            "definition": "Ability to prepare clear and timely reports on investment portfolio status and performance.",
+            "levels": {
+              "Emerging": "Assists in compiling performance report content with guidance.",
+              "Developing": "Prepares routine performance reports independently.",
+              "Proficient": "Prepares complex performance reports for senior management or oversight bodies.",
+              "Advanced": "Establishes performance reporting standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Investment Program Coordination and Liaison",
+        "definition": "The ability to liaise with relevant offices, inter-agency bodies, and development councils on the preparation, updating, and reporting of the Department's investment program.",
+        "dimensions": [
+          {
+            "name": "Internal Office Coordination",
+            "definition": "Ability to coordinate with relevant Department offices on investment program matters.",
+            "levels": {
+              "Emerging": "Supports internal coordination activities with guidance.",
+              "Developing": "Coordinates routine investment program matters with Department offices independently.",
+              "Proficient": "Manages complex, multi-office coordination on investment program matters.",
+              "Advanced": "Establishes internal coordination standards and mechanisms for the Division."
+            }
+          },
+          {
+            "name": "Inter-Agency Liaison",
+            "definition": "Ability to liaise with inter-agency bodies and development councils on investment program requirements.",
+            "levels": {
+              "Emerging": "Supports inter-agency liaison activities with guidance.",
+              "Developing": "Liaises on routine investment program requirements independently.",
+              "Proficient": "Manages complex liaison engagements with multiple inter-agency bodies.",
+              "Advanced": "Leads strategic liaison with inter-agency bodies and development councils."
+            }
+          },
+          {
+            "name": "Investment Program Reporting Coordination",
+            "definition": "Ability to coordinate the preparation and submission of investment program reports.",
+            "levels": {
+              "Emerging": "Assists in compiling report submissions with guidance.",
+              "Developing": "Coordinates routine report preparation and submission independently.",
+              "Proficient": "Coordinates complex, multi-source report preparation and submission.",
+              "Advanced": "Establishes investment program reporting coordination standards for the Division."
+            }
+          },
+          {
+            "name": "Stakeholder Relationship Management",
+            "definition": "Ability to build and maintain effective relationships with investment program stakeholders.",
+            "levels": {
+              "Emerging": "Maintains basic stakeholder contact with guidance.",
+              "Developing": "Builds and maintains routine stakeholder relationships independently.",
+              "Proficient": "Manages complex stakeholder relationships involving competing interests.",
+              "Advanced": "Establishes strategic stakeholder relationships that strengthen the Division's investment program standing."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "PRDD",
     "name": "Policy Research and Development Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Transport Policy and Planning Service",
     "officeOrder": 12,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Transport Policy Agenda Development",
+        "definition": "The ability to facilitate the development of the Department's evidence-based transport agenda, ensuring responsiveness to public needs and alignment with national agenda, policies, legislation, and international commitments.",
+        "dimensions": [
+          {
+            "name": "Agenda Research and Formulation",
+            "definition": "Ability to research and formulate evidence-based transport agenda items responsive to public needs.",
+            "levels": {
+              "Emerging": "Assists in gathering agenda-related research with guidance.",
+              "Developing": "Researches and drafts routine agenda items independently.",
+              "Proficient": "Formulates complex agenda items requiring synthesis of multiple sources.",
+              "Advanced": "Establishes research and formulation standards for agenda development."
+            }
+          },
+          {
+            "name": "National Alignment Analysis",
+            "definition": "Ability to analyze and ensure alignment of the transport agenda with national policies, legislation, and priorities.",
+            "levels": {
+              "Emerging": "Assists in checking agenda items against national references with guidance.",
+              "Developing": "Analyzes routine alignment issues and flags discrepancies.",
+              "Proficient": "Resolves complex alignment issues involving multiple national references.",
+              "Advanced": "Establishes alignment review standards and represents the Division in national policy discussions."
+            }
+          },
+          {
+            "name": "International Commitment Integration",
+            "definition": "Ability to integrate relevant international commitments and standards into the transport agenda.",
+            "levels": {
+              "Emerging": "Assists in compiling international commitment references with guidance.",
+              "Developing": "Integrates routine international commitments into agenda items.",
+              "Proficient": "Resolves complex integration issues involving multiple international frameworks.",
+              "Advanced": "Establishes standards for integrating international commitments into the Department's agenda."
+            }
+          },
+          {
+            "name": "Agenda Documentation and Presentation",
+            "definition": "Ability to document and present the Department's transport agenda to management and stakeholders.",
+            "levels": {
+              "Emerging": "Assists in preparing agenda documentation with guidance.",
+              "Developing": "Prepares and presents routine agenda documentation independently.",
+              "Proficient": "Prepares and presents complex agenda materials for senior management or external audiences.",
+              "Advanced": "Establishes agenda documentation and presentation standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy and Standards Formulation",
+        "definition": "The ability to formulate, update, and advocate for overarching service, regulatory, and operational policies, guidelines, and standards in the transport sector, including establishing frameworks and consulting relevant stakeholders for adoption.",
+        "dimensions": [
+          {
+            "name": "Policy Drafting",
+            "definition": "Ability to draft transport sector policies, guidelines, and standards based on identified needs and requirements.",
+            "levels": {
+              "Emerging": "Assists in drafting policy provisions with guidance.",
+              "Developing": "Drafts routine policies, guidelines, and standards independently.",
+              "Proficient": "Drafts complex, multi-sector policies and resolves drafting issues.",
+              "Advanced": "Establishes policy drafting standards and mentors others in policy development."
+            }
+          },
+          {
+            "name": "Policy Framework Development",
+            "definition": "Ability to establish frameworks that structure the formulation and application of transport policies and standards.",
+            "levels": {
+              "Emerging": "Assists in compiling framework components with guidance.",
+              "Developing": "Develops routine policy frameworks independently.",
+              "Proficient": "Develops complex, cross-cutting policy frameworks.",
+              "Advanced": "Establishes institutional standards for policy framework development."
+            }
+          },
+          {
+            "name": "Stakeholder Consultation for Policy Adoption",
+            "definition": "Ability to consult relevant stakeholders and sectors to build support for policy and standards adoption.",
+            "levels": {
+              "Emerging": "Supports consultation activities with guidance.",
+              "Developing": "Conducts routine stakeholder consultations and consolidates feedback.",
+              "Proficient": "Manages complex, multi-sector consultations and builds consensus.",
+              "Advanced": "Leads high-level consultations and institutionalizes consultation mechanisms."
+            }
+          },
+          {
+            "name": "Policy Advocacy",
+            "definition": "Ability to advocate for the adoption and implementation of formulated policies, guidelines, and standards.",
+            "levels": {
+              "Emerging": "Assists in preparing advocacy materials with guidance.",
+              "Developing": "Advocates for routine policy adoption with relevant offices.",
+              "Proficient": "Advocates for complex or contested policies with senior stakeholders.",
+              "Advanced": "Leads strategic advocacy initiatives that secure institutional policy adoption."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy Implementation Review and Evaluation",
+        "definition": "The ability to review, monitor, and evaluate the implementation of transport policies, standards, and the Department's services to formulate recommendations and reports that support continuous improvement.",
+        "dimensions": [
+          {
+            "name": "Implementation Monitoring",
+            "definition": "Ability to monitor the implementation of transport policies and standards across the Department and sector.",
+            "levels": {
+              "Emerging": "Tracks basic implementation status with guidance.",
+              "Developing": "Monitors routine policy implementation and documents findings.",
+              "Proficient": "Monitors complex, sector-wide implementation and identifies systemic issues.",
+              "Advanced": "Establishes implementation monitoring systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Implementation Evaluation",
+            "definition": "Ability to evaluate the effectiveness of implemented policies, standards, and services.",
+            "levels": {
+              "Emerging": "Assists in gathering evaluation data with guidance.",
+              "Developing": "Evaluates routine policy and service effectiveness using established criteria.",
+              "Proficient": "Evaluates complex implementation issues involving multiple factors.",
+              "Advanced": "Establishes evaluation methodologies and standards for policy assessment."
+            }
+          },
+          {
+            "name": "Recommendation Development",
+            "definition": "Ability to formulate evidence-based recommendations for policy and service improvement.",
+            "levels": {
+              "Emerging": "Assists in drafting recommendation points with guidance.",
+              "Developing": "Formulates routine, well-supported recommendations independently.",
+              "Proficient": "Formulates complex recommendations addressing systemic or sensitive issues.",
+              "Advanced": "Leads recommendation development for major policy or service reforms."
+            }
+          },
+          {
+            "name": "Evaluation Reporting",
+            "definition": "Ability to prepare clear and well-supported evaluation reports for management decision-making.",
+            "levels": {
+              "Emerging": "Assists in compiling evaluation report content with guidance.",
+              "Developing": "Prepares routine evaluation reports independently.",
+              "Proficient": "Prepares complex evaluation reports synthesizing multiple findings.",
+              "Advanced": "Establishes evaluation reporting standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Technical Advisory and Consulting Services",
+        "definition": "The ability to provide technical assistance, consulting, and advisory services on the formulation and implementation of sectoral policies and standards.",
+        "dimensions": [
+          {
+            "name": "Technical Guidance Provision",
+            "definition": "Ability to provide technical guidance on the formulation of sectoral policies and standards.",
+            "levels": {
+              "Emerging": "Assists in preparing technical guidance materials with guidance.",
+              "Developing": "Provides routine technical guidance to requesting offices.",
+              "Proficient": "Provides expert technical guidance on complex policy matters.",
+              "Advanced": "Serves as the Division's senior technical resource on policy formulation."
+            }
+          },
+          {
+            "name": "Implementation Advisory",
+            "definition": "Ability to advise concerned offices and stakeholders on the practical implementation of policies and standards.",
+            "levels": {
+              "Emerging": "Assists in compiling implementation advisory information with guidance.",
+              "Developing": "Advises on routine implementation matters independently.",
+              "Proficient": "Advises on complex or sensitive implementation issues.",
+              "Advanced": "Leads strategic advisory engagements on major implementation initiatives."
+            }
+          },
+          {
+            "name": "Consulting Engagement Management",
+            "definition": "Ability to manage consulting engagements and requests for technical assistance.",
+            "levels": {
+              "Emerging": "Assists in tracking consulting requests with guidance.",
+              "Developing": "Manages routine consulting engagements independently.",
+              "Proficient": "Manages complex, multi-stakeholder consulting engagements.",
+              "Advanced": "Establishes consulting engagement standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Advisory Documentation",
+            "definition": "Ability to prepare clear advisory notes, briefs, and technical opinions for requesting parties.",
+            "levels": {
+              "Emerging": "Assists in drafting advisory documentation with guidance.",
+              "Developing": "Prepares routine advisory notes and briefs independently.",
+              "Proficient": "Prepares complex technical opinions on contested or sensitive matters.",
+              "Advanced": "Establishes advisory documentation standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy Research and Benchmarking",
+        "definition": "The ability to integrate research and benchmarking activities into the transport policy and standards development process.",
+        "dimensions": [
+          {
+            "name": "Research Design and Conduct",
+            "definition": "Ability to design and conduct research relevant to transport policy and standards development.",
+            "levels": {
+              "Emerging": "Assists in gathering research materials with guidance.",
+              "Developing": "Conducts routine research activities independently.",
+              "Proficient": "Designs and conducts complex, multi-source research studies.",
+              "Advanced": "Establishes research design standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Benchmarking Analysis",
+            "definition": "Ability to conduct benchmarking studies against comparable practices, standards, or jurisdictions.",
+            "levels": {
+              "Emerging": "Assists in compiling benchmarking data with guidance.",
+              "Developing": "Conducts routine benchmarking studies independently.",
+              "Proficient": "Conducts complex benchmarking analyses involving multiple jurisdictions or practices.",
+              "Advanced": "Establishes benchmarking methodologies and standards for the Division."
+            }
+          },
+          {
+            "name": "Evidence Synthesis",
+            "definition": "Ability to synthesize research and benchmarking findings into actionable policy insights.",
+            "levels": {
+              "Emerging": "Assists in organizing research findings with guidance.",
+              "Developing": "Synthesizes routine findings into clear summaries.",
+              "Proficient": "Synthesizes complex, multi-source findings into actionable insights.",
+              "Advanced": "Establishes evidence synthesis standards for policy development."
+            }
+          },
+          {
+            "name": "Research Utilization",
+            "definition": "Ability to integrate research and benchmarking outputs into the policy and standards development process.",
+            "levels": {
+              "Emerging": "Assists in applying research findings to policy drafts with guidance.",
+              "Developing": "Integrates routine research outputs into policy development work.",
+              "Proficient": "Integrates complex research findings into major policy or standards initiatives.",
+              "Advanced": "Establishes standards for research utilization in policy development across the Division."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "TSKMD",
     "name": "Transport Statistics and Knowledge Management Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Transport Policy and Planning Service",
     "officeOrder": 12,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "OO 2026-071 [ANNEXES].pdf",
+    "basis": "Basis: DOTr Office Order No. 2026-071 (Implementation of the Interim Structure of the Planning and Project Development Office), Annex C: Functional Statements",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Transport Statistics Management and Publication",
+        "definition": "The ability to manage and publish the official annual statistics and knowledge outputs of the transport sector, including analytical reports and thematic briefs for policy and planning use.",
+        "dimensions": [
+          {
+            "name": "Statistics Compilation",
+            "definition": "Ability to compile official transport sector statistics for annual publication.",
+            "levels": {
+              "Emerging": "Assists in gathering statistical data with guidance.",
+              "Developing": "Compiles routine transport statistics independently.",
+              "Proficient": "Compiles complex, multi-source statistical datasets.",
+              "Advanced": "Establishes statistics compilation standards for the Division."
+            }
+          },
+          {
+            "name": "Analytical Report Development",
+            "definition": "Ability to develop analytical reports and thematic briefs based on transport statistics.",
+            "levels": {
+              "Emerging": "Assists in drafting report content with guidance.",
+              "Developing": "Develops routine analytical reports and briefs independently.",
+              "Proficient": "Develops complex analytical reports synthesizing multiple data sources.",
+              "Advanced": "Establishes analytical reporting standards for the Division."
+            }
+          },
+          {
+            "name": "Publication Management",
+            "definition": "Ability to manage the production and release of official transport sector statistical publications.",
+            "levels": {
+              "Emerging": "Assists in preparing publication materials with guidance.",
+              "Developing": "Manages routine statistical publications independently.",
+              "Proficient": "Manages complex, multi-stakeholder publication processes.",
+              "Advanced": "Establishes publication management standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Statistical Quality Assurance",
+            "definition": "Ability to ensure the accuracy, consistency, and reliability of published transport statistics.",
+            "levels": {
+              "Emerging": "Assists in checking statistical data with guidance.",
+              "Developing": "Ensures routine data quality independently.",
+              "Proficient": "Resolves complex data quality issues across multiple datasets.",
+              "Advanced": "Establishes statistical quality assurance standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Transport Data Collection and Coordination",
+        "definition": "The ability to facilitate the systematic collection of transport data, performance indicators, and other sectoral information, including PPDO project data, studies, and partner submissions, in coordination with relevant DOTr offices and stakeholders.",
+        "dimensions": [
+          {
+            "name": "Data Collection Planning",
+            "definition": "Ability to plan systematic data collection activities for transport and sectoral information.",
+            "levels": {
+              "Emerging": "Assists in supporting data collection activities with guidance.",
+              "Developing": "Plans routine data collection activities independently.",
+              "Proficient": "Plans complex, multi-source data collection efforts.",
+              "Advanced": "Establishes data collection planning standards for the Division."
+            }
+          },
+          {
+            "name": "Performance Indicator Gathering",
+            "definition": "Ability to gather performance indicators from relevant offices and stakeholders.",
+            "levels": {
+              "Emerging": "Assists in compiling indicator data with guidance.",
+              "Developing": "Gathers routine performance indicators independently.",
+              "Proficient": "Gathers complex performance indicators from multiple offices and stakeholders.",
+              "Advanced": "Establishes performance indicator gathering standards for the Division."
+            }
+          },
+          {
+            "name": "Partner Submission Coordination",
+            "definition": "Ability to coordinate the collection of project data, studies, and submissions from development partners.",
+            "levels": {
+              "Emerging": "Supports partner submission coordination with guidance.",
+              "Developing": "Coordinates routine partner submissions independently.",
+              "Proficient": "Manages complex, multi-partner submission requirements.",
+              "Advanced": "Establishes partner submission coordination standards for the Division."
+            }
+          },
+          {
+            "name": "Data Collection Quality Control",
+            "definition": "Ability to ensure the completeness and quality of collected transport and sectoral data.",
+            "levels": {
+              "Emerging": "Assists in checking collected data with guidance.",
+              "Developing": "Ensures routine data completeness and quality independently.",
+              "Proficient": "Resolves complex data quality issues across multiple collection streams.",
+              "Advanced": "Establishes data collection quality control standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Data Repository and Database Management",
+        "definition": "The ability to develop, maintain, and update the central repository and database of PPDO and transport sector data, reports, and studies, serving as the institutional memory and reference base of the Planning Service.",
+        "dimensions": [
+          {
+            "name": "Repository Development",
+            "definition": "Ability to develop and structure the central repository and database for PPDO and sector data.",
+            "levels": {
+              "Emerging": "Assists in organizing repository components with guidance.",
+              "Developing": "Develops routine repository structures independently.",
+              "Proficient": "Develops complex, multi-source repository structures.",
+              "Advanced": "Establishes repository development standards for the Division."
+            }
+          },
+          {
+            "name": "Database Maintenance",
+            "definition": "Ability to maintain and update the central database to ensure accuracy and completeness.",
+            "levels": {
+              "Emerging": "Assists in updating database entries with guidance.",
+              "Developing": "Maintains and updates routine database records independently.",
+              "Proficient": "Manages complex database maintenance issues involving multiple data sources.",
+              "Advanced": "Establishes database maintenance standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Institutional Reference Management",
+            "definition": "Ability to manage the repository as an institutional memory and reference base for the Planning Service.",
+            "levels": {
+              "Emerging": "Assists in organizing reference materials with guidance.",
+              "Developing": "Manages routine reference materials within the repository independently.",
+              "Proficient": "Manages complex institutional reference requirements across the Planning Service.",
+              "Advanced": "Establishes institutional reference management standards for the Division."
+            }
+          },
+          {
+            "name": "Data Retrieval Support",
+            "definition": "Ability to support timely retrieval of data, reports, and studies from the central repository.",
+            "levels": {
+              "Emerging": "Assists in locating requested materials with guidance.",
+              "Developing": "Supports routine data retrieval requests independently.",
+              "Proficient": "Resolves complex retrieval requests involving multiple repository components.",
+              "Advanced": "Establishes data retrieval support standards and service levels for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Data Standardization and Technical Assistance",
+        "definition": "The ability to provide technical assistance and expertise in data management, standardization, and documentation of planning and project information to ensure consistency, interoperability, and linkage with the central repository.",
+        "dimensions": [
+          {
+            "name": "Data Standardization",
+            "definition": "Ability to apply data management and standardization practices to planning and project information.",
+            "levels": {
+              "Emerging": "Assists in applying data standards with guidance.",
+              "Developing": "Applies routine data standardization practices independently.",
+              "Proficient": "Resolves complex standardization issues across multiple data sources.",
+              "Advanced": "Establishes data standardization standards and protocols for the Division."
+            }
+          },
+          {
+            "name": "Documentation Support",
+            "definition": "Ability to support the documentation of planning and project information in accordance with established standards.",
+            "levels": {
+              "Emerging": "Assists in documenting planning information with guidance.",
+              "Developing": "Supports routine documentation activities independently.",
+              "Proficient": "Manages complex documentation requirements across multiple projects.",
+              "Advanced": "Establishes documentation support standards for the Division."
+            }
+          },
+          {
+            "name": "Interoperability Assurance",
+            "definition": "Ability to ensure consistency and interoperability of data linked to the central repository.",
+            "levels": {
+              "Emerging": "Assists in checking data interoperability with guidance.",
+              "Developing": "Ensures routine interoperability of data linked to the repository independently.",
+              "Proficient": "Resolves complex interoperability issues across multiple data systems.",
+              "Advanced": "Establishes interoperability standards for data linked to the central repository."
+            }
+          },
+          {
+            "name": "Technical Assistance Provision",
+            "definition": "Ability to provide technical assistance and expertise on data management matters to concerned offices.",
+            "levels": {
+              "Emerging": "Assists in compiling technical assistance materials with guidance.",
+              "Developing": "Provides routine technical assistance independently.",
+              "Proficient": "Provides expert technical assistance on complex data management matters.",
+              "Advanced": "Serves as the Division's senior technical resource on data management."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Research, Analysis, and Policy Studies",
+        "definition": "The ability to conduct research, analysis, and policy studies using transport and PPDO data to generate insights, visualizations, and reports that support evidence-based planning, policy formulation, and project development.",
+        "dimensions": [
+          {
+            "name": "Research Design and Conduct",
+            "definition": "Ability to design and conduct research and policy studies using transport and PPDO data.",
+            "levels": {
+              "Emerging": "Assists in gathering research data with guidance.",
+              "Developing": "Conducts routine research and policy studies independently.",
+              "Proficient": "Designs and conducts complex, multi-source research studies.",
+              "Advanced": "Establishes research design standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Data Analysis",
+            "definition": "Ability to analyze transport and PPDO data to generate meaningful insights.",
+            "levels": {
+              "Emerging": "Assists in compiling data for analysis with guidance.",
+              "Developing": "Analyzes routine transport and PPDO data independently.",
+              "Proficient": "Analyzes complex, multi-source datasets to generate strategic insights.",
+              "Advanced": "Establishes data analysis standards and methodologies for the Division."
+            }
+          },
+          {
+            "name": "Data Visualization",
+            "definition": "Ability to develop visualizations that effectively communicate data-driven insights.",
+            "levels": {
+              "Emerging": "Assists in preparing basic visualizations with guidance.",
+              "Developing": "Develops routine visualizations independently.",
+              "Proficient": "Develops complex, multi-dimensional visualizations for senior audiences.",
+              "Advanced": "Establishes data visualization standards for the Division."
+            }
+          },
+          {
+            "name": "Evidence-Based Reporting",
+            "definition": "Ability to prepare reports that support evidence-based planning, policy formulation, and project development.",
+            "levels": {
+              "Emerging": "Assists in compiling report content with guidance.",
+              "Developing": "Prepares routine evidence-based reports independently.",
+              "Proficient": "Prepares complex reports synthesizing multiple research and data sources.",
+              "Advanced": "Establishes evidence-based reporting standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Knowledge Dissemination and Archiving",
+        "definition": "The ability to facilitate the dissemination and controlled sharing of transport and PPDO-related data, information, and research outputs, and to ensure the preservation, organization, and transfer of sector knowledge, reports, and best practices through systematic archiving and digital knowledge platforms.",
+        "dimensions": [
+          {
+            "name": "Information Dissemination",
+            "definition": "Ability to facilitate the dissemination and controlled sharing of transport and PPDO-related data and information.",
+            "levels": {
+              "Emerging": "Assists in distributing information materials with guidance.",
+              "Developing": "Disseminates routine information independently in accordance with established controls.",
+              "Proficient": "Manages complex, sensitive information dissemination requirements.",
+              "Advanced": "Establishes information dissemination standards and controls for the Division."
+            }
+          },
+          {
+            "name": "Stakeholder Request Processing",
+            "definition": "Ability to process data and information requests from internal and external stakeholders.",
+            "levels": {
+              "Emerging": "Assists in logging stakeholder requests with guidance.",
+              "Developing": "Processes routine stakeholder requests independently.",
+              "Proficient": "Processes complex or sensitive stakeholder requests requiring careful handling.",
+              "Advanced": "Establishes stakeholder request processing standards and service levels for the Division."
+            }
+          },
+          {
+            "name": "Knowledge Preservation and Archiving",
+            "definition": "Ability to ensure the preservation and systematic archiving of sector knowledge, reports, and best practices.",
+            "levels": {
+              "Emerging": "Assists in archiving materials with guidance.",
+              "Developing": "Preserves and archives routine knowledge materials independently.",
+              "Proficient": "Manages complex, large-scale archiving of sector knowledge and best practices.",
+              "Advanced": "Establishes knowledge preservation and archiving standards for the Division."
+            }
+          },
+          {
+            "name": "Digital Knowledge Platform Management",
+            "definition": "Ability to manage digital knowledge platforms that support the organization and transfer of institutional knowledge.",
+            "levels": {
+              "Emerging": "Assists in maintaining platform content with guidance.",
+              "Developing": "Manages routine digital knowledge platform content independently.",
+              "Proficient": "Manages complex digital knowledge platform functions and content structures.",
+              "Advanced": "Establishes digital knowledge platform management standards for the Division."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "NDTSD",
