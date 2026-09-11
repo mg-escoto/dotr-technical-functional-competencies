@@ -374,6 +374,52 @@
             }
           }
         ]
+      },
+      {
+        "name": "Legislative Liaison and Coordination",
+        "definition": "The ability to establish and maintain effective working linkages with Congress, the Office of the President, government agencies, and other stakeholders on legislative and executive issuance matters affecting the Department, in direct support of the Secretary and Executive Offices.",
+        "dimensions": [
+          {
+            "name": "Congressional and Committee Liaison",
+            "definition": "Ability to coordinate with Congress and legislative committees regarding bills, resolutions, inquiries, hearings, and other matters affecting the Department on behalf of the Secretary.",
+            "levels": {
+              "Emerging": "Supports coordination with Congress and legislative committees and follows established protocols with guidance.",
+              "Developing": "Handles routine congressional liaison requirements and follows up on action points.",
+              "Proficient": "Manages complex legislative coordination and anticipates the Secretary's and stakeholders' requirements.",
+              "Advanced": "Serves as the Secretary's senior liaison resource for significant legislative matters and strengthens institutional relationships with Congress."
+            }
+          },
+          {
+            "name": "Office of the President and Executive Issuance Liaison",
+            "definition": "Ability to coordinate matters concerning Executive and Administrative Orders and other Presidential issuances with the appropriate Office of the President offices and bodies.",
+            "levels": {
+              "Emerging": "Assists in routing and monitoring documents with guidance.",
+              "Developing": "Coordinates routine requirements and monitors status.",
+              "Proficient": "Handles complex coordination, clarifies requirements, and ensures timely follow-through on behalf of the Secretary.",
+              "Advanced": "Provides expert liaison direction on significant Executive issuance matters affecting the Department."
+            }
+          },
+          {
+            "name": "Inter-Agency Legislative Coordination",
+            "definition": "Ability to coordinate legislative and issuance matters with other government agencies, sectoral offices, attached agencies, and other stakeholders on behalf of the Secretary and Executive Offices.",
+            "levels": {
+              "Emerging": "Communicates routine requests through established channels.",
+              "Developing": "Coordinates routine inter-agency requirements effectively.",
+              "Proficient": "Facilitates resolution of complex or conflicting requirements.",
+              "Advanced": "Leads high-level inter-agency coordination and builds effective working mechanisms for the Department."
+            }
+          },
+          {
+            "name": "Stakeholder Communication and Protocol Management",
+            "definition": "Ability to communicate legislative positions, requirements, issues, and action points clearly and professionally, while observing appropriate government protocols and protecting the Department's authorized position.",
+            "levels": {
+              "Emerging": "Communicates routine information and follows established protocols with guidance.",
+              "Developing": "Explains routine requirements clearly and accurately, and consistently observes protocols.",
+              "Proficient": "Handles sensitive or complex communications with sound judgment while navigating stakeholder relationships.",
+              "Advanced": "Represents the Secretary and Department effectively in high-stakes interactions and models professional, protocol-sensitive communication."
+            }
+          }
+        ]
       }
     ],
     "office": "Executive Offices",

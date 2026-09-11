@@ -143,11 +143,11 @@ export const positionProfiles: DivisionPositionProfile[] = [
     sourceNote:
       'Built from the Executive Offices position list provided directly (no salary-grade or ' +
       'section detail available), combined with the Executive Offices competency framework. ' +
-      'Levels are inferred from title seniority only. Two pending items are not yet reflected ' +
-      'here: (1) the Department Legislative Liaison Specialist under the Office of the ' +
-      'Secretary — to be benchmarked against Legal Service once that service is populated; ' +
-      '(2) any refinement to the driving-related assignments below once Legal Service is done ' +
-      'and this profile is revisited.',
+      'Levels are inferred from title seniority only. The Department Legislative Liaison ' +
+      'Specialist under the Office of the Secretary and its "Legislative Liaison and ' +
+      'Coordination" competency are benchmarked from the Legislative and Issuances ' +
+      'Division\'s "Legislative Liaison and Stakeholder Engagement" competency, now that ' +
+      'Legal Service has been populated.',
     positions: [
       {
         title: 'Head Executive Assistant',
@@ -159,6 +159,15 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Technology and Office Management', level: 'Advanced' },
           { name: 'Time Management and Prioritization', level: 'Advanced' },
           { name: 'Financial Administration and Budgeting', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Department Legislative Liaison Specialist',
+        section: 'Office of the Secretary',
+        competencies: [
+          { name: 'Legislative Liaison and Coordination', level: 'Proficient' },
+          { name: 'Communication and Relationship Management', level: 'Proficient' },
+          { name: 'Executive Support and Coordination', level: 'Developing' },
         ],
       },
       {
