@@ -13003,361 +13003,667 @@
   {
     "code": "ICD",
     "name": "International Cooperation Division",
-    "category": "with-framework",
-    "sourceFile": "ICD_Revised Competency Framework.docx",
+    "category": "without-framework",
+    "sourceFile": "International Cooperation Division.docx",
     "basis": null,
     "careerProgression": null,
     "competencies": [
       {
-        "name": "Data Management and Analytics",
-        "definition": "The ability to collect, analyze, evaluate, interpret, monitor, and optimize the use of statistical data and information to draw conclusions for strategic decision-making, reporting, coordination, and policy formulation.",
+        "name": "International Relations, Diplomacy and Protocol",
+        "definition": "The ability to manage diplomatic relationships and engagements using appropriate international protocols, cultural awareness, professional courtesy and transport-sector cooperation practices.",
         "dimensions": [
           {
-            "name": "Data Collection and Validation",
-            "definition": "Collects, verifies, validates, and consolidates data and information from various sources.",
+            "name": "Diplomatic Protocol and Courtesy",
+            "definition": "Observes diplomatic protocol, etiquette, hierarchy and professional courtesy.",
             "levels": {
-              "Emerging": "Collects information from identified sources.",
-              "Developing": "Validates information accuracy and identifies inconsistencies.",
-              "Proficient": "Consolidates and verifies information from multiple stakeholders.",
-              "Advanced": "Establishes mechanisms to ensure data integrity and reliability."
+              "Emerging": "Performs diplomatic protocol and courtesy tasks using established protocols, templates and guidance.",
+              "Developing": "Applies diplomatic protocol and courtesy independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex diplomatic protocol and courtesy requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex diplomatic protocol and courtesy requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Analysis and Interpretation",
-            "definition": "Examines information to identify issues, trends, implications, and opportunities for action.",
+            "name": "Cross-Cultural Awareness",
+            "definition": "Recognizes cultural, institutional and communication differences affecting international interactions.",
             "levels": {
-              "Emerging": "Identifies basic issues and information gaps.",
-              "Developing": "Analyzes information and determines implications and actions.",
-              "Proficient": "Identifies patterns, trends, and strategic implications.",
-              "Advanced": "Provides evidence-based recommendations for management decision-making."
+              "Emerging": "Performs cross-cultural awareness tasks using established protocols, templates and guidance.",
+              "Developing": "Applies cross-cultural awareness independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex cross-cultural awareness requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex cross-cultural awareness requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Information Management",
-            "definition": "Organizes, stores, updates, and maintains information for efficient retrieval and utilization.",
+            "name": "International Stakeholder Engagement",
+            "definition": "Builds constructive working relationships with foreign counterparts and partner institutions.",
             "levels": {
-              "Emerging": "Organizes records and information systematically.",
-              "Developing": "Maintains updated databases and reference materials.",
-              "Proficient": "Develops information systems and repositories supporting office operations.",
-              "Advanced": "Establishes sustainable knowledge and information management systems."
+              "Emerging": "Performs international stakeholder engagement tasks using established protocols, templates and guidance.",
+              "Developing": "Applies international stakeholder engagement independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex international stakeholder engagement requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex international stakeholder engagement requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Reporting and Knowledge Sharing",
-            "definition": "Translates data and information into useful reports, briefers, recommendations, and reference materials.",
+            "name": "Representation and Liaison",
+            "definition": "Provides appropriate representation and liaison support for the Department and Philippine delegation.",
             "levels": {
-              "Emerging": "Prepares basic reports and summaries.",
-              "Developing": "Produces accurate and timely reports and briefing materials.",
-              "Proficient": "Develops analytical reports and policy-support documents.",
-              "Advanced": "Produces comprehensive decision-support reports and information products."
+              "Emerging": "Performs representation and liaison tasks using established protocols, templates and guidance.",
+              "Developing": "Applies representation and liaison independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex representation and liaison requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex representation and liaison requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Diplomatic Issue Handling",
+            "definition": "Manages sensitive concerns and misunderstandings while protecting institutional relationships.",
+            "levels": {
+              "Emerging": "Performs diplomatic issue handling tasks using established protocols, templates and guidance.",
+              "Developing": "Applies diplomatic issue handling independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex diplomatic issue handling requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex diplomatic issue handling requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Relationship and Partnership Stewardship",
+            "definition": "Maintains trust, continuity and constructive engagement across recurring international relationships.",
+            "levels": {
+              "Emerging": "Performs relationship and partnership stewardship tasks using established protocols, templates and guidance.",
+              "Developing": "Applies relationship and partnership stewardship independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex relationship and partnership stewardship requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex relationship and partnership stewardship requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]
       },
       {
-        "name": "Communication Proficiency",
-        "definition": "The ability to convey clear and convincing ideas, opinions, recommendations, and information through written, verbal, and virtual platforms relative to coordination, negotiation, implementation, monitoring, and reporting.",
+        "name": "International Negotiation and Philippine Position Development",
+        "definition": "The ability to analyze interests, consolidate national and sectoral inputs, develop Philippine positions and support negotiations toward defensible and mutually beneficial outcomes.",
         "dimensions": [
           {
-            "name": "Oral Communication",
-            "definition": "Communicates ideas effectively through verbal interactions.",
+            "name": "Issue and Interest Analysis",
+            "definition": "Identifies interests, concerns, negotiating positions and implications of proposed international measures.",
             "levels": {
-              "Emerging": "Communicates information clearly when requested.",
-              "Developing": "Presents ideas and responds appropriately during discussions.",
-              "Proficient": "Leads meetings and facilitates discussions with stakeholders.",
-              "Advanced": "Represents the office in high-level consultations and negotiations."
+              "Emerging": "Performs issue and interest analysis tasks using established protocols, templates and guidance.",
+              "Developing": "Applies issue and interest analysis independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex issue and interest analysis requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex issue and interest analysis requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Written Communication",
-            "definition": "Produces clear, concise, accurate, and professional written documents.",
+            "name": "Position Development",
+            "definition": "Consolidates technical inputs into coherent Philippine positions, interventions and recommendations.",
             "levels": {
-              "Emerging": "Drafts routine correspondence and communications.",
-              "Developing": "Produces clear written reports and memoranda.",
-              "Proficient": "Prepares technical documents, position papers, and official communications.",
-              "Advanced": "Produces complex, strategic, and high-impact written outputs."
+              "Emerging": "Performs position development tasks using established protocols, templates and guidance.",
+              "Developing": "Applies position development independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex position development requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex position development requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Facilitation and Stakeholder Communication",
-            "definition": "Promotes dialogue and exchange of information among stakeholders.",
+            "name": "Negotiation Strategy",
+            "definition": "Prepares negotiation objectives, options, concessions, safeguards and escalation points.",
             "levels": {
-              "Emerging": "Demonstrates active listening.",
-              "Developing": "Encourages participation and gathers stakeholder inputs.",
-              "Proficient": "Facilitates meetings and consensus building.",
-              "Advanced": "Manages sensitive discussions and stakeholder expectations."
+              "Emerging": "Performs negotiation strategy tasks using established protocols, templates and guidance.",
+              "Developing": "Applies negotiation strategy independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex negotiation strategy requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex negotiation strategy requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Technical Writing and Review",
-            "definition": "Develops and reviews technical documents, reports, and communications.",
+            "name": "Consensus Building",
+            "definition": "Builds alignment among DOTr offices, attached agencies and external stakeholders.",
             "levels": {
-              "Emerging": "Reviews own written work for completeness.",
-              "Developing": "Revises and improves drafts before submission.",
-              "Proficient": "Reviews technical outputs and provides recommendations.",
-              "Advanced": "Ensures quality and consistency of division-wide technical outputs."
+              "Emerging": "Performs consensus building tasks using established protocols, templates and guidance.",
+              "Developing": "Applies consensus building independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex consensus building requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex consensus building requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Negotiation and Issue Resolution",
+            "definition": "Engages counterparts constructively and advances workable solutions to disagreements.",
+            "levels": {
+              "Emerging": "Performs negotiation and issue resolution tasks using established protocols, templates and guidance.",
+              "Developing": "Applies negotiation and issue resolution independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex negotiation and issue resolution requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex negotiation and issue resolution requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Negotiation Ethics and National Interest",
+            "definition": "Protects Philippine interests, confidentiality and authorized negotiating parameters.",
+            "levels": {
+              "Emerging": "Performs negotiation ethics and national interest tasks using established protocols, templates and guidance.",
+              "Developing": "Applies negotiation ethics and national interest independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex negotiation ethics and national interest requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex negotiation ethics and national interest requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]
       },
       {
-        "name": "Presentation Skills",
-        "definition": "The ability to express oneself in a clear, concise, organized, and engaging manner during individual and group situations, briefings, consultations, and presentations.",
+        "name": "International Agreements, Treaty and Commitment Management",
+        "definition": "The ability to support the formulation, review, signing, ratification, implementation and monitoring of international agreements, protocols, Memoranda of Understanding (MOUs), and related commitments.",
         "dimensions": [
           {
-            "name": "Delivery and Audience Engagement",
-            "definition": "Presents information effectively while maintaining audience attention.",
+            "name": "Agreement and Instrument Review",
+            "definition": "Reviews agreements and related instruments for completeness, consistency, policy implications and coordination needs.",
             "levels": {
-              "Emerging": "Delivers information clearly in small-group settings.",
-              "Developing": "Utilizes appropriate presentation techniques.",
-              "Proficient": "Engages audiences confidently and effectively.",
-              "Advanced": "Delivers high-impact presentations to diverse audiences."
+              "Emerging": "Performs agreement and instrument review tasks using established protocols, templates and guidance.",
+              "Developing": "Applies agreement and instrument review independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex agreement and instrument review requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex agreement and instrument review requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Facilitation and Briefing",
-            "definition": "Conducts presentations, briefings, and information sessions effectively.",
+            "name": "Treaty and Ratification Process",
+            "definition": "Coordinates procedural requirements for signing, ratification, accession or other formalization processes.",
             "levels": {
-              "Emerging": "Participates in briefings and presentations.",
-              "Developing": "Conducts routine presentations using supporting materials.",
-              "Proficient": "Leads briefings and facilitates discussions.",
-              "Advanced": "Oversees and manages high-level briefings and presentations."
+              "Emerging": "Performs treaty and ratification process tasks using established protocols, templates and guidance.",
+              "Developing": "Applies treaty and ratification process independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex treaty and ratification process requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex treaty and ratification process requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Stakeholder Presentation",
-            "definition": "Communicates organizational positions and information to stakeholders.",
+            "name": "Commitment Tracking",
+            "definition": "Maintains current information on obligations, milestones, responsible offices and status.",
             "levels": {
-              "Emerging": "Presents information to peers and colleagues.",
-              "Developing": "Communicates information to internal stakeholders.",
-              "Proficient": "Presents organizational positions to partner agencies.",
-              "Advanced": "Represents the organization before senior stakeholders and external partners."
+              "Emerging": "Performs commitment tracking tasks using established protocols, templates and guidance.",
+              "Developing": "Applies commitment tracking independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex commitment tracking requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex commitment tracking requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Implementation Coordination",
+            "definition": "Coordinates actions needed to operationalize approved commitments across offices and agencies.",
+            "levels": {
+              "Emerging": "Performs implementation coordination tasks using established protocols, templates and guidance.",
+              "Developing": "Applies implementation coordination independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex implementation coordination requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex implementation coordination requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Compliance and Risk Identification",
+            "definition": "Identifies implementation gaps, conflicting obligations, risks and matters requiring attention.",
+            "levels": {
+              "Emerging": "Performs compliance and risk identification tasks using established protocols, templates and guidance.",
+              "Developing": "Applies compliance and risk identification independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex compliance and risk identification requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex compliance and risk identification requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Agreement Lifecycle Governance",
+            "definition": "Strengthens systems for monitoring, renewal, amendment, closure and institutional retention of instruments.",
+            "levels": {
+              "Emerging": "Performs agreement lifecycle governance tasks using established protocols, templates and guidance.",
+              "Developing": "Applies agreement lifecycle governance independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex agreement lifecycle governance requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex agreement lifecycle governance requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]
       },
       {
-        "name": "Transaction Processing",
-        "definition": "The ability to effectively manage, monitor, document, process, and track work transactions, assignments, communications, and administrative actions in accordance with established procedures, quality standards, and timelines. (Accounting- and finance-related indicators removed.)",
+        "name": "International Cooperation Policy and Strategic Analysis",
+        "definition": "The ability to analyze international transport issues, policies and trends and translate them into strategic advice and policy directions.",
         "dimensions": [
           {
-            "name": "Work Processing and Compliance",
-            "definition": "Executes assigned transactions and actions in accordance with procedures and timelines.",
+            "name": "International Policy Research",
+            "definition": "Conducts structured research on international transport policies, rules, commitments and emerging issues.",
             "levels": {
-              "Emerging": "Completes assigned transactions according to instructions.",
-              "Developing": "Follows procedures and timelines consistently.",
-              "Proficient": "Manages multiple transactions while ensuring compliance.",
-              "Advanced": "Establishes standards and monitors compliance of work processes."
+              "Emerging": "Performs international policy research tasks using established protocols, templates and guidance.",
+              "Developing": "Applies international policy research independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex international policy research requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex international policy research requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Quality Control and Monitoring",
-            "definition": "Reviews outputs to ensure quality, completeness, and compliance.",
+            "name": "Environmental and Trend Scanning",
+            "definition": "Monitors geopolitical, economic, technological and sector developments affecting cooperation.",
             "levels": {
-              "Emerging": "Reviews work outputs before submission.",
-              "Developing": "Identifies issues and follows up corrective actions.",
-              "Proficient": "Monitors quality and completion of transactions.",
-              "Advanced": "Implements quality assurance measures and recommends improvements."
+              "Emerging": "Performs environmental and trend scanning tasks using established protocols, templates and guidance.",
+              "Developing": "Applies environmental and trend scanning independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex environmental and trend scanning requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex environmental and trend scanning requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Systems and Process Improvement",
-            "definition": "Identifies opportunities for improvements and supports implementation of enhancements.",
+            "name": "Policy Impact Analysis",
+            "definition": "Assesses implications of international developments for Philippine transport policies and programs.",
             "levels": {
-              "Emerging": "Identifies process bottlenecks.",
-              "Developing": "Suggests improvements to work processes.",
-              "Proficient": "Participates in process enhancement initiatives.",
-              "Advanced": "Leads workflow and systems improvement initiatives."
+              "Emerging": "Performs policy impact analysis tasks using established protocols, templates and guidance.",
+              "Developing": "Applies policy impact analysis independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex policy impact analysis requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex policy impact analysis requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Team Support and Service Orientation",
-            "definition": "Supports colleagues and contributes to efficient workflow performance.",
+            "name": "Strategic Options Development",
+            "definition": "Develops evidence-based options, recommendations and policy advice.",
             "levels": {
-              "Emerging": "Assists colleagues when needed.",
-              "Developing": "Shares knowledge and supports team activities.",
-              "Proficient": "Coaches colleagues in handling complex transactions.",
-              "Advanced": "Promotes a culture of continuous improvement and service excellence."
+              "Emerging": "Performs strategic options development tasks using established protocols, templates and guidance.",
+              "Developing": "Applies strategic options development independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex strategic options development requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex strategic options development requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Policy Alignment and Harmonization",
+            "definition": "Reconciles international commitments with national laws, plans, sector policies and priorities.",
+            "levels": {
+              "Emerging": "Performs policy alignment and harmonization tasks using established protocols, templates and guidance.",
+              "Developing": "Applies policy alignment and harmonization independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex policy alignment and harmonization requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex policy alignment and harmonization requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Strategic Foresight and Advisory",
+            "definition": "Anticipates emerging issues and provides forward-looking advice on international positioning.",
+            "levels": {
+              "Emerging": "Performs strategic foresight and advisory tasks using established protocols, templates and guidance.",
+              "Developing": "Applies strategic foresight and advisory independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex strategic foresight and advisory requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex strategic foresight and advisory requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]
       },
       {
-        "name": "Time Management and Task Prioritization",
-        "definition": "The ability to organize, prioritize, and accomplish multiple assignments, commitments, and deliverables within prescribed timelines while maintaining quality, responsiveness, and operational efficiency.",
+        "name": "International Development Partnerships and External Relations",
+        "definition": "The ability to develop and manage relationships with international development partners, organizations and groups to advance transport cooperation and technical assistance.",
         "dimensions": [
           {
-            "name": "Work Planning",
-            "definition": "Organizes work and develops action plans to accomplish objectives.",
+            "name": "Partner Mapping and Engagement",
+            "definition": "Identifies relevant development partners, institutions, networks and cooperation opportunities.",
             "levels": {
-              "Emerging": "Identifies task requirements and schedules activities.",
-              "Developing": "Plans and prioritizes assignments according to deadlines.",
-              "Proficient": "Coordinates schedules and resources to achieve targets.",
-              "Advanced": "Develops work plans for teams and major activities."
+              "Emerging": "Performs partner mapping and engagement tasks using established protocols, templates and guidance.",
+              "Developing": "Applies partner mapping and engagement independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex partner mapping and engagement requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex partner mapping and engagement requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Deadline Management",
-            "definition": "Monitors progress and ensures timely completion of deliverables.",
+            "name": "Partnership Development",
+            "definition": "Facilitates relationship-building and collaborative initiatives aligned with Department priorities.",
             "levels": {
-              "Emerging": "Completes tasks within agreed timelines.",
-              "Developing": "Monitors progress and adjusts schedules when necessary.",
-              "Proficient": "Consistently delivers outputs ahead of or within deadlines.",
-              "Advanced": "Anticipates risks and proactively manages competing deadlines."
+              "Emerging": "Performs partnership development tasks using established protocols, templates and guidance.",
+              "Developing": "Applies partnership development independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex partnership development requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex partnership development requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Workload Management",
-            "definition": "Manages multiple assignments and competing priorities effectively.",
+            "name": "Technical Assistance Coordination",
+            "definition": "Coordinates requests, offers, missions, technical assistance and expert engagements.",
             "levels": {
-              "Emerging": "Handles routine assignments efficiently.",
-              "Developing": "Balances several tasks simultaneously.",
-              "Proficient": "Manages complex workloads without compromising quality.",
-              "Advanced": "Optimizes team workload and resource allocation to achieve objectives."
+              "Emerging": "Performs technical assistance coordination tasks using established protocols, templates and guidance.",
+              "Developing": "Applies technical assistance coordination independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex technical assistance coordination requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex technical assistance coordination requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Partnership Proposal Development",
+            "definition": "Supports concept notes, cooperation proposals, project ideas and partnership arrangements.",
+            "levels": {
+              "Emerging": "Performs partnership proposal development tasks using established protocols, templates and guidance.",
+              "Developing": "Applies partnership proposal development independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex partnership proposal development requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex partnership proposal development requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Partnership Monitoring",
+            "definition": "Tracks commitments, deliverables, counterpart actions and emerging concerns.",
+            "levels": {
+              "Emerging": "Performs partnership monitoring tasks using established protocols, templates and guidance.",
+              "Developing": "Applies partnership monitoring independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex partnership monitoring requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex partnership monitoring requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Partnership Sustainability",
+            "definition": "Evaluates partnership value and recommends improvements or new cooperation areas.",
+            "levels": {
+              "Emerging": "Performs partnership sustainability tasks using established protocols, templates and guidance.",
+              "Developing": "Applies partnership sustainability independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex partnership sustainability requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex partnership sustainability requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]
       },
       {
-        "name": "Data Security and Privacy Management",
-        "definition": "The ability to safeguard confidential, sensitive, and official information through proper handling, storage, access control, dissemination, and compliance with established information security and privacy standards.",
+        "name": "International Commitments Integration and Implementation Planning",
+        "definition": "The ability to translate international commitments into coordinated plans, actions, resources and implementation mechanisms connected to domestic transport priorities.",
         "dimensions": [
           {
-            "name": "Information Protection",
-            "definition": "Ensures the confidentiality, integrity, and protection of official information and records.",
+            "name": "Commitment-to-Plan Mapping",
+            "definition": "Links international commitments to Department plans, programs, projects and policies.",
             "levels": {
-              "Emerging": "Identifies confidential and sensitive documents.",
-              "Developing": "Applies prescribed procedures in handling official information.",
-              "Proficient": "Ensures proper protection and storage of sensitive information and documents.",
-              "Advanced": "Establishes and promotes practices that strengthen information security and confidentiality."
+              "Emerging": "Performs commitment-to-plan mapping tasks using established protocols, templates and guidance.",
+              "Developing": "Applies commitment-to-plan mapping independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex commitment-to-plan mapping requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex commitment-to-plan mapping requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Information Access and Control",
-            "definition": "Regulates and manages access to information according to established authority and protocols.",
+            "name": "Action Planning",
+            "definition": "Converts commitments into activities, responsibilities, milestones and expected outputs.",
             "levels": {
-              "Emerging": "Shares information only with authorized personnel.",
-              "Developing": "Applies appropriate controls when releasing or transmitting information.",
-              "Proficient": "Manages access to sensitive records and information repositories.",
-              "Advanced": "Develops measures that strengthen information access controls and information governance practices."
+              "Emerging": "Performs action planning tasks using established protocols, templates and guidance.",
+              "Developing": "Applies action planning independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex action planning requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex action planning requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Compliance and Accountability",
-            "definition": "Adheres to data privacy, records management, and confidentiality requirements while promoting accountability in information handling.",
+            "name": "Cross-Office Integration",
+            "definition": "Integrates sectoral, attached-agency and external-partner inputs into coordinated implementation.",
             "levels": {
-              "Emerging": "Complies with office rules on confidentiality and records handling.",
-              "Developing": "Demonstrates accountability in handling official information.",
-              "Proficient": "Monitors compliance with information security and privacy requirements.",
-              "Advanced": "Promotes a culture of confidentiality, accountability, and responsible information management."
+              "Emerging": "Performs cross-office integration tasks using established protocols, templates and guidance.",
+              "Developing": "Applies cross-office integration independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex cross-office integration requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex cross-office integration requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Resource and Schedule Planning",
+            "definition": "Identifies human, financial, technical and time requirements.",
+            "levels": {
+              "Emerging": "Performs resource and schedule planning tasks using established protocols, templates and guidance.",
+              "Developing": "Applies resource and schedule planning independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex resource and schedule planning requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex resource and schedule planning requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Risk and Contingency Planning",
+            "definition": "Identifies risks, dependencies and contingency actions affecting implementation.",
+            "levels": {
+              "Emerging": "Performs risk and contingency planning tasks using established protocols, templates and guidance.",
+              "Developing": "Applies risk and contingency planning independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex risk and contingency planning requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex risk and contingency planning requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Implementation Review and Adjustment",
+            "definition": "Assesses progress and recommends adjustments to keep commitments achievable and aligned.",
+            "levels": {
+              "Emerging": "Performs implementation review and adjustment tasks using established protocols, templates and guidance.",
+              "Developing": "Applies implementation review and adjustment independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex implementation review and adjustment requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex implementation review and adjustment requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]
       },
       {
-        "name": "Project and Workflow Management",
-        "definition": "The ability to plan, coordinate, monitor, and manage activities, assignments, resources, and deliverables to achieve organizational objectives within established quality standards and timelines.",
+        "name": "International Communications and Diplomatic Writing",
+        "definition": "The ability to prepare and review clear, accurate and appropriately toned diplomatic, technical and official communications supporting international cooperation.",
         "dimensions": [
           {
-            "name": "Planning and Coordination",
-            "definition": "Organizes activities, resources, and stakeholders to achieve project objectives.",
+            "name": "Diplomatic Correspondence",
+            "definition": "Prepares official correspondence using appropriate diplomatic language, protocol and formats.",
             "levels": {
-              "Emerging": "Assists in organizing activities and assignments.",
-              "Developing": "Coordinates schedules, requirements, and resources.",
-              "Proficient": "Plans and manages multiple activities and deliverables simultaneously.",
-              "Advanced": "Develops and oversees project implementation strategies across work teams."
+              "Emerging": "Performs diplomatic correspondence tasks using established protocols, templates and guidance.",
+              "Developing": "Applies diplomatic correspondence independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex diplomatic correspondence requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex diplomatic correspondence requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Workflow Monitoring",
-            "definition": "Tracks progress, deliverables, and action items to ensure timely completion.",
+            "name": "Position and Policy Writing",
+            "definition": "Drafts position papers, issue briefs, interventions, memoranda and recommendations.",
             "levels": {
-              "Emerging": "Monitors status of assigned activities.",
-              "Developing": "Tracks deliverables against timelines and follows up pending actions.",
-              "Proficient": "Ensures completion of activities within established schedules and standards.",
-              "Advanced": "Establishes systems and controls for monitoring organizational commitments and deliverables."
+              "Emerging": "Performs position and policy writing tasks using established protocols, templates and guidance.",
+              "Developing": "Applies position and policy writing independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex position and policy writing requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex position and policy writing requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Results Management",
-            "definition": "Identifies issues, develops solutions, and ensures achievement of expected outcomes.",
+            "name": "Technical and Meeting Documentation",
+            "definition": "Produces accurate minutes, reports, briefing notes and engagement records.",
             "levels": {
-              "Emerging": "Identifies issues affecting assigned tasks.",
-              "Developing": "Recommends solutions to address workflow concerns.",
-              "Proficient": "Resolves implementation issues and ensures project objectives are achieved.",
-              "Advanced": "Leads improvements and strategic initiatives to enhance organizational performance."
+              "Emerging": "Performs technical and meeting documentation tasks using established protocols, templates and guidance.",
+              "Developing": "Applies technical and meeting documentation independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex technical and meeting documentation requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex technical and meeting documentation requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Audience and Tone Adaptation",
+            "definition": "Adjusts language, tone and detail for Heads of Delegation (HODs), officials, foreign counterparts and technical audiences.",
+            "levels": {
+              "Emerging": "Performs audience and tone adaptation tasks using established protocols, templates and guidance.",
+              "Developing": "Applies audience and tone adaptation independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex audience and tone adaptation requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex audience and tone adaptation requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Editing and Quality Assurance",
+            "definition": "Reviews documents for accuracy, coherence, consistency and completeness.",
+            "levels": {
+              "Emerging": "Performs editing and quality assurance tasks using established protocols, templates and guidance.",
+              "Developing": "Applies editing and quality assurance independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex editing and quality assurance requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex editing and quality assurance requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Strategic Communication",
+            "definition": "Uses communication strategically to secure understanding, manage sensitivities and support commitments.",
+            "levels": {
+              "Emerging": "Performs strategic communication tasks using established protocols, templates and guidance.",
+              "Developing": "Applies strategic communication independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex strategic communication requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex strategic communication requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]
       },
       {
-        "name": "Stakeholder Coordination and Engagement",
-        "definition": "The ability to establish and maintain productive working relationships with internal and external stakeholders, facilitate collaboration, gather inputs, build consensus, and promote shared understanding toward organizational objectives.",
+        "name": "International Meetings, Delegations and Events Management",
+        "definition": "The ability to plan, coordinate, host and evaluate international meetings and delegation activities while observing diplomatic, logistical and protocol requirements.",
         "dimensions": [
           {
-            "name": "Stakeholder Relations",
-            "definition": "Develops and sustains collaborative and professional relationships with stakeholders.",
+            "name": "Meeting and Delegation Planning",
+            "definition": "Develops requirements, schedules, checklists and coordination plans.",
             "levels": {
-              "Emerging": "Establishes professional working relationships with stakeholders.",
-              "Developing": "Maintains productive communication and coordination with stakeholders.",
-              "Proficient": "Builds trust and partnerships to support organizational objectives.",
-              "Advanced": "Sustains strategic stakeholder networks and partnerships."
+              "Emerging": "Performs meeting and delegation planning tasks using established protocols, templates and guidance.",
+              "Developing": "Applies meeting and delegation planning independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex meeting and delegation planning requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex meeting and delegation planning requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Coordination and Consultation",
-            "definition": "Facilitates communication, consultations, and collaborative discussions among stakeholders.",
+            "name": "Protocol and Participant Management",
+            "definition": "Coordinates participant, protocol, accommodation, transportation and registration requirements.",
             "levels": {
-              "Emerging": "Participates in stakeholder meetings and consultations.",
-              "Developing": "Consolidates comments, inputs, and recommendations from stakeholders.",
-              "Proficient": "Facilitates consultations and coordinates inter-agency activities.",
-              "Advanced": "Leads multi-stakeholder engagements involving complex concerns and interests."
+              "Emerging": "Performs protocol and participant management tasks using established protocols, templates and guidance.",
+              "Developing": "Applies protocol and participant management independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex protocol and participant management requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex protocol and participant management requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Negotiation and Consensus Building",
-            "definition": "Works with stakeholders to resolve issues, manage expectations, and build agreement.",
+            "name": "Venue and Supplier Coordination",
+            "definition": "Coordinates venues, service providers, technical requirements and logistical resources.",
             "levels": {
-              "Emerging": "Addresses stakeholder concerns professionally.",
-              "Developing": "Identifies areas of agreement and facilitates resolution of issues.",
-              "Proficient": "Builds consensus among stakeholders with varying interests.",
-              "Advanced": "Leads negotiations and secures agreements supporting organizational goals."
+              "Emerging": "Performs venue and supplier coordination tasks using established protocols, templates and guidance.",
+              "Developing": "Applies venue and supplier coordination independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex venue and supplier coordination requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex venue and supplier coordination requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Program and Documentation Management",
+            "definition": "Ensures agendas, programs, briefs, records and event documents are complete and timely.",
+            "levels": {
+              "Emerging": "Performs program and documentation management tasks using established protocols, templates and guidance.",
+              "Developing": "Applies program and documentation management independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex program and documentation management requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex program and documentation management requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Event Execution and Issue Management",
+            "definition": "Monitors delivery, responds to emerging issues and protects quality and protocol.",
+            "levels": {
+              "Emerging": "Performs event execution and issue management tasks using established protocols, templates and guidance.",
+              "Developing": "Applies event execution and issue management independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex event execution and issue management requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex event execution and issue management requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Post-Event Evaluation",
+            "definition": "Captures lessons learned, evaluates results and recommends improvements.",
+            "levels": {
+              "Emerging": "Performs post-event evaluation tasks using established protocols, templates and guidance.",
+              "Developing": "Applies post-event evaluation independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex post-event evaluation requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex post-event evaluation requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]
       },
       {
-        "name": "Documentation and Knowledge Management",
-        "definition": "The ability to develop, organize, maintain, retrieve, preserve, and share institutional knowledge, records, technical documents, reports, agreements, and reference materials to support continuity, accountability, and informed decision-making.",
+        "name": "International Representation, Presentation and Stakeholder Facilitation",
+        "definition": "The ability to represent the Department effectively and present complex transport and cooperation matters clearly to domestic and international audiences.",
         "dimensions": [
           {
-            "name": "Records and Document Management",
-            "definition": "Maintains organized, accurate, and accessible records and official documents.",
+            "name": "Briefing and Presentation Design",
+            "definition": "Develops concise, accurate and audience-appropriate briefing materials.",
             "levels": {
-              "Emerging": "Organizes and files records according to established procedures.",
-              "Developing": "Maintains accurate and retrievable records and document repositories.",
-              "Proficient": "Ensures completeness, accessibility, and integrity of office records.",
-              "Advanced": "Establishes document management practices that support organizational efficiency and accountability."
+              "Emerging": "Performs briefing and presentation design tasks using established protocols, templates and guidance.",
+              "Developing": "Applies briefing and presentation design independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex briefing and presentation design requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex briefing and presentation design requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Technical Documentation",
-            "definition": "Develops technical documents, reports, briefing materials, and official communications.",
+            "name": "Executive Briefing",
+            "definition": "Presents options, issues, recommendations and key messages to HODs and senior officials.",
             "levels": {
-              "Emerging": "Prepares routine reports and documentation.",
-              "Developing": "Drafts technical documents, memoranda, and reference materials.",
-              "Proficient": "Produces complex technical documents supporting decision-making and stakeholder engagement.",
-              "Advanced": "Oversees the quality, consistency, and accuracy of major organizational documents and knowledge products."
+              "Emerging": "Performs executive briefing tasks using established protocols, templates and guidance.",
+              "Developing": "Applies executive briefing independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex executive briefing requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex executive briefing requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           },
           {
-            "name": "Knowledge Preservation and Sharing",
-            "definition": "Captures, maintains, and disseminates institutional knowledge to support operational continuity.",
+            "name": "International Audience Engagement",
+            "definition": "Communicates effectively with foreign counterparts and international organizations.",
             "levels": {
-              "Emerging": "Maintains records and reference materials for future use.",
-              "Developing": "Documents lessons learned and relevant information from activities.",
-              "Proficient": "Shares institutional knowledge and maintains knowledge repositories.",
-              "Advanced": "Develops systems that ensure continuity, knowledge transfer, and institutional memory."
+              "Emerging": "Performs international audience engagement tasks using established protocols, templates and guidance.",
+              "Developing": "Applies international audience engagement independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex international audience engagement requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex international audience engagement requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Facilitation and Moderation",
+            "definition": "Leads discussions, delegation briefings, workshops and meetings toward clear outcomes.",
+            "levels": {
+              "Emerging": "Performs facilitation and moderation tasks using established protocols, templates and guidance.",
+              "Developing": "Applies facilitation and moderation independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex facilitation and moderation requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex facilitation and moderation requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Question Handling and Issue Clarification",
+            "definition": "Responds accurately, clarifies issues and identifies matters requiring further advice.",
+            "levels": {
+              "Emerging": "Performs question handling and issue clarification tasks using established protocols, templates and guidance.",
+              "Developing": "Applies question handling and issue clarification independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex question handling and issue clarification requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex question handling and issue clarification requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Influence and Consensus Support",
+            "definition": "Uses presentation and facilitation to build understanding and support decisions.",
+            "levels": {
+              "Emerging": "Performs influence and consensus support tasks using established protocols, templates and guidance.",
+              "Developing": "Applies influence and consensus support independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex influence and consensus support requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex influence and consensus support requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          }
+        ]
+      },
+      {
+        "name": "International Commitments Monitoring, Reporting and Knowledge Management",
+        "definition": "The ability to monitor international commitments and engagements, consolidate evidence and maintain institutional knowledge for reporting, continuity and decision support.",
+        "dimensions": [
+          {
+            "name": "Commitment and Engagement Tracking",
+            "definition": "Maintains current records of meetings, commitments, actions, deadlines and responsible parties.",
+            "levels": {
+              "Emerging": "Performs commitment and engagement tracking tasks using established protocols, templates and guidance.",
+              "Developing": "Applies commitment and engagement tracking independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex commitment and engagement tracking requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex commitment and engagement tracking requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Progress Monitoring",
+            "definition": "Collects and validates status information and identifies delays, gaps and unresolved actions.",
+            "levels": {
+              "Emerging": "Performs progress monitoring tasks using established protocols, templates and guidance.",
+              "Developing": "Applies progress monitoring independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex progress monitoring requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex progress monitoring requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Reporting and Management Briefs",
+            "definition": "Prepares accurate progress reports, accomplishment summaries and management briefs.",
+            "levels": {
+              "Emerging": "Performs reporting and management briefs tasks using established protocols, templates and guidance.",
+              "Developing": "Applies reporting and management briefs independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex reporting and management briefs requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex reporting and management briefs requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Information and Records Management",
+            "definition": "Organizes cooperation records, references and supporting documents for reliable retrieval.",
+            "levels": {
+              "Emerging": "Performs information and records management tasks using established protocols, templates and guidance.",
+              "Developing": "Applies information and records management independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex information and records management requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex information and records management requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Knowledge Capture and Institutional Memory",
+            "definition": "Documents lessons, decisions, precedents and counterpart information for future engagements.",
+            "levels": {
+              "Emerging": "Performs knowledge capture and institutional memory tasks using established protocols, templates and guidance.",
+              "Developing": "Applies knowledge capture and institutional memory independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex knowledge capture and institutional memory requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex knowledge capture and institutional memory requirements, advises decision-makers, mentors others and drives sustained improvement."
+            }
+          },
+          {
+            "name": "Performance and Trend Analysis",
+            "definition": "Analyzes recurring issues and commitment performance to support management decisions and improvement.",
+            "levels": {
+              "Emerging": "Performs performance and trend analysis tasks using established protocols, templates and guidance.",
+              "Developing": "Applies performance and trend analysis independently in routine and moderately complex assignments; coordinates inputs and escalates matters beyond authority.",
+              "Proficient": "Handles complex performance and trend analysis requirements independently, integrates inputs, exercises judgment and resolves issues within authority.",
+              "Advanced": "Provides direction on complex performance and trend analysis requirements, advises decision-makers, mentors others and drives sustained improvement."
             }
           }
         ]

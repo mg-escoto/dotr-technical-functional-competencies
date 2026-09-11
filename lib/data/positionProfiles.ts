@@ -1693,7 +1693,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'listed once as a role.',
     positions: [
       {
-        title: 'Chief TDO',
+        title: 'Chief Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Air Transport Project Design and Structuring', level: 'Advanced' },
@@ -1704,7 +1704,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sup TDO',
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Air Transport Project Design and Structuring', level: 'Advanced' },
@@ -1715,7 +1715,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr TDO',
+        title: 'Senior Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Air Transport Project Design and Structuring', level: 'Proficient' },
@@ -1724,7 +1724,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'TDO II',
+        title: 'Transportation Development Officer II',
         section: null,
         competencies: [
           { name: 'Air Transport Project Design and Structuring', level: 'Developing' },
@@ -1754,7 +1754,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'listed once as a role.',
     positions: [
       {
-        title: 'Chief TDO',
+        title: 'Chief Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Maritime Transport Project Design and Structuring', level: 'Advanced' },
@@ -1765,7 +1765,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sup TDO',
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Maritime Transport Project Design and Structuring', level: 'Advanced' },
@@ -1776,7 +1776,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr CDO',
+        title: 'Senior Communications Development Officer',
         section: null,
         competencies: [
           { name: 'Project Turnover and Technical Advisory Support', level: 'Proficient' },
@@ -1784,7 +1784,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr TDO',
+        title: 'Senior Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Maritime Transport Project Design and Structuring', level: 'Proficient' },
@@ -1792,7 +1792,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'CDO II',
+        title: 'Communications Development Officer II',
         section: null,
         competencies: [
           { name: 'Project Turnover and Technical Advisory Support', level: 'Developing' },
@@ -1822,7 +1822,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'listed once as a role.',
     positions: [
       {
-        title: 'Chief TDO',
+        title: 'Chief Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Rail Transport Project Design and Structuring', level: 'Advanced' },
@@ -1833,7 +1833,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sup TDO',
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Rail Transport Project Design and Structuring', level: 'Advanced' },
@@ -1844,7 +1844,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr TDO',
+        title: 'Senior Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Rail Transport Project Design and Structuring', level: 'Proficient' },
@@ -1853,7 +1853,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'TDO II',
+        title: 'Transportation Development Officer II',
         section: null,
         competencies: [
           { name: 'Rail Transport Project Design and Structuring', level: 'Developing' },
@@ -1884,7 +1884,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'listed once as a role.',
     positions: [
       {
-        title: 'Chief TDO',
+        title: 'Chief Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Road Transport Project Design and Structuring', level: 'Advanced' },
@@ -1895,7 +1895,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sup TDO',
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Road Transport Project Design and Structuring', level: 'Advanced' },
@@ -1906,7 +1906,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr TDO',
+        title: 'Senior Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Road Transport Project Design and Structuring', level: 'Proficient' },
@@ -1915,7 +1915,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'TDO II',
+        title: 'Transportation Development Officer II',
         section: null,
         competencies: [
           { name: 'Road Transport Project Design and Structuring', level: 'Developing' },
@@ -1936,7 +1936,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'same title is held by more than one person, it is listed once as a role.',
     positions: [
       {
-        title: 'Sup TDO',
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Transport Policy Agenda Development', level: 'Advanced' },
@@ -1947,7 +1947,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr CDO',
+        title: 'Senior Communications Development Officer',
         section: null,
         competencies: [
           { name: 'Technical Advisory and Consulting Services', level: 'Proficient' },
@@ -1955,7 +1955,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr TDO',
+        title: 'Senior Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Policy and Standards Formulation', level: 'Proficient' },
@@ -1964,7 +1964,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'TDO II',
+        title: 'Transportation Development Officer II',
         section: null,
         competencies: [
           { name: 'Policy and Standards Formulation', level: 'Developing' },
@@ -2000,7 +2000,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'same title is held by more than one person, it is listed once as a role.',
     positions: [
       {
-        title: 'Sup TDO',
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Transport Plan Development and Administration', level: 'Advanced' },
@@ -2011,7 +2011,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr TDO',
+        title: 'Senior Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Transport Plan Development and Administration', level: 'Proficient' },
@@ -2020,7 +2020,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr CDO',
+        title: 'Senior Communications Development Officer',
         section: null,
         competencies: [
           { name: 'Network Planning Technical Advisory Services', level: 'Proficient' },
@@ -2028,7 +2028,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'TDO II',
+        title: 'Transportation Development Officer II',
         section: null,
         competencies: [
           { name: 'Transport Plan Development and Administration', level: 'Developing' },
@@ -2036,7 +2036,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'CDO II',
+        title: 'Communications Development Officer II',
         section: null,
         competencies: [
           { name: 'Transport Plan Operationalization', level: 'Developing' },
@@ -2065,7 +2065,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'same title is held by more than one person, it is listed once as a role.',
     positions: [
       {
-        title: 'Chief TDO',
+        title: 'Chief Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Investment Program Preparation and Management', level: 'Advanced' },
@@ -2076,7 +2076,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr TDO',
+        title: 'Senior Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Investment Program Preparation and Management', level: 'Proficient' },
@@ -2085,7 +2085,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr CDO',
+        title: 'Senior Communications Development Officer',
         section: null,
         competencies: [
           { name: 'Investment Program Coordination and Liaison', level: 'Proficient' },
@@ -2093,7 +2093,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'CDO II',
+        title: 'Communications Development Officer II',
         section: null,
         competencies: [
           { name: 'Investment Program Coordination and Liaison', level: 'Developing' },
@@ -2122,7 +2122,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'same title is held by more than one person, it is listed once as a role.',
     positions: [
       {
-        title: 'Sup TDO',
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Transport Statistics Management and Publication', level: 'Advanced' },
@@ -2134,7 +2134,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr CDO',
+        title: 'Senior Communications Development Officer',
         section: null,
         competencies: [
           { name: 'Transport Data Collection and Coordination', level: 'Proficient' },
@@ -2178,7 +2178,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'slots, just currently unfilled. Names are excluded per standing convention.',
     positions: [
       {
-        title: 'Sup TDO',
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Project Document Collection and Review', level: 'Advanced' },
@@ -2189,7 +2189,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr TDO',
+        title: 'Senior Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'On-Site Inspection and Contractor Performance Evaluation', level: 'Proficient' },
@@ -2198,7 +2198,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Sr CDO',
+        title: 'Senior Communications Development Officer',
         section: null,
         competencies: [
           { name: 'Inspection Coordination and Technical Assistance', level: 'Proficient' },
@@ -2219,7 +2219,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
       'slots, just currently unfilled. Names are excluded per standing convention.',
     positions: [
       {
-        title: 'Sr CDO',
+        title: 'Senior Communications Development Officer',
         section: null,
         competencies: [
           { name: 'Project Implementation Plan and Target Management', level: 'Advanced' },
@@ -2230,7 +2230,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'CDO II',
+        title: 'Communications Development Officer II',
         section: null,
         competencies: [
           { name: 'Project Monitoring and Progress Analysis', level: 'Developing' },
@@ -2238,7 +2238,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'TDO II',
+        title: 'Transportation Development Officer II',
         section: null,
         competencies: [
           { name: 'Project Implementation Plan and Target Management', level: 'Developing' },
