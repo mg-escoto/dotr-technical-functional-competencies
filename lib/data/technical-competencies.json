@@ -2054,15 +2054,704 @@
   {
     "code": "CRD",
     "name": "Central Records Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Administrative Service",
     "officeOrder": 3,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "Central Records Division.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Records and Information Management",
+        "definition": "The ability to systematically create, receive, classify, organize, maintain, secure, retrieve, and dispose of records and information throughout their lifecycle in accordance with applicable laws, policies, records management standards, and organizational requirements.",
+        "dimensions": [
+          {
+            "name": "Records Classification",
+            "definition": "The ability to categorize records according to approved classification systems, filing structures, and records management standards.",
+            "levels": {
+              "Emerging": "Identifies basic record types and filing categories.",
+              "Developing": "Classifies records using prescribed filing systems with minimal supervision.",
+              "Proficient": "Consistently applies classification standards and resolves routine filing issues.",
+              "Advanced": "Develops and improves records classification systems for organizational use."
+            }
+          },
+          {
+            "name": "Records Organization",
+            "definition": "The ability to systematically arrange and maintain records to ensure accessibility, orderliness, and operational efficiency.",
+            "levels": {
+              "Emerging": "Maintains records in designated locations.",
+              "Developing": "Organizes records according to approved structures and retention requirements.",
+              "Proficient": "Ensures systematic organization enabling efficient retrieval and tracking.",
+              "Advanced": "Designs office-wide records organization frameworks and standards."
+            }
+          },
+          {
+            "name": "Records Retrieval",
+            "definition": "The ability to locate, access, and provide requested records accurately and within prescribed timelines.",
+            "levels": {
+              "Emerging": "Retrieves records upon request with guidance.",
+              "Developing": "Locates and retrieves records within established timelines.",
+              "Proficient": "Maintains efficient retrieval systems and monitors compliance.",
+              "Advanced": "Establishes strategies that improve enterprise-wide records accessibility."
+            }
+          },
+          {
+            "name": "Records Security",
+            "definition": "The ability to safeguard records and information against unauthorized access, alteration, loss, or disclosure.",
+            "levels": {
+              "Emerging": "Observes basic confidentiality requirements.",
+              "Developing": "Applies prescribed access controls and handling procedures.",
+              "Proficient": "Ensures records are protected from unauthorized access or alteration.",
+              "Advanced": "Develops security protocols and risk mitigation measures for records management."
+            }
+          },
+          {
+            "name": "Records Lifecycle Management",
+            "definition": "The ability to manage records from creation and receipt through maintenance, use, storage, and final disposition.",
+            "levels": {
+              "Emerging": "Recognizes retention and disposition requirements.",
+              "Developing": "Applies records retention schedules correctly.",
+              "Proficient": "Manages the complete records lifecycle from creation to disposition.",
+              "Advanced": "Leads development and enhancement of records lifecycle programs."
+            }
+          },
+          {
+            "name": "Regulatory Compliance",
+            "definition": "The ability to apply relevant laws, policies, procedures, and standards governing records management.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of records management requirements.",
+              "Developing": "Applies laws, policies, and procedures in daily work.",
+              "Proficient": "Monitors compliance and resolves issues related to records management.",
+              "Advanced": "Provides expert guidance and recommends policy enhancements."
+            }
+          },
+          {
+            "name": "Information Accuracy",
+            "definition": "The ability to maintain complete, reliable, and accurate records and information throughout their lifecycle.",
+            "levels": {
+              "Emerging": "Maintains accuracy of records and related information.",
+              "Developing": "Validates information before filing or dissemination.",
+              "Proficient": "Ensures completeness and integrity of records systems.",
+              "Advanced": "Establishes quality controls ensuring organizational information integrity."
+            }
+          },
+          {
+            "name": "Records Management Reporting",
+            "definition": "The ability to prepare, maintain, and analyze reports, inventories, and records management information for decision-making and compliance purposes.",
+            "levels": {
+              "Emerging": "Assists in preparing records-related reports.",
+              "Developing": "Prepares routine reports and inventories.",
+              "Proficient": "Analyzes records management data and recommends improvements.",
+              "Advanced": "Oversees strategic records management reporting and decision support."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Document Control and Tracking",
+        "definition": "The ability to monitor, control, route, track, authenticate, release, and account for documents throughout their movement within and outside the organization while ensuring timeliness, traceability, accuracy, and accountability.",
+        "dimensions": [
+          {
+            "name": "Document Intake",
+            "definition": "The ability to properly receive, verify, record, and acknowledge incoming documents for processing.",
+            "levels": {
+              "Emerging": "Receives and acknowledges documents accurately.",
+              "Developing": "Reviews incoming documents for completeness and proper handling.",
+              "Proficient": "Ensures timely intake and proper routing of all documents.",
+              "Advanced": "Establishes document intake standards and controls."
+            }
+          },
+          {
+            "name": "Document Routing",
+            "definition": "The ability to direct documents to the appropriate office, unit, or individual in accordance with established procedures.",
+            "levels": {
+              "Emerging": "Routes documents according to established procedures.",
+              "Developing": "Determines appropriate recipients and routing paths.",
+              "Proficient": "Monitors routing efficiency and resolves bottlenecks.",
+              "Advanced": "Designs and enhances institution-wide routing systems."
+            }
+          },
+          {
+            "name": "Document Tracking",
+            "definition": "The ability to monitor and record the status, location, and movement of documents throughout their processing cycle.",
+            "levels": {
+              "Emerging": "Records movement of documents using prescribed logs.",
+              "Developing": "Updates tracking systems accurately and consistently.",
+              "Proficient": "Monitors document status and ensures accountability.",
+              "Advanced": "Develops tracking mechanisms and performance indicators."
+            }
+          },
+          {
+            "name": "Document Accountability",
+            "definition": "The ability to establish responsibility and maintain custody records for documents throughout their movement and handling.",
+            "levels": {
+              "Emerging": "Maintains custody records of documents handled.",
+              "Developing": "Tracks responsibility transfers and document ownership.",
+              "Proficient": "Ensures accountability throughout document movement.",
+              "Advanced": "Establishes controls that strengthen organizational accountability."
+            }
+          },
+          {
+            "name": "Authentication and Verification",
+            "definition": "The ability to validate the authenticity, accuracy, completeness, and legitimacy of documents and records.",
+            "levels": {
+              "Emerging": "Performs basic verification of records and signatures.",
+              "Developing": "Reviews document authenticity using prescribed procedures.",
+              "Proficient": "Conducts authentication and certification activities accurately.",
+              "Advanced": "Sets verification standards and provides technical advice."
+            }
+          },
+          {
+            "name": "Issuance Management",
+            "definition": "The ability to manage the numbering, registration, release, publication, and documentation of official issuances and related documents.",
+            "levels": {
+              "Emerging": "Assists in numbering and processing official documents.",
+              "Developing": "Processes official issuances according to procedures.",
+              "Proficient": "Manages issuance systems and ensures completeness of records.",
+              "Advanced": "Develops and improves issuance management mechanisms."
+            }
+          },
+          {
+            "name": "Timeliness",
+            "definition": "The ability to process, monitor, and deliver documents within prescribed turnaround times and service standards.",
+            "levels": {
+              "Emerging": "Completes assigned tasks within prescribed timelines.",
+              "Developing": "Monitors deadlines and prioritizes urgent documents.",
+              "Proficient": "Ensures compliance with service standards and turnaround times.",
+              "Advanced": "Establishes performance benchmarks and turnaround improvements."
+            }
+          },
+          {
+            "name": "Documentation and Audit Trail",
+            "definition": "The ability to maintain complete and traceable records of document transactions, movements, and actions.",
+            "levels": {
+              "Emerging": "Maintains required documentary records.",
+              "Developing": "Ensures traceable records of document movement.",
+              "Proficient": "Monitors completeness of audit trails and corrective actions.",
+              "Advanced": "Designs systems that strengthen transparency and traceability."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Digital Records Management",
+        "definition": "The ability to manage electronic records and digital information assets through digitization, storage, indexing, retrieval, preservation, access control, and information systems utilization to ensure accessibility, integrity, security, and long-term preservation of organizational records.",
+        "dimensions": [
+          {
+            "name": "Digitization",
+            "definition": "The ability to convert physical records into accurate, accessible, and reliable electronic formats.",
+            "levels": {
+              "Emerging": "Scans and uploads records following prescribed procedures.",
+              "Developing": "Ensures digital copies are complete and readable.",
+              "Proficient": "Oversees digitization activities and quality control.",
+              "Advanced": "Establishes digitization standards and strategic priorities."
+            }
+          },
+          {
+            "name": "Electronic Filing",
+            "definition": "The ability to organize, store, and maintain digital records using approved structures, naming conventions, and filing protocols.",
+            "levels": {
+              "Emerging": "Saves and organizes electronic records using established conventions.",
+              "Developing": "Applies naming conventions and electronic filing structures consistently.",
+              "Proficient": "Maintains systematic electronic repositories.",
+              "Advanced": "Designs and optimizes digital filing architectures."
+            }
+          },
+          {
+            "name": "Metadata Management",
+            "definition": "The ability to create, maintain, and apply descriptive information that supports identification, indexing, retrieval, and management of digital records.",
+            "levels": {
+              "Emerging": "Understands basic indexing requirements.",
+              "Developing": "Accurately applies metadata and indexing standards.",
+              "Proficient": "Ensures consistency of metadata across repositories.",
+              "Advanced": "Develops metadata standards and governance mechanisms."
+            }
+          },
+          {
+            "name": "Digital Retrieval",
+            "definition": "The ability to efficiently locate, access, and retrieve electronic records using digital repositories and information systems.",
+            "levels": {
+              "Emerging": "Searches and retrieves digital records using available systems.",
+              "Developing": "Efficiently locates records through indexing and search tools.",
+              "Proficient": "Maintains retrieval efficiency and user accessibility.",
+              "Advanced": "Develops enhanced retrieval strategies and digital access frameworks."
+            }
+          },
+          {
+            "name": "Information Systems Utilization",
+            "definition": "The ability to effectively use records management applications, databases, and digital tools to support records operations.",
+            "levels": {
+              "Emerging": "Uses records management applications correctly.",
+              "Developing": "Maximizes system features to improve productivity.",
+              "Proficient": "Serves as resource person for records management systems.",
+              "Advanced": "Recommends and evaluates system enhancements or new technologies."
+            }
+          },
+          {
+            "name": "Data Integrity",
+            "definition": "The ability to ensure that digital records remain accurate, complete, consistent, and protected from unauthorized modification.",
+            "levels": {
+              "Emerging": "Maintains accuracy of uploaded and encoded information.",
+              "Developing": "Detects and corrects data inconsistencies.",
+              "Proficient": "Implements controls that safeguard digital records integrity.",
+              "Advanced": "Establishes enterprise-wide integrity standards and controls."
+            }
+          },
+          {
+            "name": "Digital Security",
+            "definition": "The ability to protect electronic records and information systems through appropriate security controls, access management, and risk mitigation measures.",
+            "levels": {
+              "Emerging": "Observes system access and security protocols.",
+              "Developing": "Applies security procedures and safeguards.",
+              "Proficient": "Monitors compliance with digital security requirements.",
+              "Advanced": "Develops controls addressing cybersecurity and records protection risks."
+            }
+          },
+          {
+            "name": "Digital Preservation",
+            "definition": "The ability to ensure the long-term accessibility, usability, authenticity, and reliability of electronic records.",
+            "levels": {
+              "Emerging": "Follows prescribed backup and retention procedures.",
+              "Developing": "Applies digital retention and preservation requirements.",
+              "Proficient": "Ensures long-term accessibility of electronic records.",
+              "Advanced": "Leads digital preservation planning and implementation."
+            }
+          },
+          {
+            "name": "Technology Adaptability",
+            "definition": "The ability to learn, adopt, and effectively utilize new technologies and digital solutions relevant to records management.",
+            "levels": {
+              "Emerging": "Learns new records technologies as required.",
+              "Developing": "Adapts efficiently to system updates and enhancements.",
+              "Proficient": "Integrates technology solutions into operational processes.",
+              "Advanced": "Champions digital transformation initiatives in records management."
+            }
+          },
+          {
+            "name": "Digital Governance",
+            "definition": "The ability to establish, implement, and comply with policies, standards, and controls governing digital records and information assets.",
+            "levels": {
+              "Emerging": "Understands digital records policies and procedures.",
+              "Developing": "Applies governance standards in daily operations.",
+              "Proficient": "Monitors compliance and addresses governance issues.",
+              "Advanced": "Develops digital governance frameworks, standards, and policies."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy Development",
+        "definition": "The ability to research, analyze, formulate, review, recommend, and monitor policies, guidelines, procedures, and issuances that support organizational objectives, regulatory compliance, operational efficiency, and continuous improvement. This competency is consistent with Central Records Division (CRD) functions involving formulation of records-related policies, Department Orders, Office Orders, and process improvements.",
+        "dimensions": [
+          {
+            "name": "Policy Awareness",
+            "definition": "The ability to understand existing organizational policies, procedures, guidelines, and regulatory requirements relevant to one's area of responsibility.",
+            "levels": {
+              "Emerging": "Demonstrates understanding of existing policies and procedures.",
+              "Developing": "Explains the purpose and application of policies within the work unit.",
+              "Proficient": "Interprets policies and advises others on proper implementation.",
+              "Advanced": "Shapes policy directions aligned with organizational priorities."
+            }
+          },
+          {
+            "name": "Policy Research",
+            "definition": "The ability to gather, review, analyze, and interpret information, laws, regulations, best practices, and operational data to support policy formulation and decision-making.",
+            "levels": {
+              "Emerging": "Gathers information from relevant sources when requested.",
+              "Developing": "Conducts basic analysis of laws, regulations, and operational requirements.",
+              "Proficient": "Synthesizes multiple sources to support policy recommendations.",
+              "Advanced": "Leads policy studies and anticipates future policy requirements."
+            }
+          },
+          {
+            "name": "Policy Drafting",
+            "definition": "The ability to prepare clear, coherent, comprehensive, and implementable policies, procedures, guidelines, and issuances.",
+            "levels": {
+              "Emerging": "Assists in preparing policy-related documents.",
+              "Developing": "Drafts routine guidelines, procedures, and policy provisions.",
+              "Proficient": "Produces comprehensive and technically sound policy documents.",
+              "Advanced": "Crafts complex, enterprise-wide policies and strategic issuances."
+            }
+          },
+          {
+            "name": "Regulatory Alignment",
+            "definition": "The ability to ensure that proposed policies and procedures are consistent with applicable laws, regulations, government issuances, and organizational mandates.",
+            "levels": {
+              "Emerging": "Recognizes applicable legal and regulatory requirements.",
+              "Developing": "Ensures drafted policies align with existing regulations.",
+              "Proficient": "Evaluates policy compliance and resolves inconsistencies.",
+              "Advanced": "Provides expert guidance on regulatory implications and reforms."
+            }
+          },
+          {
+            "name": "Process Analysis",
+            "definition": "The ability to examine existing processes, identify gaps or inefficiencies, and determine areas requiring policy intervention or procedural improvement.",
+            "levels": {
+              "Emerging": "Identifies operational issues requiring policy intervention.",
+              "Developing": "Analyzes workflows and recommends procedural enhancements.",
+              "Proficient": "Evaluates organizational processes to support policy decisions.",
+              "Advanced": "Leads organizational reviews and policy reform initiatives."
+            }
+          },
+          {
+            "name": "Stakeholder Consultation",
+            "definition": "The ability to engage relevant stakeholders to gather inputs, address concerns, and achieve consensus during policy development and review.",
+            "levels": {
+              "Emerging": "Participates in policy discussions and consultations.",
+              "Developing": "Solicits inputs from affected stakeholders.",
+              "Proficient": "Facilitates consultations and reconciles differing viewpoints.",
+              "Advanced": "Builds consensus across offices and leadership levels."
+            }
+          },
+          {
+            "name": "Policy Implementation",
+            "definition": "The ability to facilitate, coordinate, and support the dissemination, adoption, and operationalization of approved policies and procedures.",
+            "levels": {
+              "Emerging": "Understands policy implementation requirements.",
+              "Developing": "Supports dissemination and implementation activities.",
+              "Proficient": "Oversees implementation and monitors compliance.",
+              "Advanced": "Directs enterprise-wide policy implementation strategies."
+            }
+          },
+          {
+            "name": "Monitoring and Evaluation",
+            "definition": "The ability to assess the effectiveness, compliance, and impact of implemented policies and recommend necessary revisions or enhancements.",
+            "levels": {
+              "Emerging": "Assists in gathering implementation feedback.",
+              "Developing": "Tracks compliance and implementation results.",
+              "Proficient": "Evaluates policy effectiveness and recommends revisions.",
+              "Advanced": "Establishes policy evaluation frameworks and performance indicators."
+            }
+          },
+          {
+            "name": "Risk Assessment",
+            "definition": "The ability to identify potential operational, legal, compliance, and organizational risks associated with policy implementation and recommend mitigating measures.",
+            "levels": {
+              "Emerging": "Recognizes potential implementation concerns.",
+              "Developing": "Identifies operational and compliance risks.",
+              "Proficient": "Integrates risk analysis into policy recommendations.",
+              "Advanced": "Anticipates strategic risks and develops mitigating policy measures."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stakeholder Coordination",
+        "definition": "The ability to establish, maintain, and strengthen productive working relationships with internal and external stakeholders through effective communication, collaboration, consultation, and coordination to achieve organizational objectives and service commitments. This competency aligns with CRD's coordination with offices, clients, recipients, external agencies, and records-related stakeholders.",
+        "dimensions": [
+          {
+            "name": "Relationship Building",
+            "definition": "The ability to establish and maintain positive, professional, and productive working relationships with internal and external stakeholders.",
+            "levels": {
+              "Emerging": "Maintains professional working relationships.",
+              "Developing": "Establishes rapport with stakeholders and clients.",
+              "Proficient": "Sustains collaborative partnerships across offices.",
+              "Advanced": "Cultivates strategic networks supporting organizational goals."
+            }
+          },
+          {
+            "name": "Communication",
+            "definition": "The ability to exchange information clearly, accurately, and appropriately to facilitate understanding and cooperation among stakeholders.",
+            "levels": {
+              "Emerging": "Provides accurate information when requested.",
+              "Developing": "Communicates clearly and responds appropriately to stakeholders.",
+              "Proficient": "Tailors communication to diverse stakeholder needs.",
+              "Advanced": "Influences and aligns stakeholders toward common objectives."
+            }
+          },
+          {
+            "name": "Coordination Planning",
+            "definition": "The ability to organize, schedule, and manage coordination activities to ensure efficient collaboration and achievement of common objectives.",
+            "levels": {
+              "Emerging": "Participates in coordination activities.",
+              "Developing": "Organizes routine meetings, communications, and follow-ups.",
+              "Proficient": "Plans and manages complex coordination requirements.",
+              "Advanced": "Develops coordination frameworks across multiple offices."
+            }
+          },
+          {
+            "name": "Stakeholder Engagement",
+            "definition": "The ability to actively involve stakeholders in discussions, activities, projects, and decision-making processes relevant to their interests and responsibilities.",
+            "levels": {
+              "Emerging": "Responds to routine stakeholder concerns.",
+              "Developing": "Actively engages stakeholders during activities and projects.",
+              "Proficient": "Builds commitment and participation among stakeholders.",
+              "Advanced": "Leads high-level stakeholder engagement initiatives."
+            }
+          },
+          {
+            "name": "Information Sharing",
+            "definition": "The ability to disseminate relevant, accurate, and timely information to stakeholders to support informed decision-making and coordinated action.",
+            "levels": {
+              "Emerging": "Shares information according to established procedures.",
+              "Developing": "Ensures timely dissemination of relevant information.",
+              "Proficient": "Facilitates effective information exchange among stakeholders.",
+              "Advanced": "Establishes systems that improve organizational information flow."
+            }
+          },
+          {
+            "name": "Collaboration",
+            "definition": "The ability to work effectively with individuals, teams, and organizations to achieve shared goals and desired outcomes.",
+            "levels": {
+              "Emerging": "Contributes to team and inter-office activities.",
+              "Developing": "Works cooperatively toward shared objectives.",
+              "Proficient": "Facilitates collaboration across units and functions.",
+              "Advanced": "Creates a culture of collaboration and partnership."
+            }
+          },
+          {
+            "name": "Conflict Management",
+            "definition": "The ability to identify, address, and resolve disagreements, competing interests, and coordination issues in a constructive and professional manner.",
+            "levels": {
+              "Emerging": "Escalates issues when conflicts arise.",
+              "Developing": "Addresses routine disagreements constructively.",
+              "Proficient": "Resolves stakeholder concerns and competing priorities.",
+              "Advanced": "Negotiates complex issues and achieves sustainable resolutions."
+            }
+          },
+          {
+            "name": "Follow-through and Accountability",
+            "definition": "The ability to monitor commitments, track action items, and ensure agreed responsibilities and deliverables are completed.",
+            "levels": {
+              "Emerging": "Completes assigned coordination tasks.",
+              "Developing": "Tracks commitments and follows up action items.",
+              "Proficient": "Ensures stakeholders fulfill agreed responsibilities.",
+              "Advanced": "Establishes accountability mechanisms across stakeholders."
+            }
+          },
+          {
+            "name": "Strategic Partnership Management",
+            "definition": "The ability to establish, sustain, and maximize collaborative relationships that contribute to organizational objectives and long-term success.",
+            "levels": {
+              "Emerging": "Understands stakeholder roles and interests.",
+              "Developing": "Maintains productive relationships with key stakeholders.",
+              "Proficient": "Manages critical partnerships supporting operations.",
+              "Advanced": "Builds and sustains strategic alliances for organizational success."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Quality Assurance",
+        "definition": "The ability to establish, apply, monitor, and continuously improve standards, controls, and review mechanisms to ensure the accuracy, completeness, reliability, consistency, timeliness, and compliance of processes, documents, records, services, and outputs. This competency is directly linked to CRD activities involving authentication, records verification, issuance control, records accuracy, and service delivery standards.",
+        "dimensions": [
+          {
+            "name": "Standards Awareness",
+            "definition": "The ability to understand, interpret, and apply established quality standards, procedures, and performance requirements.",
+            "levels": {
+              "Emerging": "Understands applicable quality standards and procedures.",
+              "Developing": "Consistently applies prescribed quality requirements.",
+              "Proficient": "Ensures compliance with quality standards across activities.",
+              "Advanced": "Develops and enhances quality assurance frameworks."
+            }
+          },
+          {
+            "name": "Accuracy Verification",
+            "definition": "The ability to review, validate, and confirm the correctness, completeness, and reliability of records, documents, data, and outputs.",
+            "levels": {
+              "Emerging": "Reviews outputs for obvious errors.",
+              "Developing": "Performs routine verification of documents and records.",
+              "Proficient": "Conducts detailed reviews ensuring completeness and accuracy.",
+              "Advanced": "Establishes organizational verification protocols and controls."
+            }
+          },
+          {
+            "name": "Compliance Monitoring",
+            "definition": "The ability to assess adherence to prescribed policies, procedures, regulations, and quality requirements.",
+            "levels": {
+              "Emerging": "Recognizes compliance requirements.",
+              "Developing": "Monitors adherence to established procedures.",
+              "Proficient": "Identifies compliance gaps and recommends corrective actions.",
+              "Advanced": "Directs quality compliance programs and governance initiatives."
+            }
+          },
+          {
+            "name": "Process Review",
+            "definition": "The ability to evaluate work processes and identify opportunities to improve efficiency, consistency, and effectiveness.",
+            "levels": {
+              "Emerging": "Participates in process reviews.",
+              "Developing": "Identifies process deficiencies and improvement opportunities.",
+              "Proficient": "Evaluates process effectiveness and reliability.",
+              "Advanced": "Leads comprehensive organizational quality reviews."
+            }
+          },
+          {
+            "name": "Documentation Quality",
+            "definition": "The ability to ensure that records, reports, communications, and other documents meet established standards for quality, consistency, completeness, and usability.",
+            "levels": {
+              "Emerging": "Follows documentation standards.",
+              "Developing": "Reviews documentation for completeness and consistency.",
+              "Proficient": "Ensures reliability and integrity of official records and documents.",
+              "Advanced": "Develops documentation standards and quality frameworks."
+            }
+          },
+          {
+            "name": "Performance Measurement",
+            "definition": "The ability to collect, analyze, and interpret quality-related data and performance indicators to assess results and identify trends.",
+            "levels": {
+              "Emerging": "Understands quality indicators used by the unit.",
+              "Developing": "Collects and monitors quality-related information.",
+              "Proficient": "Analyzes trends and recommends improvements.",
+              "Advanced": "Develops quality metrics, dashboards, and performance systems."
+            }
+          },
+          {
+            "name": "Corrective Action Management",
+            "definition": "The ability to identify quality issues, determine root causes, implement corrective actions, and monitor their effectiveness.",
+            "levels": {
+              "Emerging": "Implements corrective actions as directed.",
+              "Developing": "Assists in resolving identified quality issues.",
+              "Proficient": "Leads corrective action implementation and monitoring.",
+              "Advanced": "Institutionalizes corrective and preventive action systems."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Records Preservation and Disposition",
+        "definition": "The ability to systematically preserve, maintain, appraise, transfer, archive, and dispose of records in accordance with approved retention schedules, legal requirements, and records management standards to ensure the protection, accessibility, authenticity, and proper disposition of organizational records throughout their lifecycle. This competency is aligned with the functions of the Central Records Division relating to physical and digital document preservation, records disposition, and coordination with the National Archives.",
+        "dimensions": [
+          {
+            "name": "Records Preservation Awareness",
+            "definition": "The ability to understand the importance of preserving records and applying appropriate preservation principles throughout the records lifecycle.",
+            "levels": {
+              "Emerging": "Understands the importance of preserving records and follows established procedures.",
+              "Developing": "Applies prescribed preservation requirements for various record types.",
+              "Proficient": "Ensures records are maintained in accordance with preservation standards.",
+              "Advanced": "Develops and enhances preservation programs and standards."
+            }
+          },
+          {
+            "name": "Physical Records Preservation",
+            "definition": "The ability to protect, maintain, and store physical records using appropriate methods to prevent damage, deterioration, loss, or unauthorized access.",
+            "levels": {
+              "Emerging": "Maintains records in designated storage areas.",
+              "Developing": "Applies proper handling and storage procedures to prevent deterioration.",
+              "Proficient": "Monitors storage conditions and implements preservation controls.",
+              "Advanced": "Establishes preservation strategies for long-term protection of records."
+            }
+          },
+          {
+            "name": "Digital Records Preservation",
+            "definition": "The ability to ensure the long-term accessibility, integrity, usability, and security of electronic records through established preservation practices.",
+            "levels": {
+              "Emerging": "Follows prescribed digital storage and backup procedures.",
+              "Developing": "Maintains accessibility and integrity of digital records.",
+              "Proficient": "Monitors compliance with digital preservation requirements.",
+              "Advanced": "Leads digital preservation initiatives and long-term archival strategies."
+            }
+          },
+          {
+            "name": "Retention Schedule Management",
+            "definition": "The ability to implement, monitor, and apply approved records retention and disposition schedules consistently and accurately.",
+            "levels": {
+              "Emerging": "Understands approved retention schedules.",
+              "Developing": "Applies retention requirements accurately in daily operations.",
+              "Proficient": "Monitors compliance with retention schedules across records collections.",
+              "Advanced": "Develops and updates retention schedules and disposition policies."
+            }
+          },
+          {
+            "name": "Records Transfer and Archiving",
+            "definition": "The ability to facilitate the systematic transfer of records to designated storage, archival repositories, or authorized custodians while maintaining control and accountability.",
+            "levels": {
+              "Emerging": "Assists in records transfer and archiving activities.",
+              "Developing": "Coordinates routine transfer of records to designated repositories.",
+              "Proficient": "Manages systematic archival and transfer processes.",
+              "Advanced": "Designs archival strategies and records transfer programs."
+            }
+          },
+          {
+            "name": "Disposition Management",
+            "definition": "The ability to properly manage the destruction, transfer, or permanent retention of records in accordance with approved schedules, policies, and legal requirements.",
+            "levels": {
+              "Emerging": "Participates in approved records disposal activities.",
+              "Developing": "Implements disposition procedures in accordance with established guidelines.",
+              "Proficient": "Oversees disposition activities and ensures proper documentation.",
+              "Advanced": "Directs organization-wide disposition programs and compliance efforts."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Customer Service",
+        "definition": "The ability to provide responsive, accurate, courteous, and effective assistance to internal and external clients by understanding their needs, delivering quality service, resolving concerns, and maintaining professional relationships consistent with organizational service standards. This competency reflects the Central Records Division's role in document retrieval, authentication, records requests, inter-office transactions, and services provided to employees, offices, and external stakeholders.",
+        "dimensions": [
+          {
+            "name": "Client Focus",
+            "definition": "The ability to recognize, understand, and respond effectively to the needs, expectations, and concerns of internal and external clients.",
+            "levels": {
+              "Emerging": "Demonstrates respect and courtesy toward clients.",
+              "Developing": "Identifies and responds to routine client needs.",
+              "Proficient": "Anticipates client requirements and provides appropriate assistance.",
+              "Advanced": "Promotes a client-centered culture across the organization."
+            }
+          },
+          {
+            "name": "Service Delivery",
+            "definition": "The ability to provide timely, efficient, accurate, and reliable services consistent with established service standards and organizational requirements.",
+            "levels": {
+              "Emerging": "Provides services according to established procedures.",
+              "Developing": "Delivers services within prescribed timelines and standards.",
+              "Proficient": "Consistently provides reliable and high-quality service.",
+              "Advanced": "Establishes and improves service delivery systems and standards."
+            }
+          },
+          {
+            "name": "Communication",
+            "definition": "The ability to convey information clearly, courteously, professionally, and accurately to facilitate understanding and client satisfaction.",
+            "levels": {
+              "Emerging": "Provides clear and courteous responses to inquiries.",
+              "Developing": "Communicates information accurately and professionally.",
+              "Proficient": "Tailors communication to diverse client needs and situations.",
+              "Advanced": "Influences and builds trust through strategic communication."
+            }
+          },
+          {
+            "name": "Responsiveness",
+            "definition": "The ability to promptly acknowledge, address, and follow through on client requests, inquiries, concerns, and service requirements.",
+            "levels": {
+              "Emerging": "Acknowledges requests and follows established timelines.",
+              "Developing": "Responds promptly to inquiries and service requests.",
+              "Proficient": "Proactively addresses urgent concerns and service issues.",
+              "Advanced": "Establishes strategies to improve service responsiveness organization-wide."
+            }
+          },
+          {
+            "name": "Problem Resolution",
+            "definition": "The ability to identify service-related issues, analyze situations, and implement appropriate solutions to address client concerns effectively.",
+            "levels": {
+              "Emerging": "Escalates concerns appropriately when needed.",
+              "Developing": "Resolves routine client concerns using established procedures.",
+              "Proficient": "Analyzes issues and implements practical solutions.",
+              "Advanced": "Leads resolution of complex or sensitive service concerns."
+            }
+          },
+          {
+            "name": "Relationship Management",
+            "definition": "The ability to establish and sustain positive, productive, and mutually beneficial relationships with clients and stakeholders.",
+            "levels": {
+              "Emerging": "Maintains positive working relationships with clients.",
+              "Developing": "Builds rapport and trust with stakeholders.",
+              "Proficient": "Sustains productive and collaborative client relationships.",
+              "Advanced": "Develops long-term partnerships that enhance organizational effectiveness."
+            }
+          },
+          {
+            "name": "Customer Satisfaction Monitoring",
+            "definition": "The ability to gather, analyze, and utilize client feedback and service performance information to improve service delivery and client satisfaction.",
+            "levels": {
+              "Emerging": "Understands service standards and feedback mechanisms.",
+              "Developing": "Collects and responds to client feedback.",
+              "Proficient": "Uses feedback to improve services and address recurring concerns.",
+              "Advanced": "Develops customer satisfaction frameworks and performance indicators."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "GSD",
@@ -7271,28 +7960,930 @@
   {
     "code": "MD",
     "name": "Management Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Corporate Planning and Management Service",
     "officeOrder": 7,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "Management Division.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Strategic Planning",
+        "definition": "The ability to analyze organizational needs, identify priorities, formulate strategic and operational plans, and align programs, projects, systems, and initiatives with organizational objectives.",
+        "dimensions": [
+          {
+            "name": "Situation Analysis and Environmental Scanning",
+            "definition": "Ability to gather, analyze, and interpret relevant internal and external information affecting organizational priorities, operations, and planning decisions.",
+            "levels": {
+              "Emerging": "Gathers basic organizational information and data from available sources to support planning activities.",
+              "Developing": "Collects, validates, and organizes relevant information from multiple sources and identifies issues affecting assigned work areas.",
+              "Proficient": "Analyzes trends, operational issues, stakeholder concerns, and organizational needs to support planning and decision-making.",
+              "Advanced": "Evaluates complex organizational and environmental conditions, anticipates future implications, and provides strategic insights for organizational direction and planning."
+            }
+          },
+          {
+            "name": "Planning and Prioritization",
+            "definition": "Ability to establish priorities, set objectives, and develop plans aligned with organizational goals and mandates.",
+            "levels": {
+              "Emerging": "Assists in preparing schedules, activity plans, and implementation timelines for assigned tasks.",
+              "Developing": "Identifies priorities and develops work plans based on organizational requirements and established objectives.",
+              "Proficient": "Develops operational and strategic plans, identifies resource requirements, and recommends implementation strategies to achieve desired results.",
+              "Advanced": "Establishes organizational priorities, directs planning initiatives, and ensures alignment of plans with long-term strategic objectives."
+            }
+          },
+          {
+            "name": "Strategic Alignment and Performance Monitoring",
+            "definition": "Ability to ensure plans, programs, and initiatives contribute to organizational objectives and desired outcomes.",
+            "levels": {
+              "Emerging": "Monitors assigned activities and reports implementation status to supervisors.",
+              "Developing": "Tracks progress of programs and activities and identifies implementation concerns requiring action.",
+              "Proficient": "Evaluates implementation results, recommends adjustments, and ensures activities remain aligned with organizational goals.",
+              "Advanced": "Leads strategic reviews, directs organizational planning adjustments, and ensures sustained alignment with evolving priorities and mandates."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Organizational Development",
+        "definition": "The ability to evaluate and improve organizational structures, processes, systems, policies, and work methods; develop and implement organizational interventions; facilitate change initiatives; and recommend innovative solutions that enhance organizational effectiveness, efficiency, accountability, and service delivery.",
+        "dimensions": [
+          {
+            "name": "Organizational Review and Analysis",
+            "definition": "Ability to assess organizational structures, functions, staffing patterns, qualification standards, and operational arrangements to determine opportunities for improvement and alignment with organizational objectives.",
+            "levels": {
+              "Emerging": "Gathers and organizes information related to organizational structures, functions, staffing patterns, and job requirements.",
+              "Developing": "Reviews organizational data and identifies issues affecting organizational design, staffing, and operational effectiveness.",
+              "Proficient": "Conducts organizational assessments and develops recommendations on structures, staffing patterns, qualification standards, and functional alignment.",
+              "Advanced": "Leads organization-wide reviews and provides strategic recommendations on organizational restructuring, staffing optimization, and institutional strengthening."
+            }
+          },
+          {
+            "name": "Process Improvement and Systems Development",
+            "definition": "Ability to review, design, improve, and document systems, procedures, workflows, and operational processes to increase efficiency and effectiveness.",
+            "levels": {
+              "Emerging": "Assists in documenting existing systems, procedures, and workflow processes.",
+              "Developing": "Reviews current procedures and identifies inefficiencies, redundancies, and process gaps requiring improvement.",
+              "Proficient": "Develops and recommends systems enhancements, process improvements, and procedural reforms based on organizational needs.",
+              "Advanced": "Leads the design and implementation of major systems improvement initiatives and process transformation programs across the organization."
+            }
+          },
+          {
+            "name": "Organizational Innovation and Problem Solving",
+            "definition": "Ability to identify organizational issues, analyze root causes, and develop practical and innovative solutions that improve organizational effectiveness and service delivery.",
+            "levels": {
+              "Emerging": "Identifies routine operational issues and elevates concerns through appropriate channels.",
+              "Developing": "Analyzes organizational concerns, gathers relevant information, and proposes possible solutions.",
+              "Proficient": "Develops innovative recommendations and practical interventions to address organizational and operational challenges.",
+              "Advanced": "Champions innovation initiatives and drives organizational transformation through strategic problem-solving and continuous improvement."
+            }
+          },
+          {
+            "name": "Quality Assurance and Process Improvement",
+            "definition": "Ability to evaluate the effectiveness of systems, processes, policies, and interventions to ensure compliance with standards and achievement of desired results.",
+            "levels": {
+              "Emerging": "Assists in monitoring compliance with established policies, procedures, and quality standards.",
+              "Developing": "Reviews outputs, identifies deficiencies, and recommends corrective actions to improve quality and consistency.",
+              "Proficient": "Evaluates the effectiveness of organizational systems and processes and recommends improvements based on findings.",
+              "Advanced": "Establishes quality assurance mechanisms, institutionalizes continuous improvement practices, and leads organization-wide performance enhancement initiatives."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Communications Proficiency",
+        "definition": "The ability to convey clear and convincing ideas, information, policies, and recommendations through written, verbal, and virtual communication channels.",
+        "dimensions": [
+          {
+            "name": "Written Communication",
+            "definition": "Ability to prepare clear, concise, accurate, and professional written communications.",
+            "levels": {
+              "Emerging": "Drafts routine correspondence, emails, memoranda, and reports using prescribed formats and available information.",
+              "Developing": "Prepares organized, accurate, and complete written communications for various administrative and operational requirements.",
+              "Proficient": "Develops comprehensive reports, technical documents, policy recommendations, and organizational studies with minimal supervision.",
+              "Advanced": "Reviews, approves, and enhances high-level reports, position papers, organizational studies, and policy issuances for executive decision-making."
+            }
+          },
+          {
+            "name": "Verbal Communication",
+            "definition": "Ability to communicate information effectively during meetings, discussions, consultations, and briefings.",
+            "levels": {
+              "Emerging": "Provides basic information and responds appropriately to inquiries from colleagues and stakeholders.",
+              "Developing": "Participates effectively in meetings and discussions by articulating ideas and concerns clearly.",
+              "Proficient": "Facilitates discussions, consultations, and briefings while conveying recommendations and technical information confidently.",
+              "Advanced": "Represents the Division in high-level discussions, negotiations, consultations, and inter-agency engagements."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Presentation Skills",
+        "definition": "The ability to express oneself in a clear, concise, and organized manner and effectively communicate information, recommendations, policies, and organizational initiatives during individual or group presentations.",
+        "dimensions": [
+          {
+            "name": "Presentation Preparation",
+            "definition": "Ability to plan, organize, and prepare presentation content and materials appropriate to the objective and audience.",
+            "levels": {
+              "Emerging": "Assists in preparing presentation materials, data, and supporting documents.",
+              "Developing": "Organizes presentation content according to the target audience and intended objectives.",
+              "Proficient": "Develops comprehensive presentation materials that effectively communicate key organizational messages.",
+              "Advanced": "Designs strategic presentation approaches and communication plans for executive-level and inter-agency audiences."
+            }
+          },
+          {
+            "name": "Presentation Delivery",
+            "definition": "Ability to communicate information clearly, confidently, and effectively during presentations.",
+            "levels": {
+              "Emerging": "Presents information clearly in team meetings and small-group settings.",
+              "Developing": "Delivers structured presentations and responds appropriately to routine questions.",
+              "Proficient": "Conducts effective presentations on policies, organizational studies, and technical matters before various audiences.",
+              "Advanced": "Delivers persuasive presentations on complex organizational issues to senior officials and external stakeholders."
+            }
+          },
+          {
+            "name": "Stakeholder Facilitation and Engagement",
+            "definition": "Ability to facilitate discussions, encourage participation, and manage audience engagement during presentations and meetings.",
+            "levels": {
+              "Emerging": "Encourages participation and listens attentively during meetings and presentations.",
+              "Developing": "Responds appropriately to audience questions and feedback.",
+              "Proficient": "Facilitates productive discussions, clarifies issues, and addresses stakeholder concerns effectively.",
+              "Advanced": "Builds consensus, manages complex discussions, and guides stakeholders toward informed decisions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy Formulation and Implementation",
+        "definition": "The ability to develop, review, evaluate, recommend, implement, and monitor policies, systems, procedures, and organizational issuances that support operational efficiency, regulatory compliance, organizational effectiveness, and institutional objectives.",
+        "dimensions": [
+          {
+            "name": "Policy Research and Analysis",
+            "definition": "Ability to gather, evaluate, and analyze information necessary for policy development and review.",
+            "levels": {
+              "Emerging": "Collects reference materials, issuances, and supporting information relevant to policy concerns.",
+              "Developing": "Reviews existing policies and identifies issues requiring clarification or enhancement.",
+              "Proficient": "Conducts policy analysis, benchmarking, and impact assessment to support evidence-based recommendations.",
+              "Advanced": "Leads complex policy studies and develops strategic recommendations addressing organizational and sectoral concerns."
+            }
+          },
+          {
+            "name": "Policy Development and Drafting",
+            "definition": "Ability to prepare, review, and refine policies, guidelines, procedures, and organizational issuances.",
+            "levels": {
+              "Emerging": "Assists in drafting policies, procedures, and implementing guidelines.",
+              "Developing": "Reviews draft issuances and recommends revisions to improve consistency and clarity.",
+              "Proficient": "Develops comprehensive policies, systems, procedures, and administrative issuances aligned with organizational requirements.",
+              "Advanced": "Leads policy formulation initiatives and ensures strategic alignment with departmental priorities and governance principles."
+            }
+          },
+          {
+            "name": "Policy Implementation and Evaluation",
+            "definition": "Ability to support implementation, monitor compliance, and evaluate effectiveness of approved policies.",
+            "levels": {
+              "Emerging": "Assists in disseminating approved policies and monitoring implementation activities.",
+              "Developing": "Tracks implementation progress and identifies policy compliance concerns.",
+              "Proficient": "Evaluates effectiveness of implemented policies and recommends enhancements.",
+              "Advanced": "Directs policy implementation strategies and institutional reform initiatives to achieve intended outcomes."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Change Management and Organizational Development",
+        "definition": "The ability to plan, facilitate, implement, and sustain organizational change initiatives, ensuring stakeholder engagement, smooth transition, and organizational readiness while promoting continuous improvement and innovation.",
+        "dimensions": [
+          {
+            "name": "Change Readiness Assessment",
+            "definition": "Ability to assess organizational readiness, risks, impacts, and stakeholder concerns associated with proposed organizational changes.",
+            "levels": {
+              "Emerging": "Identifies potential impacts of organizational changes on assigned work areas.",
+              "Developing": "Assists in assessing stakeholder concerns, readiness, and implementation requirements.",
+              "Proficient": "Evaluates organizational readiness, identifies risks, and recommends mitigation measures.",
+              "Advanced": "Develops strategic readiness assessments and advises management on organizational transformation initiatives."
+            }
+          },
+          {
+            "name": "Stakeholder Engagement and Transition Management",
+            "definition": "Ability to engage stakeholders, facilitate consultations, and support organizational transition activities.",
+            "levels": {
+              "Emerging": "Participates in consultations and communicates change-related information accurately.",
+              "Developing": "Assists stakeholders in understanding organizational reforms and transition activities.",
+              "Proficient": "Facilitates stakeholder engagement, addresses concerns, and supports organizational transition efforts.",
+              "Advanced": "Leads organization-wide consultations and builds stakeholder commitment to change initiatives."
+            }
+          },
+          {
+            "name": "Change Implementation and Sustainability",
+            "definition": "Ability to implement, monitor, evaluate, and sustain change initiatives and organizational improvements.",
+            "levels": {
+              "Emerging": "Supports implementation of approved organizational changes and improvement initiatives.",
+              "Developing": "Monitors implementation activities and documents progress and challenges.",
+              "Proficient": "Evaluates effectiveness of change initiatives and recommends improvements for sustainability.",
+              "Advanced": "Champions organizational transformation and institutionalizes continuous improvement practices across the organization."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy Compliance and Ethical Standards Enforcement",
+        "definition": "The ability to ensure adherence to applicable laws, regulations, policies, ethical standards, and governance requirements through compliance monitoring, policy implementation support, accountability mechanisms, and promotion of organizational integrity.",
+        "dimensions": [
+          {
+            "name": "Regulatory Compliance Management",
+            "definition": "Ability to monitor and ensure adherence to laws, regulations, policies, standards, and compliance requirements.",
+            "levels": {
+              "Emerging": "Demonstrates understanding of applicable regulations, policies, and compliance requirements.",
+              "Developing": "Reviews compliance requirements and assists in monitoring submissions and obligations.",
+              "Proficient": "Evaluates compliance status, identifies gaps, and recommends corrective measures.",
+              "Advanced": "Leads compliance initiatives and advises management on governance, accountability, and regulatory risks."
+            }
+          },
+          {
+            "name": "Ethical Governance and Accountability",
+            "definition": "Ability to promote integrity, accountability, transparency, and responsible conduct in organizational processes and decision-making.",
+            "levels": {
+              "Emerging": "Demonstrates honesty, integrity, and adherence to established rules and procedures.",
+              "Developing": "Promotes ethical conduct and accountability in daily work activities.",
+              "Proficient": "Ensures transparency, consistency, and fairness in organizational processes and decisions.",
+              "Advanced": "Champions ethical governance culture and strengthens accountability mechanisms across the organization."
+            }
+          },
+          {
+            "name": "Compliance Monitoring and Reporting",
+            "definition": "Ability to collect, validate, track, and report compliance information and governance requirements.",
+            "levels": {
+              "Emerging": "Maintains compliance records and supporting documentation accurately.",
+              "Developing": "Assists in compiling reports and monitoring compliance submissions.",
+              "Proficient": "Reviews and validates compliance reports and supporting evidence for completeness and accuracy.",
+              "Advanced": "Oversees compliance reporting systems and ensures timely and accurate submission of governance requirements."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "PMED",
     "name": "Performance Monitoring and Evaluation Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Corporate Planning and Management Service",
     "officeOrder": 7,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "Performance Monitoring and Evaluation Division.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Performance Management Systems Administration",
+        "definition": "The ability to administer, implement, monitor, and continuously improve the Strategic Performance Management System (SPMS), Career Executive Performance Evaluation System (CESPES) and related performance management processes by ensuring compliance with policies, proper documentation, accurate performance assessment, and effective performance governance across the organization.",
+        "dimensions": [
+          {
+            "name": "SPMS & CESPES Governance",
+            "definition": "The ability to administer and oversee the implementation of SPMS & CESPES policies, standards, processes, and requirements throughout the organization.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of SPMS policies and processes.",
+              "Developing": "Applies SPMS procedures and requirements correctly.",
+              "Proficient": "Oversees implementation of SPMS processes across offices.",
+              "Advanced": "Leads improvements and strategic enhancements to the SPMS framework."
+            }
+          },
+          {
+            "name": "Performance Planning Administration",
+            "definition": "The ability to facilitate and support the development, review, and alignment of performance commitments and targets.",
+            "levels": {
+              "Emerging": "Assists in reviewing performance commitments and targets.",
+              "Developing": "Reviews performance plans for completeness and compliance.",
+              "Proficient": "Evaluates alignment of commitments with organizational objectives.",
+              "Advanced": "Establishes standards and guidance for performance planning across the organization."
+            }
+          },
+          {
+            "name": "Performance Review Management",
+            "definition": "The ability to manage the review and validation of performance commitments, accomplishments, and assessment documentation.",
+            "levels": {
+              "Emerging": "Participates in reviewing submitted performance reports.",
+              "Developing": "Evaluates routine performance submissions.",
+              "Proficient": "Conducts comprehensive validation of accomplishments and ratings.",
+              "Advanced": "Provides strategic oversight of organizational performance review processes."
+            }
+          },
+          {
+            "name": "Performance Rating Administration",
+            "definition": "The ability to facilitate, validate, consolidate, and monitor performance rating processes and outcomes.",
+            "levels": {
+              "Emerging": "Understands established rating procedures.",
+              "Developing": "Processes and validates performance ratings accurately.",
+              "Proficient": "Reviews consistency and integrity of performance ratings.",
+              "Advanced": "Leads the development and enhancement of performance assessment systems."
+            }
+          },
+          {
+            "name": "Compliance Monitoring",
+            "definition": "The ability to monitor adherence to performance management requirements, schedules, and prescribed standards.",
+            "levels": {
+              "Emerging": "Tracks compliance with established deadlines.",
+              "Developing": "Monitors submission of performance requirements.",
+              "Proficient": "Evaluates organizational compliance and identifies gaps.",
+              "Advanced": "Establishes compliance monitoring frameworks and governance mechanisms."
+            }
+          },
+          {
+            "name": "Performance Documentation Management",
+            "definition": "The ability to maintain, organize, secure, and manage performance management documents and records.",
+            "levels": {
+              "Emerging": "Maintains assigned performance records.",
+              "Developing": "Organizes and updates performance management documentation.",
+              "Proficient": "Ensures integrity, accessibility, and completeness of records.",
+              "Advanced": "Establishes documentation standards and information management systems."
+            }
+          },
+          {
+            "name": "Technical Advisory Services",
+            "definition": "The ability to provide guidance, clarification, and technical support on SPMS policies, procedures, and requirements.",
+            "levels": {
+              "Emerging": "Responds to routine inquiries with guidance.",
+              "Developing": "Provides procedural clarification on SPMS requirements.",
+              "Proficient": "Advises offices on complex performance management issues.",
+              "Advanced": "Serves as organizational authority on performance management systems."
+            }
+          },
+          {
+            "name": "Performance Governance Support",
+            "definition": "The ability to support management decision-making through performance management information, monitoring, and governance mechanisms.",
+            "levels": {
+              "Emerging": "Provides information requested by supervisors.",
+              "Developing": "Assists in performance governance activities.",
+              "Proficient": "Supports decision-making through performance analysis and reporting.",
+              "Advanced": "Leads organization-wide performance governance initiatives."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Performance Monitoring and Evaluation",
+        "definition": "The ability to systematically monitor, assess, evaluate, validate, and report organizational and individual performance to determine achievement of commitments, effectiveness of interventions, and opportunities for continuous improvement.",
+        "dimensions": [
+          {
+            "name": "Performance Monitoring",
+            "definition": "The ability to systematically track progress and accomplishments against approved commitments, targets, and indicators.",
+            "levels": {
+              "Emerging": "Collects monitoring information using prescribed tools.",
+              "Developing": "Tracks performance progress against established targets.",
+              "Proficient": "Conducts comprehensive monitoring of organizational performance.",
+              "Advanced": "Designs performance monitoring frameworks and systems."
+            }
+          },
+          {
+            "name": "Performance Evaluation",
+            "definition": "The ability to assess the effectiveness, efficiency, quality, and results of performance accomplishments.",
+            "levels": {
+              "Emerging": "Participates in evaluation activities.",
+              "Developing": "Conducts routine evaluations using established methods.",
+              "Proficient": "Performs comprehensive evaluations of performance outcomes.",
+              "Advanced": "Develops evaluation methodologies and institutional standards."
+            }
+          },
+          {
+            "name": "Performance Validation",
+            "definition": "The ability to verify the accuracy, completeness, reliability, and credibility of reported accomplishments and supporting evidence.",
+            "levels": {
+              "Emerging": "Reviews supporting documents for completeness.",
+              "Developing": "Validates reported accomplishments against requirements.",
+              "Proficient": "Evaluates reliability and sufficiency of evidence.",
+              "Advanced": "Establishes validation protocols and quality assurance mechanisms."
+            }
+          },
+          {
+            "name": "Indicator Assessment",
+            "definition": "The ability to analyze and assess the relevance, effectiveness, and achievement of performance indicators.",
+            "levels": {
+              "Emerging": "Understands assigned performance indicators.",
+              "Developing": "Reviews indicator performance against targets.",
+              "Proficient": "Evaluates effectiveness and appropriateness of indicators.",
+              "Advanced": "Leads development and refinement of organizational indicators."
+            }
+          },
+          {
+            "name": "Findings and Observation Development",
+            "definition": "The ability to identify performance issues, strengths, gaps, and opportunities based on monitoring and evaluation results.",
+            "levels": {
+              "Emerging": "Identifies basic observations from reviewed reports.",
+              "Developing": "Documents findings supported by available evidence.",
+              "Proficient": "Generates meaningful analyses and performance insights.",
+              "Advanced": "Produces strategic assessments influencing organizational decisions."
+            }
+          },
+          {
+            "name": "Recommendation Formulation",
+            "definition": "The ability to develop practical and evidence-based recommendations to improve performance.",
+            "levels": {
+              "Emerging": "Assists in drafting recommendations.",
+              "Developing": "Develops recommendations addressing identified issues.",
+              "Proficient": "Formulates comprehensive improvement strategies.",
+              "Advanced": "Influences organizational performance improvement initiatives."
+            }
+          },
+          {
+            "name": "Performance Reporting",
+            "definition": "The ability to prepare and communicate monitoring and evaluation results effectively to various stakeholders.",
+            "levels": {
+              "Emerging": "Assists in preparing performance reports.",
+              "Developing": "Develops routine monitoring and evaluation reports.",
+              "Proficient": "Produces comprehensive performance assessment reports.",
+              "Advanced": "Establishes reporting standards and executive-level reporting systems."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Results-Based Management",
+        "definition": "The ability to apply results-based management principles in planning, implementation, monitoring, evaluation, and reporting to ensure that organizational resources, activities, and outputs contribute to desired outcomes and strategic objectives.",
+        "dimensions": [
+          {
+            "name": "Results Orientation",
+            "definition": "The ability to focus efforts on achieving measurable outcomes, impacts, and organizational objectives.",
+            "levels": {
+              "Emerging": "Understands expected outputs and outcomes.",
+              "Developing": "Aligns work activities with desired results.",
+              "Proficient": "Consistently focuses on achieving measurable outcomes.",
+              "Advanced": "Promotes a results-focused culture across the organization."
+            }
+          },
+          {
+            "name": "Results Framework Application",
+            "definition": "The ability to apply results chains, logical frameworks, and performance frameworks in managing performance.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of results frameworks.",
+              "Developing": "Applies established frameworks in assigned work.",
+              "Proficient": "Integrates results frameworks into planning and evaluation activities.",
+              "Advanced": "Develops and enhances organizational results management systems."
+            }
+          },
+          {
+            "name": "Outcome-Based Planning",
+            "definition": "The ability to develop plans, commitments, and interventions that contribute to intended outcomes.",
+            "levels": {
+              "Emerging": "Participates in planning activities.",
+              "Developing": "Aligns planned activities with intended outcomes.",
+              "Proficient": "Reviews plans for outcome relevance and consistency.",
+              "Advanced": "Leads organizational outcome-based planning initiatives."
+            }
+          },
+          {
+            "name": "Performance Indicator Management",
+            "definition": "The ability to establish, monitor, and evaluate indicators used to measure outputs, outcomes, and impacts.",
+            "levels": {
+              "Emerging": "Understands assigned indicators.",
+              "Developing": "Monitors indicators and reports results.",
+              "Proficient": "Evaluates indicator effectiveness and reliability.",
+              "Advanced": "Develops institutional indicator systems and methodologies."
+            }
+          },
+          {
+            "name": "Outcome Monitoring",
+            "definition": "The ability to assess progress toward intended organizational outcomes and long-term objectives.",
+            "levels": {
+              "Emerging": "Assists in gathering outcome-related information.",
+              "Developing": "Monitors outcome achievement using available data.",
+              "Proficient": "Evaluates outcome achievement and contributing factors.",
+              "Advanced": "Establishes outcome monitoring systems and frameworks."
+            }
+          },
+          {
+            "name": "Evidence-Based Decision Support",
+            "definition": "The ability to provide information and analysis that support informed decision-making and resource allocation.",
+            "levels": {
+              "Emerging": "Provides relevant information when requested.",
+              "Developing": "Uses available evidence to support recommendations.",
+              "Proficient": "Produces evidence-based analyses for management.",
+              "Advanced": "Influences strategic decisions using performance evidence."
+            }
+          },
+          {
+            "name": "Results Reporting",
+            "definition": "The ability to communicate outputs, outcomes, impacts, and performance achievements clearly and accurately.",
+            "levels": {
+              "Emerging": "Assists in reporting performance results.",
+              "Developing": "Prepares routine results-based reports.",
+              "Proficient": "Produces comprehensive outcome-focused performance reports.",
+              "Advanced": "Establishes results reporting standards and executive dashboards."
+            }
+          },
+          {
+            "name": "Performance Improvement and Learning",
+            "definition": "The ability to utilize performance information to drive learning, innovation, and continuous organizational improvement.",
+            "levels": {
+              "Emerging": "Identifies lessons learned from activities.",
+              "Developing": "Applies lessons learned to improve work processes.",
+              "Proficient": "Facilitates learning and improvement initiatives.",
+              "Advanced": "Leads organizational learning and performance excellence programs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Strategic Planning and Performance Alignment",
+        "definition": "The ability to align organizational commitments, performance targets, initiatives, and performance measures with strategic priorities, organizational mandates, departmental goals, and government development objectives to ensure that resources and efforts contribute to intended outcomes and results.",
+        "dimensions": [
+          {
+            "name": "Strategic Awareness",
+            "definition": "The ability to understand organizational mandates, strategic priorities, and performance directions.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of organizational goals and priorities.",
+              "Developing": "Understands how work unit targets support organizational objectives.",
+              "Proficient": "Consistently aligns activities with strategic priorities.",
+              "Advanced": "Shapes strategic directions and organizational priorities."
+            }
+          },
+          {
+            "name": "Performance Alignment",
+            "definition": "The ability to align commitments, targets, indicators, and initiatives with approved plans and objectives.",
+            "levels": {
+              "Emerging": "Identifies basic linkages between activities and goals.",
+              "Developing": "Aligns assigned targets with office objectives.",
+              "Proficient": "Reviews and validates alignment of performance commitments.",
+              "Advanced": "Establishes organization-wide alignment frameworks and standards."
+            }
+          },
+          {
+            "name": "Target Setting",
+            "definition": "The ability to develop realistic, measurable, and results-oriented performance targets.",
+            "levels": {
+              "Emerging": "Participates in formulating targets.",
+              "Developing": "Develops targets using prescribed guidelines.",
+              "Proficient": "Evaluates appropriateness and consistency of targets.",
+              "Advanced": "Provides strategic direction in organizational target-setting processes."
+            }
+          },
+          {
+            "name": "Performance Indicator Development",
+            "definition": "The ability to formulate and assess measures that effectively monitor achievement of results.",
+            "levels": {
+              "Emerging": "Understands basic performance indicators.",
+              "Developing": "Applies prescribed indicators in monitoring activities.",
+              "Proficient": "Reviews and refines indicators to improve measurement quality.",
+              "Advanced": "Develops organization-wide performance measurement frameworks."
+            }
+          },
+          {
+            "name": "Planning Integration",
+            "definition": "The ability to integrate performance commitments with plans, budgets, and organizational priorities.",
+            "levels": {
+              "Emerging": "Recognizes relationships between plans and targets.",
+              "Developing": "Coordinates planning and performance requirements.",
+              "Proficient": "Ensures consistency across planning and monitoring systems.",
+              "Advanced": "Integrates strategic planning, budgeting, and performance management systems."
+            }
+          },
+          {
+            "name": "Strategic Analysis",
+            "definition": "The ability to analyze organizational priorities, risks, opportunities, and performance implications for decision-making.",
+            "levels": {
+              "Emerging": "Identifies basic factors affecting performance.",
+              "Developing": "Analyzes performance issues and contributing factors.",
+              "Proficient": "Evaluates strategic implications of plans and programs.",
+              "Advanced": "Provides strategic recommendations influencing organizational direction."
+            }
+          },
+          {
+            "name": "Monitoring Strategic Progress",
+            "definition": "The ability to assess progress toward organizational goals and strategic outcomes.",
+            "levels": {
+              "Emerging": "Assists in gathering planning and accomplishment data.",
+              "Developing": "Monitors implementation of plans and targets.",
+              "Proficient": "Evaluates progress against strategic objectives.",
+              "Advanced": "Establishes mechanisms for strategic performance oversight."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Data Analysis and Performance Analytics",
+        "definition": "The ability to collect, validate, organize, analyze, interpret, and present performance information and data to support monitoring, evaluation, reporting, evidence-based decision-making, and continuous improvement.",
+        "dimensions": [
+          {
+            "name": "Data Collection",
+            "definition": "The ability to gather relevant, complete, and accurate performance information from various sources.",
+            "levels": {
+              "Emerging": "Collects required data following prescribed procedures.",
+              "Developing": "Validates data gathered from offices and units.",
+              "Proficient": "Ensures completeness and reliability of performance information.",
+              "Advanced": "Establishes organizational data collection standards."
+            }
+          },
+          {
+            "name": "Data Validation",
+            "definition": "The ability to verify the accuracy, consistency, and credibility of data and supporting documents.",
+            "levels": {
+              "Emerging": "Reviews data for completeness.",
+              "Developing": "Performs routine validation of submitted information.",
+              "Proficient": "Evaluates reliability and consistency of performance data.",
+              "Advanced": "Develops validation methodologies and quality standards."
+            }
+          },
+          {
+            "name": "Data Analysis",
+            "definition": "The ability to examine data and identify trends, variances, relationships, and performance issues.",
+            "levels": {
+              "Emerging": "Performs basic analysis using available information.",
+              "Developing": "Identifies patterns and deviations in performance results.",
+              "Proficient": "Conducts detailed analysis to support management decisions.",
+              "Advanced": "Leads advanced analytical studies and evaluations."
+            }
+          },
+          {
+            "name": "Performance Measurement",
+            "definition": "The ability to compute, interpret, and evaluate performance indicators and metrics.",
+            "levels": {
+              "Emerging": "Understands prescribed performance indicators.",
+              "Developing": "Computes and reports performance measures accurately.",
+              "Proficient": "Evaluates indicator performance and relevance.",
+              "Advanced": "Develops and improves organizational performance metrics."
+            }
+          },
+          {
+            "name": "Interpretation of Findings",
+            "definition": "The ability to derive meaningful conclusions and insights from analyzed information.",
+            "levels": {
+              "Emerging": "Describes observed performance results.",
+              "Developing": "Interprets routine findings and observations.",
+              "Proficient": "Generates evidence-based conclusions and recommendations.",
+              "Advanced": "Provides strategic insights influencing policy and decision-making."
+            }
+          },
+          {
+            "name": "Evidence-Based Recommendation",
+            "definition": "The ability to formulate practical recommendations supported by validated data and analysis.",
+            "levels": {
+              "Emerging": "Participates in preparing recommendations.",
+              "Developing": "Provides recommendations based on findings.",
+              "Proficient": "Develops comprehensive corrective and improvement recommendations.",
+              "Advanced": "Influences strategic decisions through evidence-based advice."
+            }
+          },
+          {
+            "name": "Analytics Reporting",
+            "definition": "The ability to communicate analytical findings to various stakeholders accurately and effectively.",
+            "levels": {
+              "Emerging": "Assists in preparing analytics reports.",
+              "Developing": "Prepares performance analysis reports.",
+              "Proficient": "Produces comprehensive analytical reports and briefings.",
+              "Advanced": "Provides executive-level analytical guidance and reporting frameworks."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy and Regulatory Compliance Monitoring",
+        "definition": "The ability to interpret, apply, monitor, assess, and promote compliance with laws, rules, regulations, policies, issuances, standards, and performance management requirements to ensure organizational accountability, transparency, and adherence to prescribed mandates.",
+        "dimensions": [
+          {
+            "name": "Regulatory Awareness",
+            "definition": "The ability to understand applicable laws, policies, guidelines, and performance management requirements.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of relevant requirements.",
+              "Developing": "Understands provisions applicable to assigned functions.",
+              "Proficient": "Interprets and explains policy requirements accurately.",
+              "Advanced": "Provides expert advice on policy application and compliance."
+            }
+          },
+          {
+            "name": "Policy Interpretation",
+            "definition": "The ability to analyze and apply regulatory provisions consistently and appropriately.",
+            "levels": {
+              "Emerging": "Applies policies as instructed.",
+              "Developing": "Interprets routine policy provisions.",
+              "Proficient": "Resolves policy-related issues and inconsistencies.",
+              "Advanced": "Provides authoritative interpretation and recommendations."
+            }
+          },
+          {
+            "name": "Compliance Monitoring",
+            "definition": "The ability to assess adherence of offices and personnel to established requirements and standards.",
+            "levels": {
+              "Emerging": "Participates in compliance monitoring activities.",
+              "Developing": "Tracks compliance status and submission requirements.",
+              "Proficient": "Conducts comprehensive compliance reviews and assessments.",
+              "Advanced": "Designs compliance monitoring systems and governance mechanisms."
+            }
+          },
+          {
+            "name": "Compliance Validation",
+            "definition": "The ability to verify supporting documents, evidence, and reports to determine compliance status.",
+            "levels": {
+              "Emerging": "Reviews submissions for completeness.",
+              "Developing": "Validates routine documentary requirements.",
+              "Proficient": "Evaluates sufficiency and validity of compliance evidence.",
+              "Advanced": "Establishes validation methodologies and assurance mechanisms."
+            }
+          },
+          {
+            "name": "Issue Identification",
+            "definition": "The ability to detect compliance gaps, deficiencies, and implementation issues.",
+            "levels": {
+              "Emerging": "Identifies obvious compliance deficiencies.",
+              "Developing": "Recognizes recurring issues and inconsistencies.",
+              "Proficient": "Conducts root-cause analysis of compliance concerns.",
+              "Advanced": "Anticipates emerging risks and systemic compliance issues."
+            }
+          },
+          {
+            "name": "Corrective Action Monitoring",
+            "definition": "The ability to track and assess implementation of corrective actions and recommendations.",
+            "levels": {
+              "Emerging": "Assists in monitoring corrective actions.",
+              "Developing": "Tracks implementation status of recommendations.",
+              "Proficient": "Evaluates effectiveness of corrective interventions.",
+              "Advanced": "Establishes organization-wide compliance improvement mechanisms."
+            }
+          },
+          {
+            "name": "Compliance Reporting",
+            "definition": "The ability to prepare reports on compliance status, findings, observations, and recommendations.",
+            "levels": {
+              "Emerging": "Assists in preparing compliance reports.",
+              "Developing": "Prepares routine compliance monitoring reports.",
+              "Proficient": "Produces comprehensive compliance assessments.",
+              "Advanced": "Provides strategic compliance reporting and governance advice."
+            }
+          },
+          {
+            "name": "Governance Support",
+            "definition": "The ability to promote accountability, transparency, and continuous compliance improvement.",
+            "levels": {
+              "Emerging": "Understands governance principles.",
+              "Developing": "Supports compliance and governance initiatives.",
+              "Proficient": "Promotes accountability across organizational units.",
+              "Advanced": "Leads governance and compliance management programs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stakeholder Engagement and Technical Assistance",
+        "definition": "The ability to establish and maintain productive relationships with internal and external stakeholders through effective coordination, communication, consultation, advisory services, and technical assistance to support compliance with performance management requirements, organizational objectives, and continuous improvement initiatives.",
+        "dimensions": [
+          {
+            "name": "Stakeholder Relationship Management",
+            "definition": "The ability to establish, maintain, and strengthen professional and collaborative relationships with stakeholders to support performance management objectives.",
+            "levels": {
+              "Emerging": "Maintains professional working relationships with stakeholders.",
+              "Developing": "Establishes rapport and effective working relationships with stakeholders.",
+              "Proficient": "Sustains collaborative partnerships across offices and units.",
+              "Advanced": "Develops strategic partnerships that advance organizational performance objectives."
+            }
+          },
+          {
+            "name": "Stakeholder Communication",
+            "definition": "The ability to communicate performance management requirements, information, policies, and recommendations clearly and effectively to various stakeholders.",
+            "levels": {
+              "Emerging": "Communicates routine information accurately and courteously.",
+              "Developing": "Explains performance management requirements and procedures clearly.",
+              "Proficient": "Tailors communication approaches to stakeholder needs and situations.",
+              "Advanced": "Influences stakeholder understanding and commitment through strategic communication."
+            }
+          },
+          {
+            "name": "Technical Advisory Services",
+            "definition": "The ability to provide guidance, clarification, recommendations, and advisory services on performance management systems, processes, and requirements.",
+            "levels": {
+              "Emerging": "Provides basic information on established procedures when requested.",
+              "Developing": "Responds to routine inquiries and provides procedural guidance.",
+              "Proficient": "Provides technical advice and resolves complex performance management concerns.",
+              "Advanced": "Serves as subject matter expert and authority on performance management systems."
+            }
+          },
+          {
+            "name": "Stakeholder Consultation",
+            "definition": "The ability to engage stakeholders in discussions, gather inputs, build consensus, and address concerns related to performance management initiatives.",
+            "levels": {
+              "Emerging": "Participates in consultation activities when assigned.",
+              "Developing": "Collects stakeholder feedback and inputs.",
+              "Proficient": "Facilitates consultations and addresses stakeholder concerns constructively.",
+              "Advanced": "Leads strategic consultations involving multiple stakeholders and competing interests."
+            }
+          },
+          {
+            "name": "Issue Resolution and Problem Solving",
+            "definition": "The ability to identify, analyze, and resolve stakeholder concerns, implementation issues, and performance management challenges.",
+            "levels": {
+              "Emerging": "Escalates issues through proper channels.",
+              "Developing": "Resolves routine concerns using established guidelines.",
+              "Proficient": "Diagnoses root causes and implements practical solutions.",
+              "Advanced": "Resolves highly complex issues and develops systemic solutions."
+            }
+          },
+          {
+            "name": "Coordination and Collaboration",
+            "definition": "The ability to coordinate activities, synchronize efforts, and promote cooperation among offices and stakeholders.",
+            "levels": {
+              "Emerging": "Participates in coordination activities and meetings.",
+              "Developing": "Coordinates routine activities and stakeholder requirements.",
+              "Proficient": "Facilitates collaboration among multiple offices and stakeholders.",
+              "Advanced": "Establishes collaborative mechanisms supporting organization-wide initiatives."
+            }
+          },
+          {
+            "name": "Client Service Orientation",
+            "definition": "The ability to anticipate, understand, and respond effectively to stakeholder needs while maintaining service excellence.",
+            "levels": {
+              "Emerging": "Responds to stakeholder requests within established timelines.",
+              "Developing": "Provides responsive and reliable support services.",
+              "Proficient": "Anticipates stakeholder needs and delivers value-added assistance.",
+              "Advanced": "Establishes a culture of service excellence and stakeholder partnership."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Secretariat and Meeting Management",
+        "definition": "he ability to plan, organize, facilitate, document, coordinate, and monitor meetings, conferences, committee activities, and secretariat operations to ensure effective decision-making, accountability, and achievement of organizational objectives.",
+        "dimensions": [
+          {
+            "name": "Meeting Planning and Organization",
+            "definition": "The ability to plan, schedule, prepare, and organize meetings, conferences, workshops, and committee activities.",
+            "levels": {
+              "Emerging": "Assists in logistical preparations for meetings and activities.",
+              "Developing": "Organizes routine meeting requirements and schedules.",
+              "Proficient": "Manages end-to-end planning and coordination of meetings and conferences.",
+              "Advanced": "Establishes systems and standards for organization-wide meeting management."
+            }
+          },
+          {
+            "name": "Agenda and Documentation Preparation",
+            "definition": "The ability to prepare meeting agendas, briefing materials, reference documents, and related communications.",
+            "levels": {
+              "Emerging": "Assists in preparing meeting materials.",
+              "Developing": "Prepares agendas and standard reference documents.",
+              "Proficient": "Develops comprehensive meeting documentation and briefing packages.",
+              "Advanced": "Establishes documentation standards and quality control measures."
+            }
+          },
+          {
+            "name": "Meeting Facilitation Support",
+            "definition": "The ability to coordinate, support, and facilitate meetings, discussions, and deliberations to ensure productive outcomes.",
+            "levels": {
+              "Emerging": "Provides administrative support during meetings.",
+              "Developing": "Coordinates meeting proceedings and participant requirements.",
+              "Proficient": "Facilitates discussions and ensures orderly conduct of meetings.",
+              "Advanced": "Leads high-level meetings and multi-stakeholder engagements."
+            }
+          },
+          {
+            "name": "Minutes and Records Management",
+            "definition": "The ability to accurately capture, document, maintain, and manage records of meetings, decisions, and action items.",
+            "levels": {
+              "Emerging": "Records notes and meeting proceedings as instructed.",
+              "Developing": "Prepares meeting minutes accurately and promptly.",
+              "Proficient": "Ensures completeness, accuracy, and accessibility of meeting records.",
+              "Advanced": "Establishes records management systems supporting governance and accountability."
+            }
+          },
+          {
+            "name": "Action Item Monitoring",
+            "definition": "The ability to track, monitor, and follow up commitments, decisions, and assigned responsibilities arising from meetings.",
+            "levels": {
+              "Emerging": "Maintains records of assigned action items.",
+              "Developing": "Monitors status of action items and follows up responsible units.",
+              "Proficient": "Evaluates completion and effectiveness of agreed actions.",
+              "Advanced": "Develops monitoring frameworks and accountability mechanisms."
+            }
+          },
+          {
+            "name": "Committee and Secretariat Administration",
+            "definition": "The ability to provide administrative, operational, and technical support to committees, teams, and governing bodies.",
+            "levels": {
+              "Emerging": "Performs assigned secretariat duties.",
+              "Developing": "Coordinates routine committee and secretariat functions.",
+              "Proficient": "Manages secretariat operations and ensures seamless support services.",
+              "Advanced": "Directs complex secretariat functions supporting executive decision-making."
+            }
+          },
+          {
+            "name": "Coordination and Stakeholder Support",
+            "definition": "The ability to coordinate with participants, resource persons, offices, and stakeholders to ensure successful conduct of activities.",
+            "levels": {
+              "Emerging": "Communicates meeting details to participants.",
+              "Developing": "Coordinates participant requirements and logistical arrangements.",
+              "Proficient": "Maintains effective coordination among all concerned parties.",
+              "Advanced": "Leads stakeholder engagement strategies for major organizational activities."
+            }
+          },
+          {
+            "name": "Governance and Decision Support",
+            "definition": "The ability to support governance processes by providing accurate information, monitoring resolutions, and facilitating implementation of decisions.",
+            "levels": {
+              "Emerging": "Understands basic committee procedures and requirements.",
+              "Developing": "Assists in implementing committee decisions and resolutions.",
+              "Proficient": "Provides reliable information and monitoring support for governance processes.",
+              "Advanced": "Serves as strategic adviser on governance and committee administration practices."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "IAD I",
@@ -8314,54 +9905,1350 @@
   {
     "code": "CRDD",
     "name": "Contract Review and Documentation Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Legal Service",
     "officeOrder": 9,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "Contract_Review and Documentation Division.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Contract Review and Legal Drafting",
+        "definition": "The ability to analyze, formulate, review, revise and finalize contracts and legal instruments so that terms are legally sound, internally consistent, complete, clear and protective of the Department’s interests.",
+        "dimensions": [
+          {
+            "name": "Contract Analysis and Interpretation",
+            "definition": "Ability to examine rights, obligations, conditions, liabilities, remedies and legal implications of proposed contractual terms.",
+            "levels": {
+              "Emerging": "Identifies basic provisions and issues with guidance.",
+              "Developing": "Reviews routine provisions and flags issues independently.",
+              "Proficient": "Analyzes complex provisions, interactions and legal consequences; recommends revisions.",
+              "Advanced": "Provides expert direction on complex or high-risk contractual interpretation."
+            }
+          },
+          {
+            "name": "Legal Drafting and Revision",
+            "definition": "Ability to formulate and revise contracts, clauses, endorsements and legal instruments using precise and appropriate legal language.",
+            "levels": {
+              "Emerging": "Assists with approved formats and references.",
+              "Developing": "Drafts routine clauses and documents accurately.",
+              "Proficient": "Drafts/revises complex instruments and resolves drafting issues.",
+              "Advanced": "Sets drafting approaches for complex/high-risk instruments and mentors others."
+            }
+          },
+          {
+            "name": "Legal Sufficiency and Risk Review",
+            "definition": "Ability to assess whether contractual provisions adequately address legal requirements, exposure, safeguards and enforceability concerns.",
+            "levels": {
+              "Emerging": "Recognizes obvious deficiencies and risks.",
+              "Developing": "Checks routine legal sufficiency using established criteria.",
+              "Proficient": "Evaluates material risks and recommends appropriate safeguards.",
+              "Advanced": "Provides expert judgment on significant contractual exposures and safeguards."
+            }
+          },
+          {
+            "name": "Contract Structure and Clause Development",
+            "definition": "Ability to translate legal and operational requirements into coherent contractual structures and workable clauses.",
+            "levels": {
+              "Emerging": "Assists in structuring routine clauses from references.",
+              "Developing": "Develops routine clauses suited to stated requirements.",
+              "Proficient": "Structures complex clauses and reconciles related provisions.",
+              "Advanced": "Guides complex contract architecture and clause-development standards."
+            }
+          },
+          {
+            "name": "Consistency and Completeness Review",
+            "definition": "Ability to verify consistency among definitions, obligations, schedules, annexes, cross-references and supporting instruments.",
+            "levels": {
+              "Emerging": "Checks obvious omissions with guidance.",
+              "Developing": "Performs routine completeness and cross-reference checks.",
+              "Proficient": "Resolves substantive inconsistencies across complex document sets.",
+              "Advanced": "Establishes review controls for high-risk or multi-document contracts."
+            }
+          },
+          {
+            "name": "Review Quality and Timeliness",
+            "definition": "Ability to deliver accurate legal reviews within prescribed timelines while prioritizing work according to urgency, complexity and risk.",
+            "levels": {
+              "Emerging": "Completes assigned reviews with close guidance.",
+              "Developing": "Manages routine review assignments within deadlines.",
+              "Proficient": "Prioritizes complex/urgent reviews while maintaining quality.",
+              "Advanced": "Directs quality and workload controls for critical or high-volume reviews."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Procurement and Bidding Legal Compliance",
+        "definition": "The ability to interpret and apply procurement and bidding requirements and provide legally sound review, advice and representation in procurement-related matters.",
+        "dimensions": [
+          {
+            "name": "Procurement Law and Regulatory Application",
+            "definition": "Ability to identify and apply governing procurement laws, rules, regulations and issuances to assigned matters.",
+            "levels": {
+              "Emerging": "Identifies applicable rules with guidance.",
+              "Developing": "Applies established requirements to routine matters.",
+              "Proficient": "Interprets complex or conflicting requirements and develops defensible positions.",
+              "Advanced": "Provides authoritative guidance on significant procurement-law issues."
+            }
+          },
+          {
+            "name": "Bidding and Tender Compliance",
+            "definition": "Ability to review bidding processes, tender documents and procurement requirements for legal compliance.",
+            "levels": {
+              "Emerging": "Recognizes basic bidding requirements.",
+              "Developing": "Reviews routine bidding documents against applicable rules.",
+              "Proficient": "Analyzes complex bidding/tender issues and recommends corrective action.",
+              "Advanced": "Provides expert direction on high-risk or disputed bidding matters."
+            }
+          },
+          {
+            "name": "Award and Contract-Formation Compliance",
+            "definition": "Ability to assess legal requirements affecting award decisions and transition from procurement to contract formation.",
+            "levels": {
+              "Emerging": "Identifies basic award requirements.",
+              "Developing": "Checks routine award and contract-formation documentation.",
+              "Proficient": "Analyzes complex award/formation issues and legal implications.",
+              "Advanced": "Advises on significant or precedent-setting award/formation matters."
+            }
+          },
+          {
+            "name": "Procurement Documentation and Evidence",
+            "definition": "Ability to assess the completeness, traceability and legal sufficiency of procurement records supporting decisions.",
+            "levels": {
+              "Emerging": "Checks assigned documents using guidance/checklists.",
+              "Developing": "Reviews routine documentary sets accurately.",
+              "Proficient": "Identifies material documentary gaps and recommends remedies.",
+              "Advanced": "Strengthens controls for defensible procurement documentation."
+            }
+          },
+          {
+            "name": "BAC Legal Support",
+            "definition": "Ability to provide legal inputs or representation to Bids and Awards Committees (BAC) when assigned or delegated.",
+            "levels": {
+              "Emerging": "Prepares assigned inputs with guidance.",
+              "Developing": "Participates effectively in routine BAC activities.",
+              "Proficient": "Provides substantive advice on complex deliberations and issues.",
+              "Advanced": "Provides senior legal guidance on significant BAC matters."
+            }
+          },
+          {
+            "name": "Procurement Legal Advisory",
+            "definition": "Ability to formulate clear, timely and defensible legal advice on procurement questions.",
+            "levels": {
+              "Emerging": "Responds to routine questions using references and guidance.",
+              "Developing": "Provides sound advice on routine procurement issues.",
+              "Proficient": "Provides reasoned recommendations on complex issues.",
+              "Advanced": "Serves as expert resource on significant procurement compliance questions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Contract Negotiation and Legal Advisory",
+        "definition": "The ability to prepare and conduct contract negotiations and provide reasoned legal advice that balances legal, operational, commercial and institutional considerations.",
+        "dimensions": [
+          {
+            "name": "Negotiation Preparation",
+            "definition": "Ability to identify issues, objectives, authorities, fallback positions and supporting facts before negotiation.",
+            "levels": {
+              "Emerging": "Compiles facts and issues with guidance.",
+              "Developing": "Prepares routine negotiation materials.",
+              "Proficient": "Develops issue-based positions and negotiation options for complex matters.",
+              "Advanced": "Directs preparation strategy for high-stakes negotiations."
+            }
+          },
+          {
+            "name": "Negotiation Conduct and Advocacy",
+            "definition": "Ability to communicate and defend legally sound positions during negotiations.",
+            "levels": {
+              "Emerging": "Observes and supports negotiations.",
+              "Developing": "Participates effectively in routine negotiations.",
+              "Proficient": "Handles complex issues, objections and trade-offs.",
+              "Advanced": "Leads high-stakes negotiations or sets negotiation strategy."
+            }
+          },
+          {
+            "name": "Risk Allocation and Interest Balancing",
+            "definition": "Ability to assess competing legal, operational, financial and contractual interests and recommend balanced positions.",
+            "levels": {
+              "Emerging": "Recognizes basic risks and competing interests.",
+              "Developing": "Assesses routine risks and proposes practical options.",
+              "Proficient": "Evaluates complex risk allocation and recommends defensible positions.",
+              "Advanced": "Provides expert judgment on material risk and institutional interests."
+            }
+          },
+          {
+            "name": "Legal Advisory and Recommendation",
+            "definition": "Ability to provide clear, reasoned and actionable legal advice on contract matters.",
+            "levels": {
+              "Emerging": "Prepares factual/legal inputs with guidance.",
+              "Developing": "Provides sound advice on routine issues.",
+              "Proficient": "Develops recommendations on complex or sensitive matters.",
+              "Advanced": "Serves as senior legal resource for significant decisions."
+            }
+          },
+          {
+            "name": "Stakeholder Consultation",
+            "definition": "Ability to obtain and reconcile requirements from implementing offices, PMOs, procurement units, regional offices, attached agencies and other stakeholders.",
+            "levels": {
+              "Emerging": "Uses established channels to obtain information.",
+              "Developing": "Coordinates routine requirements effectively.",
+              "Proficient": "Resolves conflicting requirements and clarifies legal/operational implications.",
+              "Advanced": "Leads complex consultation and recommends institutional positions."
+            }
+          },
+          {
+            "name": "Issue Resolution and Position Papers",
+            "definition": "Ability to analyze disputed or unresolved issues and formulate documented legal positions or options.",
+            "levels": {
+              "Emerging": "Identifies issues and organizes supporting information.",
+              "Developing": "Drafts routine issue summaries and options.",
+              "Proficient": "Develops defensible positions on complex issues.",
+              "Advanced": "Provides expert resolution strategies for material disputes or policy-sensitive matters."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Research, Policy and Issuance Development",
+        "definition": "The ability to conduct legal research and develop evidence-based recommendations for laws, rules, regulations and issuances concerning bidding, awards and contract requirements.",
+        "dimensions": [
+          {
+            "name": "Legal Research and Issue Framing",
+            "definition": "Ability to identify legal questions, locate authoritative sources and frame issues for decision.",
+            "levels": {
+              "Emerging": "Locates basic authorities with guidance.",
+              "Developing": "Conducts focused research on routine issues.",
+              "Proficient": "Synthesizes authorities for complex legal questions.",
+              "Advanced": "Directs research strategy on novel or high-impact issues."
+            }
+          },
+          {
+            "name": "Legislative and Regulatory Monitoring",
+            "definition": "Ability to monitor changes in laws, rules, regulations and relevant issuances affecting Contract Review and Documentation Division (CRDD) work.",
+            "levels": {
+              "Emerging": "Recognizes major updates with guidance.",
+              "Developing": "Tracks relevant routine changes and alerts responsible staff.",
+              "Proficient": "Assesses implications of significant regulatory changes.",
+              "Advanced": "Leads monitoring and translates material changes into organizational action."
+            }
+          },
+          {
+            "name": "Policy and Issuance Drafting",
+            "definition": "Ability to draft or contribute to laws, rules, regulations, policies and internal issuances related to procurement and contracts.",
+            "levels": {
+              "Emerging": "Assists with formats and supporting research.",
+              "Developing": "Drafts routine policy/issuance provisions accurately.",
+              "Proficient": "Develops complex provisions and resolves legal-policy issues.",
+              "Advanced": "Shapes policy/issuance approaches and standards for complex matters."
+            }
+          },
+          {
+            "name": "Comparative Legal Analysis",
+            "definition": "Ability to compare authorities, provisions, interpretations and institutional practices to identify defensible approaches.",
+            "levels": {
+              "Emerging": "Compares basic provisions with guidance.",
+              "Developing": "Performs routine comparison of relevant authorities.",
+              "Proficient": "Analyzes competing interpretations and implications.",
+              "Advanced": "Provides expert comparative analysis for significant policy choices."
+            }
+          },
+          {
+            "name": "Policy Recommendation and Options Analysis",
+            "definition": "Ability to translate research findings into practical legal options and recommendations.",
+            "levels": {
+              "Emerging": "Summarizes findings with guidance.",
+              "Developing": "Prepares routine options and recommendations.",
+              "Proficient": "Develops evidence-based recommendations for complex issues.",
+              "Advanced": "Advises management on strategic legal-policy alternatives and consequences."
+            }
+          },
+          {
+            "name": "Legal Knowledge Dissemination",
+            "definition": "Ability to communicate material legal or regulatory developments to relevant personnel and offices.",
+            "levels": {
+              "Emerging": "Shares identified updates with guidance.",
+              "Developing": "Provides clear summaries of routine changes.",
+              "Proficient": "Explains complex changes and their operational implications.",
+              "Advanced": "Leads knowledge-sharing and institutionalizes legal updates and guidance."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Representation, Committee Participation and Meeting Support",
+        "definition": "The ability to represent the Office when assigned, participate effectively in committees and hearings, and prepare accurate briefs and supporting materials for DOTr participation.",
+        "dimensions": [
+          {
+            "name": "BAC and Committee Representation",
+            "definition": "Ability to represent the Office in BACs and other committees when duly assigned or delegated.",
+            "levels": {
+              "Emerging": "Attends and records assigned matters with guidance.",
+              "Developing": "Represents the Office effectively in routine committee work.",
+              "Proficient": "Handles complex committee deliberations and follow-through.",
+              "Advanced": "Provides senior-level representation and guidance on significant matters."
+            }
+          },
+          {
+            "name": "Meeting and Hearing Representation",
+            "definition": "Ability to represent legal positions in meetings, hearings and related proceedings within delegated authority.",
+            "levels": {
+              "Emerging": "Observes proceedings and supports preparation.",
+              "Developing": "Presents assigned matters accurately.",
+              "Proficient": "Handles complex questions and protects the Office’s legal position.",
+              "Advanced": "Provides authoritative representation in high-stakes proceedings."
+            }
+          },
+          {
+            "name": "Briefing and Issue-Note Preparation",
+            "definition": "Ability to prepare concise, accurate and decision-useful briefs, issue summaries, talking points and supporting materials.",
+            "levels": {
+              "Emerging": "Compiles facts and documents with guidance.",
+              "Developing": "Prepares routine briefs accurately.",
+              "Proficient": "Develops evidence-based briefs for complex matters.",
+              "Advanced": "Directs briefing strategy for high-stakes meetings or decisions."
+            }
+          },
+          {
+            "name": "Oral Presentation and Legal Communication",
+            "definition": "Ability to explain legal issues clearly, accurately and persuasively to committees, management and non-legal stakeholders.",
+            "levels": {
+              "Emerging": "Communicates basic points with guidance.",
+              "Developing": "Explains assigned issues clearly.",
+              "Proficient": "Handles complex questions and differing views effectively.",
+              "Advanced": "Provides persuasive senior-level legal communication and mentors others."
+            }
+          },
+          {
+            "name": "Meeting Coordination and Follow-through",
+            "definition": "Ability to track commitments, clarify responsibilities and ensure legal actions arising from meetings are completed.",
+            "levels": {
+              "Emerging": "Records and tracks assigned actions with guidance.",
+              "Developing": "Monitors routine commitments and follow-ups.",
+              "Proficient": "Resolves complex follow-through gaps and escalates material risks.",
+              "Advanced": "Strengthens systems for critical meeting commitments and accountability."
+            }
+          },
+          {
+            "name": "Professional Ethics and Delegated Authority",
+            "definition": "Ability to exercise sound professional judgment, confidentiality and authority boundaries when representing the Office.",
+            "levels": {
+              "Emerging": "Follows instructions, confidentiality and authority limits.",
+              "Developing": "Applies professional standards consistently.",
+              "Proficient": "Exercises independent judgment within delegated authority.",
+              "Advanced": "Models ethical practice and provides guidance on sensitive representation matters."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Documentation, Endorsement and Work Management",
+        "definition": "The ability to prepare, route, track and maintain legal documents, endorsements, actions, records and reportorial requirements in support of efficient and accountable CRDD operations.",
+        "dimensions": [
+          {
+            "name": "Contract Endorsements and Legal Actions",
+            "definition": "Ability to prepare accurate endorsements, actions and transmittals on contracts for concerned offices as required by law.",
+            "levels": {
+              "Emerging": "Assists with standard formats and routing.",
+              "Developing": "Prepares routine endorsements/actions accurately.",
+              "Proficient": "Drafts complex actions and resolves documentary/legal issues.",
+              "Advanced": "Sets quality standards for high-risk endorsements and actions."
+            }
+          },
+          {
+            "name": "Legal Case and Work Tracking",
+            "definition": "Ability to organize assignments, monitor status, deadlines, pending actions and required follow-through.",
+            "levels": {
+              "Emerging": "Updates assigned trackers with guidance.",
+              "Developing": "Maintains accurate status and deadline monitoring.",
+              "Proficient": "Identifies bottlenecks and prioritizes complex pending matters.",
+              "Advanced": "Directs workload controls and improves case/workflow monitoring."
+            }
+          },
+          {
+            "name": "Legal Records and Document Control",
+            "definition": "Ability to organize, safeguard, retrieve and maintain reliable legal and contract records.",
+            "levels": {
+              "Emerging": "Files and retrieves records with guidance.",
+              "Developing": "Maintains accurate and orderly records.",
+              "Proficient": "Resolves complex documentation gaps and traceability issues.",
+              "Advanced": "Strengthens records controls and accountability for critical files."
+            }
+          },
+          {
+            "name": "Reportorial and Administrative Compliance",
+            "definition": "Ability to prepare and submit required internal reports and administrative outputs accurately and within prescribed deadlines.",
+            "levels": {
+              "Emerging": "Provides required information with guidance.",
+              "Developing": "Completes routine reports on time and accurately.",
+              "Proficient": "Reviews complex reports and resolves inconsistencies.",
+              "Advanced": "Oversees critical reportorial controls and quality assurance."
+            }
+          },
+          {
+            "name": "Document Routing and Transmittal Control",
+            "definition": "Ability to ensure documents reach the correct office/person through appropriate routing, acknowledgement and follow-through.",
+            "levels": {
+              "Emerging": "Follows routing instructions with guidance.",
+              "Developing": "Routes routine documents accurately and monitors receipt.",
+              "Proficient": "Resolves complex routing or transmittal issues.",
+              "Advanced": "Improves routing controls and accountability for critical documents."
+            }
+          },
+          {
+            "name": "Confidentiality, Data Integrity and Service Support",
+            "definition": "Ability to protect sensitive legal information, maintain accurate records/data and provide responsive administrative support to legal work.",
+            "levels": {
+              "Emerging": "Handles information under close guidance.",
+              "Developing": "Maintains confidentiality and accurate data in routine work.",
+              "Proficient": "Resolves sensitive data/document issues appropriately.",
+              "Advanced": "Establishes strong confidentiality, integrity and service-support practices."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "IAD",
     "name": "Investigation and Adjudication Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "with-framework",
+    "status": "populated",
     "office": "Legal Service",
     "officeOrder": 9,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "Proposed_Revised_Competency_Framework_IAD_Following_Accounting_Format.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Case Management and Litigation Supervision",
+        "definition": "The ability to monitor, coordinate, prioritize, and supervise cases involving the Department and its officials and personnel, ensuring appropriate legal action, documentation, and timely case movement.",
+        "dimensions": [
+          {
+            "name": "Case Intake and Classification",
+            "definition": "Ability to receive, organize, assess, and classify cases according to nature, parties, legal issues, status, urgency, and required action.",
+            "levels": {
+              "Emerging": "Records basic case information and identifies obvious requirements with guidance.",
+              "Developing": "Classifies routine cases accurately and identifies required actions and deadlines.",
+              "Proficient": "Assesses complex cases, identifies critical issues and dependencies, and recommends appropriate handling.",
+              "Advanced": "Provides expert direction on high-risk or complex case classification and establishes effective intake practices."
+            }
+          },
+          {
+            "name": "Case Monitoring and Tracking",
+            "definition": "Ability to maintain accurate status information, deadlines, developments, and action points for assigned cases.",
+            "levels": {
+              "Emerging": "Updates case trackers with guidance.",
+              "Developing": "Maintains accurate routine case status and deadline information.",
+              "Proficient": "Monitors complex cases, anticipates slippage, and initiates corrective follow-up.",
+              "Advanced": "Strengthens case-monitoring systems and provides division-wide oversight of critical cases."
+            }
+          },
+          {
+            "name": "Case Strategy and Prioritization",
+            "definition": "Ability to determine appropriate priorities, sequencing, and legal action based on case complexity, urgency, risk, and Department interests.",
+            "levels": {
+              "Emerging": "Follows assigned priorities and escalates urgent matters.",
+              "Developing": "Prioritizes routine caseload using established criteria.",
+              "Proficient": "Develops case strategies and prioritizes complex matters based on legal and operational risk.",
+              "Advanced": "Provides strategic direction for critical or high-impact cases and allocates resources accordingly."
+            }
+          },
+          {
+            "name": "Coordination with Counsel and Stakeholders",
+            "definition": "Ability to coordinate case requirements with OSG, Department offices, ISLES, CODI, disciplinary bodies, and other stakeholders.",
+            "levels": {
+              "Emerging": "Coordinates routine documents and requests with guidance.",
+              "Developing": "Maintains effective routine coordination and follows through on requirements.",
+              "Proficient": "Resolves complex coordination issues and aligns multiple stakeholders on case actions.",
+              "Advanced": "Leads complex inter-agency/cross-office coordination and establishes effective case coordination mechanisms."
+            }
+          },
+          {
+            "name": "Case Accountability and Timeliness",
+            "definition": "Ability to ensure that case actions, submissions, pleadings, and follow-ups are complete, accurate, and timely.",
+            "levels": {
+              "Emerging": "Completes assigned actions within prescribed timelines with guidance.",
+              "Developing": "Meets routine deadlines and promptly flags delays.",
+              "Proficient": "Manages competing deadlines in complex cases and prevents avoidable delay.",
+              "Advanced": "Provides division-level oversight of critical deadlines and improves controls for sustained timely case action."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Research, Analysis and Pleading",
+        "definition": "The ability to conduct legal research and analysis and translate findings into accurate, persuasive, and legally defensible complaints, answers, pleadings, and other case documents.",
+        "dimensions": [
+          {
+            "name": "Legal Research and Authority Identification",
+            "definition": "Ability to identify, retrieve, verify, and apply relevant laws, rules, jurisprudence, and other authorities to case issues.",
+            "levels": {
+              "Emerging": "Locates identified authorities with guidance.",
+              "Developing": "Conducts routine legal research and verifies applicable authorities.",
+              "Proficient": "Researches complex or novel issues and evaluates competing authorities.",
+              "Advanced": "Provides expert research direction on significant or novel litigation issues."
+            }
+          },
+          {
+            "name": "Fact-Law Analysis",
+            "definition": "Ability to connect material facts and evidence with legal elements, defenses, rights, liabilities, and procedural requirements.",
+            "levels": {
+              "Emerging": "Identifies basic facts and legal issues with guidance.",
+              "Developing": "Analyzes routine facts against applicable legal requirements.",
+              "Proficient": "Develops comprehensive analyses for complex cases and identifies strengths and weaknesses.",
+              "Advanced": "Provides expert analytical direction on high-risk or precedent-setting matters."
+            }
+          },
+          {
+            "name": "Pleading Preparation",
+            "definition": "Ability to draft or assist in preparing complaints, answers, motions, memoranda, and other pleadings that are complete, accurate, timely, and responsive.",
+            "levels": {
+              "Emerging": "Assists with assigned portions using approved formats and guidance.",
+              "Developing": "Drafts routine pleadings accurately with appropriate support.",
+              "Proficient": "Drafts complex pleadings, integrates evidence and legal arguments, and resolves substantive issues.",
+              "Advanced": "Provides expert review/direction on major pleadings and develops drafting standards or templates."
+            }
+          },
+          {
+            "name": "Legal Argument and Position Development",
+            "definition": "Ability to formulate coherent, persuasive, and defensible legal arguments aligned with the Department’s authorized position.",
+            "levels": {
+              "Emerging": "Uses established arguments with guidance.",
+              "Developing": "Develops sound arguments for routine issues.",
+              "Proficient": "Builds persuasive arguments for complex factual and legal issues and anticipates counterarguments.",
+              "Advanced": "Shapes strategic legal positions on significant cases and mentors others in advanced advocacy."
+            }
+          },
+          {
+            "name": "Pleading Quality and Compliance",
+            "definition": "Ability to ensure pleadings comply with applicable procedural, substantive, formatting, and filing requirements.",
+            "levels": {
+              "Emerging": "Checks basic completeness and follows instructions with guidance.",
+              "Developing": "Ensures routine compliance and corrects identified deficiencies.",
+              "Proficient": "Reviews complex pleadings for substantive and procedural sufficiency.",
+              "Advanced": "Establishes high-level quality controls and provides expert assurance for critical filings."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Investigation, Fact-Finding and Evidence Evaluation",
+        "definition": "The ability to conduct or supervise specialized investigations, fact-finding inquiries, evidence gathering, validation, and evaluation to establish reliable facts for legal and administrative action.",
+        "dimensions": [
+          {
+            "name": "Investigation Planning and Scoping",
+            "definition": "Ability to define investigation objectives, issues, scope, methodology, sources, and required resources.",
+            "levels": {
+              "Emerging": "Follows an established investigation plan with guidance.",
+              "Developing": "Plans routine fact-finding activities and identifies information requirements.",
+              "Proficient": "Designs complex investigations and adjusts scope based on emerging evidence.",
+              "Advanced": "Provides expert direction on sensitive or complex investigations and investigation methodology."
+            }
+          },
+          {
+            "name": "Fact-Finding and Information Gathering",
+            "definition": "Ability to gather relevant facts through records review, interviews, field activities, and other appropriate methods.",
+            "levels": {
+              "Emerging": "Collects assigned information using established procedures.",
+              "Developing": "Conducts routine fact-finding systematically and accurately.",
+              "Proficient": "Handles complex fact patterns, conflicting accounts, and multiple information sources.",
+              "Advanced": "Directs complex fact-finding efforts and establishes reliable investigation practices."
+            }
+          },
+          {
+            "name": "Evidence Evaluation and Validation",
+            "definition": "Ability to assess relevance, reliability, authenticity, consistency, and sufficiency of evidence supporting case conclusions.",
+            "levels": {
+              "Emerging": "Identifies obvious evidentiary gaps with guidance.",
+              "Developing": "Evaluates routine evidence against established criteria.",
+              "Proficient": "Assesses conflicting or complex evidence and determines its probative value.",
+              "Advanced": "Provides expert evaluation of critical evidence and guides others in evidentiary assessment."
+            }
+          },
+          {
+            "name": "Interview and Examination Techniques",
+            "definition": "Ability to conduct or support interviews, inquiries, and examinations that obtain relevant, accurate, and reliable information.",
+            "levels": {
+              "Emerging": "Uses approved questions and procedures with guidance.",
+              "Developing": "Conducts routine interviews effectively and documents responses accurately.",
+              "Proficient": "Handles sensitive or complex interviews, identifies inconsistencies, and pursues relevant follow-up.",
+              "Advanced": "Provides expert guidance on complex examinations and investigative interviewing."
+            }
+          },
+          {
+            "name": "Investigation Integrity and Documentation",
+            "definition": "Ability to maintain impartiality, confidentiality, chain/continuity of records where applicable, and complete documentation throughout the investigation.",
+            "levels": {
+              "Emerging": "Follows investigation and confidentiality procedures with guidance.",
+              "Developing": "Maintains accurate routine investigation records.",
+              "Proficient": "Ensures integrity and completeness of complex investigation documentation.",
+              "Advanced": "Establishes or improves safeguards that strengthen investigation integrity and defensibility."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Administrative Adjudication and Decision Review",
+        "definition": "The ability to assist in hearings, formulate and issue administrative charges, analyze disciplinary matters, and review appealed decisions using fair, lawful, and evidence-based processes.",
+        "dimensions": [
+          {
+            "name": "Administrative Charge Formulation",
+            "definition": "Ability to identify and articulate alleged administrative offenses, material facts, and supporting bases for appropriate administrative charges.",
+            "levels": {
+              "Emerging": "Assists in preparing charges using established guidance.",
+              "Developing": "Prepares routine charges accurately and identifies missing information.",
+              "Proficient": "Formulates complex charges based on evidence and applicable rules.",
+              "Advanced": "Provides expert guidance on complex or sensitive disciplinary charges."
+            }
+          },
+          {
+            "name": "Hearing Preparation and Conduct",
+            "definition": "Ability to prepare for and support administrative hearings, including organization of issues, evidence, pleadings, and procedural requirements.",
+            "levels": {
+              "Emerging": "Assists with hearing preparation and follows procedures with guidance.",
+              "Developing": "Handles routine hearing requirements and documentation independently.",
+              "Proficient": "Manages complex hearing preparation and responds appropriately to procedural/legal issues.",
+              "Advanced": "Provides expert direction for significant or contested administrative proceedings."
+            }
+          },
+          {
+            "name": "Due Process and Procedural Fairness",
+            "definition": "Ability to ensure that administrative proceedings are conducted consistently with applicable procedural requirements, fairness, and the rights of concerned parties.",
+            "levels": {
+              "Emerging": "Follows established procedural safeguards with guidance.",
+              "Developing": "Applies routine procedural requirements consistently.",
+              "Proficient": "Identifies and addresses complex due-process or procedural concerns.",
+              "Advanced": "Provides expert guidance on significant procedural issues and safeguards adjudicative integrity."
+            }
+          },
+          {
+            "name": "Decision and Appeal Analysis",
+            "definition": "Ability to analyze disciplinary decisions, grounds for appeal, evidence, findings, and applicable law and recommend appropriate action.",
+            "levels": {
+              "Emerging": "Identifies basic issues and supporting records with guidance.",
+              "Developing": "Reviews routine decisions and identifies clear errors or issues.",
+              "Proficient": "Analyzes complex appeals and develops reasoned recommendations.",
+              "Advanced": "Provides expert review of significant appealed decisions and develops institutional guidance."
+            }
+          },
+          {
+            "name": "Adjudicative Reasoning and Recommendation",
+            "definition": "Ability to formulate impartial, evidence-based, legally defensible recommendations based on established facts and applicable rules.",
+            "levels": {
+              "Emerging": "Summarizes facts and findings with guidance.",
+              "Developing": "Develops sound recommendations for routine matters.",
+              "Proficient": "Weighs complex evidence and legal issues to formulate defensible recommendations.",
+              "Advanced": "Provides expert adjudicative analysis on complex or precedent-setting matters and mentors others."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Representation and Advocacy",
+        "definition": "The ability to represent the Department, when properly authorized or deputized, before judicial or administrative bodies and in matters involving contract breach, enforcement, and/or arbitration.",
+        "dimensions": [
+          {
+            "name": "Court and Administrative Representation",
+            "definition": "Ability to represent the Department’s authorized position before judicial or administrative bodies within applicable authority.",
+            "levels": {
+              "Emerging": "Assists in representation and preparation under supervision.",
+              "Developing": "Handles routine appearances and procedural matters appropriately.",
+              "Proficient": "Manages complex proceedings and substantive legal issues effectively.",
+              "Advanced": "Provides senior-level representation in critical matters and guides litigation strategy."
+            }
+          },
+          {
+            "name": "Advocacy and Oral Argument",
+            "definition": "Ability to present clear, accurate, persuasive, and legally supported arguments before tribunals, committees, or other authorized forums.",
+            "levels": {
+              "Emerging": "Presents assigned points using prepared materials with guidance.",
+              "Developing": "Delivers clear oral arguments on routine matters.",
+              "Proficient": "Advocates effectively on complex factual and legal issues and responds to questions.",
+              "Advanced": "Provides expert advocacy on high-stakes matters and mentors others in oral advocacy."
+            }
+          },
+          {
+            "name": "Evidence and Witness Presentation",
+            "definition": "Ability to organize, present, examine, and respond to evidence and witness information consistent with applicable rules and case strategy.",
+            "levels": {
+              "Emerging": "Assists with evidence/witness preparation with guidance.",
+              "Developing": "Handles routine evidence and witness requirements accurately.",
+              "Proficient": "Manages complex evidentiary and witness issues during proceedings.",
+              "Advanced": "Provides expert direction on critical evidence and witness strategy."
+            }
+          },
+          {
+            "name": "Contract Enforcement and Arbitration Support",
+            "definition": "Ability to handle or support legal actions concerning breach, enforcement, and/or arbitration of contracts.",
+            "levels": {
+              "Emerging": "Assists with documents and research under guidance.",
+              "Developing": "Handles routine contract-dispute requirements.",
+              "Proficient": "Analyzes complex contractual disputes and supports appropriate advocacy strategy.",
+              "Advanced": "Provides expert direction on significant contract enforcement or arbitration matters."
+            }
+          },
+          {
+            "name": "Post-Proceeding Action and Case Strategy",
+            "definition": "Ability to translate proceedings, orders, rulings, and developments into timely case actions and recommendations.",
+            "levels": {
+              "Emerging": "Records outcomes and follows assigned actions with guidance.",
+              "Developing": "Completes routine post-proceeding actions on time.",
+              "Proficient": "Develops appropriate follow-up strategy for complex proceedings.",
+              "Advanced": "Provides strategic direction following significant rulings or proceedings."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Documentation, Reporting and Case Knowledge Management",
+        "definition": "The ability to maintain accurate case records, prepare post-investigation reports and other required reports, preserve institutional knowledge, and support reliable retrieval and accountability of case information.",
+        "dimensions": [
+          {
+            "name": "Case Records Management",
+            "definition": "Ability to organize, safeguard, update, retrieve, and maintain complete case files and supporting documents.",
+            "levels": {
+              "Emerging": "Files and retrieves assigned records using established procedures.",
+              "Developing": "Maintains accurate and organized routine case files.",
+              "Proficient": "Reviews complex files for completeness and resolves documentation gaps.",
+              "Advanced": "Strengthens case-record systems and controls for division-wide reliability."
+            }
+          },
+          {
+            "name": "Post-Investigation Report Writing",
+            "definition": "Ability to prepare clear, factual, analytical, and timely reports documenting investigation methods, evidence, findings, and recommendations.",
+            "levels": {
+              "Emerging": "Assists in compiling report inputs with guidance.",
+              "Developing": "Prepares accurate routine sections and supports timely completion.",
+              "Proficient": "Produces comprehensive reports for complex investigations with sound analysis.",
+              "Advanced": "Provides expert review and sets standards for high-quality post-investigation reporting."
+            }
+          },
+          {
+            "name": "Litigation Tracker and Monitoring Data",
+            "definition": "Ability to maintain reliable case-status, deadline, outcome, and monitoring data for management use.",
+            "levels": {
+              "Emerging": "Updates assigned tracking data with guidance.",
+              "Developing": "Maintains accurate routine tracker information.",
+              "Proficient": "Analyzes monitoring data to identify trends, risks, and delays.",
+              "Advanced": "Uses case data for strategic oversight and improves tracking systems."
+            }
+          },
+          {
+            "name": "Reportorial Compliance",
+            "definition": "Ability to prepare and submit required internal reports accurately and within prescribed deadlines.",
+            "levels": {
+              "Emerging": "Provides required information with guidance.",
+              "Developing": "Completes routine reports accurately and on time.",
+              "Proficient": "Reviews complex reports and resolves inconsistencies.",
+              "Advanced": "Oversees critical reportorial controls and improves reporting processes."
+            }
+          },
+          {
+            "name": "Knowledge Sharing and Institutional Learning",
+            "definition": "Ability to capture lessons, recurring legal issues, investigation practices, and case developments for institutional use.",
+            "levels": {
+              "Emerging": "Organizes reference materials with guidance.",
+              "Developing": "Shares routine case knowledge and maintains accessible references.",
+              "Proficient": "Identifies recurring issues and develops useful internal references or learning inputs.",
+              "Advanced": "Leads knowledge-sharing practices and converts case experience into improved systems, guidance, or mentoring."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "LARD",
     "name": "Legal Affairs and Research Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "with-framework",
+    "status": "populated",
     "office": "Legal Service",
     "officeOrder": 9,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "LARD_Following_Accounting_Format.docx",
+    "basis": "Basis: CY 2026 Division Performance Commitment and Review (DPCR) only",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Legal Research, Analysis and Statutory Interpretation",
+        "definition": "The ability to conduct legal research, interpret laws and rules, analyze legal issues, and develop well-supported legal positions relevant to DOTr operations and its attached agencies.",
+        "dimensions": [
+          {
+            "name": "Legal Research and Issue Identification",
+            "definition": "Ability to identify legal issues, locate relevant authorities, and organize information needed to answer referred questions.",
+            "levels": {
+              "Emerging": "Identifies basic legal issues and follows prescribed research methods with guidance.",
+              "Developing": "Conducts routine legal research and identifies applicable authorities independently.",
+              "Proficient": "Researches complex or novel issues, evaluates competing authorities, and develops defensible conclusions.",
+              "Advanced": "Provides expert research direction on complex issues and improves research methodologies, references, or institutional knowledge resources."
+            }
+          },
+          {
+            "name": "Statutory and Regulatory Interpretation",
+            "definition": "Ability to interpret laws, rules, regulations, and related issuances and determine their application to Department matters.",
+            "levels": {
+              "Emerging": "Recognizes applicable provisions and follows established interpretations with guidance.",
+              "Developing": "Applies relevant provisions to routine matters and identifies when clarification is needed.",
+              "Proficient": "Interprets complex or conflicting provisions and provides sound legal guidance.",
+              "Advanced": "Provides authoritative interpretation on significant or novel issues and contributes to improved institutional guidance."
+            }
+          },
+          {
+            "name": "Legal Analysis and Reasoning",
+            "definition": "Ability to connect facts, legal authorities, issues, and conclusions through logical and defensible legal reasoning.",
+            "levels": {
+              "Emerging": "Organizes facts and applies basic reasoning with guidance.",
+              "Developing": "Analyzes routine legal questions and supports conclusions with authorities.",
+              "Proficient": "Develops comprehensive analyses for complex matters and weighs alternative interpretations.",
+              "Advanced": "Provides expert analytical direction on significant legal issues and mentors others in legal reasoning."
+            }
+          },
+          {
+            "name": "Evidence and Authority Evaluation",
+            "definition": "Ability to assess the relevance, reliability, hierarchy, and applicability of legal authorities and supporting information.",
+            "levels": {
+              "Emerging": "Uses identified authorities and verifies basic references with guidance.",
+              "Developing": "Selects appropriate authorities for routine questions and checks supporting information.",
+              "Proficient": "Evaluates conflicting or complex authorities and determines their persuasive or controlling value.",
+              "Advanced": "Provides expert guidance on authority evaluation and establishes practices that strengthen legal defensibility."
+            }
+          },
+          {
+            "name": "Legal Risk and Implication Assessment",
+            "definition": "Ability to identify legal implications and potential risks arising from laws, rules, policies, and proposed actions.",
+            "levels": {
+              "Emerging": "Recognizes obvious legal implications and refers issues for guidance.",
+              "Developing": "Identifies routine risks and recommends standard safeguards.",
+              "Proficient": "Assesses complex legal risks and explains implications for Department action.",
+              "Advanced": "Provides expert assessment of material legal risks and recommends strategic risk-management approaches."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Opinion, Policy and Document Drafting",
+        "definition": "The ability to formulate clear, precise, well-supported legal opinions, position papers, aide memoires, policy instruments, guidelines, comments, and other legal documents.",
+        "dimensions": [
+          {
+            "name": "Legal Opinion Drafting",
+            "definition": "Ability to prepare clear and reasoned legal opinions responsive to the issues raised and supported by applicable authorities.",
+            "levels": {
+              "Emerging": "Assists in drafting routine portions using prescribed formats and guidance.",
+              "Developing": "Drafts routine opinions accurately with relevant legal support.",
+              "Proficient": "Drafts complex opinions, resolves analytical issues, and presents defensible conclusions.",
+              "Advanced": "Provides expert review of significant opinions and establishes standards for high-quality legal advisory outputs."
+            }
+          },
+          {
+            "name": "Position Papers and Aide Memoires",
+            "definition": "Ability to prepare concise legal positions and briefing documents that present issues, analysis, options, and recommended positions.",
+            "levels": {
+              "Emerging": "Compiles facts and supporting authorities with guidance.",
+              "Developing": "Prepares routine position papers and aide memoires accurately.",
+              "Proficient": "Develops persuasive, evidence-based papers for complex issues and stakeholder discussions.",
+              "Advanced": "Provides expert direction on high-impact positions and mentors others in strategic legal writing."
+            }
+          },
+          {
+            "name": "Rules, Directives and Guidelines Formulation",
+            "definition": "Ability to formulate legal and policy instruments for proper implementation of Department programs and projects.",
+            "levels": {
+              "Emerging": "Assists in preparing draft provisions using approved guidance.",
+              "Developing": "Drafts routine rules/guidelines and incorporates comments accurately.",
+              "Proficient": "Formulates complex provisions and reconciles legal and operational requirements.",
+              "Advanced": "Provides expert direction on policy instruments and contributes to improved regulatory frameworks."
+            }
+          },
+          {
+            "name": "Legal Review, Comments and Inputs",
+            "definition": "Ability to review instruments and matters and provide accurate, relevant, and actionable legal comments and recommendations.",
+            "levels": {
+              "Emerging": "Identifies basic deficiencies with guidance.",
+              "Developing": "Reviews routine instruments and provides clear comments.",
+              "Proficient": "Reviews complex instruments and recommends appropriate revisions or alternatives.",
+              "Advanced": "Provides expert review of significant instruments and improves review standards and controls."
+            }
+          },
+          {
+            "name": "Writing Quality and Precision",
+            "definition": "Ability to communicate legal analysis and recommendations with clarity, accuracy, coherence, and appropriate legal terminology.",
+            "levels": {
+              "Emerging": "Uses established templates and writing conventions with guidance.",
+              "Developing": "Produces clear and accurate routine legal documents.",
+              "Proficient": "Produces polished, concise, and technically precise complex documents.",
+              "Advanced": "Sets standards for legal writing quality and mentors others in advanced legal drafting."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Advisory, Policy Guidance and Stakeholder Support",
+        "definition": "The ability to provide timely, practical, and defensible legal guidance to Department offices, attached agencies, and other stakeholders on referred legal matters.",
+        "dimensions": [
+          {
+            "name": "Legal Advisory and Consultation",
+            "definition": "Ability to provide reasoned legal advice responsive to the facts, issues, and applicable authorities.",
+            "levels": {
+              "Emerging": "Responds to routine questions using established guidance and refers complex matters.",
+              "Developing": "Provides sound advice on routine legal matters independently.",
+              "Proficient": "Advises on complex or sensitive matters and presents practical options.",
+              "Advanced": "Serves as an expert legal resource on significant matters and provides strategic advice to management."
+            }
+          },
+          {
+            "name": "Guidance to Organic and Attached Offices",
+            "definition": "Ability to guide sectoral, attached, and organic offices on legal matters referred to the Department.",
+            "levels": {
+              "Emerging": "Provides basic procedural/legal guidance with supervision.",
+              "Developing": "Provides clear guidance on routine matters and follows through on queries.",
+              "Proficient": "Resolves complex legal concerns and coordinates appropriate action across offices.",
+              "Advanced": "Provides authoritative guidance on recurring or high-impact issues and develops approaches that strengthen organizational legal capability."
+            }
+          },
+          {
+            "name": "Policy and Program Legal Support",
+            "definition": "Ability to assess the legal implications of Department programs and projects and support their proper implementation.",
+            "levels": {
+              "Emerging": "Identifies basic legal requirements affecting assigned programs.",
+              "Developing": "Provides routine legal inputs to program implementation.",
+              "Proficient": "Analyzes complex legal implications and recommends workable options.",
+              "Advanced": "Provides strategic legal advice on major programs and contributes to policy/process improvement."
+            }
+          },
+          {
+            "name": "Stakeholder Coordination",
+            "definition": "Ability to coordinate legal requirements and recommendations with internal and external stakeholders while maintaining appropriate legal boundaries.",
+            "levels": {
+              "Emerging": "Uses established channels and communicates routine requests with guidance.",
+              "Developing": "Coordinates routine legal matters and follows up on action points.",
+              "Proficient": "Facilitates resolution of complex or conflicting legal requirements among stakeholders.",
+              "Advanced": "Leads complex coordination and helps establish effective inter-office legal advisory practices."
+            }
+          },
+          {
+            "name": "Professional Legal Service",
+            "definition": "Ability to deliver responsive, impartial, respectful, and client-oriented legal assistance while protecting the Department's interests.",
+            "levels": {
+              "Emerging": "Provides courteous routine assistance and seeks guidance when needed.",
+              "Developing": "Responds appropriately and manages routine requests professionally.",
+              "Proficient": "Handles sensitive matters with sound judgment, discretion, and professionalism.",
+              "Advanced": "Models exemplary legal service and strengthens service standards, responsiveness, and stakeholder confidence."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Representation, Briefing and Review Quality",
+        "definition": "The ability to represent the Office in assigned meetings and hearings, prepare effective briefs, review legal outputs, and ensure timely, accurate, and defensible deliverables.",
+        "dimensions": [
+          {
+            "name": "Legal Representation",
+            "definition": "Ability to represent the Office in meetings, committee hearings, and related occurrences requiring legal representation.",
+            "levels": {
+              "Emerging": "Attends assigned proceedings with guidance and records relevant information.",
+              "Developing": "Represents routine assigned matters effectively and communicates authorized positions.",
+              "Proficient": "Handles complex proceedings, responds to substantive legal issues, and coordinates follow-through.",
+              "Advanced": "Provides senior legal representation in significant proceedings and guides others in preparation and follow-through."
+            }
+          },
+          {
+            "name": "Briefing and Meeting Preparation",
+            "definition": "Ability to prepare briefs, issue summaries, talking points, and supporting materials for meetings involving DOTr participation.",
+            "levels": {
+              "Emerging": "Compiles assigned facts and documents with guidance.",
+              "Developing": "Prepares clear routine briefs and supporting materials.",
+              "Proficient": "Develops concise, evidence-based briefs for complex meetings and anticipates key issues.",
+              "Advanced": "Directs preparation for high-stakes meetings and provides expert advice on legal positions."
+            }
+          },
+          {
+            "name": "Review of Legal Outputs",
+            "definition": "Ability to examine draft legal documents and deliverables for substantive correctness, completeness, consistency, and compliance with requirements.",
+            "levels": {
+              "Emerging": "Uses review checklists and identifies basic deficiencies with guidance.",
+              "Developing": "Reviews routine outputs and identifies required revisions accurately.",
+              "Proficient": "Reviews complex outputs, resolves substantive inconsistencies, and recommends appropriate revisions.",
+              "Advanced": "Provides expert quality assurance for significant outputs and establishes review standards."
+            }
+          },
+          {
+            "name": "Timeliness and Work Prioritization",
+            "definition": "Ability to manage legal assignments and competing deadlines while maintaining quality and responsiveness.",
+            "levels": {
+              "Emerging": "Completes assigned tasks within established timelines with guidance.",
+              "Developing": "Manages routine workload and meets prescribed deadlines.",
+              "Proficient": "Prioritizes urgent/complex assignments and prevents avoidable delays.",
+              "Advanced": "Directs prioritization of critical legal work and improves workflow for sustained timely delivery."
+            }
+          },
+          {
+            "name": "Legal Accountability and Professional Judgment",
+            "definition": "Ability to exercise sound judgment, confidentiality, independence, and accountability in handling legal matters.",
+            "levels": {
+              "Emerging": "Follows ethical, confidentiality, and procedural requirements with guidance.",
+              "Developing": "Applies professional standards consistently in routine work.",
+              "Proficient": "Exercises sound independent judgment in complex and sensitive matters.",
+              "Advanced": "Models high-level professional judgment and mentors others in ethical and accountable legal practice."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal Documentation, Reporting and Knowledge Management",
+        "definition": "The ability to maintain accurate legal records, prepare reportorial outputs, organize legal references, and support reliable retrieval and institutional knowledge of legal work.",
+        "dimensions": [
+          {
+            "name": "Legal Records Management",
+            "definition": "Ability to organize, safeguard, retrieve, and maintain legal opinions, reviews, references, and supporting records.",
+            "levels": {
+              "Emerging": "Files and retrieves assigned records using established procedures.",
+              "Developing": "Maintains organized and accurate routine legal records.",
+              "Proficient": "Reviews records for completeness and resolves documentation gaps.",
+              "Advanced": "Strengthens records-management controls and systems for sustained reliability and accountability."
+            }
+          },
+          {
+            "name": "Reportorial Compliance",
+            "definition": "Ability to prepare and submit required internal reports accurately and within prescribed deadlines.",
+            "levels": {
+              "Emerging": "Provides required information with guidance.",
+              "Developing": "Completes routine reportorial requirements accurately and on time.",
+              "Proficient": "Consolidates and reviews complex reports and resolves inconsistencies.",
+              "Advanced": "Oversees critical reportorial outputs and improves controls for sustained compliance."
+            }
+          },
+          {
+            "name": "Legal Reference and Knowledge Management",
+            "definition": "Ability to organize legal research materials, authorities, precedents, and institutional references for efficient use.",
+            "levels": {
+              "Emerging": "Uses established reference sources and organizes basic materials with guidance.",
+              "Developing": "Maintains accessible routine references and retrieves authorities efficiently.",
+              "Proficient": "Develops organized reference resources for complex or recurring legal issues.",
+              "Advanced": "Leads knowledge-management improvements and develops institutional legal reference practices."
+            }
+          },
+          {
+            "name": "Document Control and Confidentiality",
+            "definition": "Ability to control versions, safeguard sensitive legal documents, and ensure appropriate access and transmission.",
+            "levels": {
+              "Emerging": "Follows prescribed document-control and confidentiality procedures.",
+              "Developing": "Maintains accurate versions and handles routine confidential documents properly.",
+              "Proficient": "Manages sensitive/complex document sets and resolves control issues.",
+              "Advanced": "Establishes or improves controls for sensitive legal information and document integrity."
+            }
+          },
+          {
+            "name": "Administrative Coordination and Support",
+            "definition": "Ability to coordinate scheduling, routing, monitoring, records, and administrative requirements supporting legal work.",
+            "levels": {
+              "Emerging": "Performs routine support tasks with close guidance.",
+              "Developing": "Handles routine coordination and monitoring independently.",
+              "Proficient": "Coordinates multiple legal-administrative requirements and resolves issues promptly.",
+              "Advanced": "Improves administrative workflows and supports effective allocation and monitoring of Division resources."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "LID",
     "name": "Legislative and Issuances Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "with-framework",
+    "status": "populated",
     "office": "Legal Service",
     "officeOrder": 9,
     "parentCode": null,
-    "sourceFile": null,
-    "basis": null,
+    "sourceFile": "Proposed_Revised_Competency_Framework_LID_Following_Accounting_Format.docx",
+    "basis": "Basis: CY 2026 Division Performance Commitment and Review (DPCR) only",
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Legislative Analysis and Statutory Review",
+        "definition": "The ability to analyze proposed bills, draft legislative proposals, resolutions, laws, and implementing rules and regulations and develop sound findings, comments, recommendations, and positions relevant to the Department.",
+        "dimensions": [
+          {
+            "name": "Legislative Issue Identification",
+            "definition": "Ability to identify the principal legal, policy, operational, and institutional issues arising from proposed legislation or resolutions.",
+            "levels": {
+              "Emerging": "Identifies obvious issues and relevant provisions with guidance.",
+              "Developing": "Identifies routine legislative issues and organizes facts and questions independently.",
+              "Proficient": "Identifies complex or interrelated issues and anticipates implications for the Department.",
+              "Advanced": "Provides expert issue-framing on significant or novel legislative matters and guides others in analytical scoping."
+            }
+          },
+          {
+            "name": "Statutory and Regulatory Analysis",
+            "definition": "Ability to interpret proposed or existing statutory and regulatory provisions and determine their implications for Department functions.",
+            "levels": {
+              "Emerging": "Locates and applies basic provisions with guidance.",
+              "Developing": "Analyzes routine provisions and identifies applicable requirements.",
+              "Proficient": "Interprets complex, overlapping, or potentially conflicting provisions and explains their effects.",
+              "Advanced": "Provides authoritative analytical guidance on complex statutory and regulatory issues."
+            }
+          },
+          {
+            "name": "Legislative Research",
+            "definition": "Ability to gather, verify, compare, and synthesize legislative and legal authorities relevant to an issue.",
+            "levels": {
+              "Emerging": "Conducts assigned research using identified sources.",
+              "Developing": "Completes routine research and verifies supporting authorities.",
+              "Proficient": "Conducts comprehensive research on complex legislative issues and evaluates competing sources.",
+              "Advanced": "Leads research on significant legislative matters and develops institutional reference approaches."
+            }
+          },
+          {
+            "name": "Impact and Risk Assessment",
+            "definition": "Ability to assess potential legal, operational, policy, institutional, and implementation implications of proposed measures.",
+            "levels": {
+              "Emerging": "Recognizes basic effects and risks with guidance.",
+              "Developing": "Assesses routine implications and identifies standard safeguards.",
+              "Proficient": "Evaluates significant impacts, risks, and implementation concerns and recommends options.",
+              "Advanced": "Provides expert assessment of material legislative risks and strategic implications."
+            }
+          },
+          {
+            "name": "Findings, Comments and Position Development",
+            "definition": "Ability to translate analysis into clear, defensible findings, comments, recommendations, or Department positions.",
+            "levels": {
+              "Emerging": "Assists in preparing basic findings and comments using guidance.",
+              "Developing": "Develops clear routine comments and recommendations supported by authorities.",
+              "Proficient": "Develops well-reasoned positions on complex proposals and reconciles competing considerations.",
+              "Advanced": "Provides expert direction on major Department positions and mentors others in position development."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legislative and Administrative Issuance Drafting",
+        "definition": "The ability to formulate, draft, review, and refine Executive Orders, Administrative Orders, Implementing Rules and Regulations (IRRs), and related issuances that support lawful, effective, and consistent Department operations.",
+        "dimensions": [
+          {
+            "name": "Executive and Administrative Order Drafting",
+            "definition": "Ability to prepare clear and legally sound Executive and Administrative Orders responsive to Department objectives.",
+            "levels": {
+              "Emerging": "Assists in drafting using approved formats and guidance.",
+              "Developing": "Drafts routine provisions accurately and incorporates comments.",
+              "Proficient": "Drafts complex orders and reconciles legal, policy, and operational requirements.",
+              "Advanced": "Provides expert drafting direction for significant issuances and improves drafting standards."
+            }
+          },
+          {
+            "name": "IRR and Implementing Guidelines",
+            "definition": "Ability to formulate implementing provisions that translate laws or policies into clear and workable requirements.",
+            "levels": {
+              "Emerging": "Assists in preparing basic implementing provisions with guidance.",
+              "Developing": "Drafts routine implementing provisions consistent with the governing law.",
+              "Proficient": "Develops complex IRR/guidelines and addresses implementation ambiguities.",
+              "Advanced": "Provides expert direction on complex implementation frameworks and safeguards legal consistency."
+            }
+          },
+          {
+            "name": "Legal and Policy Coherence",
+            "definition": "Ability to ensure that draft issuances are consistent with enabling laws, existing policies, Department mandates, and related issuances.",
+            "levels": {
+              "Emerging": "Checks consistency against identified references with guidance.",
+              "Developing": "Identifies routine inconsistencies and recommends corrections.",
+              "Proficient": "Reconciles complex or competing legal/policy requirements.",
+              "Advanced": "Provides expert assurance of coherence across significant issuances and policy frameworks."
+            }
+          },
+          {
+            "name": "Drafting Precision and Clarity",
+            "definition": "Ability to use precise legal language, structure, definitions, cross-references, and operative provisions to minimize ambiguity.",
+            "levels": {
+              "Emerging": "Uses templates and drafting conventions with guidance.",
+              "Developing": "Produces clear and accurate routine provisions.",
+              "Proficient": "Produces technically precise complex provisions with minimal ambiguity.",
+              "Advanced": "Sets high-level drafting standards and mentors others in advanced legal writing."
+            }
+          },
+          {
+            "name": "Issuance Quality Assurance",
+            "definition": "Ability to conduct substantive and technical review of draft issuances for completeness, legality, consistency, and readiness for approval.",
+            "levels": {
+              "Emerging": "Uses checklists and identifies basic deficiencies with guidance.",
+              "Developing": "Completes routine quality checks accurately.",
+              "Proficient": "Reviews complex drafts and resolves substantive or structural issues.",
+              "Advanced": "Provides expert quality assurance and strengthens issuance-review controls."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legislative Liaison and Stakeholder Engagement",
+        "definition": "The ability to establish and maintain effective working linkages with Congress, the Office of the President, Presidential Legislative Liaison Office, government agencies, sectoral offices, attached agencies, and legislative committees in matters affecting the Department.",
+        "dimensions": [
+          {
+            "name": "Congressional and Committee Liaison",
+            "definition": "Ability to coordinate with Congress and legislative committees regarding bills, resolutions, inquiries, hearings, and other matters affecting the Department.",
+            "levels": {
+              "Emerging": "Supports coordination and follows established protocols with guidance.",
+              "Developing": "Handles routine liaison requirements and follows up on action points.",
+              "Proficient": "Manages complex legislative coordination and anticipates stakeholder requirements.",
+              "Advanced": "Serves as a senior liaison resource for significant legislative matters and strengthens institutional relationships."
+            }
+          },
+          {
+            "name": "Office of the President / Executive Issuance Liaison",
+            "definition": "Ability to coordinate matters concerning Executive and Administrative Orders with the appropriate Office of the President offices and bodies.",
+            "levels": {
+              "Emerging": "Assists in routing and monitoring documents with guidance.",
+              "Developing": "Coordinates routine requirements and monitors status.",
+              "Proficient": "Handles complex coordination, clarifies requirements, and ensures timely follow-through.",
+              "Advanced": "Provides expert liaison direction on significant Executive issuance matters."
+            }
+          },
+          {
+            "name": "Inter-Agency Coordination",
+            "definition": "Ability to coordinate legislative and issuance matters with National Government Agencies (NGAs), sectoral offices, attached agencies, and other stakeholders.",
+            "levels": {
+              "Emerging": "Communicates routine requests through established channels.",
+              "Developing": "Coordinates routine inter-agency requirements effectively.",
+              "Proficient": "Facilitates resolution of complex or conflicting requirements.",
+              "Advanced": "Leads high-level inter-agency coordination and builds effective working mechanisms."
+            }
+          },
+          {
+            "name": "Stakeholder Communication",
+            "definition": "Ability to communicate legislative/legal positions, requirements, issues, and action points clearly and professionally.",
+            "levels": {
+              "Emerging": "Communicates routine information with guidance.",
+              "Developing": "Explains routine requirements clearly and accurately.",
+              "Proficient": "Handles sensitive or complex communications with sound judgment.",
+              "Advanced": "Represents the Division effectively in high-stakes interactions and models professional communication."
+            }
+          },
+          {
+            "name": "Relationship and Protocol Management",
+            "definition": "Ability to observe appropriate government protocols, maintain professional relationships, and protect the Department's authorized position.",
+            "levels": {
+              "Emerging": "Follows established protocols with guidance.",
+              "Developing": "Consistently observes protocols and maintains professional relationships.",
+              "Proficient": "Navigates complex stakeholder relationships while maintaining institutional boundaries.",
+              "Advanced": "Provides guidance on protocol-sensitive engagements and strengthens institutional liaison practices."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Congressional Hearing, Briefing and Legal Representation",
+        "definition": "The ability to prepare for and participate effectively in committee hearings, inter-agency meetings, legislative discussions, and related occurrences requiring legal or legislative representation.",
+        "dimensions": [
+          {
+            "name": "Hearing and Meeting Preparation",
+            "definition": "Ability to prepare briefs, issue summaries, talking points, reference materials, and anticipated questions for hearings and meetings.",
+            "levels": {
+              "Emerging": "Compiles assigned materials with guidance.",
+              "Developing": "Prepares clear routine briefing materials accurately.",
+              "Proficient": "Develops comprehensive briefs for complex hearings and anticipates key issues.",
+              "Advanced": "Directs preparation for high-impact hearings and provides expert briefing strategy."
+            }
+          },
+          {
+            "name": "Legislative Briefing",
+            "definition": "Ability to present concise, accurate, and well-supported information on legislative matters and Department positions.",
+            "levels": {
+              "Emerging": "Presents assigned information with guidance.",
+              "Developing": "Provides clear briefings on routine matters.",
+              "Proficient": "Delivers persuasive, evidence-based briefings on complex issues.",
+              "Advanced": "Provides expert briefings for senior officials and high-stakes legislative engagements."
+            }
+          },
+          {
+            "name": "Legal Representation",
+            "definition": "Ability to represent the Department's authorized legal/legislative position in meetings, hearings, and related proceedings when assigned.",
+            "levels": {
+              "Emerging": "Attends assigned proceedings and records relevant information with guidance.",
+              "Developing": "Represents routine assigned matters effectively.",
+              "Proficient": "Handles complex proceedings and responds appropriately to substantive issues.",
+              "Advanced": "Provides senior-level representation and guides others in preparation and follow-through."
+            }
+          },
+          {
+            "name": "Issue Response and Question Handling",
+            "definition": "Ability to respond to questions, requests, and emerging issues during legislative engagements using accurate authorities and authorized positions.",
+            "levels": {
+              "Emerging": "Answers basic questions using prepared references and seeks guidance when needed.",
+              "Developing": "Responds accurately to routine questions and identifies issues requiring escalation.",
+              "Proficient": "Handles complex questions by applying legal analysis and coordinating follow-up.",
+              "Advanced": "Provides expert real-time guidance on significant legislative issues and manages complex follow-up."
+            }
+          },
+          {
+            "name": "Post-Meeting Follow-through",
+            "definition": "Ability to document decisions, commitments, requests, and action points and ensure appropriate follow-through after meetings or hearings.",
+            "levels": {
+              "Emerging": "Records assigned action points with guidance.",
+              "Developing": "Tracks routine follow-up requirements and deadlines.",
+              "Proficient": "Coordinates complex follow-through and resolves outstanding action points.",
+              "Advanced": "Strengthens systems for tracking legislative commitments and institutional responses."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legislative Monitoring, Dissemination and Compliance",
+        "definition": "The ability to monitor legislative developments and issuances, facilitate dissemination, support observance, maintain reliable records, and provide timely reporting on matters affecting the Department.",
+        "dimensions": [
+          {
+            "name": "Legislative Monitoring",
+            "definition": "Ability to track proposed bills, resolutions, legislative developments, and related actions affecting the Department.",
+            "levels": {
+              "Emerging": "Monitors assigned sources with guidance.",
+              "Developing": "Maintains routine monitoring and identifies relevant developments.",
+              "Proficient": "Analyzes developments and assesses potential effects on Department operations.",
+              "Advanced": "Establishes/improves legislative monitoring practices and provides strategic early-warning insights."
+            }
+          },
+          {
+            "name": "Laws and Issuances Dissemination",
+            "definition": "Ability to facilitate timely dissemination of laws and issuances affecting the Department to relevant offices and stakeholders.",
+            "levels": {
+              "Emerging": "Disseminates assigned materials using established procedures.",
+              "Developing": "Ensures routine dissemination reaches intended recipients.",
+              "Proficient": "Coordinates complex dissemination requirements and confirms appropriate communication.",
+              "Advanced": "Improves institutional mechanisms for timely and effective dissemination."
+            }
+          },
+          {
+            "name": "Observance and Compliance Support",
+            "definition": "Ability to support awareness and observance of laws and issuances affecting Department operations.",
+            "levels": {
+              "Emerging": "Identifies basic compliance requirements with guidance.",
+              "Developing": "Provides routine reminders/information on applicable requirements.",
+              "Proficient": "Assesses implementation concerns and recommends corrective or preventive action.",
+              "Advanced": "Provides expert guidance on systemic compliance issues and supports policy/process improvements."
+            }
+          },
+          {
+            "name": "Legislative Records and Knowledge Management",
+            "definition": "Ability to maintain organized, accurate, accessible records of legislative proposals, comments, issuances, hearings, and related references.",
+            "levels": {
+              "Emerging": "Files and retrieves assigned records with guidance.",
+              "Developing": "Maintains accurate routine records and reference materials.",
+              "Proficient": "Organizes complex legislative records and resolves documentation gaps.",
+              "Advanced": "Strengthens knowledge-management systems and institutional legislative references."
+            }
+          },
+          {
+            "name": "Reporting and Timeliness",
+            "definition": "Ability to prepare accurate reports and deliver legislative outputs within prescribed timelines.",
+            "levels": {
+              "Emerging": "Completes assigned reports and outputs with guidance.",
+              "Developing": "Meets routine deadlines and maintains accurate status information.",
+              "Proficient": "Prioritizes competing deadlines and ensures timely completion of complex outputs.",
+              "Advanced": "Directs critical legislative workflow and improves controls for sustained timely delivery."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "Air TPDD",
