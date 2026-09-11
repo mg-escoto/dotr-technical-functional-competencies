@@ -7321,7 +7321,7 @@
           },
           {
             "name": "Budget Proposal Consolidation",
-            "definition": "Consolidates, validates and reconciles submissions from offices, sectors, PMOs and attached agencies.",
+            "definition": "Consolidates, validates and reconciles submissions from offices, sectors, Project Management Offices (PMOs), and attached agencies.",
             "levels": {
               "Emerging": "Performs routine budget proposal consolidation tasks using prescribed procedures and formats with guidance; verifies basic completeness. Budget Div",
               "Developing": "Handles routine and moderately complex budget proposal consolidation work independently, applies applicable rules, and iseiosn c– aRleavisteeds C oemxpceteenpcyt iForanmsew workh en needed.",
@@ -10092,7 +10092,7 @@
           },
           {
             "name": "Stakeholder Consultation",
-            "definition": "Ability to obtain and reconcile requirements from implementing offices, PMOs, procurement units, regional offices, attached agencies and other stakeholders.",
+            "definition": "Ability to obtain and reconcile requirements from implementing offices, Project Management Offices (PMOs), procurement units, regional offices, attached agencies and other stakeholders.",
             "levels": {
               "Emerging": "Uses established channels to obtain information.",
               "Developing": "Coordinates routine requirements effectively.",
@@ -10360,7 +10360,7 @@
           },
           {
             "name": "Coordination with Counsel and Stakeholders",
-            "definition": "Ability to coordinate case requirements with OSG, Department offices, ISLES, CODI, disciplinary bodies, and other stakeholders.",
+            "definition": "Ability to coordinate case requirements with the Office of the Solicitor General (OSG), Department offices, the Investigation, Security, and Law Enforcement Staff (ISLES), the Committee on Decorum and Investigation (CODI), disciplinary bodies, and other stakeholders.",
             "levels": {
               "Emerging": "Coordinates routine documents and requests with guidance.",
               "Developing": "Maintains effective routine coordination and follows through on requirements.",
@@ -14857,5 +14857,386 @@
     "status": "populated",
     "parentCode": null,
     "reorgNote": "Not mentioned in the latest organizational chart taxonomy — placed here pending confirmation of where it belongs."
+  },
+  {
+    "code": "PMO-AVIATION",
+    "name": "Project Management Office – Aviation",
+    "category": "without-framework",
+    "sourceFile": null,
+    "basis": "Benchmarked from the Project Management Office – Maritime competency framework, since these Project Management Offices share the same competency set.",
+    "careerProgression": null,
+    "office": "Needs Placement",
+    "officeOrder": 99,
+    "status": "populated",
+    "parentCode": null,
+    "reorgNote": "Not mentioned in the latest organizational chart taxonomy — placed here pending confirmation of where it belongs.",
+    "competencies": [
+      {
+        "name": "Project Management",
+        "definition": "The ability to apply project management knowledge, skills, tools and techniques in planning execution/implementation, control, monitoring and closing a project in accordance/alignment with organizational thrusts and directions.",
+        "dimensions": [
+          {
+            "name": "Project Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Applies established project management procedures with guidance; supports routine planning, monitoring, documentation and coordination activities.\n• Performs assigned project tasks using approved standards, schedules, specifications and available project information.\n• Identifies basic project issues, risks and deviations and escalates matters requiring supervisory action.",
+              "Developing": "Manages routine project activities with minimal supervision and coordinates with project teams and stakeholders.\n• Monitors implementation against approved plans, schedules, quality requirements and specifications and acts on routine variances.\n• Supports project documentation, billings, turnover, reporting and other project-control requirements.",
+              "Proficient": "Plans and coordinates complex project activities and integrates scope, schedule, quality, cost and implementation considerations.\n• Reviews project outputs and recommends corrective actions based on evidence, standards and project requirements.\n• Coordinates multiple practitioners/stakeholders and contributes to improvements in project processes, procedures and controls.",
+              "Advanced": "Provides direction for significant project areas and integrates technical, financial, quality and implementation considerations.\n• Recommends improvements to project policies, programs, procedures and project-management practices.\n• Provides technical leadership and mentors others in project planning, implementation, monitoring, control and closeout."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Environmental and Social Safeguards Management",
+        "definition": "The ability to plan, manage/oversee assessments for project preparation, programming and acquisition to ensure adherence to applicable laws and environmental and social compliance.",
+        "dimensions": [
+          {
+            "name": "Environmental and Social Safeguards Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Demonstrates basic knowledge of environmental and social project assessment and follows defined procedures when providing project inputs.\n• Recognizes basic environmental and social requirements relevant to assigned project activities.\n• Identifies apparent inconsistencies or compliance concerns and refers them to the appropriate personnel.",
+              "Developing": "Applies established environmental and social safeguards procedures to routine project activities.\n• Reviews environmental and social assessment information and identifies basic inconsistencies or gaps.\n• Supports monitoring of compliance and coordinates required information with relevant technical personnel.",
+              "Proficient": "Evaluates environmental and social compliance requirements in project planning and implementation.\n• Reviews evidence and assessment outputs and recommends corrective measures for identified compliance issues.\n• Coordinates safeguards requirements with project teams and stakeholders and supports informed project decisions.",
+              "Advanced": "Provides technical direction on environmental and social safeguards for significant programs/projects.\n• Ensures project environmental and social compliance and advises on complex safeguards issues.\n• Integrates safeguards considerations into project planning, programming, implementation and organizational decision-making."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Infrastructure Monitoring and Evaluation",
+        "definition": "The ability to evaluate, record, monitor and update specifications and status of infrastructure development and submit reports in accordance with established government/agency guidelines and standards.",
+        "dimensions": [
+          {
+            "name": "Infrastructure Monitoring and Evaluation",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes basic parameters and characteristics to be measured or checked during infrastructure monitoring.\n• Uses prescribed data-gathering tools and prepares complete, accurate documentation and evidence within timelines.\n• Reports basic observations, discrepancies and implementation concerns through established channels.",
+              "Developing": "Applies appropriate monitoring procedures and data-collection methods for assigned infrastructure activities.\n• Validates collected information against records, historical data and documentary evidence and acts on routine variances.\n• Reviews completeness and accuracy of monitoring information and supports timely encoding/reporting.",
+              "Proficient": "Evaluates monitoring data and documentary evidence against infrastructure objectives, targets and standards.\n• Reviews reports and identifies significant gaps, trends, variances or additional evidence needed for decision-making.\n• Coordinates monitoring activities and recommends improvements to monitoring systems, methods and reporting.",
+              "Advanced": "Defines or improves infrastructure monitoring and evaluation systems and methods.\n• Integrates monitoring results across projects and evaluates adequacy, completeness and effectiveness against Department objectives.\n• Provides technical leadership on monitoring and evaluation and recommends policy, program or system improvements."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Managing Data and Information",
+        "definition": "The ability to obtain, validate, store, update and utilize data according to its purpose while following guidelines on confidentiality and integrity.",
+        "dimensions": [
+          {
+            "name": "Managing Data and Information",
+            "definition": null,
+            "levels": {
+              "Emerging": "Receives and evaluates routine requests for data/information and refers them for proper disposition.\n• Uses authorized sources and follows basic data security, confidentiality and ethical practices.\n• Checks information for basic completeness and accuracy before use or release.",
+              "Developing": "Prepares and provides accurate and timely data based on established parameters and sharing protocols.\n• Validates information and resolves routine discrepancies using available references.\n• Maintains data integrity and applies appropriate controls in handling project information.",
+              "Proficient": "Evaluates data quality, relevance and reliability for project and management decisions.\n• Ensures information is accurate, complete, appropriately validated and fit for purpose.\n• Improves data-management practices and advises stakeholders on appropriate use and sharing of information.",
+              "Advanced": "Provides direction on data governance, integrity, confidentiality and information-use practices.\n• Integrates information from multiple project sources to support strategic project decisions.\n• Establishes or improves systems that strengthen data quality, accessibility, integrity and responsible use."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Communications Proficiency",
+        "definition": "The ability to convey clear and convincing ideas/opinions through written, verbal and virtual platforms relative to coordination, negotiation, implementation, monitoring and reporting.",
+        "dimensions": [
+          {
+            "name": "Communications Proficiency",
+            "definition": null,
+            "levels": {
+              "Emerging": "Communicates ideas and facts clearly and appropriately to the audience and situation.\n• Uses established written business communication formats and prepares routine correspondence with minimal errors.\n• Listens to others and demonstrates understanding of their concerns and information.",
+              "Developing": "Speaks and writes clearly, concisely and in an organized manner.\n• Prepares routine memoranda, letters, reports and other communications using available information and references.\n• Participates in meetings and stakeholder discussions and provides courteous, accurate and complete responses.",
+              "Proficient": "Prepares technical reports and communications involving interrelated data, projects or current issues.\n• Adapts communication to the intended audience and facilitates constructive stakeholder exchange.\n• Reviews technical reports and written materials and recommends improvements in clarity, relevance and presentation.",
+              "Advanced": "Delivers complex messages using an appropriate communication strategy and anticipates audience impact.\n• Facilitates stakeholder discussions and communicates technical or policy matters effectively.\n• Provides communication direction and mentors others in technical writing, presentation and stakeholder engagement."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Risk Management",
+        "definition": "The ability to identify, analyze, evaluate, mitigate, treat, monitor and review risks relative to the achievement of organizational thrusts and priorities.",
+        "dimensions": [
+          {
+            "name": "Risk Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes potential threats to DOTr operations, projects and resources from natural or human-made circumstances.\n• Uses established risk-management procedures and reports identified risks through appropriate channels.\n• Supports basic risk identification and documentation for assigned activities.",
+              "Developing": "Applies risk-management tools and procedures with minimal supervision.\n• Analyzes routine project risks and recommends or implements established mitigation measures.\n• Monitors identified risks and escalates significant or emerging risks.",
+              "Proficient": "Evaluates risks using likelihood, impact, controls and available evidence.\n• Coordinates risk mitigation and monitoring across project activities and stakeholders.\n• Uses risk information to support project planning, resource decisions and implementation adjustments.",
+              "Advanced": "Provides strategic direction on risk mitigation and prevention for significant functions or programs.\n• Builds organizational awareness of risk-management policies and practices and benchmarks relevant approaches.\n• Integrates risk considerations with organizational objectives, resources and priorities and mentors others on risk management."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming",
+        "definition": "The ability to consider and address different needs, perspectives, concerns and experiences of women and men, persons with disabilities and other socially excluded or marginalized people in program, policy, mechanism and facility design, planning, implementation, monitoring and evaluation.",
+        "dimensions": [
+          {
+            "name": "Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes basic GEDSI concepts and applies relevant policies in assigned work.\n• Considers the needs and perspectives of diverse groups when performing routine duties.\n• Uses appropriate sex-, disability- or social-inclusion information when relevant to assigned work.",
+              "Developing": "Applies GEDSI principles in project activities and stakeholder interactions.\n• Recognizes potential exclusion or accessibility concerns and raises them for appropriate action.\n• Supports collection and use of relevant disaggregated information when required.",
+              "Proficient": "Integrates GEDSI considerations into project planning, implementation, monitoring and evaluation.\n• Identifies and addresses barriers affecting women, persons with disabilities and other marginalized groups.\n• Provides practical inputs that improve inclusivity, accessibility and responsiveness of project activities.",
+              "Advanced": "Provides technical guidance on GEDSI-responsive policies, programs, mechanisms and facilities.\n• Advises or coaches others on GEDSI and promotes inclusive project and organizational practices.\n• Champions sustainable GEDSI initiatives and integrates diverse perspectives into higher-level project and policy decisions."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PMO-RAIL",
+    "name": "Project Management Office – Rail",
+    "category": "without-framework",
+    "sourceFile": null,
+    "basis": "Benchmarked from the Project Management Office – Maritime competency framework, since these Project Management Offices share the same competency set.",
+    "careerProgression": null,
+    "office": "Needs Placement",
+    "officeOrder": 99,
+    "status": "populated",
+    "parentCode": null,
+    "reorgNote": "Not mentioned in the latest organizational chart taxonomy — placed here pending confirmation of where it belongs.",
+    "competencies": [
+      {
+        "name": "Project Management",
+        "definition": "The ability to apply project management knowledge, skills, tools and techniques in planning execution/implementation, control, monitoring and closing a project in accordance/alignment with organizational thrusts and directions.",
+        "dimensions": [
+          {
+            "name": "Project Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Applies established project management procedures with guidance; supports routine planning, monitoring, documentation and coordination activities.\n• Performs assigned project tasks using approved standards, schedules, specifications and available project information.\n• Identifies basic project issues, risks and deviations and escalates matters requiring supervisory action.",
+              "Developing": "Manages routine project activities with minimal supervision and coordinates with project teams and stakeholders.\n• Monitors implementation against approved plans, schedules, quality requirements and specifications and acts on routine variances.\n• Supports project documentation, billings, turnover, reporting and other project-control requirements.",
+              "Proficient": "Plans and coordinates complex project activities and integrates scope, schedule, quality, cost and implementation considerations.\n• Reviews project outputs and recommends corrective actions based on evidence, standards and project requirements.\n• Coordinates multiple practitioners/stakeholders and contributes to improvements in project processes, procedures and controls.",
+              "Advanced": "Provides direction for significant project areas and integrates technical, financial, quality and implementation considerations.\n• Recommends improvements to project policies, programs, procedures and project-management practices.\n• Provides technical leadership and mentors others in project planning, implementation, monitoring, control and closeout."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Environmental and Social Safeguards Management",
+        "definition": "The ability to plan, manage/oversee assessments for project preparation, programming and acquisition to ensure adherence to applicable laws and environmental and social compliance.",
+        "dimensions": [
+          {
+            "name": "Environmental and Social Safeguards Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Demonstrates basic knowledge of environmental and social project assessment and follows defined procedures when providing project inputs.\n• Recognizes basic environmental and social requirements relevant to assigned project activities.\n• Identifies apparent inconsistencies or compliance concerns and refers them to the appropriate personnel.",
+              "Developing": "Applies established environmental and social safeguards procedures to routine project activities.\n• Reviews environmental and social assessment information and identifies basic inconsistencies or gaps.\n• Supports monitoring of compliance and coordinates required information with relevant technical personnel.",
+              "Proficient": "Evaluates environmental and social compliance requirements in project planning and implementation.\n• Reviews evidence and assessment outputs and recommends corrective measures for identified compliance issues.\n• Coordinates safeguards requirements with project teams and stakeholders and supports informed project decisions.",
+              "Advanced": "Provides technical direction on environmental and social safeguards for significant programs/projects.\n• Ensures project environmental and social compliance and advises on complex safeguards issues.\n• Integrates safeguards considerations into project planning, programming, implementation and organizational decision-making."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Infrastructure Monitoring and Evaluation",
+        "definition": "The ability to evaluate, record, monitor and update specifications and status of infrastructure development and submit reports in accordance with established government/agency guidelines and standards.",
+        "dimensions": [
+          {
+            "name": "Infrastructure Monitoring and Evaluation",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes basic parameters and characteristics to be measured or checked during infrastructure monitoring.\n• Uses prescribed data-gathering tools and prepares complete, accurate documentation and evidence within timelines.\n• Reports basic observations, discrepancies and implementation concerns through established channels.",
+              "Developing": "Applies appropriate monitoring procedures and data-collection methods for assigned infrastructure activities.\n• Validates collected information against records, historical data and documentary evidence and acts on routine variances.\n• Reviews completeness and accuracy of monitoring information and supports timely encoding/reporting.",
+              "Proficient": "Evaluates monitoring data and documentary evidence against infrastructure objectives, targets and standards.\n• Reviews reports and identifies significant gaps, trends, variances or additional evidence needed for decision-making.\n• Coordinates monitoring activities and recommends improvements to monitoring systems, methods and reporting.",
+              "Advanced": "Defines or improves infrastructure monitoring and evaluation systems and methods.\n• Integrates monitoring results across projects and evaluates adequacy, completeness and effectiveness against Department objectives.\n• Provides technical leadership on monitoring and evaluation and recommends policy, program or system improvements."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Managing Data and Information",
+        "definition": "The ability to obtain, validate, store, update and utilize data according to its purpose while following guidelines on confidentiality and integrity.",
+        "dimensions": [
+          {
+            "name": "Managing Data and Information",
+            "definition": null,
+            "levels": {
+              "Emerging": "Receives and evaluates routine requests for data/information and refers them for proper disposition.\n• Uses authorized sources and follows basic data security, confidentiality and ethical practices.\n• Checks information for basic completeness and accuracy before use or release.",
+              "Developing": "Prepares and provides accurate and timely data based on established parameters and sharing protocols.\n• Validates information and resolves routine discrepancies using available references.\n• Maintains data integrity and applies appropriate controls in handling project information.",
+              "Proficient": "Evaluates data quality, relevance and reliability for project and management decisions.\n• Ensures information is accurate, complete, appropriately validated and fit for purpose.\n• Improves data-management practices and advises stakeholders on appropriate use and sharing of information.",
+              "Advanced": "Provides direction on data governance, integrity, confidentiality and information-use practices.\n• Integrates information from multiple project sources to support strategic project decisions.\n• Establishes or improves systems that strengthen data quality, accessibility, integrity and responsible use."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Communications Proficiency",
+        "definition": "The ability to convey clear and convincing ideas/opinions through written, verbal and virtual platforms relative to coordination, negotiation, implementation, monitoring and reporting.",
+        "dimensions": [
+          {
+            "name": "Communications Proficiency",
+            "definition": null,
+            "levels": {
+              "Emerging": "Communicates ideas and facts clearly and appropriately to the audience and situation.\n• Uses established written business communication formats and prepares routine correspondence with minimal errors.\n• Listens to others and demonstrates understanding of their concerns and information.",
+              "Developing": "Speaks and writes clearly, concisely and in an organized manner.\n• Prepares routine memoranda, letters, reports and other communications using available information and references.\n• Participates in meetings and stakeholder discussions and provides courteous, accurate and complete responses.",
+              "Proficient": "Prepares technical reports and communications involving interrelated data, projects or current issues.\n• Adapts communication to the intended audience and facilitates constructive stakeholder exchange.\n• Reviews technical reports and written materials and recommends improvements in clarity, relevance and presentation.",
+              "Advanced": "Delivers complex messages using an appropriate communication strategy and anticipates audience impact.\n• Facilitates stakeholder discussions and communicates technical or policy matters effectively.\n• Provides communication direction and mentors others in technical writing, presentation and stakeholder engagement."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Risk Management",
+        "definition": "The ability to identify, analyze, evaluate, mitigate, treat, monitor and review risks relative to the achievement of organizational thrusts and priorities.",
+        "dimensions": [
+          {
+            "name": "Risk Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes potential threats to DOTr operations, projects and resources from natural or human-made circumstances.\n• Uses established risk-management procedures and reports identified risks through appropriate channels.\n• Supports basic risk identification and documentation for assigned activities.",
+              "Developing": "Applies risk-management tools and procedures with minimal supervision.\n• Analyzes routine project risks and recommends or implements established mitigation measures.\n• Monitors identified risks and escalates significant or emerging risks.",
+              "Proficient": "Evaluates risks using likelihood, impact, controls and available evidence.\n• Coordinates risk mitigation and monitoring across project activities and stakeholders.\n• Uses risk information to support project planning, resource decisions and implementation adjustments.",
+              "Advanced": "Provides strategic direction on risk mitigation and prevention for significant functions or programs.\n• Builds organizational awareness of risk-management policies and practices and benchmarks relevant approaches.\n• Integrates risk considerations with organizational objectives, resources and priorities and mentors others on risk management."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming",
+        "definition": "The ability to consider and address different needs, perspectives, concerns and experiences of women and men, persons with disabilities and other socially excluded or marginalized people in program, policy, mechanism and facility design, planning, implementation, monitoring and evaluation.",
+        "dimensions": [
+          {
+            "name": "Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes basic GEDSI concepts and applies relevant policies in assigned work.\n• Considers the needs and perspectives of diverse groups when performing routine duties.\n• Uses appropriate sex-, disability- or social-inclusion information when relevant to assigned work.",
+              "Developing": "Applies GEDSI principles in project activities and stakeholder interactions.\n• Recognizes potential exclusion or accessibility concerns and raises them for appropriate action.\n• Supports collection and use of relevant disaggregated information when required.",
+              "Proficient": "Integrates GEDSI considerations into project planning, implementation, monitoring and evaluation.\n• Identifies and addresses barriers affecting women, persons with disabilities and other marginalized groups.\n• Provides practical inputs that improve inclusivity, accessibility and responsiveness of project activities.",
+              "Advanced": "Provides technical guidance on GEDSI-responsive policies, programs, mechanisms and facilities.\n• Advises or coaches others on GEDSI and promotes inclusive project and organizational practices.\n• Champions sustainable GEDSI initiatives and integrates diverse perspectives into higher-level project and policy decisions."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "PMO-ROAD",
+    "name": "Project Management Office – Road",
+    "category": "without-framework",
+    "sourceFile": null,
+    "basis": "Benchmarked from the Project Management Office – Maritime competency framework, since these Project Management Offices share the same competency set.",
+    "careerProgression": null,
+    "office": "Needs Placement",
+    "officeOrder": 99,
+    "status": "populated",
+    "parentCode": null,
+    "reorgNote": "Not mentioned in the latest organizational chart taxonomy — placed here pending confirmation of where it belongs.",
+    "competencies": [
+      {
+        "name": "Project Management",
+        "definition": "The ability to apply project management knowledge, skills, tools and techniques in planning execution/implementation, control, monitoring and closing a project in accordance/alignment with organizational thrusts and directions.",
+        "dimensions": [
+          {
+            "name": "Project Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Applies established project management procedures with guidance; supports routine planning, monitoring, documentation and coordination activities.\n• Performs assigned project tasks using approved standards, schedules, specifications and available project information.\n• Identifies basic project issues, risks and deviations and escalates matters requiring supervisory action.",
+              "Developing": "Manages routine project activities with minimal supervision and coordinates with project teams and stakeholders.\n• Monitors implementation against approved plans, schedules, quality requirements and specifications and acts on routine variances.\n• Supports project documentation, billings, turnover, reporting and other project-control requirements.",
+              "Proficient": "Plans and coordinates complex project activities and integrates scope, schedule, quality, cost and implementation considerations.\n• Reviews project outputs and recommends corrective actions based on evidence, standards and project requirements.\n• Coordinates multiple practitioners/stakeholders and contributes to improvements in project processes, procedures and controls.",
+              "Advanced": "Provides direction for significant project areas and integrates technical, financial, quality and implementation considerations.\n• Recommends improvements to project policies, programs, procedures and project-management practices.\n• Provides technical leadership and mentors others in project planning, implementation, monitoring, control and closeout."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Environmental and Social Safeguards Management",
+        "definition": "The ability to plan, manage/oversee assessments for project preparation, programming and acquisition to ensure adherence to applicable laws and environmental and social compliance.",
+        "dimensions": [
+          {
+            "name": "Environmental and Social Safeguards Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Demonstrates basic knowledge of environmental and social project assessment and follows defined procedures when providing project inputs.\n• Recognizes basic environmental and social requirements relevant to assigned project activities.\n• Identifies apparent inconsistencies or compliance concerns and refers them to the appropriate personnel.",
+              "Developing": "Applies established environmental and social safeguards procedures to routine project activities.\n• Reviews environmental and social assessment information and identifies basic inconsistencies or gaps.\n• Supports monitoring of compliance and coordinates required information with relevant technical personnel.",
+              "Proficient": "Evaluates environmental and social compliance requirements in project planning and implementation.\n• Reviews evidence and assessment outputs and recommends corrective measures for identified compliance issues.\n• Coordinates safeguards requirements with project teams and stakeholders and supports informed project decisions.",
+              "Advanced": "Provides technical direction on environmental and social safeguards for significant programs/projects.\n• Ensures project environmental and social compliance and advises on complex safeguards issues.\n• Integrates safeguards considerations into project planning, programming, implementation and organizational decision-making."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Infrastructure Monitoring and Evaluation",
+        "definition": "The ability to evaluate, record, monitor and update specifications and status of infrastructure development and submit reports in accordance with established government/agency guidelines and standards.",
+        "dimensions": [
+          {
+            "name": "Infrastructure Monitoring and Evaluation",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes basic parameters and characteristics to be measured or checked during infrastructure monitoring.\n• Uses prescribed data-gathering tools and prepares complete, accurate documentation and evidence within timelines.\n• Reports basic observations, discrepancies and implementation concerns through established channels.",
+              "Developing": "Applies appropriate monitoring procedures and data-collection methods for assigned infrastructure activities.\n• Validates collected information against records, historical data and documentary evidence and acts on routine variances.\n• Reviews completeness and accuracy of monitoring information and supports timely encoding/reporting.",
+              "Proficient": "Evaluates monitoring data and documentary evidence against infrastructure objectives, targets and standards.\n• Reviews reports and identifies significant gaps, trends, variances or additional evidence needed for decision-making.\n• Coordinates monitoring activities and recommends improvements to monitoring systems, methods and reporting.",
+              "Advanced": "Defines or improves infrastructure monitoring and evaluation systems and methods.\n• Integrates monitoring results across projects and evaluates adequacy, completeness and effectiveness against Department objectives.\n• Provides technical leadership on monitoring and evaluation and recommends policy, program or system improvements."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Managing Data and Information",
+        "definition": "The ability to obtain, validate, store, update and utilize data according to its purpose while following guidelines on confidentiality and integrity.",
+        "dimensions": [
+          {
+            "name": "Managing Data and Information",
+            "definition": null,
+            "levels": {
+              "Emerging": "Receives and evaluates routine requests for data/information and refers them for proper disposition.\n• Uses authorized sources and follows basic data security, confidentiality and ethical practices.\n• Checks information for basic completeness and accuracy before use or release.",
+              "Developing": "Prepares and provides accurate and timely data based on established parameters and sharing protocols.\n• Validates information and resolves routine discrepancies using available references.\n• Maintains data integrity and applies appropriate controls in handling project information.",
+              "Proficient": "Evaluates data quality, relevance and reliability for project and management decisions.\n• Ensures information is accurate, complete, appropriately validated and fit for purpose.\n• Improves data-management practices and advises stakeholders on appropriate use and sharing of information.",
+              "Advanced": "Provides direction on data governance, integrity, confidentiality and information-use practices.\n• Integrates information from multiple project sources to support strategic project decisions.\n• Establishes or improves systems that strengthen data quality, accessibility, integrity and responsible use."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Communications Proficiency",
+        "definition": "The ability to convey clear and convincing ideas/opinions through written, verbal and virtual platforms relative to coordination, negotiation, implementation, monitoring and reporting.",
+        "dimensions": [
+          {
+            "name": "Communications Proficiency",
+            "definition": null,
+            "levels": {
+              "Emerging": "Communicates ideas and facts clearly and appropriately to the audience and situation.\n• Uses established written business communication formats and prepares routine correspondence with minimal errors.\n• Listens to others and demonstrates understanding of their concerns and information.",
+              "Developing": "Speaks and writes clearly, concisely and in an organized manner.\n• Prepares routine memoranda, letters, reports and other communications using available information and references.\n• Participates in meetings and stakeholder discussions and provides courteous, accurate and complete responses.",
+              "Proficient": "Prepares technical reports and communications involving interrelated data, projects or current issues.\n• Adapts communication to the intended audience and facilitates constructive stakeholder exchange.\n• Reviews technical reports and written materials and recommends improvements in clarity, relevance and presentation.",
+              "Advanced": "Delivers complex messages using an appropriate communication strategy and anticipates audience impact.\n• Facilitates stakeholder discussions and communicates technical or policy matters effectively.\n• Provides communication direction and mentors others in technical writing, presentation and stakeholder engagement."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Risk Management",
+        "definition": "The ability to identify, analyze, evaluate, mitigate, treat, monitor and review risks relative to the achievement of organizational thrusts and priorities.",
+        "dimensions": [
+          {
+            "name": "Risk Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes potential threats to DOTr operations, projects and resources from natural or human-made circumstances.\n• Uses established risk-management procedures and reports identified risks through appropriate channels.\n• Supports basic risk identification and documentation for assigned activities.",
+              "Developing": "Applies risk-management tools and procedures with minimal supervision.\n• Analyzes routine project risks and recommends or implements established mitigation measures.\n• Monitors identified risks and escalates significant or emerging risks.",
+              "Proficient": "Evaluates risks using likelihood, impact, controls and available evidence.\n• Coordinates risk mitigation and monitoring across project activities and stakeholders.\n• Uses risk information to support project planning, resource decisions and implementation adjustments.",
+              "Advanced": "Provides strategic direction on risk mitigation and prevention for significant functions or programs.\n• Builds organizational awareness of risk-management policies and practices and benchmarks relevant approaches.\n• Integrates risk considerations with organizational objectives, resources and priorities and mentors others on risk management."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming",
+        "definition": "The ability to consider and address different needs, perspectives, concerns and experiences of women and men, persons with disabilities and other socially excluded or marginalized people in program, policy, mechanism and facility design, planning, implementation, monitoring and evaluation.",
+        "dimensions": [
+          {
+            "name": "Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes basic GEDSI concepts and applies relevant policies in assigned work.\n• Considers the needs and perspectives of diverse groups when performing routine duties.\n• Uses appropriate sex-, disability- or social-inclusion information when relevant to assigned work.",
+              "Developing": "Applies GEDSI principles in project activities and stakeholder interactions.\n• Recognizes potential exclusion or accessibility concerns and raises them for appropriate action.\n• Supports collection and use of relevant disaggregated information when required.",
+              "Proficient": "Integrates GEDSI considerations into project planning, implementation, monitoring and evaluation.\n• Identifies and addresses barriers affecting women, persons with disabilities and other marginalized groups.\n• Provides practical inputs that improve inclusivity, accessibility and responsiveness of project activities.",
+              "Advanced": "Provides technical guidance on GEDSI-responsive policies, programs, mechanisms and facilities.\n• Advises or coaches others on GEDSI and promotes inclusive project and organizational practices.\n• Champions sustainable GEDSI initiatives and integrates diverse perspectives into higher-level project and policy decisions."
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
