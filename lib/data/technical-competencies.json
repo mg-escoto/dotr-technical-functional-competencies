@@ -8002,6 +8002,52 @@
         ]
       },
       {
+        "name": "Staffing Standards and Position Classification",
+        "definition": "The ability to review, analyze, and recommend staffing patterns, plantilla structures, and position classification standards to ensure organizational structures align with approved manpower complements and government staffing regulations.",
+        "dimensions": [
+          {
+            "name": "Staffing Pattern Analysis",
+            "definition": "Ability to review and analyze staffing patterns, plantilla items, and manpower complements against approved organizational structures.",
+            "levels": {
+              "Emerging": "Assists in gathering and organizing staffing pattern and plantilla data with guidance.",
+              "Developing": "Reviews staffing patterns and plantilla items against approved organizational structures.",
+              "Proficient": "Analyzes complex staffing pattern issues and recommends adjustments aligned with organizational needs.",
+              "Advanced": "Establishes standards and methodologies for staffing pattern analysis across the Department."
+            }
+          },
+          {
+            "name": "Position Classification and Standards",
+            "definition": "Ability to apply position classification standards, job descriptions, and qualification standards to staffing recommendations.",
+            "levels": {
+              "Emerging": "Assists in applying prescribed position classification standards with guidance.",
+              "Developing": "Applies position classification and qualification standards to routine staffing recommendations.",
+              "Proficient": "Resolves complex position classification issues and ensures consistency with approved standards.",
+              "Advanced": "Leads the development and enhancement of position classification and staffing standards."
+            }
+          },
+          {
+            "name": "Staffing Standards Policy Application",
+            "definition": "Ability to apply and interpret Department of Budget and Management (DBM) and Civil Service Commission (CSC) staffing-related rules, regulations, and issuances.",
+            "levels": {
+              "Emerging": "Refers to applicable DBM and CSC staffing-related issuances with guidance.",
+              "Developing": "Applies DBM and CSC staffing rules and regulations to routine transactions.",
+              "Proficient": "Interprets complex staffing policy issues and recommends compliant courses of action.",
+              "Advanced": "Provides expert direction on staffing policy interpretation and represents the Department in staffing-related matters with oversight agencies."
+            }
+          },
+          {
+            "name": "Staffing Recommendation and Reporting",
+            "definition": "Ability to prepare and present staffing pattern review documentation, recommendations, and reports for management decision-making.",
+            "levels": {
+              "Emerging": "Assists in preparing staffing pattern review documentation.",
+              "Developing": "Prepares staffing pattern reports and recommendation drafts for review.",
+              "Proficient": "Develops well-supported staffing recommendations and presents findings to management.",
+              "Advanced": "Directs strategic staffing reviews and reporting that inform organizational restructuring decisions."
+            }
+          }
+        ]
+      },
+      {
         "name": "Communications Proficiency",
         "definition": "The ability to convey clear and convincing ideas, information, policies, and recommendations through written, verbal, and virtual communication channels.",
         "dimensions": [

@@ -1354,6 +1354,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Strategic Planning', level: 'Advanced' },
           { name: 'Organizational Development', level: 'Advanced' },
+          { name: 'Staffing Standards and Position Classification', level: 'Advanced' },
           { name: 'Communications Proficiency', level: 'Advanced' },
           { name: 'Presentation Skills', level: 'Advanced' },
           { name: 'Policy Formulation and Implementation', level: 'Advanced' },
@@ -1367,6 +1368,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Strategic Planning', level: 'Advanced' },
           { name: 'Organizational Development', level: 'Advanced' },
+          { name: 'Staffing Standards and Position Classification', level: 'Advanced' },
           { name: 'Communications Proficiency', level: 'Advanced' },
           { name: 'Presentation Skills', level: 'Advanced' },
           { name: 'Policy Formulation and Implementation', level: 'Advanced' },
@@ -1379,7 +1381,10 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Organization and Staffing Standards Section',
         competencies: [
           { name: 'Organizational Development', level: 'Proficient' },
-          { name: 'Strategic Planning', level: 'Developing' },
+          { name: 'Staffing Standards and Position Classification', level: 'Proficient' },
+          { name: 'Strategic Planning', level: 'Proficient' },
+          { name: 'Change Management and Organizational Development', level: 'Developing' },
+          { name: 'Communications Proficiency', level: 'Developing' },
           { name: 'Presentation Skills', level: 'Developing' },
         ],
       },
@@ -1388,6 +1393,9 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Organization and Staffing Standards Section',
         competencies: [
           { name: 'Organizational Development', level: 'Developing' },
+          { name: 'Staffing Standards and Position Classification', level: 'Developing' },
+          { name: 'Strategic Planning', level: 'Developing' },
+          { name: 'Change Management and Organizational Development', level: 'Emerging' },
         ],
       },
       {
@@ -1395,6 +1403,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Organization and Staffing Standards Section',
         competencies: [
           { name: 'Organizational Development', level: 'Emerging' },
+          { name: 'Staffing Standards and Position Classification', level: 'Emerging' },
+          { name: 'Strategic Planning', level: 'Emerging' },
         ],
       },
       {
@@ -1402,7 +1412,9 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Policy Review, Systems Development and CART Section',
         competencies: [
           { name: 'Policy Formulation and Implementation', level: 'Proficient' },
-          { name: 'Change Management and Organizational Development', level: 'Developing' },
+          { name: 'Change Management and Organizational Development', level: 'Proficient' },
+          { name: 'Policy Compliance and Ethical Standards Enforcement', level: 'Developing' },
+          { name: 'Communications Proficiency', level: 'Developing' },
           { name: 'Presentation Skills', level: 'Developing' },
         ],
       },
@@ -1411,6 +1423,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Policy Review, Systems Development and CART Section',
         competencies: [
           { name: 'Policy Formulation and Implementation', level: 'Developing' },
+          { name: 'Change Management and Organizational Development', level: 'Developing' },
+          { name: 'Policy Compliance and Ethical Standards Enforcement', level: 'Emerging' },
         ],
       },
       {
@@ -1418,6 +1432,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Policy Review, Systems Development and CART Section',
         competencies: [
           { name: 'Policy Formulation and Implementation', level: 'Emerging' },
+          { name: 'Policy Compliance and Ethical Standards Enforcement', level: 'Emerging' },
         ],
       },
     ],
