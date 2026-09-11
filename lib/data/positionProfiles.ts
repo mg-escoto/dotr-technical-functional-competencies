@@ -1360,6 +1360,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Policy Formulation and Implementation', level: 'Advanced' },
           { name: 'Change Management and Organizational Development', level: 'Advanced' },
           { name: 'Policy Compliance and Ethical Standards Enforcement', level: 'Advanced' },
+          { name: 'Stakeholder Engagement and Technical Assistance', level: 'Advanced' },
         ],
       },
       {
@@ -1374,6 +1375,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Policy Formulation and Implementation', level: 'Advanced' },
           { name: 'Change Management and Organizational Development', level: 'Advanced' },
           { name: 'Policy Compliance and Ethical Standards Enforcement', level: 'Advanced' },
+          { name: 'Stakeholder Engagement and Technical Assistance', level: 'Advanced' },
         ],
       },
       {
@@ -1383,6 +1385,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Organizational Development', level: 'Proficient' },
           { name: 'Staffing Standards and Position Classification', level: 'Proficient' },
           { name: 'Strategic Planning', level: 'Proficient' },
+          { name: 'Stakeholder Engagement and Technical Assistance', level: 'Proficient' },
           { name: 'Change Management and Organizational Development', level: 'Developing' },
           { name: 'Communications Proficiency', level: 'Developing' },
           { name: 'Presentation Skills', level: 'Developing' },
@@ -1413,6 +1416,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Policy Formulation and Implementation', level: 'Proficient' },
           { name: 'Change Management and Organizational Development', level: 'Proficient' },
+          { name: 'Stakeholder Engagement and Technical Assistance', level: 'Proficient' },
           { name: 'Policy Compliance and Ethical Standards Enforcement', level: 'Developing' },
           { name: 'Communications Proficiency', level: 'Developing' },
           { name: 'Presentation Skills', level: 'Developing' },

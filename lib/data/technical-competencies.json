@@ -8216,6 +8216,52 @@
             }
           }
         ]
+      },
+      {
+        "name": "Stakeholder Engagement and Technical Assistance",
+        "definition": "The ability to establish and maintain productive relationships with internal and external stakeholders through effective coordination, communication, consultation, and technical assistance to support compliance with organizational development, staffing, and policy requirements.",
+        "dimensions": [
+          {
+            "name": "Stakeholder Relationship Management",
+            "definition": "Ability to establish, maintain, and strengthen professional and collaborative relationships with stakeholders to support organizational and staffing management objectives.",
+            "levels": {
+              "Emerging": "Maintains basic working relationships with stakeholders under guidance.",
+              "Developing": "Builds and sustains routine working relationships with concerned offices and stakeholders.",
+              "Proficient": "Manages complex stakeholder relationships and resolves relationship-related concerns.",
+              "Advanced": "Establishes strategic partnerships and institutional relationships that strengthen Management Division's organizational influence."
+            }
+          },
+          {
+            "name": "Technical Advisory Services",
+            "definition": "Ability to provide guidance, clarification, and recommendations to Department offices on organizational development, staffing standards, and policy matters.",
+            "levels": {
+              "Emerging": "Assists in providing basic information and guidance to stakeholders with supervision.",
+              "Developing": "Provides routine technical guidance on organizational development, staffing standards, and policy matters.",
+              "Proficient": "Provides expert technical advice on complex organizational, staffing, and policy issues.",
+              "Advanced": "Serves as the Division's senior technical resource and shapes advisory standards for organizational and staffing matters."
+            }
+          },
+          {
+            "name": "Stakeholder Consultation",
+            "definition": "Ability to engage stakeholders in discussions, gather inputs, build consensus, and address concerns related to organizational and policy initiatives.",
+            "levels": {
+              "Emerging": "Supports consultation activities and gathers stakeholder inputs with guidance.",
+              "Developing": "Facilitates routine stakeholder consultations and consolidates inputs and feedback.",
+              "Proficient": "Manages complex consultations, builds consensus, and addresses conflicting stakeholder concerns.",
+              "Advanced": "Leads high-level stakeholder consultations and institutionalizes consensus-building mechanisms."
+            }
+          },
+          {
+            "name": "Coordination and Collaboration",
+            "definition": "Ability to coordinate activities, synchronize efforts, and promote cooperation among offices and stakeholders in support of Management Division initiatives.",
+            "levels": {
+              "Emerging": "Follows established coordination procedures with guidance.",
+              "Developing": "Coordinates routine activities and maintains cooperation among concerned offices.",
+              "Proficient": "Synchronizes complex, cross-office coordination efforts and resolves collaboration issues.",
+              "Advanced": "Establishes institutional coordination mechanisms that strengthen cross-office collaboration."
+            }
+          }
+        ]
       }
     ]
   },
