@@ -2112,17 +2112,21 @@ export const positionProfiles: DivisionPositionProfile[] = [
 
   {
     divisionCode: 'TSKMD',
-    asOf: 'PPDO staff distribution (Annex D), per OO 2026-071',
+    asOf: 'TSKMD current organizational chart, as of 10 September 2026',
     sourceNote:
-      'Built from the Transport Policy and Planning Service, Transport Statistics and Knowledge Management Division staff ' +
-      'distribution table in Annex D of DOTr Office Order No. 2026-071, combined with the ' +
-      'Division\'s competency framework. Permanent plantilla positions only — Job Order ' +
-      'items are excluded. Vacant items are included since they are permanent plantilla ' +
-      'slots, just currently unfilled. Names are excluded per standing convention; where the ' +
-      'same title is held by more than one person, it is listed once as a role.',
+      'Built from the Transport Statistics and Knowledge Management Division current ' +
+      'organizational chart (as of 10 September 2026), combined with the Division\'s ' +
+      'competency framework. Only the six positions the chart explicitly labels under ' +
+      '"Organic personnel" are profiled here — the chart also shows a Supervising-level box, ' +
+      'a Sectoral Data and Statistics team-lead box, and the entire Database Systems and ' +
+      'Innovation branch as "for creation," with no readable position titles, so those are ' +
+      'not included pending a clearer source. All six profiled positions are permanent ' +
+      'plantilla items; the Senior Communications Development Officer item is coterminous ' +
+      'with the incumbent (noted on the chart as subject to mandatory retirement by January ' +
+      '2027). Names are excluded per standing convention.',
     positions: [
       {
-        title: 'Supervising Transportation Development Officer',
+        title: 'Chief Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Transport Statistics Management and Publication', level: 'Advanced' },
@@ -2137,14 +2141,22 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Senior Communications Development Officer',
         section: null,
         competencies: [
-          { name: 'Transport Data Collection and Coordination', level: 'Proficient' },
           { name: 'Knowledge Dissemination and Archiving', level: 'Proficient' },
+          { name: 'Transport Data Collection and Coordination', level: 'Proficient' },
           { name: 'Transport Statistics Management and Publication', level: 'Developing' },
         ],
       },
       {
         title: 'Statistician III',
-        section: null,
+        section: 'Road transport data',
+        competencies: [
+          { name: 'Research, Analysis, and Policy Studies', level: 'Proficient' },
+          { name: 'Transport Statistics Management and Publication', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Statistician III',
+        section: 'Rail transport data',
         competencies: [
           { name: 'Research, Analysis, and Policy Studies', level: 'Proficient' },
           { name: 'Transport Statistics Management and Publication', level: 'Developing' },
@@ -2152,17 +2164,18 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
       {
         title: 'Administrative Officer IV',
-        section: null,
+        section: 'Road transport data',
         competencies: [
           { name: 'Data Repository and Database Management', level: 'Developing' },
           { name: 'Data Standardization and Technical Assistance', level: 'Developing' },
         ],
       },
       {
-        title: 'Draftsman I',
-        section: null,
+        title: 'Administrative Officer IV',
+        section: 'Aviation transport data',
         competencies: [
-          { name: 'Data Repository and Database Management', level: 'Emerging' },
+          { name: 'Data Repository and Database Management', level: 'Developing' },
+          { name: 'Data Standardization and Technical Assistance', level: 'Developing' },
         ],
       },
     ],
@@ -2243,6 +2256,285 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Project Implementation Plan and Target Management', level: 'Developing' },
           { name: 'Project and Program Evaluation', level: 'Developing' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'CNSD',
+    asOf: 'MISS current organizational structure',
+    sourceNote: 'Built from the Management Information Systems Service (MISS) current organizational structure, Computer and Network Systems Division portion, combined with the CNSD competency framework. Permanent plantilla positions only — Contract of Service items, and items marked \'for abolished\' on the chart, are excluded. Vacant items are included since they are permanent plantilla slots, just currently unfilled. Names are excluded per standing convention; where the same title is held by more than one person, it is listed once as a role.',
+    positions: [
+      {
+        title: 'Information Technology Officer III',
+        section: null,
+        competencies: [
+          { name: 'Databases and Applications', level: 'Advanced' },
+          { name: 'Data Management and Analytics', level: 'Advanced' },
+          { name: 'User and Customer Support', level: 'Advanced' },
+          { name: 'Risk, Data Privacy, and Cyber Security Management', level: 'Advanced' },
+          { name: 'Computer Proficiency', level: 'Advanced' },
+          { name: 'Presentation Skills', level: 'Advanced' },
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Procurement Process and Administration', level: 'Advanced' },
+          { name: 'Troubleshooting and Problem-Solving', level: 'Advanced' },
+          { name: 'IT Asset Lifecycle Management', level: 'Advanced' },
+          { name: 'Technical Documentation and Knowledge Management', level: 'Advanced' },
+          { name: 'Cloud Infrastructure and Virtualization Management', level: 'Advanced' },
+          { name: 'IT Project Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Information Technology Officer II',
+        section: null,
+        competencies: [
+          { name: 'Databases and Applications', level: 'Advanced' },
+          { name: 'Data Management and Analytics', level: 'Advanced' },
+          { name: 'User and Customer Support', level: 'Advanced' },
+          { name: 'Risk, Data Privacy, and Cyber Security Management', level: 'Advanced' },
+          { name: 'Computer Proficiency', level: 'Advanced' },
+          { name: 'Presentation Skills', level: 'Advanced' },
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Procurement Process and Administration', level: 'Advanced' },
+          { name: 'Troubleshooting and Problem-Solving', level: 'Advanced' },
+          { name: 'IT Asset Lifecycle Management', level: 'Advanced' },
+          { name: 'Technical Documentation and Knowledge Management', level: 'Advanced' },
+          { name: 'Cloud Infrastructure and Virtualization Management', level: 'Advanced' },
+          { name: 'IT Project Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Information Technology Officer I',
+        section: null,
+        competencies: [
+          { name: 'Troubleshooting and Problem-Solving', level: 'Proficient' },
+          { name: 'IT Project Management', level: 'Proficient' },
+          { name: 'Cloud Infrastructure and Virtualization Management', level: 'Developing' },
+          { name: 'Databases and Applications', level: 'Developing' },
+          { name: 'Risk, Data Privacy, and Cyber Security Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Computer Maintenance Technologist III',
+        section: null,
+        competencies: [
+          { name: 'Troubleshooting and Problem-Solving', level: 'Proficient' },
+          { name: 'IT Asset Lifecycle Management', level: 'Developing' },
+          { name: 'User and Customer Support', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Computer Maintenance Technologist II',
+        section: null,
+        competencies: [
+          { name: 'Troubleshooting and Problem-Solving', level: 'Developing' },
+          { name: 'IT Asset Lifecycle Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Computer Maintenance Technologist I',
+        section: null,
+        competencies: [
+          { name: 'Troubleshooting and Problem-Solving', level: 'Emerging' },
+          { name: 'User and Customer Support', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Computer Programmer III',
+        section: null,
+        competencies: [
+          { name: 'Databases and Applications', level: 'Proficient' },
+          { name: 'Data Management and Analytics', level: 'Proficient' },
+          { name: 'Cloud Infrastructure and Virtualization Management', level: 'Developing' },
+          { name: 'Risk, Data Privacy, and Cyber Security Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Computer Programmer II',
+        section: null,
+        competencies: [
+          { name: 'Databases and Applications', level: 'Developing' },
+          { name: 'Data Management and Analytics', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Computer Programmer I',
+        section: null,
+        competencies: [
+          { name: 'Databases and Applications', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Senior Administrative Assistant I',
+        section: null,
+        competencies: [
+          { name: 'Technical Documentation and Knowledge Management', level: 'Developing' },
+          { name: 'Procurement Process and Administration', level: 'Developing' },
+          { name: 'Computer Proficiency', level: 'Developing' },
+          { name: 'Communications Proficiency', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant VI',
+        section: null,
+        competencies: [
+          { name: 'Technical Documentation and Knowledge Management', level: 'Emerging' },
+          { name: 'Procurement Process and Administration', level: 'Emerging' },
+          { name: 'Computer Proficiency', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Technical Documentation and Knowledge Management', level: 'Emerging' },
+          { name: 'Computer Proficiency', level: 'Emerging' },
+          { name: 'Communications Proficiency', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: null,
+        competencies: [
+          { name: 'Technical Documentation and Knowledge Management', level: 'Emerging' },
+          { name: 'Computer Proficiency', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'ISSD',
+    asOf: 'MISS current organizational structure',
+    sourceNote: 'Built from the Management Information Systems Service (MISS) current organizational structure, combining the Information Systems and Security Division and the Information System Division portions of the chart (per user direction, treated as one division: ISSD), with the ISSD competency framework. Permanent plantilla positions only — Contract of Service items, and items marked \'for abolished\' or \'for conversion\' on the chart, are excluded. Vacant items are included since they are permanent plantilla slots, just currently unfilled. Names are excluded per standing convention; where the same title is held by more than one person, it is listed once as a role.',
+    positions: [
+      {
+        title: 'Information Technology Officer III',
+        section: null,
+        competencies: [
+          { name: 'ICT Strategic Planning, Research, and Innovation', level: 'Advanced' },
+          { name: 'Information Systems Analysis, Development, and Lifecycle Management', level: 'Advanced' },
+          { name: 'Cybersecurity Operations and Incident Response', level: 'Advanced' },
+          { name: 'Information Security Governance, Data Privacy, and Compliance', level: 'Advanced' },
+          { name: 'Digital Transformation and ICT Modernization', level: 'Advanced' },
+          { name: 'ICT Procurement Planning and Technical Evaluation', level: 'Advanced' },
+          { name: 'ICT Data Analytics, Dashboards, and Decision Support', level: 'Advanced' },
+          { name: 'ICT Program, Project, and Stakeholder Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Information Technology Officer II',
+        section: null,
+        competencies: [
+          { name: 'ICT Strategic Planning, Research, and Innovation', level: 'Advanced' },
+          { name: 'Information Systems Analysis, Development, and Lifecycle Management', level: 'Advanced' },
+          { name: 'Cybersecurity Operations and Incident Response', level: 'Advanced' },
+          { name: 'Information Security Governance, Data Privacy, and Compliance', level: 'Advanced' },
+          { name: 'Digital Transformation and ICT Modernization', level: 'Advanced' },
+          { name: 'ICT Procurement Planning and Technical Evaluation', level: 'Advanced' },
+          { name: 'ICT Data Analytics, Dashboards, and Decision Support', level: 'Advanced' },
+          { name: 'ICT Program, Project, and Stakeholder Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Information Technology Officer I',
+        section: null,
+        competencies: [
+          { name: 'Information Systems Analysis, Development, and Lifecycle Management', level: 'Proficient' },
+          { name: 'ICT Program, Project, and Stakeholder Management', level: 'Proficient' },
+          { name: 'Digital Transformation and ICT Modernization', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Computer Programmer III',
+        section: null,
+        competencies: [
+          { name: 'Information Systems Analysis, Development, and Lifecycle Management', level: 'Proficient' },
+          { name: 'Cybersecurity Operations and Incident Response', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Statistician III',
+        section: null,
+        competencies: [
+          { name: 'ICT Data Analytics, Dashboards, and Decision Support', level: 'Proficient' },
+          { name: 'Information Security Governance, Data Privacy, and Compliance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Information Systems Analyst II',
+        section: null,
+        competencies: [
+          { name: 'Information Systems Analysis, Development, and Lifecycle Management', level: 'Developing' },
+          { name: 'Cybersecurity Operations and Incident Response', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Information Systems Analyst I',
+        section: null,
+        competencies: [
+          { name: 'Information Systems Analysis, Development, and Lifecycle Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: null,
+        competencies: [
+          { name: 'ICT Procurement Planning and Technical Evaluation', level: 'Developing' },
+          { name: 'ICT Program, Project, and Stakeholder Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Senior Communications Development Officer',
+        section: null,
+        competencies: [
+          { name: 'ICT Program, Project, and Stakeholder Management', level: 'Proficient' },
+          { name: 'Digital Transformation and ICT Modernization', level: 'Developing' },
+        ],
+      },
+    ],
+  },
+  {
+    divisionCode: 'ICD',
+    asOf: 'ICD existing organizational structure',
+    sourceNote: 'Built from the International Cooperation Division existing organizational structure chart, combined with the ICD competency framework. Permanent plantilla positions only — the chart had no Job Order or Contract of Service entries to exclude. Vacant items are included since they are permanent plantilla slots, just currently unfilled. The chart shows the Head both as a standalone position and again as one of the two Supervising Communications Development Officer branch leads — since this is the same person and the same title, it is merged with the other Supervising Communications Development Officer role into a single entry, per standing convention for same-title duplicates. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Supervising Communications Development Officer',
+        section: null,
+        competencies: [
+          { name: 'International Relations, Diplomacy and Protocol', level: 'Advanced' },
+          { name: 'International Negotiation and Philippine Position Development', level: 'Advanced' },
+          { name: 'International Agreements, Treaty and Commitment Management', level: 'Advanced' },
+          { name: 'International Cooperation Policy and Strategic Analysis', level: 'Advanced' },
+          { name: 'International Development Partnerships and External Relations', level: 'Advanced' },
+          { name: 'International Commitments Integration and Implementation Planning', level: 'Advanced' },
+          { name: 'International Communications and Diplomatic Writing', level: 'Advanced' },
+          { name: 'International Meetings, Delegations and Events Management', level: 'Advanced' },
+          { name: 'International Representation, Presentation and Stakeholder Facilitation', level: 'Advanced' },
+          { name: 'International Commitments Monitoring, Reporting and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Communications Development Officer',
+        section: null,
+        competencies: [
+          { name: 'International Relations, Diplomacy and Protocol', level: 'Proficient' },
+          { name: 'International Negotiation and Philippine Position Development', level: 'Proficient' },
+          { name: 'International Agreements, Treaty and Commitment Management', level: 'Proficient' },
+          { name: 'International Cooperation Policy and Strategic Analysis', level: 'Developing' },
+          { name: 'International Development Partnerships and External Relations', level: 'Developing' },
+          { name: 'International Representation, Presentation and Stakeholder Facilitation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Communications Development Officer II',
+        section: null,
+        competencies: [
+          { name: 'International Communications and Diplomatic Writing', level: 'Developing' },
+          { name: 'International Meetings, Delegations and Events Management', level: 'Developing' },
+          { name: 'International Commitments Monitoring, Reporting and Knowledge Management', level: 'Developing' },
+          { name: 'International Relations, Diplomacy and Protocol', level: 'Emerging' },
         ],
       },
     ],
