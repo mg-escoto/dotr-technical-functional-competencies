@@ -2116,17 +2116,29 @@ export const positionProfiles: DivisionPositionProfile[] = [
     sourceNote:
       'Built from the Transport Statistics and Knowledge Management Division current ' +
       'organizational chart (as of 10 September 2026), combined with the Division\'s ' +
-      'competency framework. Only the six positions the chart explicitly labels under ' +
-      '"Organic personnel" are profiled here — the chart also shows a Supervising-level box, ' +
-      'a Sectoral Data and Statistics team-lead box, and the entire Database Systems and ' +
-      'Innovation branch as "for creation," with no readable position titles, so those are ' +
-      'not included pending a clearer source. All six profiled positions are permanent ' +
-      'plantilla items; the Senior Communications Development Officer item is coterminous ' +
-      'with the incumbent (noted on the chart as subject to mandatory retirement by January ' +
-      '2027). Names are excluded per standing convention.',
+      'competency framework. The Chief, Supervising, and six "Organic personnel" positions ' +
+      'the chart explicitly labels are profiled here — the chart also shows a Sectoral Data ' +
+      'and Statistics team-lead box and the entire Database Systems and Innovation branch as ' +
+      '"for creation," with no readable position titles, so those are not included pending a ' +
+      'clearer source. All profiled positions are permanent plantilla items; the Senior ' +
+      'Communications Development Officer item is coterminous with the incumbent (noted on ' +
+      'the chart as subject to mandatory retirement by January 2027). Names are excluded per ' +
+      'standing convention.',
     positions: [
       {
         title: 'Chief Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Transport Statistics Management and Publication', level: 'Advanced' },
+          { name: 'Transport Data Collection and Coordination', level: 'Advanced' },
+          { name: 'Data Repository and Database Management', level: 'Advanced' },
+          { name: 'Data Standardization and Technical Assistance', level: 'Advanced' },
+          { name: 'Research, Analysis, and Policy Studies', level: 'Advanced' },
+          { name: 'Knowledge Dissemination and Archiving', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
         section: null,
         competencies: [
           { name: 'Transport Statistics Management and Publication', level: 'Advanced' },
@@ -2412,7 +2424,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Information Technology Officer III',
         section: null,
         competencies: [
-          { name: 'ICT Strategic Planning, Research, and Innovation', level: 'Advanced' },
+          { name: 'Information and Communications Technology (ICT) Strategic Planning, Research, and Innovation', level: 'Advanced' },
           { name: 'Information Systems Analysis, Development, and Lifecycle Management', level: 'Advanced' },
           { name: 'Cybersecurity Operations and Incident Response', level: 'Advanced' },
           { name: 'Information Security Governance, Data Privacy, and Compliance', level: 'Advanced' },
@@ -2426,7 +2438,7 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Information Technology Officer II',
         section: null,
         competencies: [
-          { name: 'ICT Strategic Planning, Research, and Innovation', level: 'Advanced' },
+          { name: 'Information and Communications Technology (ICT) Strategic Planning, Research, and Innovation', level: 'Advanced' },
           { name: 'Information Systems Analysis, Development, and Lifecycle Management', level: 'Advanced' },
           { name: 'Cybersecurity Operations and Incident Response', level: 'Advanced' },
           { name: 'Information Security Governance, Data Privacy, and Compliance', level: 'Advanced' },
