@@ -55,12 +55,6 @@ export default function PositionProfilePage() {
           <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', color: C.text }}>
             Position Competency Profile
           </h1>
-          <div
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide"
-            style={{ background: C.navy, color: C.white }}
-          >
-            As of {profile.asOf}
-          </div>
         </div>
       </div>
 
