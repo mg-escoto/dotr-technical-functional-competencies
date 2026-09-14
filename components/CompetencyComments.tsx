@@ -77,16 +77,24 @@ export default function CompetencyComments({
   const statusColor = (status: PublicComment['status']) =>
     status === 'accepted' ? '#0d8f82' : status === 'returned' ? '#b35c00' : C.orange
 
+  const tintBg = 'rgba(245,158,11,0.10)'
+  const tintBorder = 'rgba(245,158,11,0.4)'
+  const tintText = '#b45309'
+
   return (
-    <div className="space-y-3 pt-2" style={{ borderTop: `1px solid ${C.borderMuted}` }}>
-      <div className="flex items-center justify-between pt-4">
-        <h4 className="text-sm font-bold uppercase tracking-wide" style={{ color: C.text }}>
+    <div
+      className="space-y-3 rounded-xl p-4 mt-2"
+      style={{ background: tintBg, border: `1px solid ${tintBorder}` }}
+    >
+      <div className="flex items-center justify-between gap-2">
+        <h4 className="text-sm font-black uppercase tracking-wide flex items-center gap-1.5" style={{ color: tintText }}>
+          <span aria-hidden="true">💬</span>
           Comments/Suggestions {relevant.length > 0 && `(${relevant.length})`}
         </h4>
         <button
           onClick={() => setShowForm(v => !v)}
-          className="text-xs font-bold uppercase tracking-wide"
-          style={{ color: C.orange }}
+          className="text-xs font-bold uppercase tracking-wide px-3 py-1.5 rounded-lg flex-shrink-0"
+          style={{ background: showForm ? C.subtleBg : '#f59e0b', color: showForm ? C.text : '#ffffff' }}
         >
           {showForm ? 'Cancel' : '+ Leave a comment'}
         </button>
@@ -95,7 +103,7 @@ export default function CompetencyComments({
       {relevant.length > 0 && (
         <div className="space-y-2">
           {relevant.map(c => (
-            <div key={c.id} className="rounded-lg p-3 space-y-1.5" style={{ background: C.subtleBg }}>
+            <div key={c.id} className="rounded-lg p-3 space-y-1.5" style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}>
               <div className="flex items-center justify-between gap-2">
                 <p className="text-xs" style={{ color: C.textMuted }}>
                   {new Date(c.created_at).toLocaleDateString()}
@@ -126,7 +134,7 @@ export default function CompetencyComments({
       )}
 
       {showForm && (
-        <form onSubmit={handleSubmit} className="space-y-3 rounded-lg p-4" style={{ background: C.subtleBg }}>
+        <form onSubmit={handleSubmit} className="space-y-3 rounded-lg p-4" style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}>
           <div>
             <label className="text-xs font-bold uppercase tracking-wide" style={{ color: C.textMuted }}>
               Comment
