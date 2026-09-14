@@ -26,7 +26,7 @@ export default function TechnicalCompetenciesPage() {
             ← All Competencies
           </Link>
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
-            Technical &amp; Functional Competency Portal
+            Division Technical &amp; Functional Competencies
           </p>
           <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(28px, 4vw, 48px)', color: C.text }}>
             Division Competency Frameworks

@@ -3385,6 +3385,158 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'BD',
+    asOf: 'COEB MC No. 2026-1, Annex C — Mapping of Current Organizational Structure and Staffing Pattern, Budget Division, as of 14 August 2026',
+    sourceNote:
+      'Built from Annex C of COEB MC No. 2026-1 (current organizational structure and staffing pattern), ' +
+      'combined with the Division\'s competency framework. The Chief Administrative Officer and Supervising ' +
+      'Administrative Officer are listed at the Division-proper level, separate from the four Budget ' +
+      'Management Sections, since Annex C places them under the Division\'s own organizational unit rather ' +
+      'than any one section. Permanent plantilla positions only — Job Order and Contract of Service items ' +
+      'are excluded. Vacant items are included since they are permanent plantilla slots, just currently ' +
+      'unfilled. Names are excluded per standing convention; where the same title is held by more than one ' +
+      'incumbent within a section (filled or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Budget Planning and Preparation', level: 'Advanced' },
+          { name: 'Budget Legislation, Defense, and Approval Support', level: 'Advanced' },
+          { name: 'Budget Execution and Fund Management', level: 'Advanced' },
+          { name: 'Budget Transaction Processing and Control', level: 'Advanced' },
+          { name: 'Budget Modification and Special Budget Requests', level: 'Advanced' },
+          { name: 'Budget Performance Monitoring and Analysis', level: 'Advanced' },
+          { name: 'Budget Accountability and Management Reporting', level: 'Advanced' },
+          { name: 'Budget Policy, Compliance, and Process Improvement', level: 'Advanced' },
+          { name: 'Budget Technical Advisory and Stakeholder Coordination', level: 'Advanced' },
+          { name: 'Budget Digitalization, Data, Records, and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Budget Planning and Preparation', level: 'Advanced' },
+          { name: 'Budget Legislation, Defense, and Approval Support', level: 'Advanced' },
+          { name: 'Budget Execution and Fund Management', level: 'Advanced' },
+          { name: 'Budget Transaction Processing and Control', level: 'Advanced' },
+          { name: 'Budget Modification and Special Budget Requests', level: 'Advanced' },
+          { name: 'Budget Performance Monitoring and Analysis', level: 'Advanced' },
+          { name: 'Budget Accountability and Management Reporting', level: 'Advanced' },
+          { name: 'Budget Policy, Compliance, and Process Improvement', level: 'Advanced' },
+          { name: 'Budget Technical Advisory and Stakeholder Coordination', level: 'Advanced' },
+          { name: 'Budget Digitalization, Data, Records, and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Personnel Budget Management Section',
+        competencies: [
+          { name: 'Budget Planning and Preparation', level: 'Proficient' },
+          { name: 'Budget Execution and Fund Management', level: 'Proficient' },
+          { name: 'Budget Performance Monitoring and Analysis', level: 'Proficient' },
+          { name: 'Budget Accountability and Management Reporting', level: 'Proficient' },
+          { name: 'Budget Technical Advisory and Stakeholder Coordination', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Personnel Budget Management Section',
+        competencies: [
+          { name: 'Budget Execution and Fund Management', level: 'Developing' },
+          { name: 'Budget Modification and Special Budget Requests', level: 'Developing' },
+          { name: 'Budget Digitalization, Data, Records, and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Operations Budget Management Section',
+        competencies: [
+          { name: 'Budget Planning and Preparation', level: 'Proficient' },
+          { name: 'Budget Execution and Fund Management', level: 'Proficient' },
+          { name: 'Budget Transaction Processing and Control', level: 'Proficient' },
+          { name: 'Budget Performance Monitoring and Analysis', level: 'Proficient' },
+          { name: 'Budget Legislation, Defense, and Approval Support', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Operations Budget Management Section',
+        competencies: [
+          { name: 'Budget Execution and Fund Management', level: 'Developing' },
+          { name: 'Budget Transaction Processing and Control', level: 'Developing' },
+          { name: 'Budget Accountability and Management Reporting', level: 'Developing' },
+          { name: 'Budget Digitalization, Data, Records, and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Operations Budget Management Section',
+        competencies: [
+          { name: 'Budget Digitalization, Data, Records, and Knowledge Management', level: 'Emerging' },
+          { name: 'Budget Transaction Processing and Control', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Locally-Funded Projects Budget Management Section',
+        competencies: [
+          { name: 'Budget Planning and Preparation', level: 'Proficient' },
+          { name: 'Budget Legislation, Defense, and Approval Support', level: 'Proficient' },
+          { name: 'Budget Execution and Fund Management', level: 'Proficient' },
+          { name: 'Budget Performance Monitoring and Analysis', level: 'Proficient' },
+          { name: 'Budget Technical Advisory and Stakeholder Coordination', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Locally-Funded Projects Budget Management Section',
+        competencies: [
+          { name: 'Budget Execution and Fund Management', level: 'Developing' },
+          { name: 'Budget Transaction Processing and Control', level: 'Developing' },
+          { name: 'Budget Accountability and Management Reporting', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Locally-Funded Projects Budget Management Section',
+        competencies: [
+          { name: 'Budget Digitalization, Data, Records, and Knowledge Management', level: 'Emerging' },
+          { name: 'Budget Transaction Processing and Control', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Foreign-Assisted Projects Budget Management Section',
+        competencies: [
+          { name: 'Budget Planning and Preparation', level: 'Proficient' },
+          { name: 'Budget Legislation, Defense, and Approval Support', level: 'Proficient' },
+          { name: 'Budget Execution and Fund Management', level: 'Proficient' },
+          { name: 'Budget Performance Monitoring and Analysis', level: 'Proficient' },
+          { name: 'Budget Technical Advisory and Stakeholder Coordination', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Foreign-Assisted Projects Budget Management Section',
+        competencies: [
+          { name: 'Budget Execution and Fund Management', level: 'Developing' },
+          { name: 'Budget Transaction Processing and Control', level: 'Developing' },
+          { name: 'Budget Accountability and Management Reporting', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Foreign-Assisted Projects Budget Management Section',
+        competencies: [
+          { name: 'Budget Digitalization, Data, Records, and Knowledge Management', level: 'Emerging' },
+          { name: 'Budget Transaction Processing and Control', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {

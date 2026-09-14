@@ -26,7 +26,7 @@ export default function CoreCompetenciesPage() {
             ← All Competencies
           </Link>
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
-            Core Competency Portal
+            Core Competencies
           </p>
           <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', color: C.text }}>
             Department-Wide Core Competencies
