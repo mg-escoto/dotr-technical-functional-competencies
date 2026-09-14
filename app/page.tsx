@@ -4,6 +4,7 @@ import Link from 'next/link'
 import TechCompNav from '@/components/TechCompNav'
 import { useTechColors } from '@/lib/techColors'
 import { getDivisionsByOffice, divisions, LEVEL_SCALE, type Division } from '@/lib/data/technicalCompetencies'
+import { getPositionProfile } from '@/lib/data/positionProfiles'
 
 export default function TechnicalCompetenciesPage() {
   const C = useTechColors()
@@ -109,6 +110,7 @@ function OfficeSection({
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {topLevel.map(d => {
           const children = divisions.filter(c => c.parentCode === d.code)
+          const hasPositionProfile = !!getPositionProfile(d.code)
           return (
             <Link
               key={d.code}
@@ -121,12 +123,22 @@ function OfficeSection({
               }}
             >
               <div className="flex items-center justify-between gap-2">
-                <p
-                  className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
-                  style={{ background: C.subtleBg, color: C.orange }}
-                >
-                  {d.code}
-                </p>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <p
+                    className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
+                    style={{ background: C.subtleBg, color: C.orange }}
+                  >
+                    {d.code}
+                  </p>
+                  {hasPositionProfile && (
+                    <p
+                      className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
+                      style={{ background: C.orange, color: C.white }}
+                    >
+                      Individual Competencies
+                    </p>
+                  )}
+                </div>
                 <span
                   className="text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity"
                   style={{ color: C.orange }}

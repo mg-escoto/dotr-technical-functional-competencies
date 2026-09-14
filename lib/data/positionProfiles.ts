@@ -3148,6 +3148,186 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'PPMD',
+    asOf: 'Procurement Management Service current organizational staffing chart',
+    sourceNote:
+      'Built from the Procurement Management Service organizational staffing chart (Procurement ' +
+      'Planning and Management Division column), combined with the Division\'s competency ' +
+      'framework. ' +
+      'Permanent plantilla positions only — Job Order and Contract of Service items are excluded. ' +
+      'Vacant items are included since they are permanent plantilla slots, just currently unfilled. ' +
+      'Names are excluded per standing convention; where the same title is held by more than one ' +
+      'person (filled or vacant), it is listed once as a role. The BAC Secretariat Division column ' +
+      'on this chart is held for a later pass, per instruction.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Procurement Planning and Technical Document Review', level: 'Advanced' },
+          { name: 'Procurement Action Document and Issuance Preparation', level: 'Advanced' },
+          { name: 'Procurement Communication and Stakeholder Coordination', level: 'Advanced' },
+          { name: 'Procurement Advertisement and Transparency Compliance', level: 'Advanced' },
+          { name: 'Procurement Resolution, Notice of Award, and Award Documentation Management', level: 'Advanced' },
+          { name: 'Procurement Transmittal and Post-Award Documentation', level: 'Advanced' },
+          { name: 'Administrative, Reportorial, and Professional Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Procurement Planning and Technical Document Review', level: 'Advanced' },
+          { name: 'Procurement Action Document and Issuance Preparation', level: 'Advanced' },
+          { name: 'Procurement Communication and Stakeholder Coordination', level: 'Advanced' },
+          { name: 'Procurement Advertisement and Transparency Compliance', level: 'Advanced' },
+          { name: 'Procurement Resolution, Notice of Award, and Award Documentation Management', level: 'Advanced' },
+          { name: 'Procurement Transmittal and Post-Award Documentation', level: 'Advanced' },
+          { name: 'Administrative, Reportorial, and Professional Support', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: null,
+        competencies: [
+          { name: 'Procurement Planning and Technical Document Review', level: 'Proficient' },
+          { name: 'Procurement Action Document and Issuance Preparation', level: 'Proficient' },
+          { name: 'Procurement Advertisement and Transparency Compliance', level: 'Proficient' },
+          { name: 'Procurement Resolution, Notice of Award, and Award Documentation Management', level: 'Proficient' },
+          { name: 'Procurement Transmittal and Post-Award Documentation', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: null,
+        competencies: [
+          { name: 'Procurement Planning and Technical Document Review', level: 'Developing' },
+          { name: 'Procurement Action Document and Issuance Preparation', level: 'Developing' },
+          { name: 'Procurement Resolution, Notice of Award, and Award Documentation Management', level: 'Developing' },
+          { name: 'Procurement Transmittal and Post-Award Documentation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: null,
+        competencies: [
+          { name: 'Procurement Action Document and Issuance Preparation', level: 'Developing' },
+          { name: 'Procurement Resolution, Notice of Award, and Award Documentation Management', level: 'Developing' },
+          { name: 'Procurement Transmittal and Post-Award Documentation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: null,
+        competencies: [
+          { name: 'Procurement Transmittal and Post-Award Documentation', level: 'Emerging' },
+          { name: 'Administrative, Reportorial, and Professional Support', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Administrative, Reportorial, and Professional Support', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: null,
+        competencies: [
+          { name: 'Administrative, Reportorial, and Professional Support', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'CMD',
+    asOf: 'Procurement Management Service current organizational staffing chart',
+    sourceNote:
+      'Built from the Procurement Management Service organizational staffing chart (Contract ' +
+      'Management Division column), combined with the Division\'s competency framework. The ' +
+      'Attorney III item is a distinct legal specialist track alongside the Administrative ' +
+      'Officer ladder, and is mapped to the Division\'s regulatory-compliance and contract-' +
+      'administration competencies rather than the general Administrative Officer progression. ' +
+      'Permanent plantilla positions only — Job Order and Contract of Service items are excluded. ' +
+      'Vacant items are included since they are permanent plantilla slots, just currently unfilled. ' +
+      'Names are excluded per standing convention; where the same title is held by more than one ' +
+      'person (filled or vacant), it is listed once as a role. The BAC Secretariat Division column ' +
+      'on this chart is held for a later pass, per instruction.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Government Procurement Systems and Regulatory Compliance', level: 'Advanced' },
+          { name: 'Contract Management and Administration', level: 'Advanced' },
+          { name: 'Contract and Procurement Data and Records Management', level: 'Advanced' },
+          { name: 'Communications and Stakeholder Coordination', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Government Procurement Systems and Regulatory Compliance', level: 'Advanced' },
+          { name: 'Contract Management and Administration', level: 'Advanced' },
+          { name: 'Contract and Procurement Data and Records Management', level: 'Advanced' },
+          { name: 'Communications and Stakeholder Coordination', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney III',
+        section: null,
+        competencies: [
+          { name: 'Government Procurement Systems and Regulatory Compliance', level: 'Proficient' },
+          { name: 'Contract Management and Administration', level: 'Proficient' },
+          { name: 'Communications and Stakeholder Coordination', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: null,
+        competencies: [
+          { name: 'Government Procurement Systems and Regulatory Compliance', level: 'Proficient' },
+          { name: 'Contract Management and Administration', level: 'Proficient' },
+          { name: 'Contract and Procurement Data and Records Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: null,
+        competencies: [
+          { name: 'Contract Management and Administration', level: 'Developing' },
+          { name: 'Contract and Procurement Data and Records Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: null,
+        competencies: [
+          { name: 'Contract and Procurement Data and Records Management', level: 'Developing' },
+          { name: 'Communications and Stakeholder Coordination', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: null,
+        competencies: [
+          { name: 'Contract and Procurement Data and Records Management', level: 'Emerging' },
+          { name: 'Communications and Stakeholder Coordination', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Contract and Procurement Data and Records Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
