@@ -1264,6 +1264,19 @@
     "parentCode": null
   },
   {
+    "code": "FRS",
+    "name": "Franchising Review Staff",
+    "category": null,
+    "status": "under-construction",
+    "office": "Office of the Secretary",
+    "officeOrder": 2,
+    "parentCode": null,
+    "sourceFile": null,
+    "basis": null,
+    "careerProgression": null,
+    "competencies": []
+  },
+  {
     "code": "AMD",
     "name": "Asset Management Division",
     "category": "with-framework",
