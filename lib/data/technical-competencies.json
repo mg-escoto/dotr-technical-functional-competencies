@@ -15071,13 +15071,13 @@
         "definition": "The ability to facilitate and support the acquisition of land and property rights required for infrastructure projects through effective negotiation, stakeholder coordination, legal and regulatory compliance, documentation management, and resolution of acquisition-related issues, ensuring timely, lawful, and stakeholder-responsive acquisition processes",
         "dimensions": [
           {
-            "name": "Acquisition Planning and Documentation",
+            "name": "Acquisition Planning, Documentation, and Records Management",
             "definition": null,
             "levels": {
-              "Emerging": "Understands basic land acquisition requirements and assists in gathering, organizing, and routing acquisition documents.",
-              "Developing": "Reviews document completeness and prepare basic acquisition-related documents with guidance.",
-              "Proficient": "Independently reviews, prepares, and endorses acquisition-related documents in accordance with established procedures and timelines.",
-              "Advanced": "Establishes standards and quality controls for acquisition documentation and provides technical guidance on complex cases."
+              "Emerging": "Understands basic land acquisition requirements, assists in gathering, organizing, and routing acquisition documents, and maintains basic records and files.",
+              "Developing": "Reviews document completeness, prepares basic acquisition-related documents with guidance, and prepares routine reports and tracking updates with minimal supervision.",
+              "Proficient": "Independently reviews, prepares, and endorses acquisition-related documents in accordance with established procedures and timelines, while maintaining complete and accurate records and reports that support decision-making and accountability.",
+              "Advanced": "Establishes standards and quality controls for acquisition documentation and records management, provides technical guidance on complex cases, and develops reporting systems that enhance transparency, audit readiness, and organizational learning."
             }
           },
           {
@@ -15091,23 +15091,13 @@
             }
           },
           {
-            "name": "Negotiation and Stakeholder Engagement",
+            "name": "Negotiation, Stakeholder Engagement, and Relationship Management",
             "definition": null,
             "levels": {
-              "Emerging": "Participates in meetings and coordinates with property owners and stakeholders under supervision.",
-              "Developing": "Assists in conducting negotiations and stakeholder consultations while addressing routine concerns.",
-              "Proficient": "Effectively negotiate with landowners, agencies, and affected parties to facilitate acquisition activities and resolve issues.",
-              "Advanced": "Leads high-impact negotiations, builds strategic partnerships, and secures stakeholder commitment in complex acquisition situations."
-            }
-          },
-          {
-            "name": "Coordination and Relationship Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Coordinates basic information requests and supports communication among concerned parties.",
-              "Developing": "Maintains working relationships with stakeholders and assists in scheduling and facilitating coordination activities.",
-              "Proficient": "Facilitates effective collaboration among project teams, government agencies, property owners, and affected stakeholders.",
-              "Advanced": "Strengthens institutional partnerships and develops mechanisms that improve collaboration and acquisition outcomes."
+              "Emerging": "Participates in meetings and coordinates basic information requests with property owners and stakeholders under supervision.",
+              "Developing": "Assists in conducting negotiations and stakeholder consultations, maintains working relationships, and supports scheduling and facilitation of coordination activities.",
+              "Proficient": "Effectively negotiates with landowners, agencies, and affected parties to facilitate acquisition activities and resolve issues, while facilitating collaboration among project teams, government agencies, property owners, and affected stakeholders.",
+              "Advanced": "Leads high-impact negotiations, builds strategic partnerships, secures stakeholder commitment in complex acquisition situations, and develops mechanisms that strengthen institutional relationships and improve acquisition outcomes."
             }
           },
           {
@@ -15129,16 +15119,6 @@
               "Proficient": "Consistently meets service standards in reviewing, endorsing, and submitting acquisition-related deliverables.",
               "Advanced": "Optimizes work processes, improves turnaround times, and drives service excellence across acquisition functions."
             }
-          },
-          {
-            "name": "Reporting and Records Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains basic records and files acquisition-related documents properly.",
-              "Developing": "Prepare routine reports and updates tracking records with minimal supervision.",
-              "Proficient": "Maintains complete and accurate acquisition records and prepares reports that support decision-making and accountability.",
-              "Advanced": "Establishes reporting systems and records management standards that enhance transparency, audit readiness, and organizational learning."
-            }
           }
         ]
       },
@@ -15157,33 +15137,33 @@
             }
           },
           {
-            "name": "Document Review and Action Processing",
+            "name": "Document Review, Processing, and Records Management",
             "definition": null,
             "levels": {
-              "Emerging": "Identifies basic documentary requirements and assists in processing acquisition-related documents.",
-              "Developing": "Reviews documents for completeness and prepares routine endorsements under guidance.",
-              "Proficient": "Reviews, validates, and endorses ROW-related documents accurately and within prescribed timelines.",
-              "Advanced": "Establishes quality standards for document review and provides technical guidance on complex or high-risk transactions."
+              "Emerging": "Identifies basic documentary requirements, assists in processing acquisition-related documents, and maintains files and records according to established procedures.",
+              "Developing": "Reviews documents for completeness, prepares routine endorsements under guidance, and organizes and updates ROW records and tracking systems with minimal supervision.",
+              "Proficient": "Reviews, validates, and endorses ROW-related documents accurately and within prescribed timelines, while ensuring completeness, accuracy, accessibility, and integrity of ROW documentation and information resources.",
+              "Advanced": "Establishes quality standards for document review and provides technical guidance on complex or high-risk transactions, and develops records management protocols and information systems that enhance transparency, accountability, and organizational learning."
             }
           },
           {
-            "name": "Stakeholder and Inter-Agency Coordination",
+            "name": "Stakeholder Coordination and Meeting Facilitation",
             "definition": null,
             "levels": {
-              "Emerging": "Participates in coordination meetings and information-sharing activities when required.",
-              "Developing": "Coordinates with internal and external stakeholders to support project requirements and acquisition activities.",
-              "Proficient": "Facilitates productive collaboration among project teams, government agencies, contractors, LGUs, and affected stakeholders.",
-              "Advanced": "Leads multi-stakeholder engagements and resolves inter-agency concerns affecting ROW implementation."
+              "Emerging": "Participates in coordination meetings and information-sharing activities, and attends meetings, contributing information when requested.",
+              "Developing": "Coordinates with internal and external stakeholders to support project requirements, assists in organizing meetings, preparing documentation, and monitoring action items.",
+              "Proficient": "Facilitates productive collaboration among project teams, government agencies, contractors, LGUs, and affected stakeholders, and effectively facilitates coordination meetings, ensuring follow-through of commitments and stakeholder accountability.",
+              "Advanced": "Leads multi-stakeholder engagements and resolves inter-agency concerns affecting ROW implementation, and leads high-level coordination forums that drive resolution of strategic ROW matters."
             }
           },
           {
-            "name": "Monitoring, Reporting, and Performance Tracking",
+            "name": "Performance Monitoring, Reporting, and Service Delivery",
             "definition": null,
             "levels": {
-              "Emerging": "Maintains basic records and updates monitoring tools as instructed.",
-              "Developing": "Prepare routine reports and tracks progress of assigned ROW activities.",
-              "Proficient": "Analyzes implementation progress, prepares comprehensive reports, and recommends corrective actions based on performance data.",
-              "Advanced": "Establishes monitoring systems, performance indicators, and reporting mechanisms that support strategic decision-making."
+              "Emerging": "Maintains basic records, updates monitoring tools as instructed, and completes assigned tasks with regular supervision and guidance.",
+              "Developing": "Prepares routine reports, tracks progress of assigned ROW activities, and manages routine assignments in general compliance with established timelines.",
+              "Proficient": "Analyzes implementation progress, prepares comprehensive reports, recommends corrective actions based on performance data, and consistently delivers quality outputs within prescribed service standards.",
+              "Advanced": "Establishes monitoring systems, performance indicators, and reporting mechanisms that support strategic decision-making, and streamlines processes to improve turnaround times and operational excellence across ROW functions."
             }
           },
           {
@@ -15205,36 +15185,6 @@
               "Proficient": "Assesses risks, resolves operational concerns, and implements measures to minimize disruptions to ROW activities.",
               "Advanced": "Anticipates emerging risks, develops mitigation strategies, and leads resolution of complex acquisition and implementation issues."
             }
-          },
-          {
-            "name": "Meeting Facilitation and Coordination Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Attends meetings and contributes information when requested.",
-              "Developing": "Assists in organizing meetings, preparing documentation, and monitoring action items.",
-              "Proficient": "Effectively facilitates coordination meetings, ensures follow-through of commitments, and promotes stakeholder accountability.",
-              "Advanced": "Leads high-level coordination forums, establishes collaborative mechanisms, and drives resolution of strategic ROW matters."
-            }
-          },
-          {
-            "name": "Service Delivery and Timeliness Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Completes assigned tasks with regular supervision and guidance.",
-              "Developing": "Manages routine assignments and generally complies with established timelines.",
-              "Proficient": "Consistently delivers quality outputs and completes responsibilities within prescribed service standards.",
-              "Advanced": "Streamlines processes, improves turnaround times, and promotes operational excellence across ROW functions."
-            }
-          },
-          {
-            "name": "Records and Information Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains files and records according to established procedures.",
-              "Developing": "Organizes and updates ROW records and tracking systems with minimal supervision.",
-              "Proficient": "Ensures completeness, accuracy, accessibility, and integrity of ROW documentation and information resources.",
-              "Advanced": "Develops records management protocols and information systems that enhance transparency, accountability, and organizational learning."
-            }
           }
         ]
       },
@@ -15253,63 +15203,33 @@
             }
           },
           {
-            "name": "Review and Evaluation of Legal Documents",
+            "name": "Legal Document Review, Preparation, Records Management, and Reporting",
             "definition": null,
             "levels": {
-              "Emerging": "Identifies required legal documents and recognize basic documentary deficiencies.",
-              "Developing": "Reviews of routine legal documents for completeness and compliance with prescribed requirements.",
-              "Proficient": "Thoroughly evaluates legal documents, contracts, agreements, and endorsements for accuracy, validity, and compliance.",
-              "Advanced": "Leads the review of complex or high-risk legal transactions and establishes quality assurance standards for document evaluation."
+              "Emerging": "Identifies required legal documents, recognizes basic documentary deficiencies, prepares and files documents using prescribed formats, and assists in compiling compliance-related information and records.",
+              "Developing": "Reviews routine legal documents for completeness and compliance, drafts routine correspondence, endorsements, and legal documentation with minimal supervision, and prepares routine compliance reports and monitors documentary submissions.",
+              "Proficient": "Thoroughly evaluates legal documents, contracts, agreements, and endorsements for accuracy, validity, and compliance; produces accurate, complete, and well-organized legal and administrative documents and reliable records; and produces accurate and timely compliance reports that support accountability and decision-making.",
+              "Advanced": "Leads the review of complex or high-risk legal transactions and establishes quality assurance standards for document evaluation; develops documentation protocols and records management systems that promote transparency and audit readiness; and develops reporting frameworks and compliance dashboards that strengthen governance and organizational oversight."
             }
           },
           {
-            "name": "Documentation Preparation and Records Management",
+            "name": "Regulatory Compliance Monitoring and Legal Risk Management",
             "definition": null,
             "levels": {
-              "Emerging": "Prepares and files documents using prescribed formats and procedures.",
-              "Developing": "Drafts routine correspondence, endorsements, and legal documentation with minimal supervision.",
-              "Proficient": "Produces accurate, complete, and well-organized legal and administrative documents while maintaining reliable records.",
-              "Advanced": "Develops documentation protocols and records management systems that promote transparency, efficiency, and audit readiness."
-            }
-          },
-          {
-            "name": "Regulatory Compliance Monitoring",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands compliance requirements and follows established procedures.",
-              "Developing": "Assists in monitoring compliance and identifying documentation gaps or deficiencies.",
-              "Proficient": "Monitors compliance with legal, regulatory, and organizational requirements and recommend corrective actions when necessary.",
-              "Advanced": "Establishes compliance monitoring mechanisms and leads initiatives that strengthen organizational adherence to regulatory requirements."
-            }
-          },
-          {
-            "name": "Risk Identification and Legal Issue Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Recognizes basic legal risks and refers issues to appropriate authorities.",
-              "Developing": "Assists in gathering information and assessing legal or compliance-related issues.",
-              "Proficient": "Evaluates legal implications, identifies risks, and recommends appropriate actions to address potential concerns.",
-              "Advanced": "Anticipates emerging legal risks, formulates mitigation strategies, and advises management on complex compliance issues."
+              "Emerging": "Understands compliance requirements, follows established procedures, recognizes basic legal risks, and refers issues to appropriate authorities.",
+              "Developing": "Assists in monitoring compliance and identifying documentation gaps or deficiencies, and assists in gathering information and assessing legal or compliance-related issues.",
+              "Proficient": "Monitors compliance with legal, regulatory, and organizational requirements and recommends corrective actions when necessary; evaluates legal implications, identifies risks, and recommends appropriate actions to address potential concerns.",
+              "Advanced": "Establishes compliance monitoring mechanisms and leads initiatives that strengthen organizational adherence to regulatory requirements; anticipates emerging legal risks, formulates mitigation strategies, and advises management on complex compliance issues."
             }
           },
           {
             "name": "Stakeholder Coordination and Legal Communication",
             "definition": null,
             "levels": {
-              "Emerging": "Participate in discussions involving legal and documentary requirements when directed.",
+              "Emerging": "Participates in discussions involving legal and documentary requirements when directed.",
               "Developing": "Coordinates with concerned offices and stakeholders regarding documentation and compliance matters.",
               "Proficient": "Effectively communicates legal requirements and facilitates coordination among internal and external stakeholders to ensure compliance.",
               "Advanced": "Leads critical negotiations and consultations involving legal, regulatory, and compliance issues affecting organizational objectives."
-            }
-          },
-          {
-            "name": "Reporting and Accountability",
-            "definition": null,
-            "levels": {
-              "Emerging": "Assists in compiling compliance-related information and maintaining records.",
-              "Developing": "Prepare routine compliance reports and monitor documentary submissions.",
-              "Proficient": "Produces accurate and timely compliance reports that support accountability, monitoring, and decision-making.",
-              "Advanced": "Develops reporting frameworks and compliance dashboards that strengthen governance and organizational oversight."
             }
           },
           {
@@ -15317,8 +15237,8 @@
             "definition": null,
             "levels": {
               "Emerging": "Follows existing procedures for legal documentation and compliance review.",
-              "Developing": "Suggest improvements to address recurring documentation and compliance issues.",
-              "Proficient": "Implement measures that improve the quality, accuracy, and consistency of legal documentation and compliance processes.",
+              "Developing": "Suggests improvements to address recurring documentation and compliance issues.",
+              "Proficient": "Implements measures that improve the quality, accuracy, and consistency of legal documentation and compliance processes.",
               "Advanced": "Leads organization-wide initiatives that enhance legal compliance systems, documentation standards, and process efficiency."
             }
           }
@@ -15339,63 +15259,33 @@
             }
           },
           {
-            "name": "Communication and Information Sharing",
+            "name": "Communication, Information Sharing, and Stakeholder Responsiveness",
             "definition": null,
             "levels": {
-              "Emerging": "Communicates basic information clearly and responds to routine inquiries with guidance.",
-              "Developing": "Shares relevant information with stakeholders and adjusts communication approaches to suit the audience.",
-              "Proficient": "Delivers clear, timely, and accurate information that promotes understanding, transparency, and collaboration.",
-              "Advanced": "Leads strategic communication initiatives and manages sensitive discussions involving complex or contentious issues."
+              "Emerging": "Communicates basic information clearly, responds to routine inquiries with guidance, and responds to stakeholder requests under supervision following established procedures.",
+              "Developing": "Shares relevant information with stakeholders, adjusts communication approaches to suit the audience, and addresses routine concerns within assigned responsibilities.",
+              "Proficient": "Delivers clear, timely, and accurate information that promotes understanding, transparency, and collaboration, and proactively responds to stakeholder needs within established service standards.",
+              "Advanced": "Leads strategic communication initiatives and manages sensitive discussions involving complex or contentious issues, and establishes engagement mechanisms that enhance stakeholder satisfaction, trust, and long-term cooperation."
             }
           },
           {
-            "name": "Coordination and Relationship Management",
+            "name": "Coordination, Relationship Management, Meeting Facilitation, and Partnership Development",
             "definition": null,
             "levels": {
-              "Emerging": "Participates in coordination activities and maintains professional interactions with stakeholders.",
-              "Developing": "Facilitates routine coordination with internal and external stakeholders to support operational requirements.",
-              "Proficient": "Builds and sustains productive working relationships that support efficient implementation of ROW activities.",
-              "Advanced": "Establishes and strengthens strategic partnerships that enhance organizational effectiveness and project outcomes."
+              "Emerging": "Participates in coordination activities and meetings, maintains professional interactions with stakeholders, and understands the importance of partnerships in achieving project objectives.",
+              "Developing": "Facilitates routine coordination with internal and external stakeholders, assists in organizing meetings, preparing materials, and documenting agreements, and supports collaborative initiatives with government agencies, communities, and other stakeholders.",
+              "Proficient": "Builds and sustains productive working relationships that support efficient implementation of ROW activities, effectively facilitates meetings and coordination activities to achieve desired outcomes, and cultivates productive partnerships that contribute to project goals.",
+              "Advanced": "Establishes and strengthens strategic partnerships that enhance organizational effectiveness, leads high-level consultations and multi-stakeholder engagements involving complex issues, and establishes sustainable networks and alliances that strengthen institutional capacity and program success."
             }
           },
           {
-            "name": "Meeting Facilitation and Engagement Management",
+            "name": "Consultation, Consensus Building, and Conflict Management",
             "definition": null,
             "levels": {
-              "Emerging": "Attends meetings and contributes information when requested.",
-              "Developing": "Assists in organizing meetings, preparing materials, and documenting agreements or action points.",
-              "Proficient": "Effectively facilitates meetings, consultations, and coordination activities to achieve desired outcomes and commitments.",
-              "Advanced": "Leads high-level consultations and multi-stakeholder engagements involving complex issues and strategic concerns."
-            }
-          },
-          {
-            "name": "Consultation and Consensus Building",
-            "definition": null,
-            "levels": {
-              "Emerging": "Recognizes differing stakeholder perspectives and seeks guidance in addressing concerns.",
-              "Developing": "Supports discussions aimed at addressing stakeholder issues and encouraging participation.",
-              "Proficient": "Builds consensus among stakeholders by balancing interests, addressing concerns, and identifying mutually beneficial solutions.",
-              "Advanced": "Leads complex consensus-building efforts involving multiple parties with competing interests or priorities."
-            }
-          },
-          {
-            "name": "Negotiation and Conflict Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Identifies conflicts or disagreements and elevates concerns to appropriate personnel.",
-              "Developing": "Assists in resolving routine stakeholder issues and participates in negotiation discussions.",
-              "Proficient": "Effectively negotiates solutions, manages expectations, and resolves stakeholder concerns to support project objectives.",
-              "Advanced": "Leads sensitive negotiations, resolves high-impact disputes, and develops strategies to prevent recurring conflicts."
-            }
-          },
-          {
-            "name": "Stakeholder Responsiveness and Service Orientation",
-            "definition": null,
-            "levels": {
-              "Emerging": "Responds to stakeholder requests with supervision and follows established procedures.",
-              "Developing": "Addresses routine concerns and provides appropriate assistance within assigned responsibilities.",
-              "Proficient": "Proactively responds to stakeholder needs and ensures concerns are addressed within established service standards.",
-              "Advanced": "Establishes engagement mechanisms that enhance stakeholder satisfaction, trust, and long-term cooperation."
+              "Emerging": "Recognizes differing stakeholder perspectives, seeks guidance in addressing concerns, identifies conflicts or disagreements, and elevates concerns to appropriate personnel.",
+              "Developing": "Supports discussions aimed at addressing stakeholder issues and encouraging participation, and assists in resolving routine stakeholder issues and participates in negotiation discussions.",
+              "Proficient": "Builds consensus among stakeholders by balancing interests, addressing concerns, and identifying mutually beneficial solutions, while effectively negotiating solutions and resolving stakeholder concerns to support project objectives.",
+              "Advanced": "Leads complex consensus-building efforts involving multiple parties with competing interests, leads sensitive negotiations, resolves high-impact disputes, and develops strategies to prevent recurring conflicts."
             }
           },
           {
@@ -15407,16 +15297,6 @@
               "Proficient": "Ensures timely monitoring, documentation, reporting, and completion of stakeholder commitments and agreements.",
               "Advanced": "Develops engagement monitoring systems and evaluation mechanisms that improve accountability and organizational learning."
             }
-          },
-          {
-            "name": "Strategic Partnership Development",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands the importance of partnerships in achieving project objectives.",
-              "Developing": "Supports collaborative initiatives with government agencies, communities, and other stakeholders.",
-              "Proficient": "Cultivates productive partnerships that contribute to efficient implementation of ROW activities and project goals.",
-              "Advanced": "Establishes sustainable networks and strategic alliances that strengthen institutional capacity and program success."
-            }
           }
         ]
       },
@@ -15425,13 +15305,13 @@
         "definition": "The ability to conduct, validate, analyze, and document site assessments and land surveys to support right-of-way acquisition and infrastructure development by ensuring accurate site information, compliance with technical standards, effective stakeholder coordination, and informed decision-making.",
         "dimensions": [
           {
-            "name": "Site Inspection and Field Assessment",
+            "name": "Site Inspection, Field Assessment, and Data Validation",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates basic understanding of site assessment procedures and participates in field inspections under supervision.",
-              "Developing": "Conducts routine site inspections and gathers site information using established guidelines and tools.",
-              "Proficient": "Independently performs comprehensive site assessments and accurately identifies physical, environmental, and operational factors affecting project implementation.",
-              "Advanced": "Leads complex site assessment activities and develops methodologies that improve the quality and reliability of assessment results."
+              "Emerging": "Demonstrates basic understanding of site assessment procedures, participates in field inspections under supervision, and collects basic site information following prescribed data-gathering procedures.",
+              "Developing": "Conducts routine site inspections, gathers site information using established guidelines and tools, and gathers and organizes field data while ensuring completeness and accuracy.",
+              "Proficient": "Independently performs comprehensive site assessments and accurately identifies physical, environmental, and operational factors affecting project implementation, while evaluating, validating, and consolidating site information from multiple sources to support decision-making.",
+              "Advanced": "Leads complex site assessment activities and develops methodologies that improve the quality and reliability of assessment results, and establishes data quality standards and validation mechanisms to enhance reliability of assessment outputs."
             }
           },
           {
@@ -15445,33 +15325,13 @@
             }
           },
           {
-            "name": "Data Collection and Validation",
+            "name": "Technical Analysis, Evaluation, and Decision Support",
             "definition": null,
             "levels": {
-              "Emerging": "Collects basic site information and follows prescribed data gathering procedures.",
-              "Developing": "Gathers and organizes field data while ensuring completeness and accuracy.",
-              "Proficient": "Evaluates, validates, and consolidates site information from multiple sources to support decision-making and project planning.",
-              "Advanced": "Establishes data quality standards and validation mechanisms to enhance reliability of assessment outputs."
-            }
-          },
-          {
-            "name": "Technical Analysis and Evaluation",
-            "definition": null,
-            "levels": {
-              "Emerging": "Recognizes common site characteristics and their potential implications on project activities.",
-              "Developing": "Assists in analyzing site conditions and identifying issues requiring further evaluation.",
-              "Proficient": "Interprets site assessment results, identifies risks and constraints, and recommends appropriate interventions.",
-              "Advanced": "Provides strategic analysis of complex sites and develops solutions to address technical, environmental, and operational challenges."
-            }
-          },
-          {
-            "name": "Planning and Decision Support",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands the role of site assessment in project planning and right-of-way acquisition.",
-              "Developing": "Provides site information necessary for planning and implementation activities.",
-              "Proficient": "Utilizes assessment results to support ROW planning, route selection, acquisition strategies, and project implementation.",
-              "Advanced": "Integrates technical, operational, and stakeholder considerations to guide strategic planning and resource allocation."
+              "Emerging": "Recognizes common site characteristics and their potential implications on project activities, and understands the role of site assessment in project planning and right-of-way acquisition.",
+              "Developing": "Assists in analyzing site conditions, identifies issues requiring further evaluation, and provides site information necessary for planning and implementation activities.",
+              "Proficient": "Interprets site assessment results, identifies risks and constraints, recommends appropriate interventions, and utilizes assessment results to support ROW planning, route selection, and acquisition strategies.",
+              "Advanced": "Provides strategic analysis of complex sites and develops solutions to address technical, environmental, and operational challenges, integrating technical, operational, and stakeholder considerations to guide strategic planning and resource allocation."
             }
           },
           {
@@ -15485,23 +15345,13 @@
             }
           },
           {
-            "name": "Documentation and Technical Reporting",
+            "name": "Documentation, Technical Reporting, and Standards Compliance",
             "definition": null,
             "levels": {
-              "Emerging": "Records field observations and maintains basic assessment records.",
-              "Developing": "Prepares routine site inspection reports, survey documentation, and activity records.",
-              "Proficient": "Produces comprehensive and accurate technical reports that support project evaluation, acquisition planning, and management decisions.",
-              "Advanced": "Establishes reporting standards and quality assurance mechanisms that improve technical documentation and organizational knowledge management."
-            }
-          },
-          {
-            "name": "Compliance with Technical Standards and Procedures",
-            "definition": null,
-            "levels": {
-              "Emerging": "Follows established guidelines and procedures during field activities.",
-              "Developing": "Applies technical standards and organizational procedures when conducting assessments and preparing reports.",
-              "Proficient": "Ensures that site assessment and survey activities comply with applicable standards, regulations, and project requirements.",
-              "Advanced": "Recommends improvements to technical policies, procedures, and standards to strengthen assessment quality and compliance."
+              "Emerging": "Records field observations, maintains basic assessment records, and follows established guidelines and procedures during field activities.",
+              "Developing": "Prepares routine site inspection reports, survey documentation, and activity records, and applies technical standards and organizational procedures when conducting assessments.",
+              "Proficient": "Produces comprehensive and accurate technical reports that support project evaluation, acquisition planning, and management decisions, while ensuring that site assessment and survey activities comply with applicable standards, regulations, and project requirements.",
+              "Advanced": "Establishes reporting standards and quality assurance mechanisms that improve technical documentation and organizational knowledge management, and recommends improvements to technical policies, procedures, and standards to strengthen assessment quality and compliance."
             }
           },
           {
@@ -15541,13 +15391,13 @@
             }
           },
           {
-            "name": "Stakeholder Engagement and Beneficiary Assistance",
+            "name": "Stakeholder Engagement, Beneficiary Assistance, and Inter-Agency Coordination",
             "definition": null,
             "levels": {
-              "Emerging": "Responds to routine inquiries and assists affected persons under supervision.",
-              "Developing": "Provides guidance to stakeholders regarding compensation and relocation procedures.",
-              "Proficient": "Effectively engages affected persons, communities, and partner agencies to facilitate understanding and participation.",
-              "Advanced": "Builds stakeholder trust through strategic engagement approaches and leads resolution of highly sensitive concerns."
+              "Emerging": "Responds to routine inquiries and assists affected persons under supervision, and participates in coordination activities with internal and external stakeholders.",
+              "Developing": "Provides guidance to stakeholders regarding compensation and relocation procedures, and assists in coordinating with concerned agencies, local government units, and project teams.",
+              "Proficient": "Effectively engages affected persons, communities, and partner agencies to facilitate understanding and participation, while facilitating effective collaboration among stakeholders to support efficient implementation of compensation and relocation activities.",
+              "Advanced": "Builds stakeholder trust through strategic engagement approaches and leads resolution of highly sensitive concerns, and leads complex inter-agency coordination efforts and develops collaborative mechanisms for sustained program success."
             }
           },
           {
@@ -15561,23 +15411,13 @@
             }
           },
           {
-            "name": "Documentation and Case Management",
+            "name": "Case Documentation, Monitoring, Reporting, and Service Timeliness",
             "definition": null,
             "levels": {
-              "Emerging": "Maintains basic records and files related to compensation and relocation activities.",
-              "Developing": "Assists in preparing, organizing, and updating case files and supporting documents.",
-              "Proficient": "Ensures completeness, accuracy, and proper management of compensation and relocation records and case documentation.",
-              "Advanced": "Establishes systems and controls that improve records management, case tracking, and audit readiness."
-            }
-          },
-          {
-            "name": "Coordination and Inter-Agency Collaboration",
-            "definition": null,
-            "levels": {
-              "Emerging": "Participates in coordination activities with internal and external stakeholders.",
-              "Developing": "Assists in coordinating with concerned agencies, local government units, and project teams.",
-              "Proficient": "Facilitates effective collaboration among stakeholders to support efficient implementation of compensation and relocation activities.",
-              "Advanced": "Leads complex inter-agency coordination efforts and develops collaborative mechanisms for sustained program success."
+              "Emerging": "Maintains basic records and files related to compensation and relocation activities, assists in gathering data and maintaining activity records, and completes assigned tasks with regular supervision.",
+              "Developing": "Assists in preparing, organizing, and updating case files and supporting documents, prepares routine reports and tracks implementation progress, and delivers routine outputs within prescribed timelines with minimal guidance.",
+              "Proficient": "Ensures completeness, accuracy, and proper management of compensation and relocation records and case documentation; analyzes implementation data, prepares comprehensive reports, and recommends corrective actions when necessary; and consistently meets service standards for timely processing.",
+              "Advanced": "Establishes systems and controls that improve records management, case tracking, and audit readiness; develops monitoring and evaluation frameworks that strengthen accountability and program effectiveness; and improves systems and processes that enhance responsiveness and service delivery across programs."
             }
           },
           {
@@ -15589,26 +15429,6 @@
               "Proficient": "Investigates issues, facilitates discussions, and resolves disputes affecting compensation and relocation implementation.",
               "Advanced": "Leads mediation of high-impact disputes and develops preventive approaches to minimize conflicts and project delays."
             }
-          },
-          {
-            "name": "Monitoring, Evaluation, and Reporting",
-            "definition": null,
-            "levels": {
-              "Emerging": "Assists in gathering data and maintaining activity records.",
-              "Developing": "Prepares routine reports and tracks implementation progress.",
-              "Proficient": "Analyzes implementation data, prepares comprehensive reports, and recommends corrective actions when necessary.",
-              "Advanced": "Develops monitoring and evaluation frameworks that strengthen accountability and improve program effectiveness."
-            }
-          },
-          {
-            "name": "Timeliness and Service Delivery",
-            "definition": null,
-            "levels": {
-              "Emerging": "Completes assigned tasks with regular supervision.",
-              "Developing": "Delivers routine outputs within prescribed timelines with minimal guidance.",
-              "Proficient": "Consistently meets service standards and ensures timely processing of compensation and relocation activities.",
-              "Advanced": "Improves systems and processes that enhance responsiveness, efficiency, and service delivery across programs"
-            }
           }
         ]
       },
@@ -15617,23 +15437,13 @@
         "definition": "The ability to identify, assess, analyze, and mitigate risks associated with right-of-way acquisition and project implementation, while effectively managing conflicts, grievances, and stakeholder concerns through proactive engagement, sound judgment, collaborative problem-solving, and timely resolution of issues.",
         "dimensions": [
           {
-            "name": "Risk Identification and Assessment",
+            "name": "Risk Identification, Assessment, Mitigation, and Legal Risk Management",
             "definition": null,
             "levels": {
-              "Emerging": "Recognizes common risks and issues affecting ROW activities and reports observations to appropriate personnel.",
-              "Developing": "Assists in identifying operational, legal, technical, and stakeholder-related risks affecting assigned activities.",
-              "Proficient": "Systematically assesses risks, determines potential impacts, and prioritizes issues requiring intervention.",
-              "Advanced": "Anticipates emerging and strategic risks, evaluates complex scenarios, and advises management on appropriate courses of action."
-            }
-          },
-          {
-            "name": "Risk Mitigation and Preventive Action",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands established risk controls and follows prescribed procedures.",
-              "Developing": "Assists in implementing mitigation measures and monitoring identified risks.",
-              "Proficient": "Develops and implements practical risk mitigation strategies to minimize project delays and operational disruptions.",
-              "Advanced": "Establishes comprehensive risk management frameworks and promotes proactive risk culture across the organization."
+              "Emerging": "Recognizes common risks and issues affecting ROW activities, reports observations to appropriate personnel, understands established risk controls, and demonstrates awareness of legal and compliance risks related to assigned responsibilities.",
+              "Developing": "Assists in identifying operational, legal, technical, and stakeholder-related risks, assists in implementing mitigation measures and monitoring identified risks, and identifies potential compliance concerns, seeking guidance in addressing them.",
+              "Proficient": "Systematically assesses risks, determines potential impacts, and prioritizes issues requiring intervention; develops and implements practical risk mitigation strategies to minimize project delays; and evaluates legal and regulatory implications of risks, ensuring appropriate compliance measures are observed.",
+              "Advanced": "Anticipates emerging and strategic risks, evaluates complex scenarios, and advises management on appropriate courses of action; establishes comprehensive risk management frameworks and promotes proactive risk culture; and provides expert advice on high-risk legal and regulatory concerns and recommends preventive policy interventions."
             }
           },
           {
@@ -15647,33 +15457,13 @@
             }
           },
           {
-            "name": "Conflict Resolution and Mediation",
+            "name": "Conflict Resolution, Mediation, and Collaborative Stakeholder Engagement",
             "definition": null,
             "levels": {
-              "Emerging": "Recognizes conflicts among stakeholders and refers concerns to appropriate authorities.",
-              "Developing": "Assists in facilitating discussions to address routine disputes or disagreements.",
-              "Proficient": "Effectively mediates conflicts, manages competing interests, and facilitates mutually acceptable solutions.",
-              "Advanced": "Leads resolution of high-impact and sensitive disputes involving multiple stakeholders and conflicting priorities."
-            }
-          },
-          {
-            "name": "Stakeholder Engagement during Conflict Situations",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains professionalism when dealing with stakeholder concerns and complaints.",
-              "Developing": "Responds appropriately to stakeholder issues and assists in addressing concerns.",
-              "Proficient": "Engages stakeholders constructively to de-escalate tensions, clarify issues, and build consensus.",
-              "Advanced": "Establishes trust-based relationships that facilitate resolution of complex and recurring stakeholder conflicts."
-            }
-          },
-          {
-            "name": "Legal and Regulatory Risk Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Demonstrates awareness of legal and compliance risks related to assigned responsibilities.",
-              "Developing": "Identifies potential compliance concerns and seeks guidance in addressing them.",
-              "Proficient": "Evaluates legal and regulatory implications of risks and ensures appropriate compliance measures are observed.",
-              "Advanced": "Provides expert advice on high-risk legal and regulatory concerns and recommends preventive policy interventions."
+              "Emerging": "Recognizes conflicts among stakeholders and refers concerns to appropriate authorities, maintains professionalism when dealing with stakeholder concerns and complaints, and participates in meetings and discussions related to issue resolution.",
+              "Developing": "Assists in facilitating discussions to address routine disputes or disagreements, responds appropriately to stakeholder issues, and coordinates with concerned offices and stakeholders to address identified concerns.",
+              "Proficient": "Effectively mediates conflicts, manages competing interests, and facilitates mutually acceptable solutions; engages stakeholders constructively to de-escalate tensions and build consensus; and facilitates collaborative problem-solving among units, agencies, and stakeholders to resolve issues efficiently.",
+              "Advanced": "Leads resolution of high-impact and sensitive disputes involving multiple stakeholders and conflicting priorities; establishes trust-based relationships that facilitate resolution of complex and recurring conflicts; and leads multi-agency and multi-stakeholder efforts to address complex risks and conflicts affecting project implementation."
             }
           },
           {
@@ -15697,16 +15487,6 @@
             }
           },
           {
-            "name": "Coordination and Collaborative Resolution",
-            "definition": null,
-            "levels": {
-              "Emerging": "Participates in meetings and discussions related to issue resolution.",
-              "Developing": "Coordinates with concerned offices and stakeholders to address identified concerns.",
-              "Proficient": "Facilitates collaborative problem-solving among units, agencies, and stakeholders to resolve issues efficiently.",
-              "Advanced": "Leads multi-agency and multi-stakeholder efforts to address complex risks and conflicts affecting project implementation."
-            }
-          },
-          {
             "name": "Resilience and Adaptability",
             "definition": null,
             "levels": {
@@ -15723,23 +15503,13 @@
         "definition": "The ability to identify, assess, evaluate, monitor, and address environmental and social impacts associated with right-of-way acquisition and infrastructure projects by applying environmental regulations, social safeguard principles, stakeholder engagement strategies, and evidence-based recommendations to support sustainable and compliant project implementation.",
         "dimensions": [
           {
-            "name": "Environmental and Social Awareness",
+            "name": "Environmental and Social Awareness and Impact Assessment",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates basic understanding of environmental and social issues associated with infrastructure and ROW projects.",
-              "Developing": "Recognizes potential environmental and social impacts and understands their implications on project implementation.",
-              "Proficient": "Evaluates environmental and social considerations and integrates them into project assessments and recommendations.",
-              "Advanced": "Promotes sustainability principles and guides the integration of environmental and social considerations into organizational planning and decision-making."
-            }
-          },
-          {
-            "name": "Environmental and Social Impact Assessment",
-            "definition": null,
-            "levels": {
-              "Emerging": "Assists in gathering basic environmental and social information from available sources.",
-              "Developing": "Participates in identifying and documenting potential environmental and social impacts.",
-              "Proficient": "Conducts comprehensive analysis of environmental and social impacts and recommends appropriate mitigation measures.",
-              "Advanced": "Leads complex impact assessments and develops strategic approaches to manage significant environmental and social concerns."
+              "Emerging": "Demonstrates basic understanding of environmental and social issues associated with infrastructure and ROW projects, and assists in gathering basic environmental and social information from available sources.",
+              "Developing": "Recognizes potential environmental and social impacts and their implications on project implementation, and participates in identifying and documenting potential impacts.",
+              "Proficient": "Evaluates environmental and social considerations and integrates them into project assessments and recommendations, and conducts comprehensive analysis of impacts, recommending appropriate mitigation measures.",
+              "Advanced": "Promotes sustainability principles and guides the integration of environmental and social considerations into organizational planning and decision-making, and leads complex impact assessments and strategic approaches to manage significant concerns."
             }
           },
           {
@@ -15753,53 +15523,33 @@
             }
           },
           {
-            "name": "Stakeholder and Community Impact Analysis",
+            "name": "Stakeholder and Community Impact Analysis and Consultation",
             "definition": null,
             "levels": {
-              "Emerging": "Identifies affected stakeholders and communities related to project activities.",
-              "Developing": "Assists in gathering stakeholder concerns and documenting community impacts.",
-              "Proficient": "Analyzes stakeholder concerns, community impacts, and social risks to support informed decision-making.",
-              "Advanced": "Develops strategies that balance project objectives with community welfare and long-term social sustainability."
+              "Emerging": "Identifies affected stakeholders and communities related to project activities, and participates in meetings and consultations regarding environmental and social concerns.",
+              "Developing": "Assists in gathering stakeholder concerns and documenting community impacts, and assists in communicating assessment findings and gathering stakeholder feedback.",
+              "Proficient": "Analyzes stakeholder concerns, community impacts, and social risks to support informed decision-making, while facilitating consultations that effectively address stakeholder concerns regarding project impacts and mitigation measures.",
+              "Advanced": "Develops strategies that balance project objectives with community welfare and long-term social sustainability, and leads complex consultations that build consensus among diverse stakeholders on sensitive issues."
             }
           },
           {
-            "name": "Mitigation and Management Planning",
+            "name": "Mitigation, Management Planning, and Integration into Project Planning",
             "definition": null,
             "levels": {
-              "Emerging": "Understands the purpose of mitigation measures and management plans.",
-              "Developing": "Assists in implementing environmental and social mitigation measures.",
-              "Proficient": "Develops and monitors mitigation plans that address identified environmental and social impacts.",
-              "Advanced": "Designs comprehensive management strategies that minimize risks and promote sustainable project outcomes."
+              "Emerging": "Understands the purpose of mitigation measures and management plans, and understands the relationship between project activities and environmental or social outcomes.",
+              "Developing": "Assists in implementing environmental and social mitigation measures, and considers environmental and social factors when supporting project activities.",
+              "Proficient": "Develops and monitors mitigation plans that address identified environmental and social impacts, and integrates environmental and social findings into ROW planning, implementation, and decision-making processes.",
+              "Advanced": "Designs comprehensive management strategies that minimize risks and promote sustainable project outcomes, and champions sustainable development approaches that institutionalize environmental and social considerations across project and organizational planning."
             }
           },
           {
-            "name": "Monitoring and Evaluation",
+            "name": "Monitoring, Evaluation, Documentation, and Reporting",
             "definition": null,
             "levels": {
-              "Emerging": "Participates in monitoring activities and records basic observations.",
-              "Developing": "Assists in tracking implementation of environmental and social measures.",
-              "Proficient": "Evaluates the effectiveness of mitigation measures and recommends corrective actions as necessary.",
-              "Advanced": "Establishes monitoring and evaluation frameworks that improve accountability and continuous improvement."
-            }
-          },
-          {
-            "name": "Documentation and Reporting",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains records and compiles environmental and social information using prescribed formats.",
-              "Developing": "Prepares routine reports and updates monitoring records with guidance.",
-              "Proficient": "Produces complete, accurate, and timely environmental and social assessment reports that support project requirements and management decisions.",
-              "Advanced": "Establishes reporting standards and information systems that strengthen organizational learning and transparency."
-            }
-          },
-          {
-            "name": "Stakeholder Engagement and Consultation",
-            "definition": null,
-            "levels": {
-              "Emerging": "Participates in meetings and consultations regarding environmental and social concerns.",
-              "Developing": "Assists in communicating assessment findings and gathering stakeholder feedback.",
-              "Proficient": "Facilitates consultations and effectively addresses stakeholder concerns regarding project impacts and mitigation measures.",
-              "Advanced": "Leads complex consultations and builds consensus among diverse stakeholders on sensitive environmental and social issues."
+              "Emerging": "Participates in monitoring activities, records basic observations, and maintains records and compiles environmental and social information using prescribed formats.",
+              "Developing": "Assists in tracking implementation of environmental and social measures, and prepares routine reports and updates monitoring records with guidance.",
+              "Proficient": "Evaluates the effectiveness of mitigation measures and recommends corrective actions as necessary, and produces complete, accurate, and timely assessment reports that support project requirements and management decisions.",
+              "Advanced": "Establishes monitoring and evaluation frameworks that improve accountability and continuous improvement, and establishes reporting standards and information systems that strengthen organizational learning and transparency."
             }
           },
           {
@@ -15811,16 +15561,6 @@
               "Proficient": "Assesses risks, recommends solutions, and implements measures to address environmental and social concerns.",
               "Advanced": "Anticipates emerging environmental and social risks and develops strategic interventions to prevent major project disruptions."
             }
-          },
-          {
-            "name": "Integration of Environmental and Social Considerations in Project Planning",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands the relationship between project activities and environmental or social outcomes.",
-              "Developing": "Considers environmental and social factors when supporting project activities.",
-              "Proficient": "Integrates environmental and social findings into ROW planning, implementation, and decision-making processes.",
-              "Advanced": "Champions sustainable development approaches and institutionalizes environmental and social considerations across project and organizational planning."
-            }
           }
         ]
       },
@@ -15829,73 +15569,43 @@
         "definition": "The ability to plan, estimate, analyze, monitor, and manage project costs and financial resources associated with right-of-way acquisition and related activities by applying budgeting principles, cost analysis techniques, financial controls, and regulatory requirements to support efficient, transparent, and accountable project implementation.",
         "dimensions": [
           {
-            "name": "Budget Planning and Preparation",
+            "name": "Budget Planning, Preparation, and Resource Allocation",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates basic understanding of budgeting concepts, processes, and documentation requirements.",
-              "Developing": "Assists in preparing budget proposals and consolidating financial requirements for assigned activities.",
-              "Proficient": "Develops budget estimates and financial plans aligned with project requirements and organizational priorities.",
-              "Advanced": "Formulates comprehensive budgeting strategies that optimize resource allocation and support organizational objectives."
+              "Emerging": "Demonstrates basic understanding of budgeting concepts, processes, and documentation requirements, and understands the importance of aligning resources with operational requirements.",
+              "Developing": "Assists in preparing budget proposals and consolidating financial requirements for assigned activities, and assists in identifying resource requirements and utilization needs.",
+              "Proficient": "Develops budget estimates and financial plans aligned with project requirements and organizational priorities, and evaluates funding requirements and recommends appropriate allocation of resources to support operational priorities.",
+              "Advanced": "Formulates comprehensive budgeting strategies that optimize resource allocation and support organizational objectives, and optimizes resource utilization across programs to maximize organizational value and efficiency."
             }
           },
           {
-            "name": "Cost Estimation and Analysis",
+            "name": "Cost Estimation, Analysis, and Risk Management",
             "definition": null,
             "levels": {
-              "Emerging": "Understands basic cost components and costing methodologies used in project implementation.",
-              "Developing": "Assists in gathering costing data and preparing preliminary cost estimates.",
-              "Proficient": "Performs detailed cost estimation and analyzes financial implications of project activities and alternatives.",
-              "Advanced": "Develops complex cost models and provides strategic financial analysis to support major management decisions."
+              "Emerging": "Understands basic cost components and costing methodologies used in project implementation, and recognizes basic financial risks, reporting concerns appropriately.",
+              "Developing": "Assists in gathering costing data and preparing preliminary cost estimates, and assists in identifying potential budget constraints, cost overruns, and funding issues.",
+              "Proficient": "Performs detailed cost estimation and analyzes financial implications of project activities and alternatives, while evaluating financial risks and implementing measures to manage costs and prevent budget-related issues.",
+              "Advanced": "Develops complex cost models and provides strategic financial analysis to support major management decisions, and anticipates long-term financial risks, developing cost-management strategies that support sustainable project implementation."
             }
           },
           {
-            "name": "Financial Document Review and Processing",
+            "name": "Financial Document Review, Processing, and Compliance",
             "definition": null,
             "levels": {
-              "Emerging": "Identifies required financial documents and follows prescribed review procedures.",
-              "Developing": "Reviews budget-related documents for completeness and accuracy with minimal supervision.",
-              "Proficient": "Independently reviews, validates, and endorses financial and budget-related documents in accordance with established requirements.",
-              "Advanced": "Establishes quality standards and provides technical guidance on complex financial transactions and documentation."
+              "Emerging": "Identifies required financial documents, follows prescribed review procedures, and demonstrates awareness of applicable budgeting, accounting, and government financial regulations.",
+              "Developing": "Reviews budget-related documents for completeness and accuracy with minimal supervision, and applies established financial policies and procedures in assigned responsibilities.",
+              "Proficient": "Independently reviews, validates, and endorses financial and budget-related documents in accordance with established requirements, and ensures compliance with budgeting policies, financial regulations, and organizational procedures in all transactions.",
+              "Advanced": "Establishes quality standards and provides technical guidance on complex financial transactions and documentation, and provides expert guidance on financial governance, recommending improvements to budgeting and accountability frameworks."
             }
           },
           {
-            "name": "Budget Monitoring and Control",
+            "name": "Budget Monitoring, Control, and Financial Reporting",
             "definition": null,
             "levels": {
-              "Emerging": "Tracks expenditures and updates budget records under supervision.",
-              "Developing": "Assists in monitoring fund utilization and identifying variances from approved budgets.",
-              "Proficient": "Monitors budget performance, analyzes variances, and recommends corrective actions to ensure efficient utilization of resources.",
-              "Advanced": "Develops financial monitoring systems and control mechanisms that strengthen fiscal accountability and transparency."
-            }
-          },
-          {
-            "name": "Financial Compliance and Accountability",
-            "definition": null,
-            "levels": {
-              "Emerging": "Demonstrates awareness of applicable budgeting, accounting, and government financial regulations.",
-              "Developing": "Applies established financial policies and procedures in assigned responsibilities.",
-              "Proficient": "Ensures compliance with budgeting policies, financial regulations, and organizational procedures in all transactions.",
-              "Advanced": "Provides expert guidance on financial governance and recommends improvements to budgeting and accountability frameworks."
-            }
-          },
-          {
-            "name": "Resource Allocation and Utilization",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands the importance of aligning resources with operational requirements.",
-              "Developing": "Assists in identifying resource requirements and utilization needs.",
-              "Proficient": "Evaluates funding requirements and recommends appropriate allocation of resources to support operational priorities.",
-              "Advanced": "Optimizes resource utilization across programs and develops strategies that maximize organizational value and efficiency."
-            }
-          },
-          {
-            "name": "Data Analysis and Financial Reporting",
-            "definition": null,
-            "levels": {
-              "Emerging": "Collects and records budget-related information using prescribed formats.",
-              "Developing": "Assists in preparing routine financial reports and budget summaries.",
-              "Proficient": "Analyzes financial data and prepares accurate, timely, and comprehensive reports to support decision-making.",
-              "Advanced": "Designs reporting frameworks and financial dashboards that enhance strategic oversight and resource management."
+              "Emerging": "Tracks expenditures, updates budget records under supervision, and collects and records budget-related information using prescribed formats.",
+              "Developing": "Assists in monitoring fund utilization and identifying variances from approved budgets, and assists in preparing routine financial reports and budget summaries.",
+              "Proficient": "Monitors budget performance, analyzes variances, and recommends corrective actions to ensure efficient utilization of resources, while analyzing financial data and preparing accurate, timely, and comprehensive reports to support decision-making.",
+              "Advanced": "Develops financial monitoring systems and control mechanisms that strengthen fiscal accountability and transparency, and designs reporting frameworks and financial dashboards that enhance strategic oversight and resource management."
             }
           },
           {
@@ -15906,16 +15616,6 @@
               "Developing": "Coordinates with concerned units regarding routine financial and budget matters.",
               "Proficient": "Effectively communicates budget information and collaborates with stakeholders to address financial concerns and requirements.",
               "Advanced": "Leads high-level financial discussions and provides strategic advice on resource planning and budget management."
-            }
-          },
-          {
-            "name": "Risk Assessment and Cost Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Recognizes basic financial risks and reports concerns appropriately.",
-              "Developing": "Assists in identifying potential budget constraints, cost overruns, and funding issues.",
-              "Proficient": "Evaluates financial risks and implements measures to manage costs and prevent budget-related issues.",
-              "Advanced": "Anticipates long-term financial risks and develops cost-management strategies that support sustainable project implementation."
             }
           },
           {
@@ -15935,103 +15635,53 @@
         "definition": "The ability to effectively coordinate, collaborate, and maintain productive working relationships with legal offices, regulatory agencies, government authorities, and other oversight bodies to ensure compliance with applicable laws, regulations, policies, and procedures, while facilitating timely resolution of issues affecting right-of-way acquisition and project implementation.",
         "dimensions": [
           {
-            "name": "Understanding of Legal and Regulatory Frameworks",
+            "name": "Legal and Regulatory Framework Knowledge and Compliance Management",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates awareness of laws, regulations, policies, and procedures applicable to ROW acquisition and government transactions.",
-              "Developing": "Applies relevant legal and regulatory requirements in performing assigned duties.",
-              "Proficient": "Interprets and applies legal and regulatory provisions to support compliant decision-making and project implementation.",
-              "Advanced": "Provides expert guidance on complex legal and regulatory matters and recommends policy enhancements."
+              "Emerging": "Demonstrates awareness of laws, regulations, policies, and procedures applicable to ROW acquisition and government transactions, and understands compliance requirements, following prescribed procedures.",
+              "Developing": "Applies relevant legal and regulatory requirements in performing assigned duties, and assists in monitoring compliance with regulatory requirements and addressing routine deficiencies.",
+              "Proficient": "Interprets and applies legal and regulatory provisions to support compliant decision-making and project implementation, and ensures that transactions, activities, and deliverables comply with applicable laws, regulations, and organizational policies.",
+              "Advanced": "Provides expert guidance on complex legal and regulatory matters and recommends policy enhancements, and establishes compliance systems that proactively address strategic regulatory risks affecting project implementation."
             }
           },
           {
-            "name": "Inter-Agency Coordination and Collaboration",
+            "name": "Inter-Agency Coordination, Collaboration, and Stakeholder Representation",
             "definition": null,
             "levels": {
-              "Emerging": "Participates in meetings and coordination activities with legal and regulatory stakeholders when required.",
-              "Developing": "Coordinates routine concerns and requests with partner agencies and regulatory offices.",
-              "Proficient": "Facilitates effective collaboration among legal offices, regulatory agencies, project teams, and other stakeholders.",
-              "Advanced": "Leads multi-agency engagements and develops collaborative mechanisms that strengthen institutional partnerships."
+              "Emerging": "Participates in meetings and coordination activities with legal and regulatory stakeholders when required, and communicates basic information to stakeholders using established protocols.",
+              "Developing": "Coordinates routine concerns and requests with partner agencies and regulatory offices, and coordinates and exchanges information with legal and regulatory stakeholders regarding routine concerns.",
+              "Proficient": "Facilitates effective collaboration among legal offices, regulatory agencies, project teams, and other stakeholders, and effectively communicates organizational positions, requirements, and concerns to legal and regulatory bodies.",
+              "Advanced": "Leads multi-agency engagements and develops collaborative mechanisms that strengthen institutional partnerships, and represents the organization in high-level engagements involving sensitive legal and regulatory matters."
             }
           },
           {
-            "name": "Regulatory Compliance Management",
+            "name": "Legal Documentation Coordination and Reporting",
             "definition": null,
             "levels": {
-              "Emerging": "Understands compliance requirements and follows prescribed procedures.",
-              "Developing": "Assists in monitoring compliance with regulatory requirements and addressing routine deficiencies.",
-              "Proficient": "Ensures that transactions, activities, and deliverables comply with applicable laws, regulations, and organizational policies.",
-              "Advanced": "Establishes compliance systems and proactively addresses strategic regulatory risks affecting project implementation."
+              "Emerging": "Identifies documentary requirements, assists in routing and tracking legal documents, and assists in compiling records and preparing routine reports related to regulatory coordination.",
+              "Developing": "Coordinates preparation and submission of legal and regulatory documents with concerned offices, and prepares reports and maintains documentation of coordination activities and regulatory actions.",
+              "Proficient": "Ensures timely and accurate processing, review, endorsement, and submission of legal and regulatory documentation, and produces accurate, timely, and comprehensive reports supporting compliance, decision-making, and accountability.",
+              "Advanced": "Establishes quality assurance standards and documentation protocols that improve efficiency and compliance, and establishes reporting frameworks that improve regulatory oversight, transparency, and institutional knowledge management."
             }
           },
           {
-            "name": "Legal Documentation Coordination",
+            "name": "Issue Resolution, Regulatory Liaison, and Follow-Through Monitoring",
             "definition": null,
             "levels": {
-              "Emerging": "Identifies documentary requirements and assists in routing and tracking legal documents.",
-              "Developing": "Coordinates preparation and submission of legal and regulatory documents with concerned offices.",
-              "Proficient": "Ensures timely and accurate processing, review, endorsement, and submission of legal and regulatory documentation.",
-              "Advanced": "Establishes quality assurance standards and documentation protocols that improve efficiency and compliance."
+              "Emerging": "Identifies legal or regulatory issues and refers them to appropriate personnel, and maintains basic records of communications, submissions, and coordination activities.",
+              "Developing": "Assists in addressing routine compliance concerns and following up pending actions, and tracks status of requests, submissions, and actions requiring regulatory approval or compliance.",
+              "Proficient": "Coordinates resolution of legal and regulatory issues and facilitates timely action among concerned parties, while monitoring commitments, regulatory requirements, and agency actions to ensure timely completion and compliance.",
+              "Advanced": "Leads resolution of complex regulatory concerns and negotiates solutions with oversight agencies and stakeholders, and develops monitoring systems and accountability mechanisms that strengthen organizational responsiveness and governance."
             }
           },
           {
-            "name": "Stakeholder Communication and Representation",
+            "name": "Strategic Relationship Management and Policy Advocacy",
             "definition": null,
             "levels": {
-              "Emerging": "Communicates basic information to stakeholders using established protocols.",
-              "Developing": "Coordinates and exchanges information with legal and regulatory stakeholders regarding routine concerns.",
-              "Proficient": "Effectively communicates organizational positions, requirements, and concerns to legal and regulatory bodies.",
-              "Advanced": "Represents the organization in high-level engagements involving sensitive legal and regulatory matters."
-            }
-          },
-          {
-            "name": "Issue Resolution and Regulatory Liaison",
-            "definition": null,
-            "levels": {
-              "Emerging": "Identifies legal or regulatory issues and refers them to appropriate personnel.",
-              "Developing": "Assists in addressing routine compliance concerns and following up pending actions.",
-              "Proficient": "Coordinates resolution of legal and regulatory issues and facilitates timely action among concerned parties.",
-              "Advanced": "Leads resolution of complex regulatory concerns and negotiates solutions with oversight agencies and stakeholders."
-            }
-          },
-          {
-            "name": "Monitoring and Follow-Through",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains basic records of communications, submissions, and coordination activities.",
-              "Developing": "Tracks status of requests, submissions, and actions requiring regulatory approval or compliance.",
-              "Proficient": "Monitors commitments, regulatory requirements, and agency actions to ensure timely completion and compliance.",
-              "Advanced": "Develops monitoring systems and accountability mechanisms that strengthen organizational responsiveness and governance."
-            }
-          },
-          {
-            "name": "Reporting and Documentation",
-            "definition": null,
-            "levels": {
-              "Emerging": "Assists in compiling records and preparing routine reports related to regulatory coordination.",
-              "Developing": "Prepares reports and maintains documentation of coordination activities and regulatory actions.",
-              "Proficient": "Produces accurate, timely, and comprehensive reports supporting compliance, decision-making, and accountability.",
-              "Advanced": "Establishes reporting frameworks that improve regulatory oversight, transparency, and institutional knowledge management."
-            }
-          },
-          {
-            "name": "Strategic Relationship Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains professional working relationships with regulatory and legal stakeholders.",
-              "Developing": "Builds rapport and fosters cooperative relationships to facilitate routine coordination activities.",
-              "Proficient": "Cultivates productive partnerships that support efficient resolution of legal and regulatory concerns.",
-              "Advanced": "Develops long-term strategic relationships that enhance organizational credibility and inter-agency cooperation."
-            }
-          },
-          {
-            "name": "Governance and Policy Advocacy",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands the importance of governance principles and regulatory compliance.",
-              "Developing": "Participates in discussions on policy implementation and procedural improvements.",
-              "Proficient": "Recommends improvements to policies, procedures, and compliance mechanisms based on regulatory requirements and operational experience.",
-              "Advanced": "Influences policy direction, promotes governance excellence, and contributes to institutional reforms and regulatory improvement initiatives."
+              "Emerging": "Maintains professional working relationships with regulatory and legal stakeholders, and understands the importance of governance principles and regulatory compliance.",
+              "Developing": "Builds rapport and fosters cooperative relationships to facilitate routine coordination activities, and participates in discussions on policy implementation and procedural improvements.",
+              "Proficient": "Cultivates productive partnerships that support efficient resolution of legal and regulatory concerns, and recommends improvements to policies, procedures, and compliance mechanisms based on regulatory requirements and operational experience.",
+              "Advanced": "Develops long-term strategic relationships that enhance organizational credibility and inter-agency cooperation, and influences policy direction, promoting governance excellence and institutional reforms."
             }
           }
         ]
@@ -16041,43 +15691,33 @@
         "definition": "The ability to establish, nurture, and sustain positive relationships with affected communities, local organizations, government stakeholders, and other interested parties through effective communication, consultation, engagement, grievance management, and partnership-building to support right-of-way acquisition activities and facilitate successful project implementation.",
         "dimensions": [
           {
-            "name": "Community Engagement and Relationship Building",
+            "name": "Community Engagement, Relationship Building, and Trust/Consensus Building",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates awareness of community engagement principles and interacts professionally with stakeholders.",
-              "Developing": "Builds rapport with community members and participates in engagement activities under guidance.",
-              "Proficient": "Develops and maintains productive relationships with communities and stakeholders that support project objectives.",
-              "Advanced": "Establishes long-term partnerships and trust-based relationships that strengthen community support and collaboration."
+              "Emerging": "Demonstrates awareness of community engagement principles, interacts professionally with stakeholders, and supports activities that encourage stakeholder participation and dialogue.",
+              "Developing": "Builds rapport with community members, participates in engagement activities under guidance, and assists in facilitating productive discussions among stakeholders with varying interests.",
+              "Proficient": "Develops and maintains productive relationships with communities and stakeholders that support project objectives, while building trust, promoting transparency, and fostering consensus to achieve mutually acceptable outcomes.",
+              "Advanced": "Establishes long-term partnerships and trust-based relationships that strengthen community support and collaboration, and leads large-scale consensus-building initiatives involving complex community concerns and competing stakeholder interests."
             }
           },
           {
-            "name": "Public Consultation Facilitation",
+            "name": "Public Consultation Facilitation and Communication",
             "definition": null,
             "levels": {
-              "Emerging": "Participates in consultations and community meetings as a resource person or support staff.",
-              "Developing": "Assists in organizing consultations, preparing materials, and documenting proceedings.",
-              "Proficient": "Facilitates consultations effectively, ensuring stakeholder participation and meaningful discussion of concerns and project impacts.",
-              "Advanced": "Leads complex public consultations involving diverse stakeholders and sensitive issues, achieving broad stakeholder buy-in and consensus."
+              "Emerging": "Participates in consultations and community meetings as a resource person or support staff, and communicates basic project information using approved messages and materials.",
+              "Developing": "Assists in organizing consultations, preparing materials, and documenting proceedings, and provides accurate and timely responses to routine inquiries and concerns.",
+              "Proficient": "Facilitates consultations effectively, ensuring stakeholder participation and meaningful discussion of concerns and project impacts, while clearly communicating project objectives, updates, policies, and impacts using appropriate communication approaches.",
+              "Advanced": "Leads complex public consultations involving diverse stakeholders and sensitive issues, achieving broad stakeholder buy-in and consensus, and develops strategic communication plans for high-profile or sensitive public communication initiatives."
             }
           },
           {
-            "name": "Communication and",
+            "name": "Stakeholder Needs, Community Impact Assessment, and Cultural Sensitivity",
             "definition": null,
             "levels": {
-              "Emerging": "Communicates basic project information using approved messages and materials.",
-              "Developing": "Provides accurate and timely responses to routine inquiries and concerns.",
-              "Proficient": "Clearly communicates project objectives, updates, policies, and impacts to various stakeholders using appropriate communication approaches.",
-              "Advanced": "Develops strategic communication plans and manages high-profile or sensitive public communication initiatives."
-            }
-          },
-          {
-            "name": "Stakeholder Needs and Community Impact Assessment",
-            "definition": null,
-            "levels": {
-              "Emerging": "Recognizes community concerns and identifies stakeholders affected by project activities.",
-              "Developing": "Assists in gathering feedback and documenting stakeholder concerns and expectations.",
-              "Proficient": "Analyzes community sentiments, concerns, and potential impacts to support informed planning and decision-making.",
-              "Advanced": "Develops engagement strategies based on comprehensive assessment of community dynamics, needs, and risks."
+              "Emerging": "Recognizes community concerns, identifies stakeholders affected by project activities, and demonstrates respect for community norms, values, and diverse perspectives.",
+              "Developing": "Assists in gathering feedback and documenting stakeholder concerns and expectations, and recognizes social and cultural considerations when interacting with stakeholders.",
+              "Proficient": "Analyzes community sentiments, concerns, and potential impacts to support informed planning and decision-making, while integrating cultural, social, and community considerations into engagement and consultation activities.",
+              "Advanced": "Develops engagement strategies based on comprehensive assessment of community dynamics, needs, and risks, and promotes inclusive engagement approaches, advising others on addressing complex social and cultural issues."
             }
           },
           {
@@ -16091,23 +15731,13 @@
             }
           },
           {
-            "name": "Coordination and Partnership Management",
+            "name": "Coordination, Partnership, and Strategic Community Relations Management",
             "definition": null,
             "levels": {
-              "Emerging": "Participates in coordination activities with community leaders and stakeholders.",
-              "Developing": "Assists in coordinating meetings, activities, and communication with stakeholders.",
-              "Proficient": "Effectively collaborates with local government units, community organizations, affected groups, and partner agencies to advance project objectives.",
-              "Advanced": "Develops strategic alliances and partnership mechanisms that promote sustained stakeholder support and cooperation."
-            }
-          },
-          {
-            "name": "Cultural and Social Sensitivity",
-            "definition": null,
-            "levels": {
-              "Emerging": "Demonstrates respect for community norms, values, and diverse perspectives.",
-              "Developing": "Recognizes social and cultural considerations when interacting with stakeholders.",
-              "Proficient": "Integrates cultural, social, and community considerations into engagement and consultation activities.",
-              "Advanced": "Promotes inclusive engagement approaches and advises others on addressing complex social and cultural issues."
+              "Emerging": "Participates in coordination activities with community leaders and stakeholders, and understands the importance of community support to project success.",
+              "Developing": "Assists in coordinating meetings, activities, and communication with stakeholders, and contributes to community engagement plans and stakeholder management activities.",
+              "Proficient": "Effectively collaborates with local government units, community organizations, affected groups, and partner agencies to advance project objectives, and develops and implements community relations strategies that support project implementation and minimize resistance.",
+              "Advanced": "Develops strategic alliances and partnership mechanisms that promote sustained stakeholder support and cooperation, and shapes organizational approaches to community relations that strengthen stakeholder confidence and public acceptance."
             }
           },
           {
@@ -16119,26 +15749,6 @@
               "Proficient": "Produces accurate and timely consultation reports, tracks commitments, and ensures stakeholder concerns are properly addressed.",
               "Advanced": "Establishes systems and standards for engagement documentation, reporting, and accountability across programs."
             }
-          },
-          {
-            "name": "Trust and Consensus Building",
-            "definition": null,
-            "levels": {
-              "Emerging": "Supports activities that encourage stakeholder participation and dialogue.",
-              "Developing": "Assists in facilitating productive discussions among stakeholders with varying interests.",
-              "Proficient": "Builds trust, promotes transparency, and fosters consensus among stakeholders to achieve mutually acceptable outcomes.",
-              "Advanced": "Leads large-scale consensus-building initiatives involving complex community concerns and competing stakeholder interests."
-            }
-          },
-          {
-            "name": "Strategic Community Relations Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands the importance of community support to project success.",
-              "Developing": "Contributes to community engagement plans and stakeholder management activities.",
-              "Proficient": "Develops and implements community relations strategies that support project implementation and minimize resistance.",
-              "Advanced": "Shapes organizational approaches to community relations and influences policies that strengthen stakeholder confidence and public acceptance."
-            }
           }
         ]
       },
@@ -16147,53 +15757,33 @@
         "definition": "The ability to assess, analyze, interpret, and apply property valuation principles, market data, and economic factors to determine fair and reasonable land and property values, support compensation decisions, evaluate acquisition costs, and facilitate compliant and efficient right-of-way acquisition processes.",
         "dimensions": [
           {
-            "name": "Property Valuation Knowledge",
+            "name": "Property Valuation Knowledge, Assessment, and Professional Judgment",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates basic understanding of property valuation concepts, methodologies, and terminology.",
-              "Developing": "Applies fundamental valuation principles when reviewing property information and supporting valuation activities.",
-              "Proficient": "Applies appropriate valuation methodologies to assess land and property values accurately and consistently.",
-              "Advanced": "Provides expert interpretation of complex valuation matters and recommends improvements to valuation practices and standards."
+              "Emerging": "Demonstrates basic understanding of property valuation concepts, methodologies, and terminology, assists in gathering information on property characteristics and conditions, and follows established valuation processes and standards.",
+              "Developing": "Applies fundamental valuation principles when reviewing property information, evaluates property attributes, improvements, and location factors with guidance, and reviews valuation outputs for completeness, identifying possible inconsistencies.",
+              "Proficient": "Applies appropriate valuation methodologies to assess land and property values accurately and consistently, conducts detailed assessment of property characteristics, and exercises sound professional judgment in validating valuation data, methodologies, and recommendations.",
+              "Advanced": "Provides expert interpretation of complex valuation matters, resolves complex valuation issues involving unique properties or large-scale acquisitions, and establishes quality assurance frameworks that promote best practices in valuation and market analysis."
             }
           },
           {
-            "name": "Market Research and Data Collection",
+            "name": "Market Research, Data Collection, and Analysis",
             "definition": null,
             "levels": {
-              "Emerging": "Identifies common sources of property and market information.",
-              "Developing": "Collects and organizes relevant market, property, and transaction data for analysis.",
-              "Proficient": "Conducts comprehensive market research and validates information from multiple reliable sources.",
-              "Advanced": "Establishes data gathering standards and develops approaches that enhance the quality and reliability of market intelligence."
+              "Emerging": "Identifies common sources of property and market information, and recognizes basic market trends and factors that influence property values.",
+              "Developing": "Collects and organizes relevant market, property, and transaction data for analysis, and assists in evaluating property market conditions and identifying patterns in market data.",
+              "Proficient": "Conducts comprehensive market research and validates information from multiple reliable sources, while analyzing market trends, economic conditions, and comparable property information to support valuation decisions.",
+              "Advanced": "Establishes data gathering standards that enhance the quality and reliability of market intelligence, and provides strategic insight on market movements, forecasting potential impacts on acquisition costs and project implementation."
             }
           },
           {
-            "name": "Market Analysis and Interpretation",
+            "name": "Compensation, Cost Determination, and Budget Impact Analysis",
             "definition": null,
             "levels": {
-              "Emerging": "Recognizes basic market trends and factors that influence property values.",
-              "Developing": "Assists in evaluating property market conditions and identifying patterns in market data.",
-              "Proficient": "Analyzes market trends, economic conditions, and comparable property information to support valuation decisions.",
-              "Advanced": "Provides strategic insight on market movements and forecasts potential impacts on acquisition costs and project implementation."
-            }
-          },
-          {
-            "name": "Property Assessment and Evaluation",
-            "definition": null,
-            "levels": {
-              "Emerging": "Assists in gathering information on property characteristics and conditions.",
-              "Developing": "Evaluates property attributes, improvements, and location factors with guidance.",
-              "Proficient": "Conducts detailed assessment of property characteristics and determines their effect on valuation outcomes.",
-              "Advanced": "Resolves complex valuation issues involving unique properties, special conditions, or large-scale acquisitions."
-            }
-          },
-          {
-            "name": "Compensation and Cost Determination",
-            "definition": null,
-            "levels": {
-              "Emerging": "Understands the relationship between property values and compensation requirements.",
-              "Developing": "Assists in calculating compensation figures based on established guidelines.",
-              "Proficient": "Applies valuation results to support fair compensation recommendations and acquisition cost estimates.",
-              "Advanced": "Develops valuation strategies that ensure equitable compensation while supporting efficient resource utilization."
+              "Emerging": "Understands the relationship between property values and compensation requirements, and demonstrates awareness of the financial implications of valuation outcomes.",
+              "Developing": "Assists in calculating compensation figures based on established guidelines, and assists in linking valuation results to compensation requirements and budget estimates.",
+              "Proficient": "Applies valuation results to support fair compensation recommendations and acquisition cost estimates, while evaluating the budgetary impact of property valuations and acquisition costs to support planning and decision-making.",
+              "Advanced": "Develops valuation strategies that ensure equitable compensation while supporting efficient resource utilization, and provides strategic financial analysis that informs project budgeting, resource allocation, and acquisition strategies."
             }
           },
           {
@@ -16225,26 +15815,6 @@
               "Proficient": "Effectively communicates valuation findings and coordinates with property owners, technical teams, and concerned agencies.",
               "Advanced": "Leads consultations involving complex valuation concerns and facilitates agreement among multiple stakeholders."
             }
-          },
-          {
-            "name": "Financial Analysis and Budget Impact Assessment",
-            "definition": null,
-            "levels": {
-              "Emerging": "Demonstrates awareness of the financial implications of valuation outcomes.",
-              "Developing": "Assists in linking valuation results to compensation requirements and budget estimates.",
-              "Proficient": "Evaluates the budgetary impact of property valuations and acquisition costs to support planning and decision-making.",
-              "Advanced": "Provides strategic financial analysis that informs project budgeting, resource allocation, and acquisition strategies."
-            }
-          },
-          {
-            "name": "Quality Assurance and Professional Judgment",
-            "definition": null,
-            "levels": {
-              "Emerging": "Follows established valuation processes and standards.",
-              "Developing": "Reviews valuation outputs for completeness and identifies possible inconsistencies.",
-              "Proficient": "Exercises sound professional judgment in validating valuation data, methodologies, and recommendations.",
-              "Advanced": "Establishes quality assurance frameworks and promotes best practices in valuation and market analysis activities."
-            }
           }
         ]
       },
@@ -16263,33 +15833,23 @@
             }
           },
           {
-            "name": "Spatial Data Collection and Management",
+            "name": "Spatial Data Collection, Management, and Analysis",
             "definition": null,
             "levels": {
-              "Emerging": "Collects and organizes basic geographic and property-related information.",
-              "Developing": "Assists in maintaining geospatial databases and validating collected spatial data.",
-              "Proficient": "Manages and maintains accurate, complete, and reliable spatial datasets for ROW planning and monitoring.",
-              "Advanced": "Establishes data governance standards and improves organizational geospatial data management systems."
+              "Emerging": "Collects and organizes basic geographic and property-related information, and recognizes spatial relationships and basic geographic patterns.",
+              "Developing": "Assists in maintaining geospatial databases and validating collected spatial data, and assists in conducting simple spatial analyses and interpreting mapping results.",
+              "Proficient": "Manages and maintains accurate, complete, and reliable spatial datasets for ROW planning and monitoring, while performing geospatial analysis to identify constraints, opportunities, risks, and project impacts.",
+              "Advanced": "Establishes data governance standards that improve organizational geospatial data management systems, and conducts complex spatial modeling that provides strategic geospatial insights for major projects and policy decisions."
             }
           },
           {
-            "name": "Mapping and Visualization",
+            "name": "Mapping, Visualization, and Asset Mapping",
             "definition": null,
             "levels": {
-              "Emerging": "Produces simple maps and basic spatial outputs using established templates.",
-              "Developing": "Creates maps and visual representations that support routine reporting and planning activities.",
-              "Proficient": "Develops accurate and informative thematic maps that support acquisition activities, project monitoring, and stakeholder engagement.",
-              "Advanced": "Designs advanced visualization products that enhance strategic planning, executive reporting, and decision-making."
-            }
-          },
-          {
-            "name": "Spatial Analysis and Interpretation",
-            "definition": null,
-            "levels": {
-              "Emerging": "Recognizes spatial relationships and basic geographic patterns.",
-              "Developing": "Assists in conducting simple spatial analyses and interpreting mapping results.",
-              "Proficient": "Performs geospatial analysis to identify constraints, opportunities, risks, and project impacts affecting ROW activities.",
-              "Advanced": "Conducts complex spatial modeling and provides strategic geospatial insights for major projects and policy decisions."
+              "Emerging": "Produces simple maps and basic spatial outputs using established templates, and identifies geographic features and property information from available maps and records.",
+              "Developing": "Creates maps and visual representations that support routine reporting and planning activities, and assists in plotting properties, land parcels, and project assets using GIS applications.",
+              "Proficient": "Develops accurate and informative thematic maps that support acquisition activities, project monitoring, and stakeholder engagement, and produces accurate parcel, boundary, and asset maps that support validation and acquisition activities.",
+              "Advanced": "Designs advanced visualization products that enhance strategic planning, executive reporting, and decision-making, and establishes integrated mapping systems that support property management and organizational oversight."
             }
           },
           {
@@ -16303,53 +15863,23 @@
             }
           },
           {
-            "name": "Property and Asset Mapping",
+            "name": "Stakeholder Coordination, Documentation, and Data Presentation",
             "definition": null,
             "levels": {
-              "Emerging": "Identifies geographic features and property information from available maps and records.",
-              "Developing": "Assists in plotting properties, land parcels, and project assets using GIS applications.",
-              "Proficient": "Produces accurate parcel, boundary, and asset maps that support validation, acquisition, and monitoring activities.",
-              "Advanced": "Establishes integrated mapping systems that support property management, acquisition planning, and organizational oversight."
+              "Emerging": "Shares mapping outputs with internal teams as directed, and maintains records of maps, datasets, and geospatial outputs.",
+              "Developing": "Coordinates with technical personnel and stakeholders to gather and validate geospatial information, and prepares routine reports and presentations incorporating maps and spatial information.",
+              "Proficient": "Effectively communicates geospatial findings to stakeholders and uses mapping tools to facilitate discussions and decision-making, while producing comprehensive reports integrating geospatial analysis to support project monitoring.",
+              "Advanced": "Leads multi-agency geospatial initiatives that promote collaborative use of GIS in project implementation, and develops reporting standards and information products that improve organizational understanding and use of geospatial data."
             }
           },
           {
-            "name": "Stakeholder Coordination and Information Sharing",
+            "name": "Technology Utilization, Systems Management, and Data Quality Assurance",
             "definition": null,
             "levels": {
-              "Emerging": "Shares mapping outputs with internal teams as directed.",
-              "Developing": "Coordinates with technical personnel and stakeholders to gather and validate geospatial information.",
-              "Proficient": "Effectively communicates geospatial findings to stakeholders and uses mapping tools to facilitate discussions and decision-making.",
-              "Advanced": "Leads multi-agency geospatial initiatives and promotes collaborative use of GIS in project implementation."
-            }
-          },
-          {
-            "name": "Documentation, Reporting, and Data Presentation",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains records of maps, datasets, and geospatial outputs.",
-              "Developing": "Prepares routine reports and presentations incorporating maps and spatial information.",
-              "Proficient": "Produces comprehensive reports integrating geospatial analysis to support project monitoring and management decisions.",
-              "Advanced": "Develops reporting standards and information products that improve organizational understanding and use of geospatial data."
-            }
-          },
-          {
-            "name": "Technology Utilization and Systems Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Uses GIS software and digital mapping tools with guidance.",
-              "Developing": "Applies standard GIS applications and troubleshooting techniques in routine work.",
-              "Proficient": "Maximizes GIS functionalities to improve operational efficiency and support business requirements.",
-              "Advanced": "Evaluates emerging technologies and leads initiatives that advance organizational geospatial capabilities."
-            }
-          },
-          {
-            "name": "Quality Assurance and Data Integrity",
-            "definition": null,
-            "levels": {
-              "Emerging": "Follows procedures for maintaining the accuracy of geospatial information.",
-              "Developing": "Reviews spatial data and mapping outputs for completeness and consistency.",
-              "Proficient": "Ensures accuracy, reliability, and integrity of GIS databases, analyses, and mapping outputs.",
-              "Advanced": "Establishes quality assurance frameworks and promotes best practices in geospatial data management and analysis."
+              "Emerging": "Uses GIS software and digital mapping tools with guidance, and follows procedures for maintaining the accuracy of geospatial information.",
+              "Developing": "Applies standard GIS applications and troubleshooting techniques in routine work, and reviews spatial data and mapping outputs for completeness and consistency.",
+              "Proficient": "Maximizes GIS functionalities to improve operational efficiency and support business requirements, while ensuring accuracy, reliability, and integrity of GIS databases, analyses, and mapping outputs.",
+              "Advanced": "Evaluates emerging technologies and leads initiatives that advance organizational geospatial capabilities, and establishes quality assurance frameworks that promote best practices in geospatial data management and analysis."
             }
           }
         ]
@@ -16369,113 +15899,43 @@
             }
           },
           {
-            "name": "Records Organization and Classification",
+            "name": "Records Organization, Classification, and Preservation",
             "definition": null,
             "levels": {
-              "Emerging": "Organizes documents according to prescribed filing procedures.",
-              "Developing": "Classifies and maintains records using established records management systems.",
-              "Proficient": "Ensures records are properly categorized, indexed, and maintained for easy retrieval and reference.",
-              "Advanced": "Develops classification systems and records management frameworks that enhance organizational efficiency."
+              "Emerging": "Organizes documents according to prescribed filing procedures, and maintains assigned records and files following established procedures.",
+              "Developing": "Classifies and maintains records using established records management systems, and monitors records for completeness, ensuring proper storage and maintenance.",
+              "Proficient": "Ensures records are properly categorized, indexed, and maintained for easy retrieval and reference, while ensuring long-term preservation, integrity, and accessibility of records in accordance with applicable standards.",
+              "Advanced": "Develops classification systems and records management frameworks that enhance organizational efficiency, and establishes preservation strategies that safeguard critical organizational records and institutional knowledge."
             }
           },
           {
-            "name": "Records Maintenance and Preservation",
+            "name": "Accuracy, Quality Control, Audit Readiness, and Policy Compliance",
             "definition": null,
             "levels": {
-              "Emerging": "Maintains assigned records and files following established procedures.",
-              "Developing": "Monitors records for completeness and ensures proper storage and maintenance.",
-              "Proficient": "Ensures long-term preservation, integrity, and accessibility of records in accordance with applicable standards.",
-              "Advanced": "Establishes preservation strategies and safeguards critical organizational records and institutional knowledge."
+              "Emerging": "Reviews documents for obvious errors and omissions before filing or submission, maintains records required for monitoring and verification activities, and demonstrates awareness of records management policies, procedures, and legal requirements.",
+              "Developing": "Verifies completeness and consistency of records and supporting documents, assists in compiling records and supporting documents for audits and reviews, and applies prescribed records management policies in routine work activities.",
+              "Proficient": "Conducts thorough quality checks to ensure accuracy, reliability, and completeness of records and documentation, ensures complete documentation is readily available for audits, inspections, and compliance reviews, and ensures records are maintained, retained, and disposed of in compliance with applicable laws, regulations, and organizational policies.",
+              "Advanced": "Develops quality assurance mechanisms and promotes documentation excellence throughout the organization, establishes audit-ready documentation systems, and provides guidance on compliance requirements while recommending improvements to records governance practices."
             }
           },
           {
-            "name": "Accuracy and Quality Control",
+            "name": "Digital Records, Information Systems, Retrieval, and Confidentiality/Security Management",
             "definition": null,
             "levels": {
-              "Emerging": "Reviews documents for obvious errors and omissions before filing or submission.",
-              "Developing": "Verifies completeness and consistency of records and supporting documents.",
-              "Proficient": "Conducts thorough quality checks to ensure accuracy, reliability, and completeness of records and documentation.",
-              "Advanced": "Develops quality assurance mechanisms and promotes documentation excellence throughout the organization."
+              "Emerging": "Uses electronic records systems and office applications with guidance, locates and retrieves records using established filing procedures, and handles sensitive information according to established protocols.",
+              "Developing": "Maintains digital records and updates electronic databases accurately, responds to routine requests for records and information within prescribed timelines, and applies appropriate safeguards when storing and transmitting confidential information.",
+              "Proficient": "Effectively manages electronic records systems and ensures data integrity, security, and accessibility; efficiently retrieves, validates, and provides records that support operational, legal, audit, and management requirements; and ensures confidentiality, privacy, and security of records while facilitating authorized access.",
+              "Advanced": "Leads initiatives to improve digital records management systems and promote technology-enabled records governance, establishes systems that improve accessibility and availability of information across the organization, and establishes information security controls that promote a culture of responsible information stewardship."
             }
           },
           {
-            "name": "Compliance with Records Management Policies",
+            "name": "Document Control, Monitoring, Tracking, Reporting, and Continuous Improvement",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates awareness of records management policies, procedures, and legal requirements.",
-              "Developing": "Applies prescribed records management policies in routine work activities.",
-              "Proficient": "Ensures records are maintained, retained, and disposed of in compliance with applicable laws, regulations, and organizational policies.",
-              "Advanced": "Provides guidance on compliance requirements and recommends improvements to records governance practices."
-            }
-          },
-          {
-            "name": "Information Retrieval and Records Accessibility",
-            "definition": null,
-            "levels": {
-              "Emerging": "Locates and retrieves records using established filing procedures.",
-              "Developing": "Responds to routine requests for records and information within prescribed timelines.",
-              "Proficient": "Efficiently retrieves, validates, and provides records that support operational, legal, audit, and management requirements.",
-              "Advanced": "Establishes systems that improve accessibility, tracking, and availability of information across the organization."
-            }
-          },
-          {
-            "name": "Monitoring, Tracking, and Reporting",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains document logs and updates basic tracking records.",
-              "Developing": "Assists in monitoring document status and preparing routine reports.",
-              "Proficient": "Maintains comprehensive tracking systems and prepares accurate reports that support monitoring and decision-making.",
-              "Advanced": "Develops records monitoring frameworks and performance indicators that strengthen accountability and oversight."
-            }
-          },
-          {
-            "name": "Digital Records and Information Systems Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Uses electronic records systems and office applications with guidance.",
-              "Developing": "Maintains digital records and updates electronic databases accurately.",
-              "Proficient": "Effectively manages electronic records systems and ensures data integrity, security, and accessibility.",
-              "Advanced": "Leads initiatives to improve digital records management systems and promote technology-enabled records governance."
-            }
-          },
-          {
-            "name": "Confidentiality and Information Security",
-            "definition": null,
-            "levels": {
-              "Emerging": "Handles sensitive information according to established protocols.",
-              "Developing": "Applies appropriate safeguards when storing and transmitting confidential information.",
-              "Proficient": "Ensures confidentiality, privacy, and security of records while facilitating authorized access.",
-              "Advanced": "Establishes information security controls and promotes a culture of responsible information stewardship."
-            }
-          },
-          {
-            "name": "Coordination and Document Control",
-            "definition": null,
-            "levels": {
-              "Emerging": "Coordinates routine document submissions and routing activities.",
-              "Developing": "Monitors document movement and ensures required actions are completed.",
-              "Proficient": "Facilitates effective document control processes among units and stakeholders to support timely completion of transactions.",
-              "Advanced": "Designs organization-wide document control systems that improve workflow efficiency and accountability."
-            }
-          },
-          {
-            "name": "Audit and Compliance Readiness",
-            "definition": null,
-            "levels": {
-              "Emerging": "Maintains records required for monitoring and verification activities.",
-              "Developing": "Assists in compiling records and supporting documents for audits and reviews.",
-              "Proficient": "Ensures complete documentation is readily available for audits, inspections, and compliance reviews.",
-              "Advanced": "Establishes audit-ready documentation systems and continuously improves organizational compliance preparedness."
-            }
-          },
-          {
-            "name": "Continuous Improvement and Knowledge Management",
-            "definition": null,
-            "levels": {
-              "Emerging": "Recognizes the importance of organized documentation in supporting operations.",
-              "Developing": "Suggests improvements to filing, retrieval, and records maintenance procedures.",
-              "Proficient": "Implements enhancements that improve records management efficiency and service delivery.",
-              "Advanced": "Develops knowledge management strategies that preserve institutional memory and strengthen organizational learning."
+              "Emerging": "Coordinates routine document submissions and routing activities, maintains document logs and updates basic tracking records, and recognizes the importance of organized documentation in supporting operations.",
+              "Developing": "Monitors document movement and ensures required actions are completed, assists in monitoring document status and preparing routine reports, and suggests improvements to filing, retrieval, and records maintenance procedures.",
+              "Proficient": "Facilitates effective document control processes among units and stakeholders to support timely completion of transactions, maintains comprehensive tracking systems and prepares accurate reports, and implements enhancements that improve records management efficiency and service delivery.",
+              "Advanced": "Designs organization-wide document control systems that improve workflow efficiency and accountability, develops records monitoring frameworks and performance indicators that strengthen accountability, and develops knowledge management strategies that preserve institutional memory and strengthen organizational learning."
             }
           }
         ]
