@@ -1266,15 +1266,620 @@
   {
     "code": "FRS",
     "name": "Franchising Review Staff",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Office of the Secretary",
     "officeOrder": 2,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "Franchising Review Staff.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Regulatory Adjudication and Appeals Review",
+        "definition": "The ability to evaluate, analyze, and formulate recommendations, decisions, and resolutions on appealed franchising cases through the application of laws, regulations, policies, jurisprudence, and evidence-based assessment to ensure fair, timely, and legally sound determinations.",
+        "dimensions": [
+          {
+            "name": "Regulatory Interpretation",
+            "definition": "The ability to interpret and apply transportation laws, regulations, policies, and issuances relevant to appealed franchising cases.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of applicable laws, regulations, and issuances affecting franchising appeals.",
+              "Developing": "Applies relevant laws and regulations to routine appealed cases with minimal guidance.",
+              "Proficient": "Interprets complex and interrelated regulatory provisions to support case review and decision-making.",
+              "Advanced": "Provides authoritative interpretation of transport regulations and advises on novel or precedent-setting issues."
+            }
+          },
+          {
+            "name": "Appeals Review and Legal Analysis",
+            "definition": "The ability to review appealed decisions and analyze legal, regulatory, and procedural issues affecting case outcomes.",
+            "levels": {
+              "Emerging": "Identifies issues raised in appealed cases.",
+              "Developing": "Reviews appeal records and evaluates compliance with legal requirements.",
+              "Proficient": "Analyzes legal arguments, regulatory implications, and relevant precedents.",
+              "Advanced": "Leads review of highly complex appeals and develops standards for adjudicative analysis."
+            }
+          },
+          {
+            "name": "Fact-Finding and Evidence Appreciation",
+            "definition": "The ability to identify, validate, and analyze facts and evidence relevant to appealed cases.",
+            "levels": {
+              "Emerging": "Extracts relevant facts from submitted documents and records.",
+              "Developing": "Reviews evidence and identifies inconsistencies or documentary gaps.",
+              "Proficient": "Evaluates sufficiency, relevance, and credibility of evidence.",
+              "Advanced": "Establishes analytical approaches for evaluating complex factual issues and evidentiary matters."
+            }
+          },
+          {
+            "name": "Decision and Recommendation Formulation",
+            "definition": "The ability to formulate objective findings, conclusions, and recommendations based on evidence and applicable regulations.",
+            "levels": {
+              "Emerging": "Assists in preparing findings and recommendations.",
+              "Developing": "Drafts routine recommendations supported by facts and regulations.",
+              "Proficient": "Produces comprehensive and defensible findings, recommendations, and draft decisions.",
+              "Advanced": "Provides strategic recommendations on cases with significant policy or regulatory implications."
+            }
+          },
+          {
+            "name": "Due Process and Procedural Compliance",
+            "definition": "The ability to ensure adherence to procedural and substantive due process requirements throughout the review process.",
+            "levels": {
+              "Emerging": "Recognizes due process requirements in case handling.",
+              "Developing": "Reviews compliance with procedural requirements.",
+              "Proficient": "Ensures cases meet procedural and substantive requirements before disposition.",
+              "Advanced": "Establishes controls and review mechanisms that strengthen adjudicative integrity."
+            }
+          },
+          {
+            "name": "Adjudication Quality Assurance",
+            "definition": "The ability to ensure the consistency, accuracy, defensibility, and quality of adjudicative outputs.",
+            "levels": {
+              "Emerging": "Reviews outputs for basic accuracy and completeness.",
+              "Developing": "Checks consistency of findings against evidence and applicable rules.",
+              "Proficient": "Ensures adjudicative outputs are legally sound and technically defensible.",
+              "Advanced": "Develops quality assurance standards and promotes adjudication excellence."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Franchise Regulatory Review and Authorization Management",
+        "definition": "The ability to evaluate, review, process, and recommend actions on franchising-related orders, authorizations, accreditation requirements, permits, and regulatory submissions consistent with applicable laws, standards, and organizational policies.",
+        "dimensions": [
+          {
+            "name": "Authorization Evaluation",
+            "definition": "The ability to assess applications, requests, and submissions for authorization, accreditation, or approval.",
+            "levels": {
+              "Emerging": "Reviews completeness of applications and submissions.",
+              "Developing": "Evaluates routine applications against prescribed requirements.",
+              "Proficient": "Assesses complex authorization and accreditation applications.",
+              "Advanced": "Develops evaluation frameworks and review standards."
+            }
+          },
+          {
+            "name": "Regulatory Compliance Assessment",
+            "definition": "The ability to determine compliance with regulatory requirements and operational standards.",
+            "levels": {
+              "Emerging": "Identifies applicable compliance requirements.",
+              "Developing": "Reviews compliance documentation and submissions.",
+              "Proficient": "Evaluates sufficiency and reliability of compliance evidence.",
+              "Advanced": "Establishes compliance assessment methodologies and controls."
+            }
+          },
+          {
+            "name": "Accreditation and Oversight",
+            "definition": "The ability to monitor compliance with accreditation standards and conditions.",
+            "levels": {
+              "Emerging": "Understands accreditation principles and requirements.",
+              "Developing": "Assists in reviewing accreditation-related compliance.",
+              "Proficient": "Evaluates continuing compliance of accredited entities.",
+              "Advanced": "Leads accreditation governance and improvement initiatives."
+            }
+          },
+          {
+            "name": "Order and Issuance Review",
+            "definition": "The ability to review franchising-related orders, letters, endorsements, and memoranda for accuracy and compliance.",
+            "levels": {
+              "Emerging": "Reviews routine issuances for completeness.",
+              "Developing": "Evaluates draft orders and communications.",
+              "Proficient": "Ensures technical, legal, and regulatory accuracy of issuances.",
+              "Advanced": "Provides expert review of sensitive and complex regulatory issuances."
+            }
+          },
+          {
+            "name": "Risk Assessment",
+            "definition": "The ability to identify and evaluate legal, operational, and regulatory risks associated with approvals and authorizations.",
+            "levels": {
+              "Emerging": "Recognizes obvious risks and compliance concerns.",
+              "Developing": "Identifies operational and regulatory risks.",
+              "Proficient": "Evaluates risk exposure and recommends mitigating actions.",
+              "Advanced": "Develops risk management mechanisms supporting regulatory decision-making."
+            }
+          },
+          {
+            "name": "Recommendation Formulation",
+            "definition": "The ability to formulate approval, disapproval, corrective, or policy recommendations.",
+            "levels": {
+              "Emerging": "Assists in preparing recommendations.",
+              "Developing": "Drafts recommendations supported by evaluation findings.",
+              "Proficient": "Produces comprehensive recommendations supported by evidence and regulations.",
+              "Advanced": "Provides strategic recommendations affecting regulatory policy and practice."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Data Privacy and Protection Management",
+        "definition": "The ability to establish, implement, monitor, and continuously improve compliance with the Data Privacy Act and related regulations through privacy governance, risk management, compliance monitoring, awareness-building, incident management, and protection of personal information.",
+        "dimensions": [
+          {
+            "name": "Data Privacy Governance",
+            "definition": "The ability to establish and implement privacy policies, procedures, and governance mechanisms.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of data privacy principles and obligations.",
+              "Developing": "Applies approved privacy policies and procedures.",
+              "Proficient": "Monitors implementation of privacy governance requirements.",
+              "Advanced": "Leads organizational privacy governance initiatives and improvements."
+            }
+          },
+          {
+            "name": "Privacy Compliance Monitoring",
+            "definition": "The ability to assess adherence to privacy laws, regulations, and organizational requirements.",
+            "levels": {
+              "Emerging": "Recognizes privacy compliance requirements.",
+              "Developing": "Reviews routine compliance submissions.",
+              "Proficient": "Conducts privacy compliance assessments and reviews.",
+              "Advanced": "Develops privacy compliance monitoring frameworks and standards."
+            }
+          },
+          {
+            "name": "Privacy Risk and Impact Assessment",
+            "definition": "The ability to identify, evaluate, and manage privacy risks and impacts associated with processes and systems.",
+            "levels": {
+              "Emerging": "Identifies obvious privacy risks.",
+              "Developing": "Assists in privacy reviews and assessments.",
+              "Proficient": "Conducts privacy risk and impact assessments.",
+              "Advanced": "Develops enterprise-level privacy risk management strategies."
+            }
+          },
+          {
+            "name": "Personal Data Protection",
+            "definition": "The ability to safeguard personal information from unauthorized access, disclosure, alteration, or loss.",
+            "levels": {
+              "Emerging": "Observes data protection protocols and safeguards.",
+              "Developing": "Applies privacy protection controls.",
+              "Proficient": "Ensures effective implementation of protection measures.",
+              "Advanced": "Leads development of data protection and information safeguarding strategies."
+            }
+          },
+          {
+            "name": "Data Breach and Incident Management",
+            "definition": "The ability to detect, assess, report, investigate, and respond to privacy incidents and breaches.",
+            "levels": {
+              "Emerging": "Recognizes potential privacy incidents.",
+              "Developing": "Follows incident reporting and escalation procedures.",
+              "Proficient": "Coordinates breach assessment and response activities.",
+              "Advanced": "Leads enterprise-wide breach management and recovery initiatives."
+            }
+          },
+          {
+            "name": "Privacy Awareness and Capacity Building",
+            "definition": "The ability to promote understanding and compliance with privacy requirements among stakeholders.",
+            "levels": {
+              "Emerging": "Participates in privacy awareness initiatives.",
+              "Developing": "Provides routine privacy guidance and information.",
+              "Proficient": "Conducts privacy orientations and learning activities.",
+              "Advanced": "Leads organization-wide privacy advocacy and capability development programs."
+            }
+          },
+          {
+            "name": "Privacy Reporting and Documentation",
+            "definition": "The ability to prepare, maintain, and monitor privacy-related reports, records, and documentary requirements.",
+            "levels": {
+              "Emerging": "Maintains assigned privacy records and documents.",
+              "Developing": "Prepares routine privacy reports and submissions.",
+              "Proficient": "Produces comprehensive privacy compliance documentation.",
+              "Advanced": "Establishes privacy reporting systems and organizational standards."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy and Regulatory Compliance Monitoring",
+        "definition": "The ability to interpret, assess, monitor, and promote compliance with laws, regulations, accreditation requirements, policies, standards, and governance frameworks affecting franchising, accreditation, authorization, and data privacy programs.",
+        "dimensions": [
+          {
+            "name": "Policy Interpretation",
+            "definition": "The ability to analyze and apply laws, regulations, standards, and policies consistently and appropriately.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of applicable regulations and policies.",
+              "Developing": "Applies policies and standards to routine situations.",
+              "Proficient": "Interprets complex provisions and resolves policy application issues.",
+              "Advanced": "Serves as an authority on policy interpretation and regulatory guidance."
+            }
+          },
+          {
+            "name": "Compliance Review and Validation",
+            "definition": "The ability to assess activities, submissions, and records for compliance with established requirements.",
+            "levels": {
+              "Emerging": "Reviews submissions for completeness.",
+              "Developing": "Evaluates routine compliance submissions.",
+              "Proficient": "Validates compliance using documentary evidence and records.",
+              "Advanced": "Develops compliance review methodologies and standards."
+            }
+          },
+          {
+            "name": "Compliance Monitoring",
+            "definition": "The ability to track adherence to applicable requirements and identify compliance trends.",
+            "levels": {
+              "Emerging": "Assists in monitoring activities and compliance tracking.",
+              "Developing": "Monitors routine compliance activities.",
+              "Proficient": "Evaluates compliance performance and identifies emerging issues.",
+              "Advanced": "Establishes compliance monitoring systems and governance controls."
+            }
+          },
+          {
+            "name": "Non-Compliance Assessment",
+            "definition": "The ability to identify deficiencies, violations, and compliance risks.",
+            "levels": {
+              "Emerging": "Identifies obvious compliance issues and gaps.",
+              "Developing": "Documents identified deficiencies and concerns.",
+              "Proficient": "Conducts root-cause analysis and risk evaluation.",
+              "Advanced": "Anticipates systemic compliance risks and recommends preventive measures."
+            }
+          },
+          {
+            "name": "Corrective Action Monitoring",
+            "definition": "The ability to monitor implementation and effectiveness of corrective measures.",
+            "levels": {
+              "Emerging": "Tracks assigned corrective actions.",
+              "Developing": "Follows up implementation of recommendations.",
+              "Proficient": "Evaluates effectiveness of corrective interventions.",
+              "Advanced": "Establishes compliance improvement and accountability mechanisms."
+            }
+          },
+          {
+            "name": "Compliance Reporting and Governance Support",
+            "definition": "The ability to prepare compliance reports and support decision-making and governance activities.",
+            "levels": {
+              "Emerging": "Assists in preparing compliance reports.",
+              "Developing": "Develops routine compliance monitoring reports.",
+              "Proficient": "Produces comprehensive compliance assessments and recommendations.",
+              "Advanced": "Provides strategic compliance advice and governance support to management."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Legal and Regulatory Research",
+        "definition": "The ability to systematically identify, gather, analyze, interpret, and synthesize laws, regulations, policies, jurisprudence, regulatory issuances, and related information to support regulatory review, adjudication, policy interpretation, and evidence-based decision-making.",
+        "dimensions": [
+          {
+            "name": "Legal Research",
+            "definition": "The ability to identify, locate, and retrieve applicable laws, jurisprudence, regulations, policies, and relevant reference materials.",
+            "levels": {
+              "Emerging": "Locates relevant laws, regulations, and policy documents with guidance.",
+              "Developing": "Conducts routine legal and regulatory research using available references and databases.",
+              "Proficient": "Efficiently identifies and retrieves applicable legal authorities supporting complex case reviews.",
+              "Advanced": "Develops comprehensive research approaches and serves as a resource person on legal and regulatory sources."
+            }
+          },
+          {
+            "name": "Regulatory Research",
+            "definition": "The ability to gather and analyze regulatory issuances, guidelines, standards, and policy developments affecting franchising and transportation governance.",
+            "levels": {
+              "Emerging": "Identifies relevant issuances and regulatory references.",
+              "Developing": "Reviews applicable regulations affecting assigned cases or projects.",
+              "Proficient": "Analyzes multiple regulatory issuances and identifies implications to policy and operational decisions.",
+              "Advanced": "Anticipates regulatory developments and provides strategic regulatory insights."
+            }
+          },
+          {
+            "name": "Jurisprudence Analysis",
+            "definition": "The ability to review and apply judicial and quasi-judicial decisions relevant to regulatory and franchising matters.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of relevant jurisprudence.",
+              "Developing": "Identifies applicable cases and precedents related to assigned issues.",
+              "Proficient": "Analyzes jurisprudential doctrines and applies them appropriately to case reviews.",
+              "Advanced": "Develops authoritative legal positions grounded on jurisprudential analysis."
+            }
+          },
+          {
+            "name": "Policy Analysis",
+            "definition": "The ability to evaluate policies and regulatory provisions to determine applicability, consistency, impact, and implications.",
+            "levels": {
+              "Emerging": "Reviews policies for basic understanding.",
+              "Developing": "Analyzes policy provisions applicable to routine matters.",
+              "Proficient": "Evaluates policy implications and identifies implementation concerns.",
+              "Advanced": "Provides strategic policy analysis influencing regulatory and organizational decisions."
+            }
+          },
+          {
+            "name": "Research Synthesis",
+            "definition": "The ability to consolidate and integrate information from multiple legal and regulatory sources into coherent findings and conclusions.",
+            "levels": {
+              "Emerging": "Summarizes information gathered from research activities.",
+              "Developing": "Integrates findings from multiple references into routine reports.",
+              "Proficient": "Produces comprehensive analyses supporting recommendations and decisions.",
+              "Advanced": "Develops integrated legal and regulatory studies supporting policy and governance reforms."
+            }
+          },
+          {
+            "name": "Issue-Based Research",
+            "definition": "The ability to conduct focused research addressing specific legal, regulatory, operational, or policy concerns.",
+            "levels": {
+              "Emerging": "Identifies information relevant to assigned issues.",
+              "Developing": "Conducts research addressing defined questions and concerns.",
+              "Proficient": "Develops evidence-based analyses of complex issues.",
+              "Advanced": "Leads research initiatives addressing emerging and strategic concerns."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Technical Writing and Recommendation Formulation",
+        "definition": "The ability to prepare clear, concise, accurate, organized, and technically sound decisions, resolutions, orders, memoranda, endorsements, reports, and recommendations that support regulatory action and management decision-making.",
+        "dimensions": [
+          {
+            "name": "Technical Writing",
+            "definition": "The ability to prepare written documents that are clear, organized, accurate, and compliant with established standards and formats.",
+            "levels": {
+              "Emerging": "Drafts routine documents following prescribed templates and formats.",
+              "Developing": "Produces technically complete and well-structured documents.",
+              "Proficient": "Develops comprehensive and technically sound regulatory documents.",
+              "Advanced": "Establishes writing standards and reviews highly complex technical outputs."
+            }
+          },
+          {
+            "name": "Decision and Resolution Writing",
+            "definition": "The ability to prepare decisions, resolutions, and adjudicative documents supported by evidence and applicable regulations.",
+            "levels": {
+              "Emerging": "Assists in preparing findings and draft resolutions.",
+              "Developing": "Drafts routine decisions and resolutions with supporting references.",
+              "Proficient": "Produces comprehensive and defensible adjudicative documents.",
+              "Advanced": "Develops complex decisions and serves as technical reviewer of adjudicative outputs."
+            }
+          },
+          {
+            "name": "Recommendation Development",
+            "definition": "The ability to formulate objective, practical, and evidence-based recommendations.",
+            "levels": {
+              "Emerging": "Assists in preparing recommendations for review.",
+              "Developing": "Develops recommendations supported by available evidence.",
+              "Proficient": "Produces well-reasoned recommendations addressing legal and operational concerns.",
+              "Advanced": "Formulates strategic recommendations influencing policy and regulatory actions."
+            }
+          },
+          {
+            "name": "Analytical Writing",
+            "definition": "The ability to present findings, analyses, and conclusions logically and coherently.",
+            "levels": {
+              "Emerging": "Summarizes facts and information accurately.",
+              "Developing": "Organizes findings into structured narratives and reports.",
+              "Proficient": "Presents complex analyses in a clear and persuasive manner.",
+              "Advanced": "Produces high-level analytical papers supporting executive decision-making."
+            }
+          },
+          {
+            "name": "Documentation Standards Compliance",
+            "definition": "The ability to ensure written outputs comply with legal, regulatory, procedural, and organizational requirements.",
+            "levels": {
+              "Emerging": "Observes prescribed writing and documentation guidelines.",
+              "Developing": "Applies documentation standards correctly.",
+              "Proficient": "Ensures compliance with procedural and regulatory requirements.",
+              "Advanced": "Develops and improves documentation standards and quality control processes."
+            }
+          },
+          {
+            "name": "Communication of Technical Findings",
+            "definition": "The ability to effectively communicate technical, legal, and regulatory findings to diverse audiences.",
+            "levels": {
+              "Emerging": "Explains routine findings with guidance.",
+              "Developing": "Communicates findings clearly to stakeholders.",
+              "Proficient": "Tailors technical information to intended audiences and decision-makers.",
+              "Advanced": "Influences policy and management decisions through effective communication of technical findings."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Case Evaluation and Evidence Assessment",
+        "definition": "The ability to systematically review, validate, assess, analyze, and interpret case records, documentary evidence, factual information, and supporting materials to support regulatory review, adjudication, compliance evaluation, and recommendation formulation.",
+        "dimensions": [
+          {
+            "name": "Case Review",
+            "definition": "The ability to examine case records, submissions, and related documents to determine completeness and relevance.",
+            "levels": {
+              "Emerging": "Reviews assigned records and identifies required documents.",
+              "Developing": "Examines routine case files for completeness and compliance.",
+              "Proficient": "Conducts comprehensive case reviews and identifies critical issues.",
+              "Advanced": "Develops review standards and methodologies for complex cases."
+            }
+          },
+          {
+            "name": "Evidence Validation",
+            "definition": "The ability to verify the authenticity, accuracy, reliability, and sufficiency of documentary evidence.",
+            "levels": {
+              "Emerging": "Reviews evidence for basic completeness.",
+              "Developing": "Verifies authenticity and relevance of supporting documents.",
+              "Proficient": "Evaluates sufficiency and credibility of evidence.",
+              "Advanced": "Establishes evidence validation standards and quality controls."
+            }
+          },
+          {
+            "name": "Fact Analysis",
+            "definition": "The ability to analyze facts, circumstances, and information relevant to a case or regulatory matter.",
+            "levels": {
+              "Emerging": "Identifies relevant facts from records.",
+              "Developing": "Evaluates relationships among facts and supporting evidence.",
+              "Proficient": "Determines material facts affecting case outcomes.",
+              "Advanced": "Develops analytical frameworks for examining complex factual issues."
+            }
+          },
+          {
+            "name": "Issue Identification",
+            "definition": "The ability to recognize legal, regulatory, operational, and procedural issues affecting a case.",
+            "levels": {
+              "Emerging": "Identifies obvious issues requiring consideration.",
+              "Developing": "Recognizes routine legal and regulatory concerns.",
+              "Proficient": "Analyzes interconnected issues affecting case disposition.",
+              "Advanced": "Anticipates emerging concerns and systemic issues."
+            }
+          },
+          {
+            "name": "Assessment and Evaluation",
+            "definition": "The ability to evaluate evidence, facts, and circumstances using applicable standards and criteria.",
+            "levels": {
+              "Emerging": "Assists in evaluating case information.",
+              "Developing": "Conducts routine evaluations against prescribed standards.",
+              "Proficient": "Produces comprehensive assessments supported by facts and evidence.",
+              "Advanced": "Leads assessment of highly complex and sensitive cases."
+            }
+          },
+          {
+            "name": "Objective Judgment",
+            "definition": "The ability to make fair, impartial, evidence-based conclusions and recommendations.",
+            "levels": {
+              "Emerging": "Demonstrates objectivity in reviewing information.",
+              "Developing": "Applies objective criteria when evaluating cases.",
+              "Proficient": "Exercises sound judgment in complex situations.",
+              "Advanced": "Serves as a trusted authority in highly sensitive assessments and deliberations."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stakeholder Coordination and Regulatory Liaison",
+        "definition": "The ability to establish, maintain, and strengthen productive working relationships with regulatory bodies, government agencies, regulated entities, service providers, and internal stakeholders through effective communication, coordination, collaboration, consultation, and representation to support regulatory compliance, policy implementation, and organizational objectives.",
+        "dimensions": [
+          {
+            "name": "Stakeholder Relationship Management",
+            "definition": "The ability to establish and maintain professional, collaborative, and productive working relationships with internal and external stakeholders.",
+            "levels": {
+              "Emerging": "Maintains professional working relationships with stakeholders and clients.",
+              "Developing": "Establishes rapport and effective working relationships with stakeholders.",
+              "Proficient": "Sustains collaborative partnerships that support regulatory and organizational objectives.",
+              "Advanced": "Cultivates strategic networks and partnerships that advance organizational goals."
+            }
+          },
+          {
+            "name": "Regulatory Coordination",
+            "definition": "The ability to coordinate with regulatory agencies, oversight bodies, and concerned entities to facilitate compliance and implementation of regulatory requirements.",
+            "levels": {
+              "Emerging": "Participates in coordination activities as assigned.",
+              "Developing": "Coordinates routine regulatory requirements and communications with stakeholders.",
+              "Proficient": "Facilitates resolution of regulatory concerns involving multiple stakeholders.",
+              "Advanced": "Leads high-level regulatory coordination efforts and inter-agency engagements."
+            }
+          },
+          {
+            "name": "Inter-Agency Collaboration",
+            "definition": "The ability to work effectively with government agencies, committees, and regulatory institutions to achieve common objectives.",
+            "levels": {
+              "Emerging": "Participates in inter-agency meetings and activities.",
+              "Developing": "Coordinates assigned activities with partner agencies.",
+              "Proficient": "Facilitates collaborative initiatives among multiple organizations.",
+              "Advanced": "Leads strategic partnerships and collaborative regulatory programs."
+            }
+          },
+          {
+            "name": "Stakeholder Consultation",
+            "definition": "The ability to engage stakeholders to gather inputs, address concerns, build consensus, and support evidence-based decision-making.",
+            "levels": {
+              "Emerging": "Participates in consultations and information-gathering activities.",
+              "Developing": "Solicits stakeholder inputs and clarifies concerns.",
+              "Proficient": "Facilitates consultations involving diverse stakeholder groups.",
+              "Advanced": "Builds consensus among stakeholders with competing interests and perspectives."
+            }
+          },
+          {
+            "name": "Communication and Information Sharing",
+            "definition": "The ability to communicate information clearly, accurately, timely, and appropriately to stakeholders and decision-makers.",
+            "levels": {
+              "Emerging": "Provides information accurately when requested.",
+              "Developing": "Communicates requirements and updates clearly to stakeholders.",
+              "Proficient": "Tailors communication approaches according to stakeholder needs and circumstances.",
+              "Advanced": "Influences decisions and stakeholder engagement through strategic communication."
+            }
+          },
+          {
+            "name": "Conflict Resolution and Consensus Building",
+            "definition": "The ability to address disagreements, resolve stakeholder concerns, and facilitate mutually acceptable solutions.",
+            "levels": {
+              "Emerging": "Recognizes issues requiring further discussion or resolution.",
+              "Developing": "Addresses routine concerns and misunderstandings professionally.",
+              "Proficient": "Resolves coordination issues and conflicting stakeholder interests constructively.",
+              "Advanced": "Leads negotiations and achieves sustainable resolutions on complex regulatory matters."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Committee and Secretariat Management",
+        "definition": "The ability to plan, coordinate, facilitate, document, monitor, and provide administrative and technical support to committees, technical working groups, accreditation bodies, authorization committees, and other governance mechanisms to ensure effective decision-making, accountability, and organizational performance.",
+        "dimensions": [
+          {
+            "name": "Meeting and Committee Administration",
+            "definition": "The ability to organize, coordinate, and manage committee meetings, deliberations, conferences, and related activities.",
+            "levels": {
+              "Emerging": "Assists in organizing meetings and committee activities.",
+              "Developing": "Coordinates routine meeting requirements and logistical arrangements.",
+              "Proficient": "Manages end-to-end administration of committee and deliberation activities.",
+              "Advanced": "Establishes systems and standards for committee administration and governance support."
+            }
+          },
+          {
+            "name": "Agenda and Documentation Preparation",
+            "definition": "The ability to prepare agendas, briefing materials, resolutions, reference documents, and meeting requirements.",
+            "levels": {
+              "Emerging": "Assists in preparing meeting materials and documents.",
+              "Developing": "Prepares agendas and supporting documents for meetings.",
+              "Proficient": "Develops comprehensive briefing packages and committee documents.",
+              "Advanced": "Establishes standards for preparation and quality control of committee documentation."
+            }
+          },
+          {
+            "name": "Secretariat Support Services",
+            "definition": "The ability to provide administrative, operational, and technical support to committees, Technical Working Groups (TWGs), and governing bodies.",
+            "levels": {
+              "Emerging": "Performs assigned secretariat duties accurately.",
+              "Developing": "Provides administrative and coordination support to committees and TWGs.",
+              "Proficient": "Manages secretariat operations and ensures efficient support services.",
+              "Advanced": "Directs complex secretariat functions supporting executive-level committees and bodies."
+            }
+          },
+          {
+            "name": "Minutes and Records Management",
+            "definition": "The ability to accurately document proceedings, maintain official records, and ensure accessibility of committee outputs and decisions.",
+            "levels": {
+              "Emerging": "Records meeting proceedings and maintains required documents.",
+              "Developing": "Prepares meeting minutes and organizes committee records.",
+              "Proficient": "Ensures completeness, accuracy, and accessibility of committee documentation.",
+              "Advanced": "Develops systems and standards for records management and governance documentation."
+            }
+          },
+          {
+            "name": "Action Item Monitoring",
+            "definition": "The ability to track, monitor, and follow up commitments, decisions, resolutions, and assigned responsibilities resulting from committee actions.",
+            "levels": {
+              "Emerging": "Maintains records of assigned action items.",
+              "Developing": "Monitors implementation status of committee decisions.",
+              "Proficient": "Evaluates progress and completion of agreed actions and commitments.",
+              "Advanced": "Establishes accountability mechanisms and monitoring systems for committee actions."
+            }
+          },
+          {
+            "name": "Governance and Decision Support",
+            "definition": "The ability to provide information, analysis, coordination, and monitoring support that facilitates effective governance and decision-making.",
+            "levels": {
+              "Emerging": "Provides information and documents requested by committees and supervisors.",
+              "Developing": "Assists in monitoring implementation of committee resolutions and decisions.",
+              "Proficient": "Supports decision-making through accurate information, analysis, and monitoring.",
+              "Advanced": "Serves as a strategic adviser on committee governance, oversight, and organizational accountability."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "AMD",

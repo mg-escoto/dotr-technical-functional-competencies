@@ -3328,6 +3328,78 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'FRS',
+    asOf: 'Franchising Review Staff plantilla positions organizational structure',
+    sourceNote:
+      'Built from the Franchising Review Staff plantilla positions chart, combined with the ' +
+      'Staff\'s competency framework. Only the chart\'s permanent plantilla items (black-bordered ' +
+      'boxes) are profiled here — the Executive Assistant I (coterminous, reassigned from OSEC) ' +
+      'and the Regular Casual Administrative Aide VI (renamed from Stenographer II, reassigned ' +
+      'from GSD) are shown in a visually distinct block on the chart and are not permanent ' +
+      'plantilla items of this office, so they are excluded per standing convention. Vacant items ' +
+      'are included since they are permanent plantilla slots, just currently unfilled. Names are ' +
+      'excluded per standing convention; where the same title is held by more than one incumbent ' +
+      '(filled or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Director III',
+        section: null,
+        competencies: [
+          { name: 'Regulatory Adjudication and Appeals Review', level: 'Advanced' },
+          { name: 'Franchise Regulatory Review and Authorization Management', level: 'Advanced' },
+          { name: 'Data Privacy and Protection Management', level: 'Advanced' },
+          { name: 'Policy and Regulatory Compliance Monitoring', level: 'Advanced' },
+          { name: 'Legal and Regulatory Research', level: 'Advanced' },
+          { name: 'Technical Writing and Recommendation Formulation', level: 'Advanced' },
+          { name: 'Case Evaluation and Evidence Assessment', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Regulatory Liaison', level: 'Advanced' },
+          { name: 'Committee and Secretariat Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney IV',
+        section: null,
+        competencies: [
+          { name: 'Regulatory Adjudication and Appeals Review', level: 'Proficient' },
+          { name: 'Franchise Regulatory Review and Authorization Management', level: 'Proficient' },
+          { name: 'Data Privacy and Protection Management', level: 'Proficient' },
+          { name: 'Policy and Regulatory Compliance Monitoring', level: 'Proficient' },
+          { name: 'Legal and Regulatory Research', level: 'Proficient' },
+          { name: 'Technical Writing and Recommendation Formulation', level: 'Proficient' },
+          { name: 'Case Evaluation and Evidence Assessment', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Regulatory Liaison', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Special Investigator III',
+        section: null,
+        competencies: [
+          { name: 'Regulatory Adjudication and Appeals Review', level: 'Developing' },
+          { name: 'Case Evaluation and Evidence Assessment', level: 'Developing' },
+          { name: 'Legal and Regulatory Research', level: 'Developing' },
+          { name: 'Policy and Regulatory Compliance Monitoring', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: null,
+        competencies: [
+          { name: 'Committee and Secretariat Management', level: 'Developing' },
+          { name: 'Stakeholder Coordination and Regulatory Liaison', level: 'Developing' },
+          { name: 'Technical Writing and Recommendation Formulation', level: 'Developing' },
+          { name: 'Data Privacy and Protection Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: null,
+        competencies: [
+          { name: 'Committee and Secretariat Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
