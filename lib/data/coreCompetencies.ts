@@ -242,11 +242,11 @@ export const coreCompetencies: CoreCompetency[] = [
       },
     ],
     note:
-      'GEDSI and Climate Action for Transportation are not part of the official DOTr Core Competencies document — they are drafted here to reflect commitments the Department has taken on separately, and are presented as a sample for review before adoption.',
+      'GEDSI and Climate Action are not part of the official DOTr Core Competencies document — they are drafted here to reflect commitments the Department has taken on separately, and are presented as a sample for review before adoption.',
   },
   {
-    slug: 'climate-action-for-transportation',
-    name: 'Climate Action for Transportation',
+    slug: 'climate-action',
+    name: 'Climate Action',
     subtitle: null,
     definition:
       "The ability to understand, apply, and promote climate change mitigation and adaptation principles within the transportation sector's policies, programs, projects, and daily operations — contributing to the Department's commitment to a low-carbon, climate-resilient, and sustainable transport system.",
@@ -275,34 +275,8 @@ export const coreCompetencies: CoreCompetency[] = [
         'Mentors and builds organization-wide capacity to apply climate mitigation and adaptation principles consistently across offices and services.',
       ],
     },
-    references: [
-      {
-        citation: 'Republic Act No. 9729, "Climate Change Act of 2009," as amended by Republic Act No. 10174',
-        source: 'Climate Change Commission',
-        url: 'https://climate.gov.ph/',
-      },
-      {
-        citation: "Philippines' Nationally Determined Contribution, submitted to the UNFCCC (April 2021)",
-        source: 'Climate Change Commission',
-        url: 'https://climate.gov.ph/our-programs/nationally-determined-contributions',
-      },
-      {
-        citation: 'National Climate Change Action Plan 2011–2028',
-        source: 'Climate Change Commission',
-        url: 'https://climate.gov.ph/our-programs/national-climate-change-action-plan',
-      },
-      {
-        citation: 'Implementation Plan for the Philippine NDC 2020–2030 — identifies transport, led by DOTr, as a priority mitigation sector',
-        source: 'Climate Change Laws of the World',
-        url: 'https://climate-laws.org/document/implementation-plan-for-the-philippines-ndc-2020-2030_9989',
-      },
-      {
-        citation: 'Climate Change 2022: Mitigation of Climate Change — Working Group III Contribution to the IPCC Sixth Assessment Report, Chapter 10: Transport',
-        source: 'Intergovernmental Panel on Climate Change (IPCC)',
-        url: 'https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter10.pdf',
-      },
-    ],
+    references: [],
     note:
-      'GEDSI and Climate Action for Transportation are not part of the official DOTr Core Competencies document — they are drafted here to reflect commitments the Department has taken on separately, and are presented as a sample for review before adoption.',
+      'GEDSI and Climate Action are not part of the official DOTr Core Competencies document — they are drafted here to reflect commitments the Department has taken on separately, and are presented as a sample for review before adoption.',
   },
 ]
