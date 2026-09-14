@@ -2579,13 +2579,17 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Legislative Analysis and Statutory Review', level: 'Proficient' },
           { name: 'Legislative and Administrative Issuance Drafting', level: 'Proficient' },
           { name: 'Legislative Liaison and Stakeholder Engagement', level: 'Proficient' },
+          { name: 'Congressional Hearing, Briefing and Legal Representation', level: 'Proficient' },
+          { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Proficient' },
         ],
       },
       {
         title: 'Attorney III',
         section: null,
         competencies: [
+          { name: 'Legislative Analysis and Statutory Review', level: 'Developing' },
           { name: 'Legislative and Administrative Issuance Drafting', level: 'Developing' },
+          { name: 'Legislative Liaison and Stakeholder Engagement', level: 'Developing' },
           { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Developing' },
         ],
       },
@@ -2657,16 +2661,20 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Case Management and Litigation Supervision', level: 'Proficient' },
           { name: 'Legal Research, Analysis and Pleading', level: 'Proficient' },
+          { name: 'Investigation, Fact-Finding and Evidence Evaluation', level: 'Proficient' },
           { name: 'Administrative Adjudication and Decision Review', level: 'Proficient' },
           { name: 'Legal Representation and Advocacy', level: 'Proficient' },
+          { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Proficient' },
         ],
       },
       {
         title: 'Attorney III',
         section: null,
         competencies: [
+          { name: 'Case Management and Litigation Supervision', level: 'Developing' },
           { name: 'Legal Research, Analysis and Pleading', level: 'Developing' },
           { name: 'Investigation, Fact-Finding and Evidence Evaluation', level: 'Developing' },
+          { name: 'Administrative Adjudication and Decision Review', level: 'Developing' },
           { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Developing' },
         ],
       },
@@ -2745,6 +2753,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Legal Research, Analysis and Statutory Interpretation', level: 'Proficient' },
           { name: 'Legal Opinion, Policy and Document Drafting', level: 'Proficient' },
           { name: 'Legal Advisory, Policy Guidance and Stakeholder Support', level: 'Proficient' },
+          { name: 'Legal Representation, Briefing and Review Quality', level: 'Proficient' },
+          { name: 'Legal Documentation, Reporting and Knowledge Management', level: 'Proficient' },
         ],
       },
       {
@@ -2753,6 +2763,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
         competencies: [
           { name: 'Legal Research, Analysis and Statutory Interpretation', level: 'Developing' },
           { name: 'Legal Opinion, Policy and Document Drafting', level: 'Developing' },
+          { name: 'Legal Advisory, Policy Guidance and Stakeholder Support', level: 'Developing' },
+          { name: 'Legal Documentation, Reporting and Knowledge Management', level: 'Developing' },
         ],
       },
       {
@@ -2823,6 +2835,9 @@ export const positionProfiles: DivisionPositionProfile[] = [
           { name: 'Contract Review and Legal Drafting', level: 'Proficient' },
           { name: 'Procurement and Bidding Legal Compliance', level: 'Proficient' },
           { name: 'Contract Negotiation and Legal Advisory', level: 'Proficient' },
+          { name: 'Legal Research, Policy and Issuance Development', level: 'Proficient' },
+          { name: 'Legal Representation, Committee Participation and Meeting Support', level: 'Proficient' },
+          { name: 'Legal Documentation, Endorsement and Work Management', level: 'Proficient' },
         ],
       },
       {
@@ -2830,6 +2845,8 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: null,
         competencies: [
           { name: 'Contract Review and Legal Drafting', level: 'Developing' },
+          { name: 'Procurement and Bidding Legal Compliance', level: 'Developing' },
+          { name: 'Legal Research, Policy and Issuance Development', level: 'Developing' },
           { name: 'Legal Documentation, Endorsement and Work Management', level: 'Developing' },
         ],
       },

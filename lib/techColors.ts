@@ -25,9 +25,9 @@ const lightColors: ColorPalette = {
 }
 
 const darkColors: ColorPalette = {
-  bg:           '#0A1615',
+  bg:           '#121212',
   card:         '#101E1C',
-  nav:          '#0A1615',
+  nav:          '#121212',
   text:         '#E4F3F0',
   textMuted:    'rgba(228,243,240,0.75)',
   navy:         '#1E293B',
