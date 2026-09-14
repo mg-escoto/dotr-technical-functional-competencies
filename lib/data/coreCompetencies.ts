@@ -306,7 +306,3 @@ export const coreCompetencies: CoreCompetency[] = [
       'GEDSI and Climate Action for Transportation are not part of the official DOTr Core Competencies document — they are drafted here to reflect commitments the Department has taken on separately, and are presented as a sample for review before adoption.',
   },
 ]
-
-export function getCoreCompetencyBySlug(slug: string): CoreCompetency | undefined {
-  return coreCompetencies.find(c => c.slug.toLowerCase() === slug.toLowerCase())
-}
