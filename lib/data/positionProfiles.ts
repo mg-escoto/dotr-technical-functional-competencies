@@ -2551,6 +2551,586 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'LID',
+    asOf: 'Legal Service current organizational chart, as of the LS Existing Organization Chart',
+    sourceNote:
+      'Built from the Legal Service organizational chart (Legal and Issuances Division column), ' +
+      'combined with the Division\'s competency framework. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Names are excluded per standing convention; where ' +
+      'the same title is held by more than one person (filled or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Attorney V',
+        section: null,
+        competencies: [
+          { name: 'Legislative Analysis and Statutory Review', level: 'Advanced' },
+          { name: 'Legislative and Administrative Issuance Drafting', level: 'Advanced' },
+          { name: 'Legislative Liaison and Stakeholder Engagement', level: 'Advanced' },
+          { name: 'Congressional Hearing, Briefing and Legal Representation', level: 'Advanced' },
+          { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney IV',
+        section: null,
+        competencies: [
+          { name: 'Legislative Analysis and Statutory Review', level: 'Proficient' },
+          { name: 'Legislative and Administrative Issuance Drafting', level: 'Proficient' },
+          { name: 'Legislative Liaison and Stakeholder Engagement', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Attorney III',
+        section: null,
+        competencies: [
+          { name: 'Legislative and Administrative Issuance Drafting', level: 'Developing' },
+          { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Attorney II',
+        section: null,
+        competencies: [
+          { name: 'Legislative and Administrative Issuance Drafting', level: 'Emerging' },
+          { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant V',
+        section: null,
+        competencies: [
+          { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Developing' },
+          { name: 'Legislative and Administrative Issuance Drafting', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: null,
+        competencies: [
+          { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant I',
+        section: null,
+        competencies: [
+          { name: 'Legislative Monitoring, Dissemination and Compliance', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'IAD',
+    asOf: 'Legal Service current organizational chart, as of the LS Existing Organization Chart',
+    sourceNote:
+      'Built from the Legal Service organizational chart (Investigation and Adjudication Division ' +
+      'column), combined with the Division\'s competency framework. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Names are excluded per standing convention; where ' +
+      'the same title is held by more than one person (filled or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Attorney V',
+        section: null,
+        competencies: [
+          { name: 'Case Management and Litigation Supervision', level: 'Advanced' },
+          { name: 'Legal Research, Analysis and Pleading', level: 'Advanced' },
+          { name: 'Investigation, Fact-Finding and Evidence Evaluation', level: 'Advanced' },
+          { name: 'Administrative Adjudication and Decision Review', level: 'Advanced' },
+          { name: 'Legal Representation and Advocacy', level: 'Advanced' },
+          { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney IV',
+        section: null,
+        competencies: [
+          { name: 'Case Management and Litigation Supervision', level: 'Proficient' },
+          { name: 'Legal Research, Analysis and Pleading', level: 'Proficient' },
+          { name: 'Administrative Adjudication and Decision Review', level: 'Proficient' },
+          { name: 'Legal Representation and Advocacy', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Attorney III',
+        section: null,
+        competencies: [
+          { name: 'Legal Research, Analysis and Pleading', level: 'Developing' },
+          { name: 'Investigation, Fact-Finding and Evidence Evaluation', level: 'Developing' },
+          { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Special Investigator III',
+        section: null,
+        competencies: [
+          { name: 'Investigation, Fact-Finding and Evidence Evaluation', level: 'Proficient' },
+          { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Special Investigator II',
+        section: null,
+        competencies: [
+          { name: 'Investigation, Fact-Finding and Evidence Evaluation', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant V',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Developing' },
+          { name: 'Legal Research, Analysis and Pleading', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant I',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Reporting and Case Knowledge Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'LARD',
+    asOf: 'Legal Service current organizational chart, as of the LS Existing Organization Chart',
+    sourceNote:
+      'Built from the Legal Service organizational chart (Legal Affairs and Research Division ' +
+      'column), combined with the Division\'s competency framework. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Names are excluded per standing convention; where ' +
+      'the same title is held by more than one person (filled or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Attorney V',
+        section: null,
+        competencies: [
+          { name: 'Legal Research, Analysis and Statutory Interpretation', level: 'Advanced' },
+          { name: 'Legal Opinion, Policy and Document Drafting', level: 'Advanced' },
+          { name: 'Legal Advisory, Policy Guidance and Stakeholder Support', level: 'Advanced' },
+          { name: 'Legal Representation, Briefing and Review Quality', level: 'Advanced' },
+          { name: 'Legal Documentation, Reporting and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney IV',
+        section: null,
+        competencies: [
+          { name: 'Legal Research, Analysis and Statutory Interpretation', level: 'Proficient' },
+          { name: 'Legal Opinion, Policy and Document Drafting', level: 'Proficient' },
+          { name: 'Legal Advisory, Policy Guidance and Stakeholder Support', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Attorney III',
+        section: null,
+        competencies: [
+          { name: 'Legal Research, Analysis and Statutory Interpretation', level: 'Developing' },
+          { name: 'Legal Opinion, Policy and Document Drafting', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Attorney II',
+        section: null,
+        competencies: [
+          { name: 'Legal Research, Analysis and Statutory Interpretation', level: 'Emerging' },
+          { name: 'Legal Documentation, Reporting and Knowledge Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant V',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Reporting and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Reporting and Knowledge Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant I',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Reporting and Knowledge Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Reporting and Knowledge Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'CRDD',
+    asOf: 'Legal Service current organizational chart, as of the LS Existing Organization Chart',
+    sourceNote:
+      'Built from the Legal Service organizational chart (Contract Review and Documentation ' +
+      'Division column), combined with the Division\'s competency framework. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Names are excluded per standing convention; where ' +
+      'the same title is held by more than one person (filled or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Attorney V',
+        section: null,
+        competencies: [
+          { name: 'Contract Review and Legal Drafting', level: 'Advanced' },
+          { name: 'Procurement and Bidding Legal Compliance', level: 'Advanced' },
+          { name: 'Contract Negotiation and Legal Advisory', level: 'Advanced' },
+          { name: 'Legal Research, Policy and Issuance Development', level: 'Advanced' },
+          { name: 'Legal Representation, Committee Participation and Meeting Support', level: 'Advanced' },
+          { name: 'Legal Documentation, Endorsement and Work Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney IV',
+        section: null,
+        competencies: [
+          { name: 'Contract Review and Legal Drafting', level: 'Proficient' },
+          { name: 'Procurement and Bidding Legal Compliance', level: 'Proficient' },
+          { name: 'Contract Negotiation and Legal Advisory', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Attorney III',
+        section: null,
+        competencies: [
+          { name: 'Contract Review and Legal Drafting', level: 'Developing' },
+          { name: 'Legal Documentation, Endorsement and Work Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Legal Documentation, Endorsement and Work Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'PDID',
+    asOf: 'Railways Sector organizational chart, as of August 2026',
+    sourceNote:
+      'Built from the Railways Sector organizational structure chart (Rail Unified Project ' +
+      'Management Office / Project Development and Implementation Division column), combined ' +
+      'with the Division\'s competency framework. TDO is expanded as Transportation Development ' +
+      'Officer per standing convention. ' +
+      'Permanent plantilla positions only. Vacant items would be included but none are shown for ' +
+      'this division on the chart. Where the same title is held by more than one incumbent, it is ' +
+      'listed once as a role. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Chief Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Rail Project Planning and Management', level: 'Advanced' },
+          { name: 'Feasibility Study and Technical Evaluation', level: 'Advanced' },
+          { name: 'Procurement and Contract Management', level: 'Advanced' },
+          { name: 'Budgeting and Financial Management', level: 'Advanced' },
+          { name: 'Risk Assessment and Mitigation', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Liaison', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Rail Project Planning and Management', level: 'Advanced' },
+          { name: 'Feasibility Study and Technical Evaluation', level: 'Advanced' },
+          { name: 'Procurement and Contract Management', level: 'Advanced' },
+          { name: 'Budgeting and Financial Management', level: 'Advanced' },
+          { name: 'Risk Assessment and Mitigation', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Liaison', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Rail Project Planning and Management', level: 'Proficient' },
+          { name: 'Feasibility Study and Technical Evaluation', level: 'Proficient' },
+          { name: 'Risk Assessment and Mitigation', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: null,
+        competencies: [
+          { name: 'Rail Project Planning and Management', level: 'Developing' },
+          { name: 'Feasibility Study and Technical Evaluation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: null,
+        competencies: [
+          { name: 'Rail Project Planning and Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'OMSMMD',
+    asOf: 'Railways Sector organizational chart, as of August 2026',
+    sourceNote:
+      'Built from the Railways Sector organizational structure chart (Rail Unified Project ' +
+      'Management Office / Operations & Maintenance Strategy Management & Monitoring Division ' +
+      'column, including its Engineering Support and Operation and Maintenance Section), combined ' +
+      'with the Division\'s competency framework. TDO is expanded as Transportation Development ' +
+      'Officer per standing convention; PEO is left unexpanded pending confirmation of the exact ' +
+      'title it stands for. ' +
+      'Permanent plantilla positions only. Vacant items would be included but none are shown for ' +
+      'this division on the chart. Where the same title is held by more than one incumbent, it is ' +
+      'listed once as a role. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Chief Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Operations and Maintenance Strategy Development', level: 'Advanced' },
+          { name: 'Performance Monitoring and Reporting', level: 'Advanced' },
+          { name: 'Asset Management and Lifecycle Planning', level: 'Advanced' },
+          { name: 'Risk Management and Contingency Planning', level: 'Advanced' },
+          { name: 'Budgeting and Cost Control for Maintenance Activities', level: 'Advanced' },
+          { name: 'Compliance with Safety and Environmental Standards', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Operations and Maintenance Strategy Development', level: 'Advanced' },
+          { name: 'Performance Monitoring and Reporting', level: 'Advanced' },
+          { name: 'Asset Management and Lifecycle Planning', level: 'Advanced' },
+          { name: 'Risk Management and Contingency Planning', level: 'Advanced' },
+          { name: 'Budgeting and Cost Control for Maintenance Activities', level: 'Advanced' },
+          { name: 'Compliance with Safety and Environmental Standards', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Operations and Maintenance Strategy Development', level: 'Proficient' },
+          { name: 'Performance Monitoring and Reporting', level: 'Proficient' },
+          { name: 'Asset Management and Lifecycle Planning', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: null,
+        competencies: [
+          { name: 'Performance Monitoring and Reporting', level: 'Developing' },
+          { name: 'Asset Management and Lifecycle Planning', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: null,
+        competencies: [
+          { name: 'Performance Monitoring and Reporting', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Engineering Support and Operation and Maintenance Section',
+        competencies: [
+          { name: 'Asset Management and Lifecycle Planning', level: 'Proficient' },
+          { name: 'Compliance with Safety and Environmental Standards', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Engineering Support and Operation and Maintenance Section',
+        competencies: [
+          { name: 'Asset Management and Lifecycle Planning', level: 'Developing' },
+          { name: 'Compliance with Safety and Environmental Standards', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'PEO II',
+        section: 'Engineering Support and Operation and Maintenance Section',
+        competencies: [
+          { name: 'Compliance with Safety and Environmental Standards', level: 'Developing' },
+          { name: 'Budgeting and Cost Control for Maintenance Activities', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'SCED',
+    asOf: 'Railways Sector organizational chart, as of August 2026',
+    sourceNote:
+      'Built from the Railways Sector organizational structure chart (Rail Standards Enforcement ' +
+      'Office / Safety Compliance & Enforcement Division column), combined with the Division\'s ' +
+      'competency framework. TDO is expanded as Transportation Development Officer per standing ' +
+      'convention. ' +
+      'Permanent plantilla positions only. Vacant items would be included but none are shown for ' +
+      'this division on the chart. Where the same title is held by more than one incumbent, it is ' +
+      'listed once as a role. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Chief Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Safety Standards Enforcement', level: 'Advanced' },
+          { name: 'Risk Assessment and Hazard Management', level: 'Advanced' },
+          { name: 'Compliance Audits and Safety Inspections', level: 'Advanced' },
+          { name: 'Emergency Response Planning and Coordination', level: 'Advanced' },
+          { name: 'Data Analysis for Safety Improvement', level: 'Advanced' },
+          { name: 'Technology Utilization in Safety Compliance', level: 'Advanced' },
+          { name: 'Environmental Health and Safety Integration', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Safety Standards Enforcement', level: 'Advanced' },
+          { name: 'Risk Assessment and Hazard Management', level: 'Advanced' },
+          { name: 'Compliance Audits and Safety Inspections', level: 'Advanced' },
+          { name: 'Emergency Response Planning and Coordination', level: 'Advanced' },
+          { name: 'Data Analysis for Safety Improvement', level: 'Advanced' },
+          { name: 'Technology Utilization in Safety Compliance', level: 'Advanced' },
+          { name: 'Environmental Health and Safety Integration', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Safety Standards Enforcement', level: 'Proficient' },
+          { name: 'Risk Assessment and Hazard Management', level: 'Proficient' },
+          { name: 'Compliance Audits and Safety Inspections', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: null,
+        competencies: [
+          { name: 'Safety Standards Enforcement', level: 'Developing' },
+          { name: 'Compliance Audits and Safety Inspections', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: null,
+        competencies: [
+          { name: 'Safety Standards Enforcement', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'SRD',
+    asOf: 'Railways Sector organizational chart, as of August 2026',
+    sourceNote:
+      'Built from the Railways Sector organizational structure chart (Rail Standards Enforcement ' +
+      'Office / Standards and Regulation Division column), combined with the Division\'s ' +
+      'competency framework. TDO is expanded as Transportation Development Officer per standing ' +
+      'convention. ' +
+      'Permanent plantilla positions only. Vacant items would be included but none are shown for ' +
+      'this division on the chart. Where the same title is held by more than one incumbent, it is ' +
+      'listed once as a role. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Chief Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Regulatory Compliance and Enforcement', level: 'Advanced' },
+          { name: 'Standards Development and Implementation', level: 'Advanced' },
+          { name: 'Safety and Risk Management', level: 'Advanced' },
+          { name: 'Quality Control and Assurance', level: 'Advanced' },
+          { name: 'Inspection and Compliance Monitoring', level: 'Advanced' },
+          { name: 'Policy Formulation and Regulatory Guidance', level: 'Advanced' },
+          { name: 'Data Collection and Reporting', level: 'Advanced' },
+          { name: 'Environmental Compliance and Sustainability', level: 'Advanced' },
+          { name: 'Emergency Preparedness and Response Planning', level: 'Advanced' },
+          { name: 'Research and Innovation in Rail Safety Standards', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Regulatory Compliance and Enforcement', level: 'Advanced' },
+          { name: 'Standards Development and Implementation', level: 'Advanced' },
+          { name: 'Safety and Risk Management', level: 'Advanced' },
+          { name: 'Quality Control and Assurance', level: 'Advanced' },
+          { name: 'Inspection and Compliance Monitoring', level: 'Advanced' },
+          { name: 'Policy Formulation and Regulatory Guidance', level: 'Advanced' },
+          { name: 'Data Collection and Reporting', level: 'Advanced' },
+          { name: 'Environmental Compliance and Sustainability', level: 'Advanced' },
+          { name: 'Emergency Preparedness and Response Planning', level: 'Advanced' },
+          { name: 'Research and Innovation in Rail Safety Standards', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Regulatory Compliance and Enforcement', level: 'Proficient' },
+          { name: 'Standards Development and Implementation', level: 'Proficient' },
+          { name: 'Inspection and Compliance Monitoring', level: 'Proficient' },
+          { name: 'Policy Formulation and Regulatory Guidance', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: null,
+        competencies: [
+          { name: 'Regulatory Compliance and Enforcement', level: 'Developing' },
+          { name: 'Inspection and Compliance Monitoring', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: null,
+        competencies: [
+          { name: 'Inspection and Compliance Monitoring', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
