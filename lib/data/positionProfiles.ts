@@ -3343,21 +3343,6 @@ export const positionProfiles: DivisionPositionProfile[] = [
       '(filled or vacant), it is listed once as a role.',
     positions: [
       {
-        title: 'Director III',
-        section: null,
-        competencies: [
-          { name: 'Regulatory Adjudication and Appeals Review', level: 'Advanced' },
-          { name: 'Franchise Regulatory Review and Authorization Management', level: 'Advanced' },
-          { name: 'Data Privacy and Protection Management', level: 'Advanced' },
-          { name: 'Policy and Regulatory Compliance Monitoring', level: 'Advanced' },
-          { name: 'Legal and Regulatory Research', level: 'Advanced' },
-          { name: 'Technical Writing and Recommendation Formulation', level: 'Advanced' },
-          { name: 'Case Evaluation and Evidence Assessment', level: 'Advanced' },
-          { name: 'Stakeholder Coordination and Regulatory Liaison', level: 'Advanced' },
-          { name: 'Committee and Secretariat Management', level: 'Advanced' },
-        ],
-      },
-      {
         title: 'Attorney IV',
         section: null,
         competencies: [
