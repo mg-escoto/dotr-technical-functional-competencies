@@ -3,8 +3,9 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
-import { useTechColors, coreLevelStyle } from '@/lib/techColors'
-import { coreCompetencies, CORE_LEVELS, CORE_LEVEL_SCALE } from '@/lib/data/coreCompetencies'
+import { useTechColors, levelStyle } from '@/lib/techColors'
+import { coreCompetencies } from '@/lib/data/coreCompetencies'
+import { LEVELS, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
 
 export default function CoreCompetenciesPage() {
   const C = useTechColors()
@@ -56,7 +57,7 @@ export default function CoreCompetenciesPage() {
                 </p>
               ))}
             </div>
-            {CORE_LEVEL_SCALE.map((row, i) => (
+            {LEVEL_SCALE.map((row, i) => (
               <div
                 key={row.level}
                 className="grid grid-cols-3 gap-3 px-5 py-4 items-center"
@@ -130,14 +131,14 @@ export default function CoreCompetenciesPage() {
                     <div className="space-y-3 pt-5">
                       {/* Mobile: stacked */}
                       <div className="sm:hidden space-y-2">
-                        {CORE_LEVELS.map(level => (
+                        {LEVELS.map(level => (
                           <IndicatorCard key={level} level={level} items={comp.indicators[level]} C={C} />
                         ))}
                       </div>
 
                       {/* Desktop: 4-col grid */}
                       <div className="hidden sm:grid grid-cols-4 gap-3">
-                        {CORE_LEVELS.map(level => (
+                        {LEVELS.map(level => (
                           <IndicatorCard key={level} level={level} items={comp.indicators[level]} C={C} />
                         ))}
                       </div>
@@ -188,11 +189,11 @@ function IndicatorCard({
   items,
   C,
 }: {
-  level: (typeof CORE_LEVELS)[number]
+  level: (typeof LEVELS)[number]
   items: string[]
   C: ReturnType<typeof useTechColors>
 }) {
-  const s = coreLevelStyle(level, C)
+  const s = levelStyle(level, C)
   return (
     <div className="rounded-lg p-4 space-y-2" style={{ background: s.bg, border: `1px solid ${C.borderMuted}` }}>
       <p className="text-xs font-bold uppercase tracking-widest" style={{ color: s.labelColor }}>

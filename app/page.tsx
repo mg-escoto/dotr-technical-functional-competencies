@@ -39,7 +39,7 @@ export default function LandingPage() {
             href="/core"
             eyebrow="Pillar 1"
             title="Core Competencies"
-            description="Department-wide behavioral competencies every employee is expected to demonstrate, from Basic to Superior."
+            description="Department-wide behavioral competencies every employee is expected to demonstrate, from Emerging to Advanced."
             stat={`${coreCompetencies.length} competencies`}
           />
           <PillarCard
