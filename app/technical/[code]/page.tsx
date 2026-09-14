@@ -1,11 +1,12 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
+import CompetencyComments, { type PublicComment } from '@/components/CompetencyComments'
 import { useTechColors, levelStyle } from '@/lib/techColors'
-import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
+import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE, type Competency } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
 
 export default function DivisionCompetencyPage() {
@@ -15,6 +16,28 @@ export default function DivisionCompetencyPage() {
   const positionProfile = division ? getPositionProfile(division.code) : undefined
   const subUnits = division ? divisions.filter(d => d.parentCode === division.code) : []
   const [expanded, setExpanded] = useState<string | null>(null)
+  const [liveCompetencies, setLiveCompetencies] = useState<Competency[] | null>(null)
+  const [comments, setComments] = useState<PublicComment[]>([])
+
+  const loadComments = useCallback(async () => {
+    if (!division) return
+    const res = await fetch(`/api/comments?division=${encodeURIComponent(division.code)}`)
+    if (res.ok) {
+      const body = await res.json()
+      setComments(body.comments ?? [])
+    }
+  }, [division])
+
+  useEffect(() => {
+    if (!division) return
+    fetch(`/api/divisions/${encodeURIComponent(division.code)}/competencies`)
+      .then(res => res.json())
+      .then(body => setLiveCompetencies(body.competencies ?? null))
+      .catch(() => setLiveCompetencies(null))
+    loadComments()
+  }, [division, loadComments])
+
+  const competencies = liveCompetencies ?? division?.competencies ?? []
 
   if (!division) {
     return (
@@ -92,7 +115,7 @@ export default function DivisionCompetencyPage() {
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide"
               style={{ background: C.navy, color: C.white }}
             >
-              {division.competencies.length} Competencies
+              {competencies.length} Competencies
             </div>
             {positionProfile && (
               <Link
@@ -191,7 +214,7 @@ export default function DivisionCompetencyPage() {
       {/* ── Competencies ──────────────────────────────────────────────────── */}
       <div className="px-8 pb-24 pt-8">
         <div className="max-w-6xl mx-auto space-y-4">
-          {division.competencies.map((comp, idx) => {
+          {competencies.map((comp, idx) => {
             const key = `${idx}-${comp.name}`
             const isOpen = expanded === key
             return (
@@ -286,6 +309,14 @@ export default function DivisionCompetencyPage() {
                         </div>
                       </div>
                     ))}
+
+                    <CompetencyComments
+                      divisionCode={division.code}
+                      competencyIndex={idx}
+                      competencyName={comp.name}
+                      comments={comments}
+                      onSubmitted={loadComments}
+                    />
                   </div>
                 )}
               </div>
