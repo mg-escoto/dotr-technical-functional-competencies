@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
-import TechCompNav from '@/components/TechCompNav'
+import PortalNav from '@/components/PortalNav'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
@@ -19,7 +19,7 @@ export default function PositionProfilePage() {
   if (!division || !profile) {
     return (
       <div className="min-h-screen" style={{ background: C.bg }}>
-        <TechCompNav />
+        <PortalNav active="technical" />
         <div className="pt-32 px-8 max-w-3xl mx-auto space-y-4">
           <h1 className="font-bold text-2xl" style={{ color: C.text }}>
             No position profile available yet
@@ -27,7 +27,7 @@ export default function PositionProfilePage() {
           <p className="text-sm leading-relaxed" style={{ color: C.textMuted }}>
             This preview only exists for divisions where an org chart has been reviewed so far.
           </p>
-          <Link href="/" className="text-sm font-bold underline" style={{ color: C.orange }}>
+          <Link href="/technical" className="text-sm font-bold underline" style={{ color: C.orange }}>
             ← Back to all divisions
           </Link>
         </div>
@@ -37,13 +37,13 @@ export default function PositionProfilePage() {
 
   return (
     <div className="min-h-screen" style={{ background: C.bg }}>
-      <TechCompNav />
+      <PortalNav active="technical" />
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <div className="pt-28 pb-10 px-8" style={{ background: C.heroBg }}>
         <div className="max-w-6xl mx-auto space-y-3">
           <Link
-            href={`/${encodeURIComponent(division.code)}`}
+            href={`/technical/${encodeURIComponent(division.code)}`}
             className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
             style={{ color: C.textMuted }}
           >

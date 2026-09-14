@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
-import TechCompNav from '@/components/TechCompNav'
+import PortalNav from '@/components/PortalNav'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
@@ -19,12 +19,12 @@ export default function DivisionCompetencyPage() {
   if (!division) {
     return (
       <div className="min-h-screen" style={{ background: C.bg }}>
-        <TechCompNav />
+        <PortalNav active="technical" />
         <div className="pt-32 px-8 max-w-3xl mx-auto space-y-4">
           <h1 className="font-bold text-2xl" style={{ color: C.text }}>
             Division not found
           </h1>
-          <Link href="/" className="text-sm font-bold underline" style={{ color: C.orange }}>
+          <Link href="/technical" className="text-sm font-bold underline" style={{ color: C.orange }}>
             ← Back to all divisions
           </Link>
         </div>
@@ -35,10 +35,10 @@ export default function DivisionCompetencyPage() {
   if (division.status === 'under-construction') {
     return (
       <div className="min-h-screen" style={{ background: C.bg }}>
-        <TechCompNav />
+        <PortalNav active="technical" />
         <div className="pt-32 px-8 max-w-3xl mx-auto space-y-4">
           <Link
-            href="/"
+            href="/technical"
             className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
             style={{ color: C.textMuted }}
           >
@@ -64,13 +64,13 @@ export default function DivisionCompetencyPage() {
 
   return (
     <div className="min-h-screen" style={{ background: C.bg }}>
-      <TechCompNav />
+      <PortalNav active="technical" />
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <div className="pt-28 pb-12 px-8" style={{ background: C.heroBg }}>
         <div className="max-w-6xl mx-auto space-y-3">
           <Link
-            href="/"
+            href="/technical"
             className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
             style={{ color: C.textMuted }}
           >
@@ -96,7 +96,7 @@ export default function DivisionCompetencyPage() {
             </div>
             {positionProfile && (
               <Link
-                href={`/${encodeURIComponent(division.code)}/positions`}
+                href={`/technical/${encodeURIComponent(division.code)}/positions`}
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity"
                 style={{ background: C.orange, color: C.white }}
               >
@@ -130,7 +130,7 @@ export default function DivisionCompetencyPage() {
               {subUnits.map(u => (
                 <Link
                   key={u.code}
-                  href={`/${encodeURIComponent(u.code)}`}
+                  href={`/technical/${encodeURIComponent(u.code)}`}
                   className="group rounded-xl p-4 flex items-center justify-between gap-3 transition-all hover:-translate-y-0.5"
                   style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}
                 >

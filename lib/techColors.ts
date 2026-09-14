@@ -65,3 +65,19 @@ export function levelStyle(level: ProficiencyLevel, C: ColorPalette) {
       return { bg: C.navy, labelColor: C.orange, textColor: '#ffffff' }
   }
 }
+
+// Core competencies (Basic/Intermediate/Advanced/Superior) use a different scale label set
+// than technical competencies (Emerging/Developing/Proficient/Advanced), so it gets its own
+// mapping — same visual treatment, one step per tier.
+export function coreLevelStyle(level: 'Basic' | 'Intermediate' | 'Advanced' | 'Superior', C: ColorPalette) {
+  switch (level) {
+    case 'Basic':
+      return { bg: C.subtleBg, labelColor: C.textMuted, textColor: C.text }
+    case 'Intermediate':
+      return { bg: 'rgba(45,212,191,0.12)', labelColor: '#0d8f82', textColor: C.text }
+    case 'Advanced':
+      return { bg: 'rgba(13,148,136,0.12)', labelColor: C.orange, textColor: C.text }
+    case 'Superior':
+      return { bg: C.navy, labelColor: C.orange, textColor: '#ffffff' }
+  }
+}

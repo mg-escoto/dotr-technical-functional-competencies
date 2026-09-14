@@ -11,10 +11,10 @@ const ibmPlexSans = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Technical Competencies",
-    template: "%s · Technical Competencies",
+    default: "DOTr Competency Portal",
+    template: "%s · DOTr Competency Portal",
   },
-  description: "DOTr Technical and Functional Competencies — division competency frameworks.",
+  description: "DOTr Competency Portal — core, leadership, and technical/functional competency frameworks.",
 };
 
 export default function RootLayout({
