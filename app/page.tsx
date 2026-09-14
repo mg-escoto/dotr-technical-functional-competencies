@@ -131,12 +131,14 @@ function OfficeSection({
                     {d.code}
                   </p>
                   {hasPositionProfile && (
-                    <p
-                      className="text-xs font-bold uppercase tracking-wide px-2 py-1 rounded-md w-fit"
+                    <span
+                      title="Individual competencies available"
+                      aria-label="Individual competencies available"
+                      className="flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold flex-shrink-0"
                       style={{ background: C.orange, color: C.white }}
                     >
-                      Individual Competencies
-                    </p>
+                      ✓
+                    </span>
                   )}
                 </div>
                 <span
