@@ -8,9 +8,12 @@ import { useTechColors } from '@/lib/techColors'
 type Comment = {
   id: string
   division_code: string
-  competency_index: number
+  target_type: 'competency' | 'position'
+  competency_index: number | null
   competency_name: string
   dimension_name: string | null
+  position_index: number | null
+  position_title: string | null
   author_name: string
   author_role: string | null
   comment_text: string
@@ -21,6 +24,8 @@ type Comment = {
   created_at: string
   reviewed_at: string | null
 }
+
+const LEVEL_OPTIONS = ['Emerging', 'Developing', 'Proficient', 'Advanced']
 
 export default function AdminDashboardPage() {
   const C = useTechColors()
@@ -178,7 +183,10 @@ function CommentCard({
       <div className="flex items-start justify-between gap-3 flex-wrap">
         <div className="space-y-1">
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
-            {comment.division_code} · Competency {comment.competency_index + 1}
+            {comment.division_code}{' '}
+            {comment.target_type === 'position'
+              ? `· Position: ${comment.position_title}`
+              : `· Competency ${(comment.competency_index ?? 0) + 1}`}
           </p>
           <h3 className="font-bold text-base" style={{ color: C.text }}>
             {comment.competency_name}
@@ -214,16 +222,34 @@ function CommentCard({
         <div className="space-y-3">
           <div>
             <label className="text-xs font-bold uppercase tracking-wide" style={{ color: C.textMuted }}>
-              Text to embed (edit to reword before accepting)
+              {comment.target_type === 'position'
+                ? 'Level to embed'
+                : 'Text to embed (edit to reword before accepting)'}
             </label>
-            <textarea
-              value={finalText}
-              onChange={e => setFinalText(e.target.value)}
-              rows={3}
-              placeholder="Text that will replace the competency definition on the live site"
-              className="w-full mt-1 rounded-lg px-3 py-2 text-sm"
-              style={{ background: C.bg, border: `1px solid ${C.borderMuted}`, color: C.text }}
-            />
+            {comment.target_type === 'position' ? (
+              <select
+                value={finalText}
+                onChange={e => setFinalText(e.target.value)}
+                className="w-full mt-1 rounded-lg px-3 py-2 text-sm"
+                style={{ background: C.bg, border: `1px solid ${C.borderMuted}`, color: C.text }}
+              >
+                <option value="">Select a level…</option>
+                {LEVEL_OPTIONS.map(lvl => (
+                  <option key={lvl} value={lvl}>
+                    {lvl}
+                  </option>
+                ))}
+              </select>
+            ) : (
+              <textarea
+                value={finalText}
+                onChange={e => setFinalText(e.target.value)}
+                rows={3}
+                placeholder="Text that will replace the competency definition on the live site"
+                className="w-full mt-1 rounded-lg px-3 py-2 text-sm"
+                style={{ background: C.bg, border: `1px solid ${C.borderMuted}`, color: C.text }}
+              />
+            )}
           </div>
           <div>
             <label className="text-xs font-bold uppercase tracking-wide" style={{ color: C.textMuted }}>
@@ -264,7 +290,11 @@ function CommentCard({
       ) : (
         <div className="rounded-lg p-3 space-y-1" style={{ border: `1px solid ${C.borderMuted}` }}>
           <p className="text-xs font-bold uppercase tracking-wide" style={{ color: C.textMuted }}>
-            {comment.status === 'accepted' ? 'Embedded text' : "HRDD's note"}
+            {comment.status === 'accepted'
+              ? comment.target_type === 'position'
+                ? 'Embedded level'
+                : 'Embedded text'
+              : "HRDD's note"}
           </p>
           <p className="text-sm leading-relaxed" style={{ color: C.text }}>
             {comment.status === 'accepted' ? comment.final_text : comment.hrdd_note || '—'}

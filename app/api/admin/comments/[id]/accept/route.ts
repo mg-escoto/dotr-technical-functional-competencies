@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { requireAdmin } from '@/lib/adminAuth'
 import { getSupabaseAdmin } from '@/lib/supabase/server'
 
+const VALID_LEVELS = ['Emerging', 'Developing', 'Proficient', 'Advanced']
+
 export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   if (!requireAdmin(req)) {
     return NextResponse.json({ error: 'Not authenticated.' }, { status: 401 })
@@ -38,35 +40,66 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
     )
   }
 
-  const { data: compRow, error: compFetchError } = await supabase
-    .from('division_competencies')
-    .select('*')
-    .eq('division_code', comment.division_code)
-    .eq('competency_index', comment.competency_index)
-    .single()
+  if (comment.target_type === 'position') {
+    if (!VALID_LEVELS.includes(finalText)) {
+      return NextResponse.json(
+        { error: `Level to embed must be one of ${VALID_LEVELS.join(', ')}.` },
+        { status: 400 }
+      )
+    }
 
-  if (compFetchError || !compRow) {
-    return NextResponse.json({ error: 'Target competency not found in the database.' }, { status: 404 })
-  }
+    const { data: posRow, error: posFetchError } = await supabase
+      .from('division_position_profiles')
+      .select('*')
+      .eq('division_code', comment.division_code)
+      .eq('position_index', comment.position_index)
+      .single()
 
-  if (comment.dimension_name) {
-    const dimensions = (compRow.dimensions as { name: string; definition: string | null; levels: Record<string, string> }[]).map(
-      dim => (dim.name === comment.dimension_name ? { ...dim, definition: finalText } : dim)
+    if (posFetchError || !posRow) {
+      return NextResponse.json({ error: 'Target position not found in the database.' }, { status: 404 })
+    }
+
+    const competencies = (posRow.competencies as { name: string; level: string }[]).map(c =>
+      c.name === comment.competency_name ? { ...c, level: finalText } : c
     )
     const { error: updateError } = await supabase
-      .from('division_competencies')
-      .update({ dimensions, updated_at: new Date().toISOString() })
-      .eq('id', compRow.id)
+      .from('division_position_profiles')
+      .update({ competencies, updated_at: new Date().toISOString() })
+      .eq('id', posRow.id)
     if (updateError) {
       return NextResponse.json({ error: updateError.message }, { status: 500 })
     }
   } else {
-    const { error: updateError } = await supabase
+    const { data: compRow, error: compFetchError } = await supabase
       .from('division_competencies')
-      .update({ definition: finalText, updated_at: new Date().toISOString() })
-      .eq('id', compRow.id)
-    if (updateError) {
-      return NextResponse.json({ error: updateError.message }, { status: 500 })
+      .select('*')
+      .eq('division_code', comment.division_code)
+      .eq('competency_index', comment.competency_index)
+      .single()
+
+    if (compFetchError || !compRow) {
+      return NextResponse.json({ error: 'Target competency not found in the database.' }, { status: 404 })
+    }
+
+    if (comment.dimension_name) {
+      const dimensions = (compRow.dimensions as { name: string; definition: string | null; levels: Record<string, string> }[]).map(
+        dim => (dim.name === comment.dimension_name ? { ...dim, definition: finalText } : dim)
+      )
+      const { error: updateError } = await supabase
+        .from('division_competencies')
+        .update({ dimensions, updated_at: new Date().toISOString() })
+        .eq('id', compRow.id)
+      if (updateError) {
+        return NextResponse.json({ error: updateError.message }, { status: 500 })
+      }
+    } else {
+      const { error: updateError } = await supabase
+        .from('division_competencies')
+        .update({ definition: finalText, updated_at: new Date().toISOString() })
+        .eq('id', compRow.id)
+      if (updateError) {
+        return NextResponse.json({ error: updateError.message }, { status: 500 })
+      }
     }
   }
 

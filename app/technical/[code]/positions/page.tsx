@@ -1,20 +1,44 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
+import PositionCompetencyComments, { type PublicPositionComment } from '@/components/PositionCompetencyComments'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/technicalCompetencies'
-import { getPositionProfile } from '@/lib/data/positionProfiles'
+import { getPositionProfile, type PositionProfile } from '@/lib/data/positionProfiles'
 
 export default function PositionProfilePage() {
   const params = useParams<{ code: string }>()
   const C = useTechColors()
   const code = decodeURIComponent(params.code)
   const division = getDivisionByCode(code)
-  const profile = getPositionProfile(code)
+  const staticProfile = getPositionProfile(code)
   const [expandedComp, setExpandedComp] = useState<string | null>(null)
+  const [livePositions, setLivePositions] = useState<PositionProfile[] | null>(null)
+  const [comments, setComments] = useState<PublicPositionComment[]>([])
+
+  const loadComments = useCallback(async () => {
+    if (!division) return
+    const res = await fetch(`/api/comments?division=${encodeURIComponent(division.code)}`)
+    if (res.ok) {
+      const body = await res.json()
+      setComments(body.comments ?? [])
+    }
+  }, [division])
+
+  useEffect(() => {
+    if (!division) return
+    fetch(`/api/divisions/${encodeURIComponent(division.code)}/positions`)
+      .then(res => res.json())
+      .then(body => setLivePositions(body.positions ?? null))
+      .catch(() => setLivePositions(null))
+    loadComments()
+  }, [division, loadComments])
+
+  const positions = livePositions ?? staticProfile?.positions ?? null
+  const profile = staticProfile ? { ...staticProfile, positions: positions ?? staticProfile.positions } : null
 
   if (!division || !profile) {
     return (
@@ -156,6 +180,16 @@ export default function PositionProfilePage() {
                                 </div>
                               </div>
                             ))}
+
+                            <PositionCompetencyComments
+                              divisionCode={division.code}
+                              positionIndex={idx}
+                              positionTitle={pos.title}
+                              competencyName={name}
+                              currentLevel={level}
+                              comments={comments}
+                              onSubmitted={loadComments}
+                            />
                           </div>
                         )}
                       </div>
