@@ -21,25 +21,27 @@ export default function CompetencyComments({
   divisionCode,
   competencyIndex,
   competencyName,
+  dimensionName,
   comments,
   onSubmitted,
 }: {
   divisionCode: string
   competencyIndex: number
   competencyName: string
+  dimensionName: string
   comments: PublicComment[]
   onSubmitted: () => void
 }) {
   const C = useTechColors()
   const [showForm, setShowForm] = useState(false)
-  const [authorName, setAuthorName] = useState('')
-  const [authorRole, setAuthorRole] = useState('')
   const [commentText, setCommentText] = useState('')
   const [suggestedText, setSuggestedText] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
-  const relevant = comments.filter(c => c.competency_index === competencyIndex)
+  const relevant = comments.filter(
+    c => c.competency_index === competencyIndex && c.dimension_name === dimensionName
+  )
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -53,8 +55,7 @@ export default function CompetencyComments({
           division_code: divisionCode,
           competency_index: competencyIndex,
           competency_name: competencyName,
-          author_name: authorName,
-          author_role: authorRole || null,
+          dimension_name: dimensionName,
           comment_text: commentText,
           suggested_text: suggestedText || null,
         }),
@@ -64,8 +65,6 @@ export default function CompetencyComments({
         setError(body.error ?? 'Could not submit comment.')
         return
       }
-      setAuthorName('')
-      setAuthorRole('')
       setCommentText('')
       setSuggestedText('')
       setShowForm(false)
@@ -82,7 +81,7 @@ export default function CompetencyComments({
     <div className="space-y-3 pt-2" style={{ borderTop: `1px solid ${C.borderMuted}` }}>
       <div className="flex items-center justify-between pt-4">
         <h4 className="text-sm font-bold uppercase tracking-wide" style={{ color: C.text }}>
-          Comments for HRDD {relevant.length > 0 && `(${relevant.length})`}
+          Comments/Suggestions {relevant.length > 0 && `(${relevant.length})`}
         </h4>
         <button
           onClick={() => setShowForm(v => !v)}
@@ -98,8 +97,8 @@ export default function CompetencyComments({
           {relevant.map(c => (
             <div key={c.id} className="rounded-lg p-3 space-y-1.5" style={{ background: C.subtleBg }}>
               <div className="flex items-center justify-between gap-2">
-                <p className="text-xs font-bold" style={{ color: C.text }}>
-                  {c.author_name}
+                <p className="text-xs" style={{ color: C.textMuted }}>
+                  {new Date(c.created_at).toLocaleDateString()}
                 </p>
                 <span
                   className="text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-md"
@@ -128,31 +127,6 @@ export default function CompetencyComments({
 
       {showForm && (
         <form onSubmit={handleSubmit} className="space-y-3 rounded-lg p-4" style={{ background: C.subtleBg }}>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div>
-              <label className="text-xs font-bold uppercase tracking-wide" style={{ color: C.textMuted }}>
-                Your name
-              </label>
-              <input
-                value={authorName}
-                onChange={e => setAuthorName(e.target.value)}
-                required
-                className="w-full mt-1 rounded-lg px-3 py-2 text-sm"
-                style={{ background: C.card, border: `1px solid ${C.borderMuted}`, color: C.text }}
-              />
-            </div>
-            <div>
-              <label className="text-xs font-bold uppercase tracking-wide" style={{ color: C.textMuted }}>
-                Role (e.g. Head of Office)
-              </label>
-              <input
-                value={authorRole}
-                onChange={e => setAuthorRole(e.target.value)}
-                className="w-full mt-1 rounded-lg px-3 py-2 text-sm"
-                style={{ background: C.card, border: `1px solid ${C.borderMuted}`, color: C.text }}
-              />
-            </div>
-          </div>
           <div>
             <label className="text-xs font-bold uppercase tracking-wide" style={{ color: C.textMuted }}>
               Comment
@@ -161,8 +135,9 @@ export default function CompetencyComments({
               value={commentText}
               onChange={e => setCommentText(e.target.value)}
               required
+              autoFocus
               rows={3}
-              placeholder="Feedback on this competency's content"
+              placeholder="Feedback on this dimension's content"
               className="w-full mt-1 rounded-lg px-3 py-2 text-sm"
               style={{ background: C.card, border: `1px solid ${C.borderMuted}`, color: C.text }}
             />
@@ -175,7 +150,7 @@ export default function CompetencyComments({
               value={suggestedText}
               onChange={e => setSuggestedText(e.target.value)}
               rows={2}
-              placeholder="Exact wording you'd like to see in the definition, if you have one"
+              placeholder="Exact wording you'd like to see in this dimension's definition, if you have one"
               className="w-full mt-1 rounded-lg px-3 py-2 text-sm"
               style={{ background: C.card, border: `1px solid ${C.borderMuted}`, color: C.text }}
             />
@@ -187,8 +162,8 @@ export default function CompetencyComments({
           )}
           <button
             type="submit"
-            disabled={submitting || !authorName.trim() || !commentText.trim()}
-            className="text-xs font-bold uppercase tracking-wide px-4 py-2 rounded-lg disabled:opacity-50"
+            disabled={submitting || !commentText.trim()}
+            className="text-sm font-black uppercase tracking-wide px-5 py-2.5 rounded-lg disabled:opacity-40 shadow-sm hover:opacity-90 transition-opacity"
             style={{ background: C.orange, color: C.white }}
           >
             {submitting ? 'Submitting…' : 'Submit to HRDD'}

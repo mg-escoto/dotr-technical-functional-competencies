@@ -43,8 +43,6 @@ export async function POST(req: NextRequest) {
     typeof division_code !== 'string' ||
     typeof competency_index !== 'number' ||
     typeof competency_name !== 'string' ||
-    typeof author_name !== 'string' ||
-    !author_name.trim() ||
     typeof comment_text !== 'string' ||
     !comment_text.trim()
   ) {
@@ -59,7 +57,7 @@ export async function POST(req: NextRequest) {
       competency_index,
       competency_name,
       dimension_name: typeof dimension_name === 'string' && dimension_name ? dimension_name : null,
-      author_name: author_name.trim(),
+      author_name: typeof author_name === 'string' && author_name.trim() ? author_name.trim() : 'Anonymous',
       author_role: typeof author_role === 'string' && author_role.trim() ? author_role.trim() : null,
       comment_text: comment_text.trim(),
       suggested_text: typeof suggested_text === 'string' && suggested_text.trim() ? suggested_text.trim() : null,

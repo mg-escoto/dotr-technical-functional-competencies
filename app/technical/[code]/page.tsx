@@ -307,16 +307,17 @@ export default function DivisionCompetencyPage() {
                             )
                           })}
                         </div>
+
+                        <CompetencyComments
+                          divisionCode={division.code}
+                          competencyIndex={idx}
+                          competencyName={comp.name}
+                          dimensionName={dim.name}
+                          comments={comments}
+                          onSubmitted={loadComments}
+                        />
                       </div>
                     ))}
-
-                    <CompetencyComments
-                      divisionCode={division.code}
-                      competencyIndex={idx}
-                      competencyName={comp.name}
-                      comments={comments}
-                      onSubmitted={loadComments}
-                    />
                   </div>
                 )}
               </div>

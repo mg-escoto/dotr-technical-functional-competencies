@@ -76,6 +76,14 @@ export default function PortalNav({ active = null }: { active?: Section }) {
       </div>
 
       <div className="flex items-center gap-4 flex-shrink-0">
+        <Link
+          href="/admin"
+          title="HRDD review dashboard"
+          className="text-xs font-semibold tracking-wide opacity-50 hover:opacity-90 transition-opacity"
+          style={{ color: C.textMuted }}
+        >
+          HRDD
+        </Link>
         <ThemeToggle />
       </div>
     </nav>
