@@ -4093,6 +4093,158 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'AFD',
+    asOf: 'PRI Organizational Chart 2026',
+    sourceNote:
+      'Built from the Philippine Railways Institute Organizational Chart 2026 (Administrative and ' +
+      'Finance Division column, its three sections: Administrative, Finance, and Facilities ' +
+      'Management), combined with the Division\'s competency framework. Competency and level ' +
+      'assignments follow rank/tier (Chief/Supervising, then each section\'s own senior-to-entry ' +
+      'Administrative Officer or specialist ladder) consistent with the approach used for other ' +
+      'PRI divisions. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Names are excluded per standing convention; where ' +
+      'the same title is held by more than one incumbent within the same section (filled or vacant), ' +
+      'it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Administrative Support and Coordination', level: 'Advanced' },
+          { name: 'Records and Document Management', level: 'Advanced' },
+          { name: 'Government Procurement and Supply Management', level: 'Advanced' },
+          { name: 'Cash and Financial Transaction Management', level: 'Advanced' },
+          { name: 'Financial Reporting and Regulatory Compliance', level: 'Advanced' },
+          { name: 'Facilities and Property Management', level: 'Advanced' },
+          { name: 'Equipment and Technical Support Services', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Customer Service', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Administrative Support and Coordination', level: 'Advanced' },
+          { name: 'Records and Document Management', level: 'Advanced' },
+          { name: 'Government Procurement and Supply Management', level: 'Advanced' },
+          { name: 'Cash and Financial Transaction Management', level: 'Advanced' },
+          { name: 'Financial Reporting and Regulatory Compliance', level: 'Advanced' },
+          { name: 'Facilities and Property Management', level: 'Advanced' },
+          { name: 'Equipment and Technical Support Services', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Customer Service', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Administrative Section',
+        competencies: [
+          { name: 'Administrative Support and Coordination', level: 'Proficient' },
+          { name: 'Records and Document Management', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Customer Service', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Administrative Section',
+        competencies: [
+          { name: 'Administrative Support and Coordination', level: 'Developing' },
+          { name: 'Records and Document Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: 'Administrative Section',
+        competencies: [
+          { name: 'Administrative Support and Coordination', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Administrative Section',
+        competencies: [
+          { name: 'Administrative Support and Coordination', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Administrative Section',
+        competencies: [
+          { name: 'Administrative Support and Coordination', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Accountant III',
+        section: 'Finance Section',
+        competencies: [
+          { name: 'Cash and Financial Transaction Management', level: 'Proficient' },
+          { name: 'Financial Reporting and Regulatory Compliance', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Customer Service', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Finance Section',
+        competencies: [
+          { name: 'Cash and Financial Transaction Management', level: 'Developing' },
+          { name: 'Financial Reporting and Regulatory Compliance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Accountant II',
+        section: 'Finance Section',
+        competencies: [
+          { name: 'Cash and Financial Transaction Management', level: 'Developing' },
+          { name: 'Financial Reporting and Regulatory Compliance', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: 'Finance Section',
+        competencies: [
+          { name: 'Cash and Financial Transaction Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: 'Finance Section',
+        competencies: [
+          { name: 'Cash and Financial Transaction Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: 'Facilities Management Section',
+        competencies: [
+          { name: 'Facilities and Property Management', level: 'Proficient' },
+          { name: 'Equipment and Technical Support Services', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Customer Service', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Computer Maintenance Technologist II',
+        section: 'Facilities Management Section',
+        competencies: [
+          { name: 'Equipment and Technical Support Services', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer III',
+        section: 'Facilities Management Section',
+        competencies: [
+          { name: 'Facilities and Property Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer I',
+        section: 'Facilities Management Section',
+        competencies: [
+          { name: 'Facilities and Property Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {

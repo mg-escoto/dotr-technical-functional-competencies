@@ -19192,6 +19192,368 @@
     ]
   },
   {
+    "code": "AFD",
+    "name": "Administrative and Finance Division",
+    "category": "without-framework",
+    "status": "populated",
+    "office": "Philippine Railways Institute",
+    "officeOrder": 15,
+    "parentCode": null,
+    "sourceFile": null,
+    "basis": "Drafted for HRDD review, benchmarked from the technical competency frameworks of divisions under the Administrative Service (General Services Division, Cash Division, Central Records Division, Asset Management Division) and tailored to the Administrative and Finance Division's own organizational structure (Administrative, Finance, and Facilities Management Sections) per the PRI Organizational Chart 2026.",
+    "careerProgression": null,
+    "competencies": [
+      {
+        "name": "Administrative Support and Coordination",
+        "definition": "The ability to provide efficient administrative support, coordinate division activities, manage correspondence and documentation, and facilitate the day-to-day operational requirements of the Philippine Railways Institute (PRI).",
+        "dimensions": [
+          {
+            "name": "Administrative Documentation and Correspondence",
+            "definition": null,
+            "levels": {
+              "Emerging": "Prepares routine documents and correspondence using prescribed formats with guidance.",
+              "Developing": "Independently prepares and tracks routine administrative documents and submissions.",
+              "Proficient": "Manages complex documentation requirements and improves document workflows.",
+              "Advanced": "Establishes efficient administrative documentation systems and standards for the Division."
+            }
+          },
+          {
+            "name": "Task and Workflow Coordination",
+            "definition": null,
+            "levels": {
+              "Emerging": "Tracks assigned tasks with close guidance.",
+              "Developing": "Coordinates routine tasks and follows up on pending actions.",
+              "Proficient": "Manages competing priorities and urgent requirements across the Administrative, Finance, and Facilities Management Sections.",
+              "Advanced": "Optimizes workflows and establishes coordination mechanisms for division-wide efficiency."
+            }
+          },
+          {
+            "name": "Service Delivery and Client Support",
+            "definition": null,
+            "levels": {
+              "Emerging": "Responds to routine requests using established procedures with guidance.",
+              "Developing": "Handles routine transactions independently and meets basic service standards.",
+              "Proficient": "Resolves complex or escalated service concerns and improves turnaround time.",
+              "Advanced": "Establishes service standards and quality benchmarks for administrative and finance support."
+            }
+          },
+          {
+            "name": "Policy Implementation and Compliance",
+            "definition": null,
+            "levels": {
+              "Emerging": "Demonstrates awareness of applicable administrative and financial policies.",
+              "Developing": "Applies established policies and procedures to routine transactions.",
+              "Proficient": "Interprets policy requirements for complex or non-routine transactions and recommends appropriate action.",
+              "Advanced": "Recommends policy or procedural improvements and ensures organization-wide compliance."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Records and Document Management",
+        "definition": "The ability to organize, control, track, and preserve administrative, financial, and property records to ensure accuracy, accessibility, and compliance with records management standards.",
+        "dimensions": [
+          {
+            "name": "Records Organization and Control",
+            "definition": null,
+            "levels": {
+              "Emerging": "Files and retrieves assigned records using prescribed procedures.",
+              "Developing": "Maintains organized and complete routine records.",
+              "Proficient": "Reviews complex records for completeness and resolves documentation gaps.",
+              "Advanced": "Establishes records control standards and improves organization-wide filing systems."
+            }
+          },
+          {
+            "name": "Document Tracking and Monitoring",
+            "definition": null,
+            "levels": {
+              "Emerging": "Updates document trackers with guidance.",
+              "Developing": "Monitors routine document status and follows up pending actions.",
+              "Proficient": "Analyzes tracking data to identify bottlenecks and recommends process improvements.",
+              "Advanced": "Establishes document tracking systems and performance standards."
+            }
+          },
+          {
+            "name": "Digital Records Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Encodes basic data with guidance and checks for obvious errors.",
+              "Developing": "Maintains routine electronic records accurately.",
+              "Proficient": "Validates complex data sets and resolves inconsistencies.",
+              "Advanced": "Improves digital records systems and information security controls."
+            }
+          },
+          {
+            "name": "Records Preservation and Disposition",
+            "definition": null,
+            "levels": {
+              "Emerging": "Follows established retention and disposal procedures with guidance.",
+              "Developing": "Applies retention schedules to routine records accurately.",
+              "Proficient": "Resolves complex retention or disposal issues and ensures regulatory compliance.",
+              "Advanced": "Establishes preservation and disposition standards for the Division."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Government Procurement and Supply Management",
+        "definition": "The ability to plan, process, and monitor procurement of goods and services, and manage supply, inventory, and materials required by the Institute in accordance with government procurement laws and regulations.",
+        "dimensions": [
+          {
+            "name": "Procurement Planning and Processing",
+            "definition": null,
+            "levels": {
+              "Emerging": "Prepares basic procurement documents using prescribed formats with guidance.",
+              "Developing": "Processes routine procurement requests accurately and within timelines.",
+              "Proficient": "Manages complex procurement transactions and resolves procedural issues.",
+              "Advanced": "Provides technical direction on procurement matters and improves procurement processes."
+            }
+          },
+          {
+            "name": "Supplier and Contract Coordination",
+            "definition": null,
+            "levels": {
+              "Emerging": "Assists in coordinating with suppliers under guidance.",
+              "Developing": "Coordinates routine supplier transactions and follows up on deliveries.",
+              "Proficient": "Resolves supplier performance issues and contract concerns.",
+              "Advanced": "Establishes supplier management standards and strengthens contract compliance mechanisms."
+            }
+          },
+          {
+            "name": "Inventory and Materials Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Records basic inventory transactions with guidance.",
+              "Developing": "Maintains routine inventory records and stock levels accurately.",
+              "Proficient": "Analyzes inventory data to identify discrepancies and recommends corrective action.",
+              "Advanced": "Establishes inventory control systems and standards."
+            }
+          },
+          {
+            "name": "Property Canvassing and Market Research",
+            "definition": null,
+            "levels": {
+              "Emerging": "Gathers basic price information from prescribed sources.",
+              "Developing": "Conducts routine market canvassing and documents findings.",
+              "Proficient": "Analyzes market trends and recommends cost-effective procurement strategies.",
+              "Advanced": "Develops procurement planning frameworks informed by market intelligence."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cash and Financial Transaction Management",
+        "definition": "The ability to process, validate, and monitor cash disbursements, collections, and financial transactions of the Institute in accordance with prescribed timelines, controls, and government accounting and auditing rules.",
+        "dimensions": [
+          {
+            "name": "Disbursement and Payment Processing",
+            "definition": null,
+            "levels": {
+              "Emerging": "Checks assigned disbursement documents against prescribed requirements with guidance.",
+              "Developing": "Processes routine disbursement transactions and verifies completeness of supporting documents.",
+              "Proficient": "Reviews complex disbursement transactions, identifies deficiencies, and resolves exceptions.",
+              "Advanced": "Provides technical direction on disbursement matters and improves payment controls."
+            }
+          },
+          {
+            "name": "Cash Collection and Accountability",
+            "definition": null,
+            "levels": {
+              "Emerging": "Records basic cash transactions with guidance.",
+              "Developing": "Processes routine collections and deposits accurately and on time.",
+              "Proficient": "Reconciles complex collection accounts and resolves discrepancies.",
+              "Advanced": "Establishes cash accountability controls and safeguards."
+            }
+          },
+          {
+            "name": "Digital and Electronic Payment Operations",
+            "definition": null,
+            "levels": {
+              "Emerging": "Uses digital payment systems with guidance.",
+              "Developing": "Processes routine electronic transactions accurately.",
+              "Proficient": "Resolves complex digital payment issues and reconciles electronic transaction records.",
+              "Advanced": "Improves digital treasury systems and promotes efficient electronic payment operations."
+            }
+          },
+          {
+            "name": "Banking Liaison and Coordination",
+            "definition": null,
+            "levels": {
+              "Emerging": "Assists in basic bank coordination activities with guidance.",
+              "Developing": "Coordinates routine banking transactions and follows up on concerns.",
+              "Proficient": "Resolves complex banking issues and strengthens banking relationships.",
+              "Advanced": "Establishes banking coordination protocols and represents the Institute in high-level financial discussions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Financial Reporting and Regulatory Compliance",
+        "definition": "The ability to prepare accurate financial reports, reconcile accounts, and ensure compliance with tax, audit, and other statutory and regulatory requirements governing government financial transactions.",
+        "dimensions": [
+          {
+            "name": "Financial Reporting and Reconciliation",
+            "definition": null,
+            "levels": {
+              "Emerging": "Compiles basic report inputs with guidance.",
+              "Developing": "Prepares routine financial reports accurately and within deadlines.",
+              "Proficient": "Reconciles complex accounts and resolves discrepancies.",
+              "Advanced": "Establishes financial reporting standards and improves reconciliation processes."
+            }
+          },
+          {
+            "name": "Tax and Statutory Compliance",
+            "definition": null,
+            "levels": {
+              "Emerging": "Applies basic tax computation and withholding procedures with guidance.",
+              "Developing": "Processes routine tax remittances and reports accurately.",
+              "Proficient": "Resolves complex tax compliance issues and ensures timely remittance.",
+              "Advanced": "Provides expert guidance on tax and statutory compliance matters."
+            }
+          },
+          {
+            "name": "Audit Support and Documentation",
+            "definition": null,
+            "levels": {
+              "Emerging": "Compiles basic audit documentation with guidance.",
+              "Developing": "Prepares routine audit requirements accurately and on time.",
+              "Proficient": "Resolves complex audit findings and coordinates management responses.",
+              "Advanced": "Establishes audit-readiness systems and strengthens internal controls."
+            }
+          },
+          {
+            "name": "Internal Control and Process Improvement",
+            "definition": null,
+            "levels": {
+              "Emerging": "Follows established financial control procedures.",
+              "Developing": "Identifies routine control gaps and reports them appropriately.",
+              "Proficient": "Recommends and implements process improvements to strengthen financial controls.",
+              "Advanced": "Establishes internal control frameworks and promotes a culture of financial accountability."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Facilities and Property Management",
+        "definition": "The ability to manage, maintain, and safeguard the Institute's facilities, buildings, equipment, and property to ensure a safe, functional, and well-maintained working environment.",
+        "dimensions": [
+          {
+            "name": "Facilities Maintenance Planning and Monitoring",
+            "definition": null,
+            "levels": {
+              "Emerging": "Assists in basic facilities monitoring with guidance.",
+              "Developing": "Monitors routine maintenance schedules and reports concerns.",
+              "Proficient": "Manages complex maintenance requirements and coordinates repair activities.",
+              "Advanced": "Establishes facilities maintenance standards and preventive-maintenance programs."
+            }
+          },
+          {
+            "name": "Building and Equipment Repair Coordination",
+            "definition": null,
+            "levels": {
+              "Emerging": "Assists in coordinating basic repair requests with guidance.",
+              "Developing": "Coordinates routine repair and maintenance requests.",
+              "Proficient": "Manages complex repair projects and resolves contractor or vendor issues.",
+              "Advanced": "Establishes repair and improvement standards that ensure facility reliability."
+            }
+          },
+          {
+            "name": "Property Accountability and Custodianship",
+            "definition": null,
+            "levels": {
+              "Emerging": "Records basic property transactions with guidance.",
+              "Developing": "Maintains routine property records accurately.",
+              "Proficient": "Resolves property accountability discrepancies and coordinates inspections.",
+              "Advanced": "Establishes property accountability systems and safeguards."
+            }
+          },
+          {
+            "name": "Operational Risk and Safety Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Recognizes obvious facility or safety risks with guidance.",
+              "Developing": "Reports routine risks and follows established safety procedures.",
+              "Proficient": "Assesses complex facility risks and recommends mitigating measures.",
+              "Advanced": "Establishes facilities risk-management and safety programs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Equipment and Technical Support Services",
+        "definition": "The ability to provide technical maintenance and support services for office equipment, computer systems, and vehicles to ensure their continuous and reliable operation.",
+        "dimensions": [
+          {
+            "name": "Equipment and Computer Maintenance",
+            "definition": null,
+            "levels": {
+              "Emerging": "Performs basic equipment checks and minor repairs with guidance.",
+              "Developing": "Troubleshoots and resolves routine equipment or computer issues.",
+              "Proficient": "Diagnoses and resolves complex technical problems affecting multiple users or systems.",
+              "Advanced": "Establishes preventive-maintenance protocols and improves equipment reliability."
+            }
+          },
+          {
+            "name": "Fleet and Vehicle Management",
+            "definition": null,
+            "levels": {
+              "Emerging": "Assists in basic vehicle monitoring with guidance.",
+              "Developing": "Monitors routine vehicle maintenance schedules and dispatch requests.",
+              "Proficient": "Resolves complex fleet management issues and optimizes vehicle utilization.",
+              "Advanced": "Establishes fleet management standards and cost-efficiency measures."
+            }
+          },
+          {
+            "name": "Technical Support Coordination",
+            "definition": null,
+            "levels": {
+              "Emerging": "Responds to basic technical support requests with guidance.",
+              "Developing": "Resolves routine technical support requests within service standards.",
+              "Proficient": "Manages complex or recurring technical support concerns.",
+              "Advanced": "Establishes technical-support service standards and improves response systems."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stakeholder Coordination and Customer Service",
+        "definition": "The ability to coordinate with internal and external stakeholders and provide responsive, courteous, and effective administrative and financial support services.",
+        "dimensions": [
+          {
+            "name": "Stakeholder Communication and Coordination",
+            "definition": null,
+            "levels": {
+              "Emerging": "Communicates basic information using established guidance.",
+              "Developing": "Coordinates routine transactions and follows up on requirements.",
+              "Proficient": "Manages complex coordination involving multiple stakeholders.",
+              "Advanced": "Leads strategic coordination and strengthens institutional working relationships."
+            }
+          },
+          {
+            "name": "Customer Service and Responsiveness",
+            "definition": null,
+            "levels": {
+              "Emerging": "Responds to basic inquiries using established guidance.",
+              "Developing": "Provides reliable routine service and meets prescribed response timelines.",
+              "Proficient": "Resolves complex or escalated client concerns.",
+              "Advanced": "Establishes service-quality standards and drives continuous improvement."
+            }
+          },
+          {
+            "name": "Issue Resolution and Escalation",
+            "definition": null,
+            "levels": {
+              "Emerging": "Identifies routine issues and follows referral procedures with guidance.",
+              "Developing": "Resolves routine issues and escalates exceptions appropriately.",
+              "Proficient": "Analyzes complex concerns and coordinates timely resolution.",
+              "Advanced": "Improves escalation mechanisms and issue-resolution protocols."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
     "code": "PMO-MARITIME",
     "name": "Project Management Office – Maritime",
     "category": "with-framework",
