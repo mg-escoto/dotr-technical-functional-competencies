@@ -37,13 +37,17 @@ const rows = profile.positions.map((pos, index) => ({
   competencies: pos.competencies,
 }))
 
-const { error } = await supabase
-  .from('division_position_profiles')
-  .upsert(rows, { onConflict: 'division_code,position_index' })
+async function main() {
+  const { error } = await supabase
+    .from('division_position_profiles')
+    .upsert(rows, { onConflict: 'division_code,position_index' })
 
-if (error) {
-  console.error('Seed failed:', error.message)
-  process.exit(1)
+  if (error) {
+    console.error('Seed failed:', error.message)
+    process.exit(1)
+  }
+
+  console.log(`Seeded ${rows.length} positions for ${profile!.divisionCode}.`)
 }
 
-console.log(`Seeded ${rows.length} positions for ${profile.divisionCode}.`)
+main()
