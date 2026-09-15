@@ -4245,6 +4245,235 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'AD',
+    asOf: 'September 15, 2026',
+    sourceNote:
+      'Built from the Accounting Division organizational chart (per Plantilla from the DBM, as of ' +
+      'September 15, 2026), combined with the existing Accounting Division competency framework. ' +
+      'Competency and level assignments follow rank/tier (Chief, Section Head, then each section\'s ' +
+      'own senior-to-entry Accountant or support-staff ladder), with each of the four units — ' +
+      'Disbursement Section (Locally Funded and Foreign-Assisted), Bookkeeping, Financial Analysis ' +
+      'and Reporting Section, and Subsidiary Ledger Maintenance & Reporting Section — weighted toward ' +
+      'the competencies most relevant to its function. Permanent plantilla positions only; the 2 ' +
+      'Casual Worker items are excluded. Vacant items are included since they are permanent plantilla ' +
+      'slots, just currently unfilled. Names are excluded per standing convention; where the chart ' +
+      'shows more than one incumbent (filled or vacant) under the same title within the same ' +
+      'section, it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Accountant',
+        section: null,
+        competencies: [
+          { name: 'Accounts Reconciliation', level: 'Advanced' },
+          { name: 'Revenues and Expenditures', level: 'Advanced' },
+          { name: 'Preparation and Interpretation of Financial Statements and Reports', level: 'Advanced' },
+          { name: 'Accounting for Current Assets and Current Liabilities', level: 'Advanced' },
+          { name: 'Accounting for Non-Current Assets', level: 'Advanced' },
+          { name: 'Accounting for Debt and Other Liabilities', level: 'Advanced' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Advanced' },
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Advanced' },
+          { name: 'Transaction Processing (Disbursement)', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Accountant II',
+        section: 'Division Office',
+        competencies: [
+          { name: 'Accounts Reconciliation', level: 'Developing' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Developing' },
+          { name: 'Preparation and Interpretation of Financial Statements and Reports', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Bookkeeper',
+        section: 'Division Office',
+        competencies: [
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Developing' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: 'Division Office',
+        competencies: [
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Accountant IV',
+        section: 'Disbursement Section — Locally Funded (Section Head)',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Advanced' },
+          { name: 'Accounts Reconciliation', level: 'Advanced' },
+          { name: 'Accounting for Current Assets and Current Liabilities', level: 'Advanced' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Advanced' },
+          { name: 'Accounting for Debt and Other Liabilities', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Accountant III',
+        section: 'Disbursement Section — Locally Funded',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Proficient' },
+          { name: 'Accounts Reconciliation', level: 'Proficient' },
+          { name: 'Accounting for Current Assets and Current Liabilities', level: 'Developing' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Accountant II',
+        section: 'Disbursement Section — Locally Funded',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Developing' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: 'Disbursement Section — Locally Funded',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Developing' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Senior Bookkeeper',
+        section: 'Disbursement Section — Locally Funded',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Developing' },
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Bookkeeper',
+        section: 'Disbursement Section — Locally Funded',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: 'Disbursement Section — Locally Funded',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Accountant IV',
+        section: 'Disbursement Section — Foreign-Assisted (Section Head)',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Advanced' },
+          { name: 'Accounting for Debt and Other Liabilities', level: 'Advanced' },
+          { name: 'Accounts Reconciliation', level: 'Advanced' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Advanced' },
+          { name: 'Accounting for Current Assets and Current Liabilities', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Accountant III',
+        section: 'Disbursement Section — Foreign-Assisted',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Proficient' },
+          { name: 'Accounting for Debt and Other Liabilities', level: 'Proficient' },
+          { name: 'Accounts Reconciliation', level: 'Proficient' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: 'Disbursement Section — Foreign-Assisted',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Disbursement Section — Foreign-Assisted',
+        competencies: [
+          { name: 'Transaction Processing (Disbursement)', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Accountant III',
+        section: 'Bookkeeping, Financial Analysis and Reporting Section (Acting Section Chief)',
+        competencies: [
+          { name: 'Preparation and Interpretation of Financial Statements and Reports', level: 'Advanced' },
+          { name: 'Revenues and Expenditures', level: 'Advanced' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Advanced' },
+          { name: 'Accounts Reconciliation', level: 'Proficient' },
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Accountant III',
+        section: 'Bookkeeping, Financial Analysis and Reporting Section',
+        competencies: [
+          { name: 'Preparation and Interpretation of Financial Statements and Reports', level: 'Proficient' },
+          { name: 'Revenues and Expenditures', level: 'Proficient' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Proficient' },
+          { name: 'Accounts Reconciliation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Accountant II',
+        section: 'Bookkeeping, Financial Analysis and Reporting Section',
+        competencies: [
+          { name: 'Preparation and Interpretation of Financial Statements and Reports', level: 'Developing' },
+          { name: 'Revenues and Expenditures', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant II',
+        section: 'Bookkeeping, Financial Analysis and Reporting Section',
+        competencies: [
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Accountant IV',
+        section: 'Subsidiary Ledger Maintenance & Reporting Section (Section Head)',
+        competencies: [
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Advanced' },
+          { name: 'Accounts Reconciliation', level: 'Advanced' },
+          { name: 'Accounting for Current Assets and Current Liabilities', level: 'Advanced' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Advanced' },
+          { name: 'Accounting for Non-Current Assets', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Accountant III',
+        section: 'Subsidiary Ledger Maintenance & Reporting Section',
+        competencies: [
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Proficient' },
+          { name: 'Accounts Reconciliation', level: 'Proficient' },
+          { name: 'Accounting for Current Assets and Current Liabilities', level: 'Developing' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Accountant II',
+        section: 'Subsidiary Ledger Maintenance & Reporting Section',
+        competencies: [
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: 'Subsidiary Ledger Maintenance & Reporting Section',
+        competencies: [
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Aide VI',
+        section: 'Subsidiary Ledger Maintenance & Reporting Section',
+        competencies: [
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
