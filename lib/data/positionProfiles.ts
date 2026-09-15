@@ -4474,6 +4474,135 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'NDTSD',
+    asOf: 'Railways Sector organizational chart, as of August 2026',
+    sourceNote:
+      'Built from the Railways Sector organizational structure chart (Rail Unified Project ' +
+      'Management Office / Network Development and Technical Services Division column, including ' +
+      'its Infrastructure Design Section, Construction Delivery Section, and Rolling Stocks and ' +
+      'System Section), combined with the Division\'s competency framework. TDO is expanded as ' +
+      'Transportation Development Officer per standing convention; PEO is left unexpanded pending ' +
+      'confirmation of the exact title it stands for. ' +
+      'Permanent plantilla positions only. Vacant items would be included but none are shown for ' +
+      'this division on the chart. Where the same title is held by more than one incumbent, it is ' +
+      'listed once as a role. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Chief Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Railway Network Planning and Development', level: 'Advanced' },
+          { name: 'Transport Policy and Strategic Planning', level: 'Advanced' },
+          { name: 'Railway Engineering and Technical Review', level: 'Advanced' },
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Advanced' },
+          { name: 'Technical Research and Analysis', level: 'Advanced' },
+          { name: 'Technical Advisory and Recommendation Development', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Technical Liaison', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Railway Network Planning and Development', level: 'Advanced' },
+          { name: 'Transport Policy and Strategic Planning', level: 'Advanced' },
+          { name: 'Railway Engineering and Technical Review', level: 'Advanced' },
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Advanced' },
+          { name: 'Technical Research and Analysis', level: 'Advanced' },
+          { name: 'Technical Advisory and Recommendation Development', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Technical Liaison', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Railway Network Planning and Development', level: 'Proficient' },
+          { name: 'Railway Engineering and Technical Review', level: 'Proficient' },
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Proficient' },
+          { name: 'Technical Research and Analysis', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: null,
+        competencies: [
+          { name: 'Railway Engineering and Technical Review', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: null,
+        competencies: [
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Infrastructure Design Section',
+        competencies: [
+          { name: 'Railway Engineering and Technical Review', level: 'Proficient' },
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Infrastructure Design Section',
+        competencies: [
+          { name: 'Railway Engineering and Technical Review', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Construction Delivery Section',
+        competencies: [
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Proficient' },
+          { name: 'Railway Engineering and Technical Review', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Construction Delivery Section',
+        competencies: [
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Developing' },
+          { name: 'Railway Engineering and Technical Review', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'PEO II',
+        section: 'Construction Delivery Section',
+        competencies: [
+          { name: 'Infrastructure Monitoring and Technical Evaluation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Rolling Stocks and System Section',
+        competencies: [
+          { name: 'Railway Engineering and Technical Review', level: 'Proficient' },
+          { name: 'Technical Research and Analysis', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Rolling Stocks and System Section',
+        competencies: [
+          { name: 'Railway Engineering and Technical Review', level: 'Developing' },
+          { name: 'Technical Research and Analysis', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'PEO II',
+        section: 'Rolling Stocks and System Section',
+        competencies: [
+          { name: 'Railway Engineering and Technical Review', level: 'Developing' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
