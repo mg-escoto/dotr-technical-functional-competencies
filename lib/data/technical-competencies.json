@@ -15073,15 +15073,378 @@
   {
     "code": "NDTSD",
     "name": "Network Development and Technical Services Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Rail Unified Project Management Office",
     "officeOrder": 13,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "Network Development and Technical Services Division.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Railway Network Planning and Development",
+        "definition": "The ability to develop, review, update, and evaluate railway network plans, programs, and development strategies to ensure alignment with transport objectives, infrastructure priorities, and long-term mobility needs. Based on NDTSD's mandate on railway network planning and policy development.",
+        "dimensions": [
+          {
+            "name": "Rail Network Planning",
+            "definition": "The ability to develop and review railway network concepts, alignments, and development plans consistent with transport objectives and infrastructure priorities.",
+            "levels": {
+              "Emerging": "Demonstrates awareness of railway planning principles and planning documents.",
+              "Developing": "Participates in preparing and reviewing rail network plans.",
+              "Proficient": "Develops and evaluates network plans and recommendations.",
+              "Advanced": "Leads the formulation and strategic review of major rail network plans."
+            }
+          },
+          {
+            "name": "Infrastructure Integration Planning",
+            "definition": "The ability to align railway development initiatives with broader transport, land use, and infrastructure systems.",
+            "levels": {
+              "Emerging": "Understands relationships among transport modes and infrastructure systems.",
+              "Developing": "Assesses basic integration requirements of railway projects.",
+              "Proficient": "Evaluates multimodal integration opportunities and constraints.",
+              "Advanced": "Develops integrated transport and rail development strategies."
+            }
+          },
+          {
+            "name": "Strategic Development Planning",
+            "definition": "The ability to formulate long-term railway development priorities, programs, and investment strategies.",
+            "levels": {
+              "Emerging": "Identifies strategic planning requirements.",
+              "Developing": "Assists in developing railway development initiatives.",
+              "Proficient": "Evaluates strategic implications of railway programs and projects.",
+              "Advanced": "Leads preparation of railway development frameworks and strategic directions."
+            }
+          },
+          {
+            "name": "Planning Evaluation",
+            "definition": "The ability to assess the effectiveness, relevance, and feasibility of railway plans and development proposals.",
+            "levels": {
+              "Emerging": "Reviews planning information for completeness.",
+              "Developing": "Evaluates planning proposals using established criteria.",
+              "Proficient": "Assesses feasibility and impacts of railway development plans.",
+              "Advanced": "Establishes planning evaluation frameworks and methodologies."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Transport Policy and Strategic Planning",
+        "definition": "The ability to formulate, review, analyze, and update transport and railway policies, strategic plans, and development frameworks that support sectoral goals and government priorities.",
+        "dimensions": [
+          {
+            "name": "Policy Analysis",
+            "definition": "The ability to evaluate transport and railway policies for relevance, consistency, and implementation implications.",
+            "levels": {
+              "Emerging": "Reviews policies for understanding.",
+              "Developing": "Assesses policy provisions affecting assigned work.",
+              "Proficient": "Evaluates policy implications and implementation challenges.",
+              "Advanced": "Leads policy reform and strategic policy review initiatives."
+            }
+          },
+          {
+            "name": "Policy Development",
+            "definition": "The ability to formulate and recommend policies, guidelines, and strategic directions.",
+            "levels": {
+              "Emerging": "Assists in policy development activities.",
+              "Developing": "Drafts policy recommendations and technical inputs.",
+              "Proficient": "Develops comprehensive policy proposals and frameworks.",
+              "Advanced": "Leads formulation of major transport and railway policies."
+            }
+          },
+          {
+            "name": "Strategic Planning",
+            "definition": "The ability to align plans, projects, and initiatives with organizational and sectoral priorities.",
+            "levels": {
+              "Emerging": "Understands planning objectives and priorities.",
+              "Developing": "Supports strategic planning activities.",
+              "Proficient": "Aligns railway initiatives with strategic goals and programs.",
+              "Advanced": "Directs strategic planning and sectoral development initiatives."
+            }
+          },
+          {
+            "name": "Policy Monitoring and Review",
+            "definition": "The ability to monitor implementation and effectiveness of policies and strategic plans.",
+            "levels": {
+              "Emerging": "Participates in monitoring activities.",
+              "Developing": "Reviews implementation status and compliance.",
+              "Proficient": "Evaluates policy effectiveness and recommends improvements.",
+              "Advanced": "Establishes policy review and performance monitoring systems."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Railway Engineering and Technical Review",
+        "definition": "The ability to review, assess, and provide technical inputs on railway schemes, engineering designs, specifications, standards, technical studies, and cost estimates to ensure accuracy, safety, feasibility, and compliance. Based on NDTSD's technical review and advisory functions.",
+        "dimensions": [
+          {
+            "name": "Engineering Design Review",
+            "definition": "The ability to evaluate engineering designs, drawings, and technical proposals for completeness, compliance, and feasibility.",
+            "levels": {
+              "Emerging": "Reviews designs using established standards and guidance.",
+              "Developing": "Evaluates routine design submissions and technical proposals.",
+              "Proficient": "Assesses complex railway designs and engineering schemes.",
+              "Advanced": "Serves as technical authority for engineering review and approval."
+            }
+          },
+          {
+            "name": "Technical Standards Assessment",
+            "definition": "The ability to assess compliance with engineering, architectural, safety, and technical standards.",
+            "levels": {
+              "Emerging": "Understands applicable standards and specifications.",
+              "Developing": "Reviews compliance with prescribed standards.",
+              "Proficient": "Evaluates adequacy and applicability of technical standards.",
+              "Advanced": "Develops technical review frameworks and standards guidance."
+            }
+          },
+          {
+            "name": "Cost Estimate Evaluation",
+            "definition": "The ability to review and assess project cost estimates for reasonableness, completeness, and technical validity.",
+            "levels": {
+              "Emerging": "Reviews basic project cost information.",
+              "Developing": "Validates cost estimate components and assumptions.",
+              "Proficient": "Evaluates accuracy and defensibility of cost estimates.",
+              "Advanced": "Provides expert review of major project cost estimates and financial implications."
+            }
+          },
+          {
+            "name": "Technical Risk Assessment",
+            "definition": "The ability to identify and evaluate engineering, operational, and implementation risks affecting railway projects.",
+            "levels": {
+              "Emerging": "Recognizes basic technical risks.",
+              "Developing": "Assesses potential project risks.",
+              "Proficient": "Evaluates risk impacts and recommends mitigation measures.",
+              "Advanced": "Leads technical risk assessments for major infrastructure projects."
+            }
+          },
+          {
+            "name": "Technical Advisory Services",
+            "definition": "The ability to provide technical guidance, recommendations, and expert advice on railway engineering matters.",
+            "levels": {
+              "Emerging": "Provides technical information when requested.",
+              "Developing": "Responds to routine technical inquiries.",
+              "Proficient": "Provides comprehensive technical recommendations and advisory services.",
+              "Advanced": "Serves as expert adviser on complex railway engineering concerns."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Infrastructure Monitoring and Technical Evaluation",
+        "definition": "The ability to monitor, review, evaluate, and validate railway project information, progress reports, monitoring tools, and technical accomplishments to support informed decision-making and project oversight.",
+        "dimensions": [
+          {
+            "name": "Technical Monitoring",
+            "definition": "The ability to monitor implementation status, progress, and technical performance of railway projects and initiatives.",
+            "levels": {
+              "Emerging": "Updates monitoring information using prescribed tools.",
+              "Developing": "Tracks project progress and implementation status.",
+              "Proficient": "Evaluates project performance against targets and milestones.",
+              "Advanced": "Establishes monitoring systems and performance frameworks."
+            }
+          },
+          {
+            "name": "Data Validation and Review",
+            "definition": "The ability to verify the accuracy, completeness, and reliability of technical and project data.",
+            "levels": {
+              "Emerging": "Reviews data for completeness.",
+              "Developing": "Validates routine monitoring information.",
+              "Proficient": "Assesses reliability and consistency of project data.",
+              "Advanced": "Establishes data validation standards and quality controls."
+            }
+          },
+          {
+            "name": "Technical Evaluation",
+            "definition": "The ability to assess project accomplishments, outputs, and implementation results using technical criteria.",
+            "levels": {
+              "Emerging": "Participates in evaluation activities.",
+              "Developing": "Conducts routine technical evaluations.",
+              "Proficient": "Produces comprehensive technical assessments.",
+              "Advanced": "Leads evaluation of major railway initiatives and programs."
+            }
+          },
+          {
+            "name": "Performance Reporting",
+            "definition": "The ability to prepare and communicate monitoring and evaluation findings to decision-makers and stakeholders.",
+            "levels": {
+              "Emerging": "Assists in preparing monitoring reports.",
+              "Developing": "Develops routine progress reports.",
+              "Proficient": "Produces comprehensive technical monitoring reports.",
+              "Advanced": "Establishes reporting systems supporting executive decision-making."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Technical Research and Analysis",
+        "definition": "The ability to systematically gather, validate, analyze, interpret, and synthesize technical, engineering, transport, infrastructure, and policy information to support railway planning, project development, policy formulation, technical review, and informed decision-making.",
+        "dimensions": [
+          {
+            "name": "Technical Research",
+            "definition": "The ability to identify, gather, and organize technical, engineering, planning, and transport-related information from reliable sources.",
+            "levels": {
+              "Emerging": "Collects technical information and reference materials from prescribed sources.",
+              "Developing": "Conducts routine technical research to support assigned projects and studies.",
+              "Proficient": "Identifies and synthesizes relevant technical information from multiple sources.",
+              "Advanced": "Leads complex technical research initiatives supporting major railway programs and policies."
+            }
+          },
+          {
+            "name": "Data Analysis",
+            "definition": "The ability to examine, interpret, and evaluate data, trends, findings, and technical information to support planning and decision-making.",
+            "levels": {
+              "Emerging": "Reviews technical data and identifies basic trends or patterns.",
+              "Developing": "Performs routine analysis of project and technical information.",
+              "Proficient": "Analyzes complex technical data and identifies implications and issues.",
+              "Advanced": "Develops analytical frameworks and provides strategic insights from technical information."
+            }
+          },
+          {
+            "name": "Feasibility and Impact Assessment",
+            "definition": "The ability to evaluate the technical, operational, economic, and implementation implications of railway projects and initiatives.",
+            "levels": {
+              "Emerging": "Assists in assessing project feasibility using established criteria.",
+              "Developing": "Reviews project information and identifies feasibility considerations.",
+              "Proficient": "Conducts comprehensive assessments of project viability and impacts.",
+              "Advanced": "Leads strategic evaluations influencing project selection and policy decisions."
+            }
+          },
+          {
+            "name": "Research Synthesis",
+            "definition": "The ability to consolidate information from various technical sources into coherent findings, analyses, and recommendations.",
+            "levels": {
+              "Emerging": "Summarizes collected information and supporting references.",
+              "Developing": "Integrates technical findings into reports and studies.",
+              "Proficient": "Produces comprehensive analytical reports supporting planning and technical decisions.",
+              "Advanced": "Develops strategic studies and analytical papers influencing organizational direction."
+            }
+          },
+          {
+            "name": "Evidence-Based Decision Support",
+            "definition": "The ability to provide objective analyses, findings, and insights that support management and technical decision-making.",
+            "levels": {
+              "Emerging": "Provides factual information when requested.",
+              "Developing": "Supports decision-making through basic analysis and technical inputs.",
+              "Proficient": "Produces evidence-based recommendations and technical justifications.",
+              "Advanced": "Serves as a trusted adviser in strategic and technically complex decisions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Technical Advisory and Recommendation Development",
+        "definition": "The ability to provide expert technical advice, evaluate technical inquiries, formulate sound recommendations, and develop advisory opinions related to railway planning, engineering, infrastructure development, technical standards, and project implementation.",
+        "dimensions": [
+          {
+            "name": "Technical Inquiry Evaluation",
+            "definition": "The ability to review, assess, and respond to technical inquiries, requests, and concerns related to railway projects and infrastructure.",
+            "levels": {
+              "Emerging": "Reviews technical inquiries and identifies information requirements.",
+              "Developing": "Evaluates routine technical requests using established guidelines.",
+              "Proficient": "Assesses complex technical inquiries and determines appropriate responses.",
+              "Advanced": "Leads evaluation of high-impact technical concerns and inter-agency inquiries."
+            }
+          },
+          {
+            "name": "Technical Recommendation Formulation",
+            "definition": "The ability to develop objective, practical, technically sound, and evidence-based recommendations.",
+            "levels": {
+              "Emerging": "Assists in preparing technical recommendations.",
+              "Developing": "Drafts recommendations supported by technical information and references.",
+              "Proficient": "Produces comprehensive and defensible technical recommendations.",
+              "Advanced": "Develops strategic recommendations influencing policy, planning, and project decisions."
+            }
+          },
+          {
+            "name": "Advisory Services",
+            "definition": "The ability to provide expert advice, technical guidance, and professional opinions on railway engineering and planning matters.",
+            "levels": {
+              "Emerging": "Provides technical information when requested.",
+              "Developing": "Responds to routine technical concerns and requests for guidance.",
+              "Proficient": "Delivers comprehensive technical advice on complex issues.",
+              "Advanced": "Serves as a recognized authority on railway planning and engineering matters."
+            }
+          },
+          {
+            "name": "Technical Communication",
+            "definition": "The ability to clearly communicate technical concepts, findings, recommendations, and advisory opinions to various stakeholders.",
+            "levels": {
+              "Emerging": "Explains technical information using established references.",
+              "Developing": "Communicates technical findings clearly and accurately.",
+              "Proficient": "Tailors technical information to different audiences and decision-makers.",
+              "Advanced": "Influences strategic decisions through effective technical communication."
+            }
+          },
+          {
+            "name": "Quality Assurance of Technical Outputs",
+            "definition": "The ability to review and ensure the accuracy, completeness, consistency, and reliability of technical recommendations and advisory outputs.",
+            "levels": {
+              "Emerging": "Reviews outputs for basic accuracy and completeness.",
+              "Developing": "Verifies technical outputs against established standards.",
+              "Proficient": "Ensures technical recommendations are accurate, defensible, and supported by evidence.",
+              "Advanced": "Establishes quality assurance standards and review protocols for technical outputs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stakeholder Coordination and Technical Liaison",
+        "definition": "The ability to establish, maintain, and strengthen productive working relationships with government agencies, development partners, project proponents, railway sector stakeholders, and internal offices through effective communication, coordination, collaboration, consultation, and representation to support railway planning, technical review, policy development, infrastructure monitoring, and organizational objectives.",
+        "dimensions": [
+          {
+            "name": "Stakeholder Relationship Management",
+            "definition": "The ability to establish, maintain, and strengthen professional, collaborative, and productive working relationships with internal and external stakeholders to support railway planning, policy development, and project implementation.",
+            "levels": {
+              "Emerging": "Maintains professional and respectful relationships with stakeholders and partner organizations.",
+              "Developing": "Establishes productive working relationships and responds appropriately to stakeholder concerns.",
+              "Proficient": "Sustains collaborative partnerships that facilitate project development and technical coordination.",
+              "Advanced": "Develops strategic partnerships and networks that advance railway development and organizational objectives."
+            }
+          },
+          {
+            "name": "Technical Coordination",
+            "definition": "The ability to coordinate technical activities, requirements, submissions, reviews, and actions among concerned offices, agencies, consultants, and stakeholders.",
+            "levels": {
+              "Emerging": "Participates in technical coordination activities and follows prescribed processes.",
+              "Developing": "Coordinates routine technical requirements, requests, and information exchanges.",
+              "Proficient": "Facilitates resolution of technical issues involving multiple stakeholders and project components.",
+              "Advanced": "Leads complex technical coordination efforts involving major railway projects and cross-functional teams."
+            }
+          },
+          {
+            "name": "Inter-Agency Collaboration",
+            "definition": "The ability to work effectively with government agencies, local government units, development partners, and other organizations to achieve common objectives and support railway development initiatives.",
+            "levels": {
+              "Emerging": "Participates in collaborative activities with partner agencies and institutions.",
+              "Developing": "Coordinates assigned initiatives and activities with external organizations.",
+              "Proficient": "Facilitates inter-agency cooperation and collaborative problem-solving efforts.",
+              "Advanced": "Leads strategic partnerships and collaborative programs involving multiple agencies and stakeholders."
+            }
+          },
+          {
+            "name": "Technical Consultation and Representation",
+            "definition": "The ability to represent the organization, provide technical inputs, and participate in consultations, meetings, workshops, and discussions related to railway planning, engineering, and policy matters.",
+            "levels": {
+              "Emerging": "Participates in meetings and consultations as assigned.",
+              "Developing": "Provides routine technical inputs during meetings and discussions.",
+              "Proficient": "Represents the office in technical consultations and high-level coordination activities.",
+              "Advanced": "Serves as lead technical representative in strategic, inter-agency, and international engagements."
+            }
+          },
+          {
+            "name": "Communication and Information Sharing",
+            "definition": "The ability to communicate technical information, plans, policies, recommendations, and project updates clearly, accurately, and timely to stakeholders and decision-makers.",
+            "levels": {
+              "Emerging": "Provides accurate information using prescribed communication channels.",
+              "Developing": "Communicates requirements, updates, and technical information clearly to stakeholders.",
+              "Proficient": "Tailors communication approaches based on stakeholder needs and technical complexity.",
+              "Advanced": "Influences decisions and stakeholder engagement through effective technical communication and advocacy."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "OMSMMD",
