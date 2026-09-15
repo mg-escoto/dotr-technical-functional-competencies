@@ -3537,6 +3537,562 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'CAD',
+    asOf: 'PRI Organizational Chart 2026',
+    sourceNote:
+      'Built from the Philippine Railways Institute Organizational Chart 2026 (Certification and ' +
+      'Accreditation Division column), combined with the Division\'s competency framework. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Names are excluded per standing convention; where ' +
+      'the same title is held by more than one incumbent within the same section/subsection (filled ' +
+      'or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Transportation Regulation Officer',
+        section: null,
+        competencies: [
+          { name: 'Railway Personnel Certification Management', level: 'Advanced' },
+          { name: 'Railway Training Facility Accreditation', level: 'Advanced' },
+          { name: 'Railway Competency Standards and Regulatory Development', level: 'Advanced' },
+          { name: 'Compliance Assessment and Monitoring', level: 'Advanced' },
+          { name: 'Certification and Accreditation Records and Information Management', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Technical Advisory', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney IV',
+        section: null,
+        competencies: [
+          { name: 'Railway Personnel Certification Management', level: 'Advanced' },
+          { name: 'Railway Training Facility Accreditation', level: 'Advanced' },
+          { name: 'Railway Competency Standards and Regulatory Development', level: 'Advanced' },
+          { name: 'Compliance Assessment and Monitoring', level: 'Advanced' },
+          { name: 'Certification and Accreditation Records and Information Management', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Technical Advisory', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Regulation Officer',
+        section: null,
+        competencies: [
+          { name: 'Railway Personnel Certification Management', level: 'Proficient' },
+          { name: 'Railway Competency Standards and Regulatory Development', level: 'Proficient' },
+          { name: 'Compliance Assessment and Monitoring', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Technical Advisory', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Attorney III',
+        section: null,
+        competencies: [
+          { name: 'Railway Personnel Certification Management', level: 'Developing' },
+          { name: 'Railway Competency Standards and Regulatory Development', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: null,
+        competencies: [
+          { name: 'Railway Personnel Certification Management', level: 'Developing' },
+          { name: 'Certification and Accreditation Records and Information Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Regulation Officer I',
+        section: null,
+        competencies: [
+          { name: 'Railway Personnel Certification Management', level: 'Emerging' },
+          { name: 'Compliance Assessment and Monitoring', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: null,
+        competencies: [
+          { name: 'Certification and Accreditation Records and Information Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'RDD',
+    asOf: 'PRI Organizational Chart 2026',
+    sourceNote:
+      'Built from the Philippine Railways Institute Organizational Chart 2026 (Research and ' +
+      'Development Division column, Planning and Research Section), combined with the ' +
+      'Division\'s competency framework. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Names are excluded per standing convention; where ' +
+      'the same title is held by more than one incumbent within the same section/subsection (filled ' +
+      'or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Research Planning and Prioritization', level: 'Advanced' },
+          { name: 'Research Design and Methodology', level: 'Advanced' },
+          { name: 'Data Collection, Management and Analysis', level: 'Advanced' },
+          { name: 'Railway Human-Resource Development Research', level: 'Advanced' },
+          { name: 'Policy, Guideline and Technical Standards Development', level: 'Advanced' },
+          { name: 'Research Reporting and Knowledge Products', level: 'Advanced' },
+          { name: 'Stakeholder and Inter-Agency Research Coordination', level: 'Advanced' },
+          { name: 'Research Monitoring, Evaluation and Continuous Improvement', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
+        section: 'Planning and Research Section',
+        competencies: [
+          { name: 'Research Planning and Prioritization', level: 'Advanced' },
+          { name: 'Research Design and Methodology', level: 'Advanced' },
+          { name: 'Data Collection, Management and Analysis', level: 'Advanced' },
+          { name: 'Railway Human-Resource Development Research', level: 'Advanced' },
+          { name: 'Policy, Guideline and Technical Standards Development', level: 'Advanced' },
+          { name: 'Research Reporting and Knowledge Products', level: 'Advanced' },
+          { name: 'Stakeholder and Inter-Agency Research Coordination', level: 'Advanced' },
+          { name: 'Research Monitoring, Evaluation and Continuous Improvement', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: 'Planning and Research Section',
+        competencies: [
+          { name: 'Research Planning and Prioritization', level: 'Proficient' },
+          { name: 'Research Design and Methodology', level: 'Proficient' },
+          { name: 'Data Collection, Management and Analysis', level: 'Proficient' },
+          { name: 'Research Reporting and Knowledge Products', level: 'Proficient' },
+          { name: 'Stakeholder and Inter-Agency Research Coordination', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Information Systems Analyst II',
+        section: 'Planning and Research Section',
+        competencies: [
+          { name: 'Data Collection, Management and Analysis', level: 'Proficient' },
+          { name: 'Research Reporting and Knowledge Products', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Planning and Research Section',
+        competencies: [
+          { name: 'Research Planning and Prioritization', level: 'Developing' },
+          { name: 'Data Collection, Management and Analysis', level: 'Developing' },
+          { name: 'Research Monitoring, Evaluation and Continuous Improvement', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: 'Planning and Research Section',
+        competencies: [
+          { name: 'Data Collection, Management and Analysis', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
+
+  {
+    divisionCode: 'TD',
+    asOf: 'PRI Organizational Chart 2026',
+    sourceNote:
+      'Built from the Philippine Railways Institute Organizational Chart 2026 (Training Division ' +
+      'column, its five sections and their subsections: Safety and Security — Safety/Security; ' +
+      'Railway Operations — Train Operation/Station Operation; Civil, Architecture, and Tracks — ' +
+      'Tracks and Guideways/Buildings and Facilities; Rolling Stock and Electrical Facilities — ' +
+      'Power Supply and Distribution/Signaling and Communications/Rolling Stock; and Institutional ' +
+      'Human Skills, which has no further subsections), combined with the Division\'s competency ' +
+      'framework. Competency and level assignments follow rank/tier (Chief, Section Head, Senior ' +
+      'Specialist, Mid Specialist, Junior Specialist, Entry Specialist) consistently across every ' +
+      'section, since the competency framework covers training-management skills rather than each ' +
+      'section\'s own technical subject matter. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Names are excluded per standing convention; where ' +
+      'the same title is held by more than one incumbent within the same section/subsection (filled ' +
+      'or vacant), it is listed once as a role.',
+    positions: [
+      {
+        title: 'Chief Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Training Program Planning and Development', level: 'Advanced' },
+          { name: 'Training Delivery and Facilitation', level: 'Advanced' },
+          { name: 'Trainer and Instructor Development', level: 'Advanced' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Advanced' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Advanced' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Advanced' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
+        section: 'Safety and Security Section',
+        competencies: [
+          { name: 'Training Program Planning and Development', level: 'Advanced' },
+          { name: 'Training Delivery and Facilitation', level: 'Advanced' },
+          { name: 'Trainer and Instructor Development', level: 'Advanced' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Advanced' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Advanced' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Advanced' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: 'Safety and Security Section — Safety',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Proficient' },
+          { name: 'Trainer and Instructor Development', level: 'Proficient' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Proficient' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Training Specialist III',
+        section: 'Safety and Security Section — Safety',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Developing' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Developing' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Safety and Security Section — Safety',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Safety and Security Section — Security',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: 'Safety and Security Section — Security',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Training Specialist I',
+        section: 'Safety and Security Section — Security',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Supervising Transportation Development Officer',
+        section: 'Railway Operations Section',
+        competencies: [
+          { name: 'Training Program Planning and Development', level: 'Advanced' },
+          { name: 'Training Delivery and Facilitation', level: 'Advanced' },
+          { name: 'Trainer and Instructor Development', level: 'Advanced' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Advanced' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Advanced' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Advanced' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: 'Railway Operations Section — Train Operation',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Proficient' },
+          { name: 'Trainer and Instructor Development', level: 'Proficient' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Proficient' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Railway Operations Section — Train Operation',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Training Specialist II',
+        section: 'Railway Operations Section — Train Operation',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Training Specialist III',
+        section: 'Railway Operations Section — Station Operation',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Developing' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Developing' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Railway Operations Section — Station Operation',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: 'Railway Operations Section — Station Operation',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Training Specialist II',
+        section: 'Railway Operations Section — Station Operation',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Engineer IV',
+        section: 'Civil, Architecture, and Tracks Section',
+        competencies: [
+          { name: 'Training Program Planning and Development', level: 'Advanced' },
+          { name: 'Training Delivery and Facilitation', level: 'Advanced' },
+          { name: 'Trainer and Instructor Development', level: 'Advanced' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Advanced' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Advanced' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Advanced' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Civil, Architecture, and Tracks Section — Tracks and Guideways',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Proficient' },
+          { name: 'Trainer and Instructor Development', level: 'Proficient' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Proficient' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Training Specialist III',
+        section: 'Civil, Architecture, and Tracks Section — Tracks and Guideways',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Developing' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Developing' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Civil, Architecture, and Tracks Section — Tracks and Guideways',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Architect III',
+        section: 'Civil, Architecture, and Tracks Section — Buildings and Facilities',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Proficient' },
+          { name: 'Trainer and Instructor Development', level: 'Proficient' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Proficient' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Training Specialist III',
+        section: 'Civil, Architecture, and Tracks Section — Buildings and Facilities',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Developing' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Developing' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Civil, Architecture, and Tracks Section — Buildings and Facilities',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Training Specialist II',
+        section: 'Civil, Architecture, and Tracks Section — Buildings and Facilities',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Engineer IV',
+        section: 'Rolling Stock and Electrical Facilities Section',
+        competencies: [
+          { name: 'Training Program Planning and Development', level: 'Advanced' },
+          { name: 'Training Delivery and Facilitation', level: 'Advanced' },
+          { name: 'Trainer and Instructor Development', level: 'Advanced' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Advanced' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Advanced' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Advanced' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Rolling Stock and Electrical Facilities Section — Power Supply and Distribution',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Proficient' },
+          { name: 'Trainer and Instructor Development', level: 'Proficient' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Proficient' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Training Specialist III',
+        section: 'Rolling Stock and Electrical Facilities Section — Power Supply and Distribution',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Developing' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Developing' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Rolling Stock and Electrical Facilities Section — Power Supply and Distribution',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Rolling Stock and Electrical Facilities Section — Signaling and Communications',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Proficient' },
+          { name: 'Trainer and Instructor Development', level: 'Proficient' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Proficient' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Training Specialist III',
+        section: 'Rolling Stock and Electrical Facilities Section — Signaling and Communications',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Developing' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Developing' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Rolling Stock and Electrical Facilities Section — Signaling and Communications',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Rolling Stock and Electrical Facilities Section — Rolling Stock',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Proficient' },
+          { name: 'Trainer and Instructor Development', level: 'Proficient' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Proficient' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Training Specialist III',
+        section: 'Rolling Stock and Electrical Facilities Section — Rolling Stock',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Developing' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Developing' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Rolling Stock and Electrical Facilities Section — Rolling Stock',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Training Specialist I',
+        section: 'Rolling Stock and Electrical Facilities Section — Rolling Stock',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Training Specialist IV',
+        section: 'Institutional Human Skills Section',
+        competencies: [
+          { name: 'Training Program Planning and Development', level: 'Advanced' },
+          { name: 'Training Delivery and Facilitation', level: 'Advanced' },
+          { name: 'Trainer and Instructor Development', level: 'Advanced' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Advanced' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Advanced' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Advanced' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Advanced' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: 'Institutional Human Skills Section',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Proficient' },
+          { name: 'Trainer and Instructor Development', level: 'Proficient' },
+          { name: 'Training Assessment, Certification and Quality Assurance', level: 'Proficient' },
+          { name: 'Training Monitoring, Evaluation and Continuous Improvement', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Partnership Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Training Specialist III',
+        section: 'Institutional Human Skills Section',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Developing' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Developing' },
+          { name: 'Training Information, Documentation and Knowledge Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Institutional Human Skills Section',
+        competencies: [
+          { name: 'Training Delivery and Facilitation', level: 'Emerging' },
+          { name: 'Training Implementation, Logistics and Resource Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
