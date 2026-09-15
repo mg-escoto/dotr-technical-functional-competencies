@@ -4126,14 +4126,14 @@ export const positionProfiles: DivisionPositionProfile[] = [
         title: 'Supervising Administrative Officer',
         section: null,
         competencies: [
-          { name: 'Administrative Support and Coordination', level: 'Proficient' },
+          { name: 'Administrative Support and Coordination', level: 'Advanced' },
           { name: 'Records and Document Management', level: 'Proficient' },
           { name: 'Government Procurement and Supply Management', level: 'Proficient' },
           { name: 'Cash and Financial Transaction Management', level: 'Proficient' },
           { name: 'Financial Reporting and Regulatory Compliance', level: 'Proficient' },
           { name: 'Facilities and Property Management', level: 'Proficient' },
           { name: 'Equipment and Technical Support Services', level: 'Proficient' },
-          { name: 'Stakeholder Coordination and Customer Service', level: 'Proficient' },
+          { name: 'Stakeholder Coordination and Customer Service', level: 'Advanced' },
         ],
       },
       {
