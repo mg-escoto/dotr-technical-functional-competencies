@@ -54,7 +54,7 @@ export default function PortalNav({ active = null }: { active?: Section }) {
           className="text-xs font-bold uppercase tracking-wide hover:opacity-70 transition-opacity"
           style={linkStyle('core')}
         >
-          Core Competencies
+          Core
         </Link>
         <a
           href={LPS_URL}
@@ -63,7 +63,7 @@ export default function PortalNav({ active = null }: { active?: Section }) {
           className="text-xs font-bold uppercase tracking-wide hover:opacity-70 transition-opacity inline-flex items-center gap-1"
           style={linkStyle('leadership')}
         >
-          Leadership Competencies
+          Leadership
           <span aria-hidden="true">↗</span>
         </a>
         <Link
