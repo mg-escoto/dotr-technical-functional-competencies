@@ -17840,41 +17840,1356 @@
   {
     "code": "CAD",
     "name": "Certification and Accreditation Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Philippine Railways Institute",
     "officeOrder": 15,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "PRI-Certification and Accreditation Division_Final.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Railway Personnel Certification Management",
+        "definition": "The ability to review, validate, process and endorse certificates and identification documents attesting to the competence and qualification of railway personnel in accordance with prescribed standards, requirements and timelines.",
+        "dimensions": [
+          {
+            "name": "Certification Requirements Review",
+            "definition": "Ability to examine applications, training records, examination results and supporting documents for completeness and compliance with certification requirements.",
+            "levels": {
+              "Emerging": "Checks assigned documents using prescribed checklists with guidance.",
+              "Developing": "Reviews routine certification submissions and identifies missing or inconsistent information.",
+              "Proficient": "Evaluates complex certification cases and resolves documentary or procedural issues.",
+              "Advanced": "Establishes effective review standards and provides expert direction on complex certification matters."
+            }
+          },
+          {
+            "name": "Qualification and Document Validation",
+            "definition": "Ability to verify the accuracy, authenticity, consistency and sufficiency of records supporting the qualification of railway personnel.",
+            "levels": {
+              "Emerging": "Verifies basic information against available records with guidance.",
+              "Developing": "Validates routine qualification documents accurately.",
+              "Proficient": "Resolves discrepancies across multiple records and assesses complex qualification evidence.",
+              "Advanced": "Provides expert guidance on difficult validation issues and strengthens validation controls."
+            }
+          },
+          {
+            "name": "Certificate and ID Preparation",
+            "definition": "Ability to prepare, finalize, correct and process certificates and identification documents for qualified railway personnel.",
+            "levels": {
+              "Emerging": "Prepares assigned documents using approved formats with guidance.",
+              "Developing": "Completes routine certificates and IDs accurately and independently.",
+              "Proficient": "Finalizes complex or corrective documents and ensures compliance with applicable requirements.",
+              "Advanced": "Provides quality assurance and establishes improvements in certificate and ID preparation."
+            }
+          },
+          {
+            "name": "Endorsement and Approval Processing",
+            "definition": "Ability to consolidate and endorse certification documents and relevant reports to authorized approving officials within prescribed timelines.",
+            "levels": {
+              "Emerging": "Compiles and routes documents with guidance.",
+              "Developing": "Endorses routine certification packages accurately and on time.",
+              "Proficient": "Manages complex endorsement packages and resolves issues before submission.",
+              "Advanced": "Oversees critical endorsement processes and ensures consistent approval readiness."
+            }
+          },
+          {
+            "name": "Certification Timeliness and Quality Control",
+            "definition": "Ability to monitor turnaround time, minimize returned documents and maintain the accuracy and reliability of certification outputs.",
+            "levels": {
+              "Emerging": "Follows prescribed timelines and corrects identified errors with guidance.",
+              "Developing": "Meets routine deadlines and maintains acceptable document quality.",
+              "Proficient": "Analyzes recurring errors or delays and implements corrective actions.",
+              "Advanced": "Drives division-wide improvements in certification quality, timeliness and control."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Railway Training Facility Accreditation",
+        "definition": "The ability to assess, process and monitor the accreditation of railway operators' training facilities and independent training centers in accordance with prescribed standards, rules and regulations.",
+        "dimensions": [
+          {
+            "name": "Accreditation Requirements Assessment",
+            "definition": "Ability to identify and evaluate documentary, technical, operational and administrative requirements for training-facility accreditation.",
+            "levels": {
+              "Emerging": "Identifies basic accreditation requirements using established guidance.",
+              "Developing": "Reviews routine accreditation submissions for completeness and compliance.",
+              "Proficient": "Assesses complex applications and identifies substantive gaps or risks.",
+              "Advanced": "Provides expert direction on accreditation requirements and difficult cases."
+            }
+          },
+          {
+            "name": "Facility and Training Capability Evaluation",
+            "definition": "Ability to assess whether a training facility has the personnel, equipment, programs, systems and resources required by applicable standards.",
+            "levels": {
+              "Emerging": "Assists in evaluating facility information using prescribed criteria.",
+              "Developing": "Conducts routine evaluation of training capability and supporting evidence.",
+              "Proficient": "Analyzes complex facility conditions and determines compliance with technical requirements.",
+              "Advanced": "Provides expert assessment guidance and recommends improvements to accreditation standards."
+            }
+          },
+          {
+            "name": "Accreditation Processing and Recommendation",
+            "definition": "Ability to prepare, document and recommend accreditation actions based on validated findings and applicable rules.",
+            "levels": {
+              "Emerging": "Prepares assigned accreditation documents with guidance.",
+              "Developing": "Processes routine accreditation cases and prepares sound recommendations.",
+              "Proficient": "Develops comprehensive recommendations for complex accreditation applications.",
+              "Advanced": "Provides expert review of accreditation recommendations and ensures defensibility of actions."
+            }
+          },
+          {
+            "name": "Accreditation Monitoring and Renewal",
+            "definition": "Ability to monitor accreditation status, renewal requirements, conditions and continuing compliance of accredited facilities.",
+            "levels": {
+              "Emerging": "Updates accreditation records and follows up routine requirements with guidance.",
+              "Developing": "Tracks accreditation validity and renewal submissions accurately.",
+              "Proficient": "Anticipates compliance or renewal risks and coordinates timely action.",
+              "Advanced": "Establishes effective monitoring and renewal controls across accredited facilities."
+            }
+          },
+          {
+            "name": "Accreditation Quality and Integrity",
+            "definition": "Ability to ensure that accreditation decisions and records are consistent, impartial, transparent and supported by reliable evidence.",
+            "levels": {
+              "Emerging": "Follows established procedures and safeguards with guidance.",
+              "Developing": "Applies accreditation criteria consistently in routine cases.",
+              "Proficient": "Resolves complex issues while maintaining fairness and evidentiary integrity.",
+              "Advanced": "Strengthens accreditation governance, quality assurance and institutional credibility."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Railway Competency Standards and Regulatory Development",
+        "definition": "The ability to formulate, review and recommend rules, regulations, guidelines and issuances governing railway personnel certification, training and accreditation in support of safe and competent railway operations.",
+        "dimensions": [
+          {
+            "name": "Standards and Requirements Research",
+            "definition": "Ability to research laws, policies, technical references and sector practices relevant to railway certification and accreditation.",
+            "levels": {
+              "Emerging": "Locates relevant references with guidance.",
+              "Developing": "Conducts routine research and summarizes applicable requirements.",
+              "Proficient": "Analyzes complex or emerging standards and identifies implications for the Philippine Railways Institute (PRI).",
+              "Advanced": "Provides expert research direction and identifies opportunities for standards improvement."
+            }
+          },
+          {
+            "name": "Rules and Guidelines Formulation",
+            "definition": "Ability to develop or revise rules, guidelines, procedures and criteria for certification and accreditation services.",
+            "levels": {
+              "Emerging": "Assists in drafting provisions using established formats and guidance.",
+              "Developing": "Drafts routine provisions and procedural requirements accurately.",
+              "Proficient": "Develops comprehensive rules or guidelines addressing complex operational needs.",
+              "Advanced": "Provides expert direction in standards formulation and institutionalizes sound regulatory approaches."
+            }
+          },
+          {
+            "name": "Issuance Review and Quality Assurance",
+            "definition": "Ability to review proposed orders, memoranda, circulars and related issuances for clarity, consistency, legal and operational alignment.",
+            "levels": {
+              "Emerging": "Checks assigned drafts for basic completeness with guidance.",
+              "Developing": "Reviews routine issuances and submits relevant comments accurately.",
+              "Proficient": "Identifies substantive inconsistencies and recommends appropriate revisions.",
+              "Advanced": "Provides expert review of significant issuances and establishes quality-assurance practices."
+            }
+          },
+          {
+            "name": "Policy Alignment and Harmonization",
+            "definition": "Ability to align certification and accreditation policies with PRI's mandate, railway safety objectives, existing rules and related government directives.",
+            "levels": {
+              "Emerging": "Identifies basic policy linkages with guidance.",
+              "Developing": "Applies existing policies consistently in routine work.",
+              "Proficient": "Reconciles conflicting requirements and recommends harmonized approaches.",
+              "Advanced": "Provides strategic advice on policy alignment and regulatory coherence."
+            }
+          },
+          {
+            "name": "Regulatory Improvement and Advisory",
+            "definition": "Ability to use implementation experience, stakeholder inputs and performance information to recommend improvements to certification and accreditation rules.",
+            "levels": {
+              "Emerging": "Identifies routine implementation concerns with guidance.",
+              "Developing": "Recommends practical improvements based on observed issues.",
+              "Proficient": "Develops evidence-based proposals for complex regulatory or process concerns.",
+              "Advanced": "Leads regulatory improvement initiatives and provides authoritative technical advice."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Compliance Assessment and Monitoring",
+        "definition": "The ability to monitor compliance with certification, accreditation and training-related requirements, identify deficiencies and support corrective or enforcement actions within authorized procedures.",
+        "dimensions": [
+          {
+            "name": "Compliance Criteria Application",
+            "definition": "Ability to apply approved certification, accreditation and training compliance criteria consistently and accurately.",
+            "levels": {
+              "Emerging": "Uses prescribed criteria with close guidance.",
+              "Developing": "Applies routine compliance requirements correctly.",
+              "Proficient": "Interprets complex requirements and resolves application issues.",
+              "Advanced": "Provides expert guidance on difficult compliance determinations."
+            }
+          },
+          {
+            "name": "Compliance Review and Verification",
+            "definition": "Ability to examine records, reports and other evidence to determine adherence to applicable requirements.",
+            "levels": {
+              "Emerging": "Checks assigned evidence using established procedures.",
+              "Developing": "Conducts routine compliance reviews and documents findings.",
+              "Proficient": "Evaluates complex evidence and identifies material deficiencies.",
+              "Advanced": "Provides expert direction on significant compliance reviews."
+            }
+          },
+          {
+            "name": "Deficiency Identification and Analysis",
+            "definition": "Ability to identify, classify and analyze deficiencies, nonconformities and risks affecting certification or accreditation integrity.",
+            "levels": {
+              "Emerging": "Identifies obvious deficiencies with guidance.",
+              "Developing": "Documents routine deficiencies accurately.",
+              "Proficient": "Analyzes root causes and assesses the significance of complex deficiencies.",
+              "Advanced": "Provides expert analysis of systemic or high-impact compliance issues."
+            }
+          },
+          {
+            "name": "Corrective Action and Follow-Up",
+            "definition": "Ability to recommend, monitor and verify corrective actions addressing identified deficiencies.",
+            "levels": {
+              "Emerging": "Records corrective actions and follows up with guidance.",
+              "Developing": "Tracks routine corrective actions and verifies completion.",
+              "Proficient": "Manages complex corrective-action plans and escalates unresolved concerns.",
+              "Advanced": "Establishes division-wide corrective-action monitoring and improvement mechanisms."
+            }
+          },
+          {
+            "name": "Compliance Reporting and Escalation",
+            "definition": "Ability to prepare accurate compliance reports and escalate significant findings to authorized officials in a timely manner.",
+            "levels": {
+              "Emerging": "Prepares basic reports and escalates concerns using established channels.",
+              "Developing": "Submits routine compliance reports accurately and on time.",
+              "Proficient": "Consolidates complex findings and recommends appropriate escalation or action.",
+              "Advanced": "Provides expert advice on significant compliance risks and management responses."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Certification and Accreditation Records and Information Management",
+        "definition": "The ability to maintain accurate, secure and accessible records, databases and monitoring information supporting certification, accreditation, reporting, accountability and institutional continuity.",
+        "dimensions": [
+          {
+            "name": "Records and Document Control",
+            "definition": "Ability to organize, classify, update, safeguard and retrieve certification and accreditation records.",
+            "levels": {
+              "Emerging": "Files and retrieves assigned records using prescribed procedures.",
+              "Developing": "Maintains complete and organized routine records.",
+              "Proficient": "Reviews complex records for completeness and resolves documentation gaps.",
+              "Advanced": "Strengthens records controls and ensures division-wide reliability."
+            }
+          },
+          {
+            "name": "Certification and Accreditation Database Management",
+            "definition": "Ability to encode, validate, update and maintain reliable information on certified personnel and accredited facilities.",
+            "levels": {
+              "Emerging": "Inputs basic data with guidance and checks obvious errors.",
+              "Developing": "Maintains routine database records accurately.",
+              "Proficient": "Validates complex data sets and resolves inconsistencies across sources.",
+              "Advanced": "Improves database structures, controls and information reliability."
+            }
+          },
+          {
+            "name": "Monitoring Information and Status Tracking",
+            "definition": "Ability to maintain current information on applications, certificates, IDs, accreditation status, renewals, deficiencies and pending actions.",
+            "levels": {
+              "Emerging": "Updates assigned trackers with guidance.",
+              "Developing": "Maintains accurate routine status information.",
+              "Proficient": "Analyzes status data to identify delays, risks and workload concerns.",
+              "Advanced": "Uses monitoring information for strategic oversight and process improvement."
+            }
+          },
+          {
+            "name": "Reporting and Data Consolidation",
+            "definition": "Ability to consolidate accurate information into reports, summaries, lists and management briefs required for decision-making and accountability.",
+            "levels": {
+              "Emerging": "Compiles basic report inputs with guidance.",
+              "Developing": "Prepares routine reports accurately and within deadlines.",
+              "Proficient": "Consolidates complex information and explains significant trends or exceptions.",
+              "Advanced": "Provides expert reporting oversight and develops useful management information products."
+            }
+          },
+          {
+            "name": "Information Security and Continuity",
+            "definition": "Ability to protect sensitive records and ensure authorized access, confidentiality, retention and continuity of certification and accreditation information.",
+            "levels": {
+              "Emerging": "Follows information-security and access procedures with guidance.",
+              "Developing": "Applies routine safeguards and maintains authorized access controls.",
+              "Proficient": "Manages complex records-security or continuity issues and recommends corrective measures.",
+              "Advanced": "Establishes strong information-governance practices and continuity safeguards."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stakeholder Coordination and Technical Advisory",
+        "definition": "The ability to coordinate with railway operators, training institutions, applicants, PRI divisions and other stakeholders, provide clear technical guidance and resolve service-related concerns within authorized responsibilities.",
+        "dimensions": [
+          {
+            "name": "Stakeholder Communication and Coordination",
+            "definition": "Ability to communicate requirements, coordinate submissions and maintain effective working relationships with concerned stakeholders.",
+            "levels": {
+              "Emerging": "Communicates routine information using prescribed guidance.",
+              "Developing": "Coordinates routine requests and follows up on requirements effectively.",
+              "Proficient": "Manages complex coordination involving multiple stakeholders and competing requirements.",
+              "Advanced": "Leads strategic stakeholder coordination and strengthens institutional partnerships."
+            }
+          },
+          {
+            "name": "Technical Guidance and Clarification",
+            "definition": "Ability to explain certification, accreditation, documentary and procedural requirements clearly and accurately.",
+            "levels": {
+              "Emerging": "Provides basic information and refers complex queries with guidance.",
+              "Developing": "Responds accurately to routine technical inquiries.",
+              "Proficient": "Clarifies complex requirements and recommends appropriate courses of action.",
+              "Advanced": "Provides authoritative technical advice and develops guidance materials."
+            }
+          },
+          {
+            "name": "Issue Resolution and Escalation",
+            "definition": "Ability to identify, document, resolve or appropriately escalate stakeholder concerns and service issues.",
+            "levels": {
+              "Emerging": "Identifies routine concerns and follows referral procedures with guidance.",
+              "Developing": "Resolves routine issues and escalates exceptions appropriately.",
+              "Proficient": "Analyzes complex concerns and coordinates timely resolution.",
+              "Advanced": "Provides expert direction on sensitive or recurring issues and improves escalation mechanisms."
+            }
+          },
+          {
+            "name": "Service Quality and Responsiveness",
+            "definition": "Ability to deliver timely, accurate, courteous and consistent certification and accreditation support services.",
+            "levels": {
+              "Emerging": "Follows service standards and responds to assigned requests with guidance.",
+              "Developing": "Provides reliable routine service and meets prescribed response timelines.",
+              "Proficient": "Anticipates stakeholder needs and improves handling of complex requests.",
+              "Advanced": "Institutionalizes service-quality practices and drives continuous improvement."
+            }
+          },
+          {
+            "name": "Consultation and Knowledge Sharing",
+            "definition": "Ability to gather stakeholder feedback, communicate policy or process changes and share lessons that improve compliance and service delivery.",
+            "levels": {
+              "Emerging": "Participates in consultations and shares basic information with guidance.",
+              "Developing": "Provides routine briefings and documents stakeholder inputs.",
+              "Proficient": "Uses consultation results to improve procedures and address recurring concerns.",
+              "Advanced": "Leads knowledge-sharing and consultation initiatives that strengthen sector-wide understanding and compliance."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "RDD",
     "name": "Research and Development Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Philippine Railways Institute",
     "officeOrder": 15,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "PRI-Research and Development Division_Final.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Research Planning and Prioritization",
+        "definition": "The ability to identify research needs, define research priorities, and develop systematic research plans aligned with the Philippine Railways Institute’s (PRI) mandate and railway human-resource development requirements.",
+        "dimensions": [
+          {
+            "name": "Research Needs Identification",
+            "definition": "Ability to identify and define research needs based on railway-sector issues, policy gaps, competency requirements, and stakeholder concerns.",
+            "levels": {
+              "Emerging": "Identifies assigned research topics using existing references and guidance.",
+              "Developing": "Defines routine research needs and gathers relevant background information.",
+              "Proficient": "Assesses complex research needs and prioritizes studies based on significance, urgency, and feasibility.",
+              "Advanced": "Establishes strategic research priorities and directs a division-wide research agenda."
+            }
+          },
+          {
+            "name": "Research Scoping and Objectives",
+            "definition": "Ability to establish clear research questions, objectives, scope, assumptions, and expected outputs.",
+            "levels": {
+              "Emerging": "Assists in defining research questions and scope with guidance.",
+              "Developing": "Develops clear objectives and scope for routine studies.",
+              "Proficient": "Refines complex research questions and ensures alignment with intended decisions.",
+              "Advanced": "Provides expert direction on major or cross-cutting research initiatives."
+            }
+          },
+          {
+            "name": "Research Work Planning",
+            "definition": "Ability to translate research objectives into activities, methodologies, schedules, resources, and deliverables.",
+            "levels": {
+              "Emerging": "Follows an approved research plan and schedule with guidance.",
+              "Developing": "Prepares work plans for routine research activities.",
+              "Proficient": "Develops integrated plans for complex studies and manages dependencies.",
+              "Advanced": "Leads portfolio-level research planning and resource prioritization."
+            }
+          },
+          {
+            "name": "Research Prioritization",
+            "definition": "Ability to rank research initiatives according to mandate alignment, policy relevance, risk, impact, and available resources.",
+            "levels": {
+              "Emerging": "Applies established prioritization criteria with guidance.",
+              "Developing": "Prioritizes routine research activities using agreed criteria.",
+              "Proficient": "Balances competing research demands and recommends priorities for complex studies.",
+              "Advanced": "Establishes prioritization principles that guide the Division’s research program."
+            }
+          },
+          {
+            "name": "Research Governance and Ethics",
+            "definition": "Ability to apply appropriate research integrity, confidentiality, objectivity, and ethical safeguards.",
+            "levels": {
+              "Emerging": "Follows prescribed research protocols and confidentiality requirements.",
+              "Developing": "Applies routine ethical and quality safeguards independently.",
+              "Proficient": "Identifies and manages complex ethical, confidentiality, or conflict-of-interest concerns.",
+              "Advanced": "Establishes strong research governance and integrity practices."
+            }
+          },
+          {
+            "name": "Research Delivery Oversight",
+            "definition": "Ability to monitor research progress, address constraints, and ensure completion of quality outputs.",
+            "levels": {
+              "Emerging": "Tracks assigned activities and reports issues with guidance.",
+              "Developing": "Monitors routine research deliverables and timelines.",
+              "Proficient": "Manages complex research schedules, risks, and corrective actions.",
+              "Advanced": "Provides strategic oversight of major research projects and research portfolio performance."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Research Design and Methodology",
+        "definition": "The ability to design and apply appropriate qualitative, quantitative, mixed-methods, and evidence-review approaches to generate reliable and useful research findings.",
+        "dimensions": [
+          {
+            "name": "Research Method Selection",
+            "definition": "Ability to select research methods appropriate to the research questions, data, resources, and intended use.",
+            "levels": {
+              "Emerging": "Uses prescribed methods for assigned tasks with guidance.",
+              "Developing": "Selects suitable methods for routine research questions.",
+              "Proficient": "Combines or adapts methods for complex or multi-dimensional studies.",
+              "Advanced": "Provides expert methodological direction for significant research programs."
+            }
+          },
+          {
+            "name": "Research Framework and Instruments",
+            "definition": "Ability to develop conceptual frameworks, data-collection instruments, protocols, and analytical plans.",
+            "levels": {
+              "Emerging": "Assists in preparing instruments using approved formats.",
+              "Developing": "Develops and tests routine research instruments accurately.",
+              "Proficient": "Designs robust instruments and frameworks for complex studies.",
+              "Advanced": "Establishes methodological standards and reviews advanced research designs."
+            }
+          },
+          {
+            "name": "Sampling and Data Collection Design",
+            "definition": "Ability to determine appropriate sources, populations, samples, and data-collection procedures.",
+            "levels": {
+              "Emerging": "Follows approved sampling and collection procedures with guidance.",
+              "Developing": "Implements routine data-collection plans accurately.",
+              "Proficient": "Designs sampling and collection approaches for complex or diverse populations.",
+              "Advanced": "Provides expert advice on difficult sampling and data-collection issues."
+            }
+          },
+          {
+            "name": "Validity and Reliability",
+            "definition": "Ability to ensure that research tools, data, and procedures produce credible, consistent, and defensible results.",
+            "levels": {
+              "Emerging": "Performs basic checks using prescribed procedures.",
+              "Developing": "Applies routine validation and reliability checks.",
+              "Proficient": "Evaluates methodological limitations and strengthens study credibility.",
+              "Advanced": "Establishes quality standards for validity, reliability, and research defensibility."
+            }
+          },
+          {
+            "name": "Research Adaptation and Innovation",
+            "definition": "Ability to adapt research approaches to emerging issues, new technologies, data limitations, and changing stakeholder needs.",
+            "levels": {
+              "Emerging": "Uses established approaches and adopts minor adjustments with guidance.",
+              "Developing": "Adapts routine methods when conditions change.",
+              "Proficient": "Develops innovative or alternative approaches to address complex research constraints.",
+              "Advanced": "Introduces advanced methods and promotes research innovation across the Division."
+            }
+          },
+          {
+            "name": "Methodological Documentation",
+            "definition": "Ability to document research design, procedures, assumptions, limitations, and methodological decisions clearly.",
+            "levels": {
+              "Emerging": "Records assigned procedures and assumptions with guidance.",
+              "Developing": "Documents routine methods and limitations accurately.",
+              "Proficient": "Produces comprehensive methodological documentation for complex studies.",
+              "Advanced": "Sets documentation standards that support transparency and reproducibility."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Data Collection, Management and Analysis",
+        "definition": "The ability to gather, validate, organize, analyze, and interpret data and information relevant to railway human-resource development and policy research.",
+        "dimensions": [
+          {
+            "name": "Data Source Identification",
+            "definition": "Ability to identify relevant primary and secondary data sources and assess their suitability for research purposes.",
+            "levels": {
+              "Emerging": "Locates assigned data sources with guidance.",
+              "Developing": "Identifies suitable routine sources and documents source information.",
+              "Proficient": "Evaluates multiple or conflicting sources for complex studies.",
+              "Advanced": "Establishes reliable data-source strategies and partnerships."
+            }
+          },
+          {
+            "name": "Data Collection and Validation",
+            "definition": "Ability to collect, verify, clean, and validate data using appropriate procedures and quality controls.",
+            "levels": {
+              "Emerging": "Collects assigned data and performs basic checks with guidance.",
+              "Developing": "Collects and validates routine data accurately.",
+              "Proficient": "Resolves complex data-quality issues and validates data from multiple sources.",
+              "Advanced": "Establishes division-wide data-quality and validation practices."
+            }
+          },
+          {
+            "name": "Data Organization and Management",
+            "definition": "Ability to structure, code, store, retrieve, and maintain research data securely and systematically.",
+            "levels": {
+              "Emerging": "Organizes assigned data using prescribed formats.",
+              "Developing": "Maintains complete and orderly routine datasets.",
+              "Proficient": "Designs or improves data structures for complex research requirements.",
+              "Advanced": "Provides expert direction on research data-management systems and controls."
+            }
+          },
+          {
+            "name": "Data Analysis",
+            "definition": "Ability to apply appropriate analytical techniques to identify patterns, relationships, gaps, and significant findings.",
+            "levels": {
+              "Emerging": "Performs basic calculations or coding with guidance.",
+              "Developing": "Conducts routine descriptive analysis accurately.",
+              "Proficient": "Applies appropriate analytical techniques to complex datasets and issues.",
+              "Advanced": "Provides expert analytical direction and reviews advanced research analyses."
+            }
+          },
+          {
+            "name": "Interpretation and Synthesis",
+            "definition": "Ability to translate data results into meaningful findings, implications, and evidence-based conclusions.",
+            "levels": {
+              "Emerging": "Summarizes assigned findings with guidance.",
+              "Developing": "Interprets routine results accurately and links them to research objectives.",
+              "Proficient": "Synthesizes complex findings and explains implications for policy or programs.",
+              "Advanced": "Provides authoritative interpretation of significant or cross-cutting findings."
+            }
+          },
+          {
+            "name": "Data Integrity and Security",
+            "definition": "Ability to protect research data, maintain traceability, and ensure appropriate confidentiality, access, and integrity.",
+            "levels": {
+              "Emerging": "Follows data-security and documentation procedures with guidance.",
+              "Developing": "Applies routine safeguards and maintains traceable records.",
+              "Proficient": "Manages complex data-security, access, or integrity concerns.",
+              "Advanced": "Establishes strong research data-governance and continuity safeguards."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Railway Human-Resource Development Research",
+        "definition": "The ability to conduct and apply research on railway workforce competencies, training needs, occupational requirements, safety, and professional development.",
+        "dimensions": [
+          {
+            "name": "Competency and Workforce Analysis",
+            "definition": "Ability to assess railway workforce roles, competency requirements, qualification gaps, and emerging capability needs.",
+            "levels": {
+              "Emerging": "Assists in compiling workforce and competency information with guidance.",
+              "Developing": "Conducts routine competency or workforce analysis accurately.",
+              "Proficient": "Analyzes complex workforce capability gaps and future competency requirements.",
+              "Advanced": "Provides strategic direction on railway workforce and competency research."
+            }
+          },
+          {
+            "name": "Training Needs Analysis",
+            "definition": "Ability to identify and analyze training needs based on performance requirements, competency gaps, operational changes, and safety concerns.",
+            "levels": {
+              "Emerging": "Gathers training-needs information using prescribed tools with guidance.",
+              "Developing": "Conducts routine training-needs analysis and identifies clear gaps.",
+              "Proficient": "Develops comprehensive training-needs assessments for complex groups or systems.",
+              "Advanced": "Establishes evidence-based training-needs analysis approaches for PRI."
+            }
+          },
+          {
+            "name": "Occupational and Qualification Research",
+            "definition": "Ability to examine occupational roles, qualification requirements, certification pathways, and relevant standards.",
+            "levels": {
+              "Emerging": "Locates occupational and qualification references with guidance.",
+              "Developing": "Compares routine requirements and documents findings.",
+              "Proficient": "Analyzes complex or changing qualification and occupational standards.",
+              "Advanced": "Provides expert advice on occupational and qualification research."
+            }
+          },
+          {
+            "name": "Railway Safety and Human Factors Research",
+            "definition": "Ability to examine human factors, safety competencies, operational risks, and workforce practices affecting railway safety.",
+            "levels": {
+              "Emerging": "Identifies basic safety-related research information with guidance.",
+              "Developing": "Conducts routine research on safety competencies and workforce practices.",
+              "Proficient": "Analyzes complex human-factor and safety issues and develops evidence-based findings.",
+              "Advanced": "Provides expert research direction on strategic railway safety and human-resource concerns."
+            }
+          },
+          {
+            "name": "Emerging Technology and Skills Research",
+            "definition": "Ability to assess how new railway technologies, systems, and operating models affect workforce competencies and training requirements.",
+            "levels": {
+              "Emerging": "Gathers information on emerging technologies with guidance.",
+              "Developing": "Identifies routine implications of technology changes.",
+              "Proficient": "Assesses complex technology-related competency and training impacts.",
+              "Advanced": "Leads foresight research on future railway skills and workforce readiness."
+            }
+          },
+          {
+            "name": "Research Application to Human Resource Development (HRD) Programs",
+            "definition": "Ability to translate research findings into recommendations for competency frameworks, curricula, training programs, certification, and accreditation.",
+            "levels": {
+              "Emerging": "Provides research inputs to assigned outputs with guidance.",
+              "Developing": "Develops practical recommendations from routine findings.",
+              "Proficient": "Designs comprehensive research-based recommendations for HRD interventions.",
+              "Advanced": "Shapes strategic HRD policies and programs using research evidence."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Policy, Guideline and Technical Standards Development",
+        "definition": "The ability to translate research evidence and stakeholder inputs into coherent, practical, and technically sound policies, guidelines, competency requirements, and standards.",
+        "dimensions": [
+          {
+            "name": "Policy and Regulatory Research",
+            "definition": "Ability to review laws, policies, rules, standards, and institutional practices relevant to railway human-resource development.",
+            "levels": {
+              "Emerging": "Locates relevant references with guidance.",
+              "Developing": "Conducts routine policy and regulatory research accurately.",
+              "Proficient": "Analyzes complex or conflicting policy and regulatory requirements.",
+              "Advanced": "Provides expert direction on significant policy and regulatory research."
+            }
+          },
+          {
+            "name": "Evidence-Based Policy Formulation",
+            "definition": "Ability to develop policy options and recommendations grounded in research findings, stakeholder needs, and institutional priorities.",
+            "levels": {
+              "Emerging": "Assists in drafting policy inputs using established guidance.",
+              "Developing": "Develops sound recommendations for routine policy issues.",
+              "Proficient": "Formulates evidence-based options for complex policy concerns.",
+              "Advanced": "Provides strategic advice on major policy directions and reforms."
+            }
+          },
+          {
+            "name": "Guideline and Procedure Development",
+            "definition": "Ability to draft practical guidelines, procedures, criteria, and implementation mechanisms for railway human-resource development.",
+            "levels": {
+              "Emerging": "Assists in drafting provisions using approved formats.",
+              "Developing": "Prepares clear routine guidelines and procedures.",
+              "Proficient": "Develops comprehensive guidance for complex operational requirements.",
+              "Advanced": "Establishes high-quality guideline development approaches and standards."
+            }
+          },
+          {
+            "name": "Technical Standards Development",
+            "definition": "Ability to develop, review, and recommend technical and competency standards that support safe and effective railway operations.",
+            "levels": {
+              "Emerging": "Assists in compiling technical references with guidance.",
+              "Developing": "Drafts routine standards provisions accurately.",
+              "Proficient": "Develops or reviews complex standards using evidence and stakeholder inputs.",
+              "Advanced": "Provides expert direction on major or sector-wide technical standards."
+            }
+          },
+          {
+            "name": "Policy Alignment and Harmonization",
+            "definition": "Ability to align proposed policies and standards with PRI’s mandate, national priorities, existing regulations, and related agency requirements.",
+            "levels": {
+              "Emerging": "Identifies basic policy linkages with guidance.",
+              "Developing": "Applies established alignment requirements in routine work.",
+              "Proficient": "Resolves inconsistencies and recommends harmonized approaches.",
+              "Advanced": "Provides authoritative advice on policy and standards coherence."
+            }
+          },
+          {
+            "name": "Implementation and Review Support",
+            "definition": "Ability to assess the implementation of policies, guidelines, and standards and recommend improvements based on evidence and feedback.",
+            "levels": {
+              "Emerging": "Documents basic implementation concerns with guidance.",
+              "Developing": "Monitors routine implementation and identifies issues.",
+              "Proficient": "Evaluates complex implementation results and recommends corrective measures.",
+              "Advanced": "Leads continuous improvement of policies, guidelines, and technical standards."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Research Reporting and Knowledge Products",
+        "definition": "The ability to communicate research processes, findings, conclusions, and recommendations through clear, accurate, credible, and decision-oriented knowledge products.",
+        "dimensions": [
+          {
+            "name": "Research Report Structure and Content",
+            "definition": "Ability to organize research reports logically and ensure that required sections, evidence, findings, and recommendations are complete.",
+            "levels": {
+              "Emerging": "Assists in preparing report sections using prescribed formats.",
+              "Developing": "Prepares accurate routine research reports.",
+              "Proficient": "Produces comprehensive reports for complex studies with coherent analysis.",
+              "Advanced": "Sets standards for high-quality research reporting."
+            }
+          },
+          {
+            "name": "Technical and Policy Writing",
+            "definition": "Ability to write clear technical papers, policy briefs, executive summaries, and research-based recommendations for intended audiences.",
+            "levels": {
+              "Emerging": "Drafts assigned portions with guidance.",
+              "Developing": "Prepares clear routine technical and policy materials.",
+              "Proficient": "Writes persuasive and analytically rigorous products for complex issues.",
+              "Advanced": "Provides expert review and direction on major knowledge products."
+            }
+          },
+          {
+            "name": "Findings and Recommendation Development",
+            "definition": "Ability to formulate conclusions and recommendations that are supported by evidence and responsive to research objectives.",
+            "levels": {
+              "Emerging": "Summarizes findings and drafts basic recommendations with guidance.",
+              "Developing": "Develops practical recommendations from routine findings.",
+              "Proficient": "Formulates actionable recommendations for complex policy or program issues.",
+              "Advanced": "Provides authoritative recommendations on strategic research concerns."
+            }
+          },
+          {
+            "name": "Presentation and Dissemination",
+            "definition": "Ability to present and disseminate research findings through briefings, workshops, consultations, and other appropriate channels.",
+            "levels": {
+              "Emerging": "Presents assigned information using prepared materials with guidance.",
+              "Developing": "Delivers clear routine research presentations.",
+              "Proficient": "Communicates complex findings effectively to varied audiences.",
+              "Advanced": "Represents the Division in high-level research briefings and knowledge forums."
+            }
+          },
+          {
+            "name": "Editing and Quality Assurance",
+            "definition": "Ability to review research outputs for accuracy, consistency, clarity, methodological soundness, and compliance with required standards.",
+            "levels": {
+              "Emerging": "Checks basic completeness and obvious errors with guidance.",
+              "Developing": "Edits routine outputs accurately.",
+              "Proficient": "Reviews complex outputs and resolves substantive quality issues.",
+              "Advanced": "Provides expert quality assurance and establishes editorial standards."
+            }
+          },
+          {
+            "name": "Knowledge Product Management",
+            "definition": "Ability to organize, classify, preserve, update, and disseminate research outputs and reference materials.",
+            "levels": {
+              "Emerging": "Files and retrieves assigned materials using prescribed procedures.",
+              "Developing": "Maintains accessible and organized routine knowledge products.",
+              "Proficient": "Develops structured repositories and improves retrieval for complex information needs.",
+              "Advanced": "Leads institutional knowledge-product systems and dissemination strategies."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stakeholder and Inter-Agency Research Coordination",
+        "definition": "The ability to establish and maintain productive coordination with government agencies, academic institutions, railway operators, research organizations, and other stakeholders in support of PRI research and development.",
+        "dimensions": [
+          {
+            "name": "Stakeholder Mapping and Engagement",
+            "definition": "Ability to identify relevant stakeholders, understand their interests, and establish appropriate research coordination arrangements.",
+            "levels": {
+              "Emerging": "Identifies assigned stakeholders with guidance.",
+              "Developing": "Maintains routine stakeholder contacts and coordination records.",
+              "Proficient": "Develops engagement approaches for complex or multi-sector studies.",
+              "Advanced": "Establishes strategic stakeholder networks for PRI research."
+            }
+          },
+          {
+            "name": "Inter-Agency Coordination",
+            "definition": "Ability to coordinate research activities, data requests, consultations, and technical inputs with government agencies and institutions.",
+            "levels": {
+              "Emerging": "Routes requests and follows coordination procedures with guidance.",
+              "Developing": "Coordinates routine inter-agency activities effectively.",
+              "Proficient": "Resolves complex coordination issues and aligns multiple institutions.",
+              "Advanced": "Leads major inter-agency research collaborations."
+            }
+          },
+          {
+            "name": "Academic and Research Partnerships",
+            "definition": "Ability to develop and manage collaboration with universities, research centers, professional organizations, and technical experts.",
+            "levels": {
+              "Emerging": "Assists in coordinating research partners with guidance.",
+              "Developing": "Supports routine research collaboration activities.",
+              "Proficient": "Develops partnership arrangements for complex research needs.",
+              "Advanced": "Provides strategic direction on research partnerships and external expertise."
+            }
+          },
+          {
+            "name": "Consultation and Technical Facilitation",
+            "definition": "Ability to plan and facilitate consultations, technical working groups, workshops, and validation activities.",
+            "levels": {
+              "Emerging": "Supports consultations using prepared materials with guidance.",
+              "Developing": "Facilitates routine sessions and documents inputs accurately.",
+              "Proficient": "Manages complex consultations and reconciles diverse technical views.",
+              "Advanced": "Leads high-level technical consultations and consensus-building processes."
+            }
+          },
+          {
+            "name": "Stakeholder Feedback Integration",
+            "definition": "Ability to assess, document, and incorporate relevant stakeholder inputs into research designs, findings, policies, and standards.",
+            "levels": {
+              "Emerging": "Records stakeholder inputs with guidance.",
+              "Developing": "Integrates relevant routine feedback into assigned outputs.",
+              "Proficient": "Evaluates conflicting or complex feedback and recommends appropriate responses.",
+              "Advanced": "Establishes systematic mechanisms for stakeholder-informed research."
+            }
+          },
+          {
+            "name": "Coordination Accountability",
+            "definition": "Ability to monitor commitments, deliverables, agreements, and follow-up actions arising from research coordination.",
+            "levels": {
+              "Emerging": "Tracks assigned commitments with guidance.",
+              "Developing": "Maintains accurate routine coordination records and follow-ups.",
+              "Proficient": "Manages complex coordination deliverables and resolves delays.",
+              "Advanced": "Provides division-wide oversight of critical research partnerships and commitments."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Research Monitoring, Evaluation and Continuous Improvement",
+        "definition": "The ability to monitor research implementation and outputs, evaluate relevance and effectiveness, and use lessons learned to improve PRI’s research and human-resource development initiatives.",
+        "dimensions": [
+          {
+            "name": "Research Progress Monitoring",
+            "definition": "Ability to track research activities, milestones, deliverables, resources, and implementation issues.",
+            "levels": {
+              "Emerging": "Updates assigned monitoring information with guidance.",
+              "Developing": "Monitors routine research progress accurately.",
+              "Proficient": "Analyzes complex progress issues and initiates corrective action.",
+              "Advanced": "Provides strategic oversight of research portfolio performance."
+            }
+          },
+          {
+            "name": "Research Output Evaluation",
+            "definition": "Ability to assess the quality, relevance, timeliness, usefulness, and policy applicability of research outputs.",
+            "levels": {
+              "Emerging": "Applies basic evaluation criteria with guidance.",
+              "Developing": "Evaluates routine outputs against approved requirements.",
+              "Proficient": "Conducts comprehensive evaluation of complex research outputs.",
+              "Advanced": "Establishes evaluation standards and provides expert judgments on major studies."
+            }
+          },
+          {
+            "name": "Outcome and Impact Assessment",
+            "definition": "Ability to assess how research findings influence policies, standards, programs, training interventions, and workforce development outcomes.",
+            "levels": {
+              "Emerging": "Collects basic outcome information with guidance.",
+              "Developing": "Documents routine use and results of research outputs.",
+              "Proficient": "Assesses complex outcomes and identifies contribution to HRD improvements.",
+              "Advanced": "Provides strategic evaluation of research impact and institutional value."
+            }
+          },
+          {
+            "name": "Lessons Learned and Knowledge Capture",
+            "definition": "Ability to identify, document, and apply lessons learned from research implementation and stakeholder experience.",
+            "levels": {
+              "Emerging": "Records lessons learned with guidance.",
+              "Developing": "Documents routine lessons and improvement points.",
+              "Proficient": "Synthesizes lessons across complex studies and recommends changes.",
+              "Advanced": "Leads institutional learning and research knowledge-retention practices."
+            }
+          },
+          {
+            "name": "Corrective Action and Improvement",
+            "definition": "Ability to recommend and implement improvements to research methods, processes, outputs, and coordination mechanisms.",
+            "levels": {
+              "Emerging": "Implements assigned improvements with guidance.",
+              "Developing": "Applies routine corrective actions and follows up results.",
+              "Proficient": "Develops improvement plans for complex or recurring issues.",
+              "Advanced": "Drives continuous improvement across the Division’s research system."
+            }
+          },
+          {
+            "name": "Research Performance Reporting",
+            "definition": "Ability to consolidate and communicate research performance, results, risks, and improvement recommendations to management.",
+            "levels": {
+              "Emerging": "Compiles assigned performance information with guidance.",
+              "Developing": "Prepares accurate routine research performance reports.",
+              "Proficient": "Analyzes trends and prepares decision-oriented management briefs.",
+              "Advanced": "Provides expert advice on research performance and strategic improvement priorities."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "TD",
     "name": "Training Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Philippine Railways Institute",
     "officeOrder": 15,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "PRI_Training Division.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Training Program Planning and Development",
+        "definition": "The ability to identify training requirements and translate them into relevant, structured, adequately resourced, and competency-based training programs aligned with the Philippine Railways Institute’s (PRI) mandate, railway-sector needs, safety objectives, and workforce development priorities.",
+        "dimensions": [
+          {
+            "name": "Training Needs Identification",
+            "definition": "Ability to identify and assess training requirements using competency gaps, operational needs, safety concerns, performance information, technological changes, and stakeholder inputs.",
+            "levels": {
+              "Emerging": "Assists in gathering training-needs information through prescribed forms, interviews, records, and consultations. Identifies obvious learning needs with close guidance.",
+              "Developing": "Conducts routine training-needs assessments, organizes findings, and identifies competency or performance gaps affecting specific learner groups.",
+              "Proficient": "Analyzes complex and cross-functional training needs, validates findings with stakeholders, and prioritizes interventions based on urgency, impact, and feasibility.",
+              "Advanced": "Establishes strategic training-needs assessment approaches for PRI and ensures that training priorities respond to current and emerging railway-sector requirements."
+            }
+          },
+          {
+            "name": "Training Program Planning",
+            "definition": "Ability to translate identified needs into objectives, activities, schedules, resources, targets, and implementation arrangements.",
+            "levels": {
+              "Emerging": "Follows approved training plans, schedules, and activity requirements. Completes assigned planning tasks using prescribed templates and guidance.",
+              "Developing": "Prepares work plans for routine training activities, including schedules, participant requirements, resources, deliverables, and monitoring arrangements.",
+              "Proficient": "Develops integrated plans for complex or multi-part programs, manages interdependent activities, and adjusts schedules and resources in response to implementation conditions.",
+              "Advanced": "Directs the Institute’s training portfolio and resource priorities, balancing strategic needs, operational urgency, available funding, and long-term workforce development goals."
+            }
+          },
+          {
+            "name": "Program and Curriculum Design",
+            "definition": "Ability to develop training structures, learning objectives, modules, delivery approaches, and assessment strategies appropriate to the required competencies.",
+            "levels": {
+              "Emerging": "Assists in preparing learning objectives, outlines, and training materials using approved curriculum formats and established instructional guidance.",
+              "Developing": "Develops complete designs for routine programs and ensures that objectives, content, activities, and assessments are logically connected.",
+              "Proficient": "Designs or reviews comprehensive curricula for specialized, technical, safety-related, or complex competency requirements and ensures alignment with industry standards.",
+              "Advanced": "Provides expert direction on major curriculum development initiatives and establishes design principles that promote consistency, relevance, flexibility, and competency-based learning."
+            }
+          },
+          {
+            "name": "Training Resource Planning",
+            "definition": "Ability to determine, coordinate, and optimize the trainers, facilities, equipment, technology, materials, and funding needed for training delivery.",
+            "levels": {
+              "Emerging": "Identifies assigned resource requirements and confirms availability using checklists and established procedures. Reports shortages or constraints promptly.",
+              "Developing": "Coordinates routine trainers, venues, equipment, materials, and logistical requirements and maintains accurate resource records.",
+              "Proficient": "Resolves competing or complex resource requirements, develops alternatives, and ensures that resources are sufficient for specialized or multi-site programs.",
+              "Advanced": "Optimizes training resources across PRI and its partner network, establishes resource standards, and recommends strategic investments to improve training capacity."
+            }
+          },
+          {
+            "name": "Program Alignment and Innovation",
+            "definition": "Ability to ensure that training programs remain aligned with PRI mandates, competency standards, railway developments, safety requirements, and emerging learning approaches.",
+            "levels": {
+              "Emerging": "Applies approved policies, standards, and program requirements and makes minor adjustments with guidance when learner or delivery conditions change.",
+              "Developing": "Updates routine programs based on approved changes in policies, technology, operational requirements, and learner feedback.",
+              "Proficient": "Develops innovative or blended approaches for emerging needs and evaluates whether new methods improve accessibility, learning effectiveness, and workplace application.",
+              "Advanced": "Leads strategic modernization of PRI training programs and promotes innovation that strengthens railway workforce readiness, safety, professionalism, and continuous development."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Training Delivery and Facilitation",
+        "definition": "The ability to prepare and deliver effective learning activities through appropriate instructional methods, facilitation techniques, learning technologies, and learner-support practices.",
+        "dimensions": [
+          {
+            "name": "Training Preparation",
+            "definition": "Ability to prepare the instructional, logistical, technical, and learner-related requirements necessary for effective training delivery.",
+            "levels": {
+              "Emerging": "Completes assigned preparations using checklists, approved materials, and guidance. Confirms basic requirements and reports missing items.",
+              "Developing": "Prepares routine training activities accurately and on time, including materials, attendance, venue, equipment, and participant information.",
+              "Proficient": "Coordinates complex preparations involving multiple trainers, locations, technologies, or special learner requirements and anticipates potential disruptions.",
+              "Advanced": "Directs readiness for major or high-impact training programs and establishes preparation standards that ensure consistent delivery quality."
+            }
+          },
+          {
+            "name": "Instructional Delivery",
+            "definition": "Ability to communicate training content clearly, accurately, and appropriately using methods suited to the subject and learners.",
+            "levels": {
+              "Emerging": "Delivers assigned portions using approved materials and follows the trainer’s instructions. Seeks assistance when content or learner questions exceed assigned authority.",
+              "Developing": "Facilitates routine sessions clearly, uses suitable examples and activities, and checks learner understanding during delivery.",
+              "Proficient": "Adapts instructional methods to complex subjects, varied learner backgrounds, technical content, and changing classroom conditions while maintaining accuracy.",
+              "Advanced": "Provides expert instructional direction, models exemplary delivery, and mentors trainers in translating complex railway concepts into effective learning experiences."
+            }
+          },
+          {
+            "name": "Facilitation and Engagement",
+            "definition": "Ability to encourage participation, manage discussions, address questions, and maintain a respectful and productive learning environment.",
+            "levels": {
+              "Emerging": "Uses basic questioning, listening, and participation techniques with guidance. Maintains courtesy and follows established classroom rules.",
+              "Developing": "Facilitates routine discussions, responds to common questions, encourages participation, and manages ordinary classroom concerns independently.",
+              "Proficient": "Manages diverse learners, difficult discussions, conflicting views, and complex learning situations while keeping activities focused on the objectives.",
+              "Advanced": "Leads high-level facilitation and develops facilitation capability in others through coaching, observation, feedback, and the use of advanced engagement strategies."
+            }
+          },
+          {
+            "name": "Learning Technology and Resources",
+            "definition": "Ability to use and integrate instructional technologies, platforms, equipment, and learning resources to support effective and accessible learning.",
+            "levels": {
+              "Emerging": "Uses prescribed platforms, presentation tools, and equipment with guidance. Follows basic procedures for technical preparation and troubleshooting.",
+              "Developing": "Uses available technologies effectively in routine face-to-face, online, or blended delivery and provides learners with clear instructions.",
+              "Proficient": "Integrates multiple technologies and resolves complex delivery issues, including connectivity, platform, accessibility, and resource limitations.",
+              "Advanced": "Leads the adoption of advanced and blended-learning approaches and establishes standards for the effective, inclusive, and sustainable use of learning technology."
+            }
+          },
+          {
+            "name": "Learner Support and Delivery Control",
+            "definition": "Ability to provide learner assistance and maintain control over attendance, participation, time, documentation, and compliance with delivery requirements.",
+            "levels": {
+              "Emerging": "Provides basic learner assistance, records attendance and participation, and reports concerns or deviations with guidance.",
+              "Developing": "Responds to routine learner concerns, monitors participation, maintains delivery records, and ensures compliance with approved schedules and procedures.",
+              "Proficient": "Addresses complex learning barriers and delivery deviations, coordinates appropriate interventions, and protects the continuity and quality of the learning activity.",
+              "Advanced": "Establishes learner-support and delivery-control practices that improve completion, learner experience, accountability, and consistency across PRI training programs."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Trainer and Instructor Development",
+        "definition": "The ability to identify, qualify, develop, support, evaluate, and monitor trainers and instructors who deliver railway human-resource development programs.",
+        "dimensions": [
+          {
+            "name": "Trainer Qualification and Selection",
+            "definition": "Ability to identify trainer requirements and assess technical expertise, industry experience, instructional capability, credentials, and suitability for assigned programs.",
+            "levels": {
+              "Emerging": "Checks trainer credentials and supporting documents using prescribed criteria with guidance. Identifies missing or incomplete requirements.",
+              "Developing": "Screens routine trainer qualifications accurately and recommends suitable trainers based on approved requirements and program objectives.",
+              "Proficient": "Evaluates complex trainer profiles, compares technical and instructional qualifications, and recommends appropriate assignments for specialized programs.",
+              "Advanced": "Establishes trainer qualification and selection standards that ensure the Institute engages competent, credible, ethical, and effective trainers."
+            }
+          },
+          {
+            "name": "Trainer Development Planning",
+            "definition": "Ability to identify trainer capability gaps and prepare development plans that strengthen technical, instructional, assessment, and facilitation competencies.",
+            "levels": {
+              "Emerging": "Gathers trainer-development information and assists in identifying basic capability gaps with guidance.",
+              "Developing": "Prepares routine development plans and recommends appropriate learning activities, coaching, observation, or mentoring interventions.",
+              "Proficient": "Designs comprehensive development interventions for varied trainer groups and aligns them with program needs, performance findings, and emerging standards.",
+              "Advanced": "Leads a strategic trainer-development program that builds a sustainable pool of qualified instructors and supports succession and capability continuity."
+            }
+          },
+          {
+            "name": "Train-the-Trainer Delivery",
+            "definition": "Ability to design, coordinate, and deliver activities that improve trainers’ instructional, technical, assessment, and facilitation capabilities.",
+            "levels": {
+              "Emerging": "Supports train-the-trainer activities and delivers assigned portions using approved materials and guidance.",
+              "Developing": "Delivers routine trainer-development sessions effectively and applies appropriate practice, demonstration, feedback, and reflection activities.",
+              "Proficient": "Facilitates complex trainer-development programs and adapts methods to address different levels of instructional experience and technical specialization.",
+              "Advanced": "Provides expert direction and mentoring for trainer development and establishes advanced approaches for improving instructional excellence across PRI."
+            }
+          },
+          {
+            "name": "Trainer Performance Assessment",
+            "definition": "Ability to observe, assess, document, and provide constructive feedback on trainer performance against established standards.",
+            "levels": {
+              "Emerging": "Uses prescribed observation tools and records basic performance information with guidance. Reports significant concerns appropriately.",
+              "Developing": "Conducts routine trainer assessments, identifies strengths and gaps, and provides specific, respectful, and actionable feedback.",
+              "Proficient": "Evaluates complex instructional performance, analyzes recurring issues, and recommends targeted development or corrective interventions.",
+              "Advanced": "Establishes trainer-performance assurance systems and uses assessment results to guide qualification, development, recognition, and improvement decisions."
+            }
+          },
+          {
+            "name": "Trainer Support and Monitoring",
+            "definition": "Ability to provide continuing technical assistance, coaching, mentoring, records management, and monitoring of trainer qualifications and performance.",
+            "levels": {
+              "Emerging": "Provides basic trainer support, updates assigned records, and refers complex concerns to the appropriate authority.",
+              "Developing": "Responds to routine trainer requests, monitors qualification requirements, and maintains accurate profiles and performance documentation.",
+              "Proficient": "Coaches trainers through complex instructional or technical issues, identifies compliance risks, and recommends appropriate action on trainer status.",
+              "Advanced": "Builds a sustainable coaching, mentoring, qualification-monitoring, and performance-support system for the Institute’s trainer community."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Training Implementation, Logistics and Resource Management",
+        "definition": "The ability to coordinate the operational, logistical, administrative, financial, and resource requirements necessary for the timely, compliant, and effective implementation of training activities.",
+        "dimensions": [
+          {
+            "name": "Schedule and Participant Management",
+            "definition": "Ability to prepare and maintain training schedules, coordinate participants, manage confirmations, and address attendance and participation requirements.",
+            "levels": {
+              "Emerging": "Updates assigned schedules and participant lists using prescribed formats and guidance. Reports changes, cancellations, or attendance concerns.",
+              "Developing": "Coordinates routine schedules, confirmations, attendance, and participant requirements independently and maintains accurate records.",
+              "Proficient": "Manages complex schedule changes, participant issues, special requirements, and competing program demands while protecting delivery timelines.",
+              "Advanced": "Directs integrated scheduling and participant-management systems and establishes practices that improve access, attendance, completion, and program efficiency."
+            }
+          },
+          {
+            "name": "Venue and Equipment Coordination",
+            "definition": "Ability to arrange suitable venues, facilities, equipment, connectivity, and technical support for training delivery.",
+            "levels": {
+              "Emerging": "Assists in arranging venues and equipment using checklists and established procedures. Reports deficiencies before delivery.",
+              "Developing": "Coordinates routine venue, equipment, connectivity, and technical-support requirements and confirms readiness before activities.",
+              "Proficient": "Resolves complex facility, equipment, accessibility, or connectivity issues and develops practical alternatives to avoid disruption.",
+              "Advanced": "Establishes reliable training-facility and equipment systems, including standards for readiness, safety, accessibility, maintenance, and continuity."
+            }
+          },
+          {
+            "name": "Training Materials and Supplies",
+            "definition": "Ability to prepare, control, distribute, and maintain learning materials, supplies, and other resources required for training activities.",
+            "levels": {
+              "Emerging": "Prepares and distributes assigned materials and supplies using approved lists and procedures. Reports shortages or damaged items.",
+              "Developing": "Maintains routine inventories, distribution records, and material requirements accurately and ensures timely availability for scheduled activities.",
+              "Proficient": "Plans materials for complex or multi-site programs, controls versioning, prevents shortages, and recommends efficient resource use.",
+              "Advanced": "Optimizes learning-resource systems and establishes standards for material quality, accessibility, sustainability, version control, and distribution."
+            }
+          },
+          {
+            "name": "Budget and Resource Utilization",
+            "definition": "Ability to plan, monitor, document, and optimize the use of training funds and resources within approved policies and requirements.",
+            "levels": {
+              "Emerging": "Tracks assigned expenses and supporting documents with guidance and follows approved spending and documentation procedures.",
+              "Developing": "Monitors routine resource use, maintains complete financial and administrative records, and identifies variances or unutilized resources.",
+              "Proficient": "Analyzes utilization patterns, recommends cost-effective adjustments, and resolves complex resource or documentation issues in coordination with responsible offices.",
+              "Advanced": "Provides strategic oversight of training-resource utilization and recommends funding priorities that maximize program relevance, efficiency, and impact."
+            }
+          },
+          {
+            "name": "Contingency and Administrative Compliance",
+            "definition": "Ability to anticipate and manage disruptions while ensuring compliance with approved plans, policies, documentation, safety, and administrative requirements.",
+            "levels": {
+              "Emerging": "Follows established administrative and contingency procedures and reports disruptions, risks, or deficiencies promptly.",
+              "Developing": "Completes routine compliance requirements and resolves minor operational issues using approved procedures and documented corrective actions.",
+              "Proficient": "Manages complex changes, cancellations, emergencies, administrative deficiencies, and delivery risks while maintaining accountability and learner safety.",
+              "Advanced": "Leads continuity and contingency planning for major training activities and establishes strong administrative controls that support resilient and compliant operations."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Training Assessment, Certification and Quality Assurance",
+        "definition": "The ability to assess learning, verify competency attainment, support certification requirements, and assure the fairness, quality, integrity, and reliability of training outcomes.",
+        "dimensions": [
+          {
+            "name": "Assessment Design",
+            "definition": "Ability to develop or select assessment methods, tools, criteria, and procedures aligned with learning objectives and required competencies.",
+            "levels": {
+              "Emerging": "Assists in preparing assessment tools using approved formats, instructions, and criteria with guidance.",
+              "Developing": "Administers and reviews routine assessment tools accurately and ensures that items or tasks correspond to stated learning objectives.",
+              "Proficient": "Designs or reviews assessments for complex, technical, or competency-based requirements and ensures appropriate coverage, validity, and difficulty.",
+              "Advanced": "Establishes assessment standards and quality practices that promote reliable, fair, transparent, and competency-focused evaluation."
+            }
+          },
+          {
+            "name": "Assessment Administration",
+            "definition": "Ability to administer examinations, demonstrations, practical assessments, and other evaluation activities fairly, consistently, and securely.",
+            "levels": {
+              "Emerging": "Follows prescribed assessment procedures, instructions, confidentiality requirements, and documentation controls with guidance.",
+              "Developing": "Administers routine assessments consistently, manages materials and records, and addresses ordinary procedural concerns appropriately.",
+              "Proficient": "Manages complex assessment arrangements, special conditions, technical issues, and procedural concerns while preserving assessment integrity.",
+              "Advanced": "Provides expert oversight of high-stakes or sector-wide assessments and establishes controls for secure, consistent, and defensible administration."
+            }
+          },
+          {
+            "name": "Competency Verification",
+            "definition": "Ability to evaluate evidence of knowledge, skills, performance, and competency against prescribed requirements and standards.",
+            "levels": {
+              "Emerging": "Checks basic evidence using established criteria and refers unclear or insufficient evidence for review.",
+              "Developing": "Verifies routine competency evidence accurately, documents results, and applies approved decision rules consistently.",
+              "Proficient": "Evaluates complex, incomplete, or conflicting evidence and recommends defensible competency decisions based on standards and documented performance.",
+              "Advanced": "Provides expert direction on competency-verification systems and ensures that decisions are consistent, evidence-based, transparent, and aligned with railway requirements."
+            }
+          },
+          {
+            "name": "Certification Support",
+            "definition": "Ability to prepare, validate, and coordinate documentation and processes supporting the issuance, renewal, recording, or monitoring of certificates and related credentials.",
+            "levels": {
+              "Emerging": "Compiles assigned certification documents and checks completeness using prescribed requirements and guidance.",
+              "Developing": "Processes routine certification-support requirements accurately, coordinates with responsible offices, and maintains complete records of results and issuances.",
+              "Proficient": "Resolves complex documentation, eligibility, assessment-result, or coordination issues and recommends appropriate action within authorized procedures.",
+              "Advanced": "Strengthens the integration of training, assessment, competency verification, certification, and records systems to support reliable and accountable credentialing."
+            }
+          },
+          {
+            "name": "Quality Assurance and Assessment Integrity",
+            "definition": "Ability to review training and assessment processes for compliance, fairness, confidentiality, consistency, and continuous quality improvement.",
+            "levels": {
+              "Emerging": "Follows confidentiality, impartiality, and assessment-integrity procedures and reports suspected irregularities with guidance.",
+              "Developing": "Conducts routine quality checks, documents findings, handles ordinary concerns, and ensures corrective actions are followed through.",
+              "Proficient": "Evaluates complex quality issues, assessment disputes, or integrity concerns and recommends fair, documented, and standards-based responses.",
+              "Advanced": "Establishes institutional quality-assurance and review mechanisms that protect assessment integrity, strengthen public confidence, and promote continuous improvement."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Training Monitoring, Evaluation and Continuous Improvement",
+        "definition": "The ability to monitor training implementation, evaluate effectiveness and impact, analyze performance information, and use evidence and lessons learned to improve PRI programs and services.",
+        "dimensions": [
+          {
+            "name": "Training Progress Monitoring",
+            "definition": "Ability to track training activities, milestones, attendance, completion, deliverables, resources, and implementation issues.",
+            "levels": {
+              "Emerging": "Updates assigned monitoring information using prescribed tools and reports delays, gaps, or issues with guidance.",
+              "Developing": "Monitors routine training progress accurately, follows up deliverables, and identifies deviations from approved plans.",
+              "Proficient": "Analyzes complex implementation issues, assesses their effects on outputs and timelines, and initiates or recommends corrective action.",
+              "Advanced": "Provides strategic oversight of training portfolio performance and establishes monitoring systems that support timely management intervention."
+            }
+          },
+          {
+            "name": "Training Evaluation",
+            "definition": "Ability to assess learner satisfaction, learning gains, delivery quality, relevance, and program effectiveness using appropriate evaluation methods.",
+            "levels": {
+              "Emerging": "Collects evaluation information using prescribed tools and assists in summarizing basic feedback with guidance.",
+              "Developing": "Conducts routine evaluations, analyzes common feedback patterns, and prepares accurate summaries of program strengths and gaps.",
+              "Proficient": "Designs and interprets comprehensive evaluations for complex programs and distinguishes between delivery concerns, learning issues, and design limitations.",
+              "Advanced": "Establishes evaluation standards and systems for PRI and promotes the use of credible evidence in training decisions and improvements."
+            }
+          },
+          {
+            "name": "Outcome and Impact Assessment",
+            "definition": "Ability to assess how training contributes to competency improvement, workplace application, railway safety, operational performance, and workforce development outcomes.",
+            "levels": {
+              "Emerging": "Collects basic post-training information and documents reported outcomes with guidance.",
+              "Developing": "Tracks routine evidence of learning application, competency improvement, and participant or supervisor feedback.",
+              "Proficient": "Assesses complex outcomes and identifies the contribution of training to performance, safety, productivity, compliance, or workforce capability.",
+              "Advanced": "Provides strategic evaluation of training impact and institutional value and recommends changes to improve long-term workforce outcomes."
+            }
+          },
+          {
+            "name": "Performance Reporting and Analysis",
+            "definition": "Ability to consolidate, validate, analyze, and communicate training performance information and management findings.",
+            "levels": {
+              "Emerging": "Compiles assigned data and prepares basic reports using approved formats with guidance.",
+              "Developing": "Prepares accurate routine training reports, validates figures, and explains basic variances or implementation concerns.",
+              "Proficient": "Analyzes trends, compares results across programs or learner groups, and prepares decision-oriented management reports with recommendations.",
+              "Advanced": "Provides expert advice on training performance, strategic priorities, resource implications, and evidence-based management decisions."
+            }
+          },
+          {
+            "name": "Corrective Action and Lessons Learned",
+            "definition": "Ability to identify deficiencies, recommend improvements, implement corrective actions, and capture lessons learned for future training planning and delivery.",
+            "levels": {
+              "Emerging": "Records issues, corrective actions, and lessons learned using prescribed procedures and guidance.",
+              "Developing": "Applies routine corrective actions, follows up results, and documents practical lessons for subsequent activities.",
+              "Proficient": "Develops improvement plans for complex or recurring issues, evaluates whether actions were effective, and integrates lessons across programs.",
+              "Advanced": "Drives continuous improvement and institutional learning by embedding evidence, lessons, innovation, and accountability into PRI’s training system."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Stakeholder Coordination and Partnership Management",
+        "definition": "The ability to coordinate with railway operators, government agencies, educational institutions, training providers, experts, and other stakeholders to support responsive training delivery and sustainable human-resource development.",
+        "dimensions": [
+          {
+            "name": "Stakeholder Mapping and Engagement",
+            "definition": "Ability to identify relevant stakeholders, understand their needs and interests, and establish appropriate coordination and engagement arrangements.",
+            "levels": {
+              "Emerging": "Identifies assigned stakeholders using available references and guidance and maintains basic contact information.",
+              "Developing": "Maintains routine stakeholder contacts, documents requirements, and coordinates ordinary requests and follow-ups.",
+              "Proficient": "Develops engagement approaches for complex training needs and balances the interests of multiple stakeholder groups.",
+              "Advanced": "Establishes strategic stakeholder networks that strengthen PRI’s reach, relevance, credibility, and responsiveness."
+            }
+          },
+          {
+            "name": "Inter-Agency Coordination",
+            "definition": "Ability to coordinate training programs, technical inputs, standards, resources, and implementation arrangements with government agencies and institutions.",
+            "levels": {
+              "Emerging": "Routes requests, follows coordination procedures, and records responses with guidance.",
+              "Developing": "Coordinates routine inter-agency activities effectively, tracks commitments, and ensures timely follow-up.",
+              "Proficient": "Resolves complex coordination issues, aligns differing requirements, and facilitates agreement among multiple institutions.",
+              "Advanced": "Leads major inter-agency training collaborations and establishes mechanisms for sustained coordination and shared accountability."
+            }
+          },
+          {
+            "name": "Railway Operator Coordination",
+            "definition": "Ability to engage railway operators in identifying training needs, validating programs, providing participants, and supporting workplace application.",
+            "levels": {
+              "Emerging": "Assists in coordinating operator needs, participant information, and basic feedback using established procedures.",
+              "Developing": "Coordinates routine operator requirements, schedules, participant arrangements, and follow-ups independently.",
+              "Proficient": "Develops solutions to complex operator training needs and integrates operational realities into program design and evaluation.",
+              "Advanced": "Builds strategic operator partnerships that support sector-wide capability development, safety improvement, and continuing workforce readiness."
+            }
+          },
+          {
+            "name": "Training Provider and Expert Management",
+            "definition": "Ability to coordinate external trainers, subject-matter experts, institutions, and service providers in accordance with technical, administrative, and quality requirements.",
+            "levels": {
+              "Emerging": "Supports coordination with providers and experts and checks assigned documents or deliverables with guidance.",
+              "Developing": "Manages routine provider arrangements, schedules, communications, and deliverables and reports issues promptly.",
+              "Proficient": "Evaluates and coordinates complex provider or expert requirements, addresses performance concerns, and recommends appropriate action.",
+              "Advanced": "Establishes reliable networks of qualified training providers and experts and develops standards for engagement, performance, and quality assurance."
+            }
+          },
+          {
+            "name": "Consultation and Partnership Accountability",
+            "definition": "Ability to facilitate consultations and monitor agreements, commitments, deliverables, and follow-up actions arising from training partnerships.",
+            "levels": {
+              "Emerging": "Supports consultations, records inputs, and tracks assigned commitments with guidance.",
+              "Developing": "Facilitates routine sessions, documents agreements, and maintains accurate follow-up records.",
+              "Proficient": "Manages complex consultations, reconciles diverse technical views, and addresses delays or risks affecting partnership deliverables.",
+              "Advanced": "Provides oversight of critical training partnerships and establishes accountability mechanisms that sustain cooperation and measurable results."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Training Information, Documentation and Knowledge Management",
+        "definition": "The ability to maintain accurate training records, databases, documentation, learning resources, and institutional knowledge to support program administration, reporting, continuity, compliance, and decision-making.",
+        "dimensions": [
+          {
+            "name": "Training Records Management",
+            "definition": "Ability to create, organize, update, retrieve, preserve, and secure training records and participant information in accordance with applicable requirements.",
+            "levels": {
+              "Emerging": "Files and retrieves assigned records using prescribed procedures and reports missing, damaged, or incomplete documents.",
+              "Developing": "Maintains complete and orderly routine training records, applies retention and filing requirements, and retrieves information when needed.",
+              "Proficient": "Improves records structures, resolves complex retrieval or integrity issues, and ensures traceability across training, assessment, and certification records.",
+              "Advanced": "Establishes training records-management standards that support accountability, continuity, confidentiality, accessibility, and institutional memory."
+            }
+          },
+          {
+            "name": "Training Database and Information Systems",
+            "definition": "Ability to encode, validate, maintain, and use training information systems and databases accurately, securely, and efficiently.",
+            "levels": {
+              "Emerging": "Encodes assigned information using prescribed formats and performs basic checks with guidance.",
+              "Developing": "Maintains accurate routine database records, updates information promptly, and uses system features for ordinary reporting and retrieval.",
+              "Proficient": "Analyzes system or workflow issues, improves information processes, and coordinates resolution of complex data or access concerns.",
+              "Advanced": "Provides expert direction on training information systems and promotes integrated, reliable, user-oriented, and secure information management."
+            }
+          },
+          {
+            "name": "Training Documentation and Reporting",
+            "definition": "Ability to prepare and review training proposals, activity reports, attendance records, completion documents, certificates, and management reports.",
+            "levels": {
+              "Emerging": "Prepares assigned documents using approved formats and guidance and checks basic completeness.",
+              "Developing": "Produces accurate routine training documentation, ensures consistency among related records, and submits reports within prescribed timelines.",
+              "Proficient": "Reviews complex documentation, resolves inconsistencies, and assures completeness, accuracy, traceability, and compliance with reporting requirements.",
+              "Advanced": "Establishes documentation and reporting standards that support management decisions, auditability, institutional accountability, and program continuity."
+            }
+          },
+          {
+            "name": "Information Quality and Validation",
+            "definition": "Ability to verify the accuracy, completeness, consistency, timeliness, and traceability of training information and records.",
+            "levels": {
+              "Emerging": "Performs basic checks using prescribed procedures and reports apparent errors or inconsistencies.",
+              "Developing": "Validates routine information, corrects errors accurately, and maintains supporting documentation for reported figures.",
+              "Proficient": "Resolves complex discrepancies, reconciles information from multiple sources, and strengthens data-quality processes.",
+              "Advanced": "Establishes institutional information-quality controls and promotes a culture of reliable, timely, and evidence-based reporting."
+            }
+          },
+          {
+            "name": "Knowledge Capture, Security and Continuity",
+            "definition": "Ability to capture, organize, preserve, protect, and share training knowledge while ensuring appropriate access, backup, continuity, and authorized disclosure.",
+            "levels": {
+              "Emerging": "Stores assigned materials and follows confidentiality, access, and security procedures with guidance.",
+              "Developing": "Maintains accessible routine knowledge resources, applies basic safeguards, and shares information through authorized channels.",
+              "Proficient": "Develops structured repositories, captures lessons and good practices, and manages complex security, access, continuity, or knowledge-retrieval concerns.",
+              "Advanced": "Leads PRI’s training knowledge-management and continuity system, ensuring that institutional knowledge remains protected, usable, current, and available for future operations."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "PMO-MARITIME",
