@@ -4277,30 +4277,6 @@ export const positionProfiles: DivisionPositionProfile[] = [
         ],
       },
       {
-        title: 'Accountant II',
-        section: 'Division Office',
-        competencies: [
-          { name: 'Accounts Reconciliation', level: 'Developing' },
-          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Developing' },
-          { name: 'Preparation and Interpretation of Financial Statements and Reports', level: 'Developing' },
-        ],
-      },
-      {
-        title: 'Bookkeeper',
-        section: 'Division Office',
-        competencies: [
-          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Developing' },
-          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Emerging' },
-        ],
-      },
-      {
-        title: 'Administrative Assistant III',
-        section: 'Division Office',
-        competencies: [
-          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Emerging' },
-        ],
-      },
-      {
         title: 'Accountant IV',
         section: 'Disbursement Section — Locally Funded (Section Head)',
         competencies: [
@@ -4470,6 +4446,30 @@ export const positionProfiles: DivisionPositionProfile[] = [
         section: 'Subsidiary Ledger Maintenance & Reporting Section',
         competencies: [
           { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Accountant II',
+        section: null,
+        competencies: [
+          { name: 'Accounts Reconciliation', level: 'Developing' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Developing' },
+          { name: 'Preparation and Interpretation of Financial Statements and Reports', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Bookkeeper',
+        section: null,
+        competencies: [
+          { name: 'Accounting for Trial Balance Accounts and Balances', level: 'Developing' },
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Administrative Assistant III',
+        section: null,
+        competencies: [
+          { name: 'Accounting Analysis, Reconciliation, Checking, and Recording', level: 'Emerging' },
         ],
       },
     ],
