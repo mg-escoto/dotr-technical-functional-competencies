@@ -10,20 +10,19 @@ import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE, type Competency } fr
 import { getPositionProfile } from '@/lib/data/positionProfiles'
 
 function LevelText({ text }: { text: string }) {
-  const lines = text.split('\n').map(l => l.trim()).filter(Boolean)
-  const lead = lines.filter(l => !l.startsWith('•'))
-  const bullets = lines.filter(l => l.startsWith('•'))
+  const lines = text
+    .split('\n')
+    .map(l => l.trim().replace(/^•\s*/, ''))
+    .filter(Boolean)
+  if (lines.length <= 1) {
+    return <p className="text-sm leading-snug">{lines[0] ?? ''}</p>
+  }
   return (
-    <>
-      {lead.length > 0 && <p className="text-sm leading-snug">{lead.join(' ')}</p>}
-      {bullets.length > 0 && (
-        <ul className="text-sm leading-snug space-y-1 pl-4 list-disc">
-          {bullets.map((b, i) => (
-            <li key={i}>{b.replace(/^•\s*/, '')}</li>
-          ))}
-        </ul>
-      )}
-    </>
+    <ul className="text-sm leading-snug space-y-1 pl-4 list-disc">
+      {lines.map((l, i) => (
+        <li key={i}>{l}</li>
+      ))}
+    </ul>
   )
 }
 
