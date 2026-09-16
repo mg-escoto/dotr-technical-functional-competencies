@@ -4693,6 +4693,92 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'ROWSAD',
+    asOf: 'September 14, 2026',
+    sourceNote:
+      'Built from the Right-of-Way and Site Acquisition Division organizational structure chart ' +
+      '(as of September 14, 2026), combined with the Division\'s existing 14-competency framework. ' +
+      'Competency and level assignments follow rank/tier (Chief Attorney, Deputy Attorney, then the ' +
+      'Senior-to-entry Transportation Development Officer ladder); the Attorney V and Attorney IV ' +
+      'items are weighted toward the full breadth of the framework given the Division\'s legal/ ' +
+      'negotiation-heavy mandate, while the TDO tiers are weighted toward field and technical ' +
+      'competencies (site assessment, ROW management, documentation). TDO is expanded as ' +
+      'Transportation Development Officer per standing convention. ' +
+      'Permanent plantilla positions only. Vacant items are included since they are permanent ' +
+      'plantilla slots, just currently unfilled. Where the same title is held by more than one ' +
+      'incumbent (filled or vacant), it is listed once as a role. Names are excluded per standing ' +
+      'convention.',
+    positions: [
+      {
+        title: 'Attorney V',
+        section: null,
+        competencies: [
+          { name: 'Land Acquisition and Negotiation', level: 'Advanced' },
+          { name: 'Right-of-Way (ROW) Management and Planning', level: 'Advanced' },
+          { name: 'Legal Compliance and Documentation', level: 'Advanced' },
+          { name: 'Stakeholder Engagement and Coordination', level: 'Advanced' },
+          { name: 'Site Assessment and Surveying', level: 'Advanced' },
+          { name: 'Compensation and Relocation Management', level: 'Advanced' },
+          { name: 'Risk Assessment and Conflict Resolution', level: 'Advanced' },
+          { name: 'Environmental and Social Impact Analysis', level: 'Advanced' },
+          { name: 'Project Budgeting and Cost Estimation', level: 'Advanced' },
+          { name: 'Coordination with Legal and Regulatory Bodies', level: 'Advanced' },
+          { name: 'Community Relations and Public Consultation', level: 'Advanced' },
+          { name: 'Property Valuation and Market Analysis', level: 'Advanced' },
+          { name: 'GIS and Mapping Technologies for ROW', level: 'Advanced' },
+          { name: 'Documentation and Records Management', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney IV',
+        section: null,
+        competencies: [
+          { name: 'Land Acquisition and Negotiation', level: 'Proficient' },
+          { name: 'Right-of-Way (ROW) Management and Planning', level: 'Proficient' },
+          { name: 'Legal Compliance and Documentation', level: 'Proficient' },
+          { name: 'Risk Assessment and Conflict Resolution', level: 'Proficient' },
+          { name: 'Compensation and Relocation Management', level: 'Proficient' },
+          { name: 'Project Budgeting and Cost Estimation', level: 'Proficient' },
+          { name: 'Property Valuation and Market Analysis', level: 'Proficient' },
+          { name: 'Environmental and Social Impact Analysis', level: 'Proficient' },
+          { name: 'Documentation and Records Management', level: 'Proficient' },
+          { name: 'GIS and Mapping Technologies for ROW', level: 'Proficient' },
+          { name: 'Community Relations and Public Consultation', level: 'Proficient' },
+          { name: 'Stakeholder Engagement and Coordination', level: 'Advanced' },
+          { name: 'Coordination with Legal and Regulatory Bodies', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Senior Transportation Development Officer',
+        section: null,
+        competencies: [
+          { name: 'Land Acquisition and Negotiation', level: 'Proficient' },
+          { name: 'Right-of-Way (ROW) Management and Planning', level: 'Proficient' },
+          { name: 'Site Assessment and Surveying', level: 'Proficient' },
+          { name: 'Stakeholder Engagement and Coordination', level: 'Proficient' },
+          { name: 'Compensation and Relocation Management', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: null,
+        competencies: [
+          { name: 'Right-of-Way (ROW) Management and Planning', level: 'Developing' },
+          { name: 'Site Assessment and Surveying', level: 'Developing' },
+          { name: 'Documentation and Records Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer I',
+        section: null,
+        competencies: [
+          { name: 'Site Assessment and Surveying', level: 'Emerging' },
+          { name: 'Documentation and Records Management', level: 'Emerging' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
