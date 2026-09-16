@@ -9,6 +9,24 @@ import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE, type Competency } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
 
+function LevelText({ text }: { text: string }) {
+  const lines = text.split('\n').map(l => l.trim()).filter(Boolean)
+  const lead = lines.filter(l => !l.startsWith('•'))
+  const bullets = lines.filter(l => l.startsWith('•'))
+  return (
+    <>
+      {lead.length > 0 && <p className="text-sm leading-snug">{lead.join(' ')}</p>}
+      {bullets.length > 0 && (
+        <ul className="text-sm leading-snug space-y-1 pl-4 list-disc">
+          {bullets.map((b, i) => (
+            <li key={i}>{b.replace(/^•\s*/, '')}</li>
+          ))}
+        </ul>
+      )}
+    </>
+  )
+}
+
 export default function DivisionCompetencyPage() {
   const params = useParams<{ code: string }>()
   const C = useTechColors()
@@ -279,9 +297,9 @@ export default function DivisionCompetencyPage() {
                                 <p className="text-xs font-bold uppercase tracking-widest" style={{ color: s.labelColor }}>
                                   {level}
                                 </p>
-                                <p className="text-sm leading-snug" style={{ color: s.textColor }}>
-                                  {dim.levels[level]}
-                                </p>
+                                <div className="space-y-1" style={{ color: s.textColor }}>
+                                  <LevelText text={dim.levels[level]} />
+                                </div>
                               </div>
                             )
                           })}
@@ -300,9 +318,9 @@ export default function DivisionCompetencyPage() {
                                 <p className="text-xs font-bold uppercase tracking-widest" style={{ color: s.labelColor }}>
                                   {level}
                                 </p>
-                                <p className="text-sm leading-snug" style={{ color: s.textColor }}>
-                                  {dim.levels[level]}
-                                </p>
+                                <div className="space-y-1" style={{ color: s.textColor }}>
+                                  <LevelText text={dim.levels[level]} />
+                                </div>
                               </div>
                             )
                           })}
