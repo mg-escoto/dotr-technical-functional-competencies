@@ -4603,6 +4603,96 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'SD',
+    asOf: 'Railways Sector organizational chart, as of August 2026',
+    sourceNote:
+      'Built from the Railways Sector organizational structure chart (Rail Unified Project ' +
+      'Management Office / Support Division column, including its Administration and Finance ' +
+      'Section), combined with the Division\'s newly-lodged 4-competency framework (Legal, ' +
+      'Logistical, Financial, and General Administrative Support Services). Positions are ordered ' +
+      'by rank; the Attorney and Legal Assistant items are weighted toward Legal Support Services, ' +
+      'and the Administration and Finance Section\'s PEO items toward Financial Support Services, ' +
+      'reflecting their function. PEO is left unexpanded pending confirmation of the exact title it ' +
+      'stands for. ' +
+      'Permanent plantilla positions only. Vacant items would be included but none are shown for ' +
+      'this division on the chart. Where the same title is held by more than one incumbent, it is ' +
+      'listed once as a role. Names are excluded per standing convention.',
+    positions: [
+      {
+        title: 'Chief Administrative Officer',
+        section: null,
+        competencies: [
+          { name: 'Legal Support Services', level: 'Advanced' },
+          { name: 'Logistical Support Services', level: 'Advanced' },
+          { name: 'Financial Support Services', level: 'Advanced' },
+          { name: 'General Administrative and Support Services', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Attorney IV',
+        section: null,
+        competencies: [
+          { name: 'Legal Support Services', level: 'Advanced' },
+          { name: 'Financial Support Services', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Attorney III',
+        section: null,
+        competencies: [
+          { name: 'Legal Support Services', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer V',
+        section: null,
+        competencies: [
+          { name: 'General Administrative and Support Services', level: 'Advanced' },
+          { name: 'Logistical Support Services', level: 'Proficient' },
+          { name: 'Financial Support Services', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Administrative Officer IV',
+        section: null,
+        competencies: [
+          { name: 'General Administrative and Support Services', level: 'Proficient' },
+          { name: 'Logistical Support Services', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Legal Assistant II',
+        section: null,
+        competencies: [
+          { name: 'Legal Support Services', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Administrative Officer II',
+        section: null,
+        competencies: [
+          { name: 'General Administrative and Support Services', level: 'Developing' },
+          { name: 'Logistical Support Services', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'PEO II',
+        section: 'Administration and Finance Section',
+        competencies: [
+          { name: 'Financial Support Services', level: 'Proficient' },
+          { name: 'General Administrative and Support Services', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'PEO I',
+        section: 'Administration and Finance Section',
+        competencies: [
+          { name: 'Financial Support Services', level: 'Developing' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
