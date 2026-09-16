@@ -16029,15 +16029,280 @@
   {
     "code": "SD",
     "name": "Support Division",
-    "category": null,
-    "status": "under-construction",
+    "category": "without-framework",
+    "status": "populated",
     "office": "Rail Unified Project Management Office",
     "officeOrder": 13,
     "parentCode": null,
-    "sourceFile": null,
+    "sourceFile": "Support Division.docx",
     "basis": null,
     "careerProgression": null,
-    "competencies": []
+    "competencies": [
+      {
+        "name": "Legal Support Services",
+        "definition": "The ability to provide and coordinate authorized legal support for railway-project implementation through accurate legal documentation, compliance assistance, legal research support, identification and referral of legal concerns, and coordination with appropriate legal offices and stakeholders.",
+        "dimensions": [
+          {
+            "name": "Legal Documentation Preparation and Control",
+            "definition": "Prepares, compiles, checks, organizes, routes, monitors, and maintains legal and project-related documents in accordance with prescribed requirements.",
+            "levels": {
+              "Emerging": "Assists in compiling assigned contracts, agreements, memoranda, legal references, and attachments using approved formats and checklists; labels and files documents correctly; and seeks guidance when requirements are unclear.",
+              "Developing": "Prepares and processes routine legal-support documents, verifies required signatures and attachments, checks completeness against established requirements, monitors routing, and maintains an updated status log.",
+              "Proficient": "Reviews complex documentary requirements, identifies inconsistencies or missing records, coordinates corrections with responsible offices, verifies document history, and ensures that legal-support actions are traceable.",
+              "Advanced": "Establishes reliable legal-documentation and control practices, improves document workflows, anticipates documentary risks, and ensures organizational readiness for legal review, audit, negotiation, or project implementation."
+            }
+          },
+          {
+            "name": "Legal Compliance Assistance",
+            "definition": "Identifies, tracks, and coordinates documentary and procedural requirements arising from laws, rules, regulations, contracts, agreements, and legal advice.",
+            "levels": {
+              "Emerging": "Follows prescribed compliance checklists, identifies basic deficiencies, records due dates, and reports concerns to the appropriate personnel with close guidance.",
+              "Developing": "Tracks routine compliance requirements, coordinates the submission of supporting documents, follows up pending actions, and maintains evidence of compliance within prescribed timelines.",
+              "Proficient": "Analyzes complex compliance gaps, determines possible effects on project activities, coordinates corrective actions, and escalates unresolved or high-risk concerns appropriately.",
+              "Advanced": "Strengthens legal-compliance monitoring systems, identifies recurring weaknesses, advises management on preventive controls, and promotes consistent compliance across project-support activities."
+            }
+          },
+          {
+            "name": "Legal Issue Identification and Referral",
+            "definition": "Recognizes legal concerns, determines the appropriate level of assistance, and refers matters to the proper legal authority or office.",
+            "levels": {
+              "Emerging": "Recognizes apparent legal concerns, distinguishes administrative support from legal advice, avoids unauthorized interpretation, and seeks guidance before taking action.",
+              "Developing": "Screens routine requests, gathers relevant facts and documents, identifies the nature of the concern, and refers matters to the appropriate legal personnel or office.",
+              "Proficient": "Assesses the urgency, complexity, and possible implications of legal concerns, recommends appropriate escalation, and ensures that referrals contain sufficient factual and documentary support.",
+              "Advanced": "Establishes effective legal-support referral and escalation mechanisms, anticipates emerging legal issues, and ensures that significant project-related legal matters receive timely attention."
+            }
+          },
+          {
+            "name": "Legal Research and Information Gathering",
+            "definition": "Locates, gathers, organizes, and summarizes laws, rules, issuances, contracts, agreements, records, and other information needed for legal review.",
+            "levels": {
+              "Emerging": "Locates prescribed references and gathers assigned information from authorized sources with guidance; records source details and avoids using unverified materials.",
+              "Developing": "Conducts routine legal-reference searches, organizes relevant materials, prepares factual or documentary summaries, and identifies information gaps for further action.",
+              "Proficient": "Synthesizes information from multiple sources, distinguishes relevant from irrelevant materials, identifies issues requiring legal interpretation, and prepares organized research support for complex matters.",
+              "Advanced": "Develops reliable research-support practices and reference systems, improves retrieval of authoritative materials, and strengthens the quality, consistency, and timeliness of legal analysis."
+            }
+          },
+          {
+            "name": "Legal Coordination and Liaison",
+            "definition": "Coordinates with the Legal Service, project management offices, contractors, consultants, regulatory agencies, and other stakeholders on legal-support matters.",
+            "levels": {
+              "Emerging": "Communicates routine requests, records responses, observes coordination protocols, and refers sensitive or unfamiliar matters to authorized personnel.",
+              "Developing": "Coordinates routine legal-support requirements, clarifies documentary needs, follows up pending actions, and communicates updates accurately and professionally.",
+              "Proficient": "Facilitates resolution of complex coordination issues involving multiple parties, competing requirements, sensitive information, and critical deadlines.",
+              "Advanced": "Builds effective legal-support networks, establishes coordination arrangements for high-priority matters, and promotes timely and accountable inter-office legal coordination."
+            }
+          },
+          {
+            "name": "Confidentiality and Legal Records Integrity",
+            "definition": "Protects confidential legal information and maintains complete, accurate, secure, and traceable legal-support records.",
+            "levels": {
+              "Emerging": "Handles assigned legal documents according to confidentiality, access, filing, and records procedures; prevents unauthorized disclosure and reports security concerns.",
+              "Developing": "Maintains accurate legal-support records, controls routing and retrieval, uses authorized channels, and ensures that records are stored and disposed of properly.",
+              "Proficient": "Resolves complex confidentiality, access, or records-integrity concerns, documents decisions and actions, and coordinates appropriate corrective measures.",
+              "Advanced": "Establishes strong controls for confidentiality, authorized access, records integrity, retention, continuity, and institutional accountability."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Logistical Support Services",
+        "definition": "The ability to coordinate resources, supplies, facilities, equipment, transportation, and administrative arrangements required for the effective, timely, and continuous implementation of railway projects.",
+        "dimensions": [
+          {
+            "name": "Logistical Needs Identification and Validation",
+            "definition": "Identifies, clarifies, validates, prioritizes, and documents logistical requirements based on approved project activities and operational needs.",
+            "levels": {
+              "Emerging": "Assists in gathering requests, identifying basic requirements, checking quantities and specifications, and completing prescribed forms with guidance.",
+              "Developing": "Validates routine requests, confirms quantities and specifications with requesting offices, checks availability, and prepares complete supporting documentation.",
+              "Proficient": "Analyzes competing or complex requirements and prioritizes support based on urgency, project impact, availability, feasibility, and approved work plans.",
+              "Advanced": "Establishes strategic approaches for assessing, consolidating, and prioritizing logistical requirements across project activities and offices."
+            }
+          },
+          {
+            "name": "Resource and Supply Coordination",
+            "definition": "Coordinates the availability, allocation, distribution, replenishment, delivery, and utilization of supplies, materials, equipment, and other resources.",
+            "levels": {
+              "Emerging": "Assists in checking availability, preparing requests, receiving or distributing assigned resources, and reporting shortages with close guidance.",
+              "Developing": "Coordinates routine resource requests, maintains supply records, follows up deliveries, monitors usage, and initiates replenishment requests when needed.",
+              "Proficient": "Resolves shortages, competing requests, delivery constraints, and allocation issues while maintaining continuity of support and documenting decisions.",
+              "Advanced": "Optimizes resource allocation, establishes resource-control systems, anticipates supply risks, and promotes efficient, economical, and accountable utilization."
+            }
+          },
+          {
+            "name": "Facilities, Equipment, and Transportation Arrangements",
+            "definition": "Coordinates facilities, equipment, transportation, utilities, venues, and other operational arrangements required for project activities.",
+            "levels": {
+              "Emerging": "Assists in arranging facilities, equipment, and transportation using checklists; confirms basic requirements and reports changes or problems promptly.",
+              "Developing": "Coordinates routine arrangements, confirms availability and readiness, communicates schedules and requirements, and maintains records of arrangements.",
+              "Proficient": "Manages complex arrangements involving multiple locations, schedules, special requirements, changes, technical constraints, or urgent project needs.",
+              "Advanced": "Establishes reliable operational-support standards for readiness, safety, accessibility, efficiency, contingency arrangements, and continuity of operations."
+            }
+          },
+          {
+            "name": "Logistical Documentation and Inventory Control",
+            "definition": "Maintains accurate records of requests, deliveries, inventories, issuances, utilization, and logistical commitments.",
+            "levels": {
+              "Emerging": "Updates assigned logs and inventory records, checks basic quantities, and reports discrepancies or damaged items with guidance.",
+              "Developing": "Maintains complete and current records of requests, deliveries, issuances, balances, and resource utilization; conducts routine reconciliation.",
+              "Proficient": "Reconciles records from multiple sources, investigates significant discrepancies, identifies control weaknesses, and recommends corrective action.",
+              "Advanced": "Establishes inventory and documentation controls that support transparency, auditability, loss prevention, efficient resource management, and accountability."
+            }
+          },
+          {
+            "name": "Coordination and Client Responsiveness",
+            "definition": "Responds to logistical requests, clarifies requirements, manages expectations, and coordinates timely and appropriate assistance.",
+            "levels": {
+              "Emerging": "Responds courteously to basic requests, records requirements accurately, provides available information, and refers concerns beyond assigned authority.",
+              "Developing": "Handles routine requests independently, provides realistic updates, follows up pending actions, and communicates delays before they affect activities.",
+              "Proficient": "Manages complex or urgent requests, competing expectations, and service-delivery risks while maintaining professional and constructive relationships.",
+              "Advanced": "Promotes a responsive service culture, establishes service standards, and improves client experience through reliable, transparent, and timely logistical support."
+            }
+          },
+          {
+            "name": "Contingency Planning and Service Continuity",
+            "definition": "Anticipates and addresses logistical disruptions that may affect project implementation, office operations, or support-service delivery.",
+            "levels": {
+              "Emerging": "Reports disruptions promptly, follows established contingency instructions, and assists in implementing approved alternatives with guidance.",
+              "Developing": "Resolves routine logistical problems using approved alternatives, documents actions taken, and informs concerned personnel of possible effects.",
+              "Proficient": "Manages complex shortages, delays, emergencies, or operational disruptions and coordinates alternative arrangements with concerned offices and providers.",
+              "Advanced": "Leads continuity planning for critical logistical services, identifies systemic vulnerabilities, and strengthens resilience to operational disruptions."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Financial Support Services",
+        "definition": "The ability to coordinate budgetary and financial requirements, prepare and validate financial documentation, monitor financial information, and support compliance with applicable financial rules, procedures, and accountability requirements.",
+        "dimensions": [
+          {
+            "name": "Budget Requirements Coordination",
+            "definition": "Identifies, consolidates, validates, and coordinates budgetary requirements of project management offices and support activities.",
+            "levels": {
+              "Emerging": "Assists in gathering budget requirements, compiling supporting information, and completing prescribed forms with guidance.",
+              "Developing": "Coordinates routine budget requirements, checks completeness, validates basic information, and follows up missing data or attachments.",
+              "Proficient": "Analyzes complex budgetary requirements, identifies deficiencies or competing priorities, and recommends appropriate coordination, adjustment, or escalation.",
+              "Advanced": "Provides strategic advice on financial-support priorities, strengthens funding coordination, and anticipates budgetary issues affecting project implementation."
+            }
+          },
+          {
+            "name": "Financial Documentation Preparation and Processing",
+            "definition": "Prepares, checks, routes, monitors, and maintains financial documents and related supporting records within authorized responsibilities.",
+            "levels": {
+              "Emerging": "Prepares assigned financial documents using approved formats, checks basic completeness, and seeks guidance on unfamiliar requirements.",
+              "Developing": "Processes routine financial-support documents accurately, verifies supporting records, tracks status through the appropriate workflow, and maintains transaction files.",
+              "Proficient": "Reviews complex documentation, identifies inconsistencies, coordinates corrections, and ensures that submissions comply with documentary and procedural requirements.",
+              "Advanced": "Establishes reliable financial-document workflows, improves quality controls, and promotes timely, traceable, and audit-ready financial processing."
+            }
+          },
+          {
+            "name": "Financial Data Validation and Reconciliation",
+            "definition": "Verifies the accuracy, completeness, consistency, and reliability of financial information and supporting records.",
+            "levels": {
+              "Emerging": "Performs basic checks, compares information against source documents, and reports errors, omissions, or inconsistencies with guidance.",
+              "Developing": "Validates routine financial information, reconciles basic records, and corrects errors using appropriate supporting documents.",
+              "Proficient": "Reconciles information from multiple sources, investigates significant discrepancies, documents findings, and coordinates resolution with responsible offices.",
+              "Advanced": "Establishes financial-information quality controls, improves data reliability, and promotes accurate reporting and evidence-based management decisions."
+            }
+          },
+          {
+            "name": "Budget and Fund Monitoring",
+            "definition": "Monitors budget utilization, financial commitments, fund-related information, pending actions, and reporting requirements.",
+            "levels": {
+              "Emerging": "Updates assigned monitoring information, records basic commitments, and reports variances or pending actions with guidance.",
+              "Developing": "Maintains accurate monitoring records, tracks routine financial commitments, identifies delays or unusual movements, and follows up required actions.",
+              "Proficient": "Analyzes utilization patterns, explains significant variances, identifies emerging funding risks, and recommends timely management action within delegated authority.",
+              "Advanced": "Provides expert advice on financial trends, resource constraints, and strategic implications for project implementation and support-service delivery."
+            }
+          },
+          {
+            "name": "Financial Compliance and Accountability",
+            "definition": "Supports compliance with financial laws, rules, documentation requirements, audit standards, and accountability controls.",
+            "levels": {
+              "Emerging": "Follows prescribed financial procedures, maintains assigned supporting records, and reports deficiencies or uncertainties with guidance.",
+              "Developing": "Completes routine compliance requirements, responds to standard documentation requests, and maintains evidence of financial actions.",
+              "Proficient": "Identifies complex compliance risks, supports audit or review requirements, coordinates corrective measures, and recommends preventive controls.",
+              "Advanced": "Strengthens financial-support controls, promotes transparency and accountability, and contributes to improvements in financial governance and risk management."
+            }
+          },
+          {
+            "name": "Coordination with Finance and Oversight Offices",
+            "definition": "Coordinates with the Finance Service, DBM, COA, project management offices, and other concerned entities on financial requirements and issues.",
+            "levels": {
+              "Emerging": "Routes requests, records responses, and follows prescribed coordination procedures with guidance.",
+              "Developing": "Coordinates routine inquiries, submissions, clarifications, and follow-ups with concerned offices and maintains a clear action trail.",
+              "Proficient": "Resolves complex coordination issues, clarifies requirements, manages competing deadlines, and ensures financial actions are addressed within prescribed timelines.",
+              "Advanced": "Establishes effective inter-office financial coordination mechanisms, anticipates issues, and promotes timely resolution of matters affecting project delivery."
+            }
+          }
+        ]
+      },
+      {
+        "name": "General Administrative and Support Services",
+        "definition": "The ability to provide organized, timely, responsive, and compliant administrative and office support services that enable the effective and efficient implementation of railway projects.",
+        "dimensions": [
+          {
+            "name": "Administrative Request Management",
+            "definition": "Receives, assesses, prioritizes, routes, monitors, and closes administrative requests and support-service transactions.",
+            "levels": {
+              "Emerging": "Records assigned requests, identifies basic requirements, and routes them using prescribed procedures with guidance.",
+              "Developing": "Processes routine requests accurately, tracks status, provides updates, and follows up pending actions with requesting offices or personnel.",
+              "Proficient": "Prioritizes urgent or complex requests, coordinates solutions across offices, manages commitments, and monitors transactions until completion.",
+              "Advanced": "Establishes responsive request-management systems that improve service delivery, accountability, transparency, and turnaround time."
+            }
+          },
+          {
+            "name": "Correspondence and Document Processing",
+            "definition": "Prepares, checks, routes, transmits, monitors, and maintains official correspondence and administrative documents.",
+            "levels": {
+              "Emerging": "Prepares and routes routine documents using approved formats, checks basic completeness, and seeks guidance on unfamiliar requirements.",
+              "Developing": "Processes correspondence accurately, checks completeness, ensures proper routing, monitors action, and maintains copies or records as required.",
+              "Proficient": "Reviews complex documents, resolves routing or completeness issues, coordinates urgent or sensitive communications, and ensures document traceability.",
+              "Advanced": "Establishes document-processing standards that improve quality, consistency, confidentiality, accessibility, and turnaround time."
+            }
+          },
+          {
+            "name": "Scheduling and Administrative Coordination",
+            "definition": "Coordinates meetings, schedules, appointments, travel-related arrangements, and other administrative activities.",
+            "levels": {
+              "Emerging": "Updates schedules and assists in routine arrangements using established instructions, calendars, and checklists.",
+              "Developing": "Coordinates routine meetings, schedules, appointments, travel-related requirements, and administrative activities independently.",
+              "Proficient": "Manages complex schedules, changes, competing priorities, and multiple stakeholders while minimizing disruptions and communicating adjustments promptly.",
+              "Advanced": "Provides strategic oversight of administrative coordination and establishes systems that improve operational efficiency, readiness, and continuity."
+            }
+          },
+          {
+            "name": "Office Services and Resource Support",
+            "definition": "Coordinates day-to-day office services and ensures the availability of basic administrative resources and facilities.",
+            "levels": {
+              "Emerging": "Assists in maintaining office supplies, facilities, equipment, and basic services; reports deficiencies and service interruptions with guidance.",
+              "Developing": "Coordinates routine office-service requirements, monitors availability of essential resources, and follows up repairs, replenishment, or service requests.",
+              "Proficient": "Resolves complex office-service issues, evaluates service gaps, and recommends improvements in resource utilization, accessibility, and delivery.",
+              "Advanced": "Establishes standards for efficient, accessible, sustainable, and continuity-oriented office-support services."
+            }
+          },
+          {
+            "name": "Administrative Compliance and Records Management",
+            "definition": "Maintains administrative records and ensures compliance with office procedures, documentation, reporting, and accountability requirements.",
+            "levels": {
+              "Emerging": "Completes assigned records and reports using prescribed procedures, protects information, and seeks guidance on retention or access concerns.",
+              "Developing": "Maintains complete administrative records, submits routine reports within deadlines, and ensures that files are organized and retrievable.",
+              "Proficient": "Reviews complex administrative documentation, resolves recurring compliance or records issues, and ensures traceability of actions and approvals.",
+              "Advanced": "Establishes administrative accountability and records-management systems that support auditability, institutional memory, information security, and continuity."
+            }
+          },
+          {
+            "name": "Client Service and Operational Responsiveness",
+            "definition": "Provides professional, courteous, timely, accessible, and appropriate assistance to internal and external clients.",
+            "levels": {
+              "Emerging": "Responds to basic inquiries courteously, provides available information, records concerns, and refers matters appropriately.",
+              "Developing": "Provides accurate routine assistance, clarifies requirements, manages expectations, and follows up requests within prescribed timelines.",
+              "Proficient": "Handles complex client concerns, clarifies competing requirements, coordinates appropriate solutions, and maintains professionalism under pressure.",
+              "Advanced": "Promotes a service-oriented culture, establishes client-service standards, and improves support delivery through responsive, inclusive, and accountable practices."
+            }
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "ROWSA",
