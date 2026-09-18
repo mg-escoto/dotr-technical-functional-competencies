@@ -77,8 +77,25 @@ create index if not exists comments_division_code_idx on comments (division_code
 create index if not exists comments_status_idx on comments (status);
 create index if not exists division_position_profiles_division_code_idx on division_position_profiles (division_code);
 
+-- Actual duties/responsibilities the head of office keys in per position, matched
+-- to one of that position's required competencies. Directly editable on the public
+-- positions page (no HRDD review gate) since this is factual input, not a proposed
+-- change to the framework itself.
+create table if not exists position_duties (
+  id uuid primary key default gen_random_uuid(),
+  division_code text not null,
+  position_index int not null,
+  competency_name text not null,
+  duties_text text not null default '',
+  updated_at timestamptz not null default now(),
+  unique (division_code, position_index, competency_name)
+);
+
+create index if not exists position_duties_division_code_idx on position_duties (division_code);
+
 -- Row Level Security: all reads/writes go through server-side API routes using
 -- the service-role key, so client-side (anon-key) access is fully locked down.
 alter table division_competencies enable row level security;
 alter table division_position_profiles enable row level security;
 alter table comments enable row level security;
+alter table position_duties enable row level security;

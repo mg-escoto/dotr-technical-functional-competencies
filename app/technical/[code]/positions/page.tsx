@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
 import PositionCompetencyComments, { type PublicPositionComment } from '@/components/PositionCompetencyComments'
+import PositionDuties, { type PositionDuty } from '@/components/PositionDuties'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile, type PositionProfile } from '@/lib/data/positionProfiles'
@@ -18,6 +19,7 @@ export default function PositionProfilePage() {
   const [expandedComp, setExpandedComp] = useState<string | null>(null)
   const [livePositions, setLivePositions] = useState<PositionProfile[] | null>(null)
   const [comments, setComments] = useState<PublicPositionComment[]>([])
+  const [duties, setDuties] = useState<PositionDuty[]>([])
 
   const loadComments = useCallback(async () => {
     if (!division) return
@@ -28,6 +30,15 @@ export default function PositionProfilePage() {
     }
   }, [division])
 
+  const loadDuties = useCallback(async () => {
+    if (!division) return
+    const res = await fetch(`/api/divisions/${encodeURIComponent(division.code)}/duties`)
+    if (res.ok) {
+      const body = await res.json()
+      setDuties(body.duties ?? [])
+    }
+  }, [division])
+
   useEffect(() => {
     if (!division) return
     fetch(`/api/divisions/${encodeURIComponent(division.code)}/positions`)
@@ -35,7 +46,8 @@ export default function PositionProfilePage() {
       .then(body => setLivePositions(body.positions ?? null))
       .catch(() => setLivePositions(null))
     loadComments()
-  }, [division, loadComments])
+    loadDuties()
+  }, [division, loadComments, loadDuties])
 
   const positions = livePositions ?? staticProfile?.positions ?? null
   const profile = staticProfile ? { ...staticProfile, positions: positions ?? staticProfile.positions } : null
@@ -180,6 +192,14 @@ export default function PositionProfilePage() {
                                 </div>
                               </div>
                             ))}
+
+                            <PositionDuties
+                              divisionCode={division.code}
+                              positionIndex={idx}
+                              competencyName={name}
+                              duties={duties}
+                              onSaved={loadDuties}
+                            />
 
                             <PositionCompetencyComments
                               divisionCode={division.code}
