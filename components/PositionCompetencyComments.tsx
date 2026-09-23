@@ -14,6 +14,7 @@ export type PublicPositionComment = {
   comment_text: string
   suggested_text: string | null
   status: 'pending' | 'accepted' | 'returned'
+  hrdd_note: string | null
   final_text: string | null
   created_at: string
   reviewed_at: string | null
@@ -128,6 +129,17 @@ export default function PositionCompetencyComments({
               {c.status === 'accepted' && c.final_text && (
                 <p className="text-xs" style={{ color: C.textMuted }}>
                   Embedded level: {c.final_text}
+                </p>
+              )}
+              {c.status === 'returned' && c.hrdd_note && (
+                <p
+                  className="text-xs leading-relaxed rounded-md px-2 py-1.5"
+                  style={{ color: C.text, background: C.subtleBg }}
+                >
+                  <span className="font-bold uppercase tracking-wide" style={{ color: statusColor(c.status) }}>
+                    HRDD's note:
+                  </span>{' '}
+                  {c.hrdd_note}
                 </p>
               )}
             </div>

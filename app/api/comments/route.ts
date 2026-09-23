@@ -10,10 +10,11 @@ export async function GET(req: NextRequest) {
   const supabase = getSupabaseAdmin()
   const { data, error } = await supabase
     .from('comments')
-    // Public list intentionally omits hrdd_note (internal reviewer notes) and
-    // author_role — only what's needed to show status to anyone on the page.
+    // hrdd_note is included so a returned/accepted comment shows HRDD's reasoning
+    // back to whoever revisits the page — there's no login, so this is the only
+    // "inbox" a commenter has. author_role is still omitted as unnecessary.
     .select(
-      'id, target_type, competency_index, competency_name, dimension_name, position_index, position_title, author_name, comment_text, suggested_text, status, final_text, created_at, reviewed_at'
+      'id, target_type, competency_index, competency_name, dimension_name, position_index, position_title, author_name, comment_text, suggested_text, status, hrdd_note, final_text, created_at, reviewed_at'
     )
     .eq('division_code', division.toUpperCase())
     .order('created_at', { ascending: false })
