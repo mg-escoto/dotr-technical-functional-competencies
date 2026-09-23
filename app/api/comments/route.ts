@@ -57,12 +57,6 @@ export async function POST(req: NextRequest) {
   if (resolvedTargetType === 'competency' && typeof competency_index !== 'number') {
     return NextResponse.json({ error: 'competency_index is required for competency comments.' }, { status: 400 })
   }
-  if (
-    resolvedTargetType === 'competency' &&
-    (typeof suggested_text !== 'string' || !suggested_text.trim())
-  ) {
-    return NextResponse.json({ error: 'suggested_text is required for competency comments.' }, { status: 400 })
-  }
   if (resolvedTargetType === 'position' && (typeof position_index !== 'number' || typeof position_title !== 'string')) {
     return NextResponse.json({ error: 'position_index and position_title are required for position comments.' }, { status: 400 })
   }
