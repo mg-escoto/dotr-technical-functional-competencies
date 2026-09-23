@@ -230,8 +230,8 @@ function OfficeSection({
 
       {!isOpen ? null : (
       <div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-5 pb-5 pt-1"
-        style={{ borderTop: `1px solid ${C.borderMuted}` }}
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-5 pb-5 pt-4"
+        style={{ background: C.bg, borderTop: `1px solid ${C.borderMuted}` }}
       >
         {topLevel.map(d => {
           const children = divisions.filter(c => c.parentCode === d.code)
