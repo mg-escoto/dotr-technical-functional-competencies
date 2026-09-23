@@ -57,7 +57,7 @@ export default function CompetencyComments({
           competency_name: competencyName,
           dimension_name: dimensionName,
           comment_text: commentText,
-          suggested_text: suggestedText || null,
+          suggested_text: suggestedText.trim(),
         }),
       })
       if (!res.ok) {
@@ -152,13 +152,14 @@ export default function CompetencyComments({
           </div>
           <div>
             <label className="text-xs font-bold uppercase tracking-wide" style={{ color: C.textMuted }}>
-              Suggested replacement text (optional)
+              Suggested replacement text (required)
             </label>
             <textarea
               value={suggestedText}
               onChange={e => setSuggestedText(e.target.value)}
+              required
               rows={2}
-              placeholder="Exact wording you'd like to see in this dimension's definition, if you have one"
+              placeholder="Exact wording you'd like to see in this dimension's definition"
               className="w-full mt-1 rounded-lg px-3 py-2 text-sm"
               style={{ background: C.card, border: `1px solid ${C.borderMuted}`, color: C.text }}
             />
@@ -170,7 +171,7 @@ export default function CompetencyComments({
           )}
           <button
             type="submit"
-            disabled={submitting || !commentText.trim()}
+            disabled={submitting || !commentText.trim() || !suggestedText.trim()}
             className="text-sm font-black uppercase tracking-wide px-5 py-2.5 rounded-lg disabled:opacity-40 shadow-sm hover:opacity-90 transition-opacity"
             style={{ background: C.orange, color: C.white }}
           >
