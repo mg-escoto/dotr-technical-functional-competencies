@@ -78,18 +78,46 @@ create index if not exists comments_status_idx on comments (status);
 create index if not exists division_position_profiles_division_code_idx on division_position_profiles (division_code);
 
 -- Actual duties/responsibilities the head of office keys in per position, matched
--- to one of that position's required competencies. Directly editable on the public
--- positions page (no HRDD review gate) since this is factual input, not a proposed
--- change to the framework itself.
+-- to one of that position's required competencies. Directly submitted on the public
+-- positions page (no gate to submit) since this is factual input, not a proposed
+-- change to the framework itself. Multiple entries can exist for the same
+-- position+competency — e.g. two people collaborating on the same position both
+-- submit their own wording — and stay 'pending' until HRDD (or the division)
+-- marks one 'final' in a later review pass.
 create table if not exists position_duties (
   id uuid primary key default gen_random_uuid(),
   division_code text not null,
   position_index int not null,
   competency_name text not null,
   duties_text text not null default '',
-  updated_at timestamptz not null default now(),
-  unique (division_code, position_index, competency_name)
+  status text not null default 'pending' check (status in ('pending', 'final')),
+  created_at timestamptz not null default now()
 );
+
+-- Migrate an existing table from the earlier single-entry-per-slot design: drop
+-- its unique constraint (so multiple entries can coexist), replace the old
+-- version/updated_at optimistic-locking columns with status/created_at.
+do $$
+declare
+  con text;
+begin
+  select conname into con
+  from pg_constraint
+  where conrelid = 'position_duties'::regclass and contype = 'u';
+  if con is not null then
+    execute format('alter table position_duties drop constraint %I', con);
+  end if;
+end $$;
+alter table position_duties add column if not exists status text not null default 'pending';
+do $$ begin
+  if not exists (
+    select 1 from pg_constraint where conname = 'position_duties_status_check'
+  ) then
+    alter table position_duties add constraint position_duties_status_check check (status in ('pending', 'final'));
+  end if;
+end $$;
+alter table position_duties add column if not exists created_at timestamptz not null default now();
+alter table position_duties drop column if exists version;
 
 create index if not exists position_duties_division_code_idx on position_duties (division_code);
 

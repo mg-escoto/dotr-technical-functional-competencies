@@ -189,12 +189,12 @@ export default function PositionProfilePage() {
                       <div
                         key={compKey}
                         id={compKey}
-                        className="rounded-lg overflow-hidden scroll-mt-24"
+                        className="rounded-lg scroll-mt-24"
                         style={{ border: `1px solid ${C.borderMuted}` }}
                       >
                         <button
                           onClick={() => setExpandedComp(isOpen ? null : compKey)}
-                          className="w-full text-left px-4 py-3 flex items-center justify-between gap-3"
+                          className={`w-full text-left px-4 py-3 flex items-center justify-between gap-3 ${isOpen ? 'rounded-t-lg' : 'rounded-lg'}`}
                           style={{ background: C.subtleBg }}
                         >
                           <p className="text-sm font-semibold" style={{ color: C.text }}>
@@ -209,47 +209,56 @@ export default function PositionProfilePage() {
                         </button>
                         {isOpen && comp && (
                           <div className="px-4 py-4 space-y-5" style={{ borderTop: `1px solid ${C.borderMuted}` }}>
-                            {comp.definition && (
-                              <p className="text-xs leading-relaxed" style={{ color: C.textMuted }}>
-                                {comp.definition}
-                              </p>
-                            )}
-                            {comp.dimensions.map(dim => (
-                              <div key={dim.name} className="space-y-2">
-                                <div>
-                                  <h4 className="text-xs font-bold uppercase tracking-wide" style={{ color: C.text }}>
-                                    {dim.name}
-                                  </h4>
-                                  {dim.definition && (
-                                    <p className="text-xs leading-relaxed" style={{ color: C.textMuted }}>
-                                      {dim.definition}
-                                    </p>
-                                  )}
-                                </div>
+                            <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-5 items-start">
+                              {/* Left: required competency & dimensions (reference) */}
+                              <div className="space-y-5 min-w-0">
+                                {comp.definition && (
+                                  <p className="text-xs leading-relaxed" style={{ color: C.textMuted }}>
+                                    {comp.definition}
+                                  </p>
+                                )}
+                                {comp.dimensions.map(dim => (
+                                  <div key={dim.name} className="space-y-2">
+                                    <div>
+                                      <h4 className="text-xs font-bold uppercase tracking-wide" style={{ color: C.text }}>
+                                        {dim.name}
+                                      </h4>
+                                      {dim.definition && (
+                                        <p className="text-xs leading-relaxed" style={{ color: C.textMuted }}>
+                                          {dim.definition}
+                                        </p>
+                                      )}
+                                    </div>
 
-                                {/* Mobile: stacked */}
-                                <div className="sm:hidden space-y-2">
-                                  {LEVELS.map(lvl => (
-                                    <DimensionLevelCard key={lvl} lvl={lvl} activeLevel={level} text={dim.levels[lvl]} C={C} />
-                                  ))}
-                                </div>
+                                    {/* Mobile: stacked */}
+                                    <div className="sm:hidden space-y-2">
+                                      {LEVELS.map(lvl => (
+                                        <DimensionLevelCard key={lvl} lvl={lvl} activeLevel={level} text={dim.levels[lvl]} C={C} />
+                                      ))}
+                                    </div>
 
-                                {/* Desktop: 4-col grid */}
-                                <div className="hidden sm:grid grid-cols-4 gap-2">
-                                  {LEVELS.map(lvl => (
-                                    <DimensionLevelCard key={lvl} lvl={lvl} activeLevel={level} text={dim.levels[lvl]} C={C} />
-                                  ))}
-                                </div>
+                                    {/* Desktop: 4-col grid */}
+                                    <div className="hidden sm:grid grid-cols-4 gap-2">
+                                      {LEVELS.map(lvl => (
+                                        <DimensionLevelCard key={lvl} lvl={lvl} activeLevel={level} text={dim.levels[lvl]} C={C} />
+                                      ))}
+                                    </div>
+                                  </div>
+                                ))}
                               </div>
-                            ))}
 
-                            <PositionDuties
-                              divisionCode={division.code}
-                              positionIndex={idx}
-                              competencyName={name}
-                              duties={duties}
-                              onSaved={loadDuties}
-                            />
+                              {/* Right: duties entry, sticky so it stays visible while
+                                  scrolling the (often longer) reference column on the left */}
+                              <div className="lg:sticky lg:top-24">
+                                <PositionDuties
+                                  divisionCode={division.code}
+                                  positionIndex={idx}
+                                  competencyName={name}
+                                  duties={duties}
+                                  onSaved={loadDuties}
+                                />
+                              </div>
+                            </div>
 
                             <PositionCompetencyComments
                               divisionCode={division.code}

@@ -2,8 +2,11 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getSupabaseAdmin } from '@/lib/supabase/server'
 
 // Actual duties/responsibilities keyed in per position + competency. Directly
-// editable on the public positions page — no HRDD review gate, since this is
-// factual input from the head of office rather than a proposed framework change.
+// submitted on the public positions page — no gate to submit, since this is
+// factual input from the head of office rather than a proposed framework
+// change. Multiple entries can exist for the same position+competency (e.g.
+// two people collaborating on one position both submit their own wording);
+// each stays 'pending' until a later review pass marks one 'final'.
 
 export async function GET(_req: NextRequest, { params }: { params: Promise<{ code: string }> }) {
   const { code } = await params
@@ -11,8 +14,9 @@ export async function GET(_req: NextRequest, { params }: { params: Promise<{ cod
 
   const { data, error } = await supabase
     .from('position_duties')
-    .select('position_index, competency_name, duties_text, updated_at')
+    .select('id, position_index, competency_name, duties_text, status, created_at')
     .eq('division_code', code.toUpperCase())
+    .order('created_at', { ascending: true })
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 })
@@ -33,7 +37,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
     typeof position_index !== 'number' ||
     typeof competency_name !== 'string' ||
     !competency_name.trim() ||
-    typeof duties_text !== 'string'
+    typeof duties_text !== 'string' ||
+    !duties_text.trim()
   ) {
     return NextResponse.json({ error: 'Missing required fields.' }, { status: 400 })
   }
@@ -41,17 +46,13 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ cod
   const supabase = getSupabaseAdmin()
   const { data, error } = await supabase
     .from('position_duties')
-    .upsert(
-      {
-        division_code: code.toUpperCase(),
-        position_index,
-        competency_name,
-        duties_text: duties_text.trim(),
-        updated_at: new Date().toISOString(),
-      },
-      { onConflict: 'division_code,position_index,competency_name' }
-    )
-    .select()
+    .insert({
+      division_code: code.toUpperCase(),
+      position_index,
+      competency_name,
+      duties_text: duties_text.trim(),
+    })
+    .select('id, position_index, competency_name, duties_text, status, created_at')
     .single()
 
   if (error) {
