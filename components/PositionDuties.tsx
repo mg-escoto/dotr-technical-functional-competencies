@@ -94,9 +94,9 @@ export default function PositionDuties({
         )}
       </div>
       <p className="text-xs leading-relaxed" style={{ color: C.textMuted }}>
-        Head of office: list the actual tasks performed by this position that map to this
-        competency. Multiple people can add their own entry — all entries are kept until
-        one is confirmed as final.
+        Head of office (preferred): list the actual tasks performed by this position that
+        map to this competency. Multiple people can add their own entries; all entries are
+        kept until confirmed as final.
       </p>
 
       {relevant.length > 0 && (

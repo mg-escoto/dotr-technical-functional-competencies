@@ -16,6 +16,9 @@ export async function GET(_req: NextRequest, { params }: { params: Promise<{ cod
     .from('position_duties')
     .select('id, position_index, competency_name, duties_text, status, created_at')
     .eq('division_code', code.toUpperCase())
+    // Rejected entries stay in the database for HRDD's audit trail but drop out
+    // of the public list so workshop participants only ever see live entries.
+    .neq('status', 'rejected')
     .order('created_at', { ascending: true })
 
   if (error) {

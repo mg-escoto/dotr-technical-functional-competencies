@@ -90,7 +90,7 @@ create table if not exists position_duties (
   position_index int not null,
   competency_name text not null,
   duties_text text not null default '',
-  status text not null default 'pending' check (status in ('pending', 'final')),
+  status text not null default 'pending' check (status in ('pending', 'final', 'rejected')),
   created_at timestamptz not null default now()
 );
 
@@ -109,13 +109,8 @@ begin
   end if;
 end $$;
 alter table position_duties add column if not exists status text not null default 'pending';
-do $$ begin
-  if not exists (
-    select 1 from pg_constraint where conname = 'position_duties_status_check'
-  ) then
-    alter table position_duties add constraint position_duties_status_check check (status in ('pending', 'final'));
-  end if;
-end $$;
+alter table position_duties drop constraint if exists position_duties_status_check;
+alter table position_duties add constraint position_duties_status_check check (status in ('pending', 'final', 'rejected'));
 alter table position_duties add column if not exists created_at timestamptz not null default now();
 alter table position_duties drop column if exists version;
 
