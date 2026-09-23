@@ -27,12 +27,29 @@ type Comment = {
 
 const LEVEL_OPTIONS = ['Emerging', 'Developing', 'Proficient', 'Advanced']
 
+function matchesQuery(c: Comment, query: string) {
+  const q = query.trim().toLowerCase()
+  if (!q) return true
+  return [
+    c.division_code,
+    c.competency_name,
+    c.dimension_name,
+    c.position_title,
+    c.author_name,
+    c.comment_text,
+    c.suggested_text,
+  ]
+    .filter(Boolean)
+    .some(field => (field as string).toLowerCase().includes(q))
+}
+
 export default function AdminDashboardPage() {
   const C = useTechColors()
   const router = useRouter()
   const [comments, setComments] = useState<Comment[] | null>(null)
   const [authChecked, setAuthChecked] = useState(false)
   const [filter, setFilter] = useState<'pending' | 'accepted' | 'returned' | 'all'>('pending')
+  const [query, setQuery] = useState('')
 
   const load = useCallback(async () => {
     const res = await fetch('/api/admin/comments')
@@ -65,7 +82,7 @@ export default function AdminDashboardPage() {
     )
   }
 
-  const visible = comments.filter(c => filter === 'all' || c.status === filter)
+  const visible = comments.filter(c => (filter === 'all' || c.status === filter) && matchesQuery(c, query))
   const counts = {
     pending: comments.filter(c => c.status === 'pending').length,
     accepted: comments.filter(c => c.status === 'accepted').length,
@@ -106,20 +123,49 @@ export default function AdminDashboardPage() {
       </div>
 
       <div className="px-8 pt-6">
-        <div className="max-w-5xl mx-auto flex gap-2">
-          {(['pending', 'accepted', 'returned', 'all'] as const).map(f => (
-            <button
-              key={f}
-              onClick={() => setFilter(f)}
-              className="text-xs font-bold uppercase tracking-wide px-3 py-1.5 rounded-lg"
-              style={{
-                background: filter === f ? C.orange : C.subtleBg,
-                color: filter === f ? C.white : C.textMuted,
-              }}
+        <div className="max-w-5xl mx-auto flex flex-wrap items-center gap-3">
+          <div className="flex gap-2">
+            {(['pending', 'accepted', 'returned', 'all'] as const).map(f => (
+              <button
+                key={f}
+                onClick={() => setFilter(f)}
+                className="text-xs font-bold uppercase tracking-wide px-3 py-1.5 rounded-lg"
+                style={{
+                  background: filter === f ? C.orange : C.subtleBg,
+                  color: filter === f ? C.white : C.textMuted,
+                }}
+              >
+                {f}
+              </button>
+            ))}
+          </div>
+          <div className="relative flex-1 min-w-[220px]">
+            <span
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-sm pointer-events-none"
+              style={{ color: C.textMuted }}
+              aria-hidden="true"
             >
-              {f}
-            </button>
-          ))}
+              🔍
+            </span>
+            <input
+              type="text"
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              placeholder="Search by division, competency, position, author, or comment text…"
+              className="w-full text-sm rounded-lg pl-9 pr-9 py-2 outline-none"
+              style={{ background: C.card, border: `1px solid ${C.borderMuted}`, color: C.text }}
+            />
+            {query && (
+              <button
+                onClick={() => setQuery('')}
+                aria-label="Clear search"
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-sm font-bold w-5 h-5 rounded-full flex items-center justify-center hover:opacity-70"
+                style={{ color: C.textMuted, background: C.subtleBg }}
+              >
+                ×
+              </button>
+            )}
+          </div>
         </div>
       </div>
 
@@ -127,7 +173,9 @@ export default function AdminDashboardPage() {
         <div className="max-w-5xl mx-auto space-y-4">
           {visible.length === 0 && (
             <p className="text-sm" style={{ color: C.textMuted }}>
-              No {filter !== 'all' ? filter : ''} comments.
+              {query.trim()
+                ? `No ${filter !== 'all' ? filter + ' ' : ''}comments match "${query.trim()}".`
+                : `No ${filter !== 'all' ? filter : ''} comments.`}
             </p>
           )}
           {visible.map(c => (
