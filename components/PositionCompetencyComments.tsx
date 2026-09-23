@@ -88,7 +88,14 @@ export default function PositionCompetencyComments({
   const tintText = '#b45309'
 
   return (
-    <div className="space-y-3 rounded-xl p-4 mt-2" style={{ background: tintBg, border: `1px solid ${tintBorder}` }}>
+    <div
+      className="space-y-3 rounded-xl p-4 mt-4"
+      style={{
+        background: tintBg,
+        border: `1px solid ${tintBorder}`,
+        borderTop: `4px solid ${C.navy}`,
+      }}
+    >
       <div className="flex items-center justify-between gap-2">
         <h4 className="text-xs font-black uppercase tracking-wide flex items-center gap-1.5" style={{ color: tintText }}>
           <span aria-hidden="true">💬</span>

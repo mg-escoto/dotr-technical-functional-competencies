@@ -5,6 +5,7 @@ import { useTechColors } from '@/lib/techColors'
 
 export type PublicComment = {
   id: string
+  target_type: 'competency' | 'position'
   competency_index: number
   competency_name: string
   dimension_name: string | null
@@ -84,8 +85,12 @@ export default function CompetencyComments({
 
   return (
     <div
-      className="space-y-3 rounded-xl p-4 mt-2"
-      style={{ background: tintBg, border: `1px solid ${tintBorder}` }}
+      className="space-y-3 rounded-xl p-4 mt-4"
+      style={{
+        background: tintBg,
+        border: `1px solid ${tintBorder}`,
+        borderTop: `4px solid ${C.navy}`,
+      }}
     >
       <div className="flex items-center justify-between gap-2">
         <h4 className="text-sm font-black uppercase tracking-wide flex items-center gap-1.5" style={{ color: tintText }}>

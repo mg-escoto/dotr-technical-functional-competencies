@@ -9,6 +9,10 @@ import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE, type Competency } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
 
+function slugify(s: string) {
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
+}
+
 function LevelText({ text }: { text: string }) {
   const lines = text
     .split('\n')
@@ -35,6 +39,7 @@ export default function DivisionCompetencyPage() {
   const [expanded, setExpanded] = useState<string | null>(null)
   const [liveCompetencies, setLiveCompetencies] = useState<Competency[] | null>(null)
   const [comments, setComments] = useState<PublicComment[]>([])
+  const [pendingScrollId, setPendingScrollId] = useState<string | null>(null)
 
   const loadComments = useCallback(async () => {
     if (!division) return
@@ -55,6 +60,22 @@ export default function DivisionCompetencyPage() {
   }, [division, loadComments])
 
   const competencies = liveCompetencies ?? division?.competencies ?? []
+
+  useEffect(() => {
+    if (!pendingScrollId) return
+    const el = document.getElementById(pendingScrollId)
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      setPendingScrollId(null)
+    }
+  }, [expanded, pendingScrollId])
+
+  function jumpToComment(c: PublicComment) {
+    setExpanded(`${c.competency_index}-${c.competency_name}`)
+    setPendingScrollId(`dim-${c.competency_index}-${slugify(c.dimension_name ?? '')}`)
+  }
+
+  const returnedComments = comments.filter(c => c.status === 'returned' && c.target_type === 'competency')
 
   if (!division) {
     return (
@@ -146,6 +167,33 @@ export default function DivisionCompetencyPage() {
           </div>
         </div>
       </div>
+
+      {returnedComments.length > 0 && (
+        <div className="px-8 pt-6">
+          <div className="max-w-6xl mx-auto space-y-2">
+            {returnedComments.map(c => (
+              <button
+                key={c.id}
+                onClick={() => jumpToComment(c)}
+                className="w-full text-left rounded-xl px-5 py-3.5 flex items-center justify-between gap-3 transition-opacity hover:opacity-90"
+                style={{ background: 'rgba(179,92,0,0.10)', border: '1px solid rgba(179,92,0,0.4)' }}
+              >
+                <p className="text-sm font-semibold leading-snug" style={{ color: '#b35c00' }}>
+                  <span aria-hidden="true">⚠️</span>{' '}
+                  {c.competency_name}
+                  {c.dimension_name ? ` — ${c.dimension_name}` : ''} was returned
+                </p>
+                <span
+                  className="text-xs font-bold uppercase tracking-wide flex-shrink-0"
+                  style={{ color: '#b35c00' }}
+                >
+                  Click to view →
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {division.reorgNote && (
         <div className="px-8 pt-6">
@@ -271,7 +319,7 @@ export default function DivisionCompetencyPage() {
                 {isOpen && (
                   <div className="px-6 pb-6 space-y-6" style={{ borderTop: `1px solid ${C.borderMuted}` }}>
                     {comp.dimensions.map(dim => (
-                      <div key={dim.name} className="space-y-3 pt-5">
+                      <div key={dim.name} id={`dim-${idx}-${slugify(dim.name)}`} className="space-y-3 pt-5 scroll-mt-24">
                         <div>
                           <h4 className="text-sm font-bold uppercase tracking-wide" style={{ color: C.text }}>
                             {dim.name}

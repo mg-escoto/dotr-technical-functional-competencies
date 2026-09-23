@@ -20,6 +20,7 @@ export default function PositionProfilePage() {
   const [livePositions, setLivePositions] = useState<PositionProfile[] | null>(null)
   const [comments, setComments] = useState<PublicPositionComment[]>([])
   const [duties, setDuties] = useState<PositionDuty[]>([])
+  const [pendingScrollId, setPendingScrollId] = useState<string | null>(null)
 
   const loadComments = useCallback(async () => {
     if (!division) return
@@ -51,6 +52,27 @@ export default function PositionProfilePage() {
 
   const positions = livePositions ?? staticProfile?.positions ?? null
   const profile = staticProfile ? { ...staticProfile, positions: positions ?? staticProfile.positions } : null
+
+  useEffect(() => {
+    if (!pendingScrollId) return
+    const el = document.getElementById(pendingScrollId)
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      setPendingScrollId(null)
+    }
+  }, [expandedComp, pendingScrollId])
+
+  function jumpToComment(c: PublicPositionComment) {
+    if (!profile || c.position_index === null) return
+    const pos = profile.positions[c.position_index]
+    if (!pos) return
+    const posKey = `${c.position_index}-${pos.title}-${pos.section ?? ''}`
+    const compKey = `${posKey}-${c.competency_name}`
+    setExpandedComp(compKey)
+    setPendingScrollId(compKey)
+  }
+
+  const returnedComments = comments.filter(c => c.status === 'returned' && c.target_type === 'position')
 
   if (!division || !profile) {
     return (
@@ -108,6 +130,33 @@ export default function PositionProfilePage() {
         </div>
       </div>
 
+      {/* ── Returned comments notification ───────────────────────────────── */}
+      {returnedComments.length > 0 && (
+        <div className="px-8 pt-6">
+          <div className="max-w-6xl mx-auto space-y-2">
+            {returnedComments.map(c => (
+              <button
+                key={c.id}
+                onClick={() => jumpToComment(c)}
+                className="w-full text-left rounded-xl px-5 py-3.5 flex items-center justify-between gap-3 transition-opacity hover:opacity-90"
+                style={{ background: 'rgba(179,92,0,0.10)', border: '1px solid rgba(179,92,0,0.4)' }}
+              >
+                <p className="text-sm font-semibold leading-snug" style={{ color: '#b35c00' }}>
+                  <span aria-hidden="true">⚠️</span>{' '}
+                  {c.position_title} — {c.competency_name} was returned
+                </p>
+                <span
+                  className="text-xs font-bold uppercase tracking-wide flex-shrink-0"
+                  style={{ color: '#b35c00' }}
+                >
+                  Click to view →
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* ── Positions ─────────────────────────────────────────────────────── */}
       <div className="px-8 pb-24 pt-8">
         <div className="max-w-6xl mx-auto space-y-4">
@@ -139,7 +188,8 @@ export default function PositionProfilePage() {
                     return (
                       <div
                         key={compKey}
-                        className="rounded-lg overflow-hidden"
+                        id={compKey}
+                        className="rounded-lg overflow-hidden scroll-mt-24"
                         style={{ border: `1px solid ${C.borderMuted}` }}
                       >
                         <button
