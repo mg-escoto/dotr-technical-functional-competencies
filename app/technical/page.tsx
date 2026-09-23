@@ -160,7 +160,7 @@ export default function TechnicalCompetenciesPage() {
 
       {/* ── Offices ───────────────────────────────────────────────────────── */}
       <div className="px-8 pb-24">
-        <div className="max-w-6xl mx-auto space-y-14 pt-12">
+        <div className="max-w-6xl mx-auto space-y-3 pt-12">
           {filteredGroups.length === 0 ? (
             <div className="text-center py-16 space-y-2">
               <p className="text-4xl">🔍</p>
@@ -169,7 +169,13 @@ export default function TechnicalCompetenciesPage() {
             </div>
           ) : (
             filteredGroups.map(group => (
-              <OfficeSection key={group.officeOrder} C={C} office={group.office} divisions={group.divisions} />
+              <OfficeSection
+                key={group.officeOrder}
+                C={C}
+                office={group.office}
+                divisions={group.divisions}
+                forceOpen={isSearching}
+              />
             ))
           )}
         </div>
@@ -182,23 +188,50 @@ function OfficeSection({
   C,
   office,
   divisions,
+  forceOpen,
 }: {
   C: ReturnType<typeof useTechColors>
   office: string
   divisions: Division[]
+  forceOpen: boolean
 }) {
+  const [open, setOpen] = useState(false)
+  const isOpen = open || forceOpen
   const topLevel = divisions.filter(d => !d.parentCode)
+  const populated = topLevel.filter(d => d.status === 'populated').length
 
   return (
-    <section className="space-y-5">
-      <div className="flex items-center gap-3">
-        <div className="w-1.5 h-6 rounded-full" style={{ background: C.orange }} />
-        <h2 className="text-lg font-black" style={{ color: C.text }}>
-          {office}
-        </h2>
-      </div>
+    <section className="rounded-xl overflow-hidden" style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}>
+      <button
+        onClick={() => setOpen(v => !v)}
+        className="w-full flex items-center justify-between gap-3 px-5 py-4 text-left"
+        aria-expanded={isOpen}
+      >
+        <div className="flex items-center gap-3">
+          <div className="w-1.5 h-6 rounded-full flex-shrink-0" style={{ background: C.orange }} />
+          <div>
+            <h2 className="text-base font-black leading-snug" style={{ color: C.text }}>
+              {office}
+            </h2>
+            <p className="text-xs" style={{ color: C.textMuted }}>
+              {topLevel.length} division{topLevel.length === 1 ? '' : 's'} · {populated} populated
+            </p>
+          </div>
+        </div>
+        <span
+          className="text-sm font-bold flex-shrink-0 transition-transform"
+          style={{ color: C.textMuted, transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)' }}
+          aria-hidden="true"
+        >
+          ▾
+        </span>
+      </button>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {!isOpen ? null : (
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-5 pb-5 pt-1"
+        style={{ borderTop: `1px solid ${C.borderMuted}` }}
+      >
         {topLevel.map(d => {
           const children = divisions.filter(c => c.parentCode === d.code)
           const hasPositionProfile = !!getPositionProfile(d.code)
@@ -263,6 +296,7 @@ function OfficeSection({
           )
         })}
       </div>
+      )}
     </section>
   )
 }
