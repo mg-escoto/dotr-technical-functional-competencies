@@ -87,8 +87,39 @@ export default function TechnicalCompetenciesPage() {
         </div>
       </div>
 
+      {/* ── Competency Level Scale ────────────────────────────────────────── */}
+      {!isSearching && (
+      <div className="px-8 pt-12">
+        <div className="max-w-6xl mx-auto space-y-5">
+          <div className="flex items-center gap-3">
+            <div className="w-1.5 h-6 rounded-full" style={{ background: C.orange }} />
+            <h2 className="text-lg font-black" style={{ color: C.text }}>
+              Competency Level Scale
+            </h2>
+          </div>
+          <p className="text-sm leading-relaxed max-w-2xl -mt-2" style={{ color: C.textMuted }}>
+            Every division framework uses the same four-level progression.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {LEVEL_SCALE.map(row => (
+              <div
+                key={row.level}
+                className="rounded-xl p-4 space-y-1.5"
+                style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}
+              >
+                <p className="text-sm font-black" style={{ color: C.orange }}>{row.level}</p>
+                <p className="text-xs font-semibold" style={{ color: C.text }}>{row.stage}</p>
+                <p className="text-sm leading-snug" style={{ color: C.textMuted }}>{row.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      )}
+
       {/* ── Search bar (sticky, docked just below the fixed nav) ───────────── */}
-      <div className="sticky top-[70px] z-20 px-8 py-4" style={{ background: C.bg, borderBottom: `1px solid ${C.borderMuted}` }}>
+      <div className="sticky top-[70px] z-20 px-8 py-4 mt-12" style={{ background: C.bg, borderBottom: `1px solid ${C.borderMuted}` }}>
         <div className="max-w-6xl mx-auto">
           <div className="relative">
             <span
@@ -126,37 +157,6 @@ export default function TechnicalCompetenciesPage() {
           )}
         </div>
       </div>
-
-      {/* ── Competency Level Scale ────────────────────────────────────────── */}
-      {!isSearching && (
-      <div className="px-8 pt-12">
-        <div className="max-w-6xl mx-auto space-y-5">
-          <div className="flex items-center gap-3">
-            <div className="w-1.5 h-6 rounded-full" style={{ background: C.orange }} />
-            <h2 className="text-lg font-black" style={{ color: C.text }}>
-              Competency Level Scale
-            </h2>
-          </div>
-          <p className="text-sm leading-relaxed max-w-2xl -mt-2" style={{ color: C.textMuted }}>
-            Every division framework uses the same four-level progression.
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {LEVEL_SCALE.map(row => (
-              <div
-                key={row.level}
-                className="rounded-xl p-4 space-y-1.5"
-                style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}
-              >
-                <p className="text-sm font-black" style={{ color: C.orange }}>{row.level}</p>
-                <p className="text-xs font-semibold" style={{ color: C.text }}>{row.stage}</p>
-                <p className="text-sm leading-snug" style={{ color: C.textMuted }}>{row.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-      )}
 
       {/* ── Offices ───────────────────────────────────────────────────────── */}
       <div className="px-8 pb-24">
@@ -204,7 +204,8 @@ function OfficeSection({
     <section className="rounded-xl overflow-hidden" style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}>
       <button
         onClick={() => setOpen(v => !v)}
-        className="w-full flex items-center justify-between gap-3 px-5 py-4 text-left"
+        className="w-full flex items-center justify-between gap-3 px-5 py-4 text-left transition-colors"
+        style={{ background: isOpen ? C.subtleBg : C.heroBg }}
         aria-expanded={isOpen}
       >
         <div className="flex items-center gap-3">
