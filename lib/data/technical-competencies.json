@@ -827,7 +827,7 @@
           },
           {
             "name": "Video and Audio-Visual Production",
-            "definition": "Ability to produce and edit videos, AVPs, presentations and multimedia materials.",
+            "definition": "Ability to produce and edit videos, Audio-Visual Presentations (AVPs), presentations and multimedia materials.",
             "levels": {
               "Emerging": "Assists in video, AVP and presentation production.",
               "Developing": "Produces and edits videos, AVPs and multimedia presentations.",
@@ -1167,7 +1167,7 @@
             "name": "Database and CRM Management",
             "definition": null,
             "levels": {
-              "Emerging": "Applies basic database and CRM management activities with close supervision.",
+              "Emerging": "Applies basic database and Customer Relationship Management (CRM) management activities with close supervision.",
               "Developing": "Independently performs database and CRM management for routine requirements.",
               "Proficient": "Effectively manages complex database and CRM management requirements and ensures quality results.",
               "Advanced": "Leads improvements, coaches others, and institutionalizes best practices in database and CRM management."
