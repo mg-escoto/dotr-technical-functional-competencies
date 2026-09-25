@@ -6,7 +6,7 @@ type RefItem = string | { text: string; url: string }
 
 const REFERENCE_TIERS: { label: string; items: RefItem[] }[] = [
   {
-    label: 'Primary Legal Basis',
+    label: 'Primary References',
     items: [
       'Civil Service Commission (CSC) Memorandum Circular (MC) No. 24, s. 2016 - Program to Institutionalize Meritocracy and Excellence in Human Resource Management (PRIME-HRM) Enhanced Maturity Level Indicators',
       'Civil Service Commission (CSC) Resolution No. 2600005 - Guidelines on the Development of Agency Competency-Based Human Resource Management System',

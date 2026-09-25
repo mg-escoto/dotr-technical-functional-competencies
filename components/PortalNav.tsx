@@ -34,7 +34,7 @@ export default function PortalNav({ active = null }: { active?: Section }) {
       <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="/dotr-logo.svg" alt="Department of Transportation" className="w-9 h-9 flex-shrink-0" />
-        <p className="hidden sm:block text-xs font-black uppercase tracking-widest" style={{ color: C.text }}>
+        <p className="hidden sm:block text-xs font-black tracking-widest" style={{ color: C.text }}>
           DOTr Competency Portal
         </p>
       </Link>
