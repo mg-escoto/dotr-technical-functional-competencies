@@ -99,7 +99,7 @@ export default function CoreCompetenciesPage() {
                           className="text-xs font-bold uppercase tracking-wide px-2 py-0.5 rounded-md w-fit"
                           style={{ background: C.subtleBg, color: C.orange }}
                         >
-                          Sample · For Review
+                          For Review
                         </p>
                       )}
                     </div>
