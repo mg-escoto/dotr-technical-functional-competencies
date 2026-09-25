@@ -10214,12 +10214,22 @@
           },
           {
             "name": "Control Gap and Root-Cause Analysis",
-            "definition": "Identifies control weaknesses, process breakdowns, root causes, effects and risks and distinguishes significant issues from minor deficiencies. Baseline Assessment and Control Documentation Supports BAICS-related preparatory work by researching organizational objectives, mandates, policies and control components and developing appropriate control documentation such as ICQs.",
+            "definition": "Identifies control weaknesses, process breakdowns, root causes, effects and risks and distinguishes significant issues from minor deficiencies.",
             "levels": {
-              "Emerging": "Supports control gap and root-cause analysis within an approved audit scope and follows prescribed procedures with guidance. Supports baseline assessment and control documentation within an approved audit scope and follows prescribed procedures with guidance.",
-              "Developing": "Performs routine to moderately complex control gap and root-cause analysis independently, gathers evidence and documents results. Performs routine to moderately complex baseline assessment and control documentation independently, gathers evidence and documents results.",
-              "Proficient": "Independently manages complex control gap and root-cause analysis, evaluates significance and integrates evidence into defensible audit conclusions. Independently manages complex baseline assessment and control documentation, evaluates significance and integrates evidence into defensible audit conclusions.",
-              "Advanced": "Provides expert leadership in control gap and root-cause analysis, coaches audit teams and improves consistency, coverage and audit approaches. Provides expert leadership in baseline assessment and control documentation, coaches audit teams and improves consistency, coverage and audit approaches."
+              "Emerging": "Supports control gap and root-cause analysis within an approved audit scope and follows prescribed procedures with guidance.",
+              "Developing": "Performs routine to moderately complex control gap and root-cause analysis independently, gathers evidence and documents results.",
+              "Proficient": "Independently manages complex control gap and root-cause analysis, evaluates significance and integrates evidence into defensible audit conclusions.",
+              "Advanced": "Provides expert leadership in control gap and root-cause analysis, coaches audit teams and improves consistency, coverage and audit approaches."
+            }
+          },
+          {
+            "name": "Baseline Assessment and Control Documentation",
+            "definition": "Supports Baseline Assessment of Internal Control Systems (BAICS)-related preparatory work by researching organizational objectives, mandates, policies and control components and developing appropriate control documentation such as Internal Control Questionnaires (ICQs).",
+            "levels": {
+              "Emerging": "Supports baseline assessment and control documentation within an approved audit scope and follows prescribed procedures with guidance.",
+              "Developing": "Performs routine to moderately complex baseline assessment and control documentation independently, gathers evidence and documents results.",
+              "Proficient": "Independently manages complex baseline assessment and control documentation, evaluates significance and integrates evidence into defensible audit conclusions.",
+              "Advanced": "Provides expert leadership in baseline assessment and control documentation, coaches audit teams and improves consistency, coverage and audit approaches."
             }
           },
           {
@@ -10316,12 +10326,22 @@
           },
           {
             "name": "Computer-Assisted Audit Techniques",
-            "definition": "Uses or supports appropriate CAATs and other technology-enabled audit procedures to improve audit coverage, efficiency and evidence quality. Audit Automation and Technology Enablement Identifies audit procedures suitable for automation, analytics or other technology-enabled improvements and contributes to controlled implementation.",
+            "definition": "Uses or supports appropriate CAATs and other technology-enabled audit procedures to improve audit coverage, efficiency and evidence quality.",
             "levels": {
-              "Emerging": "Recognizes basic technology risks relevant to computer-assisted audit techniques and follows approved tools and procedures. Recognizes basic technology risks relevant to audit automation and technology enablement and follows approved tools and procedures.",
-              "Developing": "Applies routine technology-enabled procedures for computer-assisted audit techniques with increasing independence and documents results. Applies routine technology-enabled procedures for audit automation and technology enablement with increasing independence and documents results.",
-              "Proficient": "Independently evaluates complex computer-assisted audit techniques, selects appropriate techniques and assesses implications for audit conclusions. Independently evaluates complex audit automation and technology enablement, selects appropriate techniques and assesses implications for audit conclusions.",
-              "Advanced": "Leads improvements in computer-assisted audit techniques, mentors staff and strengthens technology-enabled audit capability while preserving independence. Leads improvements in audit automation and technology enablement, mentors staff and strengthens technology-enabled audit capability while preserving independence."
+              "Emerging": "Recognizes basic technology risks relevant to computer-assisted audit techniques and follows approved tools and procedures.",
+              "Developing": "Applies routine technology-enabled procedures for computer-assisted audit techniques with increasing independence and documents results.",
+              "Proficient": "Independently evaluates complex computer-assisted audit techniques, selects appropriate techniques and assesses implications for audit conclusions.",
+              "Advanced": "Leads improvements in computer-assisted audit techniques, mentors staff and strengthens technology-enabled audit capability while preserving independence."
+            }
+          },
+          {
+            "name": "Audit Automation and Technology Enablement",
+            "definition": "Identifies audit procedures suitable for automation, analytics or other technology-enabled improvements and contributes to controlled implementation.",
+            "levels": {
+              "Emerging": "Recognizes basic technology risks relevant to audit automation and technology enablement and follows approved tools and procedures.",
+              "Developing": "Applies routine technology-enabled procedures for audit automation and technology enablement with increasing independence and documents results.",
+              "Proficient": "Independently evaluates complex audit automation and technology enablement, selects appropriate techniques and assesses implications for audit conclusions.",
+              "Advanced": "Leads improvements in audit automation and technology enablement, mentors staff and strengthens technology-enabled audit capability while preserving independence."
             }
           },
           {
