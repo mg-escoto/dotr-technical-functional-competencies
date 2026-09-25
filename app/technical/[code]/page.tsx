@@ -10,6 +10,7 @@ import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE, type Competency } fr
 import { getPositionProfile } from '@/lib/data/positionProfiles'
 import { downloadDivisionDoc } from '@/lib/docExport'
 import DownloadMenu from '@/components/DownloadMenu'
+import HeroParallaxDecor from '@/components/HeroParallaxDecor'
 
 function slugify(s: string) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
@@ -141,8 +142,9 @@ export default function DivisionCompetencyPage() {
       <PortalNav active="technical" />
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
-      <div className="pt-28 pb-12 px-8" style={{ background: C.heroBg }}>
-        <div className="max-w-6xl mx-auto space-y-3">
+      <div className="relative overflow-hidden pt-28 pb-12 px-8" style={{ background: C.heroBg }}>
+        <HeroParallaxDecor />
+        <div className="relative z-10 max-w-6xl mx-auto space-y-3">
           <div className="flex items-center justify-between gap-4">
             <Link
               href="/technical"

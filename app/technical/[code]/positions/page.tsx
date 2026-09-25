@@ -11,6 +11,7 @@ import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/tec
 import { getPositionProfile, type PositionProfile } from '@/lib/data/positionProfiles'
 import { downloadPositionsDoc } from '@/lib/docExport'
 import DownloadMenu from '@/components/DownloadMenu'
+import HeroParallaxDecor from '@/components/HeroParallaxDecor'
 
 export default function PositionProfilePage() {
   const params = useParams<{ code: string }>()
@@ -111,8 +112,9 @@ export default function PositionProfilePage() {
       <PortalNav active="technical" />
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
-      <div className="pt-28 pb-10 px-8" style={{ background: C.heroBg }}>
-        <div className="max-w-6xl mx-auto space-y-3">
+      <div className="relative overflow-hidden pt-28 pb-10 px-8" style={{ background: C.heroBg }}>
+        <HeroParallaxDecor />
+        <div className="relative z-10 max-w-6xl mx-auto space-y-3">
           <div className="flex items-center justify-between gap-4">
             <Link
               href={`/technical/${encodeURIComponent(division.code)}`}

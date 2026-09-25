@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
+import HeroParallaxDecor from '@/components/HeroParallaxDecor'
 import { useTechColors } from '@/lib/techColors'
 import { getDivisionsByOffice, divisions, LEVEL_SCALE, type Division } from '@/lib/data/technicalCompetencies'
 
@@ -48,8 +49,9 @@ export default function TechnicalCompetenciesPage() {
       <PortalNav active="technical" />
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
-      <div className="pt-28 pb-14 px-8" style={{ background: C.heroBg }}>
-        <div className="max-w-6xl mx-auto space-y-3">
+      <div className="relative overflow-hidden pt-28 pb-14 px-8" style={{ background: C.heroBg }}>
+        <HeroParallaxDecor />
+        <div className="relative z-10 max-w-6xl mx-auto space-y-3">
           <Link
             href="/"
             className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity inline-block"

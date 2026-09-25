@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import PortalNav, { LPS_URL } from '@/components/PortalNav'
+import HeroParallaxDecor from '@/components/HeroParallaxDecor'
 import { useTechColors } from '@/lib/techColors'
 import { divisions } from '@/lib/data/technicalCompetencies'
 import { coreCompetencies } from '@/lib/data/coreCompetencies'
@@ -14,8 +15,9 @@ export default function LandingPage() {
       <PortalNav />
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
-      <div className="pt-28 pb-14 px-8" style={{ background: C.heroBg }}>
-        <div className="max-w-6xl mx-auto space-y-3">
+      <div className="relative overflow-hidden pt-28 pb-14 px-8" style={{ background: C.heroBg }}>
+        <HeroParallaxDecor />
+        <div className="relative z-10 max-w-6xl mx-auto space-y-3">
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
             Department of Transportation
           </p>
@@ -89,17 +91,17 @@ export default function LandingPage() {
             <CompetencyPartCard
               C={C}
               label="Knowledge"
-              description="What an employee understands — the facts, concepts, procedures, and subject-matter expertise relevant to the job."
+              description="What an employee understands: the facts, concepts, procedures, and subject-matter expertise relevant to the job."
             />
             <CompetencyPartCard
               C={C}
               label="Skills"
-              description="What an employee can do — the practical, applied abilities built through training and hands-on experience."
+              description="What an employee can do: the practical, applied abilities built through training and hands-on experience."
             />
             <CompetencyPartCard
               C={C}
               label="Attitudes"
-              description="How an employee approaches the work — the values, behaviors, and mindset that shape performance."
+              description="How an employee approaches the work: the values, behaviors, and mindset that shape performance."
             />
           </div>
         </div>

@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
+import HeroParallaxDecor from '@/components/HeroParallaxDecor'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { coreCompetencies } from '@/lib/data/coreCompetencies'
 import { LEVELS, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
@@ -16,8 +17,9 @@ export default function CoreCompetenciesPage() {
       <PortalNav active="core" />
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
-      <div className="pt-28 pb-12 px-8" style={{ background: C.heroBg }}>
-        <div className="max-w-6xl mx-auto space-y-3">
+      <div className="relative overflow-hidden pt-28 pb-12 px-8" style={{ background: C.heroBg }}>
+        <HeroParallaxDecor />
+        <div className="relative z-10 max-w-6xl mx-auto space-y-3">
           <Link
             href="/"
             className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
