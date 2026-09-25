@@ -7822,7 +7822,7 @@
             "definition": "The ability to prepare, review, sign, route, and validate certificates, vouchers, journal entries, certifications, and other required disbursement outputs.",
             "levels": {
               "Emerging": "Prepares assigned supporting forms and documents under guidance.",
-              "Developing": "Prepares, signs, or routes authorized CAFs, vouchers, journal entries, certifications, and related outputs.",
+              "Developing": "Prepares, signs, or routes authorized Certificates of Availability of Funds (CAFs), vouchers, journal entries, certifications, and related outputs.",
               "Proficient": "Reviews supporting outputs for completeness, consistency, and compliance before submission.",
               "Advanced": "Oversees quality and timeliness of critical disbursement-related documents and certifications."
             }
