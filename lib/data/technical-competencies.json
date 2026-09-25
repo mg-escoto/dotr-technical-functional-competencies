@@ -2273,7 +2273,7 @@
     "competencies": [
       {
         "name": "Cash Disbursement and Payment Processing",
-        "definition": "The ability to accurately process, review, validate, authorize or route, and monitor cash disbursement and payment transactions, including Disbursement Vouchers, checks, List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA)/eADA, ACIC/SLIIE, cash allocation, NCA utilization, payroll payments, and related supporting documents, within prescribed timelines and controls.",
+        "definition": "The ability to accurately process, review, validate, authorize or route, and monitor cash disbursement and payment transactions, including Disbursement Vouchers, checks, List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA)/eADA, ACIC/SLIIE, cash allocation, Notice of Cash Allocation (NCA) utilization, payroll payments, and related supporting documents, within prescribed timelines and controls.",
         "dimensions": [
           {
             "name": "Disbursement Voucher and Supporting-Document Processing",
@@ -2408,7 +2408,7 @@
             }
           },
           {
-            "name": "Commission on Audit (COA), BTr, and Regulatory Reporting",
+            "name": "Commission on Audit (COA), Bureau of the Treasury (BTr), and Regulatory Reporting",
             "definition": "Ability to validate, route and submit required reports to Commission on Audit (COA), BTr and other authorized recipients within prescribed deadlines.",
             "levels": {
               "Emerging": "Prepares assigned supporting documents for submission with guidance.",
@@ -2587,7 +2587,7 @@
           },
           {
             "name": "TSA and Digital Treasury Compliance",
-            "definition": "Ability to monitor compliance of electronic disbursements with Treasury Single Account and related treasury requirements.",
+            "definition": "Ability to monitor compliance of electronic disbursements with Treasury Single Account (TSA) and related treasury requirements.",
             "levels": {
               "Emerging": "Follows established TSA and digital treasury procedures with guidance.",
               "Developing": "Monitors routine electronic transactions for compliance with prescribed TSA requirements.",
@@ -3589,7 +3589,7 @@
             "definition": "Ability to translate operational requirements into accurate and timely procurement plans and requests.",
             "levels": {
               "Emerging": "Identifies routine procurement requirements using established plans, forms, and guidance.",
-              "Developing": "Prepares routine procurement requirements and supports PPMP, Supplemental PPMP, and related planning activities.",
+              "Developing": "Prepares routine procurement requirements and supports the Project Procurement Management Plan (PPMP), Supplemental PPMP, and related planning activities.",
               "Proficient": "Analyzes operational requirements, timing, priorities, and procurement approaches for complex requirements.",
               "Advanced": "Provides strategic procurement-planning guidance and improves approaches for timely, compliant, and cost-effective procurement."
             }
@@ -3599,7 +3599,7 @@
             "definition": "Ability to prepare, review, verify, and maintain complete procurement-related documents.",
             "levels": {
               "Emerging": "Prepares routine procurement documents using prescribed formats with guidance.",
-              "Developing": "Reviews routine PRs, APRs, and supporting documents for completeness and compliance.",
+              "Developing": "Reviews routine Purchase Requests (PRs), APRs, and supporting documents for completeness and compliance.",
               "Proficient": "Resolves complex documentation deficiencies and ensures procurement submissions meet applicable requirements.",
               "Advanced": "Establishes document-quality controls and standards that improve procurement efficiency and compliance."
             }
@@ -3655,7 +3655,7 @@
             "definition": "Ability to coordinate inspection and acceptance of delivered supplies and control their authorized issuance.",
             "levels": {
               "Emerging": "Assists in preparing or routing routine inspection, acceptance, and issuance documents with guidance.",
-              "Developing": "Coordinates routine RFI, IAR, and RIS requirements and checks supporting documents.",
+              "Developing": "Coordinates routine Request for Inspection (RFI), Inspection and Acceptance Report (IAR), and Requisition and Issue Slip (RIS) requirements and checks supporting documents.",
               "Proficient": "Resolves complex inspection, acceptance, issuance, and documentation issues and coordinates corrective action.",
               "Advanced": "Establishes effective controls for inspection, acceptance, issuance, and service readiness."
             }
@@ -3665,7 +3665,7 @@
             "definition": "Ability to reconcile inventory records, monitor balances and issuances, and support physical inventory accountability.",
             "levels": {
               "Emerging": "Records routine inventory transactions and reports discrepancies with guidance.",
-              "Developing": "Prepares or supports routine RSMI, PS-LR/MSPIB, and inventory records using established procedures.",
+              "Developing": "Prepares or supports routine Report of Supplies and Materials Issued (RSMI), PS-LR/MSPIB, and inventory records using established procedures.",
               "Proficient": "Analyzes inventory variances, supports physical counts, reconciles records, and recommends corrective actions.",
               "Advanced": "Strengthens inventory accountability systems and uses inventory information to improve resource stewardship and decision-making."
             }
@@ -5256,7 +5256,7 @@
           },
           {
             "name": "Personal Protective Equipment and Safe Work Practices",
-            "definition": "Ability to select and consistently use appropriate PPE and safe work practices.",
+            "definition": "Ability to select and consistently use appropriate Personal Protective Equipment (PPE) and safe work practices.",
             "levels": {
               "Emerging": "Uses required PPE such as facemask and face shield according to established procedures.",
               "Developing": "Consistently applies PPE and safe work practices during routine procedures.",
@@ -5560,7 +5560,7 @@
           },
           {
             "name": "Personal Protective Equipment and Safe Work Practices",
-            "definition": "Ability to select and consistently use appropriate PPE and safe work practices.",
+            "definition": "Ability to select and consistently use appropriate Personal Protective Equipment (PPE) and safe work practices.",
             "levels": {
               "Emerging": "Uses required PPE such as gloves and face mask according to established procedures.",
               "Developing": "Consistently applies PPE and safe work practices during routine procedures.",
