@@ -5,7 +5,6 @@ import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
 import { useTechColors } from '@/lib/techColors'
 import { getDivisionsByOffice, divisions, LEVEL_SCALE, type Division } from '@/lib/data/technicalCompetencies'
-import { getPositionProfile } from '@/lib/data/positionProfiles'
 
 function matches(d: Division, query: string) {
   const q = query.trim().toLowerCase()
@@ -17,7 +16,6 @@ export default function TechnicalCompetenciesPage() {
   const C = useTechColors()
   const [query, setQuery] = useState('')
   const officeGroups = getDivisionsByOffice()
-  const populatedCount = divisions.filter(d => d.status === 'populated').length
 
   const filteredGroups = useMemo(() => {
     if (!query.trim()) return officeGroups
@@ -76,12 +74,6 @@ export default function TechnicalCompetenciesPage() {
               style={{ background: C.navy, color: C.white }}
             >
               {divisions.length} Divisions
-            </div>
-            <div
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide"
-              style={{ background: C.orange, color: C.white }}
-            >
-              {populatedCount} Populated · {divisions.length - populatedCount} Under Construction
             </div>
           </div>
         </div>
@@ -235,7 +227,6 @@ function OfficeSection({
       >
         {topLevel.map(d => {
           const children = divisions.filter(c => c.parentCode === d.code)
-          const hasPositionProfile = !!getPositionProfile(d.code)
           return (
             <Link
               key={d.code}
@@ -255,16 +246,6 @@ function OfficeSection({
                   >
                     {d.code}
                   </p>
-                  {hasPositionProfile && (
-                    <span
-                      title="Individual competencies available"
-                      aria-label="Individual competencies available"
-                      className="flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold flex-shrink-0"
-                      style={{ background: C.orange, color: C.white }}
-                    >
-                      ✓
-                    </span>
-                  )}
                 </div>
                 <span
                   className="text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity"

@@ -32,7 +32,7 @@ export default function LandingPage() {
       </div>
 
       {/* ── Three pillars ─────────────────────────────────────────────────── */}
-      <div className="px-8 pb-24 pt-12">
+      <div className="px-8 pb-16 pt-12">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
           <PillarCard
             C={C}
@@ -61,6 +61,73 @@ export default function LandingPage() {
           />
         </div>
       </div>
+
+      {/* ── What is a Competency? ────────────────────────────────────────── */}
+      <div className="px-8 pb-24">
+        <div className="max-w-6xl mx-auto space-y-8">
+          <div className="space-y-3 max-w-3xl">
+            <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
+              About the Framework
+            </p>
+            <h2 className="font-black leading-snug" style={{ fontSize: 'clamp(22px, 2.5vw, 30px)', color: C.text }}>
+              What Is a Competency?
+            </h2>
+            <p className="text-sm leading-relaxed" style={{ color: C.textMuted }}>
+              A competency is an observable, measurable combination of knowledge, skills, and
+              attitudes that an employee consistently applies to perform a job well — not a
+              single skill on its own, but the fuller set of capabilities behind sustained,
+              effective performance. This portal follows the Civil Service Commission&apos;s (CSC)
+              Competency-Based Human Resource Management System (CBHRMS), issued under CSC
+              Resolution No. 2600005 — Guidelines on the Development of Agency Competency-Based
+              Human Resource Management System. The resolution directs agencies to define core,
+              leadership, and technical/functional competencies, the same three pillars organized
+              above, for use across recruitment, performance management, and employee development.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            <CompetencyPartCard
+              C={C}
+              label="Knowledge"
+              description="What an employee understands — the facts, concepts, procedures, and subject-matter expertise relevant to the job."
+            />
+            <CompetencyPartCard
+              C={C}
+              label="Skills"
+              description="What an employee can do — the practical, applied abilities built through training and hands-on experience."
+            />
+            <CompetencyPartCard
+              C={C}
+              label="Attitudes"
+              description="How an employee approaches the work — the values, behaviors, and mindset that shape performance."
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function CompetencyPartCard({
+  C,
+  label,
+  description,
+}: {
+  C: ReturnType<typeof useTechColors>
+  label: string
+  description: string
+}) {
+  return (
+    <div
+      className="rounded-2xl p-6 space-y-2"
+      style={{ background: C.card, border: `1px solid ${C.borderMuted}` }}
+    >
+      <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
+        {label}
+      </p>
+      <p className="text-sm leading-relaxed" style={{ color: C.textMuted }}>
+        {description}
+      </p>
     </div>
   )
 }
