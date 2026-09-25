@@ -10,6 +10,7 @@ import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile, type PositionProfile } from '@/lib/data/positionProfiles'
 import { downloadPositionsDoc } from '@/lib/docExport'
+import DownloadMenu from '@/components/DownloadMenu'
 
 export default function PositionProfilePage() {
   const params = useParams<{ code: string }>()
@@ -112,36 +113,22 @@ export default function PositionProfilePage() {
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <div className="pt-28 pb-10 px-8" style={{ background: C.heroBg }}>
         <div className="max-w-6xl mx-auto space-y-3">
-          <Link
-            href={`/technical/${encodeURIComponent(division.code)}`}
-            className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
-            style={{ color: C.textMuted }}
-          >
-            ← {division.name}
-          </Link>
+          <div className="flex items-center justify-between gap-4">
+            <Link
+              href={`/technical/${encodeURIComponent(division.code)}`}
+              className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
+              style={{ color: C.textMuted }}
+            >
+              ← {division.name}
+            </Link>
+            <DownloadMenu onDownloadDocx={handleDownload} downloading={downloading} />
+          </div>
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
             Sample · For Review
           </p>
           <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', color: C.text }}>
             Position Competency Profile
           </h1>
-          <div className="no-print flex flex-wrap items-center gap-3 pt-1">
-            <button
-              onClick={handleDownload}
-              disabled={downloading}
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity disabled:opacity-50"
-              style={{ background: C.card, color: C.text, border: `1px solid ${C.borderMuted}` }}
-            >
-              {downloading ? 'Preparing…' : '⬇ Download (.docx)'}
-            </button>
-            <button
-              onClick={() => window.print()}
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity"
-              style={{ background: C.card, color: C.text, border: `1px solid ${C.borderMuted}` }}
-            >
-              🖨 Print / Save as PDF
-            </button>
-          </div>
         </div>
       </div>
 

@@ -9,6 +9,7 @@ import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE, type Competency } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
 import { downloadDivisionDoc } from '@/lib/docExport'
+import DownloadMenu from '@/components/DownloadMenu'
 
 function slugify(s: string) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
@@ -142,13 +143,16 @@ export default function DivisionCompetencyPage() {
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
       <div className="pt-28 pb-12 px-8" style={{ background: C.heroBg }}>
         <div className="max-w-6xl mx-auto space-y-3">
-          <Link
-            href="/technical"
-            className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
-            style={{ color: C.textMuted }}
-          >
-            ← All Divisions
-          </Link>
+          <div className="flex items-center justify-between gap-4">
+            <Link
+              href="/technical"
+              className="text-xs font-bold uppercase tracking-widest hover:opacity-60 transition-opacity"
+              style={{ color: C.textMuted }}
+            >
+              ← All Divisions
+            </Link>
+            <DownloadMenu onDownloadDocx={handleDownload} downloading={downloading} />
+          </div>
           <p className="text-xs font-bold uppercase tracking-widest" style={{ color: C.orange }}>
             {division.code} · {division.office}
           </p>
@@ -176,23 +180,6 @@ export default function DivisionCompetencyPage() {
                 View Position Competency Profile (Sample) →
               </Link>
             )}
-            <div className="no-print inline-flex items-center gap-3">
-              <button
-                onClick={handleDownload}
-                disabled={downloading}
-                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity disabled:opacity-50"
-                style={{ background: C.card, color: C.text, border: `1px solid ${C.borderMuted}` }}
-              >
-                {downloading ? 'Preparing…' : '⬇ Download (.docx)'}
-              </button>
-              <button
-                onClick={() => window.print()}
-                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity"
-                style={{ background: C.card, color: C.text, border: `1px solid ${C.borderMuted}` }}
-              >
-                🖨 Print / Save as PDF
-              </button>
-            </div>
           </div>
         </div>
       </div>
