@@ -2547,7 +2547,7 @@
         "dimensions": [
           {
             "name": "Electronic Payment Platform Processing",
-            "definition": "Ability to process and monitor authorized electronic payments using eMDS, weAccess, eTRA, eTPS and other prescribed platforms.",
+            "definition": "Ability to process and monitor authorized electronic payments using Electronic Modified Disbursement System (eMDS), weAccess, Electronic Tax Remittance Advice System (eTRA), Electronic Tax Payment System (eTPS) and other prescribed platforms.",
             "levels": {
               "Emerging": "Assists in navigating assigned digital platforms and processing routine transactions with guidance.",
               "Developing": "Processes routine electronic payments accurately and within prescribed timelines.",
@@ -6782,7 +6782,7 @@
           },
           {
             "name": "Transparency and Regulatory Reporting",
-            "definition": "Ability to comply with transparency and reporting requirements through the DOTr website, Modernized Philippine Government Electronic Procurement System (PhilGEPS), Commission on Audit (COA), DepDev, and other prescribed channels.",
+            "definition": "Ability to comply with transparency and reporting requirements through the DOTr website, Modernized Philippine Government Electronic Procurement System (PhilGEPS), Commission on Audit (COA), Department of Economy, Planning, and Development (DepDev), and other prescribed channels.",
             "levels": {
               "Emerging": "Identifies routine submission requirements and follows prescribed processes.",
               "Developing": "Completes routine website, PhilGEPS, and regulatory submissions accurately and on time.",
@@ -6930,7 +6930,7 @@
           },
           {
             "name": "Stakeholder Coordination",
-            "definition": "Ability to coordinate effectively with end-users, Project Management Offices (PMOs), ProcMS offices, Commission on Audit (COA), DepDev, and other stakeholders.",
+            "definition": "Ability to coordinate effectively with end-users, Project Management Offices (PMOs), Procurement Management Service (ProcMS) offices, Commission on Audit (COA), DepDev, and other stakeholders.",
             "levels": {
               "Emerging": "Coordinates routine matters with guidance and follows up on assigned actions.",
               "Developing": "Independently coordinates routine requirements and clarifies information.",
