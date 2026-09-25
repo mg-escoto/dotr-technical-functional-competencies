@@ -2,12 +2,18 @@
 
 import { useTechColors } from '@/lib/techColors'
 
-const REFERENCE_TIERS = [
+type RefItem = string | { text: string; url: string }
+
+const REFERENCE_TIERS: { label: string; items: RefItem[] }[] = [
   {
     label: 'Primary Legal Basis',
     items: [
-      'Civil Service Commission (CSC) Memorandum Circular (MC) No. 24, s. 2016',
+      'Civil Service Commission (CSC) Memorandum Circular (MC) No. 24, s. 2016 - Program to Institutionalize Meritocracy and Excellence in Human Resource Management (PRIME-HRM) Enhanced Maturity Level Indicators',
       'Civil Service Commission (CSC) Resolution No. 2600005 - Guidelines on the Development of Agency Competency-Based Human Resource Management System',
+      {
+        text: 'Civil Service Commission (CSC), A Guidebook on Competency Modelling and Profiling (2016)',
+        url: 'https://www.csc.gov.ph/phocadownload/userupload/hrpso/guidebook/Guidebook%20on%20Competency%20Modelling.pdf',
+      },
     ],
   },
   {
@@ -35,7 +41,24 @@ export default function Footer() {
             <span className="font-bold" style={{ color: C.text }}>
               {tier.label}:{' '}
             </span>
-            {tier.items.join('; ')}
+            {tier.items.map((item, i) => (
+              <span key={i}>
+                {typeof item === 'string' ? (
+                  item
+                ) : (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:opacity-70 transition-opacity"
+                    style={{ color: C.textMuted }}
+                  >
+                    {item.text}
+                  </a>
+                )}
+                {i < tier.items.length - 1 ? '; ' : ''}
+              </span>
+            ))}
           </p>
         ))}
       </div>
