@@ -8,6 +8,7 @@ import CompetencyComments, { type PublicComment } from '@/components/CompetencyC
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE, type Competency } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
+import { downloadDivisionDoc } from '@/lib/docExport'
 
 function slugify(s: string) {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
@@ -40,6 +41,7 @@ export default function DivisionCompetencyPage() {
   const [liveCompetencies, setLiveCompetencies] = useState<Competency[] | null>(null)
   const [comments, setComments] = useState<PublicComment[]>([])
   const [pendingScrollId, setPendingScrollId] = useState<string | null>(null)
+  const [downloading, setDownloading] = useState(false)
 
   const loadComments = useCallback(async () => {
     if (!division) return
@@ -73,6 +75,16 @@ export default function DivisionCompetencyPage() {
   function jumpToComment(c: PublicComment) {
     setExpanded(`${c.competency_index}-${c.competency_name}`)
     setPendingScrollId(`dim-${c.competency_index}-${slugify(c.dimension_name ?? '')}`)
+  }
+
+  async function handleDownload() {
+    if (!division || downloading) return
+    setDownloading(true)
+    try {
+      await downloadDivisionDoc(division, competencies)
+    } finally {
+      setDownloading(false)
+    }
   }
 
   const returnedComments = comments.filter(c => c.status === 'returned' && c.target_type === 'competency')
@@ -164,12 +176,29 @@ export default function DivisionCompetencyPage() {
                 View Position Competency Profile (Sample) →
               </Link>
             )}
+            <div className="no-print inline-flex items-center gap-3">
+              <button
+                onClick={handleDownload}
+                disabled={downloading}
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity disabled:opacity-50"
+                style={{ background: C.card, color: C.text, border: `1px solid ${C.borderMuted}` }}
+              >
+                {downloading ? 'Preparing…' : '⬇ Download (.docx)'}
+              </button>
+              <button
+                onClick={() => window.print()}
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity"
+                style={{ background: C.card, color: C.text, border: `1px solid ${C.borderMuted}` }}
+              >
+                🖨 Print / Save as PDF
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
       {returnedComments.length > 0 && (
-        <div className="px-8 pt-6">
+        <div className="no-print px-8 pt-6">
           <div className="max-w-6xl mx-auto space-y-2">
             {returnedComments.map(c => (
               <button
@@ -373,14 +402,16 @@ export default function DivisionCompetencyPage() {
                           })}
                         </div>
 
-                        <CompetencyComments
-                          divisionCode={division.code}
-                          competencyIndex={idx}
-                          competencyName={comp.name}
-                          dimensionName={dim.name}
-                          comments={comments}
-                          onSubmitted={loadComments}
-                        />
+                        <div className="no-print">
+                          <CompetencyComments
+                            divisionCode={division.code}
+                            competencyIndex={idx}
+                            competencyName={comp.name}
+                            dimensionName={dim.name}
+                            comments={comments}
+                            onSubmitted={loadComments}
+                          />
+                        </div>
                       </div>
                     ))}
                   </div>

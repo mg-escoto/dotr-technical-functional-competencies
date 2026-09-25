@@ -9,6 +9,7 @@ import PositionDuties, { type PositionDuty } from '@/components/PositionDuties'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile, type PositionProfile } from '@/lib/data/positionProfiles'
+import { downloadPositionsDoc } from '@/lib/docExport'
 
 export default function PositionProfilePage() {
   const params = useParams<{ code: string }>()
@@ -21,6 +22,7 @@ export default function PositionProfilePage() {
   const [comments, setComments] = useState<PublicPositionComment[]>([])
   const [duties, setDuties] = useState<PositionDuty[]>([])
   const [pendingScrollId, setPendingScrollId] = useState<string | null>(null)
+  const [downloading, setDownloading] = useState(false)
 
   const loadComments = useCallback(async () => {
     if (!division) return
@@ -74,6 +76,16 @@ export default function PositionProfilePage() {
 
   const returnedComments = comments.filter(c => c.status === 'returned' && c.target_type === 'position')
 
+  async function handleDownload() {
+    if (!division || !profile || downloading) return
+    setDownloading(true)
+    try {
+      await downloadPositionsDoc(division, profile, duties)
+    } finally {
+      setDownloading(false)
+    }
+  }
+
   if (!division || !profile) {
     return (
       <div className="min-h-screen" style={{ background: C.bg }}>
@@ -113,6 +125,23 @@ export default function PositionProfilePage() {
           <h1 className="font-sans font-black leading-tight" style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', color: C.text }}>
             Position Competency Profile
           </h1>
+          <div className="no-print flex flex-wrap items-center gap-3 pt-1">
+            <button
+              onClick={handleDownload}
+              disabled={downloading}
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity disabled:opacity-50"
+              style={{ background: C.card, color: C.text, border: `1px solid ${C.borderMuted}` }}
+            >
+              {downloading ? 'Preparing…' : '⬇ Download (.docx)'}
+            </button>
+            <button
+              onClick={() => window.print()}
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs font-bold tracking-wide hover:opacity-90 transition-opacity"
+              style={{ background: C.card, color: C.text, border: `1px solid ${C.borderMuted}` }}
+            >
+              🖨 Print / Save as PDF
+            </button>
+          </div>
         </div>
       </div>
 
@@ -132,7 +161,7 @@ export default function PositionProfilePage() {
 
       {/* ── Returned comments notification ───────────────────────────────── */}
       {returnedComments.length > 0 && (
-        <div className="px-8 pt-6">
+        <div className="no-print px-8 pt-6">
           <div className="max-w-6xl mx-auto space-y-2">
             {returnedComments.map(c => (
               <button
@@ -249,7 +278,7 @@ export default function PositionProfilePage() {
 
                               {/* Right: duties entry, sticky so it stays visible while
                                   scrolling the (often longer) reference column on the left */}
-                              <div className="lg:sticky lg:top-24">
+                              <div className="no-print lg:sticky lg:top-24">
                                 <PositionDuties
                                   divisionCode={division.code}
                                   positionIndex={idx}
@@ -260,15 +289,17 @@ export default function PositionProfilePage() {
                               </div>
                             </div>
 
-                            <PositionCompetencyComments
-                              divisionCode={division.code}
-                              positionIndex={idx}
-                              positionTitle={pos.title}
-                              competencyName={name}
-                              currentLevel={level}
-                              comments={comments}
-                              onSubmitted={loadComments}
-                            />
+                            <div className="no-print">
+                              <PositionCompetencyComments
+                                divisionCode={division.code}
+                                positionIndex={idx}
+                                positionTitle={pos.title}
+                                competencyName={name}
+                                currentLevel={level}
+                                comments={comments}
+                                onSubmitted={loadComments}
+                              />
+                            </div>
                           </div>
                         )}
                       </div>

@@ -32,17 +32,8 @@ export default function PortalNav({ active = null }: { active?: Section }) {
       }}
     >
       <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-        <div
-          className="flex items-center justify-center w-9 h-9 rounded-xl flex-shrink-0"
-          style={{ background: C.navy }}
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={C.orange} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <rect x="3" y="3" width="7" height="7" rx="1.5" />
-            <rect x="14" y="3" width="7" height="7" rx="1.5" />
-            <rect x="3" y="14" width="7" height="7" rx="1.5" />
-            <rect x="14" y="14" width="7" height="7" rx="1.5" />
-          </svg>
-        </div>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/dotr-logo.svg" alt="Department of Transportation" className="w-9 h-9 flex-shrink-0" />
         <p className="hidden sm:block text-xs font-black uppercase tracking-widest" style={{ color: C.text }}>
           DOTr Competency Portal
         </p>

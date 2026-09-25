@@ -10,3 +10,16 @@ body {
   color: var(--foreground);
   font-family: var(--font-body), 'IBM Plex Sans', Arial, Helvetica, sans-serif;
 }
+
+@media print {
+  nav,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+}
