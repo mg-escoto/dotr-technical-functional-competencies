@@ -7357,7 +7357,7 @@
           },
           {
             "name": "Compliance and Documentation",
-            "definition": "The ability to maintain complete and supportable transaction documentation and apply applicable COA, DBM, DOF, BIR, procurement, and related financial requirements.",
+            "definition": "The ability to maintain complete and supportable transaction documentation and apply applicable COA, Department of Budget and Management (DBM), Department of Finance (DOF), Bureau of Internal Revenue (BIR), procurement, and related financial requirements.",
             "levels": {
               "Emerging": "Follows applicable accounting and financial rules for assigned transactions.",
               "Developing": "Maintains adequate documentation and applies relevant COA, DBM, DOF, BIR and related requirements.",
@@ -7792,7 +7792,7 @@
             "definition": "The ability to process and review claims and disbursement documents accurately, completely, and within prescribed timelines and procedures.",
             "levels": {
               "Emerging": "Processes assigned claims and disbursement documents using prescribed procedures.",
-              "Developing": "Independently processes routine DVs and claims accurately and within prescribed timelines.",
+              "Developing": "Independently processes routine Disbursement Vouchers (DVs) and claims accurately and within prescribed timelines.",
               "Proficient": "Reviews complex claims and disbursement transactions and resolves processing issues.",
               "Advanced": "Provides oversight on critical or high-volume disbursement processing and ensures service continuity."
             }
@@ -7869,7 +7869,7 @@
         "dimensions": [
           {
             "name": "Budget Framework and Requirements",
-            "definition": "Applies the annual budget call, GAA parameters, Tier 1/Tier 2 requirements and prescribed forms to assigned work.",
+            "definition": "Applies the annual budget call, General Appropriations Act (GAA) parameters, Tier 1/Tier 2 requirements and prescribed forms to assigned work.",
             "levels": {
               "Emerging": "Performs routine budget framework and requirements tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex budget framework and requirements work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -7879,7 +7879,7 @@
           },
           {
             "name": "Program and Expenditure Analysis",
-            "definition": "Analyzes program, activity and expenditure requirements for PS, MOOE, CO, LFP and FAP proposals.",
+            "definition": "Analyzes program, activity and expenditure requirements for Personnel Services (PS), Maintenance and Other Operating Expenses (MOOE), Capital Outlay (CO), Locally-Funded Project (LFP) and Foreign-Assisted Project (FAP) proposals.",
             "levels": {
               "Emerging": "Performs routine program and expenditure analysis tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex program and expenditure analysis work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -7891,8 +7891,8 @@
             "name": "Budget Proposal Consolidation",
             "definition": "Consolidates, validates and reconciles submissions from offices, sectors, Project Management Offices (PMOs), and attached agencies.",
             "levels": {
-              "Emerging": "Performs routine budget proposal consolidation tasks using prescribed procedures and formats with guidance; verifies basic completeness. Budget Div",
-              "Developing": "Handles routine and moderately complex budget proposal consolidation work independently, applies applicable rules, and iseiosn c– aRleavisteeds C oemxpceteenpcyt iForanmsew workh en needed.",
+              "Emerging": "Performs routine budget proposal consolidation tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
+              "Developing": "Handles routine and moderately complex budget proposal consolidation work independently, applies applicable rules, and escalates exceptions when needed.",
               "Proficient": "Analyzes complex budget proposal consolidation requirements, resolves exceptions using sound judgment, and reviews or guides the work of others.",
               "Advanced": "Provides expert direction on budget proposal consolidation, establishes effective approaches or controls, mentors others, and drives improvements across relevant budget functions."
             }
@@ -7931,7 +7931,7 @@
       },
       {
         "name": "Budget Legislation, Defense, and Approval Support",
-        "definition": "The ability to prepare, coordinate and support the Department’s budget during DBM, House, Senate and other approval processes through accurate briefing materials, technical responses and timely coordination.",
+        "definition": "The ability to prepare, coordinate and support the Department’s budget during Department of Budget and Management (DBM), House, Senate and other approval processes through accurate briefing materials, technical responses and timely coordination.",
         "dimensions": [
           {
             "name": "Legislative and DBM Process Knowledge",
@@ -8021,7 +8021,7 @@
           },
           {
             "name": "PS Budget Execution",
-            "definition": "Handles personnel services requirements including PSIPOP-related inputs, compensation funding, terminal leave and earmarking as assigned.",
+            "definition": "Handles personnel services requirements including Personnel Services Itemization and Plantilla of Personnel (PSIPOP)-related inputs, compensation funding, terminal leave and earmarking as assigned.",
             "levels": {
               "Emerging": "Performs routine ps budget execution tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex ps budget execution work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -8031,7 +8031,7 @@
           },
           {
             "name": "MOOE and CO Execution",
-            "definition": "Processes and monitors MOOE and capital outlay requirements, including PPMP-related and continuing-appropriation requirements.",
+            "definition": "Processes and monitors MOOE and capital outlay requirements, including Project Procurement Management Plan (PPMP)-related and continuing-appropriation requirements.",
             "levels": {
               "Emerging": "Performs routine mooe and co execution tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex mooe and co execution work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -8067,7 +8067,7 @@
         "dimensions": [
           {
             "name": "Transaction Document Review",
-            "definition": "Checks ORS, MAFs, SBR attachments and related budget documents for completeness and consistency.",
+            "definition": "Checks Obligation Request and Status (ORS), MAFs, Special Budget Request (SBR) attachments and related budget documents for completeness and consistency.",
             "levels": {
               "Emerging": "Performs routine transaction document review tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex transaction document review work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -8219,7 +8219,7 @@
           },
           {
             "name": "RAO and Status-of-Funds Monitoring",
-            "definition": "Maintains RAO/status-of-funds and other monitoring tools accurately and consistently.",
+            "definition": "Maintains Registry of Allotments and Obligations (RAO)/status-of-funds and other monitoring tools accurately and consistently.",
             "levels": {
               "Emerging": "Performs routine rao and status-of-funds monitoring tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex rao and status-of-funds monitoring work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -8275,7 +8275,7 @@
           },
           {
             "name": "SAOB and Budget Status Reporting",
-            "definition": "Prepares and validates Statements of Allotments, Obligations and Balances and related status reports.",
+            "definition": "Prepares and validates Statements of Allotments, Obligations and Balances (SAOB) and related status reports.",
             "levels": {
               "Emerging": "Performs routine saob and budget status reporting tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
               "Developing": "Handles routine and moderately complex saob and budget status reporting work independently, applies applicable rules, and escalates exceptions when needed.",
@@ -8284,7 +8284,7 @@
             }
           },
           {
-            "name": "FAR/BFAR and Financial Performance Reporting",
+            "name": "Financial Accountability Report (FAR)/BFAR and Financial Performance Reporting",
             "definition": "Supports preparation, reconciliation and review of required financial accountability and performance reports.",
             "levels": {
               "Emerging": "Performs routine far/bfar and financial performance reporting tasks using prescribed procedures and formats with guidance; verifies basic completeness.",
@@ -8327,7 +8327,7 @@
       },
       {
         "name": "Budget Policy, Compliance, and Process Improvement",
-        "definition": "The ability to interpret and apply budget laws, GAA provisions, DBM/COA issuances and internal controls, and to recommend improvements that strengthen fiscal governance and efficiency.",
+        "definition": "The ability to interpret and apply budget laws, GAA provisions, DBM/Commission on Audit (COA) issuances and internal controls, and to recommend improvements that strengthen fiscal governance and efficiency.",
         "dimensions": [
           {
             "name": "Budget Rules and Regulatory Interpretation",
