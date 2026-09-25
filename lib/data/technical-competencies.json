@@ -5677,7 +5677,7 @@
           },
           {
             "name": "Systems and Application Administration",
-            "definition": "Ability to administer, maintain, configure, monitor, and optimize enterprise applications, databases, websites, dashboards, email systems, and related ICT platforms.",
+            "definition": "Ability to administer, maintain, configure, monitor, and optimize enterprise applications, databases, websites, dashboards, email systems, and related Information and Communications Technology (ICT) platforms.",
             "levels": {
               "Emerging": "Assists in maintaining applications, databases, websites, dashboards, and email systems following established procedures.",
               "Developing": "Configures user accounts, application settings, and system parameters while monitoring application performance and availability.",
@@ -5844,7 +5844,7 @@
             "definition": "Ability to operate, configure, and manage computer systems, applications, hardware, and related technologies.",
             "levels": {
               "Emerging": "Uses computers and is familiar with operating systems, office software, internet applications, and file management.",
-              "Developing": "Installs and uninstalls programs and hardware and demonstrates knowledge of technological infrastructure, including hardware, software, LAN, WAN, and internet technologies.",
+              "Developing": "Installs and uninstalls programs and hardware and demonstrates knowledge of technological infrastructure, including hardware, software, Local Area Network (LAN), Wide Area Network (WAN), and internet technologies.",
               "Proficient": "Exhibits proficiency in operating various office systems and maintains system functionality to support operational requirements.",
               "Advanced": "Evaluates emerging technologies and provides recommendations for enhancing ICT infrastructure and organizational productivity."
             }
@@ -6279,7 +6279,7 @@
     "competencies": [
       {
         "name": "Information and Communications Technology (ICT) Strategic Planning, Research, and Innovation",
-        "definition": "The ability to conduct ICT research, assess emerging technologies, formulate information systems strategies and investment priorities, and align ICT plans with Department goals, the MITHI Calendar, applicable DICT requirements, and digital transformation priorities.",
+        "definition": "The ability to conduct ICT research, assess emerging technologies, formulate information systems strategies and investment priorities, and align ICT plans with Department goals, the Medium-Term Information and Communications Technology Harmonization Initiative (MITHI) Calendar, applicable Department of Information and Communications Technology (DICT) requirements, and digital transformation priorities.",
         "dimensions": [
           {
             "name": "ICT Research and Technology Scanning",
@@ -6705,7 +6705,7 @@
           },
           {
             "name": "Stakeholder and Inter-Office Coordination",
-            "definition": "Coordinates with DOTr offices/divisions, MISS-OD, DICT, NPC, Procurement Service, and other relevant stakeholders to facilitate ICT initiatives and compliance requirements.",
+            "definition": "Coordinates with DOTr offices/divisions, MISS-OD, DICT, National Privacy Commission (NPC), Procurement Service, and other relevant stakeholders to facilitate ICT initiatives and compliance requirements.",
             "levels": {
               "Emerging": "Supports assigned stakeholder and inter-office coordination activities using established procedures, checklists and communication channels.",
               "Developing": "Coordinates routine to moderately complex stakeholder and inter-office coordination activities with increasing independence; tracks actions and follows through on commitments.",
