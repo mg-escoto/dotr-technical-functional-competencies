@@ -9579,7 +9579,7 @@
           },
           {
             "name": "Audit Quality Standards and Documentation",
-            "definition": "Applies relevant internal auditing standards and public-sector audit guidance, including RPGIAM and applicable internal control frameworks, and maintains complete quality documentation.",
+            "definition": "Applies relevant internal auditing standards and public-sector audit guidance, including the Revised Philippine Government Internal Audit Manual (RPGIAM) and applicable internal control frameworks, and maintains complete quality documentation.",
             "levels": {
               "Emerging": "Assists with audit quality standards and documentation using approved procedures, templates and guidance; completes assigned tasks and seeks help on unfamiliar matters.",
               "Developing": "Performs routine audit quality standards and documentation with some independence; checks completeness, documents work and escalates material gaps.",
@@ -9935,7 +9935,7 @@
           },
           {
             "name": "External Agency Coordination",
-            "definition": "Coordinates, when authorized, with COA, DBM, DOJ or other relevant agencies while maintaining proper authority, documentation, confidentiality and audit independence.",
+            "definition": "Coordinates, when authorized, with Commission on Audit (COA), Department of Budget and Management (DBM), Department of Justice (DOJ) or other relevant agencies while maintaining proper authority, documentation, confidentiality and audit independence.",
             "levels": {
               "Emerging": "Recognizes common indicators relevant to external agency coordination and follows confidentiality, evidence-handling and escalation procedures.",
               "Developing": "Performs routine external agency coordination with increasing independence, documents evidence and escalates significant concerns.",
@@ -9955,7 +9955,7 @@
             "levels": {
               "Emerging": "Supports audit report review and endorsement using approved report formats, evidence and guidance; checks basic completeness and accuracy.",
               "Developing": "Reviews or prepares routine audit report review and endorsement with increasing independence and resolves ordinary inconsistencies.",
-              "Proficient": "Independently manages complex audit report review and endorsement, ensures evidence-to-conclusion linkage and formulates practical, SMART corrective actions.",
+              "Proficient": "Independently manages complex audit report review and endorsement, ensures evidence-to-conclusion linkage and formulates practical, SMART (Specific, Measurable, Achievable, Relevant, Time-bound) corrective actions.",
               "Advanced": "Provides expert direction on audit report review and endorsement, mentors staff, strengthens follow-up mechanisms and promotes implementation of audit recommendations."
             }
           },
@@ -10112,7 +10112,7 @@
           },
           {
             "name": "Audit Standards and Internal Control Frameworks",
-            "definition": "Demonstrates working knowledge of NGICS, RPGIAM and relevant internal control frameworks and applies them appropriately in audit planning and execution.",
+            "definition": "Demonstrates working knowledge of the National Guidelines on Internal Control Systems (NGICS), Revised Philippine Government Internal Audit Manual (RPGIAM) and relevant internal control frameworks and applies them appropriately in audit planning and execution.",
             "levels": {
               "Emerging": "Applies approved procedures for audit standards and internal control frameworks with close guidance; completes assigned documentation and asks for clarification when needed.",
               "Developing": "Performs routine audit standards and internal control frameworks with increasing independence; checks completeness, documents results and escalates significant gaps.",
@@ -10122,7 +10122,7 @@
           },
           {
             "name": "Quality Improvement and Audit Protocol Enhancement",
-            "definition": "Analyzes quality documentation, identifies improvement opportunities and formulates proposals for enhanced audit protocols or quality-improvement activities subject to approval by IAS Principals.",
+            "definition": "Analyzes quality documentation, identifies improvement opportunities and formulates proposals for enhanced audit protocols or quality-improvement activities subject to approval by Internal Audit Service (IAS) Principals.",
             "levels": {
               "Emerging": "Applies approved procedures for quality improvement and audit protocol enhancement with close guidance; completes assigned documentation and asks for clarification when needed.",
               "Developing": "Performs routine quality improvement and audit protocol enhancement with increasing independence; checks completeness, documents results and escalates significant gaps.",
@@ -10438,7 +10438,7 @@
           },
           {
             "name": "External Agency Coordination",
-            "definition": "Coordinates, when authorized, with COA, DBM, DOJ and other relevant agencies while respecting mandates, authority and audit independence.",
+            "definition": "Coordinates, when authorized, with Commission on Audit (COA), Department of Budget and Management (DBM), Department of Justice (DOJ) and other relevant agencies while respecting mandates, authority and audit independence.",
             "levels": {
               "Emerging": "Recognizes common indicators relevant to external agency coordination and follows confidentiality, evidence-handling and escalation procedures.",
               "Developing": "Performs routine external agency coordination with increasing independence, documents evidence and escalates significant concerns.",
@@ -10458,7 +10458,7 @@
             "levels": {
               "Emerging": "Supports audit findings and evidence synthesis using approved report formats, evidence and guidance; checks basic completeness and accuracy.",
               "Developing": "Reviews or prepares routine audit findings and evidence synthesis with increasing independence and resolves ordinary inconsistencies.",
-              "Proficient": "Independently manages complex audit findings and evidence synthesis, ensures evidence-to-conclusion linkage and formulates practical, SMART corrective actions.",
+              "Proficient": "Independently manages complex audit findings and evidence synthesis, ensures evidence-to-conclusion linkage and formulates practical, SMART (Specific, Measurable, Achievable, Relevant, Time-bound) corrective actions.",
               "Advanced": "Provides expert direction on audit findings and evidence synthesis, mentors staff, strengthens follow-up mechanisms and promotes implementation of approved recommendations."
             }
           },
