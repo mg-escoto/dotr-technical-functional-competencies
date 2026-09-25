@@ -15529,7 +15529,7 @@
             "definition": null,
             "levels": {
               "Emerging": "Understands basic performance indicators.",
-              "Developing": "Assists in identifying relevant KPIs.",
+              "Developing": "Assists in identifying relevant Key Performance Indicators (KPIs).",
               "Proficient": "Develops and applies KPIs for O&M performance monitoring.",
               "Advanced": "Designs comprehensive performance management frameworks."
             }
@@ -16246,7 +16246,7 @@
           },
           {
             "name": "Coordination with Finance and Oversight Offices",
-            "definition": "Coordinates with the Finance Service, DBM, COA, project management offices, and other concerned entities on financial requirements and issues.",
+            "definition": "Coordinates with the Finance Service, Department of Budget and Management (DBM), Commission on Audit (COA), project management offices, and other concerned entities on financial requirements and issues.",
             "levels": {
               "Emerging": "Routes requests, records responses, and follows prescribed coordination procedures with guidance.",
               "Developing": "Coordinates routine inquiries, submissions, clarifications, and follow-ups with concerned offices and maintains a clear action trail.",
@@ -16350,7 +16350,7 @@
             "name": "Legal and Regulatory Compliance",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates awareness of laws, policies, and procedures governing land acquisition and ROW activities.",
+              "Emerging": "Demonstrates awareness of laws, policies, and procedures governing land acquisition and Right-of-Way (ROW) activities.",
               "Developing": "Applies applicable laws, regulations, and organizational policies when preparing or reviewing transactions.",
               "Proficient": "Ensures acquisition activities and supporting documents comply with legal and regulatory requirements and addresses compliance issues.",
               "Advanced": "Interprets complex legal and regulatory requirements, recommends policy enhancements, and advises management on high-risk acquisition concerns."
@@ -16418,7 +16418,7 @@
             "levels": {
               "Emerging": "Participates in coordination meetings and information-sharing activities, and attends meetings, contributing information when requested.",
               "Developing": "Coordinates with internal and external stakeholders to support project requirements, assists in organizing meetings, preparing documentation, and monitoring action items.",
-              "Proficient": "Facilitates productive collaboration among project teams, government agencies, contractors, LGUs, and affected stakeholders, and effectively facilitates coordination meetings, ensuring follow-through of commitments and stakeholder accountability.",
+              "Proficient": "Facilitates productive collaboration among project teams, government agencies, contractors, Local Government Units (LGUs), and affected stakeholders, and effectively facilitates coordination meetings, ensuring follow-through of commitments and stakeholder accountability.",
               "Advanced": "Leads multi-stakeholder engagements and resolves inter-agency concerns affecting ROW implementation, and leads high-level coordination forums that drive resolution of strategic ROW matters."
             }
           },
@@ -17514,7 +17514,7 @@
             "name": "Occupational Health and Safety",
             "definition": null,
             "levels": {
-              "Emerging": "Demonstrates awareness of OHS requirements.",
+              "Emerging": "Demonstrates awareness of Occupational Health and Safety (OHS) requirements.",
               "Developing": "Applies OHS measures in assigned activities.",
               "Proficient": "Ensures integration of OHS standards into operations.",
               "Advanced": "Develops organizational OHS strategies and frameworks."
