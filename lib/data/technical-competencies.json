@@ -2273,7 +2273,7 @@
     "competencies": [
       {
         "name": "Cash Disbursement and Payment Processing",
-        "definition": "The ability to accurately process, review, validate, authorize or route, and monitor cash disbursement and payment transactions, including Disbursement Vouchers, checks, List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA)/eADA, ACIC/SLIIE, cash allocation, Notice of Cash Allocation (NCA) utilization, payroll payments, and related supporting documents, within prescribed timelines and controls.",
+        "definition": "The ability to accurately process, review, validate, authorize or route, and monitor cash disbursement and payment transactions, including Disbursement Vouchers, checks, List of Due and Demandable Accounts Payable-Advice to Debit Account (LDDAP-ADA)/eADA, Advice of Checks Issued and Cancelled (ACIC)/Summary of LDDAP-ADAs Issued and Invalidated ADA Entries (SLIIE), cash allocation, Notice of Cash Allocation (NCA) utilization, payroll payments, and related supporting documents, within prescribed timelines and controls.",
         "dimensions": [
           {
             "name": "Disbursement Voucher and Supporting-Document Processing",
@@ -6782,7 +6782,7 @@
           },
           {
             "name": "Transparency and Regulatory Reporting",
-            "definition": "Ability to comply with transparency and reporting requirements through the DOTr website, Modernized PhilGEPS, Commission on Audit (COA), DepDev, and other prescribed channels.",
+            "definition": "Ability to comply with transparency and reporting requirements through the DOTr website, Modernized Philippine Government Electronic Procurement System (PhilGEPS), Commission on Audit (COA), DepDev, and other prescribed channels.",
             "levels": {
               "Emerging": "Identifies routine submission requirements and follows prescribed processes.",
               "Developing": "Completes routine website, PhilGEPS, and regulatory submissions accurately and on time.",
@@ -6930,7 +6930,7 @@
           },
           {
             "name": "Stakeholder Coordination",
-            "definition": "Ability to coordinate effectively with end-users, PMOs, ProcMS offices, Commission on Audit (COA), DepDev, and other stakeholders.",
+            "definition": "Ability to coordinate effectively with end-users, Project Management Offices (PMOs), ProcMS offices, Commission on Audit (COA), DepDev, and other stakeholders.",
             "levels": {
               "Emerging": "Coordinates routine matters with guidance and follows up on assigned actions.",
               "Developing": "Independently coordinates routine requirements and clarifies information.",
@@ -6991,7 +6991,7 @@
         "dimensions": [
           {
             "name": "Document Completeness and Technical Sufficiency",
-            "definition": "Ability to examine PPMPs, technical specifications, ABC/estimated budget, quotations, market study/scoping documents, and supporting requirements for completeness and adequacy.",
+            "definition": "Ability to examine Project Procurement Management Plans (PPMPs), technical specifications, Approved Budget for the Contract (ABC)/estimated budget, quotations, market study/scoping documents, and supporting requirements for completeness and adequacy.",
             "levels": {
               "Emerging": "Performs routine document completeness and technical sufficiency tasks using prescribed procedures and checklists with close guidance; identifies basic documentary or process requirements.",
               "Developing": "Independently performs routine and moderately complex document completeness and technical sufficiency activities, applies established requirements, and appropriately escalates exceptions or unclear cases.",
@@ -7073,7 +7073,7 @@
           },
           {
             "name": "Stakeholder Coordination",
-            "definition": "Ability to coordinate with end-users, PMOs, TWGs, bidders/suppliers/service providers, and concerned offices to obtain information, clarify requirements, and facilitate action.",
+            "definition": "Ability to coordinate with end-users, Project Management Offices (PMOs), Technical Working Groups (TWGs), bidders/suppliers/service providers, and concerned offices to obtain information, clarify requirements, and facilitate action.",
             "levels": {
               "Emerging": "Performs routine stakeholder coordination tasks using prescribed procedures and checklists with close guidance; identifies basic documentary or process requirements.",
               "Developing": "Independently performs routine and moderately complex stakeholder coordination activities, applies established requirements, and appropriately escalates exceptions or unclear cases.",
@@ -7099,7 +7099,7 @@
         "dimensions": [
           {
             "name": "Advertisement Review and Approval",
-            "definition": "Ability to review RFQs, letters of invitation, and other procurement advertisements for accuracy, completeness, consistency, and compliance before release.",
+            "definition": "Ability to review Requests for Quotation (RFQs), letters of invitation, and other procurement advertisements for accuracy, completeness, consistency, and compliance before release.",
             "levels": {
               "Emerging": "Performs routine advertisement review and approval tasks using prescribed procedures and checklists with close guidance; identifies basic documentary or process requirements.",
               "Developing": "Independently performs routine and moderately complex advertisement review and approval activities, applies established requirements, and appropriately escalates exceptions or unclear cases.",
@@ -7109,7 +7109,7 @@
           },
           {
             "name": "Posting and Dissemination",
-            "definition": "Ability to facilitate timely posting or dissemination through prescribed channels, including PhilGEPS, the DOTr website, and designated conspicuous places, as applicable.",
+            "definition": "Ability to facilitate timely posting or dissemination through prescribed channels, including the Philippine Government Electronic Procurement System (PhilGEPS), the DOTr website, and designated conspicuous places, as applicable.",
             "levels": {
               "Emerging": "Performs routine posting and dissemination tasks using prescribed procedures and checklists with close guidance; identifies basic documentary or process requirements.",
               "Developing": "Independently performs routine and moderately complex posting and dissemination activities, applies established requirements, and appropriately escalates exceptions or unclear cases.",
@@ -7171,7 +7171,7 @@
         "dimensions": [
           {
             "name": "Award Document Assembly",
-            "definition": "Ability to check and organize award documents such as the Award Notice Abstract, NOA, approved resolution and annexes, PPMP/APP-related documents, RFQs, invitations, quotations, TWG evaluation, and Abstract of Quotations.",
+            "definition": "Ability to check and organize award documents such as the Award Notice Abstract, NOA, approved resolution and annexes, PPMP/Annual Procurement Plan (APP)-related documents, RFQs, invitations, quotations, TWG evaluation, and Abstract of Quotations.",
             "levels": {
               "Emerging": "Performs routine award document assembly tasks using prescribed procedures and checklists with close guidance; identifies basic documentary or process requirements.",
               "Developing": "Independently performs routine and moderately complex award document assembly activities, applies established requirements, and appropriately escalates exceptions or unclear cases.",
