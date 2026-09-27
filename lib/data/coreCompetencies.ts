@@ -200,38 +200,7 @@ export const coreCompetencies: CoreCompetency[] = [
         'Mentors and builds the capacity of others across the Department to apply GEDSI principles consistently in their work.',
       ],
     },
-    references: [
-      {
-        citation: 'Republic Act No. 9710, "The Magna Carta of Women" (2009)',
-        source: 'Philippine Commission on Women',
-        url: 'https://pcw.gov.ph/magna-carta-of-women/',
-      },
-      {
-        citation: 'Frequently Asked Questions: Republic Act 9710, the Magna Carta of Women (GAD budget policy)',
-        source: 'Philippine Commission on Women',
-        url: 'https://pcw.gov.ph/faq-republic-act-9710-the-magna-carta-of-women/',
-      },
-      {
-        citation: 'Republic Act No. 7277, "Magna Carta for Disabled Persons," as amended by Republic Act No. 10524 (2013)',
-        source: 'National Council on Disability Affairs',
-        url: 'https://ncda.gov.ph/category/disability-laws/republic-acts-bp/',
-      },
-      {
-        citation: '2024 Revised Implementing Rules and Regulations of Batas Pambansa Blg. 344 (Accessibility Law)',
-        source: 'National Council on Disability Affairs',
-        url: 'https://ncda.gov.ph/revised-2024-rules-and-regulations-implementing-batas-pambansa-344/',
-      },
-      {
-        citation: 'Gender Equality in Transport Tool Kit: Moving Toward Gender-Transformative Transport Systems in Asia and the Pacific',
-        source: 'Asian Development Bank',
-        url: 'https://www.adb.org/publications/gender-equality-transport-tool-kit',
-      },
-      {
-        citation: 'Addressing the Linkages between Gender and Transport in Low- and Middle-Income Countries, Sustainability, 11(17), 4555 (2019)',
-        source: 'Priya Uteng, T. et al., peer-reviewed journal article',
-        url: 'https://www.mdpi.com/2071-1050/11/17/4555',
-      },
-    ],
+    references: [],
     note:
       'GEDSI and Climate Action are not part of the official DOTr Core Competencies document — they are drafted here to reflect commitments the Department has taken on separately, and are presented as a sample for review before adoption.',
   },
