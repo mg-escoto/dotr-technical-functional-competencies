@@ -848,62 +848,6 @@
         ]
       },
       {
-        "name": "Internal Communication and Document Drafting",
-        "definition": "The ability to prepare clear, accurate and appropriate internal correspondence, memoranda, advisories, newsletters, message blasts and other communication materials that support cohesive Department operations and staff engagement.",
-        "dimensions": [
-          {
-            "name": "Routine Internal Correspondence",
-            "definition": "Ability to prepare routine memoranda, letters, notices and other internal communications.",
-            "levels": {
-              "Emerging": "Drafts routine memoranda, correspondence and notices using approved formats.",
-              "Developing": "Produces newsletters, advisories and internal information products independently.",
-              "Proficient": "Develops internal communication strategies for major programs or organizational needs.",
-              "Advanced": "Leads organization-wide internal communication programs."
-            }
-          },
-          {
-            "name": "Internal Information Products",
-            "definition": "Ability to develop newsletters, advisories, message blasts and related information products.",
-            "levels": {
-              "Emerging": "Prepares clear routine staff announcements and information materials.",
-              "Developing": "Produces audience-appropriate internal newsletters, advisories and message blasts.",
-              "Proficient": "Coordinates integrated internal information products across units.",
-              "Advanced": "Sets standards for organization-wide internal information and staff engagement."
-            }
-          },
-          {
-            "name": "Clarity and Editorial Accuracy",
-            "definition": "Ability to ensure internal communications are clear, concise, accurate and consistent with standards.",
-            "levels": {
-              "Emerging": "Checks spelling, grammar, formatting and completeness of routine documents.",
-              "Developing": "Edits internal communications for clarity, consistency and relevance.",
-              "Proficient": "Reviews complex internal documents and guides staff on editorial quality.",
-              "Advanced": "Establishes editorial standards and oversees quality of major internal communication outputs."
-            }
-          },
-          {
-            "name": "Internal Communication Planning",
-            "definition": "Ability to develop communication approaches that address organizational information needs.",
-            "levels": {
-              "Emerging": "Follows established internal communication procedures.",
-              "Developing": "Plans routine communication activities based on information needs.",
-              "Proficient": "Develops coordinated internal communication approaches for complex requirements.",
-              "Advanced": "Directs strategic internal communication planning across the Department."
-            }
-          },
-          {
-            "name": "Organization-Wide Internal Communication",
-            "definition": "Ability to lead coordinated internal communication programs for major Department initiatives.",
-            "levels": {
-              "Emerging": "Supports distribution of organization-wide information when assigned.",
-              "Developing": "Coordinates internal communication activities with relevant offices.",
-              "Proficient": "Leads major internal communication initiatives and manages multiple stakeholders.",
-              "Advanced": "Provides strategic direction for organization-wide internal communication and engagement."
-            }
-          }
-        ]
-      },
-      {
         "name": "Content Documentation, Records Management, and Digital Archiving",
         "definition": "The ability to document, organize, maintain, preserve and retrieve communication materials, media assets, records and information resources to support operational, accountability and institutional requirements.",
         "dimensions": [
@@ -4889,62 +4833,6 @@
               "Developing": "Supports routine change activities and communicates relevant HR implications.",
               "Proficient": "Analyzes change impacts and recommends practical HR interventions.",
               "Advanced": "Provides expert HR input to organizational development, restructuring, and change initiatives."
-            }
-          }
-        ]
-      },
-      {
-        "name": "HR Policy, Process, and Service Delivery Management",
-        "definition": "The ability to establish, enhance, execute, and continuously improve HR policies, procedures, systems, and services to ensure compliant, accurate, timely, consistent, and responsive delivery to internal and external clients.",
-        "dimensions": [
-          {
-            "name": "HR Policy and Process Enhancement",
-            "definition": "Ability to draft, review, enhance, and implement HR policies, procedures, systems, and formal issuances within assigned authority.",
-            "levels": {
-              "Emerging": "Assists in preparing routine HR policies, procedures, or issuances using prescribed formats.",
-              "Developing": "Independently prepares routine advisories, memoranda, or process improvements.",
-              "Proficient": "Reviews complex policy/process documents and resolves substantive deficiencies.",
-              "Advanced": "Leads development/review of high-impact HR policies and system/process improvements."
-            }
-          },
-          {
-            "name": "HR Service Delivery and Client Responsiveness",
-            "definition": "Ability to deliver accurate, accessible, timely, and responsive HR services to employees, applicants, management, and other authorized clients.",
-            "levels": {
-              "Emerging": "Performs routine HR services using established procedures with guidance.",
-              "Developing": "Independently manages routine HR requests and communicates requirements clearly.",
-              "Proficient": "Resolves complex service issues and improves client-response approaches within authority.",
-              "Advanced": "Leads service-delivery improvements that strengthen accessibility, consistency, and employee/client experience."
-            }
-          },
-          {
-            "name": "Quality, Timeliness, and Compliance",
-            "definition": "Ability to ensure HR deliverables meet prescribed quality, documentary, and service-standard requirements, including applicable Anti-Red Tape Authority (ARTA) timelines.",
-            "levels": {
-              "Emerging": "Tracks assigned deliverables and meets prescribed timelines with guidance.",
-              "Developing": "Independently manages routine transactions and consistently meets service standards.",
-              "Proficient": "Manages complex workloads, resolves causes of delay, and maintains quality/compliance.",
-              "Advanced": "Establishes stronger service controls and systems that sustain timely, reliable, and compliant HR delivery."
-            }
-          },
-          {
-            "name": "HR Coordination and Compliance Assurance",
-            "definition": "Ability to coordinate with internal units, management, CSC, DBM, and other relevant offices/agencies and follow through on compliance requirements.",
-            "levels": {
-              "Emerging": "Provides information and follows coordination procedures with guidance.",
-              "Developing": "Independently coordinates routine submissions, meetings, and follow-up actions.",
-              "Proficient": "Manages complex coordination and resolves deficiencies or compliance issues.",
-              "Advanced": "Provides strategic direction on cross-office/agency coordination and strengthens compliance mechanisms."
-            }
-          },
-          {
-            "name": "Reporting, Advisory Support, and Management Information",
-            "definition": "Ability to prepare internal/external reportorial requirements and provide validated HR information and technical inputs for management planning and decision-making.",
-            "levels": {
-              "Emerging": "Provides information for routine reports and management requests with guidance.",
-              "Developing": "Independently prepares routine reports and accurate technical inputs.",
-              "Proficient": "Analyzes complex HR information and provides evidence-based advice for management action.",
-              "Advanced": "Provides expert HR advisory support and improves management-information/reporting systems."
             }
           }
         ]
@@ -19619,6 +19507,16 @@
               "Proficient": "Resolves complex banking issues and strengthens banking relationships.",
               "Advanced": "Establishes banking coordination protocols and represents the Institute in high-level financial discussions."
             }
+          },
+          {
+            "name": "Fund Availability and Allocation",
+            "definition": "Ability to verify fund availability and support the allocation of authorized funds prior to disbursement, in accordance with approved budgets and financial plans.",
+            "levels": {
+              "Emerging": "Assists in checking fund availability with guidance.",
+              "Developing": "Verifies routine fund availability and allocation requests independently.",
+              "Proficient": "Resolves complex fund availability issues and allocation discrepancies.",
+              "Advanced": "Establishes fund allocation controls and standards for the Division."
+            }
           }
         ]
       },
@@ -19664,6 +19562,36 @@
               "Developing": "Identifies routine control gaps and reports them appropriately.",
               "Proficient": "Recommends and implements process improvements to strengthen financial controls.",
               "Advanced": "Establishes internal control frameworks and promotes a culture of financial accountability."
+            }
+          },
+          {
+            "name": "Financial Statement Preparation",
+            "definition": "Ability to compile, prepare, and validate financial statements and supporting schedules for completeness, accuracy, and timely submission.",
+            "levels": {
+              "Emerging": "Assists in assembling information for financial statements with guidance.",
+              "Developing": "Prepares routine financial statements and supporting schedules accurately and on time.",
+              "Proficient": "Reviews financial statements for completeness, consistency, and required adjustments.",
+              "Advanced": "Provides oversight of financial reporting outputs and ensures their reliability before submission."
+            }
+          },
+          {
+            "name": "Internal Audit and Compliance Review",
+            "definition": "Ability to conduct periodic internal audits and reviews of the Division's administrative and financial processes, transactions, and controls to verify compliance with government accounting, auditing, and internal control standards.",
+            "levels": {
+              "Emerging": "Assists in gathering documents and records for internal audit activities with guidance.",
+              "Developing": "Conducts routine internal audit checks and reviews independently.",
+              "Proficient": "Evaluates complex process and control weaknesses and recommends corrective measures.",
+              "Advanced": "Establishes the Division's internal audit program, standards, and risk-based audit approach."
+            }
+          },
+          {
+            "name": "Audit Findings Follow-Through and Corrective Action",
+            "definition": "Ability to track, monitor, and facilitate the resolution of internal and external audit findings and recommendations.",
+            "levels": {
+              "Emerging": "Monitors status of audit findings with guidance.",
+              "Developing": "Follows up routine audit findings and coordinates corrective actions independently.",
+              "Proficient": "Resolves complex or recurring audit findings and validates completed corrective actions.",
+              "Advanced": "Establishes audit-findings tracking systems and ensures sustained resolution of recommendations across the Division."
             }
           }
         ]
