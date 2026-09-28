@@ -226,8 +226,8 @@
             }
           },
           {
-            "name": "Digital Records and Workflow Management",
-            "definition": null,
+            "name": "Manual-Digital Records, and Workflow Management",
+            "definition": "Covers both manual/physical and digital records, since most documents transmitted to and from the Executive Office — especially procurement documents, issuances, and other related records — are still processed in hard copy. Ensures manual and digital records alike are properly documented, tracked, and easily retrieved, particularly those requested as attachments in legal correspondence.",
             "levels": {
               "Emerging": "Uses electronic filing systems.",
               "Developing": "Monitors document workflow systems.",
@@ -618,7 +618,7 @@
               "Emerging": "Prepares routine talking points and simple remarks from source materials.",
               "Developing": "Drafts speeches, messages and remarks tailored to officials and engagements.",
               "Proficient": "Writes complex executive speeches and messages requiring judgment and nuanced framing.",
-              "Advanced": "Serves as principal speechwriting resource for high-level and sensitive engagements. Oversees publication"
+              "Advanced": "Serves as principal speechwriting resource for high-level and sensitive engagements."
             }
           },
           {
@@ -730,7 +730,7 @@
               "Emerging": "Captures basic photos and videos using approved requirements.",
               "Developing": "Produces publication-ready event photos, videos and documentation.",
               "Proficient": "Directs coverage plans and leads event coverage teams.",
-              "Advanced": "Establishes visual coverage standards and directs coverage of major national events."
+              "Advanced": "Establishes visual coverage standards and directs coverage of major Department events."
             }
           },
           {
@@ -1984,7 +1984,7 @@
             "name": "Property Lifecycle Management",
             "definition": "Manages assets from acquisition to utilization, maintenance, transfer, and retirement.",
             "levels": {
-              "Emerging": "Assists in asset issuance and maintenance.",
+              "Emerging": "Assists in asset acquisition, issuance, and maintenance.",
               "Developing": "Tracks asset lifecycle activities.",
               "Proficient": "Evaluates utilization and retirement needs.",
               "Advanced": "Directs lifecycle management strategies."
@@ -1995,7 +1995,7 @@
             "definition": "Administers registration, insurance coverage, renewals, and related property records.",
             "levels": {
               "Emerging": "Maintains insurance records.",
-              "Developing": "Processes insurance documentation.",
+              "Developing": "Processes insurance documentations and facilitates claims.",
               "Proficient": "Evaluates insurance compliance.",
               "Advanced": "Develops insurance administration standards."
             }
@@ -6285,27 +6285,27 @@
             "name": "ICT Research and Technology Scanning",
             "definition": "Conducts structured research and evaluates emerging technologies, approaches, and ICT trends relevant to DOTr needs.",
             "levels": {
-              "Emerging": "Assists in ict research and technology scanning using established templates, instructions and available references; identifies basic information and seeks guidance on unfamiliar matters.",
-              "Developing": "Performs ict research and technology scanning for routine requests with some independence; compares information, documents findings and escalates gaps or issues.",
-              "Proficient": "Independently handles moderately complex to complex ict research and technology scanning; integrates evidence, exercises judgment and formulates clear recommendations.",
-              "Advanced": "Provides expert direction on ict research and technology scanning; mentors others, improves planning methods or standards, and influences strategic ICT decisions."
+              "Emerging": "Assists in gathering ICT-related information and conducting basic technology research using available references, templates, and established procedures. Identifies emerging technologies and seeks guidance when handling unfamiliar ICT subjects and trends.",
+              "Developing": "Conducts ICT research and technology scanning activities for routine requirements with increasing independence. Compares and analyzes information from various sources, documents findings, and identifies gaps or issues requiring further assessment and escalation.",
+              "Proficient": "Independently performs ICT research and technology scanning for moderately complex initiatives. Evaluates emerging technologies, integrates relevant evidence and best practices, exercises sound judgment, and provides clear recommendations to support ICT projects and strategic objectives.",
+              "Advanced": "Leads ICT research and technology scanning efforts by providing expert analysis of emerging technologies and industry trends. Develops strategic recommendations that inform organizational ICT decisions, enhances planning methodologies and standards, and mentors colleagues in technology assessment and innovation initiatives."
             }
           },
           {
             "name": "Information Systems Strategic Planning",
             "definition": "Develops, reviews, consolidates, and updates the Information Systems Strategic Plan (ISSP), including addenda and amendments.",
             "levels": {
-              "Emerging": "Assists in information systems strategic planning using established templates, instructions and available references; identifies basic information and seeks guidance on unfamiliar matters.",
-              "Developing": "Performs information systems strategic planning for routine requests with some independence; compares information, documents findings and escalates gaps or issues.",
-              "Proficient": "Independently handles moderately complex to complex information systems strategic planning; integrates evidence, exercises judgment and formulates clear recommendations.",
-              "Advanced": "Provides expert direction on information systems strategic planning; mentors others, improves planning methods or standards, and influences strategic ICT decisions."
+              "Emerging": "Assists in the preparation and updating of Information Systems Strategic Planning (ISSP) documents using prescribed templates, guidelines, and available references. Demonstrates basic understanding of ICT planning processes and seeks guidance in identifying organizational requirements and priorities.",
+              "Developing": "Participates in the development and review of ISSP-related documents with minimal supervision. Gathers and analyzes relevant information, compares planning requirements against organizational objectives, and identifies gaps or issues for further evaluation and action.",
+              "Proficient": "Independently develops, reviews, and updates ISSP components, including supporting documentation, addenda, and amendments. Applies sound judgment in analyzing business and ICT requirements, integrates relevant evidence and stakeholder inputs, and provides clear recommendations to support strategic decision-making and digital transformation initiatives.",
+              "Advanced": "Provides strategic leadership in the formulation, review, and enhancement of the Information Systems Strategic Plan (ISSP). Guides stakeholders in aligning ICT initiatives with organizational goals, government digital transformation priorities, and DICT requirements. Improves planning methodologies and standards, mentors colleagues in strategic planning activities, and influences key ICT investment and governance decisions through evidence-based recommendations."
             }
           },
           {
             "name": "ICT Investment and Requirements Planning",
             "definition": "Analyzes ICT requirements, priorities, resource implications, and investment needs to support informed planning and programming.",
             "levels": {
-              "Emerging": "Assists in ict investment and requirements planning using established templates, instructions and available references; identifies basic information and seeks guidance on unfamiliar matters.",
+              "Emerging": "Assists in gathering and organizing ICT requirements, investment data, and supporting information using established templates, guidelines, and reference materials. Demonstrates a basic understanding of ICT planning processes and seeks guidance in identifying organizational technology needs and resource requirements.",
               "Developing": "Performs ict investment and requirements planning for routine requests with some independence; compares information, documents findings and escalates gaps or issues.",
               "Proficient": "Independently handles moderately complex to complex ict investment and requirements planning; integrates evidence, exercises judgment and formulates clear recommendations.",
               "Advanced": "Provides expert direction on ict investment and requirements planning; mentors others, improves planning methods or standards, and influences strategic ICT decisions."
@@ -6762,7 +6762,7 @@
         "dimensions": [
           {
             "name": "Procurement Law and Regulatory Application",
-            "definition": "Ability to understand and apply current procurement laws, rules, regulations, and government requirements.",
+            "definition": "The ability to implement and administer government procurement requirements and related regulatory processes in accordance with applicable procurement laws, rules, regulations, Commission on Audit (COA) requirements, Department of Economy, Planning and Development (DEPDev) requirements, and Department procedures, including contract-document, transparency, blacklisting, and regulatory submissions.",
             "levels": {
               "Emerging": "Recognizes applicable requirements and follows established procedures with guidance.",
               "Developing": "Applies applicable requirements to routine transactions and identifies when clarification is needed.",
@@ -6771,23 +6771,23 @@
             }
           },
           {
-            "name": "Procurement Documentation and Posting",
-            "definition": "Ability to prepare, review, submit, and post required procurement and contract documents through prescribed channels.",
+            "name": "Procurement Documentation and Regulatory Reporting",
+            "definition": "Ability to prepare, review, and submit required contract documents to the Commission on Audit (COA), Department of Economy, Planning and Development (DEPDev) and other funding institutions.",
             "levels": {
               "Emerging": "Assists in assembling and checking routine documents for completeness.",
-              "Developing": "Prepares and processes routine documents for posting using prescribed procedures.",
-              "Proficient": "Reviews complex posting requirements and resolves documentation deficiencies.",
-              "Advanced": "Establishes document-quality and posting controls that strengthen timeliness, accuracy, transparency, and compliance."
+              "Developing": "Prepares and processes routine documents for submission in accordance with the mandatory reportorial requirements.",
+              "Proficient": "Reviews and resolves documentation deficiencies.",
+              "Advanced": "Establishes document-quality standards that strengthen timeliness, accuracy and compliance."
             }
           },
           {
-            "name": "Transparency and Regulatory Reporting",
-            "definition": "Ability to comply with transparency and reporting requirements through the DOTr website, Modernized Philippine Government Electronic Procurement System (PhilGEPS), Commission on Audit (COA), Department of Economy, Planning, and Development (DepDev), and other prescribed channels.",
+            "name": "Transparency, Publication and Posting Compliance",
+            "definition": "Ability to comply with transparency, publication, and posting requirements through the DOTr website, Modernized Philippine Government Electronic Procurement System (MPhilGEPS), and other prescribed channels.",
             "levels": {
-              "Emerging": "Identifies routine submission requirements and follows prescribed processes.",
-              "Developing": "Completes routine website, PhilGEPS, and regulatory submissions accurately and on time.",
-              "Proficient": "Manages complex regulatory submissions and resolves deficiencies.",
-              "Advanced": "Provides direction on transparency/reporting systems and improves controls for sustained compliance."
+              "Emerging": "Identifies required publication and posting compliances and follows prescribed processes.",
+              "Developing": "Completes publication and posting compliance accurately and on time.",
+              "Proficient": "Manages complex publication and posting compliance and resolves issues.",
+              "Advanced": "Provides direction on transparency, publication and posting compliance."
             }
           },
           {
@@ -9559,7 +9559,7 @@
         "dimensions": [
           {
             "name": "Audit Planning and Engagement Preparation",
-            "definition": "Applies approved procedures in preparing and supporting audit engagements, including planning documents, notifications, requests, surveys and other required action documents.",
+            "definition": "Applies approved procedures in preparing and supporting audit engagements, including planning documents, notifications, requests, surveys and other required action documents, with a focus on audit resources while maintaining rigorous standards of professional skepticism, independence, and supervision throughout engagement preparations.",
             "levels": {
               "Emerging": "Assists with audit planning and engagement preparation using approved procedures, templates and guidance; completes assigned tasks and seeks help on unfamiliar matters.",
               "Developing": "Performs routine audit planning and engagement preparation with some independence; checks completeness, documents work and escalates material gaps.",
@@ -9618,7 +9618,7 @@
             "definition": "Examines adherence to applicable laws, rules, regulations, Department policies, agreements and contractual obligations using approved audit criteria.",
             "levels": {
               "Emerging": "Supports compliance audit within an approved audit scope and follows prescribed procedures with close guidance.",
-              "Developing": "Performs routine to moderately complex compliance audit independently, gathers sufficient evidence and documents results.",
+              "Developing": "Performs routine to moderately complex compliance audit independently, gathers sufficient evidence and documents results, including evaluating the organization's adherence to laws, regulations, and internal policies.",
               "Proficient": "Independently manages complex compliance audit, evaluates significance and integrates evidence into defensible audit conclusions.",
               "Advanced": "Provides expert leadership in compliance audit, coaches audit teams and improves audit approaches, consistency and coverage."
             }
@@ -10137,33 +10137,33 @@
         "definition": "The ability to conduct management and operations audits and determine the degree of compliance with mandates, policies, regulations, objectives, systems, procedures, processes and contractual obligations using appropriate audit criteria and evidence.",
         "dimensions": [
           {
-            "name": "Compliance and Regulatory Audit",
+            "name": "Compliance Audit",
             "definition": "Examines compliance with applicable laws, rules, regulations, Department policies, agreements and contractual obligations.",
             "levels": {
-              "Emerging": "Supports compliance and regulatory audit within an approved audit scope and follows prescribed procedures with guidance.",
-              "Developing": "Performs routine to moderately complex compliance and regulatory audit independently, gathers evidence and documents results.",
-              "Proficient": "Independently manages complex compliance and regulatory audit, evaluates significance and integrates evidence into defensible audit conclusions.",
-              "Advanced": "Provides expert leadership in compliance and regulatory audit, coaches audit teams and improves consistency, coverage and audit approaches."
+              "Emerging": "Supports compliance audit within an approved audit scope and follows prescribed procedures with guidance.",
+              "Developing": "Performs routine to moderately complex compliance audit independently, gathers evidence and documents results.",
+              "Proficient": "Independently manages complex compliance audit, evaluates significance and integrates evidence into defensible audit conclusions.",
+              "Advanced": "Provides expert leadership in compliance audit, coaches audit teams and improves consistency, coverage and audit approaches."
             }
           },
           {
-            "name": "Management Process and Control Audit",
+            "name": "Management Audit",
             "definition": "Evaluates management processes, organizational arrangements, controls and use of resources against established objectives and standards.",
             "levels": {
-              "Emerging": "Supports management process and control audit within an approved audit scope and follows prescribed procedures with guidance.",
-              "Developing": "Performs routine to moderately complex management process and control audit independently, gathers evidence and documents results.",
-              "Proficient": "Independently manages complex management process and control audit, evaluates significance and integrates evidence into defensible audit conclusions.",
-              "Advanced": "Provides expert leadership in management process and control audit, coaches audit teams and improves consistency, coverage and audit approaches."
+              "Emerging": "Supports management audit within an approved audit scope and follows prescribed procedures with guidance.",
+              "Developing": "Performs routine to moderately complex management audit independently, gathers evidence and documents results.",
+              "Proficient": "Independently manages complex management audit, evaluates significance and integrates evidence into defensible audit conclusions.",
+              "Advanced": "Provides expert leadership in management audit, coaches audit teams and improves consistency, coverage and audit approaches."
             }
           },
           {
-            "name": "Operations and Performance Audit",
+            "name": "Operations Audit",
             "definition": "Assesses whether programs and operations are implemented as planned and achieve intended objectives, efficiency and effectiveness.",
             "levels": {
-              "Emerging": "Supports operations and performance audit within an approved audit scope and follows prescribed procedures with guidance.",
-              "Developing": "Performs routine to moderately complex operations and performance audit independently, gathers evidence and documents results.",
-              "Proficient": "Independently manages complex operations and performance audit, evaluates significance and integrates evidence into defensible audit conclusions.",
-              "Advanced": "Provides expert leadership in operations and performance audit, coaches audit teams and improves consistency, coverage and audit approaches."
+              "Emerging": "Supports operations audit within an approved audit scope and follows prescribed procedures with guidance.",
+              "Developing": "Performs routine to moderately complex operations audit independently, gathers evidence and documents results.",
+              "Proficient": "Independently manages complex operations audit, evaluates significance and integrates evidence into defensible audit conclusions.",
+              "Advanced": "Provides expert leadership in operations audit, coaches audit teams and improves consistency, coverage and audit approaches."
             }
           },
           {
@@ -10348,7 +10348,7 @@
             "name": "IT Audit Quality and Professional Judgment",
             "definition": "Ensures technology-assisted audit work remains properly documented, relevant to audit objectives, subject to quality control and consistent with audit independence.",
             "levels": {
-              "Emerging": "Recognizes basic technology risks relevant to it audit quality and professional judgment and follows approved tools and procedures.",
+              "Emerging": "Recognizes basic technology gaps relevant to it audit quality and professional judgment and follows approved tools and procedures.",
               "Developing": "Applies routine technology-enabled procedures for it audit quality and professional judgment with increasing independence and documents results.",
               "Proficient": "Independently evaluates complex it audit quality and professional judgment, selects appropriate techniques and assesses implications for audit conclusions.",
               "Advanced": "Leads improvements in it audit quality and professional judgment, mentors staff and strengthens technology-enabled audit capability while preserving independence."
@@ -12924,7 +12924,7 @@
         "dimensions": [
           {
             "name": "Document Collection",
-            "definition": "Ability to collect relevant project documents and reports required for inspection and acceptance activities.",
+            "definition": "Ability to collect relevant project documents and reports of ongoing and completed projects, including those required for inspection and acceptance activities.",
             "levels": {
               "Emerging": "Assists in gathering project documents with guidance.",
               "Developing": "Collects routine project documents and reports independently.",
@@ -12954,7 +12954,7 @@
           },
           {
             "name": "Quality and Supplier Documentation Review",
-            "definition": "Ability to review testing, quality control documents, and lists of subcontractors and suppliers.",
+            "definition": "Ability to review the overall quality of testing and quality control documentation submitted for the project.",
             "levels": {
               "Emerging": "Assists in reviewing quality control records with guidance.",
               "Developing": "Reviews routine testing and quality documentation independently.",
@@ -13016,7 +13016,7 @@
         "dimensions": [
           {
             "name": "Post-Completion Activity Facilitation",
-            "definition": "Ability to facilitate post-completion activities required for project closing.",
+            "definition": "Ability to receive and process the final certificate of project completion issued by the implementing sector, and coordinate required post-completion documentation for closing.",
             "levels": {
               "Emerging": "Assists in compiling post-completion requirements with guidance.",
               "Developing": "Facilitates routine post-completion activities independently.",
@@ -13026,7 +13026,7 @@
           },
           {
             "name": "Completion and Acceptance Recommendation",
-            "definition": "Ability to recommend issuances for project completion and acceptance based on applicable terms, conditions, and requirements.",
+            "definition": "Ability to recommend project acceptance based on the final certificate of project completion, applicable terms, conditions, and requirements.",
             "levels": {
               "Emerging": "Assists in drafting recommendation notes with guidance.",
               "Developing": "Recommends routine completion and acceptance issuances independently.",
@@ -13035,7 +13035,7 @@
             }
           },
           {
-            "name": "Contract Terms Compliance Verification",
+            "name": "Project Design or Implementation Compliance Verification",
             "definition": "Ability to verify compliance with relevant terms and conditions of contracts and agreements prior to project closing.",
             "levels": {
               "Emerging": "Assists in checking contract compliance with guidance.",
@@ -13045,7 +13045,7 @@
             }
           },
           {
-            "name": "Closing Documentation Management",
+            "name": "Closing Documents Final Verification",
             "definition": "Ability to manage documentation required for project closing in accordance with applicable laws and policies.",
             "levels": {
               "Emerging": "Assists in organizing closing documentation with guidance.",
@@ -14860,7 +14860,7 @@
       },
       {
         "name": "Transport Data Collection and Coordination",
-        "definition": "The ability to facilitate the systematic collection of transport data, performance indicators, and other sectoral information, including Project Planning and Development Office (PPDO) project data, studies, and partner submissions, in coordination with relevant DOTr offices and stakeholders.",
+        "definition": "The ability to facilitate the systematic collection of transport data, performance indicators, and other sectoral information, including planning and project development data, studies, partner submissions, in coordination with relevant DOTr offices and stakeholders.",
         "dimensions": [
           {
             "name": "Data Collection Planning",
@@ -14906,7 +14906,7 @@
       },
       {
         "name": "Data Repository and Database Management",
-        "definition": "The ability to develop, maintain, and update the central repository and database of PPDO and transport sector data, reports, and studies, serving as the institutional memory and reference base of the Planning Service.",
+        "definition": "The ability to develop, maintain, and update the central repository/database of multi-sectoral transport and planning and project development data, reports, and studies, serving as the institutional memory and reference base of internal and external users.",
         "dimensions": [
           {
             "name": "Repository Development",
@@ -14930,7 +14930,7 @@
           },
           {
             "name": "Institutional Reference Management",
-            "definition": "Ability to manage the repository as an institutional memory and reference base for the Planning Service.",
+            "definition": "Ability to manage the repository as an institutional memory and reference base for internal and external users.",
             "levels": {
               "Emerging": "Assists in organizing reference materials with guidance.",
               "Developing": "Manages routine reference materials within the repository independently.",
@@ -14998,7 +14998,7 @@
       },
       {
         "name": "Research, Analysis, and Policy Studies",
-        "definition": "The ability to conduct research, analysis, and policy studies using transport and PPDO data to generate insights, visualizations, and reports that support evidence-based planning, policy formulation, and project development.",
+        "definition": "The ability to conduct data research, analysis, and studies using transport data to generate insights, visualizations, and reports that support evidence-based planning, policy formulation, and project development.",
         "dimensions": [
           {
             "name": "Research Design and Conduct",
@@ -15012,7 +15012,7 @@
           },
           {
             "name": "Data Analysis",
-            "definition": "Ability to analyze transport and PPDO data to generate meaningful insights.",
+            "definition": "Ability to analyze transport and planning and project development data to generate meaningful insights.",
             "levels": {
               "Emerging": "Assists in compiling data for analysis with guidance.",
               "Developing": "Analyzes routine transport and PPDO data independently.",
@@ -15044,7 +15044,7 @@
       },
       {
         "name": "Knowledge Dissemination and Archiving",
-        "definition": "The ability to facilitate the dissemination and controlled sharing of transport and PPDO-related data, information, and research outputs, and to ensure the preservation, organization, and transfer of sector knowledge, reports, and best practices through systematic archiving and digital knowledge platforms.",
+        "definition": "The ability to facilitate the dissemination and controlled sharing of transport and planning and project development data, information, and research outputs, and to ensure the preservation, organization, and transfer of sector knowledge, reports, and best practices through systematic archiving and digital knowledge platforms.",
         "dimensions": [
           {
             "name": "Information Dissemination",
@@ -15540,7 +15540,7 @@
             "levels": {
               "Emerging": "Collects operational data.",
               "Developing": "Conducts basic analysis of project information.",
-              "Proficient": "Performs comprehensive M&E of railway projects.",
+              "Proficient": "Performs comprehensive M&E of railway projects specific for the O&M Contracts.",
               "Advanced": "Leads enterprise-level performance evaluation initiatives."
             }
           },
@@ -19591,7 +19591,7 @@
               "Emerging": "Prepares basic procurement documents using prescribed formats with guidance.",
               "Developing": "Processes routine procurement requests accurately and within timelines.",
               "Proficient": "Manages complex procurement transactions and resolves procedural issues.",
-              "Advanced": "Provides technical direction on procurement matters and improves procurement processes."
+              "Advanced": "Develops and institutionalizes procurement guidelines aligned with governing laws and policies, provides expert advice on complex procurement matters, and drives process improvements to strengthen efficiency, transparency, and regulatory compliance."
             }
           },
           {
@@ -19726,40 +19726,40 @@
             "name": "Facilities Maintenance Planning and Monitoring",
             "definition": null,
             "levels": {
-              "Emerging": "Assists in basic facilities monitoring with guidance.",
-              "Developing": "Monitors routine maintenance schedules and reports concerns.",
-              "Proficient": "Manages complex maintenance requirements and coordinates repair activities.",
-              "Advanced": "Establishes facilities maintenance standards and preventive-maintenance programs."
+              "Emerging": "Assists in monitoring facility conditions and carrying out routine maintenance activities under supervision.",
+              "Developing": "Monitors preventive and corrective maintenance schedules and follows up on identified facility concerns.",
+              "Proficient": "Plans, coordinates, and oversees maintenance programs to ensure facilities and building systems remain safe, functional, and operational.",
+              "Advanced": "Establishes maintenance standards, preventive maintenance frameworks, and long-term asset preservation strategies to optimize facility performance and sustainability."
             }
           },
           {
             "name": "Building and Equipment Repair Coordination",
             "definition": null,
             "levels": {
-              "Emerging": "Assists in coordinating basic repair requests with guidance.",
-              "Developing": "Coordinates routine repair and maintenance requests.",
-              "Proficient": "Manages complex repair projects and resolves contractor or vendor issues.",
-              "Advanced": "Establishes repair and improvement standards that ensure facility reliability."
+              "Emerging": "Assists in coordinating basic repair requests and monitoring repair activities under supervision.",
+              "Developing": "Coordinates routine repair and corrective maintenance requests to ensure timely completion of works.",
+              "Proficient": "Manages complex repair, rehabilitation, and equipment restoration projects while addressing contractor and vendor-related issues.",
+              "Advanced": "Establishes repair management standards and continuous improvement practices that ensure facility reliability and service continuity."
             }
           },
           {
             "name": "Property Accountability and Custodianship",
             "definition": null,
             "levels": {
-              "Emerging": "Records basic property transactions with guidance.",
-              "Developing": "Maintains routine property records accurately.",
-              "Proficient": "Resolves property accountability discrepancies and coordinates inspections.",
-              "Advanced": "Establishes property accountability systems and safeguards."
+              "Emerging": "Assists in recording and maintaining basic property and asset transactions under guidance.",
+              "Developing": "Maintains accurate property records and supports routine inventory, issuance, and accountability activities.",
+              "Proficient": "Resolves property accountability discrepancies and coordinates inspections, inventories, and asset verification activities.",
+              "Advanced": "Establishes property accountability systems, controls, and safeguarding mechanisms to ensure the proper use and protection of organizational assets."
             }
           },
           {
             "name": "Operational Risk and Safety Management",
             "definition": null,
             "levels": {
-              "Emerging": "Recognizes obvious facility or safety risks with guidance.",
-              "Developing": "Reports routine risks and follows established safety procedures.",
-              "Proficient": "Assesses complex facility risks and recommends mitigating measures.",
-              "Advanced": "Establishes facilities risk-management and safety programs."
+              "Emerging": "Recognizes and reports obvious facility, equipment, and safety risks under supervision.",
+              "Developing": "Identifies routine operational risks and complies with established safety policies and procedures.",
+              "Proficient": "Assesses complex facility and operational risks and recommends appropriate mitigation and corrective measures.",
+              "Advanced": "Establishes and leads risk management, safety, and emergency preparedness programs that promote a safe and resilient working environment."
             }
           }
         ]
@@ -19772,30 +19772,30 @@
             "name": "Equipment and Computer Maintenance",
             "definition": null,
             "levels": {
-              "Emerging": "Performs basic equipment checks and minor repairs with guidance.",
-              "Developing": "Troubleshoots and resolves routine equipment or computer issues.",
-              "Proficient": "Diagnoses and resolves complex technical problems affecting multiple users or systems.",
-              "Advanced": "Establishes preventive-maintenance protocols and improves equipment reliability."
+              "Emerging": "Performs basic equipment inspections and minor maintenance activities under supervision.",
+              "Developing": "Troubleshoots and resolves routine equipment and computer hardware issues to maintain operational readiness.",
+              "Proficient": "Diagnoses and resolves complex equipment and hardware problems while coordinating repair and replacement activities to ensure operational continuity across multiple users or systems.",
+              "Advanced": "Establishes preventive maintenance programs and lifecycle management strategies to improve equipment reliability and availability."
             }
           },
           {
             "name": "Fleet and Vehicle Management",
             "definition": null,
             "levels": {
-              "Emerging": "Assists in basic vehicle monitoring with guidance.",
-              "Developing": "Monitors routine vehicle maintenance schedules and dispatch requests.",
-              "Proficient": "Resolves complex fleet management issues and optimizes vehicle utilization.",
-              "Advanced": "Establishes fleet management standards and cost-efficiency measures."
+              "Emerging": "Assists in monitoring vehicle condition, utilization, and maintenance activities under guidance.",
+              "Developing": "Monitors routine vehicle maintenance schedules, dispatch requests, and compliance requirements.",
+              "Proficient": "Manages fleet operations, resolves complex vehicle utilization issues, and optimizes resource allocation.",
+              "Advanced": "Establishes fleet management standards, performance measures, and cost-efficiency strategies."
             }
           },
           {
             "name": "Technical Support Coordination",
             "definition": null,
             "levels": {
-              "Emerging": "Responds to basic technical support requests with guidance.",
-              "Developing": "Resolves routine technical support requests within service standards.",
-              "Proficient": "Manages complex or recurring technical support concerns.",
-              "Advanced": "Establishes technical-support service standards and improves response systems."
+              "Emerging": "Responds to basic technical support requests and escalates issues as necessary under supervision.",
+              "Developing": "Resolves routine technical support concerns and ensures compliance with established service standards.",
+              "Proficient": "Coordinates the resolution of complex or recurring technical issues and manages support requirements across multiple users or units.",
+              "Advanced": "Establishes technical support service standards, performance metrics, and continuous improvement initiatives."
             }
           }
         ]
@@ -19857,7 +19857,7 @@
               "Emerging": "Applies established project management procedures with guidance; supports routine planning, monitoring, documentation and coordination activities.\n• Performs assigned project tasks using approved standards, schedules, specifications and available project information.\n• Identifies basic project issues, risks and deviations and escalates matters requiring supervisory action.",
               "Developing": "Manages routine project activities with minimal supervision and coordinates with project teams and stakeholders.\n• Monitors implementation against approved plans, schedules, quality requirements and specifications and acts on routine variances.\n• Supports project documentation, billings, turnover, reporting and other project-control requirements.",
               "Proficient": "Plans and coordinates complex project activities and integrates scope, schedule, quality, cost and implementation considerations.\n• Reviews project outputs and recommends corrective actions based on evidence, standards and project requirements.\n• Coordinates multiple practitioners/stakeholders and contributes to improvements in project processes, procedures and controls.",
-              "Advanced": "Provides direction for significant project areas and integrates technical, financial, quality and implementation considerations.\n• Recommends improvements to project policies, programs, procedures and project-management practices.\n• Provides technical leadership and mentors others in project planning, implementation, monitoring, control and closeout."
+              "Advanced": "Provides direction for significant project areas and integrates technical, financial, quality and implementation considerations.\n• Recommends improvements to project policies, programs, procedures and project-management practices.\n• Provides technical leadership and mentors others in project operational planning, implementation, monitoring, control and closeout."
             }
           }
         ]
