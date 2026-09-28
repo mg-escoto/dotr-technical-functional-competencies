@@ -566,16 +566,6 @@
             }
           },
           {
-            "name": "Troubleshooting and Technical Maintenance",
-            "definition": "Ability to identify and resolve routine technology problems affecting work outputs.",
-            "levels": {
-              "Emerging": "Identifies common software, hardware or connectivity issues and seeks assistance appropriately.",
-              "Developing": "Performs routine troubleshooting and preventive maintenance.",
-              "Proficient": "Diagnoses more complex problems and applies corrective actions to minimize disruption.",
-              "Advanced": "Guides others on troubleshooting and recommends improvements to technology support practices."
-            }
-          },
-          {
             "name": "Data Backup and Information Preservation",
             "definition": "Ability to organize, back up, preserve and retrieve digital information and work files. Technology Improvement and Advisory Ability to evaluate and recommend appropriate tools and technology to improve productivity and communication operations.",
             "levels": {
@@ -6244,6 +6234,16 @@
               "Proficient": "Independently manages complex quality assurance and technical review, resolves issues, coordinates stakeholders and provides timely, well-supported advice.",
               "Advanced": "Provides expert leadership for quality assurance and technical review, mentors others, improves coordination systems and contributes to strategic governance and organizational outcomes."
             }
+          },
+          {
+            "name": "In-House Systems Development",
+            "definition": "Ability to design, build, test, and deploy in-house information systems and applications that meet validated business and technical requirements.",
+            "levels": {
+              "Emerging": "Assists in coding, testing, and documenting assigned components of in-house systems using established standards and guidance.",
+              "Developing": "Independently develops and tests routine system modules or features and resolves basic defects.",
+              "Proficient": "Develops complex system components, integrates modules, and resolves significant technical issues during development.",
+              "Advanced": "Leads in-house system development efforts, establishes development standards and practices, and mentors others in secure and maintainable coding."
+            }
           }
         ]
       },
@@ -6297,8 +6297,8 @@
             "levels": {
               "Emerging": "Follows established procedures for cyber resilience and recovery support; recognizes common indicators and promptly seeks assistance for suspected threats or incidents.",
               "Developing": "Performs routine cyber resilience and recovery support with increasing independence; validates information, documents actions and escalates significant findings.",
-              "Proficient": "Independently manages complex cyber resilience and recovery support situations, coordinates response activities, evaluates risk and recommends appropriate action.",
-              "Advanced": "Provides expert leadership for cyber resilience and recovery support; strengthens controls, response capability, procedures and organizational cyber resilience."
+              "Proficient": "Independently manages complex cyber resilience and recovery support situations as part of the Department's core system recovery team, coordinates response activities, evaluates risk and recommends appropriate action.",
+              "Advanced": "Leads the Department's core cyber resilience and recovery response team; strengthens controls, response capability, procedures and organizational cyber resilience."
             }
           }
         ]
@@ -8441,7 +8441,7 @@
             "levels": {
               "Emerging": "Gathers and organizes information related to organizational structures, functions, staffing patterns, and job requirements.",
               "Developing": "Reviews organizational data and identifies issues affecting organizational design, staffing, and operational effectiveness.",
-              "Proficient": "Conducts organizational assessments and develops recommendations on structures, staffing patterns, qualification standards, and functional alignment.",
+              "Proficient": "Conducts comprehensive, in-depth organizational assessments and develops well-substantiated recommendations on structures, staffing patterns, qualification standards, and functional alignment, going beyond routine data review to address complex or contested organizational issues.",
               "Advanced": "Leads organization-wide reviews and provides strategic recommendations on organizational restructuring, staffing optimization, and institutional strengthening."
             }
           },
@@ -11736,7 +11736,7 @@
         "dimensions": [
           {
             "name": "Legislative Monitoring",
-            "definition": "Ability to track proposed bills, resolutions, legislative developments, and related actions affecting the Department.",
+            "definition": "Ability to track proposed bills, resolutions, legislative developments, and related actions affecting the Department, in systematic coordination with concerned agencies, offices, sectors, and divisions to facilitate timely action.",
             "levels": {
               "Emerging": "Monitors assigned sources with guidance.",
               "Developing": "Maintains routine monitoring and identifies relevant developments.",
@@ -11746,7 +11746,7 @@
           },
           {
             "name": "Laws and Issuances Dissemination",
-            "definition": "Ability to facilitate timely dissemination of laws and issuances affecting the Department to relevant offices and stakeholders.",
+            "definition": "Ability to facilitate timely dissemination of laws and issuances affecting the Department to relevant offices and stakeholders, and provide necessary legal guidance to promote proper understanding and implementation.",
             "levels": {
               "Emerging": "Disseminates assigned materials using established procedures.",
               "Developing": "Ensures routine dissemination reaches intended recipients.",
@@ -11766,7 +11766,7 @@
           },
           {
             "name": "Legislative Records and Knowledge Management",
-            "definition": "Ability to maintain organized, accurate, accessible records of legislative proposals, comments, issuances, hearings, and related references.",
+            "definition": "Ability to maintain organized, accurate, accessible, and confidential records of legislative proposals, comments, issuances, hearings, and related references, ensuring regular updating to reflect current status.",
             "levels": {
               "Emerging": "Files and retrieves assigned records with guidance.",
               "Developing": "Maintains accurate routine records and reference materials.",
@@ -11776,7 +11776,7 @@
           },
           {
             "name": "Reporting and Timeliness",
-            "definition": "Ability to prepare accurate reports and deliver legislative outputs within prescribed timelines.",
+            "definition": "Ability to prepare accurate, complete, responsive, and relevant reports and deliver legislative outputs within prescribed timelines, through proper coordination and observance of established procedures.",
             "levels": {
               "Emerging": "Completes assigned reports and outputs with guidance.",
               "Developing": "Meets routine deadlines and maintains accurate status information.",
@@ -12538,7 +12538,7 @@
         "dimensions": [
           {
             "name": "Technical and Engineering Parameter Development",
-            "definition": "Ability to define technical, engineering, and design parameters for proposed road transport projects.",
+            "definition": "Ability to define technical, engineering, design, and project development parameters for proposed road transport projects, supporting road transport planning and project development processes.",
             "levels": {
               "Emerging": "Assists in gathering technical and engineering information for proposed projects with guidance.",
               "Developing": "Develops technical and engineering parameters for routine project proposals.",
@@ -19793,7 +19793,7 @@
               "Emerging": "Recognizes basic parameters and characteristics to be measured or checked during infrastructure monitoring.\n• Uses prescribed data-gathering tools and prepares complete, accurate documentation and evidence within timelines.\n• Reports basic observations, discrepancies and implementation concerns through established channels.",
               "Developing": "Applies appropriate monitoring procedures and data-collection methods for assigned infrastructure activities.\n• Validates collected information against records, historical data and documentary evidence and acts on routine variances.\n• Reviews completeness and accuracy of monitoring information and supports timely encoding/reporting.",
               "Proficient": "Evaluates monitoring data and documentary evidence against infrastructure objectives, targets and standards.\n• Reviews reports and identifies significant gaps, trends, variances or additional evidence needed for decision-making.\n• Coordinates monitoring activities and recommends improvements to monitoring systems, methods and reporting.",
-              "Advanced": "Defines or improves infrastructure monitoring and evaluation systems and methods.\n• Integrates monitoring results across projects and evaluates adequacy, completeness and effectiveness against Department objectives.\n• Provides technical leadership on monitoring and evaluation and recommends policy, program or system improvements."
+              "Advanced": "Defines or improves infrastructure monitoring and evaluation systems and methods.\n• Integrates monitoring results across projects and evaluates adequacy, completeness and effectiveness against Department objectives.\n• Provides technical leadership on monitoring and evaluation and recommends policy, program or system improvements, including escalation of Red Flag issues requiring immediate management attention."
             }
           }
         ]
@@ -19808,7 +19808,7 @@
             "levels": {
               "Emerging": "Receives and evaluates routine requests for data/information and refers them for proper disposition.\n• Uses authorized sources and follows basic data security, confidentiality and ethical practices.\n• Checks information for basic completeness and accuracy before use or release.",
               "Developing": "Prepares and provides accurate and timely data based on established parameters and sharing protocols.\n• Validates information and resolves routine discrepancies using available references.\n• Maintains data integrity and applies appropriate controls in handling project information.",
-              "Proficient": "Evaluates data quality, relevance and reliability for project and management decisions.\n• Ensures information is accurate, complete, appropriately validated and fit for purpose.\n• Improves data-management practices and advises stakeholders on appropriate use and sharing of information.",
+              "Proficient": "Evaluates data quality, relevance and reliability for project and management decisions.\n• Ensures information is accurate, complete, appropriately validated and fit for purpose.\n• Improves data-management practices and advises stakeholders on appropriate use and sharing of information.\n• Approves data and information for release to DOTr management, donor institutions, and oversight agencies (e.g., NEDA, DBM, DOF).\n• Applies data analytics to support project decision-making.",
               "Advanced": "Provides direction on data governance, integrity, confidentiality and information-use practices.\n• Integrates information from multiple project sources to support strategic project decisions.\n• Establishes or improves systems that strengthen data quality, accessibility, integrity and responsible use."
             }
           }
