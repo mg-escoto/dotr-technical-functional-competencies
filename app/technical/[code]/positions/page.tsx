@@ -6,7 +6,12 @@ import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
 import PositionCompetencyComments, { type PublicPositionComment } from '@/components/PositionCompetencyComments'
 import PositionDuties, { type PositionDuty } from '@/components/PositionDuties'
+import GeneralComments, { type PublicGeneralComment } from '@/components/GeneralComments'
 import { useTechColors, levelStyle } from '@/lib/techColors'
+
+// Duties & Responsibilities entry opens Wednesday — disabled for now so it
+// isn't populated ahead of that rollout.
+const DUTIES_ENTRY_ENABLED = false
 import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile, type PositionProfile } from '@/lib/data/positionProfiles'
 import { downloadPositionsDoc } from '@/lib/docExport'
@@ -268,13 +273,22 @@ export default function PositionProfilePage() {
                               {/* Right: duties entry, sticky so it stays visible while
                                   scrolling the (often longer) reference column on the left */}
                               <div className="no-print lg:sticky lg:top-24">
-                                <PositionDuties
-                                  divisionCode={division.code}
-                                  positionIndex={idx}
-                                  competencyName={name}
-                                  duties={duties}
-                                  onSaved={loadDuties}
-                                />
+                                {DUTIES_ENTRY_ENABLED ? (
+                                  <PositionDuties
+                                    divisionCode={division.code}
+                                    positionIndex={idx}
+                                    competencyName={name}
+                                    duties={duties}
+                                    onSaved={loadDuties}
+                                  />
+                                ) : (
+                                  <div
+                                    className="rounded-lg p-4 text-xs leading-relaxed"
+                                    style={{ background: C.subtleBg, border: `1px solid ${C.borderMuted}`, color: C.textMuted }}
+                                  >
+                                    📋 <strong>Duties &amp; Responsibilities</strong> entry opens Wednesday.
+                                  </div>
+                                )}
                               </div>
                             </div>
 
@@ -298,6 +312,17 @@ export default function PositionProfilePage() {
               </div>
             )
           })}
+        </div>
+      </div>
+
+      {/* ── General comments ─────────────────────────────────────────────── */}
+      <div className="no-print px-8 pb-24">
+        <div className="max-w-6xl mx-auto">
+          <GeneralComments
+            divisionCode={division.code}
+            comments={comments as unknown as PublicGeneralComment[]}
+            onSubmitted={loadComments}
+          />
         </div>
       </div>
     </div>

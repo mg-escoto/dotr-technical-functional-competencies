@@ -447,6 +447,8 @@ function CommentCard({
             {comment.division_code}{' '}
             {comment.target_type === 'position'
               ? `· Position: ${comment.position_title}`
+              : comment.competency_index === -1
+              ? '· General comment'
               : `· Competency ${(comment.competency_index ?? 0) + 1}`}
           </p>
           <h3 className="font-bold text-base" style={{ color: C.text }}>
