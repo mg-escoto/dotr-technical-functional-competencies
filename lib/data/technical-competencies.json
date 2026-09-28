@@ -908,16 +908,6 @@
         "definition": "The ability to document, organize, maintain, preserve and retrieve communication materials, media assets, records and information resources to support operational, accountability and institutional requirements.",
         "dimensions": [
           {
-            "name": "Content Documentation",
-            "definition": "Ability to record, transcribe and document media content, event proceedings and communication activities.",
-            "levels": {
-              "Emerging": "Records and organizes media content and event proceedings.",
-              "Developing": "Prepares summaries, transcripts and documentation reports.",
-              "Proficient": "Develops systems for organizing and retrieving communication resources.",
-              "Advanced": "Establishes standards for documentation and content governance."
-            }
-          },
-          {
             "name": "Digital File Organization and Retrieval",
             "definition": "Ability to classify, organize, store and retrieve communication files and digital assets.",
             "levels": {
@@ -935,16 +925,6 @@
               "Developing": "Monitors compliance and conducts routine quality checks.",
               "Proficient": "Conducts quality control and validates archived materials.",
               "Advanced": "Establishes controls and assures division-wide compliance with records requirements."
-            }
-          },
-          {
-            "name": "Digital Archiving and Preservation",
-            "definition": "Ability to maintain electronic archives and preserve communication resources for continued accessibility. Information Governance and Knowledge Preservation Ability to establish and improve archiving practices and support institutional knowledge preservation.",
-            "levels": {
-              "Emerging": "Stores files appropriately and maintains basic backups. Understands the value of preserving communication records.",
-              "Developing": "Ensures preservation and accessibility of communication assets. Applies information governance procedures to routine work.",
-              "Proficient": "Recommends improvements to archiving and preservation practices. Integrates records practices into operational communication processes.",
-              "Advanced": "Leads institutional preservation initiatives and establishes digital archiving standards. Leads knowledge-preservation and information-governance improvements."
             }
           }
         ]
@@ -4584,6 +4564,36 @@
               "Proficient": "Reviews selection/onboarding practices and recommends improvements for fairness, accessibility, and employee adjustment.",
               "Advanced": "Leads integrated, fair, and inclusive RSP/onboarding improvements aligned with workforce strategy."
             }
+          },
+          {
+            "name": "Succession, Engagement, and Employee Lifecycle Support",
+            "definition": "Ability to support succession, engagement, retention, and employee-lifecycle activities within the Human Resource Management Division's (HRMD) assigned scope.",
+            "levels": {
+              "Emerging": "Supports assigned succession, engagement, or employee-lifecycle activities using established procedures.",
+              "Developing": "Independently coordinates routine lifecycle, engagement, and succession requirements.",
+              "Proficient": "Analyzes workforce/employee information and recommends targeted engagement, retention, or succession measures.",
+              "Advanced": "Provides strategic direction on assigned succession/lifecycle systems and organizational continuity improvements."
+            }
+          },
+          {
+            "name": "Workforce and Organizational Profiling",
+            "definition": "Ability to compile, validate, and analyze workforce characteristics, staffing information, personnel movements, and organizational profiles.",
+            "levels": {
+              "Emerging": "Compiles routine workforce and staffing information with guidance.",
+              "Developing": "Maintains accurate workforce profiles and personnel-movement information.",
+              "Proficient": "Analyzes workforce profiles to identify trends, gaps, and HR implications.",
+              "Advanced": "Leads workforce/organizational profiling approaches that support strategic planning and management decisions."
+            }
+          },
+          {
+            "name": "Organizational Structure and Functional Analysis",
+            "definition": "Ability to understand and analyze organizational/functional charts, position descriptions, roles, reporting relationships, and job requirements for HR-specific purposes such as recruitment planning, staffing pattern review, and position classification, distinct from the Management Division's broader organizational design and structural reform functions.",
+            "levels": {
+              "Emerging": "Explains basic organizational/functional charts and position information with guidance.",
+              "Developing": "Independently explains roles, reporting relationships, and job requirements for routine HR work.",
+              "Proficient": "Analyzes complex organizational/functional relationships and identifies HR implications.",
+              "Advanced": "Provides expert organizational analysis that informs structural, staffing, or HR-system decisions."
+            }
           }
         ]
       },
@@ -4732,16 +4742,6 @@
               "Proficient": "Handles complex investigation/process issues and guides others on proper procedures.",
               "Advanced": "Oversees complex discipline processes, provides expert direction, and strengthens procedural controls."
             }
-          },
-          {
-            "name": "Succession, Engagement, and Employee Lifecycle Support",
-            "definition": "Ability to support succession, engagement, retention, and employee-lifecycle activities within the Human Resource Management Division's (HRMD) assigned scope.",
-            "levels": {
-              "Emerging": "Supports assigned succession, engagement, or employee-lifecycle activities using established procedures.",
-              "Developing": "Independently coordinates routine lifecycle, engagement, and succession requirements.",
-              "Proficient": "Analyzes workforce/employee information and recommends targeted engagement, retention, or succession measures.",
-              "Advanced": "Provides strategic direction on assigned succession/lifecycle systems and organizational continuity improvements."
-            }
           }
         ]
       },
@@ -4861,26 +4861,6 @@
         "name": "Organizational Profiling and HR Systems Planning",
         "definition": "The ability to understand and analyze the Department’s organizational structure, functions, workforce profile, and HR systems and use relevant information to support workforce planning, organizational development, policy implementation, and HR decision-making within the assigned scope.",
         "dimensions": [
-          {
-            "name": "Organizational Structure and Functional Analysis",
-            "definition": "Ability to understand and analyze organizational/functional charts, position descriptions, roles, reporting relationships, and job requirements.",
-            "levels": {
-              "Emerging": "Explains basic organizational/functional charts and position information with guidance.",
-              "Developing": "Independently explains roles, reporting relationships, and job requirements for routine HR work.",
-              "Proficient": "Analyzes complex organizational/functional relationships and identifies HR implications.",
-              "Advanced": "Provides expert organizational analysis that informs structural, staffing, or HR-system decisions."
-            }
-          },
-          {
-            "name": "Workforce and Organizational Profiling",
-            "definition": "Ability to compile, validate, and analyze workforce characteristics, staffing information, personnel movements, and organizational profiles.",
-            "levels": {
-              "Emerging": "Compiles routine workforce and staffing information with guidance.",
-              "Developing": "Maintains accurate workforce profiles and personnel-movement information.",
-              "Proficient": "Analyzes workforce profiles to identify trends, gaps, and HR implications.",
-              "Advanced": "Leads workforce/organizational profiling approaches that support strategic planning and management decisions."
-            }
-          },
           {
             "name": "HR Policy and Organizational Environment",
             "definition": "Ability to understand and explain applicable oversight-agency and internally prescribed HR policies, rules, and regulations affecting Department operations and personnel.",
@@ -19463,16 +19443,6 @@
         "definition": "The ability to provide efficient administrative support, coordinate division activities, manage correspondence and documentation, and facilitate the day-to-day operational requirements of the Philippine Railways Institute (PRI).",
         "dimensions": [
           {
-            "name": "Administrative Documentation and Correspondence",
-            "definition": null,
-            "levels": {
-              "Emerging": "Prepares routine documents and correspondence using prescribed formats with guidance.",
-              "Developing": "Independently prepares and tracks routine administrative documents and submissions.",
-              "Proficient": "Manages complex documentation requirements and improves document workflows.",
-              "Advanced": "Establishes efficient administrative documentation systems and standards for the Division."
-            }
-          },
-          {
             "name": "Task and Workflow Coordination",
             "definition": null,
             "levels": {
@@ -19508,6 +19478,16 @@
         "name": "Records and Document Management",
         "definition": "The ability to organize, control, track, and preserve administrative, financial, and property records to ensure accuracy, accessibility, and compliance with records management standards.",
         "dimensions": [
+          {
+            "name": "Administrative Documentation and Correspondence",
+            "definition": null,
+            "levels": {
+              "Emerging": "Prepares routine documents and correspondence using prescribed formats with guidance.",
+              "Developing": "Independently prepares and tracks routine administrative documents and submissions.",
+              "Proficient": "Manages complex documentation requirements and improves document workflows.",
+              "Advanced": "Establishes efficient administrative documentation systems and standards for the Division."
+            }
+          },
           {
             "name": "Records Organization and Control",
             "definition": null,
