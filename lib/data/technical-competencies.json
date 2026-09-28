@@ -19713,6 +19713,32 @@
             }
           }
         ]
+      },
+      {
+        "name": "Human Resource Management",
+        "definition": "The ability to support recruitment, selection, placement, compensation, and benefits administration for the Philippine Railways Institute (PRI) in accordance with applicable Civil Service Commission (CSC), Department of Budget and Management (DBM), and Department requirements.",
+        "dimensions": [
+          {
+            "name": "Recruitment, Selection, and Placement",
+            "definition": "Ability to support recruitment, screening, and selection of qualified applicants against qualification standards and job requirements, and facilitate placement and onboarding activities.",
+            "levels": {
+              "Emerging": "Assists in posting vacancies and screening applicants with guidance.",
+              "Developing": "Independently screens applicants and supports routine selection and placement requirements.",
+              "Proficient": "Handles complex candidate assessment and resolves selection issues.",
+              "Advanced": "Establishes recruitment and selection standards for the Division."
+            }
+          },
+          {
+            "name": "Compensation and Benefits Administration",
+            "definition": "Ability to process, validate, and coordinate salaries, adjustments, benefits, and entitlements for PRI employees.",
+            "levels": {
+              "Emerging": "Assists in processing routine salary and benefits transactions with guidance.",
+              "Developing": "Independently processes routine compensation and benefits transactions.",
+              "Proficient": "Resolves complex compensation and benefits cases and coordinates corrective action.",
+              "Advanced": "Establishes compensation and benefits administration standards for the Division."
+            }
+          }
+        ]
       }
     ]
   },
