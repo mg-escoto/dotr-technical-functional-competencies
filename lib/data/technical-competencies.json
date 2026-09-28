@@ -1992,7 +1992,7 @@
           },
           {
             "name": "Registration and Insurance Administration",
-            "definition": "Administers registration, insurance coverage, renewals, and related property records.",
+            "definition": "Administers registration, insurance coverage, renewals, and related property records, including service vehicles and fleet assets.",
             "levels": {
               "Emerging": "Maintains insurance records.",
               "Developing": "Processes insurance documentations and facilitates claims.",
@@ -3760,16 +3760,6 @@
               "Developing": "Monitors routine maintenance and coordinates repairs using established procedures.",
               "Proficient": "Analyzes recurring maintenance issues and recommends actions to improve reliability.",
               "Advanced": "Establishes fleet reliability strategies and drives preventive-maintenance improvements."
-            }
-          },
-          {
-            "name": "Registration, Insurance, and Compliance",
-            "definition": "Ability to ensure required documentation, registration, insurance, safety, and regulatory requirements are maintained.",
-            "levels": {
-              "Emerging": "Recognizes basic registration and insurance requirements with guidance.",
-              "Developing": "Monitors routine compliance requirements and maintains supporting records.",
-              "Proficient": "Manages complex compliance issues and coordinates timely corrective actions.",
-              "Advanced": "Establishes controls that ensure sustained fleet compliance and risk reduction."
             }
           },
           {
@@ -6799,16 +6789,6 @@
               "Proficient": "Reviews complex blacklisting documentation and coordinates required actions.",
               "Advanced": "Provides technical direction on blacklisting compliance and strengthens enforcement controls."
             }
-          },
-          {
-            "name": "Green Procurement Compliance",
-            "definition": "Ability to apply green and sustainable procurement principles, environmental criteria, and Green Public Procurement (GPP) guidelines when reviewing, administering, and enforcing procurement and contract requirements.",
-            "levels": {
-              "Emerging": "Recognizes basic green and sustainable procurement requirements and follows established procedures with guidance.",
-              "Developing": "Applies applicable green procurement criteria to routine transactions and identifies when clarification is needed.",
-              "Proficient": "Interprets green procurement requirements in complex transactions and provides sound technical guidance on sustainable sourcing options.",
-              "Advanced": "Provides authoritative guidance on green procurement compliance and contributes to improved controls or policy implementation for sustainable procurement."
-            }
           }
         ]
       },
@@ -7017,6 +6997,16 @@
               "Developing": "Independently performs routine and moderately complex evaluation, recommendation and endorsement activities, applies established requirements, and appropriately escalates exceptions or unclear cases.",
               "Proficient": "Independently handles complex evaluation, recommendation and endorsement cases, exercises sound judgment in resolving issues, reviews outputs for quality and compliance, and provides technical assistance to colleagues.",
               "Advanced": "Serves as an organizational resource for evaluation, recommendation and endorsement, provides direction on complex or changing cases, mentors others, strengthens controls or processes, and recommends improvements."
+            }
+          },
+          {
+            "name": "Green Procurement Compliance",
+            "definition": "Ability to review green and sustainable procurement criteria, environmental requirements, and Green Public Procurement (GPP) guidelines incorporated by End-User Units in technical specifications and scope of works, ensuring alignment with applicable green procurement policies.",
+            "levels": {
+              "Emerging": "Performs routine green procurement compliance review tasks using prescribed procedures and checklists with close guidance; identifies basic documentary or process requirements.",
+              "Developing": "Independently performs routine and moderately complex green procurement compliance review activities, applies established requirements, and appropriately escalates exceptions or unclear cases.",
+              "Proficient": "Independently handles complex green procurement compliance review cases, exercises sound judgment in resolving issues, reviews outputs for quality and compliance, and provides technical assistance to colleagues.",
+              "Advanced": "Serves as an organizational resource for green procurement compliance review, provides direction on complex or changing cases, mentors others, strengthens controls or processes, and recommends improvements."
             }
           }
         ]
@@ -12817,16 +12807,6 @@
         "definition": "The ability to tie up financing of investment-approved road transport projects with funders and facilitate the finalization of financing documents, terms, schedules, and implementation activities.",
         "dimensions": [
           {
-            "name": "Funder Coordination",
-            "definition": "Ability to coordinate and liaise with funders and financing institutions for investment-approved projects.",
-            "levels": {
-              "Emerging": "Supports funder coordination activities with guidance.",
-              "Developing": "Coordinates routine communications and requirements with funders.",
-              "Proficient": "Manages complex funder coordination involving multiple financing institutions.",
-              "Advanced": "Leads strategic funder relationships and negotiations for major financing arrangements."
-            }
-          },
-          {
             "name": "Financing Documentation",
             "definition": "Ability to prepare, review, and facilitate finalization of financing agreements and related documents.",
             "levels": {
@@ -12844,16 +12824,6 @@
               "Developing": "Supports routine negotiation activities and consolidates funder feedback.",
               "Proficient": "Supports complex negotiations and resolves conflicting terms among stakeholders.",
               "Advanced": "Leads negotiation strategy and secures favorable financing terms for major projects."
-            }
-          },
-          {
-            "name": "Financing Implementation Planning",
-            "definition": "Ability to define the specific activities necessary to implement financing arrangements for approved projects.",
-            "levels": {
-              "Emerging": "Assists in compiling implementation activity information with guidance.",
-              "Developing": "Defines routine implementation activities for financing arrangements.",
-              "Proficient": "Defines complex, multi-phase implementation plans for financing arrangements.",
-              "Advanced": "Establishes financing implementation planning standards and methodologies for the Division."
             }
           }
         ]
@@ -14593,13 +14563,13 @@
             }
           },
           {
-            "name": "International Commitment Integration",
-            "definition": "Ability to integrate relevant international commitments and standards into the transport agenda.",
+            "name": "International Policy Analysis and Alignment",
+            "definition": "Ability to analyze international frameworks, commitments, and standards relevant to transport policy and provide policy inputs and recommendations for the transport agenda, while coordination and integration of international commitments and engagements remain with the International Cooperation Division (ICD).",
             "levels": {
-              "Emerging": "Assists in compiling international commitment references with guidance.",
-              "Developing": "Integrates routine international commitments into agenda items.",
-              "Proficient": "Resolves complex integration issues involving multiple international frameworks.",
-              "Advanced": "Establishes standards for integrating international commitments into the Department's agenda."
+              "Emerging": "Assists in gathering and analyzing information on international frameworks related to transport, GEDSI, climate action, and sustainability.",
+              "Developing": "Reviews international commitments and identifies policy implications for transport sector planning and development.",
+              "Proficient": "Provides technical and policy recommendations to align transport initiatives with relevant international frameworks and national priorities.",
+              "Advanced": "Leads strategic policy analysis and develops evidence-based recommendations to advance transport sector responsiveness to emerging international trends, commitments, and best practices."
             }
           },
           {
