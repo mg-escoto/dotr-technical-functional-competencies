@@ -138,7 +138,6 @@ export default function PositionDuties({
             value={text}
             onChange={e => setText(e.target.value)}
             required
-            autoFocus
             rows={3}
             placeholder="e.g. Reviews and endorses disbursement vouchers for the section's weekly claims run…"
             className="w-full text-sm rounded-md p-3 resize-y"

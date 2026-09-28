@@ -14839,13 +14839,13 @@
         "definition": "The ability to conduct data research, analysis, and studies using transport data to generate insights, visualizations, and reports that support evidence-based planning, policy formulation, and project development.",
         "dimensions": [
           {
-            "name": "Research Design and Conduct",
-            "definition": "Ability to design and conduct research and policy studies using transport and PPDO data.",
+            "name": "Data Research Design and Conduct",
+            "definition": "Ability to design and conduct data research and studies using transport and planning and project development data.",
             "levels": {
-              "Emerging": "Assists in gathering research data with guidance.",
-              "Developing": "Conducts routine research and policy studies independently.",
-              "Proficient": "Designs and conducts complex, multi-source research studies.",
-              "Advanced": "Establishes research design standards and methodologies for the Division."
+              "Emerging": "Assists in gathering data for research and studies with guidance.",
+              "Developing": "Conducts routine data research and studies independently.",
+              "Proficient": "Designs and conducts complex, multi-source data research and studies.",
+              "Advanced": "Establishes data research design standards and methodologies for the Division."
             }
           },
           {
