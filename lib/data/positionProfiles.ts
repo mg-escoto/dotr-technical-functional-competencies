@@ -4770,6 +4770,142 @@ export const positionProfiles: DivisionPositionProfile[] = [
       },
     ],
   },
+  {
+    divisionCode: 'PMO-MARITIME',
+    asOf: 'SPMO-Maritime Proposed Organizational Chart',
+    sourceNote:
+      'Built from the SPMO-Maritime Proposed Organizational Chart (submitted by Engr. Alexander B. ' +
+      'Felix, Project Manager II; approved by Atty. Villamor Ventura S. Plan, Assistant Secretary for ' +
+      'Maritime), combined with the Division\'s competency framework. Permanent plantilla positions ' +
+      'only, per the chart\'s own legend (plantilla vs. contract-of-service vs. job-order, each shown ' +
+      'in a distinct text color) — contract-of-service and job-order items are excluded regardless of ' +
+      'fill status. Vacant items are included since they are permanent plantilla slots, just currently ' +
+      'unfilled. Names are excluded per standing convention; where the same plantilla item is shown in ' +
+      'more than one box on the chart (a person concurrently designated to a second unit), it is ' +
+      'listed once, under its primary/substantive unit. Competency and level assignments follow rank ' +
+      '(salary grade) and functional scope within each unit.',
+    positions: [
+      {
+        title: 'Project Manager II',
+        section: null,
+        competencies: [
+          { name: 'Project Management', level: 'Advanced' },
+          { name: 'Environmental and Social Safeguards Management', level: 'Advanced' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Advanced' },
+          { name: 'Managing Data and Information', level: 'Advanced' },
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Risk Management', level: 'Advanced' },
+          { name: 'Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Engineer V',
+        section: null,
+        competencies: [
+          { name: 'Project Management', level: 'Advanced' },
+          { name: 'Environmental and Social Safeguards Management', level: 'Advanced' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Advanced' },
+          { name: 'Managing Data and Information', level: 'Advanced' },
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Risk Management', level: 'Advanced' },
+          { name: 'Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming', level: 'Advanced' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Technical & Design Unit (Unit Head; also heads Implementing Unit – Luzon)',
+        competencies: [
+          { name: 'Project Management', level: 'Proficient' },
+          { name: 'Environmental and Social Safeguards Management', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Proficient' },
+          { name: 'Managing Data and Information', level: 'Proficient' },
+          { name: 'Communications Proficiency', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Survey and Design (Technical & Design Unit)',
+        competencies: [
+          { name: 'Project Management', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Proficient' },
+          { name: 'Managing Data and Information', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Sr. Communication Development Officer',
+        section: 'Partnership and Agreement Unit (Unit Head; also heads Implementing Unit – Visayas)',
+        competencies: [
+          { name: 'Project Management', level: 'Proficient' },
+          { name: 'Communications Proficiency', level: 'Advanced' },
+          { name: 'Managing Data and Information', level: 'Proficient' },
+          { name: 'Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming', level: 'Proficient' },
+          { name: 'Risk Management', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Implementing Unit – Luzon',
+        competencies: [
+          { name: 'Project Management', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Developing' },
+          { name: 'Communications Proficiency', level: 'Emerging' },
+        ],
+      },
+      {
+        title: 'Engineer II',
+        section: 'Implementing Unit – Visayas (also assigned to Implementing Unit – Mindanao)',
+        competencies: [
+          { name: 'Project Management', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Proficient' },
+          { name: 'Managing Data and Information', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Communications Development Officer',
+        section: 'Implementing Unit – Visayas',
+        competencies: [
+          { name: 'Communications Proficiency', level: 'Proficient' },
+          { name: 'Gender Equality, Disability, and Social Inclusion (GEDSI) Mainstreaming', level: 'Developing' },
+          { name: 'Managing Data and Information', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Implementing Unit – Visayas',
+        competencies: [
+          { name: 'Project Management', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Implementing Unit – Mindanao (Unit Head)',
+        competencies: [
+          { name: 'Project Management', level: 'Proficient' },
+          { name: 'Environmental and Social Safeguards Management', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Proficient' },
+          { name: 'Managing Data and Information', level: 'Proficient' },
+        ],
+      },
+      {
+        title: 'Transportation Development Officer II',
+        section: 'Project Management Unit (NCICPP)',
+        competencies: [
+          { name: 'Project Management', level: 'Developing' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Developing' },
+        ],
+      },
+      {
+        title: 'Engineer III',
+        section: 'Project Management Unit (NCICPP)',
+        competencies: [
+          { name: 'Project Management', level: 'Proficient' },
+          { name: 'Infrastructure Monitoring and Evaluation', level: 'Proficient' },
+          { name: 'Managing Data and Information', level: 'Proficient' },
+        ],
+      },
+    ],
+  },
 ]
 
 export function getPositionProfile(divisionCode: string): DivisionPositionProfile | undefined {
