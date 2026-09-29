@@ -12,6 +12,12 @@ import { useTechColors, levelStyle } from '@/lib/techColors'
 // Duties & Responsibilities entry opens Wednesday — disabled for now so it
 // isn't populated ahead of that rollout.
 const DUTIES_ENTRY_ENABLED = false
+
+// Lets viewers pick a level directly on a position's competency badge; the
+// pick is submitted to HRDD for review (same pipeline as
+// PositionCompetencyComments), not applied immediately. Off by default,
+// like DUTIES_ENTRY_ENABLED, until HRDD opens a self-profiling window.
+const LEVEL_PICKER_ENABLED = false
 import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile, type PositionProfile } from '@/lib/data/positionProfiles'
 import { downloadPositionsDoc } from '@/lib/docExport'
@@ -30,6 +36,8 @@ export default function PositionProfilePage() {
   const [duties, setDuties] = useState<PositionDuty[]>([])
   const [pendingScrollId, setPendingScrollId] = useState<string | null>(null)
   const [downloading, setDownloading] = useState(false)
+  const [savingLevelKey, setSavingLevelKey] = useState<string | null>(null)
+  const [savedLevelKey, setSavedLevelKey] = useState<string | null>(null)
 
   const loadComments = useCallback(async () => {
     if (!division) return
@@ -48,6 +56,40 @@ export default function PositionProfilePage() {
       setDuties(body.duties ?? [])
     }
   }, [division])
+
+  async function handleLevelPick(
+    compKey: string,
+    positionIndex: number,
+    positionTitle: string,
+    competencyName: string,
+    currentLevel: ProficiencyLevel,
+    newLevel: ProficiencyLevel
+  ) {
+    if (!division || newLevel === currentLevel) return
+    setSavingLevelKey(compKey)
+    try {
+      const res = await fetch('/api/comments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          division_code: division.code,
+          target_type: 'position',
+          position_index: positionIndex,
+          position_title: positionTitle,
+          competency_name: competencyName,
+          comment_text: `Self-profiled: suggested level change from ${currentLevel} to ${newLevel}.`,
+          suggested_text: newLevel,
+        }),
+      })
+      if (res.ok) {
+        setSavedLevelKey(compKey)
+        setTimeout(() => setSavedLevelKey(k => (k === compKey ? null : k)), 3000)
+        loadComments()
+      }
+    } finally {
+      setSavingLevelKey(null)
+    }
+  }
 
   useEffect(() => {
     if (!division) return
@@ -215,21 +257,59 @@ export default function PositionProfilePage() {
                         className="rounded-lg scroll-mt-24"
                         style={{ border: `1px solid ${C.borderMuted}` }}
                       >
-                        <button
+                        <div
+                          role="button"
+                          tabIndex={0}
                           onClick={() => setExpandedComp(isOpen ? null : compKey)}
-                          className={`w-full text-left px-4 py-3 flex items-center justify-between gap-3 ${isOpen ? 'rounded-t-lg' : 'rounded-lg'}`}
+                          onKeyDown={e => {
+                            if (e.key === 'Enter' || e.key === ' ') setExpandedComp(isOpen ? null : compKey)
+                          }}
+                          className={`w-full text-left px-4 py-3 flex items-center justify-between gap-3 cursor-pointer ${isOpen ? 'rounded-t-lg' : 'rounded-lg'}`}
                           style={{ background: C.subtleBg }}
                         >
                           <p className="text-sm font-semibold" style={{ color: C.text }}>
                             {name}
                           </p>
-                          <span
-                            className="text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-md flex-shrink-0"
-                            style={{ background: s.bg, color: s.labelColor }}
-                          >
-                            {level}
-                          </span>
-                        </button>
+                          <div className="flex items-center gap-2 flex-shrink-0">
+                            {LEVEL_PICKER_ENABLED && savedLevelKey === compKey && (
+                              <span className="text-xs font-bold" style={{ color: '#0d8f82' }}>
+                                ✓ Sent to HRDD
+                              </span>
+                            )}
+                            {LEVEL_PICKER_ENABLED ? (
+                              <select
+                                value={level}
+                                disabled={savingLevelKey === compKey}
+                                onClick={e => e.stopPropagation()}
+                                onChange={e =>
+                                  handleLevelPick(
+                                    compKey,
+                                    idx,
+                                    pos.title,
+                                    name,
+                                    level,
+                                    e.target.value as ProficiencyLevel
+                                  )
+                                }
+                                className="text-xs font-bold uppercase tracking-widest px-2 py-1 rounded-md border-0 cursor-pointer disabled:opacity-60"
+                                style={{ background: s.bg, color: s.labelColor }}
+                              >
+                                {LEVELS.map(lvl => (
+                                  <option key={lvl} value={lvl}>
+                                    {lvl}
+                                  </option>
+                                ))}
+                              </select>
+                            ) : (
+                              <span
+                                className="text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-md flex-shrink-0"
+                                style={{ background: s.bg, color: s.labelColor }}
+                              >
+                                {level}
+                              </span>
+                            )}
+                          </div>
+                        </div>
                         {isOpen && comp && (
                           <div className="px-4 py-4 space-y-5" style={{ borderTop: `1px solid ${C.borderMuted}` }}>
                             <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-5 items-start">
