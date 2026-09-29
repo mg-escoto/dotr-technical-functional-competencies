@@ -322,6 +322,8 @@ export default function PositionProfilePage() {
             divisionCode={division.code}
             comments={comments as unknown as PublicGeneralComment[]}
             onSubmitted={loadComments}
+            description="Anything else about this division's position competency profile that doesn't fit under a specific position or competency."
+            placeholder="Any other feedback on this division's position competency profile"
           />
         </div>
       </div>

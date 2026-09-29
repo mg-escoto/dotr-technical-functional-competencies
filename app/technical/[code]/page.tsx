@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
 import CompetencyComments, { type PublicComment } from '@/components/CompetencyComments'
+import GeneralComments from '@/components/GeneralComments'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { getDivisionByCode, divisions, LEVELS, LEVEL_SCALE, type Competency } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile } from '@/lib/data/positionProfiles'
@@ -295,7 +296,7 @@ export default function DivisionCompetencyPage() {
       </div>
 
       {/* ── Competencies ──────────────────────────────────────────────────── */}
-      <div className="px-8 pb-24 pt-8">
+      <div className="px-8 pb-8 pt-8">
         <div className="max-w-6xl mx-auto space-y-4">
           {competencies.map((comp, idx) => {
             const key = `${idx}-${comp.name}`
@@ -408,6 +409,17 @@ export default function DivisionCompetencyPage() {
               </div>
             )
           })}
+        </div>
+      </div>
+
+      {/* ── General comments ─────────────────────────────────────────────── */}
+      <div className="no-print px-8 pb-24">
+        <div className="max-w-6xl mx-auto">
+          <GeneralComments
+            divisionCode={division.code}
+            comments={comments}
+            onSubmitted={loadComments}
+          />
         </div>
       </div>
     </div>

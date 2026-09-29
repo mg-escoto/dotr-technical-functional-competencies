@@ -21,10 +21,14 @@ export default function GeneralComments({
   divisionCode,
   comments,
   onSubmitted,
+  description = "Anything else about this division's competency framework that doesn't fit under a specific competency or dimension.",
+  placeholder = "Any other feedback on this division's competency framework",
 }: {
   divisionCode: string
   comments: PublicGeneralComment[]
   onSubmitted: () => void
+  description?: string
+  placeholder?: string
 }) {
   const C = useTechColors()
   const [showForm, setShowForm] = useState(false)
@@ -76,7 +80,7 @@ export default function GeneralComments({
             General Comments
           </h3>
           <p className="text-sm" style={{ color: C.textMuted }}>
-            Anything else about this division&apos;s position competency profile that doesn&apos;t fit under a specific position or competency.
+            {description}
           </p>
         </div>
         <button
@@ -127,7 +131,7 @@ export default function GeneralComments({
             required
             autoFocus
             rows={4}
-            placeholder="Any other feedback on this division's position competency profile"
+            placeholder={placeholder}
             className="w-full rounded-lg px-3 py-2 text-sm"
             style={{ background: C.card, border: `1px solid ${C.borderMuted}`, color: C.text }}
           />
