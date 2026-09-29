@@ -15,9 +15,8 @@ const DUTIES_ENTRY_ENABLED = false
 
 // Lets viewers pick a level directly on a position's competency badge; the
 // pick is submitted to HRDD for review (same pipeline as
-// PositionCompetencyComments), not applied immediately. Off by default,
-// like DUTIES_ENTRY_ENABLED, until HRDD opens a self-profiling window.
-const LEVEL_PICKER_ENABLED = false
+// PositionCompetencyComments), not applied immediately.
+const LEVEL_PICKER_ENABLED = true
 import { getDivisionByCode, LEVELS, type ProficiencyLevel } from '@/lib/data/technicalCompetencies'
 import { getPositionProfile, type PositionProfile } from '@/lib/data/positionProfiles'
 import { downloadPositionsDoc } from '@/lib/docExport'
