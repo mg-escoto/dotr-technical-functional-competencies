@@ -9,9 +9,7 @@ import PositionDuties, { type PositionDuty } from '@/components/PositionDuties'
 import GeneralComments, { type PublicGeneralComment } from '@/components/GeneralComments'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 
-// Duties & Responsibilities entry opens Wednesday — disabled for now so it
-// isn't populated ahead of that rollout.
-const DUTIES_ENTRY_ENABLED = false
+const DUTIES_ENTRY_ENABLED = true
 
 // Lets viewers pick a level directly on a position's competency badge; the
 // pick is submitted to HRDD for review (same pipeline as
