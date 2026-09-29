@@ -7102,6 +7102,524 @@
     "parentCode": null
   },
   {
+    "code": "BACSEC",
+    "name": "BAC Secretariat Division",
+    "category": "with-framework",
+    "sourceFile": "Joey_Bacoy_BAC Secretariat Division_Final V2.docx",
+    "basis": null,
+    "careerProgression": null,
+    "competencies": [
+      {
+        "name": "BAC Secretariat Administrative Support",
+        "definition": "The ability to provide organized, accurate, compliant, and responsive administrative support to BAC operations and related documentary workflows.",
+        "dimensions": [
+          {
+            "name": "Administrative Support Execution",
+            "definition": "The ability to perform and coordinate administrative support activities accurately and in accordance with established procedures.",
+            "levels": {
+              "Emerging": "Performs assigned support tasks using established procedures.",
+              "Developing": "Processes routine BAC requirements independently and keeps outputs complete.",
+              "Proficient": "Coordinates complex administrative requirements and resolves deficiencies.",
+              "Advanced": "Improves support systems and advises on approaches that strengthen service reliability."
+            }
+          },
+          {
+            "name": "Workflow Organization",
+            "definition": "The ability to perform the identified functional activity accurately and effectively.",
+            "levels": {
+              "Emerging": "Organizes assigned requests, files, and action items using prescribed arrangements.",
+              "Developing": "Maintains orderly workflow records and tracks routine actions to completion.",
+              "Proficient": "Optimizes workflow sequencing for complex or time-sensitive requirements.",
+              "Advanced": "Designs workflow controls that provide division-wide visibility and accountability."
+            }
+          },
+          {
+            "name": "Procedural Compliance",
+            "definition": "The ability to apply prescribed procedures, approval routes, confidentiality requirements, and applicable rules.",
+            "levels": {
+              "Emerging": "Follows templates, approval routes, and confidentiality requirements.",
+              "Developing": "Applies procedures consistently and identifies routine deviations before release.",
+              "Proficient": "Interprets procedural requirements in complex cases and recommends compliant action.",
+              "Advanced": "Strengthens procedural controls and guides personnel on recurring compliance risks."
+            }
+          },
+          {
+            "name": "Service Responsiveness",
+            "definition": "The ability to provide timely, accurate, courteous, and appropriate assistance to stakeholders.",
+            "levels": {
+              "Emerging": "Responds courteously to routine requests and refers matters beyond authority.",
+              "Developing": "Provides timely and accurate assistance within assigned scope.",
+              "Proficient": "Manages competing requests and sensitive concerns while maintaining service quality.",
+              "Advanced": "Establishes service approaches that improve responsiveness and stakeholder confidence."
+            }
+          },
+          {
+            "name": "Administrative Quality Assurance",
+            "definition": "The ability to review administrative outputs for completeness, accuracy, consistency, and compliance.",
+            "levels": {
+              "Emerging": "Checks assigned outputs for basic completeness and accuracy.",
+              "Developing": "Reviews routine outputs and corrects common errors independently.",
+              "Proficient": "Assures quality of complex packages and identifies causes of recurring errors.",
+              "Advanced": "Sets quality expectations and institutionalizes controls that reduce rework."
+            }
+          }
+        ]
+      },
+      {
+        "name": "BAC Meeting and Conference Management",
+        "definition": "The ability to prepare, coordinate, deliver, and follow through BAC, TWG, and related procurement meetings and conferences.",
+        "dimensions": [
+          {
+            "name": "Meeting Preparation",
+            "definition": "The ability to prepare agendas, references, participant information, materials, and logistical requirements.",
+            "levels": {
+              "Emerging": "Compiles assigned agendas, participant information, references, and logistics.",
+              "Developing": "Prepares routine meeting requirements independently and confirms readiness.",
+              "Proficient": "Integrates substantive, protocol, logistical, and stakeholder requirements for complex meetings.",
+              "Advanced": "Designs preparation approaches for high-level or sensitive meetings and anticipates issues."
+            }
+          },
+          {
+            "name": "Meeting Coordination",
+            "definition": "The ability to coordinate invitations, attendance, venue, platforms, materials, and related meeting arrangements.",
+            "levels": {
+              "Emerging": "Follows established arrangements for invitations, attendance, venue, and materials.",
+              "Developing": "Coordinates routine arrangements and follows up participants and offices.",
+              "Proficient": "Manages complex coordination involving multiple offices and changing requirements.",
+              "Advanced": "Establishes efficient coordination mechanisms for recurring or high-impact engagements."
+            }
+          },
+          {
+            "name": "Conference and Hybrid Operations",
+            "definition": "The ability to support physical, virtual, and hybrid meeting operations and technical arrangements.",
+            "levels": {
+              "Emerging": "Supports prescribed physical, virtual, or hybrid arrangements.",
+              "Developing": "Manages routine platform, materials, attendance, and technical coordination.",
+              "Proficient": "Adapts operations to complex participation, protocol, contingency, and technology needs.",
+              "Advanced": "Improves institutional approaches for reliable physical, virtual, and hybrid meetings."
+            }
+          },
+          {
+            "name": "Contingency Handling",
+            "definition": "The ability to perform the identified functional activity accurately and effectively.",
+            "levels": {
+              "Emerging": "Recognizes common disruptions and seeks guidance on appropriate action.",
+              "Developing": "Resolves routine scheduling, attendance, document, or logistical concerns.",
+              "Proficient": "Anticipates and manages complex contingencies while protecting meeting objectives.",
+              "Advanced": "Develops contingency protocols for sensitive or high-impact meetings."
+            }
+          },
+          {
+            "name": "Post-Meeting Follow-through",
+            "definition": "The ability to track decisions, action items, commitments, and required follow-up after meetings.",
+            "levels": {
+              "Emerging": "Records assigned action items and forwards information to responsible personnel.",
+              "Developing": "Tracks routine commitments and confirms completion of agreed actions.",
+              "Proficient": "Reconciles complex action items, dependencies, and unresolved matters across offices.",
+              "Advanced": "Establishes monitoring mechanisms that strengthen accountability and follow-through."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Minutes, Resolutions and BAC Action Documentation",
+        "definition": "The ability to prepare, review, consolidate, route, and quality-assure minutes, resolutions, and related BAC action documents.",
+        "dimensions": [
+          {
+            "name": "Minutes Preparation",
+            "definition": "The ability to accurately document proceedings, decisions, attendees, and action points.",
+            "levels": {
+              "Emerging": "Records essential proceedings, decisions, attendees, and action points using approved formats.",
+              "Developing": "Prepares accurate and complete minutes of routine meetings with limited revision.",
+              "Proficient": "Captures complex deliberations, differing views, conditions, and decisions with procedural accuracy.",
+              "Advanced": "Establishes documentation practices that improve the reliability of BAC records."
+            }
+          },
+          {
+            "name": "Resolution Documentation",
+            "definition": "The ability to prepare and consolidate documentary requirements for BAC Resolutions and related actions.",
+            "levels": {
+              "Emerging": "Organizes required inputs and attachments for assigned resolutions.",
+              "Developing": "Drafts or consolidates routine resolution materials and checks consistency with decisions.",
+              "Proficient": "Coordinates complex resolution packages, identifies gaps, and ensures coherent annexes.",
+              "Advanced": "Provides quality assurance and guidance on complex or sensitive resolution documentation."
+            }
+          },
+          {
+            "name": "Accuracy and Completeness",
+            "definition": "The ability to verify details, references, attachments, and consistency of official documents.",
+            "levels": {
+              "Emerging": "Checks names, dates, figures, references, and attachments against source documents.",
+              "Developing": "Detects and corrects routine inconsistencies before submission.",
+              "Proficient": "Evaluates complex inconsistencies and resolves them through verification and coordination.",
+              "Advanced": "Strengthens quality-control standards that protect official BAC records."
+            }
+          },
+          {
+            "name": "Approval and Routing Control",
+            "definition": "The ability to manage approval, endorsement, routing, and release of action documents.",
+            "levels": {
+              "Emerging": "Follows prescribed approval, endorsement, and routing procedures.",
+              "Developing": "Tracks routine documents through approval and ensures timely routing.",
+              "Proficient": "Manages complex routing requirements and addresses delays or conflicting instructions.",
+              "Advanced": "Improves routing and approval controls and provides management visibility."
+            }
+          },
+          {
+            "name": "Documentary Judgment",
+            "definition": "The ability to identify documentary issues and determine when clarification, confirmation, or escalation is required.",
+            "levels": {
+              "Emerging": "Recognizes matters requiring clarification, confirmation, or escalation.",
+              "Developing": "Applies sound judgment to routine documentary questions.",
+              "Proficient": "Exercises judgment on ambiguous or sensitive documentation issues within authority.",
+              "Advanced": "Advises on recurring documentation risks and develops defensible approaches."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Procurement Document Custody and Records Management",
+        "definition": "The ability to maintain secure, complete, traceable, accessible, and properly controlled procurement records throughout their lifecycle.",
+        "dimensions": [
+          {
+            "name": "Records Classification and Filing",
+            "definition": "The ability to classify, file, and organize procurement records for accessibility and traceability.",
+            "levels": {
+              "Emerging": "Files assigned records using prescribed classification and naming arrangements.",
+              "Developing": "Maintains accurate and accessible records for routine procurement activities.",
+              "Proficient": "Organizes complex records across procurement stages and document types.",
+              "Advanced": "Improves records architecture and institutional retrieval practices."
+            }
+          },
+          {
+            "name": "Document Custody and Security",
+            "definition": "The ability to protect documents and maintain authorized custody, access, and confidentiality.",
+            "levels": {
+              "Emerging": "Handles documents carefully and follows custody, confidentiality, and access controls.",
+              "Developing": "Maintains custody logs and releases or retrieves records according to procedure.",
+              "Proficient": "Manages sensitive or high-volume records while ensuring traceability and authorized access.",
+              "Advanced": "Strengthens records-security controls and advises on confidentiality risks."
+            }
+          },
+          {
+            "name": "Completeness and Traceability",
+            "definition": "The ability to verify required records and track document movement throughout the procurement process.",
+            "levels": {
+              "Emerging": "Checks whether assigned files contain required documents and references.",
+              "Developing": "Tracks routine document movement and identifies missing records.",
+              "Proficient": "Reconstructs complex document trails and resolves gaps through verification.",
+              "Advanced": "Designs controls that provide end-to-end traceability for critical records."
+            }
+          },
+          {
+            "name": "Retrieval and Transmittal",
+            "definition": "The ability to retrieve, release, and transmit complete records while preserving document integrity.",
+            "levels": {
+              "Emerging": "Retrieves assigned documents using established filing and tracking systems.",
+              "Developing": "Provides complete and timely retrieval and transmittal for routine requests.",
+              "Proficient": "Coordinates complex retrieval and transmittal while preserving document integrity.",
+              "Advanced": "Improves retrieval and turnover systems for safer, faster service."
+            }
+          },
+          {
+            "name": "Retention and Disposition",
+            "definition": "The ability to perform the identified functional activity accurately and effectively.",
+            "levels": {
+              "Emerging": "Recognizes basic retention, turnover, and disposition requirements.",
+              "Developing": "Applies approved retention and disposition procedures to routine records.",
+              "Proficient": "Handles complex retention questions and coordinates appropriate action.",
+              "Advanced": "Recommends improvements to records lifecycle management and compliance."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bidding Documents Distribution and Procurement Advertisement/Posting",
+        "definition": "The ability to manage bidding-document distribution and ensure accurate, timely, transparent, and properly documented procurement advertisements and postings.",
+        "dimensions": [
+          {
+            "name": "Bidding Document Distribution",
+            "definition": "The ability to receive requests, release bidding documents, and record distribution transactions properly.",
+            "levels": {
+              "Emerging": "Follows procedures for receiving requests, releasing documents, and recording transactions.",
+              "Developing": "Independently manages routine distribution and maintains accurate records.",
+              "Proficient": "Handles complex distribution requirements while preserving equal treatment.",
+              "Advanced": "Improves distribution controls and service arrangements."
+            }
+          },
+          {
+            "name": "Advertisement and Posting Accuracy",
+            "definition": "The ability to ensure that procurement advertisements and postings contain complete and accurate information.",
+            "levels": {
+              "Emerging": "Checks basic details, formatting, dates, and required information.",
+              "Developing": "Reviews routine advertisements and confirms consistency with approved information.",
+              "Proficient": "Evaluates complex advertisements for accuracy, completeness, channels, and timing.",
+              "Advanced": "Establishes quality controls that reduce posting errors and compliance exposure."
+            }
+          },
+          {
+            "name": "Posting Compliance and Proof",
+            "definition": "The ability to complete prescribed posting requirements and maintain reliable proof of posting.",
+            "levels": {
+              "Emerging": "Uses prescribed platforms and maintains basic proof of posting.",
+              "Developing": "Completes routine posting within prescribed periods and preserves evidence.",
+              "Proficient": "Manages complex posting requirements, corrections, and multiple channels.",
+              "Advanced": "Strengthens posting governance and advises on recurring compliance risks."
+            }
+          },
+          {
+            "name": "Bid Bulletin and Notice Handling",
+            "definition": "The ability to prepare, issue, disseminate, and track bid bulletins, notices, and related communications.",
+            "levels": {
+              "Emerging": "Processes assigned bulletins, notices, and related communications using approved templates.",
+              "Developing": "Coordinates routine issuance and dissemination and confirms receipt when required.",
+              "Proficient": "Manages complex notice requirements involving changes, clarifications, or deadlines.",
+              "Advanced": "Improves notice-management practices for consistency and procedural fairness."
+            }
+          },
+          {
+            "name": "Transparency and Equal Access",
+            "definition": "The ability to support complete, consistent, accessible, and equitable procurement information.",
+            "levels": {
+              "Emerging": "Recognizes the importance of complete and accessible procurement information.",
+              "Developing": "Applies transparency and equal-access requirements in routine activities.",
+              "Proficient": "Identifies risks affecting equal access and recommends corrective action.",
+              "Advanced": "Advises on practices that strengthen transparency and stakeholder confidence."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Procurement Process Coordination and Monitoring",
+        "definition": "The ability to coordinate procurement documentary requirements, monitor milestones, identify deficiencies, and provide reliable status information.",
+        "dimensions": [
+          {
+            "name": "Milestone Tracking",
+            "definition": "The ability to perform the identified functional activity accurately and effectively.",
+            "levels": {
+              "Emerging": "Updates assigned trackers and identifies missing or overdue information.",
+              "Developing": "Maintains accurate monitoring of routine milestones and responsible offices.",
+              "Proficient": "Analyzes complex timelines, dependencies, slippages, and bottlenecks.",
+              "Advanced": "Improves monitoring mechanisms that provide strategic visibility."
+            }
+          },
+          {
+            "name": "Inter-Office Follow-through",
+            "definition": "The ability to coordinate documentary and action requirements across concerned offices.",
+            "levels": {
+              "Emerging": "Routes requests and follows up assigned actions using established channels.",
+              "Developing": "Coordinates routine requirements with concerned offices.",
+              "Proficient": "Reconciles competing priorities and resolves coordination bottlenecks.",
+              "Advanced": "Establishes cross-office practices that improve accountability and flow."
+            }
+          },
+          {
+            "name": "Deficiency Identification",
+            "definition": "The ability to identify incomplete, inconsistent, or missing requirements and facilitate correction.",
+            "levels": {
+              "Emerging": "Recognizes incomplete, inconsistent, or missing requirements.",
+              "Developing": "Identifies routine deficiencies and coordinates correction.",
+              "Proficient": "Analyzes complex deficiencies and recommends practical corrective action.",
+              "Advanced": "Identifies systemic deficiency patterns and advises on preventive controls."
+            }
+          },
+          {
+            "name": "Status Reporting",
+            "definition": "The ability to prepare verified and timely information on procurement status, progress, and concerns.",
+            "levels": {
+              "Emerging": "Provides verified factual updates using prescribed tools and formats.",
+              "Developing": "Prepares accurate routine status reports and consolidates inputs.",
+              "Proficient": "Develops analytical reports explaining delays, risks, and recommended actions.",
+              "Advanced": "Provides management-level procurement intelligence and strategic recommendations."
+            }
+          },
+          {
+            "name": "Process Risk Escalation",
+            "definition": "The ability to recognize process risks and escalate matters requiring higher-level action.",
+            "levels": {
+              "Emerging": "Recognizes common process risks and escalates appropriately.",
+              "Developing": "Monitors routine risks and coordinates mitigation actions.",
+              "Proficient": "Evaluates complex risks affecting compliance, timelines, or continuity.",
+              "Advanced": "Anticipates systemic risks and strengthens escalation mechanisms."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Procurement Planning and APP Consolidation",
+        "definition": "The ability to consolidate PPMP inputs and support accurate, complete, and coordinated preparation of the Annual Procurement Plan within authorized scope.",
+        "dimensions": [
+          {
+            "name": "PPMP Input Consolidation",
+            "definition": "The ability to collect, validate, and consolidate PPMP inputs from procuring units.",
+            "levels": {
+              "Emerging": "Collects assigned PPMP inputs and checks basic completeness.",
+              "Developing": "Consolidates routine submissions and identifies missing or inconsistent information.",
+              "Proficient": "Reconciles complex inputs, conflicting data, and timing issues.",
+              "Advanced": "Improves consolidation practices and provides visibility on planning gaps."
+            }
+          },
+          {
+            "name": "APP Compilation",
+            "definition": "The ability to compile approved PPMP information into the prescribed Annual Procurement Plan structure.",
+            "levels": {
+              "Emerging": "Organizes approved PPMP information into the prescribed APP structure.",
+              "Developing": "Prepares routine APP consolidation outputs accurately.",
+              "Proficient": "Manages complex compilation issues and ensures source consistency.",
+              "Advanced": "Strengthens APP compilation controls and advises on recurring risks."
+            }
+          },
+          {
+            "name": "Planning Data Quality",
+            "definition": "The ability to verify the accuracy, consistency, and completeness of procurement-planning information.",
+            "levels": {
+              "Emerging": "Checks descriptions, quantities, classifications, and references.",
+              "Developing": "Validates routine planning information and resolves common inconsistencies.",
+              "Proficient": "Evaluates complex inconsistencies and coordinates defensible corrections.",
+              "Advanced": "Establishes quality-assurance practices for reliable planning information."
+            }
+          },
+          {
+            "name": "Coordination with PPMD and Procuring Units",
+            "definition": "The ability to coordinate planning inputs and resolve routine consolidation concerns within authorized roles.",
+            "levels": {
+              "Emerging": "Routes planning questions and coordinates assigned inputs.",
+              "Developing": "Maintains timely coordination on routine consolidation matters.",
+              "Proficient": "Reconciles complex concerns while respecting PPMD and end-user boundaries.",
+              "Advanced": "Improves coordination arrangements that reduce avoidable revisions."
+            }
+          },
+          {
+            "name": "Planning Review Support",
+            "definition": "The ability to prepare complete planning packages and coordinate responses to review comments.",
+            "levels": {
+              "Emerging": "Identifies missing approvals, documents, or unresolved planning issues.",
+              "Developing": "Prepares complete planning packages for authorized review.",
+              "Proficient": "Analyzes complex review comments and coordinates traceable revisions.",
+              "Advanced": "Advises on recurring planning-review issues and improves support practices."
+            }
+          }
+        ]
+      },
+      {
+        "name": "BAC Communication and Stakeholder Coordination",
+        "definition": "The ability to prepare accurate BAC communications and coordinate effectively with internal and external stakeholders using appropriate protocols.",
+        "dimensions": [
+          {
+            "name": "Written BAC Communication",
+            "definition": "The ability to prepare clear, accurate, complete, and appropriately worded BAC correspondence.",
+            "levels": {
+              "Emerging": "Prepares routine communications using approved formats and accurate details.",
+              "Developing": "Drafts clear and complete communications independently.",
+              "Proficient": "Produces precise communications for complex or sensitive concerns.",
+              "Advanced": "Guides high-impact communications and establishes quality standards."
+            }
+          },
+          {
+            "name": "Stakeholder Coordination",
+            "definition": "The ability to coordinate with internal and external stakeholders and facilitate timely action.",
+            "levels": {
+              "Emerging": "Identifies concerned offices, bidders, observers, and stakeholders.",
+              "Developing": "Coordinates routine requests, clarifications, and follow-through.",
+              "Proficient": "Manages complex coordination involving competing interests or sensitive issues.",
+              "Advanced": "Shapes coordination approaches that strengthen cooperation and confidence."
+            }
+          },
+          {
+            "name": "Communication Protocol and Confidentiality",
+            "definition": "The ability to observe communication channels, authority limits, and confidentiality requirements.",
+            "levels": {
+              "Emerging": "Follows communication channels, authority limits, and confidentiality requirements.",
+              "Developing": "Applies protocols consistently and routes sensitive matters appropriately.",
+              "Proficient": "Exercises judgment in complex situations while protecting confidentiality.",
+              "Advanced": "Advises on communication risks and strengthens institutional protocols."
+            }
+          },
+          {
+            "name": "Issue Clarification and Response",
+            "definition": "The ability to verify information and provide accurate responses to inquiries and concerns.",
+            "levels": {
+              "Emerging": "Recognizes unclear requests and seeks guidance before responding.",
+              "Developing": "Responds accurately to routine inquiries and coordinates clarification.",
+              "Proficient": "Resolves complex inquiries by verifying information and authority limits.",
+              "Advanced": "Develops response approaches for recurring or high-impact concerns."
+            }
+          },
+          {
+            "name": "Communication Tracking and Accountability",
+            "definition": "The ability to record, monitor, and follow through communications, responses, and pending actions.",
+            "levels": {
+              "Emerging": "Records assigned communications and follow-up requirements.",
+              "Developing": "Maintains accurate logs of requests, responses, and pending actions.",
+              "Proficient": "Analyzes communication patterns, delays, and unresolved concerns.",
+              "Advanced": "Improves tracking systems and provides management insight on service risks."
+            }
+          }
+        ]
+      },
+      {
+        "name": "Procurement Reporting, Compliance and Knowledge Support",
+        "definition": "The ability to prepare reliable reports, support compliance, verify evidence, share learning, and improve procurement-support processes.",
+        "dimensions": [
+          {
+            "name": "Report Preparation",
+            "definition": "The ability to compile, analyze, and present reliable reports using prescribed formats.",
+            "levels": {
+              "Emerging": "Compiles factual inputs using prescribed report formats.",
+              "Developing": "Prepares accurate routine reports and submits them on time.",
+              "Proficient": "Develops analytical reports explaining trends, gaps, risks, and actions.",
+              "Advanced": "Provides strategic reporting and management information."
+            }
+          },
+          {
+            "name": "Regulatory and Reportorial Compliance",
+            "definition": "The ability to comply with reporting instructions, deadlines, and documentary requirements.",
+            "levels": {
+              "Emerging": "Follows reporting instructions, deadlines, and documentary requirements.",
+              "Developing": "Checks routine compliance and coordinates missing information.",
+              "Proficient": "Interprets complex reporting requirements and resolves compliance issues.",
+              "Advanced": "Strengthens reportorial controls and advises on recurring risks."
+            }
+          },
+          {
+            "name": "Evidence and Verification",
+            "definition": "The ability to verify report entries and official information against reliable source records.",
+            "levels": {
+              "Emerging": "Uses transaction histories, monitoring tools, emails, and action documents as sources.",
+              "Developing": "Validates routine report entries against reliable records.",
+              "Proficient": "Reconciles conflicting evidence and ensures reports are traceable.",
+              "Advanced": "Establishes evidence-quality practices that improve reporting reliability."
+            }
+          },
+          {
+            "name": "Knowledge Sharing and Learning",
+            "definition": "The ability to apply and share relevant learning to improve procurement-support work.",
+            "levels": {
+              "Emerging": "Participates in assigned learning activities and applies basic learning.",
+              "Developing": "Shares relevant learning and incorporates it into routine work.",
+              "Proficient": "Translates learning into improved practices or guidance for complex work.",
+              "Advanced": "Leads knowledge-sharing and capability-building activities."
+            }
+          },
+          {
+            "name": "Continuous Improvement",
+            "definition": "The ability to identify process gaps and recommend practical improvements to accuracy, timeliness, and service quality.",
+            "levels": {
+              "Emerging": "Identifies basic reporting, coordination, or process gaps.",
+              "Developing": "Suggests practical improvements to routine support processes.",
+              "Proficient": "Designs evidence-based improvements and evaluates their effect.",
+              "Advanced": "Leads institutional improvements and mentors others in effective practices."
+            }
+          }
+        ]
+      }
+    ],
+    "office": "Procurement Management Service",
+    "officeOrder": 5,
+    "status": "populated",
+    "parentCode": null
+  },
+  {
     "code": "AD",
     "name": "Accounting Division",
     "category": "without-framework",
