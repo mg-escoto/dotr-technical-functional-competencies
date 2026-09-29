@@ -36,7 +36,6 @@ export default function PositionProfilePage() {
   const [pendingScrollId, setPendingScrollId] = useState<string | null>(null)
   const [downloading, setDownloading] = useState(false)
   const [savingLevelKey, setSavingLevelKey] = useState<string | null>(null)
-  const [savedLevelKey, setSavedLevelKey] = useState<string | null>(null)
 
   const loadComments = useCallback(async () => {
     if (!division) return
@@ -81,8 +80,6 @@ export default function PositionProfilePage() {
         }),
       })
       if (res.ok) {
-        setSavedLevelKey(compKey)
-        setTimeout(() => setSavedLevelKey(k => (k === compKey ? null : k)), 3000)
         loadComments()
       }
     } finally {
@@ -249,6 +246,17 @@ export default function PositionProfilePage() {
                     const compKey = `${posKey}-${name}`
                     const isOpen = expandedComp === compKey
                     const comp = division.competencies.find(c => c.name === name)
+                    const pendingLevel = comments
+                      .filter(
+                        c =>
+                          c.target_type === 'position' &&
+                          c.position_index === idx &&
+                          c.competency_name === name &&
+                          c.status === 'pending' &&
+                          c.suggested_text
+                      )
+                      .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())[0]
+                        ?.suggested_text ?? null
                     return (
                       <div
                         key={compKey}
@@ -263,16 +271,19 @@ export default function PositionProfilePage() {
                           onKeyDown={e => {
                             if (e.key === 'Enter' || e.key === ' ') setExpandedComp(isOpen ? null : compKey)
                           }}
-                          className={`w-full text-left px-4 py-3 flex items-center justify-between gap-3 cursor-pointer ${isOpen ? 'rounded-t-lg' : 'rounded-lg'}`}
+                          className={`w-full text-left px-4 py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-3 cursor-pointer ${isOpen ? 'rounded-t-lg' : 'rounded-lg'}`}
                           style={{ background: C.subtleBg }}
                         >
                           <p className="text-sm font-semibold" style={{ color: C.text }}>
                             {name}
                           </p>
-                          <div className="flex items-center gap-2 flex-shrink-0">
-                            {LEVEL_PICKER_ENABLED && savedLevelKey === compKey && (
-                              <span className="text-xs font-bold" style={{ color: '#0d8f82' }}>
-                                ✓ Sent to HRDD
+                          <div className="flex items-center gap-2 flex-wrap sm:flex-nowrap sm:flex-shrink-0">
+                            {LEVEL_PICKER_ENABLED && pendingLevel && pendingLevel !== level && (
+                              <span
+                                className="text-xs font-bold uppercase tracking-widest px-2 py-1 rounded-md"
+                                style={{ background: 'rgba(245,158,11,0.15)', color: '#b45309' }}
+                              >
+                                Pending: {pendingLevel}
                               </span>
                             )}
                             {LEVEL_PICKER_ENABLED ? (
