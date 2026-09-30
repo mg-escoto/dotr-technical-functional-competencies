@@ -34,6 +34,38 @@ export default function PositionDuties({
   const [text, setText] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [editingId, setEditingId] = useState<string | null>(null)
+  const [editText, setEditText] = useState('')
+  const [editSubmitting, setEditSubmitting] = useState(false)
+  const [editError, setEditError] = useState<string | null>(null)
+
+  function startEdit(d: PositionDuty) {
+    setEditingId(d.id)
+    setEditText(d.duties_text)
+    setEditError(null)
+  }
+
+  async function handleEditSubmit(e: React.FormEvent, id: string) {
+    e.preventDefault()
+    setEditSubmitting(true)
+    setEditError(null)
+    try {
+      const res = await fetch(`/api/divisions/${encodeURIComponent(divisionCode)}/duties/${id}`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ duties_text: editText }),
+      })
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}))
+        setEditError(body.error ?? 'Could not save.')
+        return
+      }
+      setEditingId(null)
+      onSaved()
+    } finally {
+      setEditSubmitting(false)
+    }
+  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -114,19 +146,66 @@ export default function PositionDuties({
                 <p className="text-xs" style={{ color: C.textMuted }}>
                   {new Date(d.created_at).toLocaleString()}
                 </p>
-                <span
-                  className="text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-md"
-                  style={{
-                    background: d.status === 'final' ? 'rgba(22,163,74,0.12)' : C.subtleBg,
-                    color: d.status === 'final' ? '#16a34a' : C.textMuted,
-                  }}
-                >
-                  {d.status === 'final' ? '✓ Final' : 'Pending review'}
-                </span>
+                <div className="flex items-center gap-2">
+                  <span
+                    className="text-xs font-bold uppercase tracking-widest px-2 py-0.5 rounded-md"
+                    style={{
+                      background: d.status === 'final' ? 'rgba(22,163,74,0.12)' : C.subtleBg,
+                      color: d.status === 'final' ? '#16a34a' : C.textMuted,
+                    }}
+                  >
+                    {d.status === 'final' ? '✓ Final' : 'Pending review'}
+                  </span>
+                  {d.status === 'pending' && editingId !== d.id && (
+                    <button
+                      onClick={() => startEdit(d)}
+                      className="text-xs font-bold uppercase tracking-wide underline"
+                      style={{ color: C.textMuted }}
+                    >
+                      Edit
+                    </button>
+                  )}
+                </div>
               </div>
-              <p className="text-sm leading-relaxed" style={{ color: C.text }}>
-                {d.duties_text}
-              </p>
+
+              {editingId === d.id ? (
+                <form onSubmit={e => handleEditSubmit(e, d.id)} className="space-y-2">
+                  <textarea
+                    value={editText}
+                    onChange={e => setEditText(e.target.value)}
+                    required
+                    autoFocus
+                    rows={3}
+                    className="w-full text-sm rounded-md p-3 resize-y"
+                    style={{ background: C.bg, border: `1px solid ${C.borderMuted}`, color: C.text }}
+                  />
+                  {editError && (
+                    <p className="text-xs" style={{ color: '#dc2626' }}>{editError}</p>
+                  )}
+                  <div className="flex gap-2">
+                    <button
+                      type="submit"
+                      disabled={editSubmitting || !editText.trim()}
+                      className="text-xs font-bold uppercase tracking-wide px-4 py-2 rounded-lg disabled:opacity-40"
+                      style={{ background: C.orange, color: C.white }}
+                    >
+                      {editSubmitting ? 'Saving…' : 'Save changes'}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setEditingId(null)}
+                      className="text-xs font-bold uppercase tracking-wide px-4 py-2 rounded-lg"
+                      style={{ background: C.subtleBg, color: C.text }}
+                    >
+                      Cancel
+                    </button>
+                  </div>
+                </form>
+              ) : (
+                <p className="text-sm leading-relaxed" style={{ color: C.text }}>
+                  {d.duties_text}
+                </p>
+              )}
             </div>
           ))}
         </div>
