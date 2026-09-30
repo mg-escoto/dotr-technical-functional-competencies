@@ -1,9 +1,11 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import PortalNav from '@/components/PortalNav'
 import HeroParallaxDecor from '@/components/HeroParallaxDecor'
+import CoreCompetencyComments, { type PublicCoreComment } from '@/components/CoreCompetencyComments'
+import GeneralComments from '@/components/GeneralComments'
 import { useTechColors, levelStyle } from '@/lib/techColors'
 import { coreCompetencies } from '@/lib/data/coreCompetencies'
 import { LEVELS, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
@@ -11,6 +13,19 @@ import { LEVELS, LEVEL_SCALE } from '@/lib/data/technicalCompetencies'
 export default function CoreCompetenciesPage() {
   const C = useTechColors()
   const [expanded, setExpanded] = useState<string | null>(null)
+  const [comments, setComments] = useState<PublicCoreComment[]>([])
+
+  const loadComments = useCallback(async () => {
+    const res = await fetch('/api/comments?division=CORE')
+    if (res.ok) {
+      const body = await res.json()
+      setComments(body.comments ?? [])
+    }
+  }, [])
+
+  useEffect(() => {
+    loadComments()
+  }, [loadComments])
 
   return (
     <div className="min-h-screen" style={{ background: C.bg }}>
@@ -175,11 +190,33 @@ export default function CoreCompetenciesPage() {
                         </div>
                       </div>
                     )}
+
+                    <div className="no-print">
+                      <CoreCompetencyComments
+                        competencyIndex={idx}
+                        competencyName={comp.name}
+                        comments={comments}
+                        onSubmitted={loadComments}
+                      />
+                    </div>
                   </div>
                 )}
               </div>
             )
           })}
+        </div>
+      </div>
+
+      {/* ── General comments ─────────────────────────────────────────────── */}
+      <div className="no-print px-8 pb-24">
+        <div className="max-w-6xl mx-auto">
+          <GeneralComments
+            divisionCode="CORE"
+            comments={comments}
+            onSubmitted={loadComments}
+            description="Anything else about the department-wide core competencies that doesn't fit under a specific competency."
+            placeholder="Any other feedback on the core competencies"
+          />
         </div>
       </div>
     </div>
